@@ -1,5 +1,5 @@
 {
-  "name": "common-record-portable",
+  "name": "commoncite",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -33,5 +33,5 @@
     "vite": "8.0.13",
     "wrangler": "4.92.0"
   },
-  "displayName": "Common Record Portable"
+  "displayName": "Commoncite"
 }

@@ -1,5 +1,6 @@
-a575dc1244caffe1d53921d75916bd613894d614966e995b37e91450a7b96c04  ./MANIFEST.json
-8bab259208215989cc5e4aaad75f76e06f42d80bdfdf1f2f8fb482162f6a3c71  ./README.md
+983cfa023139917e4089ebd8abc86893e670fe3a19b676e849a61f85bbf30166  ./.gitignore
+25684c1fe51ba03012ed5b92d9f2274e79c375e63c34c8cd3b91f897ccc75f0e  ./MANIFEST.json
+ca2dbb536f66fba4cf54abb80ba3be97d4fbb405cc42cd2d2be431c7f7eb122f  ./README.md
 ede5f777692a750cba85acfd3032689049141f943826f9db9a99c1269f1a7544  ./docs/IMPORTING.md
 7703d07d1a9fda3f7be3d9d4fde2d61b17754b7a1e6e84299b73432abcd1239b  ./docs/PROVENANCE.md
 d7a790430c64b48b476e17409ea4f68cb512ff24b3326853d26500062a9e8c94  ./eoreader6/.gitignore
@@ -744,8 +745,8 @@ df4a957f49da8975945eee3e7fd7bfa9d84ff2feac35bc77708f672bd0b72848  ./eoreader6/ve
 494e64a8818b6158e89321250500ad5ad018e33ad5cfea06a1cacd2cf4da75fa  ./site-source/.npmrc
 17a965f8948b21510cdf8ecbd70c5fdf58100e10970463f6a8fd2cc4795f8044  ./site-source/app/chatgpt-auth.ts
 59f85c213cded3b422d08588189cb63e01080c78371afc11e1bb1f1ad69cbba3  ./site-source/app/globals.css
-d29c9bef2f74264664463fd72d5c73e77c7fb09696377f1cce3f5d7d684a3cc6  ./site-source/app/layout.tsx
-0d9f56820b0ac426380ef97d2457fd7284f24e2c12d2d05a770e4e939ce6f17e  ./site-source/app/page.tsx
+bf1b8787e9f78359d6fc2e1c5e135fb5a64e8ba1f91f362c766d784b748114d6  ./site-source/app/layout.tsx
+c4869227e3b686f690505370a2e80c293de5a3af632dbfcf8c2821ca911f476b  ./site-source/app/page.tsx
 81b7cbfaeb970611572256aba0e313425beb3809f6426f63750696c15d9c756b  ./site-source/build/sites-vite-plugin.ts
 dc7610b00b918e0ffff1360a63626f16655ced3064b2eaf96095a4101fb14bcd  ./site-source/db/index.ts
 13ddacbf0be50e054d450a6c642b7fdc1aa943fd6b99084711e07e58b600390d  ./site-source/db/schema.ts
@@ -755,8 +756,8 @@ af081f7384aaeb0082cf422e29f139d137ca2f6a57c69b2c37b9fb1f8479867b  ./site-source/
 a3d4a74fd53b7bf53e2df41f169d9d9d44a8b22aeb6d92f4e754956079af8909  ./site-source/examples/d1/app/api/notes/route.ts
 d89eabd95716ce404f5f7ca2a254220435be8ddce7c899d7ef461ff22ec80454  ./site-source/examples/d1/db/schema.ts
 614bce25b089c3f19b1e17a6346c74b858034040154c6621e7d35303004767cc  ./site-source/next.config.ts
-b35ed8d9ce0452a6397c664c83b8eb4d33bf92a8445c92a808dcee72f8e1a73e  ./site-source/package-lock.json
-a3398d91c06b0a91bf9cd8a39a9119049390f5a82523b0fbb11b0b0c291bb617  ./site-source/package.json
+7b2dbd824e9100171e5217e2a48ab0ac1f86f742644762057fdcb4fd40012846  ./site-source/package-lock.json
+b34b131495968dc0e2f0742ac7de9cd177821ec1a564ebdd517f692878744200  ./site-source/package.json
 dfac7ac2d86d326a0e5adb024e7943c181393ed17a5fcb8f0315b24c7da6ddde  ./site-source/postcss.config.mjs
 a216acb00ece054e1c7df830c78573db01dbf6e46c1db5400338d76766b4e82d  ./site-source/public/data/README.md
 e6d2e59b7b5bbb0342e0fb496dfc262decbfe4426bbb7b047aec8d467d1dc6f7  ./site-source/public/favicon.svg
@@ -766,7 +767,7 @@ d051a8c47936990a9085693d307bb7cea1bc1b6d7ed956bcbaacf674f4ec96b9  ./site-source/
 9610a4bc808795cf1382a0a36e90af8776ca42b9fbbacf0396fcbb9e9900395f  ./site-source/public/og.png
 decf1cf7bb22b5c99c4857cfcd5718ce5465c4454166317589c83fc73df74b66  ./site-source/public/window.svg
 2ae5329ac860076070c9217a43106a15cb5ecf907a0f7baeb9ef903f76b53c68  ./site-source/scripts/build-verified.sh
-6bf326fb28ac14e2e114ac6e4f7dd4fd3095ae48f139c4c7e9f51d68524ec02b  ./site-source/scripts/import-anything.mjs
+b789644f7ea79d071bf643d235c6332138c61739c26f1f3bd3e63a46e84e468f  ./site-source/scripts/import-anything.mjs
 f63e840679ca885f206d17b7f8285199bb6bcd47ebc360008d04d16b8e54f63c  ./site-source/scripts/install-ci.sh
 df86ebfc27d2f00860036658e933ac0ddd7b5f6879aa5d51218f0863c7e1fb60  ./site-source/scripts/sites-env.sh
 be18523b23b78b6e1a876ddd107d330f0168bddf09d751b57e0b5edce69c66f3  ./site-source/tsconfig.json

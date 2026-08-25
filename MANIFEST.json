@@ -1,5 +1,5 @@
 {
-  "name": "Common Record Portable",
+  "name": "Commoncite",
   "version": "1.0.0",
   "created": "2026-08-21",
   "data_policy": "No witness or project-specific source data is bundled.",
@@ -13,5 +13,10 @@
     "commit": "0923d0f59fa7635eac481bb8cb9649ca11a76947"
   },
   "witness_schema": "schema/CommonRecordWitness.schema.json",
-  "default_witness": null
+  "default_witness": null,
+  "derived_from": {
+    "name": "Common Record Portable",
+    "version": "1.0.0",
+    "export_created": "2026-08-21"
+  }
 }

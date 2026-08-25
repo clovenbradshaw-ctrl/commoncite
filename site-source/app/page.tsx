@@ -50,7 +50,7 @@ function sourceHref(witness: Witness, page: number) {
   return /^https?:/i.test(witness.stable_uri) ? `${witness.stable_uri}#page=${page}` : "";
 }
 
-export default function CommonRecordStarter() {
+export default function Commoncite() {
   const [witness, setWitness] = useState<Witness | null>(null);
   const [error, setError] = useState("");
   const [view, setView] = useState<"Document" | "Concepts" | "Receipt">("Document");
@@ -110,7 +110,7 @@ export default function CommonRecordStarter() {
   }
 
   if (!witness) return <main className="import-home">
-    <header><span className="seal">C</span><div><strong>COMMON RECORD</strong><small>Portable model-free starter</small></div></header>
+    <header><span className="seal">C</span><div><strong>COMMONCITE</strong><small>Portable model-free starter</small></div></header>
     <article>
       <p className="kicker">No source is bundled</p>
       <h1>Import anything. Preserve what it actually says.</h1>
@@ -126,11 +126,11 @@ export default function CommonRecordStarter() {
   const concept = concepts.find((item) => item.id === selectedConcept) || concepts[0];
 
   return <div className="wiki-shell">
-    <header className="wiki-header"><span className="seal">C</span><div className="wordmark"><strong>COMMON RECORD</strong><small>Portable civic knowledge commons</small></div><button onClick={() => { setWitness(null); setSelectedConcept(""); }}>Import another source</button></header>
+    <header className="wiki-header"><span className="seal">C</span><div className="wordmark"><strong>COMMONCITE</strong><small>Portable civic knowledge commons</small></div><button onClick={() => { setWitness(null); setSelectedConcept(""); }}>Import another source</button></header>
     <div className="wiki-layout">
       <aside className="left-rail"><strong>Contents</strong><button className={view === "Document" ? "active" : ""} onClick={() => setView("Document")}>Full document</button><button className={view === "Concepts" ? "active" : ""} onClick={() => setView("Concepts")}>Generated concepts <span>{concepts.length}</span></button><button className={view === "Receipt" ? "active" : ""} onClick={() => setView("Receipt")}>Source receipt</button><hr /><strong>Source</strong><p>{witness.media_type}</p><p>{witness.extraction.page_count} page or unit boundaries</p><p>{witness.extraction.sentence_span_count.toLocaleString()} spans</p></aside>
       <main className="wiki-main">
-        <header className="article-title"><p>{witness.edition} · imported witness</p><h1>{witness.title}</h1><span>From Common Record, projected from a provenance-bearing EOReader event graph</span></header>
+        <header className="article-title"><p>{witness.edition} · imported witness</p><h1>{witness.title}</h1><span>From Commoncite, projected from a provenance-bearing EOReader event graph</span></header>
         <nav className="tabs"><button className={view === "Document" ? "active" : ""} onClick={() => setView("Document")}>Document</button><button className={view === "Concepts" ? "active" : ""} onClick={() => setView("Concepts")}>Concepts</button><button className={view === "Receipt" ? "active" : ""} onClick={() => setView("Receipt")}>Receipt</button></nav>
 
         {view === "Document" && <article className="document-view">

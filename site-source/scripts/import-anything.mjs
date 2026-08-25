@@ -24,7 +24,7 @@ const outputPath = path.resolve(valueFor("--output", path.join(projectRoot, "pub
 const sourceDir = path.resolve(valueFor("--source-dir", path.join(projectRoot, "public/imports")));
 const bundledEngineRoot = path.resolve(projectRoot, "../eoreader6");
 const engineRoot = path.resolve(process.env.EOREADER_ROOT || (fs.existsSync(bundledEngineRoot) ? bundledEngineRoot : "/workspace/eoreader6"));
-const temporaryRoot = fs.mkdtempSync(path.join(os.tmpdir(), "common-record-import-"));
+const temporaryRoot = fs.mkdtempSync(path.join(os.tmpdir(), "commoncite-import-"));
 const isUrl = /^https?:\/\//i.test(input);
 
 function extensionFor(value) {
