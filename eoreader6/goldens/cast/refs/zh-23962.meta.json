@@ -1,0 +1,11 @@
+{
+  "wiki": "zh.wikipedia.org",
+  "title": "西游记角色列表",
+  "pageId": 53748,
+  "revId": 93437234,
+  "revTimestamp": "2026-07-12T17:40:51Z",
+  "wikitextBytes": 59024,
+  "wikitextSha256": "09eb47ae6c8db2e42a45d48af320087a3f5b0b00ba114d5530eddf3e63239372",
+  "extraction": "wikitables via action=parse&prop=wikitext",
+  "section": null
+}

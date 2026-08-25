@@ -1,0 +1,66 @@
+{
+  "tag": "shakespeare-king-lear",
+  "kind": "play",
+  "spec": {
+    "window": 8,
+    "draws": 99,
+    "reseeds": 8,
+    "minArrivals": 4,
+    "atomsPerUnit": 200,
+    "offerEvery": 60
+  },
+  "segments": 26,
+  "units": 131,
+  "candidateSurfaces": 273,
+  "referents": 41,
+  "score": {
+    "registerSize": 2,
+    "referenceNodes": 26,
+    "entityHits": 2,
+    "entityRecall": 0.07692307692307693,
+    "edgesFoundTotal": 1,
+    "candidateEdges": 1,
+    "referenceEdges": 145,
+    "edgeHits": 1,
+    "edgeRecall": 0.006896551724137931,
+    "edgePrecision": 1,
+    "edgeChance": {
+      "mean": 1,
+      "p95": 1,
+      "max": 1
+    },
+    "matchedEdges": [
+      {
+        "a": "Kent",
+        "b": "Cornwall",
+        "weight": 28
+      }
+    ]
+  },
+  "edges": [
+    {
+      "a": "e0",
+      "b": "e1",
+      "weight": 28,
+      "pValue": 0.04522613065326633
+    }
+  ],
+  "register": [
+    {
+      "id": "e0",
+      "referentIds": [
+        "ref:auto:kent"
+      ],
+      "surface": "Kent",
+      "bornAt": 60
+    },
+    {
+      "id": "e1",
+      "referentIds": [
+        "ref:auto:cornwall"
+      ],
+      "surface": "Cornwall",
+      "bornAt": 120
+    }
+  ]
+}

@@ -1,0 +1,1506 @@
+{
+  "opts": {
+    "minPrevalence": 0.15,
+    "minKindSize": 3,
+    "permutations": 100,
+    "quantile": 0.95,
+    "reseeds": 12,
+    "seed": 42
+  },
+  "dipRatio": 0.4,
+  "maxSpanLen": 4,
+  "window": 6,
+  "docsProcessed": 2,
+  "topVerbs": [
+    "'s",
+    "were",
+    "is",
+    "would",
+    "at",
+    "should",
+    "has",
+    "from"
+  ],
+  "results": [
+    {
+      "verb": "'s",
+      "fillerCount": 0,
+      "kinds": []
+    },
+    {
+      "verb": "were",
+      "fillerCount": 8,
+      "kinds": [
+        {
+          "id": "kind:tp-verb-island:were:filler:brought|filler:compelled|filler:filled|filler:unable",
+          "label": "pos:after_len1",
+          "population": "tp-verb-island:were",
+          "members": [
+            "filler:brought",
+            "filler:compelled",
+            "filler:filled",
+            "filler:unable"
+          ],
+          "core": {
+            "field_id": "pos:after_len1",
+            "value_type": "boolean",
+            "prevalence": 1
+          },
+          "cohesion": 1,
+          "height": "unstable",
+          "heightGate": {
+            "existence": {
+              "observed": 1,
+              "threshold": 0.6666666666666666,
+              "min": 0.25,
+              "max": 1,
+              "pValue": 0.009900990099009901,
+              "passed": true
+            },
+            "constraint": {
+              "observed": 1,
+              "threshold": 1,
+              "min": 0.25,
+              "max": 1,
+              "pValue": 0.0594059405940594,
+              "passed": false
+            },
+            "relation": "unstable",
+            "searched": {
+              "gap": "degenerate_ground",
+              "reason": "all 4 null samples equal (1)"
+            },
+            "ground": "key"
+          },
+          "operator_chain": {
+            "operator_epoch": "eo-2026-07",
+            "chain": [
+              "SIG",
+              "CON",
+              "EVA",
+              "DEF",
+              "INS",
+              "SYN"
+            ],
+            "stages": [
+              {
+                "operator": "SIG",
+                "target": "population:tp-verb-island:were",
+                "height": 0
+              },
+              {
+                "operator": "CON",
+                "target": "candidate:filler:filled|filler:brought|filler:compelled|filler:unable",
+                "height": null
+              },
+              {
+                "operator": "EVA",
+                "target": "kind:pos:after_len1",
+                "height": "unstable"
+              },
+              {
+                "operator": "DEF",
+                "target": "kind:pos:after_len1",
+                "height": "unstable"
+              },
+              {
+                "operator": "INS",
+                "target": "members:4",
+                "height": "unstable"
+              },
+              {
+                "operator": "SYN",
+                "target": "vocabulary",
+                "height": null
+              }
+            ]
+          }
+        }
+      ],
+      "records": [
+        {
+          "id": "filler:filled",
+          "label": "filled",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:hands",
+          "label": "hands",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "id": "filler:men",
+          "label": "Men",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 8
+            },
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 1
+            },
+            {
+              "field_id": "capitalized",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:rest",
+          "label": "rest",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:brought",
+          "label": "brought",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:compelled",
+          "label": "compelled",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:unable",
+          "label": "unable",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:florentines",
+          "label": "Florentines",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 5
+            },
+            {
+              "field_id": "capitalized",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "verb": "is",
+      "fillerCount": 23,
+      "kinds": [
+        {
+          "id": "kind:tp-verb-island:is:filler:ebook|filler:need|filler:prince|filler:principality|filler:say",
+          "label": "pos:before_len1",
+          "population": "tp-verb-island:is",
+          "members": [
+            "filler:ebook",
+            "filler:need",
+            "filler:prince",
+            "filler:principality",
+            "filler:say"
+          ],
+          "core": {
+            "field_id": "pos:before_len1",
+            "value_type": "boolean",
+            "prevalence": 1
+          },
+          "cohesion": 1,
+          "height": "above",
+          "heightGate": {
+            "existence": {
+              "observed": 1,
+              "threshold": 0.8,
+              "min": 0.4,
+              "max": 1,
+              "pValue": 0.019801980198019802,
+              "passed": true
+            },
+            "constraint": {
+              "observed": 1,
+              "threshold": 0.6,
+              "min": 0,
+              "max": 0.8,
+              "pValue": 0,
+              "passed": true
+            },
+            "relation": "above",
+            "searched": {
+              "gap": "degenerate_ground",
+              "reason": "all 12 null samples equal (1)"
+            },
+            "ground": "key"
+          },
+          "operator_chain": {
+            "operator_epoch": "eo-2026-07",
+            "chain": [
+              "SIG",
+              "CON",
+              "EVA",
+              "DEF",
+              "INS",
+              "SYN"
+            ],
+            "stages": [
+              {
+                "operator": "SIG",
+                "target": "population:tp-verb-island:is",
+                "height": 0
+              },
+              {
+                "operator": "CON",
+                "target": "candidate:filler:need|filler:principality|filler:prince|filler:ebook|filler:say",
+                "height": null
+              },
+              {
+                "operator": "EVA",
+                "target": "kind:pos:before_len1",
+                "height": "above"
+              },
+              {
+                "operator": "DEF",
+                "target": "kind:pos:before_len1",
+                "height": "above"
+              },
+              {
+                "operator": "INS",
+                "target": "members:5",
+                "height": "below"
+              },
+              {
+                "operator": "SYN",
+                "target": "vocabulary",
+                "height": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "kind:tp-verb-island:is:filler:able|filler:better|filler:easy|filler:impossible|filler:located|filler:necessary|filler:nothing|filler:posted|filler:ruined|filler:seen|filler:true",
+          "label": "pos:after_len1",
+          "population": "tp-verb-island:is",
+          "members": [
+            "filler:able",
+            "filler:better",
+            "filler:easy",
+            "filler:impossible",
+            "filler:located",
+            "filler:necessary",
+            "filler:nothing",
+            "filler:posted",
+            "filler:ruined",
+            "filler:seen",
+            "filler:true"
+          ],
+          "core": {
+            "field_id": "pos:after_len1",
+            "value_type": "boolean",
+            "prevalence": 1
+          },
+          "cohesion": 1,
+          "height": "above",
+          "heightGate": {
+            "existence": {
+              "observed": 1,
+              "threshold": 0.6545454545454545,
+              "min": 0.45454545454545453,
+              "max": 0.7818181818181819,
+              "pValue": 0,
+              "passed": true
+            },
+            "constraint": {
+              "observed": 1,
+              "threshold": 0.8181818181818182,
+              "min": 0.36363636363636365,
+              "max": 0.9090909090909091,
+              "pValue": 0,
+              "passed": true
+            },
+            "relation": "above",
+            "searched": {
+              "gap": "degenerate_ground",
+              "reason": "all 12 null samples equal (1)"
+            },
+            "ground": "key"
+          },
+          "operator_chain": {
+            "operator_epoch": "eo-2026-07",
+            "chain": [
+              "SIG",
+              "CON",
+              "EVA",
+              "DEF",
+              "INS",
+              "SYN"
+            ],
+            "stages": [
+              {
+                "operator": "SIG",
+                "target": "population:tp-verb-island:is",
+                "height": 0
+              },
+              {
+                "operator": "CON",
+                "target": "candidate:filler:able|filler:ruined|filler:seen|filler:true|filler:better|filler:nothing|filler:posted|filler:located|filler:necessary|filler:impossible|filler:easy",
+                "height": null
+              },
+              {
+                "operator": "EVA",
+                "target": "kind:pos:after_len1",
+                "height": "above"
+              },
+              {
+                "operator": "DEF",
+                "target": "kind:pos:after_len1",
+                "height": "above"
+              },
+              {
+                "operator": "INS",
+                "target": "members:11",
+                "height": "below"
+              },
+              {
+                "operator": "SYN",
+                "target": "vocabulary",
+                "height": null
+              }
+            ]
+          }
+        }
+      ],
+      "records": [
+        {
+          "id": "filler:ebook",
+          "label": "eBook",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:nothing",
+          "label": "nothing",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "id": "filler:dooty",
+          "label": "Dooty",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 1
+            },
+            {
+              "field_id": "capitalized",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:say",
+          "label": "say",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:one",
+          "label": "one",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 5
+            },
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 7
+            }
+          ]
+        },
+        {
+          "id": "filler:project gutenberg",
+          "label": "Project Gutenberg",
+          "attributes": [
+            {
+              "field_id": "pos:before_len2",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "capitalized",
+              "value_type": "boolean",
+              "count": 1
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:associated",
+          "label": "associated",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 2
+            },
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "id": "filler:electronic work",
+          "label": "electronic work",
+          "attributes": [
+            {
+              "field_id": "pos:before_len2",
+              "value_type": "boolean",
+              "count": 6
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:posted",
+          "label": "posted",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "id": "filler:need",
+          "label": "need",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:located",
+          "label": "located",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:necessary",
+          "label": "necessary",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 22
+            }
+          ]
+        },
+        {
+          "id": "filler:impossible",
+          "label": "impossible",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "id": "filler:easy",
+          "label": "easy",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:able",
+          "label": "able",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:ruined",
+          "label": "ruined",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:seen",
+          "label": "seen",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:principality",
+          "label": "principality",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:prince",
+          "label": "prince",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 7
+            }
+          ]
+        },
+        {
+          "id": "filler:true",
+          "label": "true",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:better",
+          "label": "BETTER",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "capitalized",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:first",
+          "label": "first",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 2
+            },
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:highly esteemed",
+          "label": "highly esteemed",
+          "attributes": [
+            {
+              "field_id": "pos:after_len2",
+              "value_type": "boolean",
+              "count": 2
+            },
+            {
+              "field_id": "pos:before_len2",
+              "value_type": "boolean",
+              "count": 1
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "verb": "would",
+      "fillerCount": 5,
+      "kinds": [],
+      "records": [
+        {
+          "id": "filler:see",
+          "label": "see",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:certainly",
+          "label": "certainly",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:say",
+          "label": "say",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "id": "filler:never",
+          "label": "never",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "id": "filler:lose",
+          "label": "lose",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "verb": "at",
+      "fillerCount": 23,
+      "kinds": [
+        {
+          "id": "kind:tp-verb-island:at:filler:located|filler:long|filler:look|filler:looked|filler:online",
+          "label": "pos:before_len1",
+          "population": "tp-verb-island:at",
+          "members": [
+            "filler:located",
+            "filler:long",
+            "filler:look",
+            "filler:looked",
+            "filler:online"
+          ],
+          "core": {
+            "field_id": "pos:before_len1",
+            "value_type": "boolean",
+            "prevalence": 1
+          },
+          "cohesion": 1,
+          "height": "above",
+          "heightGate": {
+            "existence": {
+              "observed": 1,
+              "threshold": 0.6166666666666667,
+              "min": 0.3,
+              "max": 0.7333333333333333,
+              "pValue": 0,
+              "passed": true
+            },
+            "constraint": {
+              "observed": 1,
+              "threshold": 0.8,
+              "min": 0,
+              "max": 1,
+              "pValue": 0.039603960396039604,
+              "passed": true
+            },
+            "relation": "above",
+            "searched": {
+              "gap": "degenerate_ground",
+              "reason": "all 8 null samples equal (1)"
+            },
+            "ground": "key"
+          },
+          "operator_chain": {
+            "operator_epoch": "eo-2026-07",
+            "chain": [
+              "SIG",
+              "CON",
+              "EVA",
+              "DEF",
+              "INS",
+              "SYN"
+            ],
+            "stages": [
+              {
+                "operator": "SIG",
+                "target": "population:tp-verb-island:at",
+                "height": 0
+              },
+              {
+                "operator": "CON",
+                "target": "candidate:filler:long|filler:looked|filler:located|filler:online|filler:look",
+                "height": null
+              },
+              {
+                "operator": "EVA",
+                "target": "kind:pos:before_len1",
+                "height": "above"
+              },
+              {
+                "operator": "DEF",
+                "target": "kind:pos:before_len1",
+                "height": "above"
+              },
+              {
+                "operator": "INS",
+                "target": "members:5",
+                "height": "below"
+              },
+              {
+                "operator": "SYN",
+                "target": "vocabulary",
+                "height": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "kind:tp-verb-island:at:filler:first|filler:hand|filler:home|filler:last|filler:length|filler:night|filler:once|filler:once.|filler:sea",
+          "label": "pos:after_len1",
+          "population": "tp-verb-island:at",
+          "members": [
+            "filler:first",
+            "filler:hand",
+            "filler:home",
+            "filler:last",
+            "filler:length",
+            "filler:night",
+            "filler:once",
+            "filler:once.",
+            "filler:sea"
+          ],
+          "core": {
+            "field_id": "pos:after_len1",
+            "value_type": "boolean",
+            "prevalence": 1
+          },
+          "cohesion": 1,
+          "height": "above",
+          "heightGate": {
+            "existence": {
+              "observed": 1,
+              "threshold": 0.5374999999999999,
+              "min": 0.35648148148148157,
+              "max": 0.712962962962963,
+              "pValue": 0,
+              "passed": true
+            },
+            "constraint": {
+              "observed": 1,
+              "threshold": 0.7777777777777778,
+              "min": 0.3333333333333333,
+              "max": 0.8888888888888888,
+              "pValue": 0,
+              "passed": true
+            },
+            "relation": "above",
+            "searched": {
+              "gap": "degenerate_ground",
+              "reason": "all 2 null samples equal (1)"
+            },
+            "ground": "key"
+          },
+          "operator_chain": {
+            "operator_epoch": "eo-2026-07",
+            "chain": [
+              "SIG",
+              "CON",
+              "EVA",
+              "DEF",
+              "INS",
+              "SYN"
+            ],
+            "stages": [
+              {
+                "operator": "SIG",
+                "target": "population:tp-verb-island:at",
+                "height": 0
+              },
+              {
+                "operator": "CON",
+                "target": "candidate:filler:last|filler:sea|filler:once|filler:hand|filler:once.|filler:home|filler:night|filler:length|filler:first",
+                "height": null
+              },
+              {
+                "operator": "EVA",
+                "target": "kind:pos:after_len1",
+                "height": "above"
+              },
+              {
+                "operator": "DEF",
+                "target": "kind:pos:after_len1",
+                "height": "above"
+              },
+              {
+                "operator": "INS",
+                "target": "members:9",
+                "height": "below"
+              },
+              {
+                "operator": "SYN",
+                "target": "vocabulary",
+                "height": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "kind:tp-verb-island:at:filler:florence|filler:lucca|filler:me|filler:pisa|filler:work",
+          "label": "pos:after_len1",
+          "population": "tp-verb-island:at",
+          "members": [
+            "filler:florence",
+            "filler:lucca",
+            "filler:me",
+            "filler:pisa",
+            "filler:work"
+          ],
+          "core": {
+            "field_id": "pos:after_len1",
+            "value_type": "boolean",
+            "prevalence": 1
+          },
+          "cohesion": 0.6666666666666667,
+          "height": "unstable",
+          "heightGate": {
+            "existence": {
+              "observed": 0.6666666666666667,
+              "threshold": 0.6166666666666667,
+              "min": 0.3,
+              "max": 0.7333333333333333,
+              "pValue": 0.019801980198019802,
+              "passed": true
+            },
+            "constraint": {
+              "observed": 1,
+              "threshold": 1,
+              "min": 0.2,
+              "max": 1,
+              "pValue": 0.0594059405940594,
+              "passed": false
+            },
+            "relation": "unstable",
+            "searched": {
+              "gap": "degenerate_ground",
+              "reason": "all 8 null samples equal (1)"
+            },
+            "ground": "key"
+          },
+          "operator_chain": {
+            "operator_epoch": "eo-2026-07",
+            "chain": [
+              "SIG",
+              "CON",
+              "EVA",
+              "DEF",
+              "INS",
+              "SYN"
+            ],
+            "stages": [
+              {
+                "operator": "SIG",
+                "target": "population:tp-verb-island:at",
+                "height": 0
+              },
+              {
+                "operator": "CON",
+                "target": "candidate:filler:me|filler:work|filler:pisa|filler:florence|filler:lucca",
+                "height": null
+              },
+              {
+                "operator": "EVA",
+                "target": "kind:pos:after_len1",
+                "height": "unstable"
+              },
+              {
+                "operator": "DEF",
+                "target": "kind:pos:after_len1",
+                "height": "unstable"
+              },
+              {
+                "operator": "INS",
+                "target": "members:5",
+                "height": "unstable"
+              },
+              {
+                "operator": "SYN",
+                "target": "vocabulary",
+                "height": null
+              }
+            ]
+          }
+        }
+      ],
+      "records": [
+        {
+          "id": "filler:anyone anywhere",
+          "label": "anyone anywhere",
+          "attributes": [
+            {
+              "field_id": "pos:before_len2",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:online",
+          "label": "online",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "id": "filler:length",
+          "label": "length",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 9
+            }
+          ]
+        },
+        {
+          "id": "filler:first",
+          "label": "first",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:last",
+          "label": "last",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 25
+            }
+          ]
+        },
+        {
+          "id": "filler:me",
+          "label": "me",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "id": "filler:sea",
+          "label": "sea",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "id": "filler:once",
+          "label": "once",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 30
+            }
+          ]
+        },
+        {
+          "id": "filler:just",
+          "label": "Just",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 5
+            },
+            {
+              "field_id": "capitalized",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:look",
+          "label": "look",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:hand",
+          "label": "hand",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "id": "filler:once.",
+          "label": "once.",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 7
+            }
+          ]
+        },
+        {
+          "id": "filler:almost",
+          "label": "Almost",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "capitalized",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:work",
+          "label": "work",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 2
+            },
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:long",
+          "label": "long",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:last however",
+          "label": "last however",
+          "attributes": [
+            {
+              "field_id": "pos:after_len2",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:looked",
+          "label": "looked",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:home",
+          "label": "home",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:located",
+          "label": "located",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:florence",
+          "label": "Florence",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 5
+            },
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 1
+            },
+            {
+              "field_id": "capitalized",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:night",
+          "label": "night",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:pisa",
+          "label": "Pisa",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "capitalized",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:lucca",
+          "label": "Lucca",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 2
+            },
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 1
+            },
+            {
+              "field_id": "capitalized",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "verb": "should",
+      "fillerCount": 4,
+      "kinds": [],
+      "records": [
+        {
+          "id": "filler:say",
+          "label": "say",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:wish",
+          "label": "wish",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:one",
+          "label": "one",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 8
+            }
+          ]
+        },
+        {
+          "id": "filler:prince",
+          "label": "prince",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "verb": "has",
+      "fillerCount": 2,
+      "kinds": []
+    },
+    {
+      "verb": "from",
+      "fillerCount": 7,
+      "kinds": [],
+      "records": [
+        {
+          "id": "filler:first",
+          "label": "first",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:me",
+          "label": "me",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 7
+            }
+          ]
+        },
+        {
+          "id": "filler:him.",
+          "label": "him.",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:time",
+          "label": "time",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:hand",
+          "label": "hand",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:fear",
+          "label": "fear",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "id": "filler:thence",
+          "label": "thence",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

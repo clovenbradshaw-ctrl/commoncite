@@ -1,0 +1,39 @@
+{
+  "task": "Units are the words of the text, split on whitespace (use a regex literal, not a string). The reduced series is the character length of each word read so far.",
+  "fixture": "/home/user/eoreader6/scripts/adversarial/fixtures/frankenstein-excerpt.txt",
+  "llm": "http://127.0.0.1:8033/v1/chat/completions",
+  "rounds": [
+    {
+      "kind": "guide",
+      "raw": "{\"load_body\": \"units = text.split(/\\\\s+/);\", \"unit_count_expr\": \"units.length\", \"reduce_body\": \"readTo = max(2, floor((readTo * fraction))); units = units.slice(0, readTo); return units.map(unit => unit.length);\"}"
+    },
+    {
+      "kind": "refusal",
+      "gap": {
+        "gap": "not_earned",
+        "gate": "behavior",
+        "why": "units is not defined"
+      }
+    },
+    {
+      "kind": "repaired-guide",
+      "raw": "{\"load_body\":\"units = text.split(/\\\\s+/);\",\"unit_count_expr\":\"units.length\",\"reduce_body\":\"readTo = max(2, floor((readTo * fraction))); units = units.slice(0, readTo); return units.map(unit => unit.length);\"}"
+    },
+    {
+      "kind": "refusal",
+      "gap": {
+        "gap": "not_earned",
+        "gate": "behavior",
+        "why": "units is not defined"
+      }
+    }
+  ],
+  "outcome": {
+    "survived": false,
+    "finalGap": {
+      "gap": "not_earned",
+      "gate": "behavior",
+      "why": "units is not defined"
+    }
+  }
+}

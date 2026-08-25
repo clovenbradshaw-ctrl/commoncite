@@ -1,0 +1,1816 @@
+{
+  "tag": "david-copperfield",
+  "kind": "novel",
+  "spec": {
+    "window": 8,
+    "draws": 99,
+    "reseeds": 8,
+    "minArrivals": 4,
+    "atomsPerUnit": 200,
+    "offerEvery": 60
+  },
+  "segments": 64,
+  "units": 1705,
+  "candidateSurfaces": 1039,
+  "referents": 394,
+  "score": {
+    "registerSize": 59,
+    "referenceNodes": 87,
+    "entityHits": 26,
+    "entityRecall": 0.2988505747126437,
+    "edgesFoundTotal": 197,
+    "candidateEdges": 67,
+    "referenceEdges": 406,
+    "edgeHits": 30,
+    "edgeRecall": 0.07389162561576355,
+    "edgePrecision": 0.44776119402985076,
+    "edgeChance": {
+      "mean": 16.4175,
+      "p95": 22,
+      "max": 27
+    },
+    "matchedEdges": [
+      {
+        "a": "Clara Peggotty",
+        "b": "Betsey Trotwood",
+        "weight": 85
+      },
+      {
+        "a": "Clara Peggotty",
+        "b": "Clara Copperfield",
+        "weight": 68
+      },
+      {
+        "a": "Clara Peggotty",
+        "b": "Ham Peggotty",
+        "weight": 144
+      },
+      {
+        "a": "Baby Murdstone",
+        "b": "Jane Murdstone",
+        "weight": 121
+      },
+      {
+        "a": "Baby Murdstone",
+        "b": "Clara Copperfield",
+        "weight": 300
+      },
+      {
+        "a": "Baby Murdstone",
+        "b": "David Copperfield",
+        "weight": 103
+      },
+      {
+        "a": "Jane Murdstone",
+        "b": "Clara Copperfield",
+        "weight": 44
+      },
+      {
+        "a": "Jane Murdstone",
+        "b": "David Copperfield",
+        "weight": 17
+      },
+      {
+        "a": "Clara Peggotty",
+        "b": "Mrs. Crupp",
+        "weight": 199
+      },
+      {
+        "a": "Clara Peggotty",
+        "b": "Ham Peggotty",
+        "weight": 169
+      },
+      {
+        "a": "Mr. Barkis",
+        "b": "David Copperfield",
+        "weight": 11
+      },
+      {
+        "a": "Tommy Traddles",
+        "b": "Mr. Creakle",
+        "weight": 80
+      },
+      {
+        "a": "Tommy Traddles",
+        "b": "James Steerforth",
+        "weight": 79
+      },
+      {
+        "a": "Tommy Traddles",
+        "b": "Sophy Crewler",
+        "weight": 28
+      },
+      {
+        "a": "Mr. Creakle",
+        "b": "James Steerforth",
+        "weight": 394
+      },
+      {
+        "a": "James Steerforth",
+        "b": "Ham Peggotty",
+        "weight": 92
+      },
+      {
+        "a": "Betsey Trotwood",
+        "b": "Micawber Twins",
+        "weight": 39
+      },
+      {
+        "a": "Betsey Trotwood",
+        "b": "Clara Copperfield",
+        "weight": 85
+      },
+      {
+        "a": "Betsey Trotwood",
+        "b": "Mr. Chillip",
+        "weight": 72
+      },
+      {
+        "a": "Betsey Trotwood",
+        "b": "David Copperfield",
+        "weight": 37
+      }
+    ]
+  },
+  "edges": [
+    {
+      "a": "e0",
+      "b": "e9",
+      "weight": 69,
+      "pValue": 0.04020100502512563
+    },
+    {
+      "a": "e0",
+      "b": "e10",
+      "weight": 85,
+      "pValue": 0
+    },
+    {
+      "a": "e0",
+      "b": "e21",
+      "weight": 93,
+      "pValue": 0
+    },
+    {
+      "a": "e0",
+      "b": "e23",
+      "weight": 222,
+      "pValue": 0
+    },
+    {
+      "a": "e0",
+      "b": "e36",
+      "weight": 68,
+      "pValue": 0.02512562814070352
+    },
+    {
+      "a": "e0",
+      "b": "e37",
+      "weight": 20,
+      "pValue": 0.02512562814070352
+    },
+    {
+      "a": "e0",
+      "b": "e48",
+      "weight": 90,
+      "pValue": 0
+    },
+    {
+      "a": "e0",
+      "b": "e53",
+      "weight": 95,
+      "pValue": 0.01507537688442211
+    },
+    {
+      "a": "e0",
+      "b": "e55",
+      "weight": 70,
+      "pValue": 0
+    },
+    {
+      "a": "e0",
+      "b": "e57",
+      "weight": 144,
+      "pValue": 0
+    },
+    {
+      "a": "e1",
+      "b": "e2",
+      "weight": 121,
+      "pValue": 0
+    },
+    {
+      "a": "e1",
+      "b": "e9",
+      "weight": 60,
+      "pValue": 0.04020100502512563
+    },
+    {
+      "a": "e1",
+      "b": "e11",
+      "weight": 66,
+      "pValue": 0
+    },
+    {
+      "a": "e1",
+      "b": "e23",
+      "weight": 218,
+      "pValue": 0
+    },
+    {
+      "a": "e1",
+      "b": "e24",
+      "weight": 68,
+      "pValue": 0.005025125628140704
+    },
+    {
+      "a": "e1",
+      "b": "e32",
+      "weight": 300,
+      "pValue": 0
+    },
+    {
+      "a": "e1",
+      "b": "e52",
+      "weight": 103,
+      "pValue": 0
+    },
+    {
+      "a": "e1",
+      "b": "e53",
+      "weight": 71,
+      "pValue": 0
+    },
+    {
+      "a": "e1",
+      "b": "e57",
+      "weight": 54,
+      "pValue": 0.01507537688442211
+    },
+    {
+      "a": "e2",
+      "b": "e11",
+      "weight": 13,
+      "pValue": 0.01507537688442211
+    },
+    {
+      "a": "e2",
+      "b": "e23",
+      "weight": 29,
+      "pValue": 0.005025125628140704
+    },
+    {
+      "a": "e2",
+      "b": "e32",
+      "weight": 44,
+      "pValue": 0
+    },
+    {
+      "a": "e2",
+      "b": "e52",
+      "weight": 17,
+      "pValue": 0.020100502512562814
+    },
+    {
+      "a": "e3",
+      "b": "e9",
+      "weight": 55,
+      "pValue": 0.03015075376884422
+    },
+    {
+      "a": "e3",
+      "b": "e19",
+      "weight": 25,
+      "pValue": 0.020100502512562814
+    },
+    {
+      "a": "e3",
+      "b": "e23",
+      "weight": 99,
+      "pValue": 0
+    },
+    {
+      "a": "e3",
+      "b": "e31",
+      "weight": 199,
+      "pValue": 0
+    },
+    {
+      "a": "e3",
+      "b": "e53",
+      "weight": 239,
+      "pValue": 0
+    },
+    {
+      "a": "e3",
+      "b": "e57",
+      "weight": 169,
+      "pValue": 0
+    },
+    {
+      "a": "e3",
+      "b": "e58",
+      "weight": 30,
+      "pValue": 0
+    },
+    {
+      "a": "e4",
+      "b": "e23",
+      "weight": 20,
+      "pValue": 0.04020100502512563
+    },
+    {
+      "a": "e4",
+      "b": "e24",
+      "weight": 24,
+      "pValue": 0.010050251256281407
+    },
+    {
+      "a": "e4",
+      "b": "e52",
+      "weight": 11,
+      "pValue": 0.04020100502512563
+    },
+    {
+      "a": "e5",
+      "b": "e6",
+      "weight": 63,
+      "pValue": 0
+    },
+    {
+      "a": "e5",
+      "b": "e7",
+      "weight": 80,
+      "pValue": 0
+    },
+    {
+      "a": "e5",
+      "b": "e8",
+      "weight": 79,
+      "pValue": 0
+    },
+    {
+      "a": "e5",
+      "b": "e31",
+      "weight": 157,
+      "pValue": 0
+    },
+    {
+      "a": "e5",
+      "b": "e49",
+      "weight": 14,
+      "pValue": 0.04020100502512563
+    },
+    {
+      "a": "e5",
+      "b": "e51",
+      "weight": 10,
+      "pValue": 0.01507537688442211
+    },
+    {
+      "a": "e5",
+      "b": "e54",
+      "weight": 14,
+      "pValue": 0.020100502512562814
+    },
+    {
+      "a": "e5",
+      "b": "e62",
+      "weight": 28,
+      "pValue": 0
+    },
+    {
+      "a": "e6",
+      "b": "e7",
+      "weight": 332,
+      "pValue": 0
+    },
+    {
+      "a": "e6",
+      "b": "e8",
+      "weight": 351,
+      "pValue": 0
+    },
+    {
+      "a": "e6",
+      "b": "e57",
+      "weight": 72,
+      "pValue": 0.01507537688442211
+    },
+    {
+      "a": "e7",
+      "b": "e8",
+      "weight": 394,
+      "pValue": 0
+    },
+    {
+      "a": "e8",
+      "b": "e23",
+      "weight": 115,
+      "pValue": 0
+    },
+    {
+      "a": "e8",
+      "b": "e42",
+      "weight": 18,
+      "pValue": 0.02512562814070352
+    },
+    {
+      "a": "e8",
+      "b": "e57",
+      "weight": 92,
+      "pValue": 0.005025125628140704
+    },
+    {
+      "a": "e9",
+      "b": "e21",
+      "weight": 18,
+      "pValue": 0.02512562814070352
+    },
+    {
+      "a": "e9",
+      "b": "e23",
+      "weight": 111,
+      "pValue": 0
+    },
+    {
+      "a": "e9",
+      "b": "e53",
+      "weight": 119,
+      "pValue": 0
+    },
+    {
+      "a": "e9",
+      "b": "e57",
+      "weight": 103,
+      "pValue": 0
+    },
+    {
+      "a": "e10",
+      "b": "e13",
+      "weight": 39,
+      "pValue": 0.005025125628140704
+    },
+    {
+      "a": "e10",
+      "b": "e19",
+      "weight": 14,
+      "pValue": 0.04522613065326633
+    },
+    {
+      "a": "e10",
+      "b": "e36",
+      "weight": 85,
+      "pValue": 0
+    },
+    {
+      "a": "e10",
+      "b": "e48",
+      "weight": 72,
+      "pValue": 0
+    },
+    {
+      "a": "e10",
+      "b": "e52",
+      "weight": 37,
+      "pValue": 0
+    },
+    {
+      "a": "e11",
+      "b": "e12",
+      "weight": 29,
+      "pValue": 0
+    },
+    {
+      "a": "e11",
+      "b": "e13",
+      "weight": 100,
+      "pValue": 0
+    },
+    {
+      "a": "e11",
+      "b": "e31",
+      "weight": 81,
+      "pValue": 0.005025125628140704
+    },
+    {
+      "a": "e11",
+      "b": "e60",
+      "weight": 8,
+      "pValue": 0.01507537688442211
+    },
+    {
+      "a": "e12",
+      "b": "e13",
+      "weight": 170,
+      "pValue": 0
+    },
+    {
+      "a": "e12",
+      "b": "e31",
+      "weight": 131,
+      "pValue": 0
+    },
+    {
+      "a": "e12",
+      "b": "e52",
+      "weight": 29,
+      "pValue": 0.005025125628140704
+    },
+    {
+      "a": "e12",
+      "b": "e60",
+      "weight": 10,
+      "pValue": 0.010050251256281407
+    },
+    {
+      "a": "e13",
+      "b": "e14",
+      "weight": 41,
+      "pValue": 0
+    },
+    {
+      "a": "e13",
+      "b": "e18",
+      "weight": 107,
+      "pValue": 0
+    },
+    {
+      "a": "e13",
+      "b": "e19",
+      "weight": 24,
+      "pValue": 0.01507537688442211
+    },
+    {
+      "a": "e13",
+      "b": "e24",
+      "weight": 152,
+      "pValue": 0
+    },
+    {
+      "a": "e13",
+      "b": "e28",
+      "weight": 19,
+      "pValue": 0.04020100502512563
+    },
+    {
+      "a": "e13",
+      "b": "e31",
+      "weight": 780,
+      "pValue": 0
+    },
+    {
+      "a": "e13",
+      "b": "e34",
+      "weight": 126,
+      "pValue": 0
+    },
+    {
+      "a": "e13",
+      "b": "e36",
+      "weight": 162,
+      "pValue": 0
+    },
+    {
+      "a": "e13",
+      "b": "e38",
+      "weight": 46,
+      "pValue": 0
+    },
+    {
+      "a": "e13",
+      "b": "e40",
+      "weight": 26,
+      "pValue": 0.005025125628140704
+    },
+    {
+      "a": "e13",
+      "b": "e42",
+      "weight": 29,
+      "pValue": 0.005025125628140704
+    },
+    {
+      "a": "e13",
+      "b": "e43",
+      "weight": 38,
+      "pValue": 0
+    },
+    {
+      "a": "e13",
+      "b": "e44",
+      "weight": 492,
+      "pValue": 0
+    },
+    {
+      "a": "e13",
+      "b": "e45",
+      "weight": 170,
+      "pValue": 0
+    },
+    {
+      "a": "e13",
+      "b": "e47",
+      "weight": 63,
+      "pValue": 0
+    },
+    {
+      "a": "e13",
+      "b": "e49",
+      "weight": 38,
+      "pValue": 0
+    },
+    {
+      "a": "e13",
+      "b": "e54",
+      "weight": 36,
+      "pValue": 0.005025125628140704
+    },
+    {
+      "a": "e13",
+      "b": "e60",
+      "weight": 53,
+      "pValue": 0
+    },
+    {
+      "a": "e14",
+      "b": "e16",
+      "weight": 12,
+      "pValue": 0.010050251256281407
+    },
+    {
+      "a": "e14",
+      "b": "e17",
+      "weight": 77,
+      "pValue": 0
+    },
+    {
+      "a": "e14",
+      "b": "e18",
+      "weight": 50,
+      "pValue": 0
+    },
+    {
+      "a": "e14",
+      "b": "e20",
+      "weight": 49,
+      "pValue": 0
+    },
+    {
+      "a": "e14",
+      "b": "e22",
+      "weight": 36,
+      "pValue": 0
+    },
+    {
+      "a": "e14",
+      "b": "e54",
+      "weight": 9,
+      "pValue": 0
+    },
+    {
+      "a": "e16",
+      "b": "e17",
+      "weight": 57,
+      "pValue": 0.005025125628140704
+    },
+    {
+      "a": "e16",
+      "b": "e20",
+      "weight": 27,
+      "pValue": 0.005025125628140704
+    },
+    {
+      "a": "e16",
+      "b": "e54",
+      "weight": 6,
+      "pValue": 0.035175879396984924
+    },
+    {
+      "a": "e17",
+      "b": "e18",
+      "weight": 230,
+      "pValue": 0
+    },
+    {
+      "a": "e17",
+      "b": "e20",
+      "weight": 289,
+      "pValue": 0
+    },
+    {
+      "a": "e17",
+      "b": "e22",
+      "weight": 204,
+      "pValue": 0
+    },
+    {
+      "a": "e17",
+      "b": "e43",
+      "weight": 26,
+      "pValue": 0.03015075376884422
+    },
+    {
+      "a": "e18",
+      "b": "e20",
+      "weight": 160,
+      "pValue": 0
+    },
+    {
+      "a": "e18",
+      "b": "e22",
+      "weight": 107,
+      "pValue": 0.010050251256281407
+    },
+    {
+      "a": "e18",
+      "b": "e31",
+      "weight": 205,
+      "pValue": 0.005025125628140704
+    },
+    {
+      "a": "e18",
+      "b": "e54",
+      "weight": 29,
+      "pValue": 0
+    },
+    {
+      "a": "e19",
+      "b": "e23",
+      "weight": 19,
+      "pValue": 0.01507537688442211
+    },
+    {
+      "a": "e19",
+      "b": "e31",
+      "weight": 44,
+      "pValue": 0.005025125628140704
+    },
+    {
+      "a": "e19",
+      "b": "e53",
+      "weight": 43,
+      "pValue": 0
+    },
+    {
+      "a": "e19",
+      "b": "e57",
+      "weight": 29,
+      "pValue": 0
+    },
+    {
+      "a": "e19",
+      "b": "e58",
+      "weight": 4,
+      "pValue": 0.02512562814070352
+    },
+    {
+      "a": "e20",
+      "b": "e22",
+      "weight": 285,
+      "pValue": 0
+    },
+    {
+      "a": "e20",
+      "b": "e31",
+      "weight": 290,
+      "pValue": 0
+    },
+    {
+      "a": "e20",
+      "b": "e43",
+      "weight": 39,
+      "pValue": 0
+    },
+    {
+      "a": "e21",
+      "b": "e23",
+      "weight": 44,
+      "pValue": 0
+    },
+    {
+      "a": "e21",
+      "b": "e55",
+      "weight": 14,
+      "pValue": 0
+    },
+    {
+      "a": "e21",
+      "b": "e57",
+      "weight": 22,
+      "pValue": 0.020100502512562814
+    },
+    {
+      "a": "e22",
+      "b": "e31",
+      "weight": 188,
+      "pValue": 0.005025125628140704
+    },
+    {
+      "a": "e22",
+      "b": "e43",
+      "weight": 19,
+      "pValue": 0.03015075376884422
+    },
+    {
+      "a": "e23",
+      "b": "e32",
+      "weight": 139,
+      "pValue": 0
+    },
+    {
+      "a": "e23",
+      "b": "e52",
+      "weight": 99,
+      "pValue": 0
+    },
+    {
+      "a": "e23",
+      "b": "e53",
+      "weight": 324,
+      "pValue": 0
+    },
+    {
+      "a": "e23",
+      "b": "e55",
+      "weight": 34,
+      "pValue": 0
+    },
+    {
+      "a": "e23",
+      "b": "e57",
+      "weight": 259,
+      "pValue": 0
+    },
+    {
+      "a": "e24",
+      "b": "e25",
+      "weight": 42,
+      "pValue": 0
+    },
+    {
+      "a": "e24",
+      "b": "e29",
+      "weight": 19,
+      "pValue": 0
+    },
+    {
+      "a": "e24",
+      "b": "e30",
+      "weight": 29,
+      "pValue": 0
+    },
+    {
+      "a": "e25",
+      "b": "e26",
+      "weight": 24,
+      "pValue": 0.02512562814070352
+    },
+    {
+      "a": "e25",
+      "b": "e29",
+      "weight": 24,
+      "pValue": 0
+    },
+    {
+      "a": "e25",
+      "b": "e30",
+      "weight": 37,
+      "pValue": 0
+    },
+    {
+      "a": "e25",
+      "b": "e34",
+      "weight": 50,
+      "pValue": 0
+    },
+    {
+      "a": "e25",
+      "b": "e35",
+      "weight": 13,
+      "pValue": 0.005025125628140704
+    },
+    {
+      "a": "e25",
+      "b": "e57",
+      "weight": 40,
+      "pValue": 0
+    },
+    {
+      "a": "e26",
+      "b": "e30",
+      "weight": 23,
+      "pValue": 0.010050251256281407
+    },
+    {
+      "a": "e26",
+      "b": "e52",
+      "weight": 52,
+      "pValue": 0
+    },
+    {
+      "a": "e27",
+      "b": "e36",
+      "weight": 120,
+      "pValue": 0
+    },
+    {
+      "a": "e27",
+      "b": "e37",
+      "weight": 14,
+      "pValue": 0.04522613065326633
+    },
+    {
+      "a": "e27",
+      "b": "e38",
+      "weight": 16,
+      "pValue": 0.04020100502512563
+    },
+    {
+      "a": "e27",
+      "b": "e53",
+      "weight": 132,
+      "pValue": 0
+    },
+    {
+      "a": "e27",
+      "b": "e57",
+      "weight": 175,
+      "pValue": 0
+    },
+    {
+      "a": "e27",
+      "b": "e58",
+      "weight": 23,
+      "pValue": 0.005025125628140704
+    },
+    {
+      "a": "e28",
+      "b": "e29",
+      "weight": 5,
+      "pValue": 0.03015075376884422
+    },
+    {
+      "a": "e28",
+      "b": "e30",
+      "weight": 9,
+      "pValue": 0
+    },
+    {
+      "a": "e28",
+      "b": "e31",
+      "weight": 55,
+      "pValue": 0
+    },
+    {
+      "a": "e28",
+      "b": "e35",
+      "weight": 6,
+      "pValue": 0.005025125628140704
+    },
+    {
+      "a": "e29",
+      "b": "e30",
+      "weight": 25,
+      "pValue": 0
+    },
+    {
+      "a": "e29",
+      "b": "e34",
+      "weight": 40,
+      "pValue": 0
+    },
+    {
+      "a": "e29",
+      "b": "e35",
+      "weight": 12,
+      "pValue": 0
+    },
+    {
+      "a": "e30",
+      "b": "e34",
+      "weight": 56,
+      "pValue": 0
+    },
+    {
+      "a": "e30",
+      "b": "e35",
+      "weight": 18,
+      "pValue": 0.005025125628140704
+    },
+    {
+      "a": "e30",
+      "b": "e49",
+      "weight": 12,
+      "pValue": 0.01507537688442211
+    },
+    {
+      "a": "e31",
+      "b": "e36",
+      "weight": 346,
+      "pValue": 0.005025125628140704
+    },
+    {
+      "a": "e31",
+      "b": "e43",
+      "weight": 68,
+      "pValue": 0
+    },
+    {
+      "a": "e31",
+      "b": "e53",
+      "weight": 507,
+      "pValue": 0
+    },
+    {
+      "a": "e31",
+      "b": "e57",
+      "weight": 331,
+      "pValue": 0.01507537688442211
+    },
+    {
+      "a": "e31",
+      "b": "e60",
+      "weight": 51,
+      "pValue": 0.035175879396984924
+    },
+    {
+      "a": "e32",
+      "b": "e52",
+      "weight": 107,
+      "pValue": 0
+    },
+    {
+      "a": "e34",
+      "b": "e35",
+      "weight": 36,
+      "pValue": 0.005025125628140704
+    },
+    {
+      "a": "e34",
+      "b": "e36",
+      "weight": 99,
+      "pValue": 0.005025125628140704
+    },
+    {
+      "a": "e34",
+      "b": "e44",
+      "weight": 364,
+      "pValue": 0
+    },
+    {
+      "a": "e34",
+      "b": "e45",
+      "weight": 96,
+      "pValue": 0.005025125628140704
+    },
+    {
+      "a": "e34",
+      "b": "e47",
+      "weight": 42,
+      "pValue": 0
+    },
+    {
+      "a": "e34",
+      "b": "e49",
+      "weight": 38,
+      "pValue": 0.04020100502512563
+    },
+    {
+      "a": "e36",
+      "b": "e37",
+      "weight": 16,
+      "pValue": 0.04020100502512563
+    },
+    {
+      "a": "e36",
+      "b": "e38",
+      "weight": 33,
+      "pValue": 0
+    },
+    {
+      "a": "e36",
+      "b": "e39",
+      "weight": 17,
+      "pValue": 0.005025125628140704
+    },
+    {
+      "a": "e36",
+      "b": "e40",
+      "weight": 14,
+      "pValue": 0.03015075376884422
+    },
+    {
+      "a": "e36",
+      "b": "e44",
+      "weight": 407,
+      "pValue": 0
+    },
+    {
+      "a": "e36",
+      "b": "e45",
+      "weight": 98,
+      "pValue": 0
+    },
+    {
+      "a": "e36",
+      "b": "e47",
+      "weight": 40,
+      "pValue": 0
+    },
+    {
+      "a": "e36",
+      "b": "e48",
+      "weight": 39,
+      "pValue": 0.01507537688442211
+    },
+    {
+      "a": "e36",
+      "b": "e49",
+      "weight": 33,
+      "pValue": 0.01507537688442211
+    },
+    {
+      "a": "e37",
+      "b": "e55",
+      "weight": 3,
+      "pValue": 0.010050251256281407
+    },
+    {
+      "a": "e37",
+      "b": "e57",
+      "weight": 19,
+      "pValue": 0
+    },
+    {
+      "a": "e38",
+      "b": "e44",
+      "weight": 46,
+      "pValue": 0
+    },
+    {
+      "a": "e38",
+      "b": "e45",
+      "weight": 19,
+      "pValue": 0
+    },
+    {
+      "a": "e38",
+      "b": "e57",
+      "weight": 19,
+      "pValue": 0.020100502512562814
+    },
+    {
+      "a": "e39",
+      "b": "e44",
+      "weight": 33,
+      "pValue": 0
+    },
+    {
+      "a": "e39",
+      "b": "e45",
+      "weight": 11,
+      "pValue": 0
+    },
+    {
+      "a": "e39",
+      "b": "e53",
+      "weight": 21,
+      "pValue": 0
+    },
+    {
+      "a": "e39",
+      "b": "e57",
+      "weight": 24,
+      "pValue": 0
+    },
+    {
+      "a": "e40",
+      "b": "e65",
+      "weight": 3,
+      "pValue": 0.04522613065326633
+    },
+    {
+      "a": "e42",
+      "b": "e44",
+      "weight": 29,
+      "pValue": 0
+    },
+    {
+      "a": "e42",
+      "b": "e45",
+      "weight": 8,
+      "pValue": 0
+    },
+    {
+      "a": "e42",
+      "b": "e47",
+      "weight": 5,
+      "pValue": 0
+    },
+    {
+      "a": "e44",
+      "b": "e45",
+      "weight": 356,
+      "pValue": 0
+    },
+    {
+      "a": "e44",
+      "b": "e47",
+      "weight": 137,
+      "pValue": 0
+    },
+    {
+      "a": "e44",
+      "b": "e49",
+      "weight": 82,
+      "pValue": 0.005025125628140704
+    },
+    {
+      "a": "e45",
+      "b": "e47",
+      "weight": 43,
+      "pValue": 0
+    },
+    {
+      "a": "e45",
+      "b": "e49",
+      "weight": 26,
+      "pValue": 0.04020100502512563
+    },
+    {
+      "a": "e46",
+      "b": "e62",
+      "weight": 10,
+      "pValue": 0.020100502512562814
+    },
+    {
+      "a": "e48",
+      "b": "e52",
+      "weight": 24,
+      "pValue": 0.01507537688442211
+    },
+    {
+      "a": "e48",
+      "b": "e53",
+      "weight": 49,
+      "pValue": 0
+    },
+    {
+      "a": "e48",
+      "b": "e57",
+      "weight": 42,
+      "pValue": 0
+    },
+    {
+      "a": "e51",
+      "b": "e54",
+      "weight": 8,
+      "pValue": 0
+    },
+    {
+      "a": "e51",
+      "b": "e62",
+      "weight": 10,
+      "pValue": 0.01507537688442211
+    },
+    {
+      "a": "e52",
+      "b": "e53",
+      "weight": 109,
+      "pValue": 0.03015075376884422
+    },
+    {
+      "a": "e53",
+      "b": "e57",
+      "weight": 712,
+      "pValue": 0
+    },
+    {
+      "a": "e53",
+      "b": "e58",
+      "weight": 108,
+      "pValue": 0
+    },
+    {
+      "a": "e54",
+      "b": "e62",
+      "weight": 17,
+      "pValue": 0.005025125628140704
+    },
+    {
+      "a": "e55",
+      "b": "e57",
+      "weight": 21,
+      "pValue": 0.020100502512562814
+    },
+    {
+      "a": "e57",
+      "b": "e58",
+      "weight": 105,
+      "pValue": 0
+    },
+    {
+      "a": "e64",
+      "b": "e65",
+      "weight": 3,
+      "pValue": 0.005025125628140704
+    }
+  ],
+  "register": [
+    {
+      "id": "e0",
+      "referentIds": [
+        "ref:auto:peggotty"
+      ],
+      "surface": "Peggotty",
+      "bornAt": 60
+    },
+    {
+      "id": "e1",
+      "referentIds": [
+        "ref:auto:miss_murdstone"
+      ],
+      "surface": "Miss Murdstone",
+      "bornAt": 120
+    },
+    {
+      "id": "e2",
+      "referentIds": [
+        "ref:auto:jane"
+      ],
+      "surface": "Jane",
+      "bornAt": 120
+    },
+    {
+      "id": "e3",
+      "referentIds": [
+        "ref:auto:mr_peggotty"
+      ],
+      "surface": "Mr Peggotty",
+      "bornAt": 120
+    },
+    {
+      "id": "e4",
+      "referentIds": [
+        "ref:auto:mr_barkis"
+      ],
+      "surface": "Mr Barkis",
+      "bornAt": 180
+    },
+    {
+      "id": "e5",
+      "referentIds": [
+        "ref:auto:traddles",
+        "ref:auto:mr_traddles"
+      ],
+      "surface": "Traddles",
+      "mergedFrom": [
+        "e5",
+        "e50"
+      ],
+      "bornAt": 180
+    },
+    {
+      "id": "e6",
+      "referentIds": [
+        "ref:auto:mr_mell"
+      ],
+      "surface": "Mr Mell",
+      "bornAt": 240
+    },
+    {
+      "id": "e7",
+      "referentIds": [
+        "ref:auto:mr_creakle"
+      ],
+      "surface": "Mr Creakle",
+      "bornAt": 240
+    },
+    {
+      "id": "e8",
+      "referentIds": [
+        "ref:auto:steerforth"
+      ],
+      "surface": "Steerforth",
+      "bornAt": 240
+    },
+    {
+      "id": "e9",
+      "referentIds": [
+        "ref:auto:yarmouth"
+      ],
+      "surface": "Yarmouth",
+      "bornAt": 300
+    },
+    {
+      "id": "e10",
+      "referentIds": [
+        "ref:auto:miss_betsey"
+      ],
+      "surface": "Miss Betsey",
+      "bornAt": 360
+    },
+    {
+      "id": "e11",
+      "referentIds": [
+        "ref:auto:captain"
+      ],
+      "surface": "Captain",
+      "bornAt": 360
+    },
+    {
+      "id": "e12",
+      "referentIds": [
+        "ref:auto:master_copperfield"
+      ],
+      "surface": "Master Copperfield",
+      "bornAt": 360
+    },
+    {
+      "id": "e13",
+      "referentIds": [
+        "ref:auto:micawber",
+        "ref:auto:mr_micawber",
+        "ref:auto:miss_mills",
+        "ref:auto:wilkins_micawber",
+        "ref:auto:master_micawber",
+        "ref:auto:miss_micawber"
+      ],
+      "surface": "Mr Micawber",
+      "mergedFrom": [
+        "e13",
+        "e15",
+        "e41",
+        "e56",
+        "e59",
+        "e61"
+      ],
+      "bornAt": 360
+    },
+    {
+      "id": "e14",
+      "referentIds": [
+        "ref:auto:cathedral"
+      ],
+      "surface": "Cathedral",
+      "bornAt": 540
+    },
+    {
+      "id": "e16",
+      "referentIds": [
+        "ref:auto:canterbury"
+      ],
+      "surface": "Canterbury",
+      "bornAt": 540
+    },
+    {
+      "id": "e17",
+      "referentIds": [
+        "ref:auto:mr_wickfield"
+      ],
+      "surface": "Mr Wickfield",
+      "bornAt": 540
+    },
+    {
+      "id": "e18",
+      "referentIds": [
+        "ref:auto:doctor_strong"
+      ],
+      "surface": "Doctor Strong",
+      "bornAt": 540
+    },
+    {
+      "id": "e19",
+      "referentIds": [
+        "ref:auto:dutch"
+      ],
+      "surface": "Dutch",
+      "bornAt": 600
+    },
+    {
+      "id": "e20",
+      "referentIds": [
+        "ref:auto:the_doctor"
+      ],
+      "surface": "The Doctor",
+      "bornAt": 600
+    },
+    {
+      "id": "e21",
+      "referentIds": [
+        "ref:auto:sheffield"
+      ],
+      "surface": "Sheffield",
+      "bornAt": 600
+    },
+    {
+      "id": "e22",
+      "referentIds": [
+        "ref:auto:mr_jack"
+      ],
+      "surface": "Mr Jack",
+      "bornAt": 600
+    },
+    {
+      "id": "e23",
+      "referentIds": [
+        "ref:auto:mas’r"
+      ],
+      "surface": "Mas’r",
+      "bornAt": 720
+    },
+    {
+      "id": "e24",
+      "referentIds": [
+        "ref:auto:london"
+      ],
+      "surface": "London",
+      "bornAt": 720
+    },
+    {
+      "id": "e25",
+      "referentIds": [
+        "ref:auto:commons"
+      ],
+      "surface": "Commons",
+      "bornAt": 720
+    },
+    {
+      "id": "e26",
+      "referentIds": [
+        "ref:auto:janet"
+      ],
+      "surface": "Janet",
+      "bornAt": 720
+    },
+    {
+      "id": "e27",
+      "referentIds": [
+        "ref:auto:miss_larkins",
+        "ref:auto:miss_mowcher"
+      ],
+      "surface": "Miss Mowcher",
+      "mergedFrom": [
+        "e27",
+        "e33"
+      ],
+      "bornAt": 720
+    },
+    {
+      "id": "e28",
+      "referentIds": [
+        "ref:auto:covent"
+      ],
+      "surface": "Covent",
+      "bornAt": 780
+    },
+    {
+      "id": "e29",
+      "referentIds": [
+        "ref:auto:spenlow"
+      ],
+      "surface": "Spenlow",
+      "bornAt": 780
+    },
+    {
+      "id": "e30",
+      "referentIds": [
+        "ref:auto:mr_jorkins"
+      ],
+      "surface": "Mr Jorkins",
+      "bornAt": 780
+    },
+    {
+      "id": "e31",
+      "referentIds": [
+        "ref:auto:mrs"
+      ],
+      "surface": "Mrs",
+      "bornAt": 840
+    },
+    {
+      "id": "e32",
+      "referentIds": [
+        "ref:auto:clara"
+      ],
+      "surface": "Clara",
+      "bornAt": 900
+    },
+    {
+      "id": "e34",
+      "referentIds": [
+        "ref:auto:mr_spenlow"
+      ],
+      "surface": "Mr Spenlow",
+      "bornAt": 960
+    },
+    {
+      "id": "e35",
+      "referentIds": [
+        "ref:auto:doctors"
+      ],
+      "surface": "Doctors",
+      "bornAt": 1020
+    },
+    {
+      "id": "e36",
+      "referentIds": [
+        "ref:auto:mr_copperfield"
+      ],
+      "surface": "Mr Copperfield",
+      "bornAt": 1080
+    },
+    {
+      "id": "e37",
+      "referentIds": [
+        "ref:auto:english"
+      ],
+      "surface": "English",
+      "bornAt": 1080
+    },
+    {
+      "id": "e38",
+      "referentIds": [
+        "ref:auto:parliament"
+      ],
+      "surface": "Parliament",
+      "bornAt": 1080
+    },
+    {
+      "id": "e39",
+      "referentIds": [
+        "ref:auto:french"
+      ],
+      "surface": "French",
+      "bornAt": 1080
+    },
+    {
+      "id": "e40",
+      "referentIds": [
+        "ref:auto:mr_thomas"
+      ],
+      "surface": "Mr Thomas",
+      "bornAt": 1080
+    },
+    {
+      "id": "e42",
+      "referentIds": [
+        "ref:auto:monday"
+      ],
+      "surface": "Monday",
+      "bornAt": 1140
+    },
+    {
+      "id": "e43",
+      "referentIds": [
+        "ref:auto:wednesday"
+      ],
+      "surface": "Wednesday",
+      "bornAt": 1140
+    },
+    {
+      "id": "e44",
+      "referentIds": [
+        "ref:auto:dora"
+      ],
+      "surface": "Dora",
+      "bornAt": 1140
+    },
+    {
+      "id": "e45",
+      "referentIds": [
+        "ref:auto:jip"
+      ],
+      "surface": "Jip",
+      "bornAt": 1140
+    },
+    {
+      "id": "e46",
+      "referentIds": [
+        "ref:auto:mr_copperfull"
+      ],
+      "surface": "Mr Copperfull",
+      "bornAt": 1140
+    },
+    {
+      "id": "e47",
+      "referentIds": [
+        "ref:auto:julia"
+      ],
+      "surface": "Julia",
+      "bornAt": 1140
+    },
+    {
+      "id": "e48",
+      "referentIds": [
+        "ref:auto:mr_chillip"
+      ],
+      "surface": "Mr Chillip",
+      "bornAt": 1200
+    },
+    {
+      "id": "e49",
+      "referentIds": [
+        "ref:auto:buckingham"
+      ],
+      "surface": "Buckingham",
+      "bornAt": 1200
+    },
+    {
+      "id": "e51",
+      "referentIds": [
+        "ref:auto:inner_temple"
+      ],
+      "surface": "Inner Temple",
+      "bornAt": 1200
+    },
+    {
+      "id": "e52",
+      "referentIds": [
+        "ref:auto:david"
+      ],
+      "surface": "David",
+      "bornAt": 1260
+    },
+    {
+      "id": "e53",
+      "referentIds": [
+        "ref:auto:em’ly"
+      ],
+      "surface": "Em’ly",
+      "bornAt": 1260
+    },
+    {
+      "id": "e54",
+      "referentIds": [
+        "ref:auto:misses"
+      ],
+      "surface": "Misses",
+      "bornAt": 1260
+    },
+    {
+      "id": "e55",
+      "referentIds": [
+        "ref:auto:brooks"
+      ],
+      "surface": "Brooks",
+      "bornAt": 1380
+    },
+    {
+      "id": "e57",
+      "referentIds": [
+        "ref:auto:ham"
+      ],
+      "surface": "Ham",
+      "bornAt": 1500
+    },
+    {
+      "id": "e58",
+      "referentIds": [
+        "ref:auto:dan’l"
+      ],
+      "surface": "Dan’l",
+      "bornAt": 1500
+    },
+    {
+      "id": "e60",
+      "referentIds": [
+        "ref:auto:emma"
+      ],
+      "surface": "Emma",
+      "bornAt": 1560
+    },
+    {
+      "id": "e62",
+      "referentIds": [
+        "ref:auto:sophy"
+      ],
+      "surface": "Sophy",
+      "bornAt": 1680
+    },
+    {
+      "id": "e63",
+      "referentIds": [
+        "ref:auto:mr_w"
+      ],
+      "surface": "Mr W",
+      "bornAt": 1680
+    },
+    {
+      "id": "e64",
+      "referentIds": [
+        "ref:auto:britannia"
+      ],
+      "surface": "Britannia",
+      "bornAt": 1705
+    },
+    {
+      "id": "e65",
+      "referentIds": [
+        "ref:auto:esquire"
+      ],
+      "surface": "Esquire",
+      "bornAt": 1705
+    }
+  ]
+}

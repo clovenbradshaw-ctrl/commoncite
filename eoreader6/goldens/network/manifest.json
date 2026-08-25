@@ -1,0 +1,498 @@
+{
+  "golden": "network",
+  "created": "2026-08-11",
+  "question": "Does the co-occurrence layer built on referents/entity.js and referents/cooccurrence.js recover a hand-built literary character network from raw text alone?",
+  "givers": {
+    "material": "Novels: Project Gutenberg plaintext, by id. Plays: github.com/Pseudomanifold/Shakespeare (MIT), commit ca06b5e335585ddf7bab1c0f4738655ade7b2a57, Plays/ directory — the exact corpus their networks were derived from.",
+    "reference": "Les Miserables: Knuth, Stanford GraphBase (1993), d3.js mirror. Huckleberry Finn and David Copperfield: Knuth, Stanford GraphBase (1993), huck.dat/david.dat, parsed to CSV. Shakespeare: Rieck et al., Shall I compare thee to a network (IEEE VIS 2016), github.com/Pseudomanifold/Shakespeare (MIT)."
+  },
+  "discipline": [
+    "The reference is a third-party co-occurrence network, built by people who never saw this engine, from editorial chapter or scene boundaries, not derived from anything referents/cooccurrence.js computes.",
+    "The engine never sees the reference. It is scored against it after the fact.",
+    "Shakespeare's node labels are speech-attribution tags from the tagged corpus, stripped from the text before reading. The engine must recover them from what characters say and are called, not from the markup that names the speaker."
+  ],
+  "books": [
+    {
+      "kind": "novel",
+      "tag": "les-miserables",
+      "title": "Les Misérables",
+      "author": "Victor Hugo",
+      "pgId": 135,
+      "text": "pg135.txt",
+      "groundTruth": {
+        "format": "lesmis-json",
+        "path": "lesmis.json"
+      }
+    },
+    {
+      "kind": "novel",
+      "tag": "huckleberry-finn",
+      "title": "Adventures of Huckleberry Finn",
+      "author": "Mark Twain",
+      "pgId": 76,
+      "text": "pg76.txt",
+      "groundTruth": {
+        "format": "node-edge-csv",
+        "nodes": "huckleberry-finn-nodes.csv",
+        "edges": "huckleberry-finn-edges.csv"
+      }
+    },
+    {
+      "kind": "novel",
+      "tag": "david-copperfield",
+      "title": "David Copperfield",
+      "author": "Charles Dickens",
+      "pgId": 766,
+      "text": "pg766.txt",
+      "groundTruth": {
+        "format": "node-edge-csv",
+        "nodes": "david-copperfield-nodes.csv",
+        "edges": "david-copperfield-edges.csv"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-a-midsummer-night-s-dream",
+      "title": "A Midsummer-Night's Dream",
+      "author": "William Shakespeare",
+      "text": "shakespeare/A_Midsummer-Night's_Dream.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/A_Midsummer-Night's_Dream.net",
+        "time": "shakespeare/time/A_Midsummer-Night's_Dream.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-all-s-well-that-ends-well",
+      "title": "All's Well That Ends Well",
+      "author": "William Shakespeare",
+      "text": "shakespeare/All's_Well_That_Ends_Well.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/All's_Well_That_Ends_Well.net",
+        "time": "shakespeare/time/All's_Well_That_Ends_Well.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-anthony-and-cleopatra",
+      "title": "Anthony and Cleopatra",
+      "author": "William Shakespeare",
+      "text": "shakespeare/Anthony_and_Cleopatra.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/Anthony_and_Cleopatra.net",
+        "time": "shakespeare/time/Anthony_and_Cleopatra.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-as-you-like-it",
+      "title": "As You Like It",
+      "author": "William Shakespeare",
+      "text": "shakespeare/As_You_Like_It.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/As_You_Like_It.net",
+        "time": "shakespeare/time/As_You_Like_It.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-coriolanus",
+      "title": "Coriolanus",
+      "author": "William Shakespeare",
+      "text": "shakespeare/Coriolanus.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/Coriolanus.net",
+        "time": "shakespeare/time/Coriolanus.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-cymbeline",
+      "title": "Cymbeline",
+      "author": "William Shakespeare",
+      "text": "shakespeare/Cymbeline.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/Cymbeline.net",
+        "time": "shakespeare/time/Cymbeline.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-hamlet-prince-of-denmark",
+      "title": "Hamlet, Prince of Denmark",
+      "author": "William Shakespeare",
+      "text": "shakespeare/Hamlet,_Prince_of_Denmark.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/Hamlet,_Prince_of_Denmark.net",
+        "time": "shakespeare/time/Hamlet,_Prince_of_Denmark.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-henry-iv-part-1",
+      "title": "Henry IV Part 1",
+      "author": "William Shakespeare",
+      "text": "shakespeare/Henry_IV_Part_1.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/Henry_IV_Part_1.net",
+        "time": "shakespeare/time/Henry_IV_Part_1.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-henry-iv-part-2",
+      "title": "Henry IV Part 2",
+      "author": "William Shakespeare",
+      "text": "shakespeare/Henry_IV_Part_2.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/Henry_IV_Part_2.net",
+        "time": "shakespeare/time/Henry_IV_Part_2.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-henry-v",
+      "title": "Henry V",
+      "author": "William Shakespeare",
+      "text": "shakespeare/Henry_V.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/Henry_V.net",
+        "time": "shakespeare/time/Henry_V.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-henry-viii",
+      "title": "Henry VIII",
+      "author": "William Shakespeare",
+      "text": "shakespeare/Henry_VIII.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/Henry_VIII.net",
+        "time": "shakespeare/time/Henry_VIII.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-henry-vi-part-1",
+      "title": "Henry VI Part 1",
+      "author": "William Shakespeare",
+      "text": "shakespeare/Henry_VI_Part_1.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/Henry_VI_Part_1.net",
+        "time": "shakespeare/time/Henry_VI_Part_1.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-henry-vi-part-2",
+      "title": "Henry VI Part 2",
+      "author": "William Shakespeare",
+      "text": "shakespeare/Henry_VI_Part_2.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/Henry_VI_Part_2.net",
+        "time": "shakespeare/time/Henry_VI_Part_2.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-henry-vi-part-3",
+      "title": "Henry VI Part 3",
+      "author": "William Shakespeare",
+      "text": "shakespeare/Henry_VI_Part_3.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/Henry_VI_Part_3.net",
+        "time": "shakespeare/time/Henry_VI_Part_3.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-julius-caesar",
+      "title": "Julius Caesar",
+      "author": "William Shakespeare",
+      "text": "shakespeare/Julius_Caesar.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/Julius_Caesar.net",
+        "time": "shakespeare/time/Julius_Caesar.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-king-lear",
+      "title": "King Lear",
+      "author": "William Shakespeare",
+      "text": "shakespeare/King_Lear.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/King_Lear.net",
+        "time": "shakespeare/time/King_Lear.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-love-s-labour-s-lost",
+      "title": "Love's Labour's Lost",
+      "author": "William Shakespeare",
+      "text": "shakespeare/Love's_Labour's_Lost.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/Love's_Labour's_Lost.net",
+        "time": "shakespeare/time/Love's_Labour's_Lost.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-macbeth",
+      "title": "Macbeth",
+      "author": "William Shakespeare",
+      "text": "shakespeare/Macbeth.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/Macbeth.net",
+        "time": "shakespeare/time/Macbeth.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-measure-for-measure",
+      "title": "Measure for Measure",
+      "author": "William Shakespeare",
+      "text": "shakespeare/Measure_for_Measure.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/Measure_for_Measure.net",
+        "time": "shakespeare/time/Measure_for_Measure.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-much-ado-about-nothing",
+      "title": "Much Ado about Nothing",
+      "author": "William Shakespeare",
+      "text": "shakespeare/Much_Ado_about_Nothing.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/Much_Ado_about_Nothing.net",
+        "time": "shakespeare/time/Much_Ado_about_Nothing.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-othello-the-moor-of-venice",
+      "title": "Othello, the Moor of Venice",
+      "author": "William Shakespeare",
+      "text": "shakespeare/Othello,_the_Moor_of_Venice.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/Othello,_the_Moor_of_Venice.net",
+        "time": "shakespeare/time/Othello,_the_Moor_of_Venice.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-pericles-prince-of-tyre",
+      "title": "Pericles, Prince of Tyre",
+      "author": "William Shakespeare",
+      "text": "shakespeare/Pericles,_Prince_of_Tyre.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/Pericles,_Prince_of_Tyre.net",
+        "time": "shakespeare/time/Pericles,_Prince_of_Tyre.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-richard-ii",
+      "title": "Richard II",
+      "author": "William Shakespeare",
+      "text": "shakespeare/Richard_II.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/Richard_II.net",
+        "time": "shakespeare/time/Richard_II.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-richard-iii",
+      "title": "Richard III",
+      "author": "William Shakespeare",
+      "text": "shakespeare/Richard_III.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/Richard_III.net",
+        "time": "shakespeare/time/Richard_III.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-romeo-and-juliet",
+      "title": "Romeo And Juliet",
+      "author": "William Shakespeare",
+      "text": "shakespeare/Romeo_And_Juliet.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/Romeo_And_Juliet.net",
+        "time": "shakespeare/time/Romeo_And_Juliet.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-the-comedy-of-errors",
+      "title": "The Comedy of Errors",
+      "author": "William Shakespeare",
+      "text": "shakespeare/The_Comedy_of_Errors.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/The_Comedy_of_Errors.net",
+        "time": "shakespeare/time/The_Comedy_of_Errors.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-the-life-and-death-of-king-john",
+      "title": "The Life and Death of King John",
+      "author": "William Shakespeare",
+      "text": "shakespeare/The_Life_and_Death_of_King_John.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/The_Life_and_Death_of_King_John.net",
+        "time": "shakespeare/time/The_Life_and_Death_of_King_John.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-the-merchant-of-venice",
+      "title": "The Merchant of Venice",
+      "author": "William Shakespeare",
+      "text": "shakespeare/The_Merchant_of_Venice.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/The_Merchant_of_Venice.net",
+        "time": "shakespeare/time/The_Merchant_of_Venice.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-the-merry-wives-of-windsor",
+      "title": "The Merry Wives of Windsor",
+      "author": "William Shakespeare",
+      "text": "shakespeare/The_Merry_Wives_of_Windsor.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/The_Merry_Wives_of_Windsor.net",
+        "time": "shakespeare/time/The_Merry_Wives_of_Windsor.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-the-taming-of-the-shrew",
+      "title": "The Taming of the Shrew",
+      "author": "William Shakespeare",
+      "text": "shakespeare/The_Taming_of_the_Shrew.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/The_Taming_of_the_Shrew.net",
+        "time": "shakespeare/time/The_Taming_of_the_Shrew.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-the-tempest",
+      "title": "The Tempest",
+      "author": "William Shakespeare",
+      "text": "shakespeare/The_Tempest.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/The_Tempest.net",
+        "time": "shakespeare/time/The_Tempest.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-the-two-gentlemen-of-verona",
+      "title": "The Two Gentlemen of Verona",
+      "author": "William Shakespeare",
+      "text": "shakespeare/The_Two_Gentlemen_of_Verona.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/The_Two_Gentlemen_of_Verona.net",
+        "time": "shakespeare/time/The_Two_Gentlemen_of_Verona.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-the-winter-s-tale",
+      "title": "The Winter's Tale",
+      "author": "William Shakespeare",
+      "text": "shakespeare/The_Winter's_Tale.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/The_Winter's_Tale.net",
+        "time": "shakespeare/time/The_Winter's_Tale.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-timon-of-athens",
+      "title": "Timon of Athens",
+      "author": "William Shakespeare",
+      "text": "shakespeare/Timon_of_Athens.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/Timon_of_Athens.net",
+        "time": "shakespeare/time/Timon_of_Athens.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-titus-andronicus",
+      "title": "Titus Andronicus",
+      "author": "William Shakespeare",
+      "text": "shakespeare/Titus_Andronicus.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/Titus_Andronicus.net",
+        "time": "shakespeare/time/Titus_Andronicus.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-troilus-and-cressida",
+      "title": "Troilus and Cressida",
+      "author": "William Shakespeare",
+      "text": "shakespeare/Troilus_and_Cressida.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/Troilus_and_Cressida.net",
+        "time": "shakespeare/time/Troilus_and_Cressida.net"
+      }
+    },
+    {
+      "kind": "play",
+      "tag": "shakespeare-twelfth-night-or-what-you-will",
+      "title": "Twelfth-Night; or What You Will",
+      "author": "William Shakespeare",
+      "text": "shakespeare/Twelfth-Night;_or_What_You_Will.txt",
+      "groundTruth": {
+        "format": "pajek",
+        "speech": "shakespeare/speech/Twelfth-Night;_or_What_You_Will.net",
+        "time": "shakespeare/time/Twelfth-Night;_or_What_You_Will.net"
+      }
+    }
+  ]
+}

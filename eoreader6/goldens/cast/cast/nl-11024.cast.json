@@ -1,0 +1,61 @@
+{
+  "tag": "nl-11024",
+  "lang": "nl",
+  "pgId": 11024,
+  "title": "Max Havelaar",
+  "reference": {
+    "wiki": "nl.wikipedia.org",
+    "title": "Max Havelaar (boek)",
+    "revId": 71610353,
+    "sha256": "ba8098cca261f64e3d9492683a61b161c4158ffbe37a4d1d2aa5dc2e94c61b95"
+  },
+  "strategy": "nl-11024",
+  "count": 15,
+  "entries": [
+    {
+      "name": "Droogstoppel"
+    },
+    {
+      "name": "Stern"
+    },
+    {
+      "name": "Multatuli"
+    },
+    {
+      "name": "Max Havelaar, Sjaalman"
+    },
+    {
+      "name": "Max Havelaar jr"
+    },
+    {
+      "name": "Nonnie Sjaalman"
+    },
+    {
+      "name": "Slijmering"
+    },
+    {
+      "name": "Tine"
+    },
+    {
+      "name": "Generaal Vandamme"
+    },
+    {
+      "name": "Duclari"
+    },
+    {
+      "name": "Verbrugge"
+    },
+    {
+      "name": "Slotering"
+    },
+    {
+      "name": "Gouverneur-generaal"
+    },
+    {
+      "name": "Opvolger van de Gouverneur-generaal"
+    },
+    {
+      "name": "Voorganger van de tegenwoordige gouverneur-generaal"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "tag": "shakespeare-troilus-and-cressida",
+  "kind": "play",
+  "spec": {
+    "window": 8,
+    "draws": 99,
+    "reseeds": 8,
+    "minArrivals": 4,
+    "atomsPerUnit": 200,
+    "offerEvery": 60
+  },
+  "segments": 24,
+  "units": 133,
+  "candidateSurfaces": 435,
+  "referents": 77,
+  "score": {
+    "registerSize": 6,
+    "referenceNodes": 25,
+    "entityHits": 2,
+    "entityRecall": 0.08,
+    "edgesFoundTotal": 2,
+    "candidateEdges": 0,
+    "referenceEdges": 155,
+    "edgeHits": 0,
+    "edgeRecall": 0,
+    "edgePrecision": 0,
+    "edgeChance": {
+      "mean": 0,
+      "p95": 0,
+      "max": 0
+    },
+    "matchedEdges": []
+  },
+  "edges": [
+    {
+      "a": "e0",
+      "b": "e1",
+      "weight": 79,
+      "pValue": 0
+    },
+    {
+      "a": "e0",
+      "b": "e2",
+      "weight": 59,
+      "pValue": 0.04020100502512563
+    }
+  ],
+  "register": [
+    {
+      "id": "e0",
+      "referentIds": [
+        "ref:auto:helen"
+      ],
+      "surface": "Helen",
+      "bornAt": 60
+    },
+    {
+      "id": "e1",
+      "referentIds": [
+        "ref:auto:greeks"
+      ],
+      "surface": "Greeks",
+      "bornAt": 60
+    },
+    {
+      "id": "e2",
+      "referentIds": [
+        "ref:auto:trojan"
+      ],
+      "surface": "Trojan",
+      "bornAt": 60
+    },
+    {
+      "id": "e3",
+      "referentIds": [
+        "ref:auto:greek"
+      ],
+      "surface": "Greek",
+      "bornAt": 60
+    },
+    {
+      "id": "e4",
+      "referentIds": [
+        "ref:auto:greekish"
+      ],
+      "surface": "Greekish",
+      "bornAt": 120
+    },
+    {
+      "id": "e5",
+      "referentIds": [
+        "ref:auto:menelaus"
+      ],
+      "surface": "Menelaus",
+      "bornAt": 133
+    }
+  ]
+}

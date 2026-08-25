@@ -1,0 +1,24 @@
+# dependencies
+node_modules/
+
+# build output / runtime caches
+/site-source/dist/
+/site-source/.next/
+/site-source/out/
+/site-source/.wrangler/
+/site-source/.sites-runtime/
+/site-source/next-env.d.ts
+
+# imported witnesses and preserved source bytes stay out of the repo
+/site-source/public/data/*
+!/site-source/public/data/README.md
+/site-source/public/imports/*
+!/site-source/public/imports/README.md
+
+# env / secrets
+.env*
+*.pem
+
+# misc
+.DS_Store
+*.log

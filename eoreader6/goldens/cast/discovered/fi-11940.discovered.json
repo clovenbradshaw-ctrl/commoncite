@@ -1,0 +1,1061 @@
+{
+  "spec": {
+    "draws": 99,
+    "window": 8,
+    "reseeds": 8,
+    "hop": 4,
+    "units": 480,
+    "minOccurrences": 5,
+    "maxCandidates": 500
+  },
+  "spaced": true,
+  "arena": {
+    "units": 480,
+    "coverage": {
+      "covered": 480,
+      "extent": 480,
+      "uncovered": 0,
+      "complete": true
+    },
+    "contemporaryOf0": []
+  },
+  "candidatesConsidered": 500,
+  "candidatesDropped": 2559,
+  "clumped": 32,
+  "regular": 79,
+  "clumpedAll": [
+    {
+      "surface": "oli",
+      "count": 533,
+      "extent": 349,
+      "reach": 0.7270833333333333,
+      "ananda": 0.015837614639057307,
+      "height": "unstable"
+    },
+    {
+      "surface": "heidän",
+      "count": 243,
+      "extent": 152,
+      "reach": 0.31666666666666665,
+      "ananda": 0.034762064949491744,
+      "height": "peer"
+    },
+    {
+      "surface": "viimein",
+      "count": 181,
+      "extent": 168,
+      "reach": 0.35,
+      "ananda": 0.031983813645403814,
+      "height": "unstable"
+    },
+    {
+      "surface": "veljekset",
+      "count": 170,
+      "extent": 111,
+      "reach": 0.23125,
+      "ananda": 0.0485065412766037,
+      "height": "unstable"
+    },
+    {
+      "surface": "taasen",
+      "count": 152,
+      "extent": 122,
+      "reach": 0.25416666666666665,
+      "ananda": 0.03884400163137158,
+      "height": "unstable"
+    },
+    {
+      "surface": "silloin",
+      "count": 148,
+      "extent": 150,
+      "reach": 0.3125,
+      "ananda": 0.04077846902431759,
+      "height": "peer"
+    },
+    {
+      "surface": "ylös",
+      "count": 135,
+      "extent": 113,
+      "reach": 0.23541666666666666,
+      "ananda": 0.03852138939548766,
+      "height": "unstable"
+    },
+    {
+      "surface": "taas",
+      "count": 110,
+      "extent": 199,
+      "reach": 0.41458333333333336,
+      "ananda": 0.02233674924795004,
+      "height": "peer"
+    },
+    {
+      "surface": "impivaaran",
+      "count": 71,
+      "extent": 60,
+      "reach": 0.125,
+      "ananda": 0.07176956688163294,
+      "height": "unstable"
+    },
+    {
+      "surface": "alla",
+      "count": 66,
+      "extent": 356,
+      "reach": 0.7416666666666667,
+      "ananda": 0.012483869440178097,
+      "height": "unstable"
+    },
+    {
+      "surface": "jossa",
+      "count": 65,
+      "extent": 63,
+      "reach": 0.13125,
+      "ananda": 0.07155241647821775,
+      "height": "peer"
+    },
+    {
+      "surface": "istui",
+      "count": 57,
+      "extent": 108,
+      "reach": 0.225,
+      "ananda": 0.049384934380729106,
+      "height": "unstable"
+    },
+    {
+      "surface": "pitkin",
+      "count": 57,
+      "extent": 50,
+      "reach": 0.10416666666666667,
+      "ananda": 0.04471670779036607,
+      "height": "peer"
+    },
+    {
+      "surface": "astui",
+      "count": 42,
+      "extent": 91,
+      "reach": 0.18958333333333333,
+      "ananda": 0.04958175176037116,
+      "height": "peer"
+    },
+    {
+      "surface": "yhä",
+      "count": 41,
+      "extent": 76,
+      "reach": 0.15833333333333333,
+      "ananda": 0.04583678603027863,
+      "height": "peer"
+    },
+    {
+      "surface": "silmänsä",
+      "count": 41,
+      "extent": 37,
+      "reach": 0.07708333333333334,
+      "ananda": 0.07781599264455785,
+      "height": "peer"
+    },
+    {
+      "surface": "vuoren",
+      "count": 35,
+      "extent": 26,
+      "reach": 0.05416666666666667,
+      "ananda": 0.1009759563073338,
+      "height": "peer"
+    },
+    {
+      "surface": "oli hän",
+      "count": 34,
+      "extent": 51,
+      "reach": 0.10625,
+      "ananda": 0.0709480507115412,
+      "height": "unstable"
+    },
+    {
+      "surface": "istuivat",
+      "count": 33,
+      "extent": 37,
+      "reach": 0.07708333333333334,
+      "ananda": 0.07781599264455785,
+      "height": "peer"
+    },
+    {
+      "surface": "talo",
+      "count": 31,
+      "extent": 105,
+      "reach": 0.21875,
+      "ananda": 0.0452525174348164,
+      "height": "peer"
+    },
+    {
+      "surface": "seisoo",
+      "count": 31,
+      "extent": 27,
+      "reach": 0.05625,
+      "ananda": 0.09352853776247727,
+      "height": "peer"
+    },
+    {
+      "surface": "metsien",
+      "count": 29,
+      "extent": 28,
+      "reach": 0.058333333333333334,
+      "ananda": 0.10160154941620192,
+      "height": "peer"
+    },
+    {
+      "surface": "monen",
+      "count": 28,
+      "extent": 30,
+      "reach": 0.0625,
+      "ananda": 0.09601767533593275,
+      "height": "peer"
+    },
+    {
+      "surface": "kuitenkaan",
+      "count": 27,
+      "extent": 26,
+      "reach": 0.05416666666666667,
+      "ananda": 0.1009759563073338,
+      "height": "peer"
+    },
+    {
+      "surface": "koirat",
+      "count": 27,
+      "extent": 28,
+      "reach": 0.058333333333333334,
+      "ananda": 0.10160154941620192,
+      "height": "peer"
+    },
+    {
+      "surface": "äänetönnä",
+      "count": 26,
+      "extent": 24,
+      "reach": 0.05,
+      "ananda": 0.11595736785321975,
+      "height": "unstable"
+    },
+    {
+      "surface": "antoi",
+      "count": 25,
+      "extent": 43,
+      "reach": 0.08958333333333333,
+      "ananda": 0.06508516344006665,
+      "height": "unstable"
+    },
+    {
+      "surface": "olla",
+      "count": 24,
+      "extent": 191,
+      "reach": 0.39791666666666664,
+      "ananda": 0.0279537853626195,
+      "height": "peer"
+    },
+    {
+      "surface": "huomasi",
+      "count": 23,
+      "extent": 41,
+      "reach": 0.08541666666666667,
+      "ananda": 0.07104195922770984,
+      "height": "unstable"
+    },
+    {
+      "surface": "pirtin",
+      "count": 21,
+      "extent": 18,
+      "reach": 0.0375,
+      "ananda": 0.126478929757198,
+      "height": "peer"
+    },
+    {
+      "surface": "maan",
+      "count": 20,
+      "extent": 308,
+      "reach": 0.6416666666666667,
+      "ananda": 0.019977974469858495,
+      "height": "unstable"
+    },
+    {
+      "surface": "metsä",
+      "count": 19,
+      "extent": 113,
+      "reach": 0.23541666666666666,
+      "ananda": 0.03852138939548766,
+      "height": "peer"
+    }
+  ],
+  "regularAll": [
+    {
+      "surface": "hän",
+      "count": 1051,
+      "extent": 429,
+      "reach": 0.89375,
+      "ananda": 0.008064180535082954,
+      "height": "peer"
+    },
+    {
+      "surface": "juhani",
+      "count": 1009,
+      "extent": 321,
+      "reach": 0.66875,
+      "ananda": 0.019438315252491734,
+      "height": "above"
+    },
+    {
+      "surface": "niin",
+      "count": 767,
+      "extent": 409,
+      "reach": 0.8520833333333333,
+      "ananda": 0.00999223821171924,
+      "height": "unstable"
+    },
+    {
+      "surface": "kuin",
+      "count": 619,
+      "extent": 382,
+      "reach": 0.7958333333333333,
+      "ananda": 0.012684366172441841,
+      "height": "above"
+    },
+    {
+      "surface": "aapo",
+      "count": 406,
+      "extent": 213,
+      "reach": 0.44375,
+      "ananda": 0.02646812999107695,
+      "height": "above"
+    },
+    {
+      "surface": "minä",
+      "count": 397,
+      "extent": 220,
+      "reach": 0.4583333333333333,
+      "ananda": 0.02730855921341302,
+      "height": "unstable"
+    },
+    {
+      "surface": "timo",
+      "count": 368,
+      "extent": 195,
+      "reach": 0.40625,
+      "ananda": 0.02465283165017773,
+      "height": "above"
+    },
+    {
+      "surface": "vaan",
+      "count": 306,
+      "extent": 275,
+      "reach": 0.5729166666666666,
+      "ananda": 0.023622136002618532,
+      "height": "above"
+    },
+    {
+      "surface": "tuomas",
+      "count": 298,
+      "extent": 160,
+      "reach": 0.3333333333333333,
+      "ananda": 0.028469251840203214,
+      "height": "above"
+    },
+    {
+      "surface": "simeoni",
+      "count": 287,
+      "extent": 158,
+      "reach": 0.32916666666666666,
+      "ananda": 0.033594925870986,
+      "height": "unstable"
+    },
+    {
+      "surface": "eero",
+      "count": 272,
+      "extent": 153,
+      "reach": 0.31875,
+      "ananda": 0.03309667392555404,
+      "height": "unstable"
+    },
+    {
+      "surface": "mitä",
+      "count": 263,
+      "extent": 198,
+      "reach": 0.4125,
+      "ananda": 0.02538818606886295,
+      "height": "unstable"
+    },
+    {
+      "surface": "tämä",
+      "count": 234,
+      "extent": 279,
+      "reach": 0.58125,
+      "ananda": 0.0219325698608408,
+      "height": "peer"
+    },
+    {
+      "surface": "sinä",
+      "count": 215,
+      "extent": 143,
+      "reach": 0.29791666666666666,
+      "ananda": 0.031893145808004064,
+      "height": "unstable"
+    },
+    {
+      "surface": "tässä",
+      "count": 201,
+      "extent": 154,
+      "reach": 0.32083333333333336,
+      "ananda": 0.032783647988965825,
+      "height": "peer"
+    },
+    {
+      "surface": "niinkuin",
+      "count": 165,
+      "extent": 126,
+      "reach": 0.2625,
+      "ananda": 0.04003443297626319,
+      "height": "unstable"
+    },
+    {
+      "surface": "kerran",
+      "count": 160,
+      "extent": 132,
+      "reach": 0.275,
+      "ananda": 0.04328322865814904,
+      "height": "peer"
+    },
+    {
+      "surface": "juuri",
+      "count": 142,
+      "extent": 124,
+      "reach": 0.25833333333333336,
+      "ananda": 0.03920272932282387,
+      "height": "above"
+    },
+    {
+      "surface": "meitä",
+      "count": 136,
+      "extent": 100,
+      "reach": 0.20833333333333334,
+      "ananda": 0.044580939499132555,
+      "height": "peer"
+    },
+    {
+      "surface": "sitä",
+      "count": 126,
+      "extent": 114,
+      "reach": 0.2375,
+      "ananda": 0.03926121621260137,
+      "height": "peer"
+    },
+    {
+      "surface": "kuinka",
+      "count": 114,
+      "extent": 96,
+      "reach": 0.2,
+      "ananda": 0.04973736085614,
+      "height": "unstable"
+    },
+    {
+      "surface": "vaikka",
+      "count": 104,
+      "extent": 87,
+      "reach": 0.18125,
+      "ananda": 0.0531329847348605,
+      "height": "above"
+    },
+    {
+      "surface": "tuossa",
+      "count": 101,
+      "extent": 81,
+      "reach": 0.16875,
+      "ananda": 0.0481695388824015,
+      "height": "peer"
+    },
+    {
+      "surface": "olkoon",
+      "count": 91,
+      "extent": 72,
+      "reach": 0.15,
+      "ananda": 0.05208220819609366,
+      "height": "above"
+    },
+    {
+      "surface": "tuo",
+      "count": 81,
+      "extent": 394,
+      "reach": 0.8208333333333333,
+      "ananda": 0.011079334687703835,
+      "height": "above"
+    },
+    {
+      "surface": "meille",
+      "count": 80,
+      "extent": 64,
+      "reach": 0.13333333333333333,
+      "ananda": 0.05669752949458484,
+      "height": "peer"
+    },
+    {
+      "surface": "olen",
+      "count": 80,
+      "extent": 102,
+      "reach": 0.2125,
+      "ananda": 0.04645221609487393,
+      "height": "peer"
+    },
+    {
+      "surface": "kyllä",
+      "count": 77,
+      "extent": 90,
+      "reach": 0.1875,
+      "ananda": 0.04232561202455187,
+      "height": "unstable"
+    },
+    {
+      "surface": "veljet",
+      "count": 71,
+      "extent": 61,
+      "reach": 0.12708333333333333,
+      "ananda": 0.053824328083523554,
+      "height": "peer"
+    },
+    {
+      "surface": "minun",
+      "count": 71,
+      "extent": 60,
+      "reach": 0.125,
+      "ananda": 0.07176956688163294,
+      "height": "peer"
+    },
+    {
+      "surface": "yksi",
+      "count": 70,
+      "extent": 97,
+      "reach": 0.20208333333333334,
+      "ananda": 0.045641879739324764,
+      "height": "above"
+    },
+    {
+      "surface": "minua",
+      "count": 68,
+      "extent": 49,
+      "reach": 0.10208333333333333,
+      "ananda": 0.06778847839106739,
+      "height": "unstable"
+    },
+    {
+      "surface": "pojat",
+      "count": 67,
+      "extent": 55,
+      "reach": 0.11458333333333333,
+      "ananda": 0.07227703056756418,
+      "height": "peer"
+    },
+    {
+      "surface": "sinun",
+      "count": 65,
+      "extent": 51,
+      "reach": 0.10625,
+      "ananda": 0.0709480507115412,
+      "height": "unstable"
+    },
+    {
+      "surface": "meidän",
+      "count": 63,
+      "extent": 53,
+      "reach": 0.11041666666666666,
+      "ananda": 0.059647677791708986,
+      "height": "unstable"
+    },
+    {
+      "surface": "vähän",
+      "count": 59,
+      "extent": 60,
+      "reach": 0.125,
+      "ananda": 0.07176956688163294,
+      "height": "peer"
+    },
+    {
+      "surface": "älä",
+      "count": 58,
+      "extent": 113,
+      "reach": 0.23541666666666666,
+      "ananda": 0.03852138939548766,
+      "height": "peer"
+    },
+    {
+      "surface": "siis",
+      "count": 57,
+      "extent": 50,
+      "reach": 0.10416666666666667,
+      "ananda": 0.04471670779036607,
+      "height": "unstable"
+    },
+    {
+      "surface": "tästä",
+      "count": 57,
+      "extent": 67,
+      "reach": 0.13958333333333334,
+      "ananda": 0.0428721639144527,
+      "height": "unstable"
+    },
+    {
+      "surface": "sinua",
+      "count": 56,
+      "extent": 44,
+      "reach": 0.09166666666666666,
+      "ananda": 0.06630911164522502,
+      "height": "peer"
+    },
+    {
+      "surface": "koreasti",
+      "count": 51,
+      "extent": 40,
+      "reach": 0.08333333333333333,
+      "ananda": 0.0745258171521801,
+      "height": "peer"
+    },
+    {
+      "surface": "jumala",
+      "count": 50,
+      "extent": 104,
+      "reach": 0.21666666666666667,
+      "ananda": 0.04750525419231266,
+      "height": "peer"
+    },
+    {
+      "surface": "suuri",
+      "count": 47,
+      "extent": 61,
+      "reach": 0.12708333333333333,
+      "ananda": 0.053824328083523554,
+      "height": "unstable"
+    },
+    {
+      "surface": "hyvä",
+      "count": 47,
+      "extent": 95,
+      "reach": 0.19791666666666666,
+      "ananda": 0.04948428614985367,
+      "height": "peer"
+    },
+    {
+      "surface": "koko",
+      "count": 45,
+      "extent": 59,
+      "reach": 0.12291666666666666,
+      "ananda": 0.06579646954421037,
+      "height": "peer"
+    },
+    {
+      "surface": "tähden",
+      "count": 42,
+      "extent": 88,
+      "reach": 0.18333333333333332,
+      "ananda": 0.04529308510298691,
+      "height": "unstable"
+    },
+    {
+      "surface": "tahdon",
+      "count": 42,
+      "extent": 38,
+      "reach": 0.07916666666666666,
+      "ananda": 0.05984983149845746,
+      "height": "peer"
+    },
+    {
+      "surface": "olemme",
+      "count": 41,
+      "extent": 46,
+      "reach": 0.09583333333333334,
+      "ananda": 0.06038711134079833,
+      "height": "peer"
+    },
+    {
+      "surface": "se on",
+      "count": 40,
+      "extent": 37,
+      "reach": 0.07708333333333334,
+      "ananda": 0.07781599264455785,
+      "height": "unstable"
+    },
+    {
+      "surface": "kiinni",
+      "count": 40,
+      "extent": 40,
+      "reach": 0.08333333333333333,
+      "ananda": 0.0745258171521801,
+      "height": "unstable"
+    },
+    {
+      "surface": "sanoi",
+      "count": 38,
+      "extent": 47,
+      "reach": 0.09791666666666667,
+      "ananda": 0.06842504349650014,
+      "height": "unstable"
+    },
+    {
+      "surface": "yhtä",
+      "count": 37,
+      "extent": 80,
+      "reach": 0.16666666666666666,
+      "ananda": 0.037354403680920356,
+      "height": "unstable"
+    },
+    {
+      "surface": "hän on",
+      "count": 37,
+      "extent": 43,
+      "reach": 0.08958333333333333,
+      "ananda": 0.06508516344006665,
+      "height": "above"
+    },
+    {
+      "surface": "veljeni",
+      "count": 36,
+      "extent": 37,
+      "reach": 0.07708333333333334,
+      "ananda": 0.07781599264455785,
+      "height": "peer"
+    },
+    {
+      "surface": "mene",
+      "count": 36,
+      "extent": 99,
+      "reach": 0.20625,
+      "ananda": 0.04475441623945642,
+      "height": "above"
+    },
+    {
+      "surface": "sanon",
+      "count": 35,
+      "extent": 44,
+      "reach": 0.09166666666666666,
+      "ananda": 0.06630911164522502,
+      "height": "unstable"
+    },
+    {
+      "surface": "ehkä",
+      "count": 33,
+      "extent": 45,
+      "reach": 0.09375,
+      "ananda": 0.06848910402554864,
+      "height": "unstable"
+    },
+    {
+      "surface": "ei ole",
+      "count": 33,
+      "extent": 36,
+      "reach": 0.075,
+      "ananda": 0.07618973142893282,
+      "height": "unstable"
+    },
+    {
+      "surface": "asia",
+      "count": 32,
+      "extent": 84,
+      "reach": 0.175,
+      "ananda": 0.05982032809647819,
+      "height": "unstable"
+    },
+    {
+      "surface": "tiedän",
+      "count": 32,
+      "extent": 27,
+      "reach": 0.05625,
+      "ananda": 0.09352853776247727,
+      "height": "unstable"
+    },
+    {
+      "surface": "totisesti",
+      "count": 31,
+      "extent": 30,
+      "reach": 0.0625,
+      "ananda": 0.09601767533593275,
+      "height": "peer"
+    },
+    {
+      "surface": "anna",
+      "count": 31,
+      "extent": 88,
+      "reach": 0.18333333333333332,
+      "ananda": 0.04529308510298691,
+      "height": "unstable"
+    },
+    {
+      "surface": "tiedä",
+      "count": 27,
+      "extent": 65,
+      "reach": 0.13541666666666666,
+      "ananda": 0.06122091900974702,
+      "height": "unstable"
+    },
+    {
+      "surface": "auta",
+      "count": 26,
+      "extent": 61,
+      "reach": 0.12708333333333333,
+      "ananda": 0.053824328083523554,
+      "height": "peer"
+    },
+    {
+      "surface": "kuka",
+      "count": 26,
+      "extent": 29,
+      "reach": 0.06041666666666667,
+      "ananda": 0.0931221132286808,
+      "height": "unstable"
+    },
+    {
+      "surface": "tehdä",
+      "count": 25,
+      "extent": 30,
+      "reach": 0.0625,
+      "ananda": 0.09601767533593275,
+      "height": "peer"
+    },
+    {
+      "surface": "tekee",
+      "count": 24,
+      "extent": 23,
+      "reach": 0.04791666666666667,
+      "ananda": 0.09363088748600212,
+      "height": "unstable"
+    },
+    {
+      "surface": "sinulle",
+      "count": 23,
+      "extent": 23,
+      "reach": 0.04791666666666667,
+      "ananda": 0.09363088748600212,
+      "height": "unstable"
+    },
+    {
+      "surface": "olet",
+      "count": 23,
+      "extent": 57,
+      "reach": 0.11875,
+      "ananda": 0.06203242797526798,
+      "height": "unstable"
+    },
+    {
+      "surface": "onko",
+      "count": 22,
+      "extent": 27,
+      "reach": 0.05625,
+      "ananda": 0.09352853776247727,
+      "height": "above"
+    },
+    {
+      "surface": "minä en",
+      "count": 22,
+      "extent": 15,
+      "reach": 0.03125,
+      "ananda": 0.1610229416911153,
+      "height": "peer"
+    },
+    {
+      "surface": "mutta mitä",
+      "count": 20,
+      "extent": 21,
+      "reach": 0.04375,
+      "ananda": 0.12116378236170178,
+      "height": "unstable"
+    },
+    {
+      "surface": "koettaa",
+      "count": 20,
+      "extent": 16,
+      "reach": 0.03333333333333333,
+      "ananda": 0.10796416090275684,
+      "height": "above"
+    },
+    {
+      "surface": "emme",
+      "count": 20,
+      "extent": 177,
+      "reach": 0.36875,
+      "ananda": 0.029401320501666106,
+      "height": "peer"
+    },
+    {
+      "surface": "kas niin",
+      "count": 20,
+      "extent": 17,
+      "reach": 0.035416666666666666,
+      "ananda": 0.11375942653268467,
+      "height": "above"
+    },
+    {
+      "surface": "suinkaan",
+      "count": 19,
+      "extent": 14,
+      "reach": 0.029166666666666667,
+      "ananda": 0.1435152685829344,
+      "height": "peer"
+    },
+    {
+      "surface": "ja minä",
+      "count": 19,
+      "extent": 20,
+      "reach": 0.041666666666666664,
+      "ananda": 0.1009482020050747,
+      "height": "unstable"
+    },
+    {
+      "surface": "minulle",
+      "count": 19,
+      "extent": 19,
+      "reach": 0.03958333333333333,
+      "ananda": 0.12295322993186275,
+      "height": "peer"
+    },
+    {
+      "surface": "kuullut",
+      "count": 19,
+      "extent": 17,
+      "reach": 0.035416666666666666,
+      "ananda": 0.11375942653268467,
+      "height": "above"
+    }
+  ],
+  "heights": {
+    "above": 0,
+    "peer": 19,
+    "unstable": 13
+  },
+  "register": [
+    {
+      "surface": "juhani",
+      "count": 1009,
+      "extent": 321,
+      "reach": 0.66875,
+      "ananda": 0.019438315252491734,
+      "height": "above"
+    },
+    {
+      "surface": "kuin",
+      "count": 619,
+      "extent": 382,
+      "reach": 0.7958333333333333,
+      "ananda": 0.012684366172441841,
+      "height": "above"
+    },
+    {
+      "surface": "aapo",
+      "count": 406,
+      "extent": 213,
+      "reach": 0.44375,
+      "ananda": 0.02646812999107695,
+      "height": "above"
+    },
+    {
+      "surface": "timo",
+      "count": 368,
+      "extent": 195,
+      "reach": 0.40625,
+      "ananda": 0.02465283165017773,
+      "height": "above"
+    },
+    {
+      "surface": "vaan",
+      "count": 306,
+      "extent": 275,
+      "reach": 0.5729166666666666,
+      "ananda": 0.023622136002618532,
+      "height": "above"
+    },
+    {
+      "surface": "tuomas",
+      "count": 298,
+      "extent": 160,
+      "reach": 0.3333333333333333,
+      "ananda": 0.028469251840203214,
+      "height": "above"
+    },
+    {
+      "surface": "juuri",
+      "count": 142,
+      "extent": 124,
+      "reach": 0.25833333333333336,
+      "ananda": 0.03920272932282387,
+      "height": "above"
+    },
+    {
+      "surface": "vaikka",
+      "count": 104,
+      "extent": 87,
+      "reach": 0.18125,
+      "ananda": 0.0531329847348605,
+      "height": "above"
+    },
+    {
+      "surface": "olkoon",
+      "count": 91,
+      "extent": 72,
+      "reach": 0.15,
+      "ananda": 0.05208220819609366,
+      "height": "above"
+    },
+    {
+      "surface": "tuo",
+      "count": 81,
+      "extent": 394,
+      "reach": 0.8208333333333333,
+      "ananda": 0.011079334687703835,
+      "height": "above"
+    },
+    {
+      "surface": "yksi",
+      "count": 70,
+      "extent": 97,
+      "reach": 0.20208333333333334,
+      "ananda": 0.045641879739324764,
+      "height": "above"
+    },
+    {
+      "surface": "hän on",
+      "count": 37,
+      "extent": 43,
+      "reach": 0.08958333333333333,
+      "ananda": 0.06508516344006665,
+      "height": "above"
+    },
+    {
+      "surface": "mene",
+      "count": 36,
+      "extent": 99,
+      "reach": 0.20625,
+      "ananda": 0.04475441623945642,
+      "height": "above"
+    },
+    {
+      "surface": "onko",
+      "count": 22,
+      "extent": 27,
+      "reach": 0.05625,
+      "ananda": 0.09352853776247727,
+      "height": "above"
+    },
+    {
+      "surface": "koettaa",
+      "count": 20,
+      "extent": 16,
+      "reach": 0.03333333333333333,
+      "ananda": 0.10796416090275684,
+      "height": "above"
+    },
+    {
+      "surface": "kas niin",
+      "count": 20,
+      "extent": 17,
+      "reach": 0.035416666666666666,
+      "ananda": 0.11375942653268467,
+      "height": "above"
+    },
+    {
+      "surface": "kuullut",
+      "count": 19,
+      "extent": 17,
+      "reach": 0.035416666666666666,
+      "ananda": 0.11375942653268467,
+      "height": "above"
+    }
+  ]
+}

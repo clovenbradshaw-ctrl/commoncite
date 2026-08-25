@@ -1,0 +1,3365 @@
+{
+  "opts": {
+    "minPrevalence": 0.15,
+    "minKindSize": 3,
+    "permutations": 100,
+    "quantile": 0.95,
+    "reseeds": 12,
+    "seed": 42
+  },
+  "dipRatio": 0.4,
+  "maxSpanLen": 4,
+  "window": 6,
+  "docsProcessed": 15,
+  "topVerbs": [
+    "is",
+    "support",
+    "with",
+    "error",
+    "from",
+    "'s",
+    "when",
+    "files",
+    "that",
+    "as",
+    "features",
+    "or"
+  ],
+  "results": [
+    {
+      "verb": "is",
+      "fillerCount": 29,
+      "kinds": [
+        {
+          "id": "kind:tp-verb-island:is:filler:connection|filler:dir|filler:flag|filler:here|filler:pipe|filler:response|filler:spark|filler:stdout|filler:thread|filler:vimgrep",
+          "label": "pos:before_len1",
+          "population": "tp-verb-island:is",
+          "members": [
+            "filler:connection",
+            "filler:dir",
+            "filler:flag",
+            "filler:here",
+            "filler:pipe",
+            "filler:response",
+            "filler:spark",
+            "filler:stdout",
+            "filler:thread",
+            "filler:vimgrep"
+          ],
+          "core": {
+            "field_id": "pos:before_len1",
+            "value_type": "boolean",
+            "prevalence": 1
+          },
+          "cohesion": 1,
+          "height": "above",
+          "heightGate": {
+            "existence": {
+              "observed": 1,
+              "threshold": 0.6483333333333332,
+              "min": 0.4444444444444444,
+              "max": 0.8222222222222222,
+              "pValue": 0,
+              "passed": true
+            },
+            "constraint": {
+              "observed": 1,
+              "threshold": 0.7,
+              "min": 0.1,
+              "max": 0.8,
+              "pValue": 0,
+              "passed": true
+            },
+            "relation": "above",
+            "searched": {
+              "gap": "degenerate_ground",
+              "reason": "all 12 null samples equal (1)"
+            },
+            "ground": "key"
+          },
+          "operator_chain": {
+            "operator_epoch": "eo-2026-07",
+            "chain": [
+              "SIG",
+              "CON",
+              "EVA",
+              "DEF",
+              "INS",
+              "SYN"
+            ],
+            "stages": [
+              {
+                "operator": "SIG",
+                "target": "population:tp-verb-island:is",
+                "height": 0
+              },
+              {
+                "operator": "CON",
+                "target": "candidate:filler:here|filler:spark|filler:response|filler:thread|filler:connection|filler:dir|filler:stdout|filler:vimgrep|filler:pipe|filler:flag",
+                "height": null
+              },
+              {
+                "operator": "EVA",
+                "target": "kind:pos:before_len1",
+                "height": "above"
+              },
+              {
+                "operator": "DEF",
+                "target": "kind:pos:before_len1",
+                "height": "above"
+              },
+              {
+                "operator": "INS",
+                "target": "members:10",
+                "height": "below"
+              },
+              {
+                "operator": "SYN",
+                "target": "vocabulary",
+                "height": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "kind:tp-verb-island:is:filler:available|filler:built|filler:called|filler:deprecated.|filler:equivalent|filler:given|filler:important|filler:passed|filler:possible|filler:provided.|filler:similar|filler:specified|filler:used|filler:used.|filler:useful",
+          "label": "pos:after_len1",
+          "population": "tp-verb-island:is",
+          "members": [
+            "filler:available",
+            "filler:built",
+            "filler:called",
+            "filler:deprecated.",
+            "filler:equivalent",
+            "filler:given",
+            "filler:important",
+            "filler:passed",
+            "filler:possible",
+            "filler:provided.",
+            "filler:similar",
+            "filler:specified",
+            "filler:used",
+            "filler:used.",
+            "filler:useful"
+          ],
+          "core": {
+            "field_id": "pos:after_len1",
+            "value_type": "boolean",
+            "prevalence": 1
+          },
+          "cohesion": 1,
+          "height": "above",
+          "heightGate": {
+            "existence": {
+              "observed": 1,
+              "threshold": 0.5633333333333332,
+              "min": 0.4666666666666667,
+              "max": 0.7619047619047619,
+              "pValue": 0,
+              "passed": true
+            },
+            "constraint": {
+              "observed": 1,
+              "threshold": 0.8,
+              "min": 0.4,
+              "max": 0.8666666666666667,
+              "pValue": 0,
+              "passed": true
+            },
+            "relation": "above",
+            "searched": {
+              "gap": "degenerate_ground",
+              "reason": "all 12 null samples equal (1)"
+            },
+            "ground": "key"
+          },
+          "operator_chain": {
+            "operator_epoch": "eo-2026-07",
+            "chain": [
+              "SIG",
+              "CON",
+              "EVA",
+              "DEF",
+              "INS",
+              "SYN"
+            ],
+            "stages": [
+              {
+                "operator": "SIG",
+                "target": "population:tp-verb-island:is",
+                "height": 0
+              },
+              {
+                "operator": "CON",
+                "target": "candidate:filler:called|filler:used.|filler:equivalent|filler:used|filler:provided.|filler:deprecated.|filler:passed|filler:given|filler:useful|filler:specified|filler:possible|filler:important|filler:similar|filler:available|filler:built",
+                "height": null
+              },
+              {
+                "operator": "EVA",
+                "target": "kind:pos:after_len1",
+                "height": "above"
+              },
+              {
+                "operator": "DEF",
+                "target": "kind:pos:after_len1",
+                "height": "above"
+              },
+              {
+                "operator": "INS",
+                "target": "members:15",
+                "height": "below"
+              },
+              {
+                "operator": "SYN",
+                "target": "vocabulary",
+                "height": null
+              }
+            ]
+          }
+        }
+      ],
+      "records": [
+        {
+          "id": "filler:used.",
+          "label": "used.",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "id": "filler:equivalent",
+          "label": "equivalent",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "id": "filler:stdout",
+          "label": "stdout",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:there",
+          "label": "There",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 18
+            },
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 1
+            },
+            {
+              "field_id": "capitalized",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:used",
+          "label": "used",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 16
+            }
+          ]
+        },
+        {
+          "id": "filler:vimgrep",
+          "label": "vimgrep",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:provided.",
+          "label": "provided.",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:deprecated.",
+          "label": "deprecated.",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:pipe",
+          "label": "pipe",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:passed",
+          "label": "passed",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:given",
+          "label": "given",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:flag",
+          "label": "flag",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "id": "filler:useful",
+          "label": "useful",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "id": "filler:specified",
+          "label": "specified",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:possible",
+          "label": "possible",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 9
+            }
+          ]
+        },
+        {
+          "id": "filler:here",
+          "label": "here",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:important",
+          "label": "important",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "id": "filler:set",
+          "label": "set",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 9
+            },
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:similar",
+          "label": "similar",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:one",
+          "label": "one",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 1
+            },
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "id": "filler:available",
+          "label": "available",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "id": "filler:built",
+          "label": "built",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "id": "filler:spark",
+          "label": "Spark",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "capitalized",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:ruff",
+          "label": "Ruff",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 10
+            },
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 1
+            },
+            {
+              "field_id": "capitalized",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:response",
+          "label": "response",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:called",
+          "label": "called",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:thread",
+          "label": "thread",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:connection",
+          "label": "connection",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:dir",
+          "label": "DIR",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "capitalized",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "verb": "support",
+      "fillerCount": 17,
+      "kinds": [
+        {
+          "id": "kind:tp-verb-island:support:filler:abort reasons|filler:intel gpu|filler:npm packages|filler:npm specifiers",
+          "label": "pos:after_len2",
+          "population": "tp-verb-island:support",
+          "members": [
+            "filler:abort reasons",
+            "filler:intel gpu",
+            "filler:npm packages",
+            "filler:npm specifiers"
+          ],
+          "core": {
+            "field_id": "pos:after_len2",
+            "value_type": "boolean",
+            "prevalence": 1
+          },
+          "cohesion": 1,
+          "height": "above",
+          "heightGate": {
+            "existence": {
+              "observed": 1,
+              "threshold": 0.75,
+              "min": 0.16666666666666666,
+              "max": 1,
+              "pValue": 0.019801980198019802,
+              "passed": true
+            },
+            "constraint": {
+              "observed": 1,
+              "threshold": 0.5,
+              "min": 0,
+              "max": 0.75,
+              "pValue": 0,
+              "passed": true
+            },
+            "relation": "above",
+            "searched": {
+              "observed": 1,
+              "threshold": 0.75,
+              "min": 0.6666666666666666,
+              "max": 0.75,
+              "pValue": 0,
+              "passed": true
+            },
+            "ground": "key"
+          },
+          "operator_chain": {
+            "operator_epoch": "eo-2026-07",
+            "chain": [
+              "SIG",
+              "CON",
+              "EVA",
+              "DEF",
+              "INS",
+              "SYN"
+            ],
+            "stages": [
+              {
+                "operator": "SIG",
+                "target": "population:tp-verb-island:support",
+                "height": 0
+              },
+              {
+                "operator": "CON",
+                "target": "candidate:filler:npm specifiers|filler:npm packages|filler:abort reasons|filler:intel gpu",
+                "height": null
+              },
+              {
+                "operator": "EVA",
+                "target": "kind:pos:after_len2",
+                "height": "above"
+              },
+              {
+                "operator": "DEF",
+                "target": "kind:pos:after_len2",
+                "height": "above"
+              },
+              {
+                "operator": "INS",
+                "target": "members:4",
+                "height": "below"
+              },
+              {
+                "operator": "SYN",
+                "target": "vocabulary",
+                "height": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "kind:tp-verb-island:support:filler:configuration|filler:importing|filler:multiple|filler:sloppy|filler:tasks|filler:wildcards",
+          "label": "pos:after_len1",
+          "population": "tp-verb-island:support",
+          "members": [
+            "filler:configuration",
+            "filler:importing",
+            "filler:multiple",
+            "filler:sloppy",
+            "filler:tasks",
+            "filler:wildcards"
+          ],
+          "core": {
+            "field_id": "pos:after_len1",
+            "value_type": "boolean",
+            "prevalence": 1
+          },
+          "cohesion": 1,
+          "height": "above",
+          "heightGate": {
+            "existence": {
+              "observed": 1,
+              "threshold": 0.5666666666666667,
+              "min": 0.2,
+              "max": 0.8333333333333334,
+              "pValue": 0,
+              "passed": true
+            },
+            "constraint": {
+              "observed": 1,
+              "threshold": 0.8333333333333334,
+              "min": 0,
+              "max": 1,
+              "pValue": 0.009900990099009901,
+              "passed": true
+            },
+            "relation": "above",
+            "searched": {
+              "observed": 1,
+              "threshold": 0.8266666666666667,
+              "min": 0.611111111111111,
+              "max": 0.8333333333333334,
+              "pValue": 0,
+              "passed": true
+            },
+            "ground": "key"
+          },
+          "operator_chain": {
+            "operator_epoch": "eo-2026-07",
+            "chain": [
+              "SIG",
+              "CON",
+              "EVA",
+              "DEF",
+              "INS",
+              "SYN"
+            ],
+            "stages": [
+              {
+                "operator": "SIG",
+                "target": "population:tp-verb-island:support",
+                "height": 0
+              },
+              {
+                "operator": "CON",
+                "target": "candidate:filler:wildcards|filler:multiple|filler:configuration|filler:importing|filler:sloppy|filler:tasks",
+                "height": null
+              },
+              {
+                "operator": "EVA",
+                "target": "kind:pos:after_len1",
+                "height": "above"
+              },
+              {
+                "operator": "DEF",
+                "target": "kind:pos:after_len1",
+                "height": "above"
+              },
+              {
+                "operator": "INS",
+                "target": "members:6",
+                "height": "below"
+              },
+              {
+                "operator": "SYN",
+                "target": "vocabulary",
+                "height": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "kind:tp-verb-island:support:filler:basic|filler:lsp|filler:npm|filler:threads|filler:unstable|filler:url|filler:workspace",
+          "label": "pos:before_len1",
+          "population": "tp-verb-island:support",
+          "members": [
+            "filler:basic",
+            "filler:lsp",
+            "filler:npm",
+            "filler:threads",
+            "filler:unstable",
+            "filler:url",
+            "filler:workspace"
+          ],
+          "core": {
+            "field_id": "pos:before_len1",
+            "value_type": "boolean",
+            "prevalence": 1
+          },
+          "cohesion": 0.7142857142857143,
+          "height": "above",
+          "heightGate": {
+            "existence": {
+              "observed": 0.7142857142857143,
+              "threshold": 0.5238095238095238,
+              "min": 0.23809523809523808,
+              "max": 0.5952380952380952,
+              "pValue": 0,
+              "passed": true
+            },
+            "constraint": {
+              "observed": 1,
+              "threshold": 0.5714285714285714,
+              "min": 0.14285714285714285,
+              "max": 0.7142857142857143,
+              "pValue": 0,
+              "passed": true
+            },
+            "relation": "above",
+            "searched": {
+              "gap": "degenerate_ground",
+              "reason": "all 2 null samples equal (0.7142857142857143)"
+            },
+            "ground": "key"
+          },
+          "operator_chain": {
+            "operator_epoch": "eo-2026-07",
+            "chain": [
+              "SIG",
+              "CON",
+              "EVA",
+              "DEF",
+              "INS",
+              "SYN"
+            ],
+            "stages": [
+              {
+                "operator": "SIG",
+                "target": "population:tp-verb-island:support",
+                "height": 0
+              },
+              {
+                "operator": "CON",
+                "target": "candidate:filler:npm|filler:workspace|filler:url|filler:unstable|filler:basic|filler:lsp|filler:threads",
+                "height": null
+              },
+              {
+                "operator": "EVA",
+                "target": "kind:pos:before_len1",
+                "height": "above"
+              },
+              {
+                "operator": "DEF",
+                "target": "kind:pos:before_len1",
+                "height": "above"
+              },
+              {
+                "operator": "INS",
+                "target": "members:7",
+                "height": "below"
+              },
+              {
+                "operator": "SYN",
+                "target": "vocabulary",
+                "height": null
+              }
+            ]
+          }
+        }
+      ],
+      "records": [
+        {
+          "id": "filler:configuration",
+          "label": "configuration",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:workspace",
+          "label": "workspace",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 2
+            },
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:npm specifiers",
+          "label": "npm specifiers",
+          "attributes": [
+            {
+              "field_id": "pos:after_len2",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:npm packages",
+          "label": "npm packages",
+          "attributes": [
+            {
+              "field_id": "pos:after_len2",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:url",
+          "label": "URL",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 1
+            },
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "capitalized",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:npm",
+          "label": "npm",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 1
+            },
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "id": "filler:unstable",
+          "label": "unstable",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:importing",
+          "label": "importing",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:basic",
+          "label": "basic",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:lsp",
+          "label": "lsp",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:sloppy",
+          "label": "sloppy",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:tasks",
+          "label": "tasks",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:wildcards",
+          "label": "wildcards",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:threads",
+          "label": "threads",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:multiple",
+          "label": "multiple",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:abort reasons",
+          "label": "abort reasons",
+          "attributes": [
+            {
+              "field_id": "pos:after_len2",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:intel gpu",
+          "label": "Intel GPU",
+          "attributes": [
+            {
+              "field_id": "pos:after_len2",
+              "value_type": "boolean",
+              "count": 2
+            },
+            {
+              "field_id": "pos:before_len2",
+              "value_type": "boolean",
+              "count": 1
+            },
+            {
+              "field_id": "capitalized",
+              "value_type": "boolean",
+              "count": 1
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "verb": "with",
+      "fillerCount": 18,
+      "kinds": [
+        {
+          "id": "kind:tp-verb-island:with:filler:allow-scripts|filler:built|filler:packages|filler:problem|filler:running|filler:start|filler:starting|filler:used|filler:work|filler:works|filler:written",
+          "label": "pos:before_len1",
+          "population": "tp-verb-island:with",
+          "members": [
+            "filler:allow-scripts",
+            "filler:built",
+            "filler:packages",
+            "filler:problem",
+            "filler:running",
+            "filler:start",
+            "filler:starting",
+            "filler:used",
+            "filler:work",
+            "filler:works",
+            "filler:written"
+          ],
+          "core": {
+            "field_id": "pos:before_len1",
+            "value_type": "boolean",
+            "prevalence": 1
+          },
+          "cohesion": 1,
+          "height": "above",
+          "heightGate": {
+            "existence": {
+              "observed": 1,
+              "threshold": 0.6736363636363636,
+              "min": 0.3090909090909091,
+              "max": 0.7454545454545455,
+              "pValue": 0,
+              "passed": true
+            },
+            "constraint": {
+              "observed": 1,
+              "threshold": 0.8227272727272725,
+              "min": 0.5454545454545454,
+              "max": 0.9090909090909091,
+              "pValue": 0,
+              "passed": true
+            },
+            "relation": "above",
+            "searched": {
+              "gap": "degenerate_ground",
+              "reason": "all 8 null samples equal (1)"
+            },
+            "ground": "key"
+          },
+          "operator_chain": {
+            "operator_epoch": "eo-2026-07",
+            "chain": [
+              "SIG",
+              "CON",
+              "EVA",
+              "DEF",
+              "INS",
+              "SYN"
+            ],
+            "stages": [
+              {
+                "operator": "SIG",
+                "target": "population:tp-verb-island:with",
+                "height": 0
+              },
+              {
+                "operator": "CON",
+                "target": "candidate:filler:starting|filler:allow-scripts|filler:running|filler:packages|filler:written|filler:works|filler:used|filler:problem|filler:start|filler:work|filler:built",
+                "height": null
+              },
+              {
+                "operator": "EVA",
+                "target": "kind:pos:before_len1",
+                "height": "above"
+              },
+              {
+                "operator": "DEF",
+                "target": "kind:pos:before_len1",
+                "height": "above"
+              },
+              {
+                "operator": "INS",
+                "target": "members:11",
+                "height": "below"
+              },
+              {
+                "operator": "SYN",
+                "target": "vocabulary",
+                "height": null
+              }
+            ]
+          }
+        }
+      ],
+      "records": [
+        {
+          "id": "filler:json",
+          "label": "json",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:works",
+          "label": "works",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:searches",
+          "label": "searches",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 2
+            },
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:used",
+          "label": "used",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 7
+            }
+          ]
+        },
+        {
+          "id": "filler:respect",
+          "label": "respect",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 7
+            }
+          ]
+        },
+        {
+          "id": "filler:problem",
+          "label": "problem",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:start",
+          "label": "start",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "id": "filler:work",
+          "label": "work",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "id": "filler:built",
+          "label": "built",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:starting",
+          "label": "Starting",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "capitalized",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:allow-scripts",
+          "label": "allow-scripts",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:import map",
+          "label": "import map",
+          "attributes": [
+            {
+              "field_id": "pos:after_len2",
+              "value_type": "boolean",
+              "count": 1
+            },
+            {
+              "field_id": "pos:before_len2",
+              "value_type": "boolean",
+              "count": 2
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:optional peers 28705",
+          "label": "optional peers 28705",
+          "attributes": [
+            {
+              "field_id": "pos:after_len3",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:reduce duplicates",
+          "label": "reduce duplicates",
+          "attributes": [
+            {
+              "field_id": "pos:before_len2",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:running",
+          "label": "running",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:packages",
+          "label": "packages",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:hyper",
+          "label": "hyper",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:written",
+          "label": "written",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "verb": "error",
+      "fillerCount": 13,
+      "kinds": [
+        {
+          "id": "kind:tp-verb-island:error:filler:codes|filler:handling|filler:messages|filler:out",
+          "label": "pos:after_len1",
+          "population": "tp-verb-island:error",
+          "members": [
+            "filler:codes",
+            "filler:handling",
+            "filler:messages",
+            "filler:out"
+          ],
+          "core": {
+            "field_id": "pos:after_len1",
+            "value_type": "boolean",
+            "prevalence": 1
+          },
+          "cohesion": 1,
+          "height": "above",
+          "heightGate": {
+            "existence": {
+              "observed": 1,
+              "threshold": 0.75,
+              "min": 0.3333333333333333,
+              "max": 1,
+              "pValue": 0.009900990099009901,
+              "passed": true
+            },
+            "constraint": {
+              "observed": 1,
+              "threshold": 0.75,
+              "min": 0,
+              "max": 1,
+              "pValue": 0.009900990099009901,
+              "passed": true
+            },
+            "relation": "above",
+            "searched": {
+              "gap": "degenerate_ground",
+              "reason": "all 12 null samples equal (1)"
+            },
+            "ground": "key"
+          },
+          "operator_chain": {
+            "operator_epoch": "eo-2026-07",
+            "chain": [
+              "SIG",
+              "CON",
+              "EVA",
+              "DEF",
+              "INS",
+              "SYN"
+            ],
+            "stages": [
+              {
+                "operator": "SIG",
+                "target": "population:tp-verb-island:error",
+                "height": 0
+              },
+              {
+                "operator": "CON",
+                "target": "candidate:filler:messages|filler:codes|filler:out|filler:handling",
+                "height": null
+              },
+              {
+                "operator": "EVA",
+                "target": "kind:pos:after_len1",
+                "height": "above"
+              },
+              {
+                "operator": "DEF",
+                "target": "kind:pos:after_len1",
+                "height": "above"
+              },
+              {
+                "operator": "INS",
+                "target": "members:4",
+                "height": "below"
+              },
+              {
+                "operator": "SYN",
+                "target": "vocabulary",
+                "height": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "kind:tp-verb-island:error:filler:don't|filler:found|filler:proper|filler:sqlite|filler:throw",
+          "label": "pos:before_len1",
+          "population": "tp-verb-island:error",
+          "members": [
+            "filler:don't",
+            "filler:found",
+            "filler:proper",
+            "filler:sqlite",
+            "filler:throw"
+          ],
+          "core": {
+            "field_id": "pos:before_len1",
+            "value_type": "boolean",
+            "prevalence": 1
+          },
+          "cohesion": 1,
+          "height": "above",
+          "heightGate": {
+            "existence": {
+              "observed": 1,
+              "threshold": 0.7,
+              "min": 0.4,
+              "max": 0.8,
+              "pValue": 0,
+              "passed": true
+            },
+            "constraint": {
+              "observed": 1,
+              "threshold": 0.8099999999999995,
+              "min": 0.2,
+              "max": 1,
+              "pValue": 0.04950495049504951,
+              "passed": true
+            },
+            "relation": "above",
+            "searched": {
+              "gap": "degenerate_ground",
+              "reason": "all 12 null samples equal (1)"
+            },
+            "ground": "key"
+          },
+          "operator_chain": {
+            "operator_epoch": "eo-2026-07",
+            "chain": [
+              "SIG",
+              "CON",
+              "EVA",
+              "DEF",
+              "INS",
+              "SYN"
+            ],
+            "stages": [
+              {
+                "operator": "SIG",
+                "target": "population:tp-verb-island:error",
+                "height": 0
+              },
+              {
+                "operator": "CON",
+                "target": "candidate:filler:found|filler:sqlite|filler:don't|filler:proper|filler:throw",
+                "height": null
+              },
+              {
+                "operator": "EVA",
+                "target": "kind:pos:before_len1",
+                "height": "above"
+              },
+              {
+                "operator": "DEF",
+                "target": "kind:pos:before_len1",
+                "height": "above"
+              },
+              {
+                "operator": "INS",
+                "target": "members:5",
+                "height": "below"
+              },
+              {
+                "operator": "SYN",
+                "target": "vocabulary",
+                "height": null
+              }
+            ]
+          }
+        }
+      ],
+      "records": [
+        {
+          "id": "filler:cases",
+          "label": "cases",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 1
+            },
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "id": "filler:messages",
+          "label": "messages",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 14
+            }
+          ]
+        },
+        {
+          "id": "filler:codes",
+          "label": "codes",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "id": "filler:proper",
+          "label": "proper",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:throw",
+          "label": "throw",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:found",
+          "label": "found",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:out",
+          "label": "out",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "id": "filler:handling",
+          "label": "handling",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 7
+            }
+          ]
+        },
+        {
+          "id": "filler:decipheriv range",
+          "label": "decipherIv range",
+          "attributes": [
+            {
+              "field_id": "pos:before_len2",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:sqlite",
+          "label": "sqlite",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:gracefully",
+          "label": "gracefully",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 2
+            },
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:don't",
+          "label": "don't",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:cause",
+          "label": "Cause",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 1
+            },
+            {
+              "field_id": "capitalized",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "verb": "from",
+      "fillerCount": 11,
+      "kinds": [
+        {
+          "id": "kind:tp-verb-island:from:filler:importing|filler:js|filler:lockfile|filler:offset|filler:symbols",
+          "label": "pos:before_len1",
+          "population": "tp-verb-island:from",
+          "members": [
+            "filler:importing",
+            "filler:js",
+            "filler:lockfile",
+            "filler:offset",
+            "filler:symbols"
+          ],
+          "core": {
+            "field_id": "pos:before_len1",
+            "value_type": "boolean",
+            "prevalence": 1
+          },
+          "cohesion": 0.7,
+          "height": "above",
+          "heightGate": {
+            "existence": {
+              "observed": 0.7,
+              "threshold": 0.45,
+              "min": 0.18333333333333332,
+              "max": 0.7,
+              "pValue": 0.009900990099009901,
+              "passed": true
+            },
+            "constraint": {
+              "observed": 1,
+              "threshold": 0.8,
+              "min": 0,
+              "max": 0.8,
+              "pValue": 0,
+              "passed": true
+            },
+            "relation": "above",
+            "searched": {
+              "observed": 0.7,
+              "threshold": 0.5652777777777778,
+              "min": 0.4416666666666666,
+              "max": 0.5666666666666667,
+              "pValue": 0,
+              "passed": true
+            },
+            "ground": "key"
+          },
+          "operator_chain": {
+            "operator_epoch": "eo-2026-07",
+            "chain": [
+              "SIG",
+              "CON",
+              "EVA",
+              "DEF",
+              "INS",
+              "SYN"
+            ],
+            "stages": [
+              {
+                "operator": "SIG",
+                "target": "population:tp-verb-island:from",
+                "height": 0
+              },
+              {
+                "operator": "CON",
+                "target": "candidate:filler:importing|filler:offset|filler:symbols|filler:js|filler:lockfile",
+                "height": null
+              },
+              {
+                "operator": "EVA",
+                "target": "kind:pos:before_len1",
+                "height": "above"
+              },
+              {
+                "operator": "DEF",
+                "target": "kind:pos:before_len1",
+                "height": "above"
+              },
+              {
+                "operator": "INS",
+                "target": "members:5",
+                "height": "below"
+              },
+              {
+                "operator": "SYN",
+                "target": "vocabulary",
+                "height": null
+              }
+            ]
+          }
+        }
+      ],
+      "records": [
+        {
+          "id": "filler:js",
+          "label": "JS",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 1
+            },
+            {
+              "field_id": "capitalized",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:npm package",
+          "label": "npm package",
+          "attributes": [
+            {
+              "field_id": "pos:after_len2",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:lockfile",
+          "label": "lockfile",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 1
+            },
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:importing",
+          "label": "importing",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:crypto cipher apis",
+          "label": "crypto cipher APIs",
+          "attributes": [
+            {
+              "field_id": "pos:after_len3",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:return buffer",
+          "label": "return Buffer",
+          "attributes": [
+            {
+              "field_id": "pos:before_len2",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:graph roots",
+          "label": "graph roots",
+          "attributes": [
+            {
+              "field_id": "pos:after_len2",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:workspace packages",
+          "label": "workspace packages",
+          "attributes": [
+            {
+              "field_id": "pos:before_len2",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:symbols",
+          "label": "symbols",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:import map",
+          "label": "import map",
+          "attributes": [
+            {
+              "field_id": "pos:before_len2",
+              "value_type": "boolean",
+              "count": 2
+            },
+            {
+              "field_id": "pos:after_len2",
+              "value_type": "boolean",
+              "count": 1
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:offset",
+          "label": "offset",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "verb": "'s",
+      "fillerCount": 0,
+      "kinds": []
+    },
+    {
+      "verb": "when",
+      "fillerCount": 22,
+      "kinds": [
+        {
+          "id": "kind:tp-verb-island:when:filler:erroring|filler:ignored|filler:messages|filler:resolution|filler:sequences|filler:throw|filler:used",
+          "label": "pos:before_len1",
+          "population": "tp-verb-island:when",
+          "members": [
+            "filler:erroring",
+            "filler:ignored",
+            "filler:messages",
+            "filler:resolution",
+            "filler:sequences",
+            "filler:throw",
+            "filler:used"
+          ],
+          "core": {
+            "field_id": "pos:before_len1",
+            "value_type": "boolean",
+            "prevalence": 1
+          },
+          "cohesion": 1,
+          "height": "above",
+          "heightGate": {
+            "existence": {
+              "observed": 1,
+              "threshold": 0.7166666666666666,
+              "min": 0.42857142857142855,
+              "max": 1,
+              "pValue": 0.0297029702970297,
+              "passed": true
+            },
+            "constraint": {
+              "observed": 1,
+              "threshold": 0.5714285714285714,
+              "min": 0.14285714285714285,
+              "max": 0.8571428571428571,
+              "pValue": 0,
+              "passed": true
+            },
+            "relation": "above",
+            "searched": {
+              "gap": "degenerate_ground",
+              "reason": "all 12 null samples equal (1)"
+            },
+            "ground": "key"
+          },
+          "operator_chain": {
+            "operator_epoch": "eo-2026-07",
+            "chain": [
+              "SIG",
+              "CON",
+              "EVA",
+              "DEF",
+              "INS",
+              "SYN"
+            ],
+            "stages": [
+              {
+                "operator": "SIG",
+                "target": "population:tp-verb-island:when",
+                "height": 0
+              },
+              {
+                "operator": "CON",
+                "target": "candidate:filler:resolution|filler:messages|filler:sequences|filler:erroring|filler:throw|filler:ignored|filler:used",
+                "height": null
+              },
+              {
+                "operator": "EVA",
+                "target": "kind:pos:before_len1",
+                "height": "above"
+              },
+              {
+                "operator": "DEF",
+                "target": "kind:pos:before_len1",
+                "height": "above"
+              },
+              {
+                "operator": "INS",
+                "target": "members:7",
+                "height": "below"
+              },
+              {
+                "operator": "SYN",
+                "target": "vocabulary",
+                "height": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "kind:tp-verb-island:when:filler:adding|filler:config|filler:given|filler:importing|filler:listening|filler:quiet|filler:running|filler:searching|filler:setting|filler:stdout|filler:there|filler:there's",
+          "label": "pos:after_len1",
+          "population": "tp-verb-island:when",
+          "members": [
+            "filler:adding",
+            "filler:config",
+            "filler:given",
+            "filler:importing",
+            "filler:listening",
+            "filler:quiet",
+            "filler:running",
+            "filler:searching",
+            "filler:setting",
+            "filler:stdout",
+            "filler:there",
+            "filler:there's"
+          ],
+          "core": {
+            "field_id": "pos:after_len1",
+            "value_type": "boolean",
+            "prevalence": 1
+          },
+          "cohesion": 1,
+          "height": "above",
+          "heightGate": {
+            "existence": {
+              "observed": 1,
+              "threshold": 0.6079545454545454,
+              "min": 0.45454545454545453,
+              "max": 0.6439393939393939,
+              "pValue": 0,
+              "passed": true
+            },
+            "constraint": {
+              "observed": 1,
+              "threshold": 0.8333333333333334,
+              "min": 0.4166666666666667,
+              "max": 0.8333333333333334,
+              "pValue": 0,
+              "passed": true
+            },
+            "relation": "above",
+            "searched": {
+              "gap": "degenerate_ground",
+              "reason": "all 12 null samples equal (1)"
+            },
+            "ground": "key"
+          },
+          "operator_chain": {
+            "operator_epoch": "eo-2026-07",
+            "chain": [
+              "SIG",
+              "CON",
+              "EVA",
+              "DEF",
+              "INS",
+              "SYN"
+            ],
+            "stages": [
+              {
+                "operator": "SIG",
+                "target": "population:tp-verb-island:when",
+                "height": 0
+              },
+              {
+                "operator": "CON",
+                "target": "candidate:filler:setting|filler:config|filler:adding|filler:listening|filler:stdout|filler:searching|filler:running|filler:quiet|filler:given|filler:there's|filler:there|filler:importing",
+                "height": null
+              },
+              {
+                "operator": "EVA",
+                "target": "kind:pos:after_len1",
+                "height": "above"
+              },
+              {
+                "operator": "DEF",
+                "target": "kind:pos:after_len1",
+                "height": "above"
+              },
+              {
+                "operator": "INS",
+                "target": "members:12",
+                "height": "below"
+              },
+              {
+                "operator": "SYN",
+                "target": "vocabulary",
+                "height": null
+              }
+            ]
+          }
+        }
+      ],
+      "records": [
+        {
+          "id": "filler:stdout",
+          "label": "stdout",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:searching",
+          "label": "searching",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 9
+            }
+          ]
+        },
+        {
+          "id": "filler:printing",
+          "label": "printing",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 2
+            },
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:messages",
+          "label": "messages",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:running",
+          "label": "running",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 11
+            }
+          ]
+        },
+        {
+          "id": "filler:quiet",
+          "label": "quiet",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:sequences",
+          "label": "sequences",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:given",
+          "label": "given",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:there's",
+          "label": "there's",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:there",
+          "label": "there",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:importing",
+          "label": "importing",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 7
+            }
+          ]
+        },
+        {
+          "id": "filler:setting",
+          "label": "setting",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "id": "filler:erroring",
+          "label": "erroring",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:config",
+          "label": "config",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "id": "filler:throw",
+          "label": "throw",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:npm packages",
+          "label": "npm packages",
+          "attributes": [
+            {
+              "field_id": "pos:before_len2",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:ignored",
+          "label": "ignored",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:used",
+          "label": "used",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:referrer",
+          "label": "referrer",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 2
+            },
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "id": "filler:resolution",
+          "label": "resolution",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:adding",
+          "label": "adding",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:listening",
+          "label": "listening",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "verb": "files",
+      "fillerCount": 8,
+      "kinds": [
+        {
+          "id": "kind:tp-verb-island:files:filler:binary|filler:configuration|filler:js|filler:local|filler:watched",
+          "label": "pos:before_len1",
+          "population": "tp-verb-island:files",
+          "members": [
+            "filler:binary",
+            "filler:configuration",
+            "filler:js",
+            "filler:local",
+            "filler:watched"
+          ],
+          "core": {
+            "field_id": "pos:before_len1",
+            "value_type": "boolean",
+            "prevalence": 1
+          },
+          "cohesion": 1,
+          "height": "above",
+          "heightGate": {
+            "existence": {
+              "observed": 1,
+              "threshold": 0.6,
+              "min": 0.4,
+              "max": 1,
+              "pValue": 0.039603960396039604,
+              "passed": true
+            },
+            "constraint": {
+              "observed": 1,
+              "threshold": 0.8,
+              "min": 0.4,
+              "max": 1,
+              "pValue": 0.019801980198019802,
+              "passed": true
+            },
+            "relation": "above",
+            "searched": {
+              "gap": "empty_material",
+              "reason": "no null samples"
+            },
+            "ground": "key"
+          },
+          "operator_chain": {
+            "operator_epoch": "eo-2026-07",
+            "chain": [
+              "SIG",
+              "CON",
+              "EVA",
+              "DEF",
+              "INS",
+              "SYN"
+            ],
+            "stages": [
+              {
+                "operator": "SIG",
+                "target": "population:tp-verb-island:files",
+                "height": 0
+              },
+              {
+                "operator": "CON",
+                "target": "candidate:filler:js|filler:watched|filler:local|filler:binary|filler:configuration",
+                "height": null
+              },
+              {
+                "operator": "EVA",
+                "target": "kind:pos:before_len1",
+                "height": "above"
+              },
+              {
+                "operator": "DEF",
+                "target": "kind:pos:before_len1",
+                "height": "above"
+              },
+              {
+                "operator": "INS",
+                "target": "members:5",
+                "height": "below"
+              },
+              {
+                "operator": "SYN",
+                "target": "vocabulary",
+                "height": null
+              }
+            ]
+          }
+        }
+      ],
+      "records": [
+        {
+          "id": "filler:binary",
+          "label": "binary",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 8
+            }
+          ]
+        },
+        {
+          "id": "filler:search hidden",
+          "label": "search hidden",
+          "attributes": [
+            {
+              "field_id": "pos:before_len2",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:searched",
+          "label": "searched",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:search compressed",
+          "label": "search compressed",
+          "attributes": [
+            {
+              "field_id": "pos:after_len2",
+              "value_type": "boolean",
+              "count": 1
+            },
+            {
+              "field_id": "pos:before_len2",
+              "value_type": "boolean",
+              "count": 6
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:configuration",
+          "label": "configuration",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "id": "filler:js",
+          "label": "JS",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "capitalized",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:watched",
+          "label": "watched",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:local",
+          "label": "local",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "verb": "that",
+      "fillerCount": 8,
+      "kinds": [
+        {
+          "id": "kind:tp-verb-island:that:filler:contains|filler:fixes|filler:includes",
+          "label": "pos:after_len1",
+          "population": "tp-verb-island:that",
+          "members": [
+            "filler:contains",
+            "filler:fixes",
+            "filler:includes"
+          ],
+          "core": {
+            "field_id": "pos:after_len1",
+            "value_type": "boolean",
+            "prevalence": 1
+          },
+          "cohesion": 1,
+          "height": "unstable",
+          "heightGate": {
+            "existence": {
+              "observed": 1,
+              "threshold": 0.6666666666666666,
+              "min": 0.3333333333333333,
+              "max": 1,
+              "pValue": 0.0297029702970297,
+              "passed": true
+            },
+            "constraint": {
+              "observed": 1,
+              "threshold": 1,
+              "min": 0,
+              "max": 1,
+              "pValue": 0.16831683168316833,
+              "passed": false
+            },
+            "relation": "unstable",
+            "searched": {
+              "gap": "degenerate_ground",
+              "reason": "all 24 null samples equal (1)"
+            },
+            "ground": "key"
+          },
+          "operator_chain": {
+            "operator_epoch": "eo-2026-07",
+            "chain": [
+              "SIG",
+              "CON",
+              "EVA",
+              "DEF",
+              "INS",
+              "SYN"
+            ],
+            "stages": [
+              {
+                "operator": "SIG",
+                "target": "population:tp-verb-island:that",
+                "height": 0
+              },
+              {
+                "operator": "CON",
+                "target": "candidate:filler:contains|filler:fixes|filler:includes",
+                "height": null
+              },
+              {
+                "operator": "EVA",
+                "target": "kind:pos:after_len1",
+                "height": "unstable"
+              },
+              {
+                "operator": "DEF",
+                "target": "kind:pos:after_len1",
+                "height": "unstable"
+              },
+              {
+                "operator": "INS",
+                "target": "members:3",
+                "height": "unstable"
+              },
+              {
+                "operator": "SYN",
+                "target": "vocabulary",
+                "height": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "kind:tp-verb-island:that:filler:ensure|filler:note|filler:tool",
+          "label": "pos:before_len1",
+          "population": "tp-verb-island:that",
+          "members": [
+            "filler:ensure",
+            "filler:note",
+            "filler:tool"
+          ],
+          "core": {
+            "field_id": "pos:before_len1",
+            "value_type": "boolean",
+            "prevalence": 1
+          },
+          "cohesion": 1,
+          "height": "unstable",
+          "heightGate": {
+            "existence": {
+              "observed": 1,
+              "threshold": 0.6666666666666666,
+              "min": 0.3333333333333333,
+              "max": 1,
+              "pValue": 0.0297029702970297,
+              "passed": true
+            },
+            "constraint": {
+              "observed": 1,
+              "threshold": 1,
+              "min": 0,
+              "max": 1,
+              "pValue": 0.21782178217821782,
+              "passed": false
+            },
+            "relation": "unstable",
+            "searched": {
+              "gap": "degenerate_ground",
+              "reason": "all 24 null samples equal (1)"
+            },
+            "ground": "key"
+          },
+          "operator_chain": {
+            "operator_epoch": "eo-2026-07",
+            "chain": [
+              "SIG",
+              "CON",
+              "EVA",
+              "DEF",
+              "INS",
+              "SYN"
+            ],
+            "stages": [
+              {
+                "operator": "SIG",
+                "target": "population:tp-verb-island:that",
+                "height": 0
+              },
+              {
+                "operator": "CON",
+                "target": "candidate:filler:tool|filler:note|filler:ensure",
+                "height": null
+              },
+              {
+                "operator": "EVA",
+                "target": "kind:pos:before_len1",
+                "height": "unstable"
+              },
+              {
+                "operator": "DEF",
+                "target": "kind:pos:before_len1",
+                "height": "unstable"
+              },
+              {
+                "operator": "INS",
+                "target": "members:3",
+                "height": "unstable"
+              },
+              {
+                "operator": "SYN",
+                "target": "vocabulary",
+                "height": null
+              }
+            ]
+          }
+        }
+      ],
+      "records": [
+        {
+          "id": "filler:fixes",
+          "label": "fixes",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:includes",
+          "label": "includes",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:contains",
+          "label": "contains",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 7
+            }
+          ]
+        },
+        {
+          "id": "filler:shows",
+          "label": "shows",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:note",
+          "label": "Note",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 22
+            },
+            {
+              "field_id": "capitalized",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:ensure",
+          "label": "ensure",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "id": "filler:tool",
+          "label": "tool",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:means",
+          "label": "means",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 5
+            },
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "verb": "as",
+      "fillerCount": 12,
+      "kinds": [
+        {
+          "id": "kind:tp-verb-island:as:filler:treated|filler:used|filler:where|filler:works|filler:written",
+          "label": "pos:before_len1",
+          "population": "tp-verb-island:as",
+          "members": [
+            "filler:treated",
+            "filler:used",
+            "filler:where",
+            "filler:works",
+            "filler:written"
+          ],
+          "core": {
+            "field_id": "pos:before_len1",
+            "value_type": "boolean",
+            "prevalence": 1
+          },
+          "cohesion": 1,
+          "height": "above",
+          "heightGate": {
+            "existence": {
+              "observed": 1,
+              "threshold": 0.7,
+              "min": 0.4,
+              "max": 0.8,
+              "pValue": 0,
+              "passed": true
+            },
+            "constraint": {
+              "observed": 1,
+              "threshold": 0.8,
+              "min": 0.2,
+              "max": 1,
+              "pValue": 0.0297029702970297,
+              "passed": true
+            },
+            "relation": "above",
+            "searched": {
+              "gap": "degenerate_ground",
+              "reason": "all 24 null samples equal (1)"
+            },
+            "ground": "key"
+          },
+          "operator_chain": {
+            "operator_epoch": "eo-2026-07",
+            "chain": [
+              "SIG",
+              "CON",
+              "EVA",
+              "DEF",
+              "INS",
+              "SYN"
+            ],
+            "stages": [
+              {
+                "operator": "SIG",
+                "target": "population:tp-verb-island:as",
+                "height": 0
+              },
+              {
+                "operator": "CON",
+                "target": "candidate:filler:where|filler:used|filler:written|filler:treated|filler:works",
+                "height": null
+              },
+              {
+                "operator": "EVA",
+                "target": "kind:pos:before_len1",
+                "height": "above"
+              },
+              {
+                "operator": "DEF",
+                "target": "kind:pos:before_len1",
+                "height": "above"
+              },
+              {
+                "operator": "INS",
+                "target": "members:5",
+                "height": "below"
+              },
+              {
+                "operator": "SYN",
+                "target": "vocabulary",
+                "height": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "kind:tp-verb-island:as:filler:expected.|filler:offsets|filler:possible|filler:requireable|filler:well.",
+          "label": "pos:after_len1",
+          "population": "tp-verb-island:as",
+          "members": [
+            "filler:expected.",
+            "filler:offsets",
+            "filler:possible",
+            "filler:requireable",
+            "filler:well."
+          ],
+          "core": {
+            "field_id": "pos:after_len1",
+            "value_type": "boolean",
+            "prevalence": 1
+          },
+          "cohesion": 1,
+          "height": "above",
+          "heightGate": {
+            "existence": {
+              "observed": 1,
+              "threshold": 0.7,
+              "min": 0.4,
+              "max": 0.8,
+              "pValue": 0,
+              "passed": true
+            },
+            "constraint": {
+              "observed": 1,
+              "threshold": 0.8,
+              "min": 0.2,
+              "max": 1,
+              "pValue": 0.019801980198019802,
+              "passed": true
+            },
+            "relation": "above",
+            "searched": {
+              "gap": "degenerate_ground",
+              "reason": "all 24 null samples equal (1)"
+            },
+            "ground": "key"
+          },
+          "operator_chain": {
+            "operator_epoch": "eo-2026-07",
+            "chain": [
+              "SIG",
+              "CON",
+              "EVA",
+              "DEF",
+              "INS",
+              "SYN"
+            ],
+            "stages": [
+              {
+                "operator": "SIG",
+                "target": "population:tp-verb-island:as",
+                "height": 0
+              },
+              {
+                "operator": "CON",
+                "target": "candidate:filler:well.|filler:requireable|filler:offsets|filler:expected.|filler:possible",
+                "height": null
+              },
+              {
+                "operator": "EVA",
+                "target": "kind:pos:after_len1",
+                "height": "above"
+              },
+              {
+                "operator": "DEF",
+                "target": "kind:pos:after_len1",
+                "height": "above"
+              },
+              {
+                "operator": "INS",
+                "target": "members:5",
+                "height": "below"
+              },
+              {
+                "operator": "SYN",
+                "target": "vocabulary",
+                "height": null
+              }
+            ]
+          }
+        }
+      ],
+      "records": [
+        {
+          "id": "filler:well",
+          "label": "well",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 8
+            },
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "id": "filler:treated",
+          "label": "treated",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "id": "filler:works",
+          "label": "works",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:expected.",
+          "label": "expected.",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:where",
+          "label": "Where",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "capitalized",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:possible",
+          "label": "possible",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:well.",
+          "label": "well.",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:soon",
+          "label": "soon",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 2
+            },
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "id": "filler:used",
+          "label": "used",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:requireable",
+          "label": "requireable",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:offsets",
+          "label": "offsets",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:written",
+          "label": "written",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "verb": "features",
+      "fillerCount": 2,
+      "kinds": []
+    },
+    {
+      "verb": "or",
+      "fillerCount": 3,
+      "kinds": [],
+      "records": [
+        {
+          "id": "filler:improved",
+          "label": "improved",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 22
+            }
+          ]
+        },
+        {
+          "id": "filler:added",
+          "label": "Added",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 22
+            },
+            {
+              "field_id": "capitalized",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:npm",
+          "label": "npm",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 2
+            },
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

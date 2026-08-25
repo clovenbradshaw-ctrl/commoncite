@@ -1,0 +1,872 @@
+[
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s16-c0",
+    "verdict": "SKIP",
+    "note": "bullet-point gerund fragment, no finite verb"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s92-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-26-1540-preamble-s1-c6",
+    "verdict": "NOMINALIZED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s48-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-24-1514-preamble-s1-c5",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s1-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s6-c0",
+    "verdict": "SKIP",
+    "note": "garbled OCR fragment, uninterpretable"
+  },
+  {
+    "id": "ordinance-metro-ord-24-1514-preamble-s1-c1",
+    "verdict": "SKIP",
+    "note": "noun-phrase fragment, no verb"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s13-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-25-1528-preamble-s0-c9",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s9-c1",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s26-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s19-c0",
+    "verdict": "AGENTLESS"
+  },
+  {
+    "id": "ordinance-metro-ord-24-1514-preamble-s1-c3",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-26-1540-preamble-s1-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s31-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-25-1528-preamble-s0-c5",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s65-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s99-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s6-c1",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s31-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s25-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s30-c0",
+    "verdict": "AGENTLESS"
+  },
+  {
+    "id": "ordinance-metro-ord-26-1540-preamble-s14-c1",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s14-c0",
+    "verdict": "AGENTLESS"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s47-c1",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s14-c0",
+    "verdict": "SKIP",
+    "note": "bullet gerund fragment, no finite verb"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s9-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-26-1540-preamble-s1-c2",
+    "verdict": "NOMINALIZED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s11-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-25-1528-preamble-s0-c2",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s27-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s90-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s43-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-24-1514-preamble-s2-c0",
+    "verdict": "AGENTLESS"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s20-c1",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-24-1514-preamble-s6-c0",
+    "verdict": "AGENTLESS"
+  },
+  {
+    "id": "ordinance-metro-ord-26-1540-preamble-s1-c4",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s74-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-24-1514-preamble-s0-c2",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-26-1540-preamble-s0-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-25-1528-preamble-s0-c7",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-25-1528-preamble-s0-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s39-c0",
+    "verdict": "NOMINALIZED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s101-c0",
+    "verdict": "SKIP",
+    "note": "prepositional-phrase fragment, no verb"
+  },
+  {
+    "id": "ordinance-metro-ord-24-1514-preamble-s8-c1",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s52-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s51-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s62-c1",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-26-1540-preamble-s8-c0",
+    "verdict": "AGENTLESS"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s20-c0",
+    "verdict": "SKIP",
+    "note": "garbled OCR fragment, uninterpretable"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s19-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s24-c3",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-25-1528-preamble-s3-c0",
+    "verdict": "AGENTLESS"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s25-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s46-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-26-1540-preamble-s12-c0",
+    "verdict": "SKIP",
+    "note": "modal 'may' with no main verb, bad split"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s8-c1",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-25-1528-preamble-s0-c6",
+    "verdict": "AGENTLESS"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s68-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s38-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s2-c0",
+    "verdict": "SKIP",
+    "note": "gerund phrase fragment introduced by 'by', no finite clause"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s7-c1",
+    "verdict": "SKIP",
+    "note": "object noun-phrase fragment, no verb in this segment"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s15-c0",
+    "verdict": "AGENTLESS"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s21-c1",
+    "verdict": "SKIP",
+    "note": "noun-phrase fragment, no verb (truncated list)"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s8-c0",
+    "verdict": "AGENTLESS"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s101-c1",
+    "verdict": "SKIP",
+    "note": "bad split - relative clause plus truncated main verb phrase"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s76-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-24-1514-preamble-s1-c6",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s16-c3",
+    "verdict": "SKIP",
+    "note": "noun-phrase fragment, no verb in this segment"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s23-c1",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-24-1514-preamble-s0-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s54-c0",
+    "verdict": "SKIP",
+    "note": "noun-phrase fragment, no verb"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s78-c0",
+    "verdict": "AGENTLESS"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s27-c1",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s27-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s21-c0",
+    "verdict": "SKIP",
+    "note": "garbled OCR fragment, uninterpretable"
+  },
+  {
+    "id": "ordinance-metro-ord-26-1540-preamble-s1-c9",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s24-c1",
+    "verdict": "SKIP",
+    "note": "noun-phrase fragment (list item), no verb"
+  },
+  {
+    "id": "ordinance-metro-ord-26-1540-preamble-s1-c8",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s21-c0",
+    "verdict": "SKIP",
+    "note": "noun-phrase list fragment, no verb"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s11-c0",
+    "verdict": "AGENTLESS"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s10-c2",
+    "verdict": "AGENTLESS"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s94-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s14-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-26-1540-preamble-s1-c11",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s62-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-26-1540-preamble-s15-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s100-c1",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s38-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s64-c0",
+    "verdict": "SKIP",
+    "note": "prepositional-phrase fragment, no verb"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s17-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s27-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s5-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s23-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-26-1540-preamble-s1-c1",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s33-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-24-1514-preamble-s8-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s32-c1",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s72-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s23-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s9-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s18-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-25-1528-preamble-s0-c10",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-25-1528-preamble-s0-c11",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s36-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s17-c0",
+    "verdict": "SKIP",
+    "note": "bad split mixing bullet fragment, header, and list item"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s26-c0",
+    "verdict": "SKIP",
+    "note": "citation fragment, no verb"
+  },
+  {
+    "id": "ordinance-metro-ord-24-1514-preamble-s6-c1",
+    "verdict": "SKIP",
+    "note": "stray parenthetical continuation, no clause"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s33-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s29-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s87-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s17-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-26-1540-preamble-s5-c0",
+    "verdict": "AGENTLESS"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s70-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-26-1540-preamble-s12-c1",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s26-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s60-c1",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s97-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s47-c0",
+    "verdict": "SKIP",
+    "note": "elliptical conditional plus truncated list, no complete clause"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s53-c1",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s15-c0",
+    "verdict": "SKIP",
+    "note": "bullet gerund fragment, no finite verb"
+  },
+  {
+    "id": "ordinance-metro-ord-26-1540-preamble-s1-c12",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s56-c1",
+    "verdict": "SKIP",
+    "note": "noun-phrase fragment (object), no verb in this segment"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s6-c3",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s40-c0",
+    "verdict": "SKIP",
+    "note": "garbled header/list fragment, no verb"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s55-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s49-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-26-1540-preamble-s17-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s24-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s16-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s69-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-26-1540-preamble-s14-c0",
+    "verdict": "AGENTLESS"
+  },
+  {
+    "id": "ordinance-metro-ord-25-1528-preamble-s1-c0",
+    "verdict": "AGENTLESS"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s32-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-26-1540-preamble-s15-c1",
+    "verdict": "SKIP",
+    "note": "bare infinitive fragment, no expressed subject"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s29-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s22-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s22-c1",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-25-1528-preamble-s3-c1",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s30-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-26-1540-preamble-s7-c0",
+    "verdict": "AGENTLESS"
+  },
+  {
+    "id": "ordinance-metro-ord-26-1540-preamble-s17-c1",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s53-c0",
+    "verdict": "NOMINALIZED"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s29-c0",
+    "verdict": "SKIP",
+    "note": "garbled OCR plus infinitive fragment, no finite clause"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s71-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s56-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-24-1514-preamble-s1-c2",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s13-c0",
+    "verdict": "SKIP",
+    "note": "noun-phrase fragment, no verb"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s37-c0",
+    "verdict": "AGENTLESS"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s60-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s57-c1",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s48-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s56-c0",
+    "verdict": "NOMINALIZED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s40-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s91-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s98-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s23-c0",
+    "verdict": "AGENTLESS"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s45-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s24-c2",
+    "verdict": "SKIP",
+    "note": "noun-phrase fragment, no verb (coordination item)"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s63-c1",
+    "verdict": "SKIP",
+    "note": "noun-phrase fragment, no verb"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s16-c1",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s15-c1",
+    "verdict": "SKIP",
+    "note": "bullet gerund fragment, no finite verb"
+  },
+  {
+    "id": "ordinance-metro-ord-26-1540-preamble-s0-c2",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s34-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s3-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-26-1540-preamble-s1-c3",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s14-c1",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s22-c2",
+    "verdict": "SKIP",
+    "note": "noun-phrase fragment, no verb"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s7-c0",
+    "verdict": "AGENTLESS"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s41-c0",
+    "verdict": "AGENTLESS"
+  },
+  {
+    "id": "ordinance-metro-ord-26-1540-preamble-s3-c0",
+    "verdict": "AGENTLESS"
+  },
+  {
+    "id": "ordinance-metro-ord-24-1514-preamble-s10-c0",
+    "verdict": "SKIP",
+    "note": "signature line, no verb"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s12-c0",
+    "verdict": "NOMINALIZED"
+  },
+  {
+    "id": "ordinance-metro-ord-25-1528-preamble-s0-c1",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-24-1514-preamble-s1-c0",
+    "verdict": "AGENTLESS"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s24-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s10-c0",
+    "verdict": "AGENTLESS"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s8-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s22-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s15-c1",
+    "verdict": "SKIP",
+    "note": "prepositional gerund fragment, no subject/finite verb"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s10-c1",
+    "verdict": "SKIP",
+    "note": "noun-phrase fragment, no verb"
+  },
+  {
+    "id": "ordinance-metro-ord-26-1540-preamble-s10-c0",
+    "verdict": "AGENTLESS"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s55-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s102-c0",
+    "verdict": "SKIP",
+    "note": "truncated fragment, missing subject"
+  },
+  {
+    "id": "ordinance-metro-ord-24-1514-preamble-s1-c4",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-24-1514-preamble-s0-c1",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s4-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s6-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s43-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s51-c0",
+    "verdict": "NOMINALIZED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s42-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "ordinance-metro-ord-25-1528-preamble-s0-c8",
+    "verdict": "SKIP",
+    "note": "noun-phrase fragment, no verb"
+  },
+  {
+    "id": "ordinance-metro-ord-26-1540-preamble-s1-c7",
+    "verdict": "NOMINALIZED"
+  },
+  {
+    "id": "ordinance-metro-ord-26-1540-preamble-s1-c10",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s16-c2",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s12-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s52-c1",
+    "verdict": "SKIP",
+    "note": "noun-phrase fragment, no verb"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s86-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s24-c1",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s75-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s42-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s2-c1",
+    "verdict": "SKIP",
+    "note": "noun-phrase fragment, no verb"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s18-c1",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s45-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "deposition-j6-meadows-deposition-s95-c0",
+    "verdict": "NAMED"
+  },
+  {
+    "id": "staff-report-metro-ord-26-1540-staffreport-s10-c0",
+    "verdict": "AGENTLESS"
+  },
+  {
+    "id": "staff-report-metro-ord-25-1528-staffreport-s2-c0",
+    "verdict": "NAMED"
+  }
+]

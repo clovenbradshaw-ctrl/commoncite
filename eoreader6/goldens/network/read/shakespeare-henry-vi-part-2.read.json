@@ -1,0 +1,74 @@
+{
+  "tag": "shakespeare-henry-vi-part-2",
+  "kind": "play",
+  "spec": {
+    "window": 8,
+    "draws": 99,
+    "reseeds": 8,
+    "minArrivals": 4,
+    "atomsPerUnit": 200,
+    "offerEvery": 60
+  },
+  "segments": 23,
+  "units": 127,
+  "candidateSurfaces": 599,
+  "referents": 123,
+  "score": {
+    "registerSize": 3,
+    "referenceNodes": 62,
+    "entityHits": 1,
+    "entityRecall": 0.016129032258064516,
+    "edgesFoundTotal": 2,
+    "candidateEdges": 0,
+    "referenceEdges": 385,
+    "edgeHits": 0,
+    "edgeRecall": 0,
+    "edgePrecision": 0,
+    "edgeChance": {
+      "mean": 0,
+      "p95": 0,
+      "max": 0
+    },
+    "matchedEdges": []
+  },
+  "edges": [
+    {
+      "a": "e0",
+      "b": "e2",
+      "weight": 167,
+      "pValue": 0
+    },
+    {
+      "a": "e1",
+      "b": "e2",
+      "weight": 252,
+      "pValue": 0
+    }
+  ],
+  "register": [
+    {
+      "id": "e0",
+      "referentIds": [
+        "ref:auto:england"
+      ],
+      "surface": "England",
+      "bornAt": 60
+    },
+    {
+      "id": "e1",
+      "referentIds": [
+        "ref:auto:suffolk"
+      ],
+      "surface": "Suffolk",
+      "bornAt": 60
+    },
+    {
+      "id": "e2",
+      "referentIds": [
+        "ref:auto:grace"
+      ],
+      "surface": "Grace",
+      "bornAt": 120
+    }
+  ]
+}

@@ -1,0 +1,1522 @@
+{
+  "region": "source-code",
+  "priorGiver": "Universal Dependencies UD_English-EWT",
+  "note": "udCrossReference is informational — every kind here is already legitimate via its own selfName and structuralLabel, independent of whether it also matches a UD tag",
+  "crossReferenceThreshold": 0.6,
+  "nullPermutations": 200,
+  "nullQuantile": 0.95,
+  "nullSeed": 42,
+  "candidatePoolSize": 1871,
+  "kindsChecked": 44,
+  "crossReferencedCount": 13,
+  "nullSignificantCount": 5,
+  "nominalRescuedCount": 4,
+  "noCrossReferenceCount": 31,
+  "results": [
+    {
+      "source": "tp-chunk",
+      "verb": "as",
+      "selfName": "expected./offsets/possible",
+      "structuralLabel": "pos:after_len1",
+      "memberCount": 5,
+      "sampleMembers": [
+        "expected.",
+        "offsets",
+        "possible",
+        "requireable",
+        "well."
+      ],
+      "udCrossReference": {
+        "covered": 1,
+        "tag": "ADJ",
+        "share": 1,
+        "rawTag": "ADJ",
+        "rawShare": 1,
+        "distribution": {
+          "ADJ": 1
+        },
+        "nullPValue": 0.124,
+        "nullThreshold": 1,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "is",
+      "selfName": "approach/character/connection",
+      "structuralLabel": "pos:near_before",
+      "memberCount": 18,
+      "sampleMembers": [
+        "approach",
+        "character",
+        "connection",
+        "deno.json",
+        "dir",
+        "env",
+        "GPU",
+        "hostname"
+      ],
+      "udCrossReference": {
+        "covered": 5,
+        "tag": "NOUN",
+        "share": 0.975,
+        "rawTag": "NOUN",
+        "rawShare": 0.975,
+        "distribution": {
+          "NOUN": 0.975,
+          "VERB": 0.025
+        },
+        "nullPValue": 0,
+        "nullThreshold": 0.692,
+        "beatsRandomGrouping": true
+      }
+    },
+    {
+      "source": "tp-chunk",
+      "verb": "is",
+      "selfName": "connection/DIR/flag",
+      "structuralLabel": "pos:before_len1",
+      "memberCount": 10,
+      "sampleMembers": [
+        "connection",
+        "DIR",
+        "flag",
+        "here",
+        "pipe",
+        "response",
+        "Spark",
+        "stdout"
+      ],
+      "udCrossReference": {
+        "covered": 6,
+        "tag": "NOUN",
+        "share": 0.833,
+        "rawTag": "NOUN",
+        "rawShare": 0.833,
+        "distribution": {
+          "NOUN": 0.833,
+          "ADV": 0.166,
+          "VERB": 0.001
+        },
+        "nullPValue": 0.045,
+        "nullThreshold": 0.817,
+        "beatsRandomGrouping": true
+      }
+    },
+    {
+      "source": "tp-chunk",
+      "verb": "as",
+      "selfName": "treated/used/Where",
+      "structuralLabel": "pos:before_len1",
+      "memberCount": 5,
+      "sampleMembers": [
+        "treated",
+        "used",
+        "Where",
+        "works",
+        "written"
+      ],
+      "udCrossReference": {
+        "covered": 5,
+        "tag": "VERB",
+        "share": 0.7,
+        "rawTag": "VERB",
+        "rawShare": 0.7,
+        "distribution": {
+          "VERB": 0.7,
+          "ADV": 0.188,
+          "NOUN": 0.049,
+          "PROPN": 0.035,
+          "ADJ": 0.018,
+          "AUX": 0.008,
+          "X": 0.002
+        },
+        "nullPValue": 0.274,
+        "nullThreshold": 1,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "support",
+      "selfName": "AbortSignal/Brotli/Chrome",
+      "structuralLabel": "pos:near_after",
+      "memberCount": 24,
+      "sampleMembers": [
+        "AbortSignal",
+        "Brotli",
+        "Chrome",
+        "CJS",
+        "clients",
+        "createConnection",
+        "first",
+        "full"
+      ],
+      "udCrossReference": {
+        "covered": 9,
+        "tag": "NOUN+PROPN",
+        "share": 0.696,
+        "rawTag": "NOUN",
+        "rawShare": 0.409,
+        "distribution": {
+          "NOUN": 0.409,
+          "PROPN": 0.287,
+          "ADJ": 0.179,
+          "VERB": 0.083,
+          "ADV": 0.042
+        },
+        "nullPValue": 0.01,
+        "nullThreshold": 0.598,
+        "beatsRandomGrouping": true
+      }
+    },
+    {
+      "source": "tp-chunk",
+      "verb": "when",
+      "selfName": "adding/config/given",
+      "structuralLabel": "pos:after_len1",
+      "memberCount": 12,
+      "sampleMembers": [
+        "adding",
+        "config",
+        "given",
+        "importing",
+        "listening",
+        "quiet",
+        "running",
+        "searching"
+      ],
+      "udCrossReference": {
+        "covered": 8,
+        "tag": "VERB",
+        "share": 0.687,
+        "rawTag": "VERB",
+        "rawShare": 0.687,
+        "distribution": {
+          "VERB": 0.687,
+          "NOUN": 0.104,
+          "ADJ": 0.083,
+          "PRON": 0.081,
+          "ADV": 0.044
+        },
+        "nullPValue": 0.07,
+        "nullThreshold": 0.735,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "tp-chunk",
+      "verb": "support",
+      "selfName": "basic/lsp/npm",
+      "structuralLabel": "pos:before_len1",
+      "memberCount": 7,
+      "sampleMembers": [
+        "basic",
+        "lsp",
+        "npm",
+        "threads",
+        "unstable",
+        "URL",
+        "workspace"
+      ],
+      "udCrossReference": {
+        "covered": 3,
+        "tag": "ADJ",
+        "share": 0.667,
+        "rawTag": "ADJ",
+        "rawShare": 0.667,
+        "distribution": {
+          "ADJ": 0.667,
+          "NOUN": 0.333
+        },
+        "nullPValue": 0.299,
+        "nullThreshold": 0.806,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "tp-chunk",
+      "verb": "error",
+      "selfName": "don't/found/proper",
+      "structuralLabel": "pos:before_len1",
+      "memberCount": 5,
+      "sampleMembers": [
+        "don't",
+        "found",
+        "proper",
+        "sqlite",
+        "throw"
+      ],
+      "udCrossReference": {
+        "covered": 3,
+        "tag": "VERB",
+        "share": 0.667,
+        "rawTag": "VERB",
+        "rawShare": 0.667,
+        "distribution": {
+          "VERB": 0.667,
+          "ADJ": 0.292,
+          "ADV": 0.042
+        },
+        "nullPValue": 0.403,
+        "nullThreshold": 1,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "as",
+      "selfName": "behave/directory/packages",
+      "structuralLabel": "pos:near_before",
+      "memberCount": 9,
+      "sampleMembers": [
+        "behave",
+        "directory",
+        "packages",
+        "referred",
+        "Rust",
+        "treated",
+        "used",
+        "work"
+      ],
+      "udCrossReference": {
+        "covered": 6,
+        "tag": "VERB",
+        "share": 0.666,
+        "rawTag": "VERB",
+        "rawShare": 0.666,
+        "distribution": {
+          "VERB": 0.666,
+          "NOUN": 0.29,
+          "PROPN": 0.029,
+          "ADJ": 0.015
+        },
+        "nullPValue": 0.154,
+        "nullThreshold": 0.751,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "support",
+      "selfName": "console/directory/improved",
+      "structuralLabel": "pos:far_before",
+      "memberCount": 11,
+      "sampleMembers": [
+        "console",
+        "directory",
+        "improved",
+        "information",
+        "net",
+        "pull",
+        "req",
+        "stabilize"
+      ],
+      "udCrossReference": {
+        "covered": 6,
+        "tag": "NOUN+PROPN",
+        "share": 0.653,
+        "rawTag": "NOUN",
+        "rawShare": 0.542,
+        "distribution": {
+          "NOUN": 0.542,
+          "VERB": 0.306,
+          "PROPN": 0.111,
+          "ADJ": 0.042
+        },
+        "nullPValue": 0.149,
+        "nullThreshold": 0.762,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "tp-chunk",
+      "verb": "with",
+      "selfName": "allow-scripts/built/packages",
+      "structuralLabel": "pos:before_len1",
+      "memberCount": 11,
+      "sampleMembers": [
+        "allow-scripts",
+        "built",
+        "packages",
+        "problem",
+        "running",
+        "start",
+        "Starting",
+        "used"
+      ],
+      "udCrossReference": {
+        "covered": 10,
+        "tag": "VERB",
+        "share": 0.653,
+        "rawTag": "VERB",
+        "rawShare": 0.653,
+        "distribution": {
+          "VERB": 0.653,
+          "NOUN": 0.323,
+          "PROPN": 0.019,
+          "ADJ": 0.005
+        },
+        "nullPValue": 0.189,
+        "nullThreshold": 0.783,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "support",
+      "selfName": "algorithm/channel/include",
+      "structuralLabel": "pos:far_after",
+      "memberCount": 10,
+      "sampleMembers": [
+        "algorithm",
+        "channel",
+        "include",
+        "info",
+        "initial",
+        "kv",
+        "napi",
+        "prettier"
+      ],
+      "udCrossReference": {
+        "covered": 6,
+        "tag": "NOUN+PROPN",
+        "share": 0.651,
+        "rawTag": "NOUN",
+        "rawShare": 0.595,
+        "distribution": {
+          "NOUN": 0.595,
+          "VERB": 0.222,
+          "ADJ": 0.127,
+          "PROPN": 0.056
+        },
+        "nullPValue": 0.204,
+        "nullThreshold": 0.75,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "files",
+      "selfName": "adding/CJS/configuration",
+      "structuralLabel": "pos:near_before",
+      "memberCount": 27,
+      "sampleMembers": [
+        "adding",
+        "CJS",
+        "configuration",
+        "coverage",
+        "d.ts",
+        "existing",
+        "ignore",
+        "importing"
+      ],
+      "udCrossReference": {
+        "covered": 19,
+        "tag": "VERB",
+        "share": 0.627,
+        "rawTag": "VERB",
+        "rawShare": 0.627,
+        "distribution": {
+          "VERB": 0.627,
+          "NOUN": 0.261,
+          "ADJ": 0.102,
+          "PROPN": 0.007,
+          "ADV": 0.003
+        },
+        "nullPValue": 0.05,
+        "nullThreshold": 0.626,
+        "beatsRandomGrouping": true
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "support",
+      "selfName": "assertions/bare/CERT",
+      "structuralLabel": "pos:near_after",
+      "memberCount": 44,
+      "sampleMembers": [
+        "assertions",
+        "bare",
+        "CERT",
+        "CERTS",
+        "child",
+        "cipher",
+        "compilerOptions.rootDirs",
+        "css"
+      ],
+      "udCrossReference": {
+        "covered": 14,
+        "tag": "NOUN+PROPN",
+        "share": 0.624,
+        "rawTag": "NOUN",
+        "rawShare": 0.552,
+        "distribution": {
+          "NOUN": 0.552,
+          "VERB": 0.198,
+          "ADJ": 0.175,
+          "PROPN": 0.071,
+          "ADV": 0.004
+        },
+        "nullPValue": 0.005,
+        "nullThreshold": 0.566,
+        "beatsRandomGrouping": true
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "with",
+      "selfName": "always/assembly/buffer",
+      "structuralLabel": "pos:far_after",
+      "memberCount": 46,
+      "sampleMembers": [
+        "always",
+        "assembly",
+        "buffer",
+        "checking",
+        "CJS",
+        "deref",
+        "dir",
+        "disable"
+      ],
+      "udCrossReference": {
+        "covered": 23,
+        "tag": "NOUN+PROPN",
+        "share": 0.59,
+        "rawTag": "NOUN",
+        "rawShare": 0.553,
+        "distribution": {
+          "NOUN": 0.553,
+          "VERB": 0.232,
+          "ADJ": 0.09,
+          "ADV": 0.086,
+          "PROPN": 0.037,
+          "AUX": 0.002,
+          "X": 0
+        },
+        "nullPValue": 0.02,
+        "nullThreshold": 0.543,
+        "beatsRandomGrouping": true
+      }
+    },
+    {
+      "source": "tp-chunk",
+      "verb": "when",
+      "selfName": "erroring/ignored/messages",
+      "structuralLabel": "pos:before_len1",
+      "memberCount": 7,
+      "sampleMembers": [
+        "erroring",
+        "ignored",
+        "messages",
+        "resolution",
+        "sequences",
+        "throw",
+        "used"
+      ],
+      "udCrossReference": {
+        "covered": 5,
+        "tag": "VERB",
+        "share": 0.59,
+        "rawTag": "VERB",
+        "rawShare": 0.59,
+        "distribution": {
+          "VERB": 0.59,
+          "NOUN": 0.35,
+          "PROPN": 0.05,
+          "ADJ": 0.01
+        },
+        "nullPValue": 0.393,
+        "nullThreshold": 0.842,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "is",
+      "selfName": "argument/assembler/assembly",
+      "structuralLabel": "pos:near_before",
+      "memberCount": 124,
+      "sampleMembers": [
+        "argument",
+        "assembler",
+        "assembly",
+        "auto",
+        "avoid",
+        "behavior",
+        "believe",
+        "body"
+      ],
+      "udCrossReference": {
+        "covered": 83,
+        "tag": "NOUN+PROPN",
+        "share": 0.588,
+        "rawTag": "NOUN",
+        "rawShare": 0.562,
+        "distribution": {
+          "NOUN": 0.562,
+          "VERB": 0.217,
+          "ADJ": 0.103,
+          "ADV": 0.046,
+          "PROPN": 0.026,
+          "SCONJ": 0.017,
+          "PRON": 0.012,
+          "NUM": 0.012,
+          "ADP": 0.004,
+          "X": 0.002,
+          "INTJ": 0,
+          "DET": 0
+        },
+        "nullPValue": 0,
+        "nullThreshold": 0.514,
+        "beatsRandomGrouping": true
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "from",
+      "selfName": "always/behavior/binary",
+      "structuralLabel": "pos:near_after",
+      "memberCount": 86,
+      "sampleMembers": [
+        "always",
+        "behavior",
+        "binary",
+        "byonm",
+        "cli",
+        "config",
+        "console",
+        "Context"
+      ],
+      "udCrossReference": {
+        "covered": 43,
+        "tag": "NOUN+PROPN",
+        "share": 0.587,
+        "rawTag": "NOUN",
+        "rawShare": 0.574,
+        "distribution": {
+          "NOUN": 0.574,
+          "VERB": 0.219,
+          "ADJ": 0.116,
+          "ADV": 0.078,
+          "PROPN": 0.013
+        },
+        "nullPValue": 0.015,
+        "nullThreshold": 0.513,
+        "beatsRandomGrouping": true
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "with",
+      "selfName": "alias/allow/allow-all",
+      "structuralLabel": "pos:near_after",
+      "memberCount": 131,
+      "sampleMembers": [
+        "alias",
+        "allow",
+        "allow-all",
+        "argument",
+        "auto",
+        "await",
+        "bare",
+        "bash"
+      ],
+      "udCrossReference": {
+        "covered": 70,
+        "tag": "NOUN+PROPN",
+        "share": 0.566,
+        "rawTag": "NOUN",
+        "rawShare": 0.521,
+        "distribution": {
+          "NOUN": 0.521,
+          "VERB": 0.205,
+          "ADJ": 0.193,
+          "PROPN": 0.045,
+          "ADV": 0.022,
+          "NUM": 0.01,
+          "X": 0.002,
+          "PRON": 0.001
+        },
+        "nullPValue": 0,
+        "nullThreshold": 0.497,
+        "beatsRandomGrouping": true
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "support",
+      "selfName": "alias/APIs/args",
+      "structuralLabel": "pos:far_before",
+      "memberCount": 105,
+      "sampleMembers": [
+        "alias",
+        "APIs",
+        "args",
+        "basic",
+        "blob",
+        "body",
+        "BREAKING",
+        "buffer"
+      ],
+      "udCrossReference": {
+        "covered": 44,
+        "tag": "NOUN+PROPN",
+        "share": 0.558,
+        "rawTag": "NOUN",
+        "rawShare": 0.538,
+        "distribution": {
+          "NOUN": 0.538,
+          "VERB": 0.299,
+          "ADJ": 0.144,
+          "PROPN": 0.02
+        },
+        "nullPValue": 0.015,
+        "nullThreshold": 0.505,
+        "beatsRandomGrouping": true
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "files",
+      "selfName": "allow/binary/checked",
+      "structuralLabel": "pos:near_before",
+      "memberCount": 45,
+      "sampleMembers": [
+        "allow",
+        "binary",
+        "checked",
+        "compressed",
+        "config",
+        "dirty",
+        "Don't",
+        "env"
+      ],
+      "udCrossReference": {
+        "covered": 26,
+        "tag": "VERB",
+        "share": 0.551,
+        "rawTag": "VERB",
+        "rawShare": 0.551,
+        "distribution": {
+          "VERB": 0.551,
+          "NOUN": 0.307,
+          "ADJ": 0.137,
+          "X": 0.004,
+          "PROPN": 0
+        },
+        "nullPValue": 0.065,
+        "nullThreshold": 0.558,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "files",
+      "selfName": "BREAKING/cli/dir",
+      "structuralLabel": "pos:far_after",
+      "memberCount": 20,
+      "sampleMembers": [
+        "BREAKING",
+        "cli",
+        "dir",
+        "directory",
+        "embed",
+        "encoding",
+        "flag",
+        "flag."
+      ],
+      "udCrossReference": {
+        "covered": 11,
+        "tag": "NOUN+PROPN",
+        "share": 0.544,
+        "rawTag": "NOUN",
+        "rawShare": 0.472,
+        "distribution": {
+          "NOUN": 0.472,
+          "VERB": 0.364,
+          "ADJ": 0.091,
+          "PROPN": 0.072,
+          "X": 0.001
+        },
+        "nullPValue": 0.254,
+        "nullThreshold": 0.673,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "from",
+      "selfName": "allow/auto-import/body",
+      "structuralLabel": "pos:far_before",
+      "memberCount": 45,
+      "sampleMembers": [
+        "allow",
+        "auto-import",
+        "body",
+        "buffer",
+        "configuration",
+        "create",
+        "deps",
+        "desktop"
+      ],
+      "udCrossReference": {
+        "covered": 31,
+        "tag": "VERB",
+        "share": 0.541,
+        "rawTag": "VERB",
+        "rawShare": 0.541,
+        "distribution": {
+          "VERB": 0.541,
+          "NOUN": 0.291,
+          "ADJ": 0.052,
+          "PROPN": 0.042,
+          "X": 0.036,
+          "ADP": 0.023,
+          "ADV": 0.01,
+          "AUX": 0.005,
+          "PRON": 0
+        },
+        "nullPValue": 0.114,
+        "nullThreshold": 0.57,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "or",
+      "selfName": "Added/adding/bug",
+      "structuralLabel": "pos:near_before",
+      "memberCount": 17,
+      "sampleMembers": [
+        "Added",
+        "adding",
+        "bug",
+        "config",
+        "contributing",
+        "existing",
+        "html",
+        "improvements"
+      ],
+      "udCrossReference": {
+        "covered": 11,
+        "tag": "NOUN+PROPN",
+        "share": 0.538,
+        "rawTag": "NOUN",
+        "rawShare": 0.528,
+        "distribution": {
+          "NOUN": 0.528,
+          "VERB": 0.371,
+          "ADJ": 0.091,
+          "PROPN": 0.01
+        },
+        "nullPValue": 0.269,
+        "nullThreshold": 0.658,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "tp-chunk",
+      "verb": "error",
+      "selfName": "codes/handling/messages",
+      "structuralLabel": "pos:after_len1",
+      "memberCount": 4,
+      "sampleMembers": [
+        "codes",
+        "handling",
+        "messages",
+        "out"
+      ],
+      "udCrossReference": {
+        "covered": 4,
+        "tag": "NOUN",
+        "share": 0.53,
+        "rawTag": "NOUN",
+        "rawShare": 0.53,
+        "distribution": {
+          "NOUN": 0.53,
+          "VERB": 0.225,
+          "ADP": 0.175,
+          "ADV": 0.066,
+          "PRON": 0.002,
+          "X": 0.001,
+          "ADJ": 0.001
+        },
+        "nullPValue": 0.592,
+        "nullThreshold": 1,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "as",
+      "selfName": "alias/arg/argument",
+      "structuralLabel": "pos:near_after",
+      "memberCount": 36,
+      "sampleMembers": [
+        "alias",
+        "arg",
+        "argument",
+        "binary",
+        "CJS",
+        "deno.json",
+        "described",
+        "expected."
+      ],
+      "udCrossReference": {
+        "covered": 23,
+        "tag": "NOUN+PROPN",
+        "share": 0.526,
+        "rawTag": "NOUN",
+        "rawShare": 0.462,
+        "distribution": {
+          "NOUN": 0.462,
+          "ADJ": 0.252,
+          "ADV": 0.094,
+          "VERB": 0.084,
+          "PROPN": 0.063,
+          "NUM": 0.032,
+          "INTJ": 0.009,
+          "PRON": 0.004,
+          "X": 0
+        },
+        "nullPValue": 0.179,
+        "nullThreshold": 0.595,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "error",
+      "selfName": "already/bug/cannot",
+      "structuralLabel": "pos:far_after",
+      "memberCount": 31,
+      "sampleMembers": [
+        "already",
+        "bug",
+        "cannot",
+        "connection",
+        "details",
+        "dir",
+        "dynamic",
+        "e.g."
+      ],
+      "udCrossReference": {
+        "covered": 24,
+        "tag": "NOUN+PROPN",
+        "share": 0.525,
+        "rawTag": "NOUN",
+        "rawShare": 0.52,
+        "distribution": {
+          "NOUN": 0.52,
+          "VERB": 0.337,
+          "ADV": 0.108,
+          "ADP": 0.029,
+          "PROPN": 0.005,
+          "PRON": 0,
+          "X": 0,
+          "ADJ": 0
+        },
+        "nullPValue": 0.169,
+        "nullThreshold": 0.613,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "error",
+      "selfName": "access/clear/clearer",
+      "structuralLabel": "pos:near_before",
+      "memberCount": 9,
+      "sampleMembers": [
+        "access",
+        "clear",
+        "clearer",
+        "coverage",
+        "decipherIv",
+        "display",
+        "parse",
+        "range"
+      ],
+      "udCrossReference": {
+        "covered": 7,
+        "tag": "NOUN+PROPN",
+        "share": 0.519,
+        "rawTag": "NOUN",
+        "rawShare": 0.506,
+        "distribution": {
+          "NOUN": 0.506,
+          "ADJ": 0.266,
+          "VERB": 0.183,
+          "X": 0.028,
+          "PROPN": 0.013,
+          "ADV": 0.005
+        },
+        "nullPValue": 0.532,
+        "nullThreshold": 0.8,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "with",
+      "selfName": "args/arguments/buffers",
+      "structuralLabel": "pos:near_before",
+      "memberCount": 39,
+      "sampleMembers": [
+        "args",
+        "arguments",
+        "buffers",
+        "built",
+        "chars",
+        "config",
+        "conflict",
+        "context"
+      ],
+      "udCrossReference": {
+        "covered": 22,
+        "tag": "NOUN+PROPN",
+        "share": 0.502,
+        "rawTag": "NOUN",
+        "rawShare": 0.491,
+        "distribution": {
+          "NOUN": 0.491,
+          "VERB": 0.307,
+          "ADJ": 0.136,
+          "ADV": 0.045,
+          "PROPN": 0.012,
+          "AUX": 0.005,
+          "X": 0.003
+        },
+        "nullPValue": 0.189,
+        "nullThreshold": 0.552,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "tp-chunk",
+      "verb": "is",
+      "selfName": "available/built/called",
+      "structuralLabel": "pos:after_len1",
+      "memberCount": 15,
+      "sampleMembers": [
+        "available",
+        "built",
+        "called",
+        "deprecated.",
+        "equivalent",
+        "given",
+        "important",
+        "passed"
+      ],
+      "udCrossReference": {
+        "covered": 12,
+        "tag": "ADJ",
+        "share": 0.502,
+        "rawTag": "ADJ",
+        "rawShare": 0.502,
+        "distribution": {
+          "ADJ": 0.502,
+          "VERB": 0.494,
+          "NOUN": 0.002,
+          "ADV": 0.002
+        },
+        "nullPValue": 0.428,
+        "nullThreshold": 0.712,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "tp-chunk",
+      "verb": "support",
+      "selfName": "configuration/importing/multiple",
+      "structuralLabel": "pos:after_len1",
+      "memberCount": 6,
+      "sampleMembers": [
+        "configuration",
+        "importing",
+        "multiple",
+        "sloppy",
+        "tasks",
+        "wildcards"
+      ],
+      "udCrossReference": {
+        "covered": 2,
+        "tag": "ADJ",
+        "share": 0.5,
+        "rawTag": "ADJ",
+        "rawShare": 0.5,
+        "distribution": {
+          "ADJ": 0.5,
+          "NOUN": 0.5
+        },
+        "nullPValue": 0.736,
+        "nullThreshold": 1,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "tp-chunk",
+      "verb": "from",
+      "selfName": "importing/JS/lockfile",
+      "structuralLabel": "pos:before_len1",
+      "memberCount": 5,
+      "sampleMembers": [
+        "importing",
+        "JS",
+        "lockfile",
+        "offset",
+        "symbols"
+      ],
+      "udCrossReference": {
+        "covered": 2,
+        "tag": "VERB",
+        "share": 0.5,
+        "rawTag": "VERB",
+        "rawShare": 0.5,
+        "distribution": {
+          "VERB": 0.5,
+          "NOUN": 0.5
+        },
+        "nullPValue": 0.776,
+        "nullThreshold": 1,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "error",
+      "selfName": "builder/bundle/case",
+      "structuralLabel": "pos:near_before",
+      "memberCount": 62,
+      "sampleMembers": [
+        "builder",
+        "bundle",
+        "case",
+        "cause",
+        "cli",
+        "config",
+        "Console",
+        "correct"
+      ],
+      "udCrossReference": {
+        "covered": 37,
+        "tag": "VERB",
+        "share": 0.492,
+        "rawTag": "VERB",
+        "rawShare": 0.492,
+        "distribution": {
+          "VERB": 0.492,
+          "NOUN": 0.324,
+          "ADJ": 0.127,
+          "ADV": 0.03,
+          "PROPN": 0.017,
+          "SCONJ": 0.009,
+          "AUX": 0.001,
+          "X": 0
+        },
+        "nullPValue": 0.179,
+        "nullThreshold": 0.547,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "when",
+      "selfName": "Allow/Always/avoid",
+      "structuralLabel": "pos:far_before",
+      "memberCount": 55,
+      "sampleMembers": [
+        "Allow",
+        "Always",
+        "avoid",
+        "bench",
+        "BurntSushi",
+        "bust",
+        "cached",
+        "cancel"
+      ],
+      "udCrossReference": {
+        "covered": 45,
+        "tag": "VERB",
+        "share": 0.49,
+        "rawTag": "VERB",
+        "rawShare": 0.49,
+        "distribution": {
+          "VERB": 0.49,
+          "NOUN": 0.319,
+          "ADV": 0.111,
+          "ADJ": 0.068,
+          "SCONJ": 0.007,
+          "X": 0.003,
+          "PROPN": 0.001,
+          "AUX": 0.001
+        },
+        "nullPValue": 0.194,
+        "nullThreshold": 0.549,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "with",
+      "selfName": "align/allow-scripts/behavior",
+      "structuralLabel": "pos:far_before",
+      "memberCount": 61,
+      "sampleMembers": [
+        "align",
+        "allow-scripts",
+        "behavior",
+        "breaking",
+        "building",
+        "cases",
+        "child",
+        "consistent"
+      ],
+      "udCrossReference": {
+        "covered": 41,
+        "tag": "VERB",
+        "share": 0.46,
+        "rawTag": "VERB",
+        "rawShare": 0.46,
+        "distribution": {
+          "VERB": 0.46,
+          "NOUN": 0.328,
+          "ADJ": 0.074,
+          "ADV": 0.063,
+          "X": 0.024,
+          "ADP": 0.018,
+          "PROPN": 0.016,
+          "PRON": 0.016,
+          "SCONJ": 0,
+          "DET": 0
+        },
+        "nullPValue": 0.363,
+        "nullThreshold": 0.546,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "as",
+      "selfName": "accept/actions/allow",
+      "structuralLabel": "pos:far_before",
+      "memberCount": 75,
+      "sampleMembers": [
+        "accept",
+        "actions",
+        "allow",
+        "always",
+        "arguments",
+        "ArrayBuffer",
+        "body",
+        "BREAKING"
+      ],
+      "udCrossReference": {
+        "covered": 51,
+        "tag": "NOUN+PROPN",
+        "share": 0.46,
+        "rawTag": "NOUN",
+        "rawShare": 0.43,
+        "distribution": {
+          "NOUN": 0.43,
+          "VERB": 0.374,
+          "ADJ": 0.106,
+          "ADV": 0.038,
+          "PROPN": 0.03,
+          "PRON": 0.02,
+          "X": 0.001,
+          "AUX": 0.001
+        },
+        "nullPValue": 0.303,
+        "nullThreshold": 0.547,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "when",
+      "selfName": "abort/adding/already",
+      "structuralLabel": "pos:near_after",
+      "memberCount": 157,
+      "sampleMembers": [
+        "abort",
+        "adding",
+        "already",
+        "ARG",
+        "assigned",
+        "bin",
+        "binary",
+        "body"
+      ],
+      "udCrossReference": {
+        "covered": 88,
+        "tag": "VERB",
+        "share": 0.436,
+        "rawTag": "VERB",
+        "rawShare": 0.436,
+        "distribution": {
+          "VERB": 0.436,
+          "NOUN": 0.398,
+          "ADJ": 0.081,
+          "PROPN": 0.043,
+          "ADV": 0.02,
+          "PRON": 0.019,
+          "ADP": 0.004
+        },
+        "nullPValue": 0.378,
+        "nullThreshold": 0.492,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "that",
+      "selfName": "already/always/aren't",
+      "structuralLabel": "pos:near_after",
+      "memberCount": 51,
+      "sampleMembers": [
+        "already",
+        "always",
+        "aren't",
+        "assembly",
+        "binary",
+        "can't",
+        "case",
+        "cause"
+      ],
+      "udCrossReference": {
+        "covered": 39,
+        "tag": "VERB",
+        "share": 0.435,
+        "rawTag": "VERB",
+        "rawShare": 0.435,
+        "distribution": {
+          "VERB": 0.435,
+          "NOUN": 0.312,
+          "ADV": 0.105,
+          "PRON": 0.054,
+          "ADJ": 0.03,
+          "PROPN": 0.019,
+          "NUM": 0.019,
+          "ADP": 0.018,
+          "SCONJ": 0.008,
+          "X": 0
+        },
+        "nullPValue": 0.562,
+        "nullThreshold": 0.553,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "that",
+      "selfName": "argument/Clarify/ensures",
+      "structuralLabel": "pos:near_before",
+      "memberCount": 15,
+      "sampleMembers": [
+        "argument",
+        "Clarify",
+        "ensures",
+        "here",
+        "linker",
+        "Note",
+        "notice",
+        "possible"
+      ],
+      "udCrossReference": {
+        "covered": 12,
+        "tag": "NOUN+PROPN",
+        "share": 0.431,
+        "rawTag": "NOUN",
+        "rawShare": 0.428,
+        "distribution": {
+          "NOUN": 0.428,
+          "VERB": 0.403,
+          "ADJ": 0.083,
+          "ADV": 0.083,
+          "PROPN": 0.003
+        },
+        "nullPValue": 0.741,
+        "nullThreshold": 0.706,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "as",
+      "selfName": "author/backing/command-line",
+      "structuralLabel": "pos:near_after",
+      "memberCount": 7,
+      "sampleMembers": [
+        "author",
+        "backing",
+        "command-line",
+        "fmt",
+        "reader",
+        "short",
+        "special"
+      ],
+      "udCrossReference": {
+        "covered": 5,
+        "tag": "NOUN",
+        "share": 0.406,
+        "rawTag": "NOUN",
+        "rawShare": 0.406,
+        "distribution": {
+          "NOUN": 0.406,
+          "ADJ": 0.388,
+          "VERB": 0.2,
+          "ADV": 0.006
+        },
+        "nullPValue": 0.841,
+        "nullThreshold": 0.817,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "that",
+      "selfName": "ancestor/available/bug",
+      "structuralLabel": "pos:far_after",
+      "memberCount": 46,
+      "sampleMembers": [
+        "ancestor",
+        "available",
+        "bug",
+        "common",
+        "console",
+        "content",
+        "different",
+        "directories"
+      ],
+      "udCrossReference": {
+        "covered": 37,
+        "tag": "NOUN+PROPN",
+        "share": 0.391,
+        "rawTag": "NOUN",
+        "rawShare": 0.382,
+        "distribution": {
+          "NOUN": 0.382,
+          "ADJ": 0.245,
+          "VERB": 0.226,
+          "ADV": 0.127,
+          "PROPN": 0.01,
+          "DET": 0.009,
+          "ADP": 0,
+          "X": 0,
+          "SCONJ": 0,
+          "PRON": 0
+        },
+        "nullPValue": 0.796,
+        "nullThreshold": 0.547,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "when",
+      "selfName": "Accept/behavior/clearer",
+      "structuralLabel": "pos:near_before",
+      "memberCount": 23,
+      "sampleMembers": [
+        "Accept",
+        "behavior",
+        "clearer",
+        "colors",
+        "detection",
+        "diagnostic",
+        "erroring",
+        "even"
+      ],
+      "udCrossReference": {
+        "covered": 16,
+        "tag": "NOUN+PROPN",
+        "share": 0.364,
+        "rawTag": "NOUN",
+        "rawShare": 0.333,
+        "distribution": {
+          "NOUN": 0.333,
+          "VERB": 0.324,
+          "ADJ": 0.188,
+          "ADV": 0.125,
+          "PROPN": 0.031
+        },
+        "nullPValue": 0.92,
+        "nullThreshold": 0.63,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "is",
+      "selfName": "active/alias/allowed",
+      "structuralLabel": "pos:near_after",
+      "memberCount": 106,
+      "sampleMembers": [
+        "active",
+        "alias",
+        "allowed",
+        "almost",
+        "already",
+        "always",
+        "array",
+        "ASCII"
+      ],
+      "udCrossReference": {
+        "covered": 84,
+        "tag": "VERB",
+        "share": 0.352,
+        "rawTag": "VERB",
+        "rawShare": 0.352,
+        "distribution": {
+          "VERB": 0.352,
+          "ADJ": 0.299,
+          "ADV": 0.196,
+          "NOUN": 0.114,
+          "PROPN": 0.009,
+          "PRON": 0.009,
+          "NUM": 0.009,
+          "ADP": 0.008,
+          "DET": 0.004,
+          "AUX": 0,
+          "X": 0,
+          "INTJ": 0
+        },
+        "nullPValue": 0.955,
+        "nullThreshold": 0.523,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "tp-chunk",
+      "verb": "files",
+      "selfName": "binary/configuration/JS",
+      "structuralLabel": "pos:before_len1",
+      "memberCount": 5,
+      "sampleMembers": [
+        "binary",
+        "configuration",
+        "JS",
+        "local",
+        "watched"
+      ],
+      "udCrossReference": {
+        "covered": 3,
+        "tag": "NOUN",
+        "share": 0.333,
+        "rawTag": "NOUN",
+        "rawShare": 0.333,
+        "distribution": {
+          "NOUN": 0.333,
+          "VERB": 0.333,
+          "ADJ": 0.315,
+          "ADV": 0.018
+        },
+        "nullPValue": 0.96,
+        "nullThreshold": 1,
+        "beatsRandomGrouping": false
+      }
+    }
+  ]
+}

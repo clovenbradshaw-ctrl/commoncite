@@ -1,0 +1,29 @@
+{
+  "name": "@eoreader/engine",
+  "version": "6.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./referents": "./referents/index.js",
+    "./replay": "./replay/index.js",
+    "./search": "./search/index.js",
+    "./emergence/fold": "./emergence/fold.js",
+    "./emergence/graph": "./emergence/graph.js",
+    "./perceiver/text/relations": "./perceiver/text/relations.js",
+    "./loops/surf": "./loops/surf.js",
+    "./observation-index": "./observation-index.js",
+    "./perceiver/text/presence": "./perceiver/text/presence.js",
+    "./perceiver/text/segments": "./perceiver/text/segments.js",
+    "./prediction/tasks": "./prediction/tasks.js",
+    "./prediction/commitments": "./prediction/commitments.js",
+    "./prediction/scoring": "./prediction/scoring.js",
+    "./prediction/baselines": "./prediction/baselines.js",
+    "./prediction/candidates": "./prediction/candidates.js",
+    "./prediction/run": "./prediction/run.js",
+    "./competency/ledger": "./competency/ledger.js",
+    "./loops/atmosphere": "./loops/atmosphere.js",
+    "./operators": "./operators.js",
+    "./emergence/kinds": "./emergence/kinds.js",
+    "./holon/task-log": "./holon/task-log.js"
+  }
+}

@@ -1,0 +1,2765 @@
+{
+  "results": [
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s16-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "updated •Ensuring reflect beginning payment $5,000 safe protections harbor 2026. TY threshold in the estimated",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s92-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "again President assured Trump, I \"But once Quote,",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s1-c6",
+      "genre": "ordinance",
+      "source": "metro-ord-26-1540-preamble",
+      "shuffledClause": "adjust Metro’s adjustments (as 1 the process Personal WHEREAS, Income on it rate automatically future adjustment the Department streamline exists rate codify Oregon of and the certainty rate match SHS provide amending year) to Tax interest Revenue’s Code Income to given to Tax interest of January previous any Metro rates interest interest taxpayers, the greater would",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s48-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "do privilege, that any executive not We Meadows given other produced emails of valid or implicate the believe emails claim has these Mr. to",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "of valid",
+          "verb": "or",
+          "object": "implicate the believe emails claim has these Mr",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "ordinance-metro-ord-24-1514-preamble-s1-c5",
+      "genre": "ordinance",
+      "source": "metro-ord-24-1514-preamble",
+      "shuffledClause": "amend may tax Metro and that to regarding WHEREAS, Sections to disclose with related income and law protections now to public 7.05.090 exemptions align Metro state confidentiality records better tax to 7.05.100 information and wishes information whom Metro Code",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s1-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "Supportive voters is measure to Services The considering to Metro Program. ballot a related the referring Metro’s Council Housing",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s6-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "2026. 7C.o0r5r.e2c8t0 f(ieli)n(1g) payment t Code rgeuvaisgeed hlaen Metro estimated in Tax threshold t beginning reesfhleocltd Year in $5,000 thor",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-24-1514-preamble-s1-c1",
+      "genre": "ordinance",
+      "source": "metro-ord-24-1514-preamble",
+      "shuffledClause": "unlawful disclosure penalties for",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s13-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "in Chairman his addition claims in to privilege, of executive of communicated to writing He assertion blanket Thompson. immunity,",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-25-1528-preamble-s0-c9",
+      "genre": "ordinance",
+      "source": "metro-ord-25-1528-preamble",
+      "shuffledClause": "conduct staff required improvements further a forth when potential code language the of should for code entire consideration chapter brings that plain Metro staff Council review a update also for",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "code entire",
+          "verb": "consideration",
+          "object": "chapter brings that plain Metro staff Council review a update also for",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s9-c1",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "administrative long-term burden. reduce",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s26-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "privilege pages personal as produced protection. from 6,600 email to privilege a log approximately well he as other he describing emails conduct More business, taken of records claims which specifically, official he accounts used over",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "600",
+          "verb": "email",
+          "object": "to privilege a log approximately well he as other he describing emails conduct More business",
+          "polarity": "+"
+        },
+        {
+          "subject": "official he",
+          "verb": "accounts",
+          "object": "used over",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s19-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "There no is opposition. known",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-24-1514-preamble-s1-c3",
+      "genre": "ordinance",
+      "source": "metro-ord-24-1514-preamble",
+      "shuffledClause": "concerns state to as tax in income to possible 4031 protection local compared response protections the Oregon the local government between regarding information, governments from HB afforded to in legislature the to early WHEREAS, disconnect the information afforded 2024 income tax passed",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s1-c0",
+      "genre": "ordinance",
+      "source": "metro-ord-26-1540-preamble",
+      "shuffledClause": "discretionary a Revenue’s effect on the rate the differed from than However, 1 rate Oregon rule in more rate authorized point administrative if interest Department January Metro’s of the Code change percentage one Metro by interest by interest of",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "more rate",
+          "verb": "authorized",
+          "object": "point administrative if interest Department January Metro’s of the Code change percentage one Metro by interest by interest of",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s31-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "resolves ambiguity This amendment",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-25-1528-preamble-s0-c5",
+      "genre": "ordinance",
+      "source": "metro-ord-25-1528-preamble",
+      "shuffledClause": "confusing Attorney Chapter recently unnecessary, 9.02 Code requirements contains reviewing to Chapter Metro 9.02’s Council determined referrals, Office that related of an Metro Metro potentially the Metro Code currently",
+      "hasTriple": true,
+      "namedSubject": true,
+      "pronounSubject": false,
+      "agentAdmitted": true,
+      "triples": [
+        {
+          "subject": "02’s Council",
+          "verb": "determined",
+          "object": "referrals",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s65-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "about on and sent be details text certain event, the Ellipse at messages the of where and including the Meadows about We located. event received who 6th Mr. planning about events organizer from speak individuals would would the an to January asked would've",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "and sent",
+          "verb": "be",
+          "object": "details text certain event",
+          "polarity": "+"
+        },
+        {
+          "subject": "event received",
+          "verb": "who",
+          "object": "6th Mr",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s99-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "first given President I would, record believed Trump's the term,\" of in that quote. end Department track they never",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s6-c1",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "is a counsel investigative senior",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s31-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "a as the including that as not example, “Metro reference, means this Metro well. without Ordinance measure text Council could such refer No. For Council the simply ____”, of by ordinance refers",
+      "hasTriple": true,
+      "namedSubject": true,
+      "pronounSubject": false,
+      "agentAdmitted": true,
+      "triples": [
+        {
+          "subject": "text Council",
+          "verb": "could",
+          "object": "such refer No",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s25-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "proposed Constitution contain that requires ballot of the Oregon text law The []”. the “full",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "contain that",
+          "verb": "requires",
+          "object": "ballot of the Oregon text law The []”",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s30-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "amended is rate reflects the period SHS tax personal applic2a Metro ensure during rates interest ble appropriate. refunds on time distinct and interest each to accurately 7.05.300 Code where income paid the from deficiency remains",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s14-c1",
+      "genre": "ordinance",
+      "source": "metro-ord-26-1540-preamble",
+      "shuffledClause": "upon pursuant Section takes effect Charter adoption to Metro this immediately ordinance 38(1).",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s14-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "in final could the potentially future. referral measure any ballot certification of This delay",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "in final",
+          "verb": "could",
+          "object": "the potentially future",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s47-c1",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "intended 2026 the TY will accurately tax reflect filing software standard. for",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "the TY",
+          "verb": "will",
+          "object": "accurately tax reflect filing software standard",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s14-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "personal •Providing different to regarding business tax tax income income interest clarity applicable and tax across rates transparency and periods. liabilities",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s9-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "clarity taxpayers, These amendments across consistent improve ensure treatment for tax years",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s1-c2",
+      "genre": "ordinance",
+      "source": "metro-ord-26-1540-preamble",
+      "shuffledClause": "and a Revenue WHEREAS, Income year the Oregon updated administrative Tax interest match rule Metro Department to changing rate the rate each SHS Personal revised of requires interest",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s11-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "identify privilege which provided a assertion. Meadows' asked trigger Mr. it counsel interested those and Mr. would in that with specific Meadows is areas to Staff",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-25-1528-preamble-s0-c2",
+      "genre": "ordinance",
+      "source": "metro-ord-25-1528-preamble",
+      "shuffledClause": "district Measures, 9.02 ballot Chapter law special and WHEREAS, (Ballot regarding supplements Code Referendum) measures, initiatives Metro elections, state Initiative",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s27-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "preserving April business rate effective the the eliminating periods. year, rulemaking amended 15 prior next continuity day), each (or will need for with applicable the changes for the administrative while adjust Under future automatically code, tax",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "or",
+          "verb": "will",
+          "object": "need for with applicable the changes for the administrative while adjust Under future automatically code",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s90-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "them do,\"' be very end would That to thing for unwise quote. a",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "'",
+          "verb": "be",
+          "object": "very end would That to thing for unwise quote",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s43-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "House when calls develop for sought purposes. used he phone and about phone to and for his personal when official cell those used cell Meadows would information White We text have his Mr. messages",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "when official",
+          "verb": "cell",
+          "object": "those used cell Meadows would information White We text have his Mr",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "ordinance-metro-ord-24-1514-preamble-s2-c0",
+      "genre": "ordinance",
+      "source": "metro-ord-24-1514-preamble",
+      "shuffledClause": "is forth amended in Section Exhibit text inserted in underlined in language deleted and set strikethrough as text. attached language the with Metro as (Confidentiality) 7.05.090 Code A,",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s20-c1",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "to did nature the these related external outreach changes. of this not chapter, code perform administrative OMA of",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-24-1514-preamble-s6-c0",
+      "genre": "ordinance",
+      "source": "metro-ord-24-1514-preamble",
+      "shuffledClause": "Section entirety Be Whom Metro (Disclosure its (Persons of to in a and Information repealed Section with is 7.05.100 replaced May Information Code Furnished) new 7.05.100",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s1-c4",
+      "genre": "ordinance",
+      "source": "metro-ord-26-1540-preamble",
+      "shuffledClause": "staff two requires to time jurisdictions draft, administer from",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s74-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "be strong.' to You have",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-24-1514-preamble-s0-c2",
+      "genre": "ordinance",
+      "source": "metro-ord-24-1514-preamble",
+      "shuffledClause": "(Confidentiality) WHEREAS, Metro restrictions Metro’s tax impose (Persons May Furnished) disclosure confidentiality to income 7.05.090 Be Code 7.05.100 on Sections information. and Information Whom and",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s0-c0",
+      "genre": "ordinance",
+      "source": "metro-ord-26-1540-preamble",
+      "shuffledClause": "and Administration (Income Chapter Taxes) Tax 7.05 business income and administers Housing WHEREAS, Personal Income Business for personal taxes Metro’s Supportive Metro (SHS) Services Code",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-25-1528-preamble-s0-c7",
+      "genre": "ordinance",
+      "source": "metro-ord-25-1528-preamble",
+      "shuffledClause": "readability, improve the inclusive December other code transparency to that in No. language chapters Resolution 2022 22-5293, best and adopted Metro which, practices plain Metro WHEREAS, Council things, required use among",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "best and",
+          "verb": "adopted",
+          "object": "Metro which",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "ordinance-metro-ord-25-1528-preamble-s0-c0",
+      "genre": "ordinance",
+      "source": "metro-ord-25-1528-preamble",
+      "shuffledClause": "Office Metro WHEREAS, Code of that when outlined processes requirements require to Metro chapters Attorney reviews circumstances arise Metro adhere to the Code Metro in the and",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "chapters Attorney",
+          "verb": "reviews",
+          "object": "circumstances arise Metro adhere to the Code Metro in the and",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s39-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "disruption taxpayer administrative the Department avoid and prevent and Immediate confusion filing alignment is errors, Revenue, implementation maintain with Oregon duplicative to of rulemaking necessary",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s101-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "But, the current as time of",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-24-1514-preamble-s8-c1",
+      "genre": "ordinance",
+      "source": "metro-ord-24-1514-preamble",
+      "shuffledClause": "this not finding invalidate or does render provisions ordinance. of other unenforceable any",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s52-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "the harbor timing safe affects updated •The threshold",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s51-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "would've We challenge 23rd effort indicating election quote, results, asked Meadows including to charge. him campaign's put reflecting Trump email from in about the \"Rudy emails a December that, was Mr.",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "We challenge",
+          "verb": "23rd",
+          "object": "effort indicating election quote",
+          "polarity": "+"
+        },
+        {
+          "subject": "him",
+          "verb": "campaign's",
+          "object": "put reflecting Trump email from in about the \"Rudy emails a December that",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s62-c1",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "VP too,\" power end quote. has the",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s8-c0",
+      "genre": "ordinance",
+      "source": "metro-ord-26-1540-preamble",
+      "shuffledClause": "administrative Code established 7.05.300 as B. Code The A Section refund Metro rates Exhibits attached the codified are by in that 7.05.280(c) set interest in and rule Subsection and rates forth and the new Metro",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s20-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "n on d p t o s both f . of and n e s r2a6te-1 u • o P interest deficiencies r a5d4m0inistration",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s19-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "the him to enable a December select Mr. for chairman the ultimately produce to offer at which a his investigation. September appear extended to to good-faith agreed Meadows relevant comply a.m., to 10 provide and Meadows some the subpoena as Mr. and 8th, to failure deposition cure with effort 23rd information 2021, documents committee's today, an to",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "with effort",
+          "verb": "23rd",
+          "object": "information 2021",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s24-c3",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "varied by has period. time",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "varied",
+          "verb": "by",
+          "object": "has period",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "ordinance-metro-ord-25-1528-preamble-s3-c0",
+      "genre": "ordinance",
+      "source": "metro-ord-25-1528-preamble",
+      "shuffledClause": "for Code requirements, the and of is to public safety of emergency Metro necessary an can with ordinance declared Council health, measures being expeditiously immediate preservation voters to refer exist ensure That this the the Metro clarity to welfare",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "necessary an",
+          "verb": "can",
+          "object": "with ordinance declared Council health",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s25-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "amendment legal providing codifies prior during rates interest tax The and personal the transparency income that periods, applied clarity.",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s46-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "use asked Meadows would account Mr. signal about his Finally, we have of a",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": true,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s12-c0",
+      "genre": "ordinance",
+      "source": "metro-ord-26-1540-preamble",
+      "shuffledClause": "Operating Chief Officer may The",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "Chief Officer",
+          "verb": "may",
+          "object": "The",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s8-c1",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "has Meadows Mr. not appeared.",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-25-1528-preamble-s0-c6",
+      "genre": "ordinance",
+      "source": "metro-ord-25-1528-preamble",
+      "shuffledClause": "requirement referrals and code Metro be this related to inapplicable that removed should constitutionally Council requirement",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "requirement",
+          "verb": "referrals",
+          "object": "and code Metro be this related to inapplicable that removed should constitutionally Council requirement",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s68-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "allegations statements tampering about about regarding We election questions text and reflecting Meadows public about fraud claims Dominion skepticism forth machines. Text Mr. messages: of veracity by of ask with Powell the Mr. put of Meadows' would skepticism voting his Sidney messages",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "about about",
+          "verb": "regarding",
+          "object": "We election questions text and reflecting Meadows public about fraud claims Dominion skepticism forth machines",
+          "polarity": "+"
+        },
+        {
+          "subject": "would skepticism",
+          "verb": "voting",
+          "object": "his Sidney messages",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s38-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "ordinance effectiveness ensure to clause adoption. upon an includes The emergency immediate",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s2-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "by business period personal personal historical between income by tax time income interest rates, and distinguishing tax codifying interest rates",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "between income",
+          "verb": "by",
+          "object": "tax time income interest rates",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s7-c1",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "(the related below). to “full inapplicable requirement text” Metro Council discussed requirement, measure referrals",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s15-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "sections initiatives required those of code to not referrals, that are Direct only for update confusing legally OMA and current",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s21-c1",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "Oregon . Secretary of State’s the",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s8-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "inclusive by Resolution 2) and Metro practices by as of required plain the 9.02 applying 22-5293. Chapter Improve best readability language No. Council",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s101-c1",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "is Mr. Meadows now 10:17, has not still",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s76-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "short well as wouldn't like organize on that He end quote. knew such that trip notice,\" a as anyone we",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-24-1514-preamble-s1-c6",
+      "genre": "ordinance",
+      "source": "metro-ord-24-1514-preamble",
+      "shuffledClause": "AS staff therefore, identical information among jurisdictions’ substantially ensure code provide income THE income language worked regarding METRO consistency of ORDAINS is that staff to to finance the confidentiality County Metro now tax tax with and closely all and taxpayers, COUNCIL FOLLOWS: Metro of to Multnomah WHEREAS, clarity three area City Portland laws, 1.",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "AS",
+          "verb": "staff",
+          "object": "therefore",
+          "polarity": "+"
+        },
+        {
+          "subject": "is that",
+          "verb": "staff",
+          "object": "to to finance the confidentiality County Metro now tax tax with and closely all and taxpayers",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s16-c3",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "related to referrals. Metro Council requirement inapplicable constitutionally code",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s23-c1",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "privilege. the or articulate answer a claimed questions either",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "the",
+          "verb": "or",
+          "object": "articulate answer a claimed questions either",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "ordinance-metro-ord-24-1514-preamble-s0-c0",
+      "genre": "ordinance",
+      "source": "metro-ord-24-1514-preamble",
+      "shuffledClause": "Metro’s and approved Services Metro area to income Housing 19, 2020, Program business tax personal May on voters fund a WHEREAS, Supportive",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s54-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "error. and risk administrative of overhead",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s78-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "of the Quote, the President attack, mortified. was \"In aftermath Trump",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s27-c1",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "applies to initiatives. only it",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s27-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "He also produced messages approximately 2,000 text",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": true,
+      "agentAdmitted": true,
+      "triples": [
+        {
+          "subject": "He",
+          "verb": "also",
+          "object": "produced messages approximately 2",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s21-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "language adoption refine to e or timing",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s1-c9",
+      "genre": "ordinance",
+      "source": "metro-ord-26-1540-preamble",
+      "shuffledClause": "Council of from payment increased 25-1531) taxes required $5000 estimated to threshold $1000 (Ordinance No. the also",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s24-c1",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "to government legislation. for new referrals voters",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s1-c8",
+      "genre": "ordinance",
+      "source": "metro-ord-26-1540-preamble",
+      "shuffledClause": "to taxpayer relief, provide 2025 WHEREAS, inflation Tax Income index amended in thresholds the Metro June the Metro the income Council personal to Code to tax",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "Income index",
+          "verb": "amended",
+          "object": "in thresholds the Metro June the Metro the income Council personal to Code to tax",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s21-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "the Chapter Oregon ORS Metro 255, Charter, 9.02, Code Metro Constitution Current Chapter",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s11-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "adopt this Do not ordinance.",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s10-c2",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "of also 9.02. readability Chapter improving the",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s94-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "the slowness due mentioned Federal He long pardons of in the list attorneys of on part largely to the the hadn't been complete Government. various able we to",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s14-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "2021, committee of in select 12th, November the deposition after the scheduled indicated, White writing current convened Meadows On Mr. the House",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "the deposition",
+          "verb": "after",
+          "object": "the scheduled indicated",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s1-c11",
+      "genre": "ordinance",
+      "source": "metro-ord-26-1540-preamble",
+      "shuffledClause": "previously more income ongoing with chapters—primarily chapters—require facing acknowledged law has clarity, WHEREAS, that changes regulatory waste to updates the Metro Metro federal tax the solid Council state and Code ensure code align and frequent externally code regulatory",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "acknowledged law",
+          "verb": "has",
+          "object": "clarity",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s62-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "Vice have text regarding with Meadows legislators in to would quote, Mr. messages his President's Meadows the about power have a a direct Trump him the power communication which in Mr. received to sent recounts electors, reject including Senator We text a President who, from according the and \"thinks asked text to messages,",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "have text",
+          "verb": "regarding",
+          "object": "with Meadows legislators in to would quote",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s15-c0",
+      "genre": "ordinance",
+      "source": "metro-ord-26-1540-preamble",
+      "shuffledClause": "with maintain rulemaking alignment Department prevent (thus of avoid taxpayer The to administer filing finds disruption the Oregon to and saving immediate confusion money an date the program), is necessary ordinance and duplicative errors Revenue, administrative Council that taxpayer effective",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s100-c1",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "executive claims his directly privilege. public statements impact his of",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": true,
+      "agentAdmitted": true,
+      "triples": [
+        {
+          "subject": "claims his",
+          "verb": "directly",
+          "object": "privilege",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s38-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "him believe subjects that a Had outside his have we series are privilege. today, of claim of would well any executive appeared we questions about for Mr. of Meadows deposition asked",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s64-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "channel. a news by",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s17-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "Attorney Code is seeks of Metro and Metro to easy with read a The understand requirements. Office that clear",
+      "hasTriple": true,
+      "namedSubject": true,
+      "pronounSubject": false,
+      "agentAdmitted": true,
+      "triples": [
+        {
+          "subject": "Code is",
+          "verb": "seeks",
+          "object": "of Metro and Metro to easy with read a The understand requirements",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s27-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "to Notably, apply Oregon’s constitutional requirement not “full does or text”",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s5-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "includes readability. to also improve therefore ordinance This 9.02 several non-substantive Chapter updates to",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s23-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "to amendments previously are These necessary Council technical, adopted implement policy",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s1-c1",
+      "genre": "ordinance",
+      "source": "metro-ord-26-1540-preamble",
+      "shuffledClause": "(which Personal in the during ten years rates Tax match original lower rates by to of Metro the turn respect guided to per the Revenue the Income has annum rates) interest last are few Law, Department WHEREAS, with interest federal Oregon SHS adjusted percent to interest rate",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "the Income",
+          "verb": "has",
+          "object": "annum rates) interest last are few Law",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s33-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "recommends for removing Metro a OMA Thus, to “full requirement referrals that any to constitutional reference because in does text” referrals. requirement Code not apply",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-24-1514-preamble-s8-c0",
+      "genre": "ordinance",
+      "source": "metro-ord-24-1514-preamble",
+      "shuffledClause": "matter If as is portion a a jurisdiction of of any this ordinance court unenforceable of invalid or law competent finds that",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s32-c1",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "in a art applies “full fact of initiatives. is text” that term only to",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s72-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "to our back going We're cheering never you'll because some with them much not probably country be weakness. take so for of",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "probably country",
+          "verb": "be",
+          "object": "weakness",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s23-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "the asked in on matters select He be as would a to prior subject agreed appear at committee's our questions correspondence deposition, identified he inquiry, for to also relevant which",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "select He",
+          "verb": "be",
+          "object": "as would a to prior subject agreed appear at committee's our questions correspondence deposition",
+          "polarity": "+"
+        },
+        {
+          "subject": "for to",
+          "verb": "also",
+          "object": "relevant which",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s9-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "to requiring for and September appear a select documents to him Mr. Meadows committee a the deposition. produce 23rd, subpoena, dated 2021, received",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s18-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "Regular with code Metro the language, remains and with ensure updates requirements law and constitutional concise plain current help is consistent Code that state",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-25-1528-preamble-s0-c10",
+      "genre": "ordinance",
+      "source": "metro-ord-25-1528-preamble",
+      "shuffledClause": "readability a Attorney incorporated of has review policy plain WHEREAS, Council Metro substantively and the of improve without has conducted best its practices that language Chapter Code entirety Metro changing Metro 9.02 in Office",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "incorporated of",
+          "verb": "has",
+          "object": "review policy plain WHEREAS",
+          "polarity": "+"
+        },
+        {
+          "subject": "improve without",
+          "verb": "has",
+          "object": "conducted best its practices that language Chapter Code entirety Metro changing Metro 9",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "ordinance-metro-ord-25-1528-preamble-s0-c11",
+      "genre": "ordinance",
+      "source": "metro-ord-25-1528-preamble",
+      "shuffledClause": "COUNCIL now METRO therefore, 1. ORDAINS AS THE FOLLOWS:",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s36-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "the in appear to that opportunity deposition us of failure process. to engage Mr. Meadows' today's deprives for",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s17-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "Adopt •Reducing confusion COUNCIL OPTIONS and CONSIDER TO Ordinance taxpayer interest prevents POLICY • on FOR refunds and No. application of deficiencies inconsistent",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s26-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "Constitution (Oregon (1)(2)(d)). section Article IV,",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-24-1514-preamble-s6-c1",
+      "genre": "ordinance",
+      "source": "metro-ord-24-1514-preamble",
+      "shuffledClause": "set May forth Exhibit to as Furnished) Information Whom Be in B. Persons",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s33-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "indexing for file threshold. intended thresholds TY adopted for income rule taxpayers the is June the filing only must 2025, over mirror existing When were to exemption their 2021–2025: TY in Council 2026–2030 income filing if",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s29-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "appeared has and is not today. not However, he present",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "appeared",
+          "verb": "has",
+          "object": "and is not today",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s87-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "do 'How look President Congress,' in we",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s17-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "any privilege for specific a or claims also produce log He failed privilege of subpoena the select to responsive documents to committee's asserting documents.",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "specific a",
+          "verb": "or",
+          "object": "claims also produce log He failed privilege of subpoena the select to responsive documents to committee's asserting documents",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s5-c0",
+      "genre": "ordinance",
+      "source": "metro-ord-26-1540-preamble",
+      "shuffledClause": "7.05.300 Section set in is on underlined in inserted forth text as Metro language deleted (Interest B, the as Refunds) in and Exhibit strikethrough with amended attached text. Code language",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "strikethrough with",
+          "verb": "amended",
+          "object": "attached text",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s70-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "select committee's in including our saying, book investigation on a the line with confront sentences in \"The no 259, facts egregious which later, authored, few a assault page has President, recounts President quote, democracy. various he directly libbed had Trump describes Chief's the \"A this is 'Now up communications it one he to seen Congress Chief,\" to ad representations and to on relevant before, that",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "assault page",
+          "verb": "has",
+          "object": "President",
+          "polarity": "+"
+        },
+        {
+          "subject": "various he",
+          "verb": "directly",
+          "object": "libbed had Trump describes Chief's the \"A this is 'Now up communications it one he to seen Congress Chief",
+          "polarity": "+"
+        },
+        {
+          "subject": "to",
+          "verb": "ad",
+          "object": "representations and to on relevant before",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s12-c1",
+      "genre": "ordinance",
+      "source": "metro-ord-26-1540-preamble",
+      "shuffledClause": "conformity Code necessary, tax or administrative ordinance. process amendments rules adopted public income the with adopt ensure this Metro a without to new by administrative rules comment amend existing",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "process",
+          "verb": "amendments",
+          "object": "rules adopted public income the with adopt ensure this Metro a without to new by administrative rules comment amend existing",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s26-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "ORS interest aligns Code rate the April income 2026, Department Revenue’s Beginning rate personal tax under of 305.220. interest the 7.05.280(d) Oregon 16, with Metro",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s60-c1",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "information fraud. discuss Meadows attorney Mr. election allegations Arizona to asks of general of the for in contact which for",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s97-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "Meadows ask would interactions the of questions about with statements his Mr. we Finally, in Department about Justice. his book",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s47-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "forms •Filing adopted: instructions, If",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s53-c1",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "claims rebutted by including courts. by fraud, been encouraging 2021, previously that Federal voter January of suspected 1st, Federal investigations rejected State investigators and and had",
+      "hasTriple": true,
+      "namedSubject": true,
+      "pronounSubject": false,
+      "agentAdmitted": true,
+      "triples": [
+        {
+          "subject": "rejected State",
+          "verb": "investigators",
+          "object": "and and had",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s15-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "with 16, rate the beginning SHS rate income personal State of interest April •Aligning interest tax Oregon’s Metro’s 2026",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s1-c12",
+      "genre": "ordinance",
+      "source": "metro-ord-26-1540-preamble",
+      "shuffledClause": "22-5293) No. maintain practices best (Resolution",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s56-c1",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "in best practices administration. tax",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s6-c3",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "a is is select the remotely. of committee, also member participating",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s40-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "Feedback firms Stakeholders, business including accounting groups, ort/Community",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s55-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "implement of clarify interest rate to directly Council administration. by amendments in review operational June These 2025 and and actions adopted respond",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s49-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "beginning •Metro transition the rate will April interest to DOR 16, seamlessly 2026.",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "the rate",
+          "verb": "will",
+          "object": "April interest to DOR 16",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s17-c0",
+      "genre": "ordinance",
+      "source": "metro-ord-26-1540-preamble",
+      "shuffledClause": "portion that of court competent any law invalid as of a unenforceable matter this jurisdiction If or is a ordinance finds of",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s24-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "legislation kinds measures: ballot Oregon referendums authorizes citizen initiatives, adopted of on citizen law three",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s16-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "Metro recommends Ordinance that Council OMA No. adopt 25-1528",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s69-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "would've specific we Mr. about questions addition, In Meadows asked",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s14-c0",
+      "genre": "ordinance",
+      "source": "metro-ord-26-1540-preamble",
+      "shuffledClause": "being necessary safety emergency ordinance welfare, or of immediate declared the preservation exist for health, That this public to is an",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-25-1528-preamble-s1-c0",
+      "genre": "ordinance",
+      "source": "metro-ord-25-1528-preamble",
+      "shuffledClause": "text Chapter strikethrough. 9.02 with in A, Measures, and Code forth Metro deleted as (Ballot is inserted set text underlined amended Exhibit Referendum) Initiative in and",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s32-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "is beyond referrals Unfortunately, required text” respect constitutionally referrals erroneously what to misinterpret to Metro something require requirement with Code’s “full one of could",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s15-c1",
+      "genre": "ordinance",
+      "source": "metro-ord-26-1540-preamble",
+      "shuffledClause": "code tax consistent ensure enforcement.",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s29-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "must measure. Metro Metro text” “the Code 9.02.020(b) full states that of Section a contain the currently Council",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s22-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "drafted. ordinance of recommends Staff the adoption as",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s22-c1",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "remove changes potentially confusing, a these will unnecessary",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "a these",
+          "verb": "will",
+          "object": "unnecessary",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "ordinance-metro-ord-25-1528-preamble-s3-c1",
+      "genre": "ordinance",
+      "source": "metro-ord-25-1528-preamble",
+      "shuffledClause": "Section ordinance pursuant to upon immediately adoption effect Charter this 38(1). Metro takes",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s30-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "or mean for shall voters Metro this by to the adopted include OMA ordinance complete the approval. Council is that interprets of any measure provision Council referring the must [referral] of resolution and text to full measure.”) the for text include (“The Metro which the",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "referring the",
+          "verb": "must",
+          "object": "[referral] of resolution and text to full measure",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s7-c0",
+      "genre": "ordinance",
+      "source": "metro-ord-26-1540-preamble",
+      "shuffledClause": "No. Rates Rule on Income Interest Administrative repealed. Refunds) Tax is Due Metro (Personal Tax AR-7.05-1005 and",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s17-c1",
+      "genre": "ordinance",
+      "source": "metro-ord-26-1540-preamble",
+      "shuffledClause": "invalidate this not ordinance. render of other any unenforceable or finding does provisions",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s53-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "and and have reduce interest neutral effects clarification 3 rate •The alignment revenue",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s29-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "0re) in to increasing prior flect from Council’s threshold action $1,000 TY estimated the 2026. beginning $5,000 3to0 payment",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s71-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "we're Senators we're going to to on the to walk our going Congressmen with down walk After I'll and and you -- we're be brave down and cheer to and going Capitol there women. this, --",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "down walk",
+          "verb": "after",
+          "object": "I'll and and you -- we're be brave down and cheer to and going Capitol there women",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s56-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "in or of of not, they text these our valid Mr. executive production claim Meadows' the view, select to messages privilege. other committee, do Given implicate any",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "in",
+          "verb": "or",
+          "object": "of of not",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "ordinance-metro-ord-24-1514-preamble-s1-c2",
+      "genre": "ordinance",
+      "source": "metro-ord-24-1514-preamble",
+      "shuffledClause": "income Oregon’s to from not local its disclosure state public highlighted a provisions public public public information 2023 laws perhaps code under fact government is information though Oregon exempt another records local even for confidentiality had from request a WHEREAS, records tax protected jurisdiction in requests records submitted and local records income that was tax government when laws, local even income tax the under information",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s13-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "to referrals. Council Code Metro related Metro requirement",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s37-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "regulation ongoing and eliminates duplicative This workload. reduces administrative",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s60-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "quote, We about from President that, end Meadows which text the quote of another asked Governor the November him indicates Ducey, in to in sent would've member Member messages Congress and call 2020, of asked to Mr.",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s57-c1",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "in he Meadows to Mr. have someone quote, from which else that, text said a \"We end on team another it,\"",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s48-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "thresholds beginning Portland TY of the 2026. will interest Division •The apply Revenue City underpayment updated when harbor safe assessing in",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s56-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "rates tax historical and business interest distinguishing income clearly between personal transparency, supports Codifying consistency and",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s40-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "two documents taken from Mr. production accounts. Meadows' includes Gmail document",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s91-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "passage We another about page him 265 asked his would've book. of on",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s98-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "our were not book, the of in interactions addresses seriously and investigated. which 257 Department didn't to Justice many \"It me such 258 pages Justice of on surprise Department with the of says, his quote, that Specifically, he he referrals",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "our",
+          "verb": "were",
+          "object": "not book",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s23-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "no There financial implications. are",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s45-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "in payment (June TY indexing a beginning income threshold 25-1531 exemption 2026. established and 2025) revised estimated",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s24-c2",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "personal income tax interest",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s63-c1",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "Mr. employment possible Meadows",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s16-c1",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "improve Initiatives Chapter of Referrals, the 9.02 to will Code readability Metro’s relating",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "02 to",
+          "verb": "will",
+          "object": "Code readability Metro’s relating",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s15-c1",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "the rate income interest preserving fixed for a tax. business",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s0-c2",
+      "genre": "ordinance",
+      "source": "metro-ord-26-1540-preamble",
+      "shuffledClause": "percent income the a taxes took originally per Code established tax Metro for and deficiencies Housing Services refunds. ten interest Supportive rate effect, annum",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "taxes took",
+          "verb": "originally",
+          "object": "per Code established tax Metro for and deficiencies Housing Services refunds",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s34-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "questions, that implicated question he expected and asked. privilege privileges assert the would We response he various to how the believes articulating to is applies in specific it",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s3-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "from Code. removing recommends requirement inapplicable this OMA",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s1-c3",
+      "genre": "ordinance",
+      "source": "metro-ord-26-1540-preamble",
+      "shuffledClause": "administrator, taxpayers tax imposes until and preparers uncertainty adjusted with officially this tax coordination on WHEREAS, the requires Metro’s process is rate",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s14-c1",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "that President Mr. or would assert would not prevent any Biden immunity privilege",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s22-c2",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "Council Metro referrals. related requirement measure to inapplicable",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s7-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "a unnecessary 1) Remove potentially confusing,",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s41-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "opposition is organized currently. known No",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s3-c0",
+      "genre": "ordinance",
+      "source": "metro-ord-26-1540-preamble",
+      "shuffledClause": "Section text and inserted 7.05.280 in deleted as A, in Code as in language text. with (Interest) underlined Exhibit set attached language Metro the amended is forth strikethrough",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "Metro the",
+          "verb": "amended",
+          "object": "is forth strikethrough",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "ordinance-metro-ord-24-1514-preamble-s10-c0",
+      "genre": "ordinance",
+      "source": "metro-ord-24-1514-preamble",
+      "shuffledClause": "Lynn Peterson, Council President",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s12-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "confusion A failure adopt ordinance and unnecessary an this constitutionally uncertainty may to otherwise regarding and inapplicable cause",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-25-1528-preamble-s0-c1",
+      "genre": "ordinance",
+      "source": "metro-ord-25-1528-preamble",
+      "shuffledClause": "properly with constitutional ensure reviews Office align state Metro the to comport Code Metro they of WHEREAS, and also and chapters Attorney law",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "constitutional ensure",
+          "verb": "reviews",
+          "object": "Office align state Metro the to comport Code Metro they of WHEREAS",
+          "polarity": "+"
+        },
+        {
+          "subject": "and",
+          "verb": "also",
+          "object": "and chapters Attorney law",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "ordinance-metro-ord-24-1514-preamble-s1-c0",
+      "genre": "ordinance",
+      "source": "metro-ord-24-1514-preamble",
+      "shuffledClause": "if must that or and the describing be information, have to which includes This protected information disclosed persons shared entities access how",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s24-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "tax between to RAMING Clarification COUNCIL interest Rate This income — clearly A Exhibit 7.05.280(c) revises (7.05.280) DISCUSSION business distinguish Code Interest Metro ordinance Alignment and",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s10-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "potentially This remove an will unnecessary, confusing",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "remove an",
+          "verb": "will",
+          "object": "unnecessary",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s8-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "threshold, in Tax taxpayers with apply by Metro in June indexing Years the 7.06.070 policy to the 2026–2030 ensure adopted exemption continues Code consistent 2025. for 2021–2025 with the income requirement only filing to to ordinance and Council over",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "with apply",
+          "verb": "by",
+          "object": "Metro in June indexing Years the 7",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s22-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "understand will easier Metro and read Code be The to",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "understand",
+          "verb": "will",
+          "object": "easier Metro and read Code be The to",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s15-c1",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "improvements. plain referendums, also without incorporating language suggested",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s10-c1",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "code referrals constitutionally requirement Council inapplicable to related Metro",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s10-c0",
+      "genre": "ordinance",
+      "source": "metro-ord-26-1540-preamble",
+      "shuffledClause": "forth C, File text. language amended to Return) underlined set Tax attached Code text with Metro (Individuals in strikethrough in Section is Required Exhibit deleted inserted a and language as the in 7.06.070",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "language",
+          "verb": "amended",
+          "object": "to Return) underlined set Tax attached Code text with Metro (Individuals in strikethrough in Section is Required Exhibit deleted inserted a and language as the in 7",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s55-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "or sent asked Meadows specific has he select In to text addition, he that we the would committee. messages produced have about received Mr.",
+      "hasTriple": true,
+      "namedSubject": true,
+      "pronounSubject": false,
+      "agentAdmitted": true,
+      "triples": [
+        {
+          "subject": "Meadows specific",
+          "verb": "has",
+          "object": "he select In to text addition",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s102-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "the with 23rd, earlier September select committee's to subpoena. 2021, his noncompliance cure appeared",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-24-1514-preamble-s1-c4",
+      "genre": "ordinance",
+      "source": "metro-ord-24-1514-preamble",
+      "shuffledClause": "state disclosure information state the income already in local 4031 law protects WHEREAS, government tax information that manner same tax protects HB from from income disclosure",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-24-1514-preamble-s0-c1",
+      "genre": "ordinance",
+      "source": "metro-ord-24-1514-preamble",
+      "shuffledClause": "Services Housing and and Personal Business Metro’s Income administers (“Income for Supportive Metro Chapter Taxes”) business taxes income Code Administration Tax personal 7.05 WHEREAS,",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s4-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "in a plain Chapter conducted language by as No. potential 22-5293, review of 9.02 for improvements. inclusive also and required Further, OMA its entirety Resolution",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s6-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "Code No. (updating OMA Chapter adopt requests Metro Ordinance ). 25-1528 that Metro 9.02 Council",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s43-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "were adopted •Metro implement Code the tax. 7.06 and to 7.05 Chapters Council by",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s51-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "measurable revenue no correction •The filing has threshold impact.",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s42-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "telephone. We would've cellular of him asked use his a personal about similarly",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-25-1528-preamble-s0-c8",
+      "genre": "ordinance",
+      "source": "metro-ord-25-1528-preamble",
+      "shuffledClause": "Metro’s and procedures requirements of understanding",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s1-c7",
+      "genre": "ordinance",
+      "source": "metro-ord-26-1540-preamble",
+      "shuffledClause": "cumbersome more automate two-step currently process the in place essentially",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s1-c10",
+      "genre": "ordinance",
+      "source": "metro-ord-26-1540-preamble",
+      "shuffledClause": "years Code apply amendments to conforming inflation and the code WHEREAS, updates the and further update section tax require which technical certain and clarify amounts 2025 tax code to to estimated those changes cross-references",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "Code apply",
+          "verb": "amendments",
+          "object": "to conforming inflation and the code WHEREAS",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s16-c2",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "potentially remove unnecessary, Referendums confusing and an",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s12-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "Mr. select than committee, provide Meadows as to chief House be engage Congress. the cannot Rather a staff, with that, compelled he to information of White asserted former",
+      "hasTriple": true,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": [
+        {
+          "subject": "as to",
+          "verb": "chief",
+          "object": "House be engage Congress",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s52-c1",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "not payments. amount, of the estimated",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s86-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "time another in notes for quote, to again. his asked Meadows reflects, was January 5 would his \"On Trump Mr. his memoirs defend that President legacy the book less would've their White time of in with on forced We page making House, a when 20th, be and at outgoing historic stock most yet left about quietly than hours 264 taking being Presidents passage in their Presidency,",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s24-c1",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "ten at per percent remains annum fixed",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s75-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "let off Trump me When he had he know got stage, about the to speaking that metaphorically walk been Capitol. President the",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s42-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "taxes. Supportive the established income 26-210 (2020) •Measure Housing personal and business Services",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s2-c1",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "inapplicable requirement to code referrals. Metro Council related constitutionally",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s18-c1",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "Code. to appropriate the those guidance by provides governed",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s45-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "efforts Records to as documents about to Archives, required Presidential his fact, them by those Meadows Act. provide we the the ask would National and preserve Given Mr. that",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s95-c0",
+      "genre": "deposition",
+      "source": "j6-meadows-deposition",
+      "shuffledClause": "how defend the He precise Democrats' again could including and the quote. of impeachment how wondered details about end lawyers him money attacks,\" we trial, new charge the against would the much best",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s10-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-26-1540-staffreport",
+      "shuffledClause": "Hear discuss and adoption Ordinance ACTION No. of potential REQUESTED comments",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s2-c0",
+      "genre": "staff-report",
+      "source": "metro-ord-25-1528-staffreport",
+      "shuffledClause": "its confusing Chapter that unnecessary, that for requirements While Initiative potentially follow measure ensure referrals, to contains OMA applicable Measures, reviewing Chapter 9.02 ballot (Ballot determined 9.02 Metro Metro and Code Referendum) an",
+      "hasTriple": false,
+      "namedSubject": false,
+      "pronounSubject": false,
+      "agentAdmitted": false,
+      "triples": []
+    }
+  ]
+}

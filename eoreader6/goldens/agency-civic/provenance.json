@@ -1,0 +1,49 @@
+{
+  "retrieved": "2026-08-06",
+  "retrievedBy": "agent, via direct HTTPS fetch, on behalf of this golden",
+  "sources": [
+    {
+      "id": "metro-ord-24-1514",
+      "title": "Metro Ordinance No. 24-1514 (income tax confidentiality amendments) + attached staff report",
+      "issuer": "Metro (Oregon regional government, Portland metro area)",
+      "url": "https://rim.oregonmetro.gov/WebDrawer/Record/757945/File/document",
+      "sha256_pdf": "2f3667b69acddb08cad9475dac2b9f3d4814026916b62e4efffe817b6b75d687",
+      "genres": ["ordinance"],
+      "license_basis": "The ordinance text (WHEREAS/ORDAINS/exhibit code language) is an edict of government — a legally operative enactment — and is public domain under the government-edicts doctrine (Banks v. Manchester, 1888; reaffirmed Georgia v. Public.Resource.Org, 2020) regardless of the enacting jurisdiction. The attached staff-report memo is Metro staff's own factual account of the ordinance's purpose and effect, authored as part of the public legislative record; reproduced here only as a small excerpt for research/critique (annotation-guideline development and an automated-reading validation study), not republished in full or for any commercial purpose.",
+      "note": "This PDF's staff-report page suffered silent word/phrase dropout during extraction (not just the interleaved-character corruption the clause filter screens for — whole words missing with no distinguishing signature, e.g. 'regarding income tax information / ormation may be provided' mid-sentence). Excluded from texts/staff-report/ entirely rather than left for the per-clause filter to catch, since it can't reliably catch a silent dropout. Kept for the ordinance genre only, where the clean WHEREAS/ORDAINS preamble is unaffected. See excluded/metro-ord-24-1514-staffreport.txt.excluded."
+    },
+    {
+      "id": "metro-ord-25-1528",
+      "title": "Metro Ordinance No. 25-1528 (Code Chapter 9.02 plain-language update) + attached staff report",
+      "issuer": "Metro (Oregon regional government, Portland metro area)",
+      "url": "https://rim.oregonmetro.gov/WebDrawer/Record/781974/File/document",
+      "sha256_pdf": "614b5cb1ef5aeb6329b1b5d6b4781b51ecf5d88203cc5ae0e2d36e677057eae8",
+      "genres": ["ordinance", "staff-report"],
+      "license_basis": "Same basis as metro-ord-24-1514."
+    },
+    {
+      "id": "metro-ord-26-1540",
+      "title": "Metro Ordinance No. 26-1540 (income tax interest-rate technical amendments) + attached staff report",
+      "issuer": "Metro (Oregon regional government, Portland metro area)",
+      "url": "https://rim.oregonmetro.gov/WebDrawer/Record/804321/File/document",
+      "sha256_pdf": "da931415ef2b6bbb357877060bf8251ca181e2bf922ef854dc1f9ea3411e2b10",
+      "genres": ["ordinance", "staff-report"],
+      "license_basis": "Same basis as metro-ord-24-1514."
+    },
+    {
+      "id": "j6-meadows-deposition",
+      "title": "Deposition of Mark Meadows (no-show), Select Committee to Investigate the January 6th Attack on the United States Capitol",
+      "issuer": "U.S. House of Representatives, Select January 6th Committee",
+      "url": "https://www.govinfo.gov/content/pkg/GPO-J6-TRANSCRIPT-CTRL0000034606/pdf/GPO-J6-TRANSCRIPT-CTRL0000034606.pdf",
+      "sha256_pdf": "2e8d059daaa41e789b86fb59acb2491cd6803d63ed9c32046d8253f2ce42789f",
+      "genres": ["deposition"],
+      "license_basis": "A work of the United States federal government, not subject to copyright protection under 17 U.S.C. §105. Published by GPO/govinfo.gov as part of the Select January 6th Committee's public collection. Names of committee counsel are redacted (■) in the source transcript itself, by the committee, not by this project; those redactions are preserved as-is."
+    }
+  ],
+  "extraction": {
+    "method": "pdfplumber (Python), per-page text extraction with a dominant-body-font reconstruction fallback for pages where a template label/callout box shares coordinate space with body text (introduces the interleaved-character corruption the clause segmenter screens for — see goldens/agency-civic/README.md 'Known extraction noise'). The 'fi' ligature glyph in the Metro PDFs' embedded font extracts as U+FFFD and is restored to 'f' (verified against 'con�identiality' → 'confidentiality', 'modi�ications' → 'modifications', 'dif�icult' → 'difficult', 'of�icers' → 'officers' — in every observed instance the missing glyph is the ligature's 'f', not 'fi', because the ligature's 'i' is not independently duplicated by the following character).",
+    "not_used": [
+      "https://www.oregonmetro.gov/sites/default/files/2026-03/mtac-packet-031826.pdf (14MB multi-document agenda packet, downloaded for triage, not used in the golden)"
+    ]
+  }
+}

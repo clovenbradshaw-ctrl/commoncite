@@ -1,0 +1,43 @@
+{
+  "maxDepth": 5,
+  "minMembersToRecurse": 8,
+  "permutations": 80,
+  "reseeds": 10,
+  "nodeCount": 2,
+  "tree": [
+    {
+      "path": "root0:far_before(unstable)",
+      "depth": 0,
+      "size": 33,
+      "labels": [
+        "Act",
+        "Additional",
+        "Annual",
+        "Application",
+        "Authority",
+        "Authorization",
+        "Black",
+        "California"
+      ],
+      "leaf": true,
+      "leafReason": "no_child_kind_survived"
+    },
+    {
+      "path": "root1:far_before(unstable)",
+      "depth": 0,
+      "size": 109,
+      "labels": [
+        "actuarial",
+        "agency",
+        "all",
+        "allow",
+        "amount",
+        "an",
+        "any",
+        "applicant"
+      ],
+      "leaf": true,
+      "leafReason": "no_child_kind_survived"
+    }
+  ]
+}

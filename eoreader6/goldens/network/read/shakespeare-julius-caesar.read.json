@@ -1,0 +1,168 @@
+{
+  "tag": "shakespeare-julius-caesar",
+  "kind": "play",
+  "spec": {
+    "window": 8,
+    "draws": 99,
+    "reseeds": 8,
+    "minArrivals": 4,
+    "atomsPerUnit": 200,
+    "offerEvery": 60
+  },
+  "segments": 18,
+  "units": 99,
+  "candidateSurfaces": 312,
+  "referents": 77,
+  "score": {
+    "registerSize": 9,
+    "referenceNodes": 45,
+    "entityHits": 7,
+    "entityRecall": 0.15555555555555556,
+    "edgesFoundTotal": 7,
+    "candidateEdges": 4,
+    "referenceEdges": 235,
+    "edgeHits": 3,
+    "edgeRecall": 0.01276595744680851,
+    "edgePrecision": 0.75,
+    "edgeChance": {
+      "mean": 1.4875,
+      "p95": 3,
+      "max": 4
+    },
+    "matchedEdges": [
+      {
+        "a": "Titinius",
+        "b": "Lucilius",
+        "weight": 50
+      },
+      {
+        "a": "Titinius",
+        "b": "Messala",
+        "weight": 69
+      },
+      {
+        "a": "Octavius",
+        "b": "Messala",
+        "weight": 82
+      }
+    ]
+  },
+  "edges": [
+    {
+      "a": "e4",
+      "b": "e5",
+      "weight": 101,
+      "pValue": 0
+    },
+    {
+      "a": "e4",
+      "b": "e6",
+      "weight": 50,
+      "pValue": 0
+    },
+    {
+      "a": "e4",
+      "b": "e7",
+      "weight": 69,
+      "pValue": 0
+    },
+    {
+      "a": "e4",
+      "b": "e8",
+      "weight": 64,
+      "pValue": 0
+    },
+    {
+      "a": "e5",
+      "b": "e7",
+      "weight": 82,
+      "pValue": 0
+    },
+    {
+      "a": "e5",
+      "b": "e8",
+      "weight": 75,
+      "pValue": 0
+    },
+    {
+      "a": "e6",
+      "b": "e8",
+      "weight": 40,
+      "pValue": 0.03015075376884422
+    }
+  ],
+  "register": [
+    {
+      "id": "e0",
+      "referentIds": [
+        "ref:auto:romans"
+      ],
+      "surface": "Romans",
+      "bornAt": 60
+    },
+    {
+      "id": "e1",
+      "referentIds": [
+        "ref:auto:metellus"
+      ],
+      "surface": "Metellus",
+      "bornAt": 60
+    },
+    {
+      "id": "e2",
+      "referentIds": [
+        "ref:auto:o_caesar"
+      ],
+      "surface": "O Caesar",
+      "bornAt": 60
+    },
+    {
+      "id": "e3",
+      "referentIds": [
+        "ref:auto:publius"
+      ],
+      "surface": "Publius",
+      "bornAt": 60
+    },
+    {
+      "id": "e4",
+      "referentIds": [
+        "ref:auto:titinius"
+      ],
+      "surface": "Titinius",
+      "bornAt": 99
+    },
+    {
+      "id": "e5",
+      "referentIds": [
+        "ref:auto:octavius"
+      ],
+      "surface": "Octavius",
+      "bornAt": 99
+    },
+    {
+      "id": "e6",
+      "referentIds": [
+        "ref:auto:lucilius"
+      ],
+      "surface": "Lucilius",
+      "bornAt": 99
+    },
+    {
+      "id": "e7",
+      "referentIds": [
+        "ref:auto:messala"
+      ],
+      "surface": "Messala",
+      "bornAt": 99
+    },
+    {
+      "id": "e8",
+      "referentIds": [
+        "ref:auto:philippi"
+      ],
+      "surface": "Philippi",
+      "bornAt": 99
+    }
+  ]
+}

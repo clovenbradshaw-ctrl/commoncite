@@ -1,0 +1,9 @@
+# filler-occurrences.json is nothing but real per-occurrence sentence
+# excerpts from whatever pocket it was run against — corpus content, not a
+# derived result. It belongs with the corpus (live_priors), never committed
+# here, same discipline as eoPriors::pocket.js's Pocket@1 firewall (forbidden
+# content keys: text, sentence, excerpt, quote, body, document, page,
+# paragraph) and the same precedent goldens/multimodal/.gitignore already
+# sets for regenerable, source-derived media. Regenerate with:
+#   node scripts/experiments/export-filler-occurrences.mjs <pocket-dir> [docLimit] [topNVerbs]
+filler-occurrences.json

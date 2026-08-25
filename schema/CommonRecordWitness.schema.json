@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://common-record.example/schema/CommonRecordWitness@1",
+  "title": "CommonRecordWitness@1",
+  "type": "object",
+  "required": ["schema", "title", "source_id", "stable_uri", "media_type", "source_integrity", "extraction", "engine", "grammar", "pages"],
+  "properties": {
+    "schema": { "const": "CommonRecordWitness@1" },
+    "title": { "type": "string", "minLength": 1 },
+    "edition": { "type": "string" },
+    "source_id": { "type": "string", "minLength": 1 },
+    "stable_uri": { "type": "string", "minLength": 1 },
+    "origin_uri": { "type": "string" },
+    "media_type": { "type": "string", "minLength": 1 },
+    "source_integrity": {
+      "type": "object",
+      "required": ["sha256"],
+      "properties": {
+        "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "byte_count": { "type": "integer", "minimum": 0 },
+        "preserved_copy": { "type": "string" }
+      }
+    },
+    "extraction": {
+      "type": "object",
+      "required": ["adapter", "adapter_role", "page_count", "sentence_span_count", "all_page_text_retained"],
+      "properties": {
+        "adapter": { "type": "string" },
+        "adapter_role": { "type": "string" },
+        "character_count": { "type": "integer", "minimum": 0 },
+        "utf8_byte_count": { "type": "integer", "minimum": 0 },
+        "page_count": { "type": "integer", "minimum": 0 },
+        "sentence_span_count": { "type": "integer", "minimum": 0 },
+        "all_page_text_retained": { "type": "boolean" }
+      }
+    },
+    "engine": {
+      "type": "object",
+      "required": ["name", "release", "commit", "llm_used"],
+      "properties": {
+        "name": { "type": "string" },
+        "release": { "type": "string" },
+        "repository": { "type": "string" },
+        "commit": { "type": "string" },
+        "language_received": { "type": "string" },
+        "llm_used": { "const": false },
+        "model": { "type": "null" }
+      }
+    },
+    "grammar": { "type": "object" },
+    "pages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["page", "text", "spans"],
+        "properties": {
+          "page": { "type": "integer", "minimum": 1 },
+          "text": { "type": "string" },
+          "spans": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["span_id", "page", "byte_start", "byte_end", "text"],
+              "properties": {
+                "span_id": { "type": "string", "pattern": "^span:" },
+                "page": { "type": "integer", "minimum": 1 },
+                "byte_start": { "type": "integer", "minimum": 0 },
+                "byte_end": { "type": "integer", "minimum": 0 },
+                "text": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

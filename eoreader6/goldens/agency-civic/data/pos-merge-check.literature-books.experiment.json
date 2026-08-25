@@ -1,0 +1,1056 @@
+{
+  "region": "literature-books",
+  "priorGiver": "Universal Dependencies UD_English-EWT",
+  "note": "udCrossReference is informational — every kind here is already legitimate via its own selfName and structuralLabel, independent of whether it also matches a UD tag",
+  "crossReferenceThreshold": 0.6,
+  "nullPermutations": 200,
+  "nullQuantile": 0.95,
+  "nullSeed": 42,
+  "candidatePoolSize": 1047,
+  "kindsChecked": 28,
+  "crossReferencedCount": 6,
+  "nullSignificantCount": 4,
+  "nominalRescuedCount": 4,
+  "noCrossReferenceCount": 22,
+  "results": [
+    {
+      "source": "verb-island",
+      "verb": "at",
+      "selfName": "death/em/enemy",
+      "structuralLabel": "pos:near_before",
+      "memberCount": 16,
+      "sampleMembers": [
+        "death",
+        "em",
+        "enemy",
+        "Florence",
+        "gate",
+        "however",
+        "Imola",
+        "night"
+      ],
+      "udCrossReference": {
+        "covered": 12,
+        "tag": "NOUN+PROPN",
+        "share": 0.75,
+        "rawTag": "NOUN",
+        "rawShare": 0.615,
+        "distribution": {
+          "NOUN": 0.615,
+          "PROPN": 0.136,
+          "ADV": 0.087,
+          "PRON": 0.083,
+          "VERB": 0.067,
+          "X": 0.01,
+          "ADP": 0.003
+        },
+        "nullPValue": 0,
+        "nullThreshold": 0.531,
+        "beatsRandomGrouping": true
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "were",
+      "selfName": "captains/enemy/Florentines",
+      "structuralLabel": "pos:near_before",
+      "memberCount": 8,
+      "sampleMembers": [
+        "captains",
+        "enemy",
+        "Florentines",
+        "hands",
+        "Hill",
+        "mutineers",
+        "old",
+        "Romans"
+      ],
+      "udCrossReference": {
+        "covered": 4,
+        "tag": "NOUN+PROPN",
+        "share": 0.676,
+        "rawTag": "NOUN",
+        "rawShare": 0.565,
+        "distribution": {
+          "NOUN": 0.565,
+          "ADJ": 0.241,
+          "PROPN": 0.111,
+          "X": 0.083
+        },
+        "nullPValue": 0.045,
+        "nullThreshold": 0.659,
+        "beatsRandomGrouping": true
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "would",
+      "selfName": "ask/certainly/Come",
+      "structuralLabel": "pos:near_after",
+      "memberCount": 22,
+      "sampleMembers": [
+        "ask",
+        "certainly",
+        "Come",
+        "consent",
+        "give",
+        "him.",
+        "hold",
+        "keep"
+      ],
+      "udCrossReference": {
+        "covered": 21,
+        "tag": "VERB",
+        "share": 0.648,
+        "rawTag": "VERB",
+        "rawShare": 0.648,
+        "distribution": {
+          "VERB": 0.648,
+          "ADV": 0.238,
+          "NOUN": 0.103,
+          "ADJ": 0.01,
+          "INTJ": 0.001,
+          "SCONJ": 0.001
+        },
+        "nullPValue": 0,
+        "nullThreshold": 0.542,
+        "beatsRandomGrouping": true
+      }
+    },
+    {
+      "source": "tp-chunk",
+      "verb": "is",
+      "selfName": "eBook/need/prince",
+      "structuralLabel": "pos:before_len1",
+      "memberCount": 5,
+      "sampleMembers": [
+        "eBook",
+        "need",
+        "prince",
+        "principality",
+        "say"
+      ],
+      "udCrossReference": {
+        "covered": 3,
+        "tag": "VERB",
+        "share": 0.642,
+        "rawTag": "VERB",
+        "rawShare": 0.642,
+        "distribution": {
+          "VERB": 0.642,
+          "PROPN": 0.333,
+          "NOUN": 0.018,
+          "INTJ": 0.008
+        },
+        "nullPValue": 0.189,
+        "nullThreshold": 0.8,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "is",
+      "selfName": "ability/affairs/avoided",
+      "structuralLabel": "pos:near_before",
+      "memberCount": 55,
+      "sampleMembers": [
+        "ability",
+        "affairs",
+        "avoided",
+        "Business",
+        "captain",
+        "country",
+        "difficulty",
+        "eBook"
+      ],
+      "udCrossReference": {
+        "covered": 45,
+        "tag": "NOUN+PROPN",
+        "share": 0.639,
+        "rawTag": "NOUN",
+        "rawShare": 0.548,
+        "distribution": {
+          "NOUN": 0.548,
+          "VERB": 0.15,
+          "ADJ": 0.092,
+          "PROPN": 0.091,
+          "ADV": 0.051,
+          "PRON": 0.022,
+          "SCONJ": 0.022,
+          "NUM": 0.021,
+          "X": 0.002,
+          "AUX": 0.001
+        },
+        "nullPValue": 0,
+        "nullThreshold": 0.46,
+        "beatsRandomGrouping": true
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "or",
+      "selfName": "ASCII/disclaimer/eBook",
+      "structuralLabel": "pos:near_before",
+      "memberCount": 8,
+      "sampleMembers": [
+        "ASCII",
+        "disclaimer",
+        "eBook",
+        "kind",
+        "links",
+        "performing",
+        "return",
+        "Vanilla"
+      ],
+      "udCrossReference": {
+        "covered": 6,
+        "tag": "NOUN+PROPN",
+        "share": 0.629,
+        "rawTag": "NOUN",
+        "rawShare": 0.626,
+        "distribution": {
+          "NOUN": 0.626,
+          "VERB": 0.259,
+          "ADJ": 0.112,
+          "PROPN": 0.004
+        },
+        "nullPValue": 0.065,
+        "nullThreshold": 0.659,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "tp-chunk",
+      "verb": "at",
+      "selfName": "first/hand/home",
+      "structuralLabel": "pos:after_len1",
+      "memberCount": 9,
+      "sampleMembers": [
+        "first",
+        "hand",
+        "home",
+        "last",
+        "length",
+        "night",
+        "once",
+        "once."
+      ],
+      "udCrossReference": {
+        "covered": 8,
+        "tag": "NOUN+PROPN",
+        "share": 0.586,
+        "rawTag": "NOUN",
+        "rawShare": 0.513,
+        "distribution": {
+          "NOUN": 0.513,
+          "ADJ": 0.196,
+          "ADV": 0.163,
+          "PROPN": 0.073,
+          "SCONJ": 0.047,
+          "VERB": 0.009
+        },
+        "nullPValue": 0.109,
+        "nullThreshold": 0.645,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "has",
+      "selfName": "acquired/around/disarmed",
+      "structuralLabel": "pos:near_after",
+      "memberCount": 11,
+      "sampleMembers": [
+        "acquired",
+        "around",
+        "disarmed",
+        "entirely",
+        "given",
+        "happened",
+        "how",
+        "known"
+      ],
+      "udCrossReference": {
+        "covered": 10,
+        "tag": "VERB",
+        "share": 0.581,
+        "rawTag": "VERB",
+        "rawShare": 0.581,
+        "distribution": {
+          "VERB": 0.581,
+          "ADV": 0.239,
+          "PRON": 0.1,
+          "ADP": 0.06,
+          "ADJ": 0.011,
+          "NOUN": 0.009
+        },
+        "nullPValue": 0.08,
+        "nullThreshold": 0.616,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "is",
+      "selfName": "appear/avoid/Bill",
+      "structuralLabel": "pos:far_after",
+      "memberCount": 19,
+      "sampleMembers": [
+        "appear",
+        "avoid",
+        "Bill",
+        "complying",
+        "consider",
+        "don't",
+        "free",
+        "hand"
+      ],
+      "udCrossReference": {
+        "covered": 16,
+        "tag": "VERB",
+        "share": 0.571,
+        "rawTag": "VERB",
+        "rawShare": 0.571,
+        "distribution": {
+          "VERB": 0.571,
+          "NOUN": 0.174,
+          "ADJ": 0.094,
+          "PRON": 0.063,
+          "ADV": 0.063,
+          "PROPN": 0.036
+        },
+        "nullPValue": 0.025,
+        "nullThreshold": 0.53,
+        "beatsRandomGrouping": true
+      }
+    },
+    {
+      "source": "tp-chunk",
+      "verb": "at",
+      "selfName": "located/long/look",
+      "structuralLabel": "pos:before_len1",
+      "memberCount": 5,
+      "sampleMembers": [
+        "located",
+        "long",
+        "look",
+        "looked",
+        "online"
+      ],
+      "udCrossReference": {
+        "covered": 5,
+        "tag": "VERB",
+        "share": 0.566,
+        "rawTag": "VERB",
+        "rawShare": 0.566,
+        "distribution": {
+          "VERB": 0.566,
+          "ADJ": 0.197,
+          "ADV": 0.135,
+          "NOUN": 0.074,
+          "PROPN": 0.029
+        },
+        "nullPValue": 0.313,
+        "nullThreshold": 0.751,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "tp-chunk",
+      "verb": "is",
+      "selfName": "able/BETTER/easy",
+      "structuralLabel": "pos:after_len1",
+      "memberCount": 11,
+      "sampleMembers": [
+        "able",
+        "BETTER",
+        "easy",
+        "impossible",
+        "located",
+        "necessary",
+        "nothing",
+        "posted"
+      ],
+      "udCrossReference": {
+        "covered": 11,
+        "tag": "ADJ",
+        "share": 0.538,
+        "rawTag": "ADJ",
+        "rawShare": 0.538,
+        "distribution": {
+          "ADJ": 0.538,
+          "VERB": 0.35,
+          "PRON": 0.09,
+          "ADV": 0.021,
+          "PROPN": 0.001
+        },
+        "nullPValue": 0.09,
+        "nullThreshold": 0.562,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "from",
+      "selfName": "among/arms/beginning",
+      "structuralLabel": "pos:near_after",
+      "memberCount": 43,
+      "sampleMembers": [
+        "among",
+        "arms",
+        "beginning",
+        "domain",
+        "far",
+        "fear",
+        "first",
+        "foreigners"
+      ],
+      "udCrossReference": {
+        "covered": 37,
+        "tag": "NOUN+PROPN",
+        "share": 0.534,
+        "rawTag": "NOUN",
+        "rawShare": 0.412,
+        "distribution": {
+          "NOUN": 0.412,
+          "ADJ": 0.15,
+          "PROPN": 0.122,
+          "PRON": 0.083,
+          "ADV": 0.07,
+          "VERB": 0.056,
+          "NUM": 0.047,
+          "ADP": 0.031,
+          "AUX": 0.028,
+          "X": 0,
+          "INTJ": 0
+        },
+        "nullPValue": 0.005,
+        "nullThreshold": 0.46,
+        "beatsRandomGrouping": true
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "from",
+      "selfName": "arises/come/different",
+      "structuralLabel": "pos:near_before",
+      "memberCount": 21,
+      "sampleMembers": [
+        "arises",
+        "come",
+        "different",
+        "difficulty",
+        "donations",
+        "draw",
+        "editions",
+        "expected"
+      ],
+      "udCrossReference": {
+        "covered": 19,
+        "tag": "VERB",
+        "share": 0.527,
+        "rawTag": "VERB",
+        "rawShare": 0.527,
+        "distribution": {
+          "VERB": 0.527,
+          "NOUN": 0.302,
+          "ADJ": 0.06,
+          "NUM": 0.053,
+          "ADV": 0.053,
+          "PROPN": 0.005
+        },
+        "nullPValue": 0.07,
+        "nullThreshold": 0.549,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "are",
+      "selfName": "affairs/ancient/arm",
+      "structuralLabel": "pos:far_after",
+      "memberCount": 28,
+      "sampleMembers": [
+        "affairs",
+        "ancient",
+        "arm",
+        "character",
+        "come",
+        "danger",
+        "domain",
+        "fortune"
+      ],
+      "udCrossReference": {
+        "covered": 25,
+        "tag": "NOUN+PROPN",
+        "share": 0.515,
+        "rawTag": "NOUN",
+        "rawShare": 0.419,
+        "distribution": {
+          "NOUN": 0.419,
+          "VERB": 0.246,
+          "ADJ": 0.198,
+          "PROPN": 0.096,
+          "PRON": 0.04,
+          "INTJ": 0.001
+        },
+        "nullPValue": 0.03,
+        "nullThreshold": 0.503,
+        "beatsRandomGrouping": true
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "were",
+      "selfName": "also/among/board",
+      "structuralLabel": "pos:far_before",
+      "memberCount": 34,
+      "sampleMembers": [
+        "also",
+        "among",
+        "board",
+        "captain",
+        "Castruccio",
+        "come",
+        "doctor",
+        "Dr."
+      ],
+      "udCrossReference": {
+        "covered": 27,
+        "tag": "NOUN+PROPN",
+        "share": 0.514,
+        "rawTag": "NOUN",
+        "rawShare": 0.297,
+        "distribution": {
+          "NOUN": 0.297,
+          "PROPN": 0.217,
+          "ADV": 0.112,
+          "NUM": 0.111,
+          "ADJ": 0.095,
+          "VERB": 0.09,
+          "ADP": 0.05,
+          "SCONJ": 0.026,
+          "AUX": 0.002,
+          "X": 0.001,
+          "INTJ": 0.001,
+          "DET": 0,
+          "PRON": 0
+        },
+        "nullPValue": 0.02,
+        "nullThreshold": 0.49,
+        "beatsRandomGrouping": true
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "are",
+      "selfName": "arms/countries/different",
+      "structuralLabel": "pos:near_before",
+      "memberCount": 14,
+      "sampleMembers": [
+        "arms",
+        "countries",
+        "different",
+        "donations",
+        "Gutenberg",
+        "kinds",
+        "know",
+        "long"
+      ],
+      "udCrossReference": {
+        "covered": 12,
+        "tag": "NOUN+PROPN",
+        "share": 0.501,
+        "rawTag": "NOUN",
+        "rawShare": 0.498,
+        "distribution": {
+          "NOUN": 0.498,
+          "ADJ": 0.209,
+          "ADV": 0.117,
+          "VERB": 0.086,
+          "PRON": 0.083,
+          "AUX": 0.003,
+          "PROPN": 0.003,
+          "X": 0.001
+        },
+        "nullPValue": 0.174,
+        "nullThreshold": 0.594,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "should",
+      "selfName": "fear/fortune/how",
+      "structuralLabel": "pos:far_before",
+      "memberCount": 12,
+      "sampleMembers": [
+        "fear",
+        "fortune",
+        "how",
+        "lest",
+        "me",
+        "necessary",
+        "Oliverotto",
+        "people"
+      ],
+      "udCrossReference": {
+        "covered": 8,
+        "tag": "NOUN+PROPN",
+        "share": 0.474,
+        "rawTag": "NOUN",
+        "rawShare": 0.346,
+        "distribution": {
+          "NOUN": 0.346,
+          "VERB": 0.151,
+          "PROPN": 0.128,
+          "PRON": 0.125,
+          "ADJ": 0.125,
+          "ADV": 0.124,
+          "X": 0
+        },
+        "nullPValue": 0.264,
+        "nullThreshold": 0.595,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "at",
+      "selfName": "address/ADMIRAL/beginning",
+      "structuralLabel": "pos:near_after",
+      "memberCount": 37,
+      "sampleMembers": [
+        "address",
+        "ADMIRAL",
+        "beginning",
+        "blind",
+        "bottom",
+        "Bristol",
+        "captain's",
+        "cost"
+      ],
+      "udCrossReference": {
+        "covered": 28,
+        "tag": "NOUN+PROPN",
+        "share": 0.461,
+        "rawTag": "NOUN",
+        "rawShare": 0.436,
+        "distribution": {
+          "NOUN": 0.436,
+          "ADJ": 0.206,
+          "ADV": 0.138,
+          "VERB": 0.125,
+          "NUM": 0.026,
+          "PROPN": 0.025,
+          "SCONJ": 0.021,
+          "ADP": 0.015,
+          "PRON": 0.003,
+          "INTJ": 0.003,
+          "AUX": 0.001,
+          "X": 0
+        },
+        "nullPValue": 0.07,
+        "nullThreshold": 0.465,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "at",
+      "selfName": "BENBOW/boat/cap'n",
+      "structuralLabel": "pos:far_after",
+      "memberCount": 16,
+      "sampleMembers": [
+        "BENBOW",
+        "boat",
+        "cap'n",
+        "Dr.",
+        "George",
+        "got",
+        "instant",
+        "kept"
+      ],
+      "udCrossReference": {
+        "covered": 13,
+        "tag": "VERB",
+        "share": 0.444,
+        "rawTag": "VERB",
+        "rawShare": 0.444,
+        "distribution": {
+          "VERB": 0.444,
+          "NOUN": 0.221,
+          "PROPN": 0.188,
+          "ADV": 0.077,
+          "ADJ": 0.066,
+          "AUX": 0.005
+        },
+        "nullPValue": 0.219,
+        "nullThreshold": 0.517,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "would",
+      "selfName": "anyone/bad/captain",
+      "structuralLabel": "pos:near_before",
+      "memberCount": 32,
+      "sampleMembers": [
+        "anyone",
+        "bad",
+        "captain",
+        "course",
+        "doubt",
+        "Florentines",
+        "followed",
+        "fortune"
+      ],
+      "udCrossReference": {
+        "covered": 29,
+        "tag": "NOUN+PROPN",
+        "share": 0.439,
+        "rawTag": "NOUN",
+        "rawShare": 0.338,
+        "distribution": {
+          "NOUN": 0.338,
+          "ADV": 0.182,
+          "ADJ": 0.123,
+          "PRON": 0.106,
+          "PROPN": 0.101,
+          "VERB": 0.086,
+          "ADP": 0.029,
+          "NUM": 0.025,
+          "INTJ": 0.007,
+          "AUX": 0.001,
+          "X": 0.001,
+          "SCONJ": 0,
+          "DET": 0
+        },
+        "nullPValue": 0.214,
+        "nullThreshold": 0.493,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "has",
+      "selfName": "account/fear/fortune",
+      "structuralLabel": "pos:far_before",
+      "memberCount": 18,
+      "sampleMembers": [
+        "account",
+        "fear",
+        "fortune",
+        "friendly",
+        "Italy",
+        "know",
+        "many",
+        "men"
+      ],
+      "udCrossReference": {
+        "covered": 15,
+        "tag": "NOUN+PROPN",
+        "share": 0.397,
+        "rawTag": "NOUN",
+        "rawShare": 0.314,
+        "distribution": {
+          "NOUN": 0.314,
+          "ADJ": 0.261,
+          "ADV": 0.197,
+          "VERB": 0.09,
+          "PROPN": 0.082,
+          "NUM": 0.048,
+          "PRON": 0.006,
+          "DET": 0.001,
+          "X": 0
+        },
+        "nullPValue": 0.343,
+        "nullThreshold": 0.52,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "or",
+      "selfName": "accordingly/accustomed/active",
+      "structuralLabel": "pos:far_before",
+      "memberCount": 68,
+      "sampleMembers": [
+        "accordingly",
+        "accustomed",
+        "active",
+        "alteration",
+        "anything",
+        "based",
+        "certain",
+        "clear"
+      ],
+      "udCrossReference": {
+        "covered": 57,
+        "tag": "NOUN+PROPN",
+        "share": 0.397,
+        "rawTag": "NOUN",
+        "rawShare": 0.371,
+        "distribution": {
+          "NOUN": 0.371,
+          "VERB": 0.245,
+          "ADJ": 0.2,
+          "ADV": 0.084,
+          "PRON": 0.07,
+          "PROPN": 0.027,
+          "ADP": 0.003,
+          "AUX": 0.001,
+          "INTJ": 0.001,
+          "X": 0
+        },
+        "nullPValue": 0.209,
+        "nullThreshold": 0.452,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "or",
+      "selfName": "ability/access/additions",
+      "structuralLabel": "pos:near_after",
+      "memberCount": 88,
+      "sampleMembers": [
+        "ability",
+        "access",
+        "additions",
+        "alive",
+        "ARMS",
+        "associated",
+        "attack",
+        "auxiliaries"
+      ],
+      "udCrossReference": {
+        "covered": 75,
+        "tag": "NOUN+PROPN",
+        "share": 0.393,
+        "rawTag": "NOUN",
+        "rawShare": 0.369,
+        "distribution": {
+          "NOUN": 0.369,
+          "VERB": 0.269,
+          "ADJ": 0.119,
+          "NUM": 0.104,
+          "ADV": 0.071,
+          "PRON": 0.027,
+          "PROPN": 0.024,
+          "SCONJ": 0.007,
+          "ADP": 0.007,
+          "X": 0.003,
+          "INTJ": 0.001
+        },
+        "nullPValue": 0.194,
+        "nullThreshold": 0.436,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "is",
+      "selfName": "able/accessed/also",
+      "structuralLabel": "pos:near_after",
+      "memberCount": 81,
+      "sampleMembers": [
+        "able",
+        "accessed",
+        "also",
+        "armed",
+        "associated",
+        "bad",
+        "Ben",
+        "better"
+      ],
+      "udCrossReference": {
+        "covered": 73,
+        "tag": "ADJ",
+        "share": 0.362,
+        "rawTag": "ADJ",
+        "rawShare": 0.362,
+        "distribution": {
+          "ADJ": 0.362,
+          "VERB": 0.24,
+          "ADV": 0.215,
+          "NOUN": 0.096,
+          "PROPN": 0.04,
+          "NUM": 0.024,
+          "PRON": 0.015,
+          "DET": 0.005,
+          "INTJ": 0.003,
+          "ADP": 0,
+          "SCONJ": 0,
+          "X": 0
+        },
+        "nullPValue": 0.363,
+        "nullThreshold": 0.415,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "at",
+      "selfName": "ALEXANDER/Almost/anger",
+      "structuralLabel": "pos:near_before",
+      "memberCount": 81,
+      "sampleMembers": [
+        "ALEXANDER",
+        "Almost",
+        "anger",
+        "anyone",
+        "anywhere",
+        "attack",
+        "away",
+        "beside"
+      ],
+      "udCrossReference": {
+        "covered": 72,
+        "tag": "NOUN+PROPN",
+        "share": 0.349,
+        "rawTag": "NOUN",
+        "rawShare": 0.304,
+        "distribution": {
+          "NOUN": 0.304,
+          "VERB": 0.252,
+          "ADJ": 0.145,
+          "ADV": 0.138,
+          "PROPN": 0.044,
+          "ADP": 0.043,
+          "PRON": 0.042,
+          "NUM": 0.014,
+          "SCONJ": 0.008,
+          "X": 0.006,
+          "INTJ": 0.003,
+          "DET": 0
+        },
+        "nullPValue": 0.522,
+        "nullThreshold": 0.443,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "are",
+      "selfName": "able/accepted/accustomed",
+      "structuralLabel": "pos:near_after",
+      "memberCount": 48,
+      "sampleMembers": [
+        "able",
+        "accepted",
+        "accustomed",
+        "ACQUIRED",
+        "also",
+        "born",
+        "cannot",
+        "capable"
+      ],
+      "udCrossReference": {
+        "covered": 43,
+        "tag": "ADJ",
+        "share": 0.336,
+        "rawTag": "ADJ",
+        "rawShare": 0.336,
+        "distribution": {
+          "ADJ": 0.336,
+          "VERB": 0.244,
+          "ADV": 0.154,
+          "NOUN": 0.148,
+          "NUM": 0.063,
+          "PRON": 0.025,
+          "ADP": 0.017,
+          "INTJ": 0.006,
+          "SCONJ": 0.005,
+          "PROPN": 0.001,
+          "X": 0
+        },
+        "nullPValue": 0.612,
+        "nullThreshold": 0.472,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "were",
+      "selfName": "able/afraid/already",
+      "structuralLabel": "pos:near_after",
+      "memberCount": 55,
+      "sampleMembers": [
+        "able",
+        "afraid",
+        "already",
+        "brought",
+        "busy",
+        "carried",
+        "compelled",
+        "driven"
+      ],
+      "udCrossReference": {
+        "covered": 53,
+        "tag": "ADJ",
+        "share": 0.298,
+        "rawTag": "ADJ",
+        "rawShare": 0.298,
+        "distribution": {
+          "ADJ": 0.298,
+          "VERB": 0.256,
+          "ADV": 0.138,
+          "NOUN": 0.13,
+          "NUM": 0.104,
+          "PRON": 0.039,
+          "PROPN": 0.016,
+          "DET": 0.011,
+          "SCONJ": 0.007,
+          "AUX": 0.001,
+          "INTJ": 0.001,
+          "X": 0
+        },
+        "nullPValue": 0.791,
+        "nullThreshold": 0.46,
+        "beatsRandomGrouping": false
+      }
+    },
+    {
+      "source": "verb-island",
+      "verb": "from",
+      "selfName": "arise/arose/away",
+      "structuralLabel": "pos:near_before",
+      "memberCount": 47,
+      "sampleMembers": [
+        "arise",
+        "arose",
+        "away",
+        "Castruccio",
+        "citizens",
+        "country",
+        "direction",
+        "directly"
+      ],
+      "udCrossReference": {
+        "covered": 42,
+        "tag": "VERB",
+        "share": 0.264,
+        "rawTag": "VERB",
+        "rawShare": 0.264,
+        "distribution": {
+          "VERB": 0.264,
+          "NOUN": 0.226,
+          "ADJ": 0.204,
+          "ADV": 0.144,
+          "PROPN": 0.088,
+          "ADP": 0.053,
+          "SCONJ": 0.016,
+          "AUX": 0.003,
+          "INTJ": 0.002,
+          "DET": 0,
+          "X": 0
+        },
+        "nullPValue": 0.94,
+        "nullThreshold": 0.469,
+        "beatsRandomGrouping": false
+      }
+    }
+  ]
+}

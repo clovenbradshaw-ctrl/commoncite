@@ -1,0 +1,45 @@
+{
+  "tag": "shakespeare-hamlet-prince-of-denmark",
+  "kind": "play",
+  "spec": {
+    "window": 8,
+    "draws": 99,
+    "reseeds": 8,
+    "minArrivals": 4,
+    "atomsPerUnit": 200,
+    "offerEvery": 60
+  },
+  "segments": 21,
+  "units": 150,
+  "candidateSurfaces": 357,
+  "referents": 67,
+  "score": {
+    "registerSize": 1,
+    "referenceNodes": 35,
+    "entityHits": 0,
+    "entityRecall": 0,
+    "edgesFoundTotal": 0,
+    "candidateEdges": 0,
+    "referenceEdges": 182,
+    "edgeHits": 0,
+    "edgeRecall": 0,
+    "edgePrecision": 0,
+    "edgeChance": {
+      "mean": 0,
+      "p95": 0,
+      "max": 0
+    },
+    "matchedEdges": []
+  },
+  "edges": [],
+  "register": [
+    {
+      "id": "e0",
+      "referentIds": [
+        "ref:auto:england"
+      ],
+      "surface": "England",
+      "bornAt": 150
+    }
+  ]
+}

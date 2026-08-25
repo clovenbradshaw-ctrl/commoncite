@@ -1,0 +1,34 @@
+{
+  "$comment": "A LANGUAGE prior. Data only, no code. Staged here for transfer to eoPriors; nothing in packages/ may hardcode any of it.",
+  "schema": "AbbreviationPrior@1",
+  "language": "en",
+  "provenance": {
+    "source": "eoreader6 bin/priors/lang/en.json — hand-curated English abbreviation list, measured against Pride and Prejudice and Frankenstein (see notes below)",
+    "built_by": "hand-authored, staged for eventual transfer to eoPriors"
+  },
+  "notes": [
+    "abbreviations: tokens that take a trailing period without ending a sentence.",
+    "Consumed by packages/engine/perceiver/text/spans.js::splitSentences via options.abbreviations.",
+    "Without this, 'Mr. Darcy' is split into two sentences and every titled name is severed from its title — measured: 'Mr. Collins' occurred in 0 of Pride and Prejudice's sentences against 145 occurrences in the file.",
+    "The engine's derived fallback is a floor, not a substitute: it repaired 13 sentences on Frankenstein and 0 on Pride and Prejudice, where 'Mr. Darcy' went 0 -> 0 derived but 0 -> 249 with this file. That is why this exists rather than relying on derivation.",
+    "Roman numerals are included because chapter numerals ('CHAPTER XVIII.') otherwise split a heading from the text beneath it.",
+    "This list is English. A Basque or Russian prior is a different file, not an extension of this one."
+  ],
+  "abbreviations": [
+    "Mr", "Mrs", "Ms", "Mx", "Dr", "Prof", "Rev", "Fr", "Sr", "Jr",
+    "St", "Ste", "Messrs", "Mme", "Mlle", "M",
+    "Capt", "Col", "Gen", "Lt", "Maj", "Sgt", "Cpl", "Adm", "Cmdr",
+    "Hon", "Esq", "Gov", "Pres", "Supt", "Insp",
+    "etc", "vs", "viz", "cf", "eg", "ie", "al", "ca", "approx",
+    "Inc", "Ltd", "Co", "Corp", "Dept", "Univ", "Assn", "Bros",
+    "Jan", "Feb", "Mar", "Apr", "Jun", "Jul", "Aug", "Sept", "Sep", "Oct", "Nov", "Dec",
+    "Mon", "Tues", "Tue", "Wed", "Thurs", "Thu", "Fri", "Sat", "Sun",
+    "No", "Nos", "Vol", "Ed", "Eds", "pp", "Fig", "Figs", "Ch", "Sec", "Art",
+    "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X",
+    "XI", "XII", "XIII", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX",
+    "XXI", "XXII", "XXIII", "XXIV", "XXV", "XXVI", "XXVII", "XXVIII", "XXIX", "XXX",
+    "XXXI", "XXXII", "XXXIII", "XXXIV", "XXXV", "XXXVI", "XXXVII", "XXXVIII", "XXXIX", "XL",
+    "XLI", "XLII", "XLIII", "XLIV", "XLV", "XLVI", "XLVII", "XLVIII", "XLIX", "L",
+    "LI", "LII", "LIII", "LIV", "LV", "LVI", "LVII", "LVIII", "LIX", "LX", "LXI"
+  ]
+}

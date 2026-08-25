@@ -1,0 +1,2445 @@
+{
+  "spec": {
+    "draws": 99,
+    "window": 8,
+    "reseeds": 8,
+    "hop": 4,
+    "units": 480,
+    "minOccurrences": 5,
+    "maxCandidates": 500
+  },
+  "spaced": false,
+  "arena": {
+    "units": 480,
+    "coverage": {
+      "covered": 480,
+      "extent": 480,
+      "uncovered": 0,
+      "complete": true
+    },
+    "contemporaryOf0": []
+  },
+  "candidatesConsidered": 500,
+  "candidatesDropped": 37527,
+  "clumped": 13,
+  "regular": 204,
+  "clumpedAll": [
+    {
+      "surface": "如此",
+      "count": 426,
+      "extent": 239,
+      "reach": 0.4979166666666667,
+      "ananda": 0.024493295392748138,
+      "height": "unstable"
+    },
+    {
+      "surface": "賈珍",
+      "count": 390,
+      "extent": 87,
+      "reach": 0.18125,
+      "ananda": 0.05545824884177897,
+      "height": "peer"
+    },
+    {
+      "surface": "丫鬟",
+      "count": 234,
+      "extent": 121,
+      "reach": 0.2520833333333333,
+      "ananda": 0.03873354603424772,
+      "height": "unstable"
+    },
+    {
+      "surface": "賈蓉",
+      "count": 229,
+      "extent": 67,
+      "reach": 0.13958333333333334,
+      "ananda": 0.06381984351438952,
+      "height": "peer"
+    },
+    {
+      "surface": "又有",
+      "count": 217,
+      "extent": 153,
+      "reach": 0.31875,
+      "ananda": 0.027289402132666396,
+      "height": "unstable"
+    },
+    {
+      "surface": "于是",
+      "count": 214,
+      "extent": 143,
+      "reach": 0.29791666666666666,
+      "ananda": 0.04137418293996298,
+      "height": "unstable"
+    },
+    {
+      "surface": "賈赦",
+      "count": 193,
+      "extent": 60,
+      "reach": 0.125,
+      "ananda": 0.05235440216960541,
+      "height": "unstable"
+    },
+    {
+      "surface": "豈不",
+      "count": 189,
+      "extent": 137,
+      "reach": 0.28541666666666665,
+      "ananda": 0.040906433024890276,
+      "height": "above"
+    },
+    {
+      "surface": "雨村",
+      "count": 187,
+      "extent": 34,
+      "reach": 0.07083333333333333,
+      "ananda": 0.07350243991767158,
+      "height": "unstable"
+    },
+    {
+      "surface": "因此",
+      "count": 176,
+      "extent": 112,
+      "reach": 0.23333333333333334,
+      "ananda": 0.03025190066242267,
+      "height": "above"
+    },
+    {
+      "surface": "賈政道",
+      "count": 170,
+      "extent": 55,
+      "reach": 0.11458333333333333,
+      "ananda": 0.0611623109884345,
+      "height": "peer"
+    },
+    {
+      "surface": "政道",
+      "count": 170,
+      "extent": 55,
+      "reach": 0.11458333333333333,
+      "ananda": 0.0611623109884345,
+      "height": "peer"
+    },
+    {
+      "surface": "不可",
+      "count": 155,
+      "extent": 109,
+      "reach": 0.22708333333333333,
+      "ananda": 0.036564986398678556,
+      "height": "unstable"
+    }
+  ],
+  "regularAll": [
+    {
+      "surface": "太太",
+      "count": 1970,
+      "extent": 362,
+      "reach": 0.7541666666666667,
+      "ananda": 0.012945694209138381,
+      "height": "above"
+    },
+    {
+      "surface": "了一",
+      "count": 1917,
+      "extent": 436,
+      "reach": 0.9083333333333333,
+      "ananda": 0.007047323310228393,
+      "height": "peer"
+    },
+    {
+      "surface": "什么",
+      "count": 1807,
+      "extent": 422,
+      "reach": 0.8791666666666667,
+      "ananda": 0.007727261438528643,
+      "height": "peer"
+    },
+    {
+      "surface": "鳳姐",
+      "count": 1719,
+      "extent": 264,
+      "reach": 0.55,
+      "ananda": 0.022819730815042405,
+      "height": "unstable"
+    },
+    {
+      "surface": "也不",
+      "count": 1431,
+      "extent": 436,
+      "reach": 0.9083333333333333,
+      "ananda": 0.007047323310228393,
+      "height": "above"
+    },
+    {
+      "surface": "我們",
+      "count": 1213,
+      "extent": 375,
+      "reach": 0.78125,
+      "ananda": 0.012366586316266748,
+      "height": "peer"
+    },
+    {
+      "surface": "那里",
+      "count": 1166,
+      "extent": 402,
+      "reach": 0.8375,
+      "ananda": 0.009818709758597777,
+      "height": "above"
+    },
+    {
+      "surface": "襲人",
+      "count": 1146,
+      "extent": 196,
+      "reach": 0.4083333333333333,
+      "ananda": 0.026888566313314044,
+      "height": "above"
+    },
+    {
+      "surface": "姑娘",
+      "count": 1118,
+      "extent": 287,
+      "reach": 0.5979166666666667,
+      "ananda": 0.019940162539082706,
+      "height": "peer"
+    },
+    {
+      "surface": "道我",
+      "count": 1107,
+      "extent": 48,
+      "reach": 0.1,
+      "ananda": 0.0791176995060816,
+      "height": "unstable"
+    },
+    {
+      "surface": "去了",
+      "count": 1087,
+      "extent": 386,
+      "reach": 0.8041666666666667,
+      "ananda": 0.011404187834450852,
+      "height": "peer"
+    },
+    {
+      "surface": "寶釵",
+      "count": 1073,
+      "extent": 230,
+      "reach": 0.4791666666666667,
+      "ananda": 0.02419200258641574,
+      "height": "above"
+    },
+    {
+      "surface": "王夫",
+      "count": 1067,
+      "extent": 255,
+      "reach": 0.53125,
+      "ananda": 0.020535332499335368,
+      "height": "above"
+    },
+    {
+      "surface": "王夫人",
+      "count": 1065,
+      "extent": 254,
+      "reach": 0.5291666666666667,
+      "ananda": 0.019606614193342864,
+      "height": "above"
+    },
+    {
+      "surface": "起來",
+      "count": 1050,
+      "extent": 393,
+      "reach": 0.81875,
+      "ananda": 0.010300774134874402,
+      "height": "peer"
+    },
+    {
+      "surface": "來了",
+      "count": 1027,
+      "extent": 382,
+      "reach": 0.7958333333333333,
+      "ananda": 0.012209878080700065,
+      "height": "peer"
+    },
+    {
+      "surface": "怎么",
+      "count": 1011,
+      "extent": 371,
+      "reach": 0.7729166666666667,
+      "ananda": 0.012391465456776274,
+      "height": "above"
+    },
+    {
+      "surface": "你們",
+      "count": 997,
+      "extent": 330,
+      "reach": 0.6875,
+      "ananda": 0.014312793355459874,
+      "height": "peer"
+    },
+    {
+      "surface": "丫頭",
+      "count": 988,
+      "extent": 309,
+      "reach": 0.64375,
+      "ananda": 0.017269096278006657,
+      "height": "unstable"
+    },
+    {
+      "surface": "知道",
+      "count": 981,
+      "extent": 373,
+      "reach": 0.7770833333333333,
+      "ananda": 0.01119774570524612,
+      "height": "above"
+    },
+    {
+      "surface": "說道",
+      "count": 972,
+      "extent": 368,
+      "reach": 0.7666666666666667,
+      "ananda": 0.011360855966030314,
+      "height": "unstable"
+    },
+    {
+      "surface": "老太",
+      "count": 963,
+      "extent": 286,
+      "reach": 0.5958333333333333,
+      "ananda": 0.015001746191568799,
+      "height": "above"
+    },
+    {
+      "surface": "老太太",
+      "count": 954,
+      "extent": 278,
+      "reach": 0.5791666666666667,
+      "ananda": 0.018019122874509463,
+      "height": "above"
+    },
+    {
+      "surface": "這里",
+      "count": 928,
+      "extent": 364,
+      "reach": 0.7583333333333333,
+      "ananda": 0.011064879781969239,
+      "height": "above"
+    },
+    {
+      "surface": "奶奶",
+      "count": 927,
+      "extent": 239,
+      "reach": 0.4979166666666667,
+      "ananda": 0.024493295392748138,
+      "height": "unstable"
+    },
+    {
+      "surface": "說著",
+      "count": 891,
+      "extent": 369,
+      "reach": 0.76875,
+      "ananda": 0.013377314886742653,
+      "height": "above"
+    },
+    {
+      "surface": "他們",
+      "count": 888,
+      "extent": 326,
+      "reach": 0.6791666666666667,
+      "ananda": 0.014993124607636688,
+      "height": "peer"
+    },
+    {
+      "surface": "不是",
+      "count": 880,
+      "extent": 364,
+      "reach": 0.7583333333333333,
+      "ananda": 0.011064879781969239,
+      "height": "above"
+    },
+    {
+      "surface": "自己",
+      "count": 830,
+      "extent": 351,
+      "reach": 0.73125,
+      "ananda": 0.0128067278705295,
+      "height": "unstable"
+    },
+    {
+      "surface": "不得",
+      "count": 803,
+      "extent": 370,
+      "reach": 0.7708333333333334,
+      "ananda": 0.011018502112646544,
+      "height": "unstable"
+    },
+    {
+      "surface": "兩個",
+      "count": 779,
+      "extent": 325,
+      "reach": 0.6770833333333334,
+      "ananda": 0.017415063711059275,
+      "height": "peer"
+    },
+    {
+      "surface": "沒有",
+      "count": 762,
+      "extent": 319,
+      "reach": 0.6645833333333333,
+      "ananda": 0.018190621363753934,
+      "height": "unstable"
+    },
+    {
+      "surface": "這個",
+      "count": 693,
+      "extent": 313,
+      "reach": 0.6520833333333333,
+      "ananda": 0.014265675055604277,
+      "height": "unstable"
+    },
+    {
+      "surface": "家的",
+      "count": 684,
+      "extent": 214,
+      "reach": 0.44583333333333336,
+      "ananda": 0.02077161954153972,
+      "height": "unstable"
+    },
+    {
+      "surface": "進來",
+      "count": 682,
+      "extent": 306,
+      "reach": 0.6375,
+      "ananda": 0.012971938182706921,
+      "height": "peer"
+    },
+    {
+      "surface": "听見",
+      "count": 681,
+      "extent": 295,
+      "reach": 0.6145833333333334,
+      "ananda": 0.01623059907015545,
+      "height": "unstable"
+    },
+    {
+      "surface": "平儿",
+      "count": 681,
+      "extent": 137,
+      "reach": 0.28541666666666665,
+      "ananda": 0.040906433024890276,
+      "height": "above"
+    },
+    {
+      "surface": "這樣",
+      "count": 655,
+      "extent": 305,
+      "reach": 0.6354166666666666,
+      "ananda": 0.016155336000592158,
+      "height": "above"
+    },
+    {
+      "surface": "的人",
+      "count": 641,
+      "extent": 303,
+      "reach": 0.63125,
+      "ananda": 0.019126559831631695,
+      "height": "unstable"
+    },
+    {
+      "surface": "東西",
+      "count": 606,
+      "extent": 256,
+      "reach": 0.5333333333333333,
+      "ananda": 0.018998625367856903,
+      "height": "peer"
+    },
+    {
+      "surface": "了我",
+      "count": 601,
+      "extent": 156,
+      "reach": 0.325,
+      "ananda": 0.034391004388318436,
+      "height": "above"
+    },
+    {
+      "surface": "咱們",
+      "count": 599,
+      "extent": 277,
+      "reach": 0.5770833333333333,
+      "ananda": 0.018244093294033092,
+      "height": "above"
+    },
+    {
+      "surface": "告訴",
+      "count": 598,
+      "extent": 293,
+      "reach": 0.6104166666666667,
+      "ananda": 0.018601029749026665,
+      "height": "unstable"
+    },
+    {
+      "surface": "就是",
+      "count": 595,
+      "extent": 313,
+      "reach": 0.6520833333333333,
+      "ananda": 0.014265675055604277,
+      "height": "above"
+    },
+    {
+      "surface": "姐儿",
+      "count": 595,
+      "extent": 163,
+      "reach": 0.33958333333333335,
+      "ananda": 0.03582186017834488,
+      "height": "unstable"
+    },
+    {
+      "surface": "姐姐",
+      "count": 580,
+      "extent": 209,
+      "reach": 0.4354166666666667,
+      "ananda": 0.02731055019624229,
+      "height": "unstable"
+    },
+    {
+      "surface": "回來",
+      "count": 570,
+      "extent": 276,
+      "reach": 0.575,
+      "ananda": 0.018531341021803982,
+      "height": "above"
+    },
+    {
+      "surface": "了他",
+      "count": 564,
+      "extent": 239,
+      "reach": 0.4979166666666667,
+      "ananda": 0.024493295392748138,
+      "height": "peer"
+    },
+    {
+      "surface": "見了",
+      "count": 561,
+      "extent": 300,
+      "reach": 0.625,
+      "ananda": 0.016162384747930858,
+      "height": "above"
+    },
+    {
+      "surface": "不好",
+      "count": 552,
+      "extent": 286,
+      "reach": 0.5958333333333333,
+      "ananda": 0.015001746191568799,
+      "height": "peer"
+    },
+    {
+      "surface": "出去",
+      "count": 549,
+      "extent": 283,
+      "reach": 0.5895833333333333,
+      "ananda": 0.020920510819420812,
+      "height": "unstable"
+    },
+    {
+      "surface": "只是",
+      "count": 540,
+      "extent": 304,
+      "reach": 0.6333333333333333,
+      "ananda": 0.018433385942577374,
+      "height": "above"
+    },
+    {
+      "surface": "了賈",
+      "count": 525,
+      "extent": 96,
+      "reach": 0.2,
+      "ananda": 0.0463184926787914,
+      "height": "peer"
+    },
+    {
+      "surface": "說了",
+      "count": 524,
+      "extent": 273,
+      "reach": 0.56875,
+      "ananda": 0.018774068877878136,
+      "height": "above"
+    },
+    {
+      "surface": "二爺",
+      "count": 500,
+      "extent": 169,
+      "reach": 0.35208333333333336,
+      "ananda": 0.035760471452078946,
+      "height": "unstable"
+    },
+    {
+      "surface": "這些",
+      "count": 498,
+      "extent": 262,
+      "reach": 0.5458333333333333,
+      "ananda": 0.020742625710875373,
+      "height": "peer"
+    },
+    {
+      "surface": "過來",
+      "count": 485,
+      "extent": 245,
+      "reach": 0.5104166666666666,
+      "ananda": 0.023677296390985703,
+      "height": "peer"
+    },
+    {
+      "surface": "個人",
+      "count": 480,
+      "extent": 276,
+      "reach": 0.575,
+      "ananda": 0.018531341021803982,
+      "height": "unstable"
+    },
+    {
+      "surface": "鳳姐儿",
+      "count": 476,
+      "extent": 129,
+      "reach": 0.26875,
+      "ananda": 0.031592324103002056,
+      "height": "unstable"
+    },
+    {
+      "surface": "也是",
+      "count": 457,
+      "extent": 263,
+      "reach": 0.5479166666666667,
+      "ananda": 0.02241206839071097,
+      "height": "above"
+    },
+    {
+      "surface": "的事",
+      "count": 454,
+      "extent": 230,
+      "reach": 0.4791666666666667,
+      "ananda": 0.02419200258641574,
+      "height": "above"
+    },
+    {
+      "surface": "的話",
+      "count": 445,
+      "extent": 222,
+      "reach": 0.4625,
+      "ananda": 0.025015348549903393,
+      "height": "unstable"
+    },
+    {
+      "surface": "我的",
+      "count": 438,
+      "extent": 240,
+      "reach": 0.5,
+      "ananda": 0.023291418650362772,
+      "height": "peer"
+    },
+    {
+      "surface": "來的",
+      "count": 433,
+      "extent": 254,
+      "reach": 0.5291666666666667,
+      "ananda": 0.019606614193342864,
+      "height": "peer"
+    },
+    {
+      "surface": "紫鵑",
+      "count": 433,
+      "extent": 77,
+      "reach": 0.16041666666666668,
+      "ananda": 0.051516555045145296,
+      "height": "peer"
+    },
+    {
+      "surface": "我也",
+      "count": 429,
+      "extent": 249,
+      "reach": 0.51875,
+      "ananda": 0.02004961107588521,
+      "height": "peer"
+    },
+    {
+      "surface": "這么",
+      "count": 423,
+      "extent": 223,
+      "reach": 0.46458333333333335,
+      "ananda": 0.01798373105768647,
+      "height": "above"
+    },
+    {
+      "surface": "說的",
+      "count": 412,
+      "extent": 253,
+      "reach": 0.5270833333333333,
+      "ananda": 0.022406025288454146,
+      "height": "above"
+    },
+    {
+      "surface": "是我",
+      "count": 408,
+      "extent": 222,
+      "reach": 0.4625,
+      "ananda": 0.025015348549903393,
+      "height": "peer"
+    },
+    {
+      "surface": "心里",
+      "count": 403,
+      "extent": 206,
+      "reach": 0.42916666666666664,
+      "ananda": 0.028176614383522036,
+      "height": "above"
+    },
+    {
+      "surface": "叫他",
+      "count": 398,
+      "extent": 234,
+      "reach": 0.4875,
+      "ananda": 0.02668972654588231,
+      "height": "unstable"
+    },
+    {
+      "surface": "婆子",
+      "count": 396,
+      "extent": 162,
+      "reach": 0.3375,
+      "ananda": 0.0245421815232838,
+      "height": "peer"
+    },
+    {
+      "surface": "妹妹",
+      "count": 394,
+      "extent": 167,
+      "reach": 0.34791666666666665,
+      "ananda": 0.028331717808665502,
+      "height": "peer"
+    },
+    {
+      "surface": "見他",
+      "count": 382,
+      "extent": 250,
+      "reach": 0.5208333333333334,
+      "ananda": 0.018493816976784316,
+      "height": "peer"
+    },
+    {
+      "surface": "都是",
+      "count": 381,
+      "extent": 252,
+      "reach": 0.525,
+      "ananda": 0.02308158966885898,
+      "height": "peer"
+    },
+    {
+      "surface": "來說",
+      "count": 371,
+      "extent": 155,
+      "reach": 0.3229166666666667,
+      "ananda": 0.030352288182559306,
+      "height": "unstable"
+    },
+    {
+      "surface": "人家",
+      "count": 370,
+      "extent": 213,
+      "reach": 0.44375,
+      "ananda": 0.029846505400184853,
+      "height": "above"
+    },
+    {
+      "surface": "在這",
+      "count": 369,
+      "extent": 224,
+      "reach": 0.4666666666666667,
+      "ananda": 0.022578895617002104,
+      "height": "above"
+    },
+    {
+      "surface": "說我",
+      "count": 364,
+      "extent": 125,
+      "reach": 0.2604166666666667,
+      "ananda": 0.038277489669882314,
+      "height": "above"
+    },
+    {
+      "surface": "答應",
+      "count": 354,
+      "extent": 223,
+      "reach": 0.46458333333333335,
+      "ananda": 0.01798373105768647,
+      "height": "peer"
+    },
+    {
+      "surface": "說話",
+      "count": 352,
+      "extent": 214,
+      "reach": 0.44583333333333336,
+      "ananda": 0.02077161954153972,
+      "height": "above"
+    },
+    {
+      "surface": "好了",
+      "count": 340,
+      "extent": 195,
+      "reach": 0.40625,
+      "ananda": 0.026520349618509798,
+      "height": "unstable"
+    },
+    {
+      "surface": "會子",
+      "count": 340,
+      "extent": 205,
+      "reach": 0.4270833333333333,
+      "ananda": 0.029334442820781348,
+      "height": "unstable"
+    },
+    {
+      "surface": "只管",
+      "count": 337,
+      "extent": 216,
+      "reach": 0.45,
+      "ananda": 0.024615348150827998,
+      "height": "above"
+    },
+    {
+      "surface": "那邊",
+      "count": 331,
+      "extent": 195,
+      "reach": 0.40625,
+      "ananda": 0.026520349618509798,
+      "height": "peer"
+    },
+    {
+      "surface": "里的",
+      "count": 330,
+      "extent": 206,
+      "reach": 0.42916666666666664,
+      "ananda": 0.028176614383522036,
+      "height": "unstable"
+    },
+    {
+      "surface": "在那",
+      "count": 326,
+      "extent": 207,
+      "reach": 0.43125,
+      "ananda": 0.027898412286436525,
+      "height": "peer"
+    },
+    {
+      "surface": "他的",
+      "count": 322,
+      "extent": 198,
+      "reach": 0.4125,
+      "ananda": 0.03262710583064887,
+      "height": "peer"
+    },
+    {
+      "surface": "這話",
+      "count": 314,
+      "extent": 196,
+      "reach": 0.4083333333333333,
+      "ananda": 0.026888566313314044,
+      "height": "above"
+    },
+    {
+      "surface": "打發",
+      "count": 310,
+      "extent": 190,
+      "reach": 0.3958333333333333,
+      "ananda": 0.026168434201963464,
+      "height": "unstable"
+    },
+    {
+      "surface": "外頭",
+      "count": 307,
+      "extent": 181,
+      "reach": 0.3770833333333333,
+      "ananda": 0.028210507150202346,
+      "height": "unstable"
+    },
+    {
+      "surface": "在這里",
+      "count": 305,
+      "extent": 187,
+      "reach": 0.38958333333333334,
+      "ananda": 0.028718319038533835,
+      "height": "above"
+    },
+    {
+      "surface": "屋里",
+      "count": 303,
+      "extent": 165,
+      "reach": 0.34375,
+      "ananda": 0.029641232225326775,
+      "height": "peer"
+    },
+    {
+      "surface": "是這",
+      "count": 300,
+      "extent": 202,
+      "reach": 0.42083333333333334,
+      "ananda": 0.02463138583736324,
+      "height": "above"
+    },
+    {
+      "surface": "吃了",
+      "count": 298,
+      "extent": 163,
+      "reach": 0.33958333333333335,
+      "ananda": 0.03582186017834488,
+      "height": "peer"
+    },
+    {
+      "surface": "今儿",
+      "count": 297,
+      "extent": 184,
+      "reach": 0.38333333333333336,
+      "ananda": 0.02840359244130397,
+      "height": "above"
+    },
+    {
+      "surface": "也沒",
+      "count": 286,
+      "extent": 200,
+      "reach": 0.4166666666666667,
+      "ananda": 0.02367738108162598,
+      "height": "above"
+    },
+    {
+      "surface": "看見",
+      "count": 282,
+      "extent": 174,
+      "reach": 0.3625,
+      "ananda": 0.029991269553541144,
+      "height": "unstable"
+    },
+    {
+      "surface": "不知道",
+      "count": 282,
+      "extent": 184,
+      "reach": 0.38333333333333336,
+      "ananda": 0.02840359244130397,
+      "height": "peer"
+    },
+    {
+      "surface": "問道",
+      "count": 280,
+      "extent": 187,
+      "reach": 0.38958333333333334,
+      "ananda": 0.028718319038533835,
+      "height": "unstable"
+    },
+    {
+      "surface": "在那里",
+      "count": 279,
+      "extent": 182,
+      "reach": 0.37916666666666665,
+      "ananda": 0.029693411081749943,
+      "height": "peer"
+    },
+    {
+      "surface": "有什",
+      "count": 277,
+      "extent": 175,
+      "reach": 0.3645833333333333,
+      "ananda": 0.035662462700059905,
+      "height": "above"
+    },
+    {
+      "surface": "我說",
+      "count": 276,
+      "extent": 166,
+      "reach": 0.3458333333333333,
+      "ananda": 0.03157213438005613,
+      "height": "above"
+    },
+    {
+      "surface": "有什么",
+      "count": 276,
+      "extent": 170,
+      "reach": 0.3541666666666667,
+      "ananda": 0.029089309772139416,
+      "height": "above"
+    },
+    {
+      "surface": "是不",
+      "count": 276,
+      "extent": 174,
+      "reach": 0.3625,
+      "ananda": 0.029991269553541144,
+      "height": "above"
+    },
+    {
+      "surface": "說這",
+      "count": 269,
+      "extent": 86,
+      "reach": 0.17916666666666667,
+      "ananda": 0.04396093578099247,
+      "height": "above"
+    },
+    {
+      "surface": "還不",
+      "count": 269,
+      "extent": 200,
+      "reach": 0.4166666666666667,
+      "ananda": 0.02367738108162598,
+      "height": "unstable"
+    },
+    {
+      "surface": "是他",
+      "count": 268,
+      "extent": 180,
+      "reach": 0.375,
+      "ananda": 0.03176461914973139,
+      "height": "peer"
+    },
+    {
+      "surface": "去罷",
+      "count": 267,
+      "extent": 165,
+      "reach": 0.34375,
+      "ananda": 0.029641232225326775,
+      "height": "peer"
+    },
+    {
+      "surface": "回去",
+      "count": 264,
+      "extent": 163,
+      "reach": 0.33958333333333335,
+      "ananda": 0.03582186017834488,
+      "height": "peer"
+    },
+    {
+      "surface": "好的",
+      "count": 262,
+      "extent": 173,
+      "reach": 0.36041666666666666,
+      "ananda": 0.02893919649478427,
+      "height": "peer"
+    },
+    {
+      "surface": "孩子",
+      "count": 258,
+      "extent": 149,
+      "reach": 0.3104166666666667,
+      "ananda": 0.031678039567148986,
+      "height": "above"
+    },
+    {
+      "surface": "家里",
+      "count": 257,
+      "extent": 168,
+      "reach": 0.35,
+      "ananda": 0.0288176105368656,
+      "height": "peer"
+    },
+    {
+      "surface": "這會",
+      "count": 257,
+      "extent": 169,
+      "reach": 0.35208333333333336,
+      "ananda": 0.035760471452078946,
+      "height": "above"
+    },
+    {
+      "surface": "是你",
+      "count": 256,
+      "extent": 170,
+      "reach": 0.3541666666666667,
+      "ananda": 0.029089309772139416,
+      "height": "unstable"
+    },
+    {
+      "surface": "死了",
+      "count": 254,
+      "extent": 147,
+      "reach": 0.30625,
+      "ananda": 0.029861888202177056,
+      "height": "unstable"
+    },
+    {
+      "surface": "給他",
+      "count": 249,
+      "extent": 164,
+      "reach": 0.3416666666666667,
+      "ananda": 0.03240232001153487,
+      "height": "peer"
+    },
+    {
+      "surface": "這會子",
+      "count": 248,
+      "extent": 160,
+      "reach": 0.3333333333333333,
+      "ananda": 0.03768013936478809,
+      "height": "above"
+    },
+    {
+      "surface": "到底",
+      "count": 247,
+      "extent": 180,
+      "reach": 0.375,
+      "ananda": 0.03176461914973139,
+      "height": "above"
+    },
+    {
+      "surface": "說是",
+      "count": 244,
+      "extent": 144,
+      "reach": 0.3,
+      "ananda": 0.030560461131122096,
+      "height": "above"
+    },
+    {
+      "surface": "們的",
+      "count": 242,
+      "extent": 159,
+      "reach": 0.33125,
+      "ananda": 0.029945991933631788,
+      "height": "peer"
+    },
+    {
+      "surface": "里頭",
+      "count": 240,
+      "extent": 147,
+      "reach": 0.30625,
+      "ananda": 0.029861888202177056,
+      "height": "unstable"
+    },
+    {
+      "surface": "在家",
+      "count": 239,
+      "extent": 154,
+      "reach": 0.32083333333333336,
+      "ananda": 0.03309328560179736,
+      "height": "above"
+    },
+    {
+      "surface": "明儿",
+      "count": 239,
+      "extent": 147,
+      "reach": 0.30625,
+      "ananda": 0.029861888202177056,
+      "height": "peer"
+    },
+    {
+      "surface": "別人",
+      "count": 238,
+      "extent": 167,
+      "reach": 0.34791666666666665,
+      "ananda": 0.028331717808665502,
+      "height": "above"
+    },
+    {
+      "surface": "是那",
+      "count": 237,
+      "extent": 166,
+      "reach": 0.3458333333333333,
+      "ananda": 0.03157213438005613,
+      "height": "unstable"
+    },
+    {
+      "surface": "你的",
+      "count": 237,
+      "extent": 164,
+      "reach": 0.3416666666666667,
+      "ananda": 0.03240232001153487,
+      "height": "above"
+    },
+    {
+      "surface": "儿的",
+      "count": 237,
+      "extent": 153,
+      "reach": 0.31875,
+      "ananda": 0.027289402132666396,
+      "height": "unstable"
+    },
+    {
+      "surface": "里去",
+      "count": 236,
+      "extent": 160,
+      "reach": 0.3333333333333333,
+      "ananda": 0.03768013936478809,
+      "height": "above"
+    },
+    {
+      "surface": "叫人",
+      "count": 235,
+      "extent": 155,
+      "reach": 0.3229166666666667,
+      "ananda": 0.030352288182559306,
+      "height": "peer"
+    },
+    {
+      "surface": "連忙",
+      "count": 231,
+      "extent": 137,
+      "reach": 0.28541666666666665,
+      "ananda": 0.040906433024890276,
+      "height": "peer"
+    },
+    {
+      "surface": "么樣",
+      "count": 229,
+      "extent": 156,
+      "reach": 0.325,
+      "ananda": 0.034391004388318436,
+      "height": "peer"
+    },
+    {
+      "surface": "還是",
+      "count": 226,
+      "extent": 151,
+      "reach": 0.3145833333333333,
+      "ananda": 0.03511355311124831,
+      "height": "above"
+    },
+    {
+      "surface": "身上",
+      "count": 225,
+      "extent": 157,
+      "reach": 0.32708333333333334,
+      "ananda": 0.028517115278422267,
+      "height": "peer"
+    },
+    {
+      "surface": "二奶",
+      "count": 222,
+      "extent": 103,
+      "reach": 0.21458333333333332,
+      "ananda": 0.04667975225146037,
+      "height": "above"
+    },
+    {
+      "surface": "二奶奶",
+      "count": 222,
+      "extent": 97,
+      "reach": 0.20208333333333334,
+      "ananda": 0.04707300674335535,
+      "height": "above"
+    },
+    {
+      "surface": "話說",
+      "count": 221,
+      "extent": 161,
+      "reach": 0.33541666666666664,
+      "ananda": 0.03157130933986885,
+      "height": "above"
+    },
+    {
+      "surface": "了一回",
+      "count": 219,
+      "extent": 146,
+      "reach": 0.30416666666666664,
+      "ananda": 0.033069259955677666,
+      "height": "unstable"
+    },
+    {
+      "surface": "意思",
+      "count": 219,
+      "extent": 153,
+      "reach": 0.31875,
+      "ananda": 0.027289402132666396,
+      "height": "above"
+    },
+    {
+      "surface": "叫我",
+      "count": 219,
+      "extent": 151,
+      "reach": 0.3145833333333333,
+      "ananda": 0.03511355311124831,
+      "height": "peer"
+    },
+    {
+      "surface": "人說",
+      "count": 212,
+      "extent": 147,
+      "reach": 0.30625,
+      "ananda": 0.029861888202177056,
+      "height": "above"
+    },
+    {
+      "surface": "儿道",
+      "count": 212,
+      "extent": 91,
+      "reach": 0.18958333333333333,
+      "ananda": 0.049718872262690894,
+      "height": "above"
+    },
+    {
+      "surface": "那個",
+      "count": 211,
+      "extent": 143,
+      "reach": 0.29791666666666666,
+      "ananda": 0.04137418293996298,
+      "height": "unstable"
+    },
+    {
+      "surface": "怎么樣",
+      "count": 210,
+      "extent": 142,
+      "reach": 0.29583333333333334,
+      "ananda": 0.02871628444046337,
+      "height": "peer"
+    },
+    {
+      "surface": "你不",
+      "count": 209,
+      "extent": 146,
+      "reach": 0.30416666666666664,
+      "ananda": 0.033069259955677666,
+      "height": "peer"
+    },
+    {
+      "surface": "跟前",
+      "count": 205,
+      "extent": 149,
+      "reach": 0.3104166666666667,
+      "ananda": 0.031678039567148986,
+      "height": "above"
+    },
+    {
+      "surface": "玉的",
+      "count": 202,
+      "extent": 129,
+      "reach": 0.26875,
+      "ananda": 0.031592324103002056,
+      "height": "unstable"
+    },
+    {
+      "surface": "主意",
+      "count": 202,
+      "extent": 130,
+      "reach": 0.2708333333333333,
+      "ananda": 0.0405068553527439,
+      "height": "unstable"
+    },
+    {
+      "surface": "瞧瞧",
+      "count": 199,
+      "extent": 147,
+      "reach": 0.30625,
+      "ananda": 0.029861888202177056,
+      "height": "unstable"
+    },
+    {
+      "surface": "了來",
+      "count": 197,
+      "extent": 134,
+      "reach": 0.2791666666666667,
+      "ananda": 0.03903562941584582,
+      "height": "peer"
+    },
+    {
+      "surface": "面說",
+      "count": 197,
+      "extent": 147,
+      "reach": 0.30625,
+      "ananda": 0.029861888202177056,
+      "height": "peer"
+    },
+    {
+      "surface": "的了",
+      "count": 196,
+      "extent": 144,
+      "reach": 0.3,
+      "ananda": 0.030560461131122096,
+      "height": "above"
+    },
+    {
+      "surface": "著他",
+      "count": 194,
+      "extent": 130,
+      "reach": 0.2708333333333333,
+      "ananda": 0.0405068553527439,
+      "height": "above"
+    },
+    {
+      "surface": "你也",
+      "count": 194,
+      "extent": 144,
+      "reach": 0.3,
+      "ananda": 0.030560461131122096,
+      "height": "above"
+    },
+    {
+      "surface": "都不",
+      "count": 194,
+      "extent": 150,
+      "reach": 0.3125,
+      "ananda": 0.03316823616376041,
+      "height": "unstable"
+    },
+    {
+      "surface": "問他",
+      "count": 192,
+      "extent": 146,
+      "reach": 0.30416666666666664,
+      "ananda": 0.033069259955677666,
+      "height": "peer"
+    },
+    {
+      "surface": "難道",
+      "count": 191,
+      "extent": 135,
+      "reach": 0.28125,
+      "ananda": 0.03326074602959039,
+      "height": "above"
+    },
+    {
+      "surface": "賈芸",
+      "count": 191,
+      "extent": 31,
+      "reach": 0.06458333333333334,
+      "ananda": 0.07516593770430013,
+      "height": "peer"
+    },
+    {
+      "surface": "句話",
+      "count": 189,
+      "extent": 132,
+      "reach": 0.275,
+      "ananda": 0.03312439010440116,
+      "height": "above"
+    },
+    {
+      "surface": "賈母道",
+      "count": 189,
+      "extent": 79,
+      "reach": 0.16458333333333333,
+      "ananda": 0.0627253172794422,
+      "height": "above"
+    },
+    {
+      "surface": "母道",
+      "count": 189,
+      "extent": 80,
+      "reach": 0.16666666666666666,
+      "ananda": 0.052739570263385716,
+      "height": "unstable"
+    },
+    {
+      "surface": "喜歡",
+      "count": 187,
+      "extent": 125,
+      "reach": 0.2604166666666667,
+      "ananda": 0.038277489669882314,
+      "height": "above"
+    },
+    {
+      "surface": "好些",
+      "count": 187,
+      "extent": 120,
+      "reach": 0.25,
+      "ananda": 0.03533387678157318,
+      "height": "unstable"
+    },
+    {
+      "surface": "不要",
+      "count": 186,
+      "extent": 143,
+      "reach": 0.29791666666666666,
+      "ananda": 0.04137418293996298,
+      "height": "above"
+    },
+    {
+      "surface": "們家",
+      "count": 186,
+      "extent": 124,
+      "reach": 0.25833333333333336,
+      "ananda": 0.03475013455838827,
+      "height": "unstable"
+    },
+    {
+      "surface": "的心",
+      "count": 185,
+      "extent": 117,
+      "reach": 0.24375,
+      "ananda": 0.03494593877059593,
+      "height": "above"
+    },
+    {
+      "surface": "想起",
+      "count": 183,
+      "extent": 145,
+      "reach": 0.3020833333333333,
+      "ananda": 0.028235409504551612,
+      "height": "above"
+    },
+    {
+      "surface": "了好",
+      "count": 181,
+      "extent": 104,
+      "reach": 0.21666666666666667,
+      "ananda": 0.047784369467429144,
+      "height": "above"
+    },
+    {
+      "surface": "儿也",
+      "count": 181,
+      "extent": 113,
+      "reach": 0.23541666666666666,
+      "ananda": 0.045439156145143045,
+      "height": "unstable"
+    },
+    {
+      "surface": "原是",
+      "count": 179,
+      "extent": 147,
+      "reach": 0.30625,
+      "ananda": 0.029861888202177056,
+      "height": "unstable"
+    },
+    {
+      "surface": "姐道",
+      "count": 177,
+      "extent": 76,
+      "reach": 0.15833333333333333,
+      "ananda": 0.058012502270164745,
+      "height": "peer"
+    },
+    {
+      "surface": "過了",
+      "count": 174,
+      "extent": 135,
+      "reach": 0.28125,
+      "ananda": 0.03326074602959039,
+      "height": "unstable"
+    },
+    {
+      "surface": "襲人道",
+      "count": 174,
+      "extent": 68,
+      "reach": 0.14166666666666666,
+      "ananda": 0.06022146881424817,
+      "height": "unstable"
+    },
+    {
+      "surface": "房里",
+      "count": 173,
+      "extent": 120,
+      "reach": 0.25,
+      "ananda": 0.03533387678157318,
+      "height": "above"
+    },
+    {
+      "surface": "么不",
+      "count": 172,
+      "extent": 124,
+      "reach": 0.25833333333333336,
+      "ananda": 0.03475013455838827,
+      "height": "peer"
+    },
+    {
+      "surface": "我一",
+      "count": 170,
+      "extent": 121,
+      "reach": 0.2520833333333333,
+      "ananda": 0.03873354603424772,
+      "height": "above"
+    },
+    {
+      "surface": "一個人",
+      "count": 170,
+      "extent": 122,
+      "reach": 0.25416666666666665,
+      "ananda": 0.029695989948601564,
+      "height": "above"
+    },
+    {
+      "surface": "是寶",
+      "count": 170,
+      "extent": 102,
+      "reach": 0.2125,
+      "ananda": 0.03974754164757499,
+      "height": "above"
+    },
+    {
+      "surface": "太太的",
+      "count": 169,
+      "extent": 112,
+      "reach": 0.23333333333333334,
+      "ananda": 0.03025190066242267,
+      "height": "above"
+    },
+    {
+      "surface": "太的",
+      "count": 169,
+      "extent": 115,
+      "reach": 0.23958333333333334,
+      "ananda": 0.04276840046785324,
+      "height": "above"
+    },
+    {
+      "surface": "的東",
+      "count": 166,
+      "extent": 112,
+      "reach": 0.23333333333333334,
+      "ananda": 0.03025190066242267,
+      "height": "peer"
+    },
+    {
+      "surface": "來不",
+      "count": 165,
+      "extent": 75,
+      "reach": 0.15625,
+      "ananda": 0.049323423138632805,
+      "height": "unstable"
+    },
+    {
+      "surface": "還要",
+      "count": 165,
+      "extent": 132,
+      "reach": 0.275,
+      "ananda": 0.03312439010440116,
+      "height": "above"
+    },
+    {
+      "surface": "鳳姐道",
+      "count": 165,
+      "extent": 67,
+      "reach": 0.13958333333333334,
+      "ananda": 0.06381984351438952,
+      "height": "unstable"
+    },
+    {
+      "surface": "放心",
+      "count": 163,
+      "extent": 112,
+      "reach": 0.23333333333333334,
+      "ananda": 0.03025190066242267,
+      "height": "unstable"
+    },
+    {
+      "surface": "了去",
+      "count": 162,
+      "extent": 120,
+      "reach": 0.25,
+      "ananda": 0.03533387678157318,
+      "height": "unstable"
+    },
+    {
+      "surface": "子們",
+      "count": 162,
+      "extent": 112,
+      "reach": 0.23333333333333334,
+      "ananda": 0.03025190066242267,
+      "height": "peer"
+    },
+    {
+      "surface": "若是",
+      "count": 162,
+      "extent": 115,
+      "reach": 0.23958333333333334,
+      "ananda": 0.04276840046785324,
+      "height": "unstable"
+    },
+    {
+      "surface": "道了",
+      "count": 161,
+      "extent": 121,
+      "reach": 0.2520833333333333,
+      "ananda": 0.03873354603424772,
+      "height": "peer"
+    },
+    {
+      "surface": "夫人道",
+      "count": 160,
+      "extent": 74,
+      "reach": 0.15416666666666667,
+      "ananda": 0.052803224591999154,
+      "height": "above"
+    },
+    {
+      "surface": "儿笑",
+      "count": 159,
+      "extent": 89,
+      "reach": 0.18541666666666667,
+      "ananda": 0.03843069635800589,
+      "height": "above"
+    },
+    {
+      "surface": "笑了",
+      "count": 158,
+      "extent": 116,
+      "reach": 0.24166666666666667,
+      "ananda": 0.03300065029442223,
+      "height": "above"
+    },
+    {
+      "surface": "可不",
+      "count": 158,
+      "extent": 124,
+      "reach": 0.25833333333333336,
+      "ananda": 0.03475013455838827,
+      "height": "peer"
+    },
+    {
+      "surface": "為什",
+      "count": 157,
+      "extent": 110,
+      "reach": 0.22916666666666666,
+      "ananda": 0.04211037632936865,
+      "height": "unstable"
+    },
+    {
+      "surface": "為什么",
+      "count": 157,
+      "extent": 110,
+      "reach": 0.22916666666666666,
+      "ananda": 0.04211037632936865,
+      "height": "peer"
+    },
+    {
+      "surface": "和他",
+      "count": 155,
+      "extent": 109,
+      "reach": 0.22708333333333333,
+      "ananda": 0.036564986398678556,
+      "height": "unstable"
+    },
+    {
+      "surface": "里來",
+      "count": 154,
+      "extent": 121,
+      "reach": 0.2520833333333333,
+      "ananda": 0.03873354603424772,
+      "height": "unstable"
+    },
+    {
+      "surface": "言語",
+      "count": 153,
+      "extent": 111,
+      "reach": 0.23125,
+      "ananda": 0.04627564956874153,
+      "height": "above"
+    },
+    {
+      "surface": "著我",
+      "count": 152,
+      "extent": 87,
+      "reach": 0.18125,
+      "ananda": 0.05545824884177897,
+      "height": "above"
+    },
+    {
+      "surface": "叫你",
+      "count": 151,
+      "extent": 117,
+      "reach": 0.24375,
+      "ananda": 0.03494593877059593,
+      "height": "peer"
+    },
+    {
+      "surface": "時候",
+      "count": 150,
+      "extent": 106,
+      "reach": 0.22083333333333333,
+      "ananda": 0.03526522013756761,
+      "height": "above"
+    },
+    {
+      "surface": "你就",
+      "count": 150,
+      "extent": 110,
+      "reach": 0.22916666666666666,
+      "ananda": 0.04211037632936865,
+      "height": "peer"
+    },
+    {
+      "surface": "一點",
+      "count": 149,
+      "extent": 115,
+      "reach": 0.23958333333333334,
+      "ananda": 0.04276840046785324,
+      "height": "peer"
+    },
+    {
+      "surface": "人便",
+      "count": 149,
+      "extent": 81,
+      "reach": 0.16875,
+      "ananda": 0.05426448865485334,
+      "height": "unstable"
+    }
+  ],
+  "heights": {
+    "above": 2,
+    "peer": 4,
+    "unstable": 7
+  },
+  "register": [
+    {
+      "surface": "太太",
+      "count": 1970,
+      "extent": 362,
+      "reach": 0.7541666666666667,
+      "ananda": 0.012945694209138381,
+      "height": "above"
+    },
+    {
+      "surface": "也不",
+      "count": 1431,
+      "extent": 436,
+      "reach": 0.9083333333333333,
+      "ananda": 0.007047323310228393,
+      "height": "above"
+    },
+    {
+      "surface": "那里",
+      "count": 1166,
+      "extent": 402,
+      "reach": 0.8375,
+      "ananda": 0.009818709758597777,
+      "height": "above"
+    },
+    {
+      "surface": "襲人",
+      "count": 1146,
+      "extent": 196,
+      "reach": 0.4083333333333333,
+      "ananda": 0.026888566313314044,
+      "height": "above"
+    },
+    {
+      "surface": "寶釵",
+      "count": 1073,
+      "extent": 230,
+      "reach": 0.4791666666666667,
+      "ananda": 0.02419200258641574,
+      "height": "above"
+    },
+    {
+      "surface": "王夫",
+      "count": 1067,
+      "extent": 255,
+      "reach": 0.53125,
+      "ananda": 0.020535332499335368,
+      "height": "above"
+    },
+    {
+      "surface": "王夫人",
+      "count": 1065,
+      "extent": 254,
+      "reach": 0.5291666666666667,
+      "ananda": 0.019606614193342864,
+      "height": "above"
+    },
+    {
+      "surface": "怎么",
+      "count": 1011,
+      "extent": 371,
+      "reach": 0.7729166666666667,
+      "ananda": 0.012391465456776274,
+      "height": "above"
+    },
+    {
+      "surface": "知道",
+      "count": 981,
+      "extent": 373,
+      "reach": 0.7770833333333333,
+      "ananda": 0.01119774570524612,
+      "height": "above"
+    },
+    {
+      "surface": "老太",
+      "count": 963,
+      "extent": 286,
+      "reach": 0.5958333333333333,
+      "ananda": 0.015001746191568799,
+      "height": "above"
+    },
+    {
+      "surface": "老太太",
+      "count": 954,
+      "extent": 278,
+      "reach": 0.5791666666666667,
+      "ananda": 0.018019122874509463,
+      "height": "above"
+    },
+    {
+      "surface": "這里",
+      "count": 928,
+      "extent": 364,
+      "reach": 0.7583333333333333,
+      "ananda": 0.011064879781969239,
+      "height": "above"
+    },
+    {
+      "surface": "說著",
+      "count": 891,
+      "extent": 369,
+      "reach": 0.76875,
+      "ananda": 0.013377314886742653,
+      "height": "above"
+    },
+    {
+      "surface": "不是",
+      "count": 880,
+      "extent": 364,
+      "reach": 0.7583333333333333,
+      "ananda": 0.011064879781969239,
+      "height": "above"
+    },
+    {
+      "surface": "平儿",
+      "count": 681,
+      "extent": 137,
+      "reach": 0.28541666666666665,
+      "ananda": 0.040906433024890276,
+      "height": "above"
+    },
+    {
+      "surface": "這樣",
+      "count": 655,
+      "extent": 305,
+      "reach": 0.6354166666666666,
+      "ananda": 0.016155336000592158,
+      "height": "above"
+    },
+    {
+      "surface": "了我",
+      "count": 601,
+      "extent": 156,
+      "reach": 0.325,
+      "ananda": 0.034391004388318436,
+      "height": "above"
+    },
+    {
+      "surface": "咱們",
+      "count": 599,
+      "extent": 277,
+      "reach": 0.5770833333333333,
+      "ananda": 0.018244093294033092,
+      "height": "above"
+    },
+    {
+      "surface": "就是",
+      "count": 595,
+      "extent": 313,
+      "reach": 0.6520833333333333,
+      "ananda": 0.014265675055604277,
+      "height": "above"
+    },
+    {
+      "surface": "回來",
+      "count": 570,
+      "extent": 276,
+      "reach": 0.575,
+      "ananda": 0.018531341021803982,
+      "height": "above"
+    },
+    {
+      "surface": "見了",
+      "count": 561,
+      "extent": 300,
+      "reach": 0.625,
+      "ananda": 0.016162384747930858,
+      "height": "above"
+    },
+    {
+      "surface": "只是",
+      "count": 540,
+      "extent": 304,
+      "reach": 0.6333333333333333,
+      "ananda": 0.018433385942577374,
+      "height": "above"
+    },
+    {
+      "surface": "說了",
+      "count": 524,
+      "extent": 273,
+      "reach": 0.56875,
+      "ananda": 0.018774068877878136,
+      "height": "above"
+    },
+    {
+      "surface": "也是",
+      "count": 457,
+      "extent": 263,
+      "reach": 0.5479166666666667,
+      "ananda": 0.02241206839071097,
+      "height": "above"
+    },
+    {
+      "surface": "的事",
+      "count": 454,
+      "extent": 230,
+      "reach": 0.4791666666666667,
+      "ananda": 0.02419200258641574,
+      "height": "above"
+    },
+    {
+      "surface": "這么",
+      "count": 423,
+      "extent": 223,
+      "reach": 0.46458333333333335,
+      "ananda": 0.01798373105768647,
+      "height": "above"
+    },
+    {
+      "surface": "說的",
+      "count": 412,
+      "extent": 253,
+      "reach": 0.5270833333333333,
+      "ananda": 0.022406025288454146,
+      "height": "above"
+    },
+    {
+      "surface": "心里",
+      "count": 403,
+      "extent": 206,
+      "reach": 0.42916666666666664,
+      "ananda": 0.028176614383522036,
+      "height": "above"
+    },
+    {
+      "surface": "人家",
+      "count": 370,
+      "extent": 213,
+      "reach": 0.44375,
+      "ananda": 0.029846505400184853,
+      "height": "above"
+    },
+    {
+      "surface": "在這",
+      "count": 369,
+      "extent": 224,
+      "reach": 0.4666666666666667,
+      "ananda": 0.022578895617002104,
+      "height": "above"
+    },
+    {
+      "surface": "說我",
+      "count": 364,
+      "extent": 125,
+      "reach": 0.2604166666666667,
+      "ananda": 0.038277489669882314,
+      "height": "above"
+    },
+    {
+      "surface": "說話",
+      "count": 352,
+      "extent": 214,
+      "reach": 0.44583333333333336,
+      "ananda": 0.02077161954153972,
+      "height": "above"
+    },
+    {
+      "surface": "只管",
+      "count": 337,
+      "extent": 216,
+      "reach": 0.45,
+      "ananda": 0.024615348150827998,
+      "height": "above"
+    },
+    {
+      "surface": "這話",
+      "count": 314,
+      "extent": 196,
+      "reach": 0.4083333333333333,
+      "ananda": 0.026888566313314044,
+      "height": "above"
+    },
+    {
+      "surface": "在這里",
+      "count": 305,
+      "extent": 187,
+      "reach": 0.38958333333333334,
+      "ananda": 0.028718319038533835,
+      "height": "above"
+    },
+    {
+      "surface": "是這",
+      "count": 300,
+      "extent": 202,
+      "reach": 0.42083333333333334,
+      "ananda": 0.02463138583736324,
+      "height": "above"
+    },
+    {
+      "surface": "今儿",
+      "count": 297,
+      "extent": 184,
+      "reach": 0.38333333333333336,
+      "ananda": 0.02840359244130397,
+      "height": "above"
+    },
+    {
+      "surface": "也沒",
+      "count": 286,
+      "extent": 200,
+      "reach": 0.4166666666666667,
+      "ananda": 0.02367738108162598,
+      "height": "above"
+    },
+    {
+      "surface": "有什",
+      "count": 277,
+      "extent": 175,
+      "reach": 0.3645833333333333,
+      "ananda": 0.035662462700059905,
+      "height": "above"
+    },
+    {
+      "surface": "我說",
+      "count": 276,
+      "extent": 166,
+      "reach": 0.3458333333333333,
+      "ananda": 0.03157213438005613,
+      "height": "above"
+    },
+    {
+      "surface": "有什么",
+      "count": 276,
+      "extent": 170,
+      "reach": 0.3541666666666667,
+      "ananda": 0.029089309772139416,
+      "height": "above"
+    },
+    {
+      "surface": "是不",
+      "count": 276,
+      "extent": 174,
+      "reach": 0.3625,
+      "ananda": 0.029991269553541144,
+      "height": "above"
+    },
+    {
+      "surface": "說這",
+      "count": 269,
+      "extent": 86,
+      "reach": 0.17916666666666667,
+      "ananda": 0.04396093578099247,
+      "height": "above"
+    },
+    {
+      "surface": "孩子",
+      "count": 258,
+      "extent": 149,
+      "reach": 0.3104166666666667,
+      "ananda": 0.031678039567148986,
+      "height": "above"
+    },
+    {
+      "surface": "這會",
+      "count": 257,
+      "extent": 169,
+      "reach": 0.35208333333333336,
+      "ananda": 0.035760471452078946,
+      "height": "above"
+    },
+    {
+      "surface": "這會子",
+      "count": 248,
+      "extent": 160,
+      "reach": 0.3333333333333333,
+      "ananda": 0.03768013936478809,
+      "height": "above"
+    },
+    {
+      "surface": "到底",
+      "count": 247,
+      "extent": 180,
+      "reach": 0.375,
+      "ananda": 0.03176461914973139,
+      "height": "above"
+    },
+    {
+      "surface": "說是",
+      "count": 244,
+      "extent": 144,
+      "reach": 0.3,
+      "ananda": 0.030560461131122096,
+      "height": "above"
+    },
+    {
+      "surface": "在家",
+      "count": 239,
+      "extent": 154,
+      "reach": 0.32083333333333336,
+      "ananda": 0.03309328560179736,
+      "height": "above"
+    },
+    {
+      "surface": "別人",
+      "count": 238,
+      "extent": 167,
+      "reach": 0.34791666666666665,
+      "ananda": 0.028331717808665502,
+      "height": "above"
+    },
+    {
+      "surface": "你的",
+      "count": 237,
+      "extent": 164,
+      "reach": 0.3416666666666667,
+      "ananda": 0.03240232001153487,
+      "height": "above"
+    },
+    {
+      "surface": "里去",
+      "count": 236,
+      "extent": 160,
+      "reach": 0.3333333333333333,
+      "ananda": 0.03768013936478809,
+      "height": "above"
+    },
+    {
+      "surface": "還是",
+      "count": 226,
+      "extent": 151,
+      "reach": 0.3145833333333333,
+      "ananda": 0.03511355311124831,
+      "height": "above"
+    },
+    {
+      "surface": "二奶",
+      "count": 222,
+      "extent": 103,
+      "reach": 0.21458333333333332,
+      "ananda": 0.04667975225146037,
+      "height": "above"
+    },
+    {
+      "surface": "二奶奶",
+      "count": 222,
+      "extent": 97,
+      "reach": 0.20208333333333334,
+      "ananda": 0.04707300674335535,
+      "height": "above"
+    },
+    {
+      "surface": "話說",
+      "count": 221,
+      "extent": 161,
+      "reach": 0.33541666666666664,
+      "ananda": 0.03157130933986885,
+      "height": "above"
+    },
+    {
+      "surface": "意思",
+      "count": 219,
+      "extent": 153,
+      "reach": 0.31875,
+      "ananda": 0.027289402132666396,
+      "height": "above"
+    },
+    {
+      "surface": "人說",
+      "count": 212,
+      "extent": 147,
+      "reach": 0.30625,
+      "ananda": 0.029861888202177056,
+      "height": "above"
+    },
+    {
+      "surface": "儿道",
+      "count": 212,
+      "extent": 91,
+      "reach": 0.18958333333333333,
+      "ananda": 0.049718872262690894,
+      "height": "above"
+    },
+    {
+      "surface": "跟前",
+      "count": 205,
+      "extent": 149,
+      "reach": 0.3104166666666667,
+      "ananda": 0.031678039567148986,
+      "height": "above"
+    },
+    {
+      "surface": "的了",
+      "count": 196,
+      "extent": 144,
+      "reach": 0.3,
+      "ananda": 0.030560461131122096,
+      "height": "above"
+    },
+    {
+      "surface": "著他",
+      "count": 194,
+      "extent": 130,
+      "reach": 0.2708333333333333,
+      "ananda": 0.0405068553527439,
+      "height": "above"
+    },
+    {
+      "surface": "你也",
+      "count": 194,
+      "extent": 144,
+      "reach": 0.3,
+      "ananda": 0.030560461131122096,
+      "height": "above"
+    },
+    {
+      "surface": "難道",
+      "count": 191,
+      "extent": 135,
+      "reach": 0.28125,
+      "ananda": 0.03326074602959039,
+      "height": "above"
+    },
+    {
+      "surface": "句話",
+      "count": 189,
+      "extent": 132,
+      "reach": 0.275,
+      "ananda": 0.03312439010440116,
+      "height": "above"
+    },
+    {
+      "surface": "賈母道",
+      "count": 189,
+      "extent": 79,
+      "reach": 0.16458333333333333,
+      "ananda": 0.0627253172794422,
+      "height": "above"
+    },
+    {
+      "surface": "喜歡",
+      "count": 187,
+      "extent": 125,
+      "reach": 0.2604166666666667,
+      "ananda": 0.038277489669882314,
+      "height": "above"
+    },
+    {
+      "surface": "不要",
+      "count": 186,
+      "extent": 143,
+      "reach": 0.29791666666666666,
+      "ananda": 0.04137418293996298,
+      "height": "above"
+    },
+    {
+      "surface": "的心",
+      "count": 185,
+      "extent": 117,
+      "reach": 0.24375,
+      "ananda": 0.03494593877059593,
+      "height": "above"
+    },
+    {
+      "surface": "想起",
+      "count": 183,
+      "extent": 145,
+      "reach": 0.3020833333333333,
+      "ananda": 0.028235409504551612,
+      "height": "above"
+    },
+    {
+      "surface": "了好",
+      "count": 181,
+      "extent": 104,
+      "reach": 0.21666666666666667,
+      "ananda": 0.047784369467429144,
+      "height": "above"
+    },
+    {
+      "surface": "房里",
+      "count": 173,
+      "extent": 120,
+      "reach": 0.25,
+      "ananda": 0.03533387678157318,
+      "height": "above"
+    },
+    {
+      "surface": "我一",
+      "count": 170,
+      "extent": 121,
+      "reach": 0.2520833333333333,
+      "ananda": 0.03873354603424772,
+      "height": "above"
+    },
+    {
+      "surface": "一個人",
+      "count": 170,
+      "extent": 122,
+      "reach": 0.25416666666666665,
+      "ananda": 0.029695989948601564,
+      "height": "above"
+    },
+    {
+      "surface": "是寶",
+      "count": 170,
+      "extent": 102,
+      "reach": 0.2125,
+      "ananda": 0.03974754164757499,
+      "height": "above"
+    },
+    {
+      "surface": "太太的",
+      "count": 169,
+      "extent": 112,
+      "reach": 0.23333333333333334,
+      "ananda": 0.03025190066242267,
+      "height": "above"
+    },
+    {
+      "surface": "太的",
+      "count": 169,
+      "extent": 115,
+      "reach": 0.23958333333333334,
+      "ananda": 0.04276840046785324,
+      "height": "above"
+    },
+    {
+      "surface": "還要",
+      "count": 165,
+      "extent": 132,
+      "reach": 0.275,
+      "ananda": 0.03312439010440116,
+      "height": "above"
+    },
+    {
+      "surface": "夫人道",
+      "count": 160,
+      "extent": 74,
+      "reach": 0.15416666666666667,
+      "ananda": 0.052803224591999154,
+      "height": "above"
+    },
+    {
+      "surface": "儿笑",
+      "count": 159,
+      "extent": 89,
+      "reach": 0.18541666666666667,
+      "ananda": 0.03843069635800589,
+      "height": "above"
+    },
+    {
+      "surface": "笑了",
+      "count": 158,
+      "extent": 116,
+      "reach": 0.24166666666666667,
+      "ananda": 0.03300065029442223,
+      "height": "above"
+    },
+    {
+      "surface": "言語",
+      "count": 153,
+      "extent": 111,
+      "reach": 0.23125,
+      "ananda": 0.04627564956874153,
+      "height": "above"
+    },
+    {
+      "surface": "著我",
+      "count": 152,
+      "extent": 87,
+      "reach": 0.18125,
+      "ananda": 0.05545824884177897,
+      "height": "above"
+    },
+    {
+      "surface": "時候",
+      "count": 150,
+      "extent": 106,
+      "reach": 0.22083333333333333,
+      "ananda": 0.03526522013756761,
+      "height": "above"
+    }
+  ]
+}

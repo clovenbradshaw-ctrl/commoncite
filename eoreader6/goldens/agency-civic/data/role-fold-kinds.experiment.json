@@ -1,0 +1,319 @@
+{
+  "opts": {
+    "population": "federal-register-fold-positions-150docs",
+    "minPrevalence": 0.15,
+    "minKindSize": 3,
+    "permutations": 200,
+    "quantile": 0.95,
+    "reseeds": 24,
+    "seed": 42
+  },
+  "docsProcessed": 150,
+  "docsWithTriples": 136,
+  "tripleCount": 3260,
+  "fillerCount": 4163,
+  "recordCount": 88,
+  "kinds": [
+    {
+      "id": "kind:federal-register-fold-positions-150docs:filler:5 u|filler:7|filler:above|filler:at https://www|filler:below|filler:for fy 2027|filler:from 3:00 p|filler:number|filler:requirements|filler:the 2024 rule|filler:the u",
+      "label": "object_position",
+      "population": "federal-register-fold-positions-150docs",
+      "members": [
+        "filler:5 u",
+        "filler:7",
+        "filler:above",
+        "filler:at https://www",
+        "filler:below",
+        "filler:for fy 2027",
+        "filler:from 3:00 p",
+        "filler:number",
+        "filler:requirements",
+        "filler:the 2024 rule",
+        "filler:the u"
+      ],
+      "core": {
+        "field_id": "object_position",
+        "value_type": "boolean",
+        "prevalence": 1
+      },
+      "cohesion": 1,
+      "height": "above",
+      "heightGate": {
+        "existence": {
+          "observed": 1,
+          "threshold": 0.6303030303030303,
+          "min": 0.37878787878787884,
+          "max": 0.7212121212121213,
+          "pValue": 0,
+          "passed": true
+        },
+        "constraint": {
+          "observed": 1,
+          "threshold": 0.6363636363636364,
+          "min": 0,
+          "max": 0.8181818181818182,
+          "pValue": 0,
+          "passed": true
+        },
+        "relation": "above",
+        "searched": {
+          "gap": "empty_material",
+          "reason": "no null samples"
+        },
+        "ground": "key"
+      },
+      "operator_chain": {
+        "operator_epoch": "eo-2026-07",
+        "chain": [
+          "SIG",
+          "CON",
+          "EVA",
+          "DEF",
+          "INS",
+          "SYN"
+        ],
+        "stages": [
+          {
+            "operator": "SIG",
+            "target": "population:federal-register-fold-positions-150docs",
+            "height": 0
+          },
+          {
+            "operator": "CON",
+            "target": "candidate:filler:requirements|filler:number|filler:below|filler:from 3:00 p|filler:7|filler:the u|filler:5 u|filler:above|filler:the 2024 rule|filler:at https://www|filler:for fy 2027",
+            "height": null
+          },
+          {
+            "operator": "EVA",
+            "target": "kind:object_position",
+            "height": "above"
+          },
+          {
+            "operator": "DEF",
+            "target": "kind:object_position",
+            "height": "above"
+          },
+          {
+            "operator": "INS",
+            "target": "members:11",
+            "height": "below"
+          },
+          {
+            "operator": "SYN",
+            "target": "vocabulary",
+            "height": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "kind:federal-register-fold-positions-150docs:filler:as|filler:black lung|filler:blas|filler:county naa|filler:dot|filler:eicam|filler:faa|filler:fda|filler:federal|filler:federal register|filler:it|filler:once|filler:privacy act|filler:respondent|filler:see|filler:send|filler:the department|filler:the nprm|filler:this|filler:this ad|filler:trust shares|filler:united states|filler:you",
+      "label": "subject_position",
+      "population": "federal-register-fold-positions-150docs",
+      "members": [
+        "filler:as",
+        "filler:black lung",
+        "filler:blas",
+        "filler:county naa",
+        "filler:dot",
+        "filler:eicam",
+        "filler:faa",
+        "filler:fda",
+        "filler:federal",
+        "filler:federal register",
+        "filler:it",
+        "filler:once",
+        "filler:privacy act",
+        "filler:respondent",
+        "filler:see",
+        "filler:send",
+        "filler:the department",
+        "filler:the nprm",
+        "filler:this",
+        "filler:this ad",
+        "filler:trust shares",
+        "filler:united states",
+        "filler:you"
+      ],
+      "core": {
+        "field_id": "subject_position",
+        "value_type": "boolean",
+        "prevalence": 1
+      },
+      "cohesion": 1,
+      "height": "above",
+      "heightGate": {
+        "existence": {
+          "observed": 1,
+          "threshold": 0.5790513833992093,
+          "min": 0.42094861660079036,
+          "max": 0.6172595520421608,
+          "pValue": 0,
+          "passed": true
+        },
+        "constraint": {
+          "observed": 1,
+          "threshold": 0.9565217391304348,
+          "min": 0.6956521739130435,
+          "max": 1,
+          "pValue": 0.014925373134328358,
+          "passed": true
+        },
+        "relation": "above",
+        "searched": {
+          "gap": "empty_material",
+          "reason": "no null samples"
+        },
+        "ground": "key"
+      },
+      "operator_chain": {
+        "operator_epoch": "eo-2026-07",
+        "chain": [
+          "SIG",
+          "CON",
+          "EVA",
+          "DEF",
+          "INS",
+          "SYN"
+        ],
+        "stages": [
+          {
+            "operator": "SIG",
+            "target": "population:federal-register-fold-positions-150docs",
+            "height": 0
+          },
+          {
+            "operator": "CON",
+            "target": "candidate:filler:as|filler:trust shares|filler:respondent|filler:blas|filler:privacy act|filler:dot|filler:county naa|filler:faa|filler:eicam|filler:it|filler:you|filler:united states|filler:fda|filler:federal|filler:once|filler:the nprm|filler:this ad|filler:this|filler:federal register|filler:see|filler:send|filler:black lung|filler:the department",
+            "height": null
+          },
+          {
+            "operator": "EVA",
+            "target": "kind:subject_position",
+            "height": "above"
+          },
+          {
+            "operator": "DEF",
+            "target": "kind:subject_position",
+            "height": "above"
+          },
+          {
+            "operator": "INS",
+            "target": "members:23",
+            "height": "below"
+          },
+          {
+            "operator": "SYN",
+            "target": "vocabulary",
+            "height": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "kind:federal-register-fold-positions-150docs:filler:500|filler:act|filler:action|filler:application fee|filler:by owcp|filler:comments|filler:commerce|filler:fee|filler:fy 2027|filler:mine operators|filler:new york|filler:no|filler:omb|filler:or|filler:owcp|filler:submit comments|filler:system|filler:that|filler:the|filler:the act|filler:the agency|filler:the epa|filler:the exchange|filler:the secretary",
+      "label": "subject_position",
+      "population": "federal-register-fold-positions-150docs",
+      "members": [
+        "filler:500",
+        "filler:act",
+        "filler:action",
+        "filler:application fee",
+        "filler:by owcp",
+        "filler:comments",
+        "filler:commerce",
+        "filler:fee",
+        "filler:fy 2027",
+        "filler:mine operators",
+        "filler:new york",
+        "filler:no",
+        "filler:omb",
+        "filler:or",
+        "filler:owcp",
+        "filler:submit comments",
+        "filler:system",
+        "filler:that",
+        "filler:the",
+        "filler:the act",
+        "filler:the agency",
+        "filler:the epa",
+        "filler:the exchange",
+        "filler:the secretary"
+      ],
+      "core": {
+        "field_id": "subject_position",
+        "value_type": "boolean",
+        "prevalence": 1
+      },
+      "cohesion": 0.8272946859903371,
+      "height": "above",
+      "heightGate": {
+        "existence": {
+          "observed": 0.8272946859903371,
+          "threshold": 0.5742753623188406,
+          "min": 0.4251207729468597,
+          "max": 0.622584541062802,
+          "pValue": 0,
+          "passed": true
+        },
+        "constraint": {
+          "observed": 1,
+          "threshold": 0.9583333333333334,
+          "min": 0.7083333333333334,
+          "max": 1,
+          "pValue": 0.014925373134328358,
+          "passed": true
+        },
+        "relation": "above",
+        "searched": {
+          "gap": "empty_material",
+          "reason": "no null samples"
+        },
+        "ground": "key"
+      },
+      "operator_chain": {
+        "operator_epoch": "eo-2026-07",
+        "chain": [
+          "SIG",
+          "CON",
+          "EVA",
+          "DEF",
+          "INS",
+          "SYN"
+        ],
+        "stages": [
+          {
+            "operator": "SIG",
+            "target": "population:federal-register-fold-positions-150docs",
+            "height": 0
+          },
+          {
+            "operator": "CON",
+            "target": "candidate:filler:500|filler:application fee|filler:the epa|filler:or|filler:the secretary|filler:comments|filler:submit comments|filler:mine operators|filler:the act|filler:by owcp|filler:the exchange|filler:that|filler:system|filler:fy 2027|filler:fee|filler:no|filler:action|filler:commerce|filler:the agency|filler:omb|filler:owcp|filler:act|filler:the|filler:new york",
+            "height": null
+          },
+          {
+            "operator": "EVA",
+            "target": "kind:subject_position",
+            "height": "above"
+          },
+          {
+            "operator": "DEF",
+            "target": "kind:subject_position",
+            "height": "above"
+          },
+          {
+            "operator": "INS",
+            "target": "members:24",
+            "height": "below"
+          },
+          {
+            "operator": "SYN",
+            "target": "vocabulary",
+            "height": null
+          }
+        ]
+      }
+    }
+  ]
+}

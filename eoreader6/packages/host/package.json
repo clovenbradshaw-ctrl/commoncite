@@ -1,0 +1,10 @@
+{
+  "name": "@eoreader/host",
+  "version": "6.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./corpus": "./corpus.js",
+    "./surfer": "./surfer.js"
+  }
+}

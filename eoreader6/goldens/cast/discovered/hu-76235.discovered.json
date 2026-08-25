@@ -1,0 +1,308 @@
+{
+  "spec": {
+    "draws": 99,
+    "window": 8,
+    "reseeds": 8,
+    "hop": 4,
+    "units": 480,
+    "minOccurrences": 5,
+    "maxCandidates": 500
+  },
+  "spaced": true,
+  "arena": {
+    "units": 480,
+    "coverage": {
+      "covered": 480,
+      "extent": 480,
+      "uncovered": 0,
+      "complete": true
+    },
+    "contemporaryOf0": []
+  },
+  "candidatesConsidered": 500,
+  "candidatesDropped": 4764,
+  "clumped": 8,
+  "regular": 26,
+  "clumpedAll": [
+    {
+      "surface": "maga",
+      "count": 200,
+      "extent": 247,
+      "reach": 0.5145833333333333,
+      "ananda": 0.020260227482298276,
+      "height": "unstable"
+    },
+    {
+      "surface": "között",
+      "count": 127,
+      "extent": 120,
+      "reach": 0.25,
+      "ananda": 0.0293795191052304,
+      "height": "peer"
+    },
+    {
+      "surface": "három",
+      "count": 123,
+      "extent": 131,
+      "reach": 0.27291666666666664,
+      "ananda": 0.03341744844241212,
+      "height": "peer"
+    },
+    {
+      "surface": "sok",
+      "count": 87,
+      "extent": 238,
+      "reach": 0.49583333333333335,
+      "ananda": 0.02304476502536268,
+      "height": "peer"
+    },
+    {
+      "surface": "ült",
+      "count": 86,
+      "extent": 280,
+      "reach": 0.5833333333333334,
+      "ananda": 0.01447772693228444,
+      "height": "peer"
+    },
+    {
+      "surface": "ostrom",
+      "count": 48,
+      "extent": 77,
+      "reach": 0.16041666666666668,
+      "ananda": 0.04907105655746591,
+      "height": "peer"
+    },
+    {
+      "surface": "a maga",
+      "count": 46,
+      "extent": 77,
+      "reach": 0.16041666666666668,
+      "ananda": 0.04907105655746591,
+      "height": "peer"
+    },
+    {
+      "surface": "magas",
+      "count": 42,
+      "extent": 69,
+      "reach": 0.14375,
+      "ananda": 0.051867474581221984,
+      "height": "peer"
+    }
+  ],
+  "regularAll": [
+    {
+      "surface": "azt",
+      "count": 528,
+      "extent": 377,
+      "reach": 0.7854166666666667,
+      "ananda": 0.009627853998690483,
+      "height": "peer"
+    },
+    {
+      "surface": "még",
+      "count": 456,
+      "extent": 314,
+      "reach": 0.6541666666666667,
+      "ananda": 0.01418000186390067,
+      "height": "peer"
+    },
+    {
+      "surface": "felelte",
+      "count": 430,
+      "extent": 252,
+      "reach": 0.525,
+      "ananda": 0.017747270666397696,
+      "height": "peer"
+    },
+    {
+      "surface": "szólt",
+      "count": 390,
+      "extent": 244,
+      "reach": 0.5083333333333333,
+      "ananda": 0.01666282046726053,
+      "height": "peer"
+    },
+    {
+      "surface": "mondotta",
+      "count": 350,
+      "extent": 229,
+      "reach": 0.47708333333333336,
+      "ananda": 0.0157394148594161,
+      "height": "peer"
+    },
+    {
+      "surface": "pap",
+      "count": 249,
+      "extent": 143,
+      "reach": 0.29791666666666666,
+      "ananda": 0.0328169548701176,
+      "height": "peer"
+    },
+    {
+      "surface": "volna",
+      "count": 246,
+      "extent": 170,
+      "reach": 0.3541666666666667,
+      "ananda": 0.025435903392676096,
+      "height": "peer"
+    },
+    {
+      "surface": "akkor",
+      "count": 239,
+      "extent": 196,
+      "reach": 0.4083333333333333,
+      "ananda": 0.025128831905222526,
+      "height": "peer"
+    },
+    {
+      "surface": "kérdezte",
+      "count": 197,
+      "extent": 154,
+      "reach": 0.32083333333333336,
+      "ananda": 0.02619319316898583,
+      "height": "peer"
+    },
+    {
+      "surface": "a pap",
+      "count": 195,
+      "extent": 98,
+      "reach": 0.20416666666666666,
+      "ananda": 0.03981952678623557,
+      "height": "peer"
+    },
+    {
+      "surface": "ez a",
+      "count": 180,
+      "extent": 182,
+      "reach": 0.37916666666666665,
+      "ananda": 0.02398353564901079,
+      "height": "peer"
+    },
+    {
+      "surface": "fejét",
+      "count": 123,
+      "extent": 103,
+      "reach": 0.21458333333333332,
+      "ananda": 0.034763108052267455,
+      "height": "peer"
+    },
+    {
+      "surface": "diák",
+      "count": 106,
+      "extent": 54,
+      "reach": 0.1125,
+      "ananda": 0.05336014797409305,
+      "height": "peer"
+    },
+    {
+      "surface": "felelte a",
+      "count": 104,
+      "extent": 101,
+      "reach": 0.21041666666666667,
+      "ananda": 0.02932715950691467,
+      "height": "peer"
+    },
+    {
+      "surface": "nekem",
+      "count": 102,
+      "extent": 84,
+      "reach": 0.175,
+      "ananda": 0.04786613640651538,
+      "height": "peer"
+    },
+    {
+      "surface": "fiu",
+      "count": 101,
+      "extent": 102,
+      "reach": 0.2125,
+      "ananda": 0.03796179152241841,
+      "height": "peer"
+    },
+    {
+      "surface": "a diák",
+      "count": 92,
+      "extent": 45,
+      "reach": 0.09375,
+      "ananda": 0.058529110024739595,
+      "height": "peer"
+    },
+    {
+      "surface": "látta",
+      "count": 79,
+      "extent": 122,
+      "reach": 0.25416666666666665,
+      "ananda": 0.03492216700220041,
+      "height": "peer"
+    },
+    {
+      "surface": "mondotta a",
+      "count": 68,
+      "extent": 72,
+      "reach": 0.15,
+      "ananda": 0.040084010434711104,
+      "height": "peer"
+    },
+    {
+      "surface": "a fiu",
+      "count": 65,
+      "extent": 61,
+      "reach": 0.12708333333333333,
+      "ananda": 0.04738948864656933,
+      "height": "peer"
+    },
+    {
+      "surface": "felelt",
+      "count": 58,
+      "extent": 278,
+      "reach": 0.5791666666666667,
+      "ananda": 0.018360200591425624,
+      "height": "peer"
+    },
+    {
+      "surface": "fia",
+      "count": 46,
+      "extent": 142,
+      "reach": 0.29583333333333334,
+      "ananda": 0.028014213785954922,
+      "height": "peer"
+    },
+    {
+      "surface": "töröknek",
+      "count": 44,
+      "extent": 41,
+      "reach": 0.08541666666666667,
+      "ananda": 0.05419823293763493,
+      "height": "peer"
+    },
+    {
+      "surface": "láttam",
+      "count": 37,
+      "extent": 35,
+      "reach": 0.07291666666666667,
+      "ananda": 0.06381364172201565,
+      "height": "peer"
+    },
+    {
+      "surface": "éves",
+      "count": 36,
+      "extent": 40,
+      "reach": 0.08333333333333333,
+      "ananda": 0.053973787216182956,
+      "height": "peer"
+    },
+    {
+      "surface": "mentek",
+      "count": 34,
+      "extent": 50,
+      "reach": 0.10416666666666667,
+      "ananda": 0.060283378295522994,
+      "height": "peer"
+    }
+  ],
+  "heights": {
+    "above": 0,
+    "peer": 7,
+    "unstable": 1
+  },
+  "register": []
+}

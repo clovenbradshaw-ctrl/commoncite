@@ -1,0 +1,112 @@
+{
+  "tag": "shakespeare-titus-andronicus",
+  "kind": "play",
+  "spec": {
+    "window": 8,
+    "draws": 99,
+    "reseeds": 8,
+    "minArrivals": 4,
+    "atomsPerUnit": 200,
+    "offerEvery": 60
+  },
+  "segments": 14,
+  "units": 99,
+  "candidateSurfaces": 390,
+  "referents": 68,
+  "score": {
+    "registerSize": 4,
+    "referenceNodes": 26,
+    "entityHits": 2,
+    "entityRecall": 0.07692307692307693,
+    "edgesFoundTotal": 6,
+    "candidateEdges": 1,
+    "referenceEdges": 162,
+    "edgeHits": 1,
+    "edgeRecall": 0.006172839506172839,
+    "edgePrecision": 1,
+    "edgeChance": {
+      "mean": 1,
+      "p95": 1,
+      "max": 1
+    },
+    "matchedEdges": [
+      {
+        "a": "Romans",
+        "b": "Titus",
+        "weight": 83
+      }
+    ]
+  },
+  "edges": [
+    {
+      "a": "e0",
+      "b": "e1",
+      "weight": 229,
+      "pValue": 0
+    },
+    {
+      "a": "e0",
+      "b": "e2",
+      "weight": 89,
+      "pValue": 0
+    },
+    {
+      "a": "e0",
+      "b": "e3",
+      "weight": 301,
+      "pValue": 0
+    },
+    {
+      "a": "e1",
+      "b": "e2",
+      "weight": 49,
+      "pValue": 0
+    },
+    {
+      "a": "e1",
+      "b": "e3",
+      "weight": 168,
+      "pValue": 0
+    },
+    {
+      "a": "e2",
+      "b": "e3",
+      "weight": 83,
+      "pValue": 0
+    }
+  ],
+  "register": [
+    {
+      "id": "e0",
+      "referentIds": [
+        "ref:auto:rome"
+      ],
+      "surface": "Rome",
+      "bornAt": 60
+    },
+    {
+      "id": "e1",
+      "referentIds": [
+        "ref:auto:andronicus"
+      ],
+      "surface": "Andronicus",
+      "bornAt": 60
+    },
+    {
+      "id": "e2",
+      "referentIds": [
+        "ref:auto:romans"
+      ],
+      "surface": "Romans",
+      "bornAt": 99
+    },
+    {
+      "id": "e3",
+      "referentIds": [
+        "ref:auto:titus"
+      ],
+      "surface": "Titus",
+      "bornAt": 99
+    }
+  ]
+}

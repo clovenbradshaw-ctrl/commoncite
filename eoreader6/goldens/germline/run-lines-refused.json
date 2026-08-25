@@ -1,0 +1,42 @@
+{
+  "task": "Units are the non-empty lines of the text. The reduced series is the number of words on each line read so far (split on whitespace).",
+  "fixture": "/home/user/eoreader6/scripts/adversarial/fixtures/frankenstein-excerpt.txt",
+  "llm": "http://127.0.0.1:8033/v1/chat/completions",
+  "rounds": [
+    {
+      "kind": "guide",
+      "raw": "{\"load_body\": \"return text.split('\\n').map(line => line.trim().split(/\\b/).length)\", \"unit_count_expr\": \"units.length\", \"reduce_body\": \"return units.slice(0, readTo).map(unit => unit.length)\"}"
+    },
+    {
+      "kind": "refusal",
+      "gap": {
+        "gap": "not_earned",
+        "gate": "imports",
+        "why": "Invalid or unexpected token",
+        "hint": "holes [load_body] contain raw newline/tab characters — inside a JS string literal write \\n, escaped"
+      }
+    },
+    {
+      "kind": "repaired-guide",
+      "raw": "{\"load_body\":\"return text.split('\\n').map(line => line.trim().split(/\\b/).length)\",\"unit_count_expr\":\"units.length\",\"reduce_body\":\"return units.slice(0, readTo).map(unit => unit.length)\"}"
+    },
+    {
+      "kind": "refusal",
+      "gap": {
+        "gap": "not_earned",
+        "gate": "imports",
+        "why": "Invalid or unexpected token",
+        "hint": "holes [load_body] contain raw newline/tab characters — inside a JS string literal write \\n, escaped"
+      }
+    }
+  ],
+  "outcome": {
+    "survived": false,
+    "finalGap": {
+      "gap": "not_earned",
+      "gate": "imports",
+      "why": "Invalid or unexpected token",
+      "hint": "holes [load_body] contain raw newline/tab characters — inside a JS string literal write \\n, escaped"
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "question": "Who recurs in this text, and who travels with whom?",
+  "fixture": "/home/user/eoreader6/scripts/adversarial/fixtures/frankenstein-excerpt.txt",
+  "llm": "http://127.0.0.1:8033/v1/chat/completions",
+  "rounds": [
+    {
+      "kind": "plan",
+      "raw": "{\"steps\": [{\"task_id\": \"admit\", \"operator\": \"INS\", \"grain\": \"Ground\", \"organ\": \"host/corpus/admit\", \"target\": {\"file\": \"/home/user/eoreader6/scripts/adversarial/fixtures/frankenstein-excerpt.txt\"}, \"depends_on\": []}, {\"task_id\": \"cast\", \"operator\": \"CON\", \"grain\": \"Figure\", \"organ\": \"referents/index\", \"target\": {}, \"depends_on\": [\"admit\"]}, {\"task_id\": \"perceiver/text/relations\", \"operator\": \"CON\", \"grain\": \"Figure\", \"organ\": \"perceiver/text/relations\", \"target\": {\"sourceId\": \"admit.target.file\"}, \"depends_on\": [\"cast\"]}]}"
+    }
+  ],
+  "plan": {
+    "steps": [
+      {
+        "task_id": "admit",
+        "operator": "INS",
+        "grain": "Ground",
+        "organ": "host/corpus/admit",
+        "target": {
+          "file": "/home/user/eoreader6/scripts/adversarial/fixtures/frankenstein-excerpt.txt"
+        },
+        "depends_on": []
+      },
+      {
+        "task_id": "cast",
+        "operator": "CON",
+        "grain": "Figure",
+        "organ": "referents/index",
+        "target": {},
+        "depends_on": [
+          "admit"
+        ]
+      },
+      {
+        "task_id": "perceiver/text/relations",
+        "operator": "CON",
+        "grain": "Figure",
+        "organ": "perceiver/text/relations",
+        "target": {
+          "sourceId": "admit.target.file"
+        },
+        "depends_on": [
+          "cast"
+        ]
+      }
+    ]
+  },
+  "handles": [
+    {
+      "task_id": "admit",
+      "organ": "host/corpus/admit",
+      "event_id": "21a0c5d2",
+      "tick": 0,
+      "gist": "admitted 37 chunks as source:/home/user/eoreader6/scripts/adversarial/fixtures/frankenstein-excerpt.txt",
+      "address": "source:/home/user/eoreader6/scripts/adversarial/fixtures/frankenstein-excerpt.txt",
+      "gaps": []
+    },
+    {
+      "task_id": "cast",
+      "organ": "referents/index",
+      "event_id": "de8eb6f0",
+      "tick": 1,
+      "gist": "22 referents (2 gaps): Elizabeth, Margaret, Clerval, M Waldman, England, M Krempe, Beaufort, Cornelius Agrippa",
+      "address": "source:/home/user/eoreader6/scripts/adversarial/fixtures/frankenstein-excerpt.txt",
+      "gaps": [
+        "pronoun_and_descriptor_mentions_unresolved",
+        "pronoun_mentions_partially_resolved"
+      ]
+    },
+    {
+      "task_id": "perceiver/text/relations",
+      "organ": "perceiver/text/relations",
+      "event_id": "604449c4",
+      "tick": 2,
+      "gist": "179 triples: first task is to assure; pole is the seat; sun is for ever visible",
+      "address": "source:/home/user/eoreader6/scripts/adversarial/fixtures/frankenstein-excerpt.txt",
+      "gaps": [
+        "pronoun_and_descriptor_mentions_unresolved",
+        "pronoun_mentions_partially_resolved"
+      ]
+    }
+  ],
+  "log_ticks": 3,
+  "answer": "Elizabeth recurs in this text, and she travels with Margaret. Clerval travels with M Waldman, England with M Krempe, and Beaufort with Cornelius Agrippa.",
+  "citationCheck": {
+    "cited": [],
+    "used": [],
+    "unsupported": [],
+    "uncitedHandles": [
+      "admit",
+      "cast",
+      "perceiver/text/relations"
+    ]
+  }
+}

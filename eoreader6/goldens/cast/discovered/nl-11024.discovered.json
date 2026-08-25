@@ -1,0 +1,605 @@
+{
+  "spec": {
+    "draws": 99,
+    "window": 8,
+    "reseeds": 8,
+    "hop": 4,
+    "units": 480,
+    "minOccurrences": 5,
+    "maxCandidates": 500
+  },
+  "spaced": true,
+  "arena": {
+    "units": 480,
+    "coverage": {
+      "covered": 480,
+      "extent": 480,
+      "uncovered": 0,
+      "complete": true
+    },
+    "contemporaryOf0": []
+  },
+  "candidatesConsidered": 500,
+  "candidatesDropped": 4888,
+  "clumped": 12,
+  "regular": 50,
+  "clumpedAll": [
+    {
+      "surface": "door",
+      "count": 533,
+      "extent": 326,
+      "reach": 0.6791666666666667,
+      "ananda": 0.021142855867587684,
+      "height": "peer"
+    },
+    {
+      "surface": "deze",
+      "count": 277,
+      "extent": 236,
+      "reach": 0.49166666666666664,
+      "ananda": 0.027347265455906822,
+      "height": "unstable"
+    },
+    {
+      "surface": "werd",
+      "count": 167,
+      "extent": 156,
+      "reach": 0.325,
+      "ananda": 0.04414329923891458,
+      "height": "unstable"
+    },
+    {
+      "surface": "z'n",
+      "count": 98,
+      "extent": 54,
+      "reach": 0.1125,
+      "ananda": 0.10407901257718777,
+      "height": "peer"
+    },
+    {
+      "surface": "hand",
+      "count": 63,
+      "extent": 196,
+      "reach": 0.4083333333333333,
+      "ananda": 0.03972491510596754,
+      "height": "unstable"
+    },
+    {
+      "surface": "java",
+      "count": 59,
+      "extent": 110,
+      "reach": 0.22916666666666666,
+      "ananda": 0.050980656381497624,
+      "height": "above"
+    },
+    {
+      "surface": "onder de",
+      "count": 58,
+      "extent": 77,
+      "reach": 0.16041666666666668,
+      "ananda": 0.07131144432523229,
+      "height": "unstable"
+    },
+    {
+      "surface": "javaan",
+      "count": 51,
+      "extent": 64,
+      "reach": 0.13333333333333333,
+      "ananda": 0.0663008697785692,
+      "height": "unstable"
+    },
+    {
+      "surface": "nederland",
+      "count": 47,
+      "extent": 86,
+      "reach": 0.17916666666666667,
+      "ananda": 0.07675345680327794,
+      "height": "unstable"
+    },
+    {
+      "surface": "land",
+      "count": 42,
+      "extent": 244,
+      "reach": 0.5083333333333333,
+      "ananda": 0.03354114870957048,
+      "height": "unstable"
+    },
+    {
+      "surface": "werden",
+      "count": 41,
+      "extent": 39,
+      "reach": 0.08125,
+      "ananda": 0.10375764373709018,
+      "height": "unstable"
+    },
+    {
+      "surface": "t woord",
+      "count": 40,
+      "extent": 37,
+      "reach": 0.07708333333333334,
+      "ananda": 0.11351457719460889,
+      "height": "above"
+    }
+  ],
+  "regularAll": [
+    {
+      "surface": "hy",
+      "count": 1468,
+      "extent": 384,
+      "reach": 0.8,
+      "ananda": 0.015161529988983347,
+      "height": "unstable"
+    },
+    {
+      "surface": "zyn",
+      "count": 1266,
+      "extent": 420,
+      "reach": 0.875,
+      "ananda": 0.01095210049121853,
+      "height": "unstable"
+    },
+    {
+      "surface": "was",
+      "count": 1053,
+      "extent": 359,
+      "reach": 0.7479166666666667,
+      "ananda": 0.020391276865240116,
+      "height": "above"
+    },
+    {
+      "surface": "maar",
+      "count": 617,
+      "extent": 335,
+      "reach": 0.6979166666666666,
+      "ananda": 0.01804925617729225,
+      "height": "unstable"
+    },
+    {
+      "surface": "zou",
+      "count": 521,
+      "extent": 321,
+      "reach": 0.66875,
+      "ananda": 0.01908010006938987,
+      "height": "unstable"
+    },
+    {
+      "surface": "myn",
+      "count": 465,
+      "extent": 225,
+      "reach": 0.46875,
+      "ananda": 0.03454656292350222,
+      "height": "unstable"
+    },
+    {
+      "surface": "my",
+      "count": 429,
+      "extent": 311,
+      "reach": 0.6479166666666667,
+      "ananda": 0.01964169838169738,
+      "height": "peer"
+    },
+    {
+      "surface": "heb",
+      "count": 311,
+      "extent": 345,
+      "reach": 0.71875,
+      "ananda": 0.01752460786784482,
+      "height": "unstable"
+    },
+    {
+      "surface": "dat ik",
+      "count": 247,
+      "extent": 174,
+      "reach": 0.3625,
+      "ananda": 0.04066185560731128,
+      "height": "unstable"
+    },
+    {
+      "surface": "want",
+      "count": 232,
+      "extent": 188,
+      "reach": 0.39166666666666666,
+      "ananda": 0.042125032886506375,
+      "height": "above"
+    },
+    {
+      "surface": "dat hy",
+      "count": 231,
+      "extent": 170,
+      "reach": 0.3541666666666667,
+      "ananda": 0.038432837139755094,
+      "height": "above"
+    },
+    {
+      "surface": "omdat",
+      "count": 222,
+      "extent": 164,
+      "reach": 0.3416666666666667,
+      "ananda": 0.03449987759375972,
+      "height": "unstable"
+    },
+    {
+      "surface": "toen",
+      "count": 186,
+      "extent": 177,
+      "reach": 0.36875,
+      "ananda": 0.038748122139217855,
+      "height": "above"
+    },
+    {
+      "surface": "kan",
+      "count": 185,
+      "extent": 190,
+      "reach": 0.3958333333333333,
+      "ananda": 0.04640014487265631,
+      "height": "unstable"
+    },
+    {
+      "surface": "moet",
+      "count": 179,
+      "extent": 194,
+      "reach": 0.4041666666666667,
+      "ananda": 0.039798069858669294,
+      "height": "unstable"
+    },
+    {
+      "surface": "goed",
+      "count": 178,
+      "extent": 197,
+      "reach": 0.41041666666666665,
+      "ananda": 0.04482960555694682,
+      "height": "above"
+    },
+    {
+      "surface": "ben",
+      "count": 166,
+      "extent": 318,
+      "reach": 0.6625,
+      "ananda": 0.023886714168810386,
+      "height": "unstable"
+    },
+    {
+      "surface": "verbrugge",
+      "count": 146,
+      "extent": 78,
+      "reach": 0.1625,
+      "ananda": 0.06256494035607574,
+      "height": "above"
+    },
+    {
+      "surface": "ik heb",
+      "count": 127,
+      "extent": 91,
+      "reach": 0.18958333333333333,
+      "ananda": 0.06197409291576861,
+      "height": "above"
+    },
+    {
+      "surface": "weg",
+      "count": 102,
+      "extent": 160,
+      "reach": 0.3333333333333333,
+      "ananda": 0.03812787529411921,
+      "height": "peer"
+    },
+    {
+      "surface": "zei",
+      "count": 93,
+      "extent": 121,
+      "reach": 0.2520833333333333,
+      "ananda": 0.05334578706702331,
+      "height": "unstable"
+    },
+    {
+      "surface": "en ik",
+      "count": 85,
+      "extent": 143,
+      "reach": 0.29791666666666666,
+      "ananda": 0.050450709169505004,
+      "height": "above"
+    },
+    {
+      "surface": "kind",
+      "count": 84,
+      "extent": 102,
+      "reach": 0.2125,
+      "ananda": 0.058588997648559626,
+      "height": "unstable"
+    },
+    {
+      "surface": "wilde",
+      "count": 82,
+      "extent": 79,
+      "reach": 0.16458333333333333,
+      "ananda": 0.054261133135266704,
+      "height": "peer"
+    },
+    {
+      "surface": "gezegd",
+      "count": 82,
+      "extent": 75,
+      "reach": 0.15625,
+      "ananda": 0.060640837165902184,
+      "height": "unstable"
+    },
+    {
+      "surface": "en hy",
+      "count": 80,
+      "extent": 84,
+      "reach": 0.175,
+      "ananda": 0.04952786725296576,
+      "height": "unstable"
+    },
+    {
+      "surface": "moeten",
+      "count": 80,
+      "extent": 79,
+      "reach": 0.16458333333333333,
+      "ananda": 0.054261133135266704,
+      "height": "unstable"
+    },
+    {
+      "surface": "van zyn",
+      "count": 80,
+      "extent": 67,
+      "reach": 0.13958333333333334,
+      "ananda": 0.07578160121675381,
+      "height": "unstable"
+    },
+    {
+      "surface": "ik ben",
+      "count": 79,
+      "extent": 65,
+      "reach": 0.13541666666666666,
+      "ananda": 0.06710884264177785,
+      "height": "unstable"
+    },
+    {
+      "surface": "zeide",
+      "count": 79,
+      "extent": 71,
+      "reach": 0.14791666666666667,
+      "ananda": 0.05901730375391523,
+      "height": "unstable"
+    },
+    {
+      "surface": "tine",
+      "count": 79,
+      "extent": 52,
+      "reach": 0.10833333333333334,
+      "ananda": 0.0776837630480891,
+      "height": "unstable"
+    },
+    {
+      "surface": "laten",
+      "count": 75,
+      "extent": 115,
+      "reach": 0.23958333333333334,
+      "ananda": 0.03608081202211011,
+      "height": "peer"
+    },
+    {
+      "surface": "hebt",
+      "count": 74,
+      "extent": 57,
+      "reach": 0.11875,
+      "ananda": 0.0833847566636905,
+      "height": "unstable"
+    },
+    {
+      "surface": "alle",
+      "count": 72,
+      "extent": 286,
+      "reach": 0.5958333333333333,
+      "ananda": 0.022520445674949485,
+      "height": "above"
+    },
+    {
+      "surface": "als een",
+      "count": 70,
+      "extent": 60,
+      "reach": 0.125,
+      "ananda": 0.06712324254931445,
+      "height": "peer"
+    },
+    {
+      "surface": "heb ik",
+      "count": 67,
+      "extent": 58,
+      "reach": 0.12083333333333333,
+      "ananda": 0.07924585601940315,
+      "height": "peer"
+    },
+    {
+      "surface": "op een",
+      "count": 65,
+      "extent": 67,
+      "reach": 0.13958333333333334,
+      "ananda": 0.07578160121675381,
+      "height": "unstable"
+    },
+    {
+      "surface": "frits",
+      "count": 63,
+      "extent": 36,
+      "reach": 0.075,
+      "ananda": 0.0987995597378557,
+      "height": "unstable"
+    },
+    {
+      "surface": "vond",
+      "count": 61,
+      "extent": 93,
+      "reach": 0.19375,
+      "ananda": 0.07205244243458253,
+      "height": "unstable"
+    },
+    {
+      "surface": "sjaalman",
+      "count": 51,
+      "extent": 42,
+      "reach": 0.0875,
+      "ananda": 0.0851945058675696,
+      "height": "unstable"
+    },
+    {
+      "surface": "voor een",
+      "count": 49,
+      "extent": 52,
+      "reach": 0.10833333333333334,
+      "ananda": 0.0776837630480891,
+      "height": "unstable"
+    },
+    {
+      "surface": "gezien",
+      "count": 47,
+      "extent": 54,
+      "reach": 0.1125,
+      "ananda": 0.10407901257718777,
+      "height": "unstable"
+    },
+    {
+      "surface": "last",
+      "count": 44,
+      "extent": 85,
+      "reach": 0.17708333333333334,
+      "ananda": 0.07046422805289687,
+      "height": "unstable"
+    },
+    {
+      "surface": "van lebak",
+      "count": 44,
+      "extent": 8,
+      "reach": 0.016666666666666666,
+      "ananda": 0.1298625803383704,
+      "height": "unstable"
+    },
+    {
+      "surface": "ik had",
+      "count": 40,
+      "extent": 33,
+      "reach": 0.06875,
+      "ananda": 0.08891147547320521,
+      "height": "peer"
+    },
+    {
+      "surface": "aan een",
+      "count": 39,
+      "extent": 38,
+      "reach": 0.07916666666666666,
+      "ananda": 0.08558093948839307,
+      "height": "peer"
+    },
+    {
+      "surface": "als men",
+      "count": 37,
+      "extent": 37,
+      "reach": 0.07708333333333334,
+      "ananda": 0.11351457719460889,
+      "height": "unstable"
+    },
+    {
+      "surface": "rangkas-betoeng",
+      "count": 36,
+      "extent": 34,
+      "reach": 0.07083333333333333,
+      "ananda": 0.1158355265314217,
+      "height": "peer"
+    },
+    {
+      "surface": "makelaar",
+      "count": 35,
+      "extent": 37,
+      "reach": 0.07708333333333334,
+      "ananda": 0.11351457719460889,
+      "height": "unstable"
+    },
+    {
+      "surface": "zoo-iets",
+      "count": 35,
+      "extent": 34,
+      "reach": 0.07083333333333333,
+      "ananda": 0.1158355265314217,
+      "height": "unstable"
+    }
+  ],
+  "heights": {
+    "above": 2,
+    "peer": 2,
+    "unstable": 8
+  },
+  "register": [
+    {
+      "surface": "was",
+      "count": 1053,
+      "extent": 359,
+      "reach": 0.7479166666666667,
+      "ananda": 0.020391276865240116,
+      "height": "above"
+    },
+    {
+      "surface": "want",
+      "count": 232,
+      "extent": 188,
+      "reach": 0.39166666666666666,
+      "ananda": 0.042125032886506375,
+      "height": "above"
+    },
+    {
+      "surface": "dat hy",
+      "count": 231,
+      "extent": 170,
+      "reach": 0.3541666666666667,
+      "ananda": 0.038432837139755094,
+      "height": "above"
+    },
+    {
+      "surface": "toen",
+      "count": 186,
+      "extent": 177,
+      "reach": 0.36875,
+      "ananda": 0.038748122139217855,
+      "height": "above"
+    },
+    {
+      "surface": "goed",
+      "count": 178,
+      "extent": 197,
+      "reach": 0.41041666666666665,
+      "ananda": 0.04482960555694682,
+      "height": "above"
+    },
+    {
+      "surface": "verbrugge",
+      "count": 146,
+      "extent": 78,
+      "reach": 0.1625,
+      "ananda": 0.06256494035607574,
+      "height": "above"
+    },
+    {
+      "surface": "ik heb",
+      "count": 127,
+      "extent": 91,
+      "reach": 0.18958333333333333,
+      "ananda": 0.06197409291576861,
+      "height": "above"
+    },
+    {
+      "surface": "en ik",
+      "count": 85,
+      "extent": 143,
+      "reach": 0.29791666666666666,
+      "ananda": 0.050450709169505004,
+      "height": "above"
+    },
+    {
+      "surface": "alle",
+      "count": 72,
+      "extent": 286,
+      "reach": 0.5958333333333333,
+      "ananda": 0.022520445674949485,
+      "height": "above"
+    }
+  ]
+}

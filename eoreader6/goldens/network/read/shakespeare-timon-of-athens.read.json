@@ -1,0 +1,45 @@
+{
+  "tag": "shakespeare-timon-of-athens",
+  "kind": "play",
+  "spec": {
+    "window": 8,
+    "draws": 99,
+    "reseeds": 8,
+    "minArrivals": 4,
+    "atomsPerUnit": 200,
+    "offerEvery": 60
+  },
+  "segments": 17,
+  "units": 93,
+  "candidateSurfaces": 209,
+  "referents": 26,
+  "score": {
+    "registerSize": 1,
+    "referenceNodes": 56,
+    "entityHits": 1,
+    "entityRecall": 0.017857142857142856,
+    "edgesFoundTotal": 0,
+    "candidateEdges": 0,
+    "referenceEdges": 333,
+    "edgeHits": 0,
+    "edgeRecall": 0,
+    "edgePrecision": 0,
+    "edgeChance": {
+      "mean": 0,
+      "p95": 0,
+      "max": 0
+    },
+    "matchedEdges": []
+  },
+  "edges": [],
+  "register": [
+    {
+      "id": "e0",
+      "referentIds": [
+        "ref:auto:lord_timon"
+      ],
+      "surface": "Lord Timon",
+      "bornAt": 60
+    }
+  ]
+}

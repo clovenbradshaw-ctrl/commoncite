@@ -1,0 +1,204 @@
+{
+  "golden": "cast",
+  "created": "2026-07-30",
+  "question": "Does the engine discover a book's principal cast by recurrence and self-similarity alone, in a language and script where no name-string heuristic can help?",
+  "givers": {
+    "material": "Project Gutenberg — plaintext editions, public domain, fetched by id",
+    "reference": "Wikipedia — third-party human literary analysis, pinned by revision id at fetch time"
+  },
+  "discipline": [
+    "The reference is an ANALYSIS OF THE BOOK by people who are not us and who never saw this engine. It is not structural markup and not derived from the plaintext we read.",
+    "The engine never sees the reference. It is scored against it after the fact.",
+    "Every reference is pinned to a revision id. An unpinned reference is a moving target, not a golden.",
+    "Raw third-party wikitext is frozen verbatim under refs/. Cast extraction is OUR act and is kept separate and reviewable, never folded into the received gift.",
+    "castCount here is the number of reference names ATTESTED in the material (>=5 occurrences), not the raw name count. The gap between the two is reported, never silently closed."
+  ],
+  "excluded_ids_source": "144 PG ids already used across eoreader4.2 / eoreader5 / eoreader6 / eoPriors. Every id below was checked against that list and is net new.",
+  "dropped_languages": {
+    "ja": "PG holds 22 Japanese books total. Four of the six largest are translations of English novels by one translator. The only large native novel (32941) has no Wikipedia article. The one book meeting all criteria (33307) is a 88k-char novella with a 7-person cast — not a peer of the other entries. A real Japanese fixture would come from Aozora Bunko, not PG.",
+    "ru": "PG holds 9 Russian books. The three narrative ones (19681, 21186, 21183) are AUDIOBOOKS — .txt.utf-8 returns 404 and the only plaintext is an English track listing with zero Cyrillic. The remaining six are an arithmetic problem book, religious odes, an art-history essay, a political pamphlet and two short poems. No Cyrillic narrative fixture exists on PG.",
+    "ar": "PG holds 1 Arabic item: a tribute to Michael Hart. Not a book."
+  },
+  "books": [
+    {
+      "pgId": 24264,
+      "lang": "zh",
+      "script": "Han (Traditional)",
+      "title": "紅樓夢",
+      "author": "曹雪芹 (Cao Xueqin)",
+      "bytes": 2663455,
+      "ref": {
+        "wiki": "zh.wikipedia.org",
+        "title": "红楼梦角色列表",
+        "extraction": "wikitables — explaintext DROPS them and the cast vanishes; action=parse&prop=wikitext is required"
+      },
+      "rawNames": 367,
+      "castAttested": 80,
+      "hardness": "SCRIPT MISMATCH. The reference is Simplified, the material is Traditional. 賈寶玉 occurs 18 times; the reference's 贾宝玉 occurs 0. Any string-equality cast check scores zero on the protagonist. This is the sharpest nameless-referent test in the slate.",
+      "notes": "Best instrument here. Sustained cross-chapter cast, full 金陵十二钗 principal register present once script is folded (林黛玉 262, 李紈 351, 妙玉 148, 巧姐 102)."
+    },
+    {
+      "pgId": 23962,
+      "lang": "zh",
+      "script": "Han (Traditional)",
+      "title": "西遊記",
+      "author": "吳承恩 (Wu Cheng'en)",
+      "bytes": 2264069,
+      "ref": {
+        "wiki": "zh.wikipedia.org",
+        "title": "西游记角色列表",
+        "extraction": "wikitables via action=parse&prop=wikitext"
+      },
+      "rawNames": 408,
+      "castAttested": 106,
+      "hardness": "Same Simplified/Traditional mismatch as 24264.",
+      "notes": "CAVEAT — episodic monster-of-the-week structure. The 106 is inflated: most demons appear in one or two chapters, and the extractor picks up common nouns (妖精, 妖怪, 天竺) alongside real names. Core five (唐僧 971, 孫悟空 115, 豬八戒 128, 沙和尚 89, 白龍馬) are genuine. Rewards episodic detection, not sustained tracking — score it separately from 24264, do not pool."
+    },
+    {
+      "pgId": 36248,
+      "lang": "el",
+      "script": "Greek",
+      "title": "Ιλιάδα",
+      "author": "Homer, tr. Alexandros Pallis",
+      "bytes": 1213078,
+      "scriptPct": 99.8,
+      "ref": {
+        "wiki": "en.wikipedia.org",
+        "title": "List of Homeric characters",
+        "extraction": "each entry carries both Latin and Greek-script name via {{lang|grc|…}} — doubles as an alignment table"
+      },
+      "rawNames": 31,
+      "castAttested": 22,
+      "hardness": "MORPHOLOGICAL MISMATCH. Pallis is a DEMOTIC verse translation; the reference lists Attic lemmas. The text says Αχιλλέα, Αγαμέμνο, Έχτορα — not Ἀχιλλεύς, Ἀγαμέμνων, Ἕκτωρ. Nominative matching returns 11/31 and misses Achilles and Agamemnon entirely, which is impossible for the Iliad and is what exposed the bug. Note Ἕκτωρ → Έχτορ is a consonant change (κτ→χτ), so suffix-stripping alone is insufficient.",
+      "notes": "el.wikipedia's Ιλιάδα article is a 75KB per-rhapsody plot summary with no cast section; the en fallback is better for this purpose because of the bilingual annotation."
+    },
+    {
+      "pgId": 30613,
+      "lang": "el",
+      "script": "Greek",
+      "title": "Ομήρου Οδύσσεια",
+      "author": "Homer, tr. Iakovos Polylas",
+      "bytes": 292484,
+      "scriptPct": 100.0,
+      "scriptPctNote": "100% Greek across the BODY. Whole-file ratio reads 86% because PG front matter and license are Latin — strip boilerplate before measuring anything.",
+      "companionIds": [30614, 30615],
+      "ref": {
+        "wiki": "en.wikipedia.org",
+        "title": "List of Homeric characters",
+        "extraction": "same bilingual entry table as 36248"
+      },
+      "rawNames": 37,
+      "castAttested": 24,
+      "hardness": "Katharevousa-leaning, so surfaces match far more cleanly than 36248. The PAIR is the point: same reference, same language, two translation registers, very different match rates. That difference is a measurement, not noise.",
+      "notes": "Split across 3 PG ids; vol A alone is 292KB, all three ~889KB. 30614 and 30615 are also clear of the exclusion list."
+    },
+    {
+      "pgId": 34811,
+      "lang": "de",
+      "script": "Latin",
+      "title": "Buddenbrooks: Verfall einer Familie",
+      "author": "Thomas Mann",
+      "bytes": 1602317,
+      "native": true,
+      "ref": {
+        "wiki": "de.wikipedia.org",
+        "title": "Buddenbrooks",
+        "section": "Figuren des Romans",
+        "extraction": "28 named h3 subsections — extracts straight from prop=sections, no wikitext parsing needed"
+      },
+      "castAttested": 28,
+      "hardness": "A multigenerational family novel where many characters share a surname. Discrimination has to come from something other than the name.",
+      "notes": "Cleanest extraction in the slate. Effi Briest (5323) was rejected: its Figurenübersicht contains only an SVG image."
+    },
+    {
+      "pgId": 6497,
+      "lang": "fr",
+      "script": "Latin",
+      "title": "L'Assommoir",
+      "author": "Émile Zola",
+      "bytes": 1018417,
+      "native": true,
+      "ref": {
+        "wiki": "fr.wikipedia.org",
+        "title": "L'Assommoir",
+        "section": "Personnages",
+        "extraction": "bulleted list, each entry opens with a '''bolded''' name"
+      },
+      "castAttested": 22,
+      "notes": "French primary. Germinal and Le Ventre de Paris have no character section despite being obvious candidates."
+    },
+    {
+      "pgId": 11940,
+      "lang": "fi",
+      "script": "Latin",
+      "title": "Seitsemän veljestä",
+      "author": "Aleksis Kivi",
+      "bytes": 691459,
+      "native": true,
+      "ref": {
+        "wiki": "fi.wikipedia.org",
+        "title": "Seitsemän veljestä",
+        "section": "Hahmot ja paikat > Jukolan veljekset + Merkittäviä sivuhenkilöitä",
+        "extraction": "closed list, each brother has his own dedicated fi.wikipedia article"
+      },
+      "castAttested": 7,
+      "secondaryCast": 6,
+      "hardness": "Finnish is agglutinative with 15 cases — a name appears as Juhani, Juhanin, Juhania, Juhanille. Exact-match cast detection degrades badly and the degradation is measurable against the closed 7.",
+      "notes": "STRONGEST closed cast in the slate. Seven brothers, exactly seven, listed oldest to youngest. If a detector cannot find exactly 7 here, the number it reports elsewhere means nothing."
+    },
+    {
+      "pgId": 69689,
+      "lang": "hu",
+      "script": "Latin",
+      "title": "A Pál utcai fiúk",
+      "author": "Molnár Ferenc",
+      "bytes": 327802,
+      "native": true,
+      "ref": {
+        "wiki": "hu.wikipedia.org",
+        "title": "A Pál utcai fiúk",
+        "section": "Szereplők",
+        "extraction": "explicitly partitioned into four labelled groups, with dedicated h3 subsections for Nemecsek Ernő, Boka János, Áts Feri, Geréb Dezső; the article footnotes exact headcounts from the text"
+      },
+      "castAttested": 24,
+      "hardness": "Hungarian is agglutinative and puts family name FIRST (Nemecsek Ernő), inverting the Western order most name heuristics assume.",
+      "notes": "Exemplary unambiguous closed cast, and the group partition gives a second, coarser scoring level."
+    },
+    {
+      "pgId": 76235,
+      "lang": "hu",
+      "script": "Latin",
+      "title": "Egri csillagok (I. kötet)",
+      "author": "Gárdonyi Géza",
+      "bytes": 521428,
+      "native": true,
+      "companionIds": [76236],
+      "ref": {
+        "wiki": "hu.wikipedia.org",
+        "title": "Egri csillagok",
+        "section": "Szereplők",
+        "extraction": "section wikitext"
+      },
+      "castAttested": 5,
+      "notes": "Second Hungarian. Only 5 principals extracted — a thin reference, kept as a low-weight entry. Volume II is 76236 (492515 bytes, also clear of the exclusion list)."
+    },
+    {
+      "pgId": 11024,
+      "lang": "nl",
+      "script": "Latin",
+      "title": "Max Havelaar",
+      "author": "Multatuli",
+      "bytes": 796449,
+      "native": true,
+      "ref": {
+        "wiki": "nl.wikipedia.org",
+        "title": "Max Havelaar (boek)",
+        "section": "Verhaal > Gebruikte pseudoniemen, plus h3 subsections Droogstoppel / Stern / Multatuli",
+        "extraction": "definition list — NOT a conventional character list"
+      },
+      "castAttested": 12,
+      "hardness": "COMPROMISE ENTRY, flagged. 'Gebruikte pseudoniemen' is a roman-à-clef key mapping characters to the real people behind them. It omits Droogstoppel and Stern (which get separate h3 subsections) and three entries are titles rather than names ('Gouverneur-generaal').",
+      "notes": "Dutch was the hard language. Eline Vere, De stille kracht, Camera Obscura, De kleine Johannes, Woutertje Pieterse, Sara Burgerhart and Noodlot were all checked on both nl and en wikis — none has a character section. Weight this entry low or treat its reference as partial."
+    }
+  ]
+}

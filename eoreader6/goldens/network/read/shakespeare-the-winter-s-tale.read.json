@@ -1,0 +1,45 @@
+{
+  "tag": "shakespeare-the-winter-s-tale",
+  "kind": "play",
+  "spec": {
+    "window": 8,
+    "draws": 99,
+    "reseeds": 8,
+    "minArrivals": 4,
+    "atomsPerUnit": 200,
+    "offerEvery": 60
+  },
+  "segments": 15,
+  "units": 122,
+  "candidateSurfaces": 261,
+  "referents": 36,
+  "score": {
+    "registerSize": 1,
+    "referenceNodes": 33,
+    "entityHits": 1,
+    "entityRecall": 0.030303030303030304,
+    "edgesFoundTotal": 0,
+    "candidateEdges": 0,
+    "referenceEdges": 161,
+    "edgeHits": 0,
+    "edgeRecall": 0,
+    "edgePrecision": 0,
+    "edgeChance": {
+      "mean": 0,
+      "p95": 0,
+      "max": 0
+    },
+    "matchedEdges": []
+  },
+  "edges": [],
+  "register": [
+    {
+      "id": "e0",
+      "referentIds": [
+        "ref:auto:polixenes"
+      ],
+      "surface": "Polixenes",
+      "bornAt": 60
+    }
+  ]
+}

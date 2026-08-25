@@ -1,0 +1,167 @@
+{{Tämä artikkeli|kertoo Aleksis Kiven romaanista. Muista merkityksistä kerrotaan [[Seitsemän veljestä (täsmennyssivu)|erillisellä täsmennyssivulla]].}}
+{{Kirja
+|nimi-suomi                     = Seitsemän veljestä
+|kuva                           = Seitsemän veljestä.png
+|kuvateksti                     = 
+|kirjailija                   = [[Aleksis Kivi]]
+|kuvittaja-alkuperäinen       = 
+|kansitaiteilija-alkuperäinen = 
+|kieli                        = [[Suomen kieli|suomi]]
+|genre                        = [[romaani]]
+|kustantaja-alkuperäinen      = [[Suomalaisen Kirjallisuuden Seura]]
+|julkaistu-alkuperäinen       = [[Kirjallisuusvuosi 1870|1870]]
+|ulkoasu-alkuperäinen         = 
+|sivumäärä-alkuperäinen       = 
+|isbn-alkuperäinen            = 
+|sarja                        = 
+|edeltävä                     = 
+|seuraava                     = 
+}}
+'''Seitsemän veljestä''' on [[Aleksis Kivi|Aleksis Kiven]] kirjoittama [[romaani]], jota pidetään yhtenä [[Suomen kirjallisuus|suomalaisen kirjallisuuden]] suurimmista merkkiteoksista. ''Seitsemän veljestä'' ilmestyi keväällä 1870 [[Suomalaisen Kirjallisuuden Seura]]n Novellikirjasto-sarjassa neljän [[Vihko|vihon]] painoksena. Romaanijulkaisu ilmestyi vasta vuonna 1873.<ref name="aleksiskivi">{{Verkkoviite | Osoite = <!-- http://www.aleksiskivi-kansalliskirjailija.fi/fi/index.php?option=com_content&task=view&id=33&Itemid=44 --> | Nimeke = Teokset | Julkaisu = Aleksis Kivi -sivusto | Julkaisija = Nurmijärven kunnan Kirjasto- ja kulttuuripalvelut | Arkisto = https://web.archive.org/web/20070824144016/http://www.aleksiskivi-kansalliskirjailija.fi/fi/index.php?option=com_content&task=view&id=33&Itemid=44 | Arkistoitu = 24.8.2007 }}</ref> Teosta pidetään suomalaisen kirjallisuuden ja [[realismi|realistisen]] kansankuvauksen tienraivaajana.
+
+Kivi aloitti teoksen kirjoittamisen 1860-luvun alkuvuosina ja kirjoitti sen ainakin kolmeen kertaan, mutta yhtään käsikirjoitusta ei ole säilynyt.<ref name="aleksiskivi"/>
+
+''Seitsemän veljestä'' oli ensimmäisiä suomenkielisiä romaaneita, mutta ei yksikäsitteisesti ensimmäinen, sillä [[Karl Jacob Gummerus|Karl Jacob Gummeruksen]] ''Ylhäiset ja alhaiset'' alkoi ilmestyä jatkokertomuksena jo aiemmin.<!--<ref>[http://www.pori.fi/kirjasto/150kirjaa/gummerus.html 150 kirjaa]</ref>-->
+
+''Seitsemään veljekseen'' ovat tehneet kuvituksen muun muassa [[Akseli Gallén-Kallela]] (1908), [[Marcus Collin]] (1948), [[Matti Visanti]] (1950) ja [[Erkki Tanttu]] (1961).<ref> Otavan iso tietosanakirja, osa 4. Helsinki: Otava, 1962.</ref>
+
+== Hahmot ja paikat ==
+{{Pääartikkeli|[[Luettelo Aleksis Kiven Seitsemän veljeksen henkilöistä]]}}
+=== Jukolan veljekset ===
+[[Tiedosto:Seven-Brothers-1970.jpg|pienois|220px|Jukolan veljekset vuonna 1970 julkaistussa postimerkissä.]]
+Veljekset järjestyksessä vanhimmasta nuorimpaan ovat:<ref name="seitsemanveljesta">[https://www.seitsemanveljesta.net Seitsemän veljestä -sivusto]</ref>
+; [[Juhani (Seitsemän veljestä)|Juhani]]
+:Veljeksistä vanhin on tarinan alussa 25-vuotias. Luonteeltaan hän on äkkipikainen, määräilevä ja hidasoppinen. Jukolan isännäksi kohottuaan hänestä tulee ankaran [[körttiläisyys|herännyt]] mies.
+; [[Tuomas (Seitsemän veljestä)|Tuomas]]
+:Aapon [[ihmiskaksoset|kaksosveli]], veljessarjan harteikkain ja luonteeltaan vakaa ja sovitussa pysyvä.
+; [[Aapo (Seitsemän veljestä)|Aapo]]
+:Veljeksistä pisin, Tuomaan kaksosveli, harkitsevainen ja järkevä, veljesten puhemies. Usein vertauksia käyttävä veljesten paras tarinankertoja. Vanhan [[lautamies]] Mäkelän kuoltua Aapo perii hänen tehtävänsä.
+; [[Simeoni (Seitsemän veljestä)|Simeoni]]
+:Veljesten ruokahuollosta vastaava, hengellisen herätyksen kokenut saarnamies ja tuurijuoppo.
+; [[Timo (Seitsemän veljestä)|Timo]]
+:Yksinkertainen, mutta suosittu Laurin kaksosveli. Toinen veljeksistä jolle viina maistuu, joskin harvemmin.
+; [[Lauri (Seitsemän veljestä)|Lauri]]
+:Käsistään taitava, hiljainen, yksinään metsässä viihtyvä veljessarjan taiteilija ja Timon kaksosveli.
+; [[Eero (Seitsemän veljestä)|Eero]]
+:Veljeksistä nuorin ja lyhyin, tarinan alussa 17-vuotias, on älykäs toisinajattelija, joka mielellään seuraa sivusta vanhempien veljiensä hölmöilyjä. Hänestä tulee aikanaan vanhan edeltäjänsä kuoltua pitäjän [[jahtivouti]], jonka toimia mainitaan harkituiksi ja toimeikkaiksi, hän myös kirjoittaa sanomalehteen juttujaan.
+
+=== Merkittäviä sivuhenkilöitä, muita hahmoja ja paikkoja ===
+;Männistön Venla
+:Veljesten naapuritorpan tytär, jota Juhani veljineen tarinan alussa käy kosimassa, mutta saa rukkaset.<ref name="seitsemanveljesta" /> Veljesten parannettua tapansa Venla suostuu Juhanin vaimoksi.
+; Lukkari
+:Veljesten ankara lukutaidon opettaja, jonka tuvasta he karkaavat rikkomalla ikkunan.
+; [[Rajamäen rykmentti]]
+:Rajamäen aholla sijaitsevassa mökissä asuva, seudulla kiertelevä mustalaisperhe. Perheen isä Mikko on pikikauppias, eläinten kuohitsija ja paikallisten tanssien ja talkoo-iltamien viuluniekka. Perheen äiti Kaisa on kuppari ja ennustaja. Pariskunnalla on viisi lasta, joista kolmea nuorinta kuljetetaan Kaisan vetämässä ja Mikon työntämässä vankkurissa. Meluisasta matkueesta on joku paikallinen sepittänyt pilkkalaulun, jonka lukkarin koulusta karanneet veljekset innostuvat heille Sonnimäen harjulla esittämään. Veljesten pilkasta suuttunut Kaisa ennustaa Jukolan talon palon ja veljesten tulevan kymmenvuotisen korpivaelluksen.<ref>{{Verkkoviite | Osoite = http://eiskis.net/seitsemanveljesta/?page=3 | Nimeke = Aleksis Kivi: Seitsemän veljestä – kolmas luku | Tekijä = | Julkaisu = | Ajankohta = | Julkaisupaikka = | Julkaisija = | Viitattu = 11.6.2011 }}</ref>
+; Tammiston Kyösti
+: Pieni mutta tarkkaan kirjoitettu sivuhahmo. Jykevärakenteinen ison talon ainoa poika, asuu naimattomana kotitalossaan. Raskasmielisellä Kyöstillä ei ole ystäviä, syvämietteisyydessään hän on kerran menettänyt mielenterveytensä ja lähtenyt kylälle saarnaamaan. Hän palautui muuten ennalleen, muttei sen koommin ole nauranut. Veljeksiin hän suhtautuu myötämielisesti ja ottaa heidät keskellä yötä vastaan.<ref>{{Kirjaviite| Nimeke = Seitsemän miestä | Julkaisija = Helsingin Sanomat | Vuosi = 2005 | Tekijä = Malmberg, Ilkka & Vuori, Pekka | Luku = 3 | Sivu = 55 | Julkaisupaikka = Helsinki | Isbn = 952-5557-04-9}}</ref>
+; Taula-Matti
+: Veljesten ystävä metsässä. Tarinankertoja, metsästäjä ja taulanvalmistaja. Ollut nuoruudessaan pitäjän entistä rovastia kyyditsemässä [[Lappi|Lapin]] rajoille ja jäi koko kesäksi pohjoiseen metsästämään. Taula-Matin tarinat rakentuvat pitkälti kyseisen kesän tapahtumien varaan. Veljeksille mieluinen vieras, jota he arvostavat ja teitittelevät huolellisesti.<ref>{{Kirjaviite| Nimeke = Seitsemän miestä| Julkaisija = Helsingin Sanomat | Vuosi = 2005 | Tekijä = Malmberg, Ilkka & Vuori, Pekka | Luku = 7 | Sivu = 107 | Julkaisupaikka = Helsinki | Isbn = 952-5557-04-9}}</ref>
+; Viertolan herra
+: Ankara kartanonomistaja jonka härät veljekset joutuivat pakkotilanteessa tappamaan; tämän korvausta selviteltäessä veljekset aloittivat uudisraivauksen josta sitten tulikin heille uuden elämän alku. Viertolan Kaisa ja hänen sisarensa päätyvät vaimoiksi Laurille ja Timolle.
+; [[Valko (kuvitteellinen hevonen)|Valko]]
+:Veljesten vanha, yksisilmäinen ja nimensä mukaisesti valkoinen [[hevonen]]. Heidän uskollinen seuralaisensa pitkällä korpivaelluksella haudattiin aikanaan Luhtaniitun aidan taakse. Valko mainitaan teoksessa nimeltä 32 kertaa.
+;Killi ja Kiiski
+:Veljesten kaksi koiraa, joita veljekset käyttävät lähinnä metsästykseen. Sitä ei kuvailla kirjassa, millaisia koirat ovat, paitsi "suuria ja äkeitä", ja mitä eroa niillä on.
+;Matti
+:Veljesten vanha kissa, joka on erityisen rakas Juhanille. Matin ääni on karhea.
+; [[Jukola]]
+:Veljesten synnyinkoti.
+; [[Impivaara]]
+:Jukolan tilan takamaa ja sillä sijaitseva vaara, jonne veljekset pakenevat.
+; [[Toukola (Seitsemän veljestä)|Toukola]]
+:Kylä jonka lähistöllä Jukolan tila sijaitsee.
+
+==Juoni==
+===Tapahtumien aika ja yhteys todellisiin paikkoihin===
+''Seitsemän veljeksen'' aikajänne on kymmenisen vuotta. Romaanin ajankohdaksi on usein arvioitu [[1830-luku|1830-]] ja [[1840-luku]]ja eli Kiven (s. 1834) itsensä lapsuusvuosia. Määrittelyn perusteena on muun muassa se, että lapsuudessaan ihminen omaksuu ympäristönsä tapahtumat, sanastot ja tarinat.<ref>Seitsemän miestä, s. 15</ref> Myös [[1820-luku]]a on esitetty: Juhanin muistot hänen [[Turku|Turun]] matkaltaan viittaavat aikaan ennen vuoden 1827 [[Turun palo]]a, veljekset puhuvat sekä [[Rupla|ruplista]] että [[Riikintaaleri|rikseistä]] ja heidän setänsä oli ollut [[Suomen sota|Suomen sodassa]] 1808–1809. Toisaalta teoksessa on viittauksia myös huomattavasti myöhäisempiin tapahtumiin, kuten [[Suuret nälkävuodet|suuriin nälkävuosiin]] [[1860-luku|1860-luvun]] jälkipuoliskolla.<ref name="Malmberg-16">Seitsemän miestä, s. 16</ref>
+
+Tapahtumapaikat Kivi sijoittaa oikean [[Nurmijärvi|Nurmijärven]] päälle. Enimmällä osalla teoksessa mainituista paikannimistä on vastineensa todellisuudessa. Jukolan talolle on löydetty [[Palojoki|Palojoelta]] kaksikin esikuvaa: Maisin talo ja Ojakkalan talo.<ref name="Malmberg-16"/> Kiven aikakautena Nurmijärvi luettiin eteläiseen [[Häme]]eseen,<ref>Seitsemän miestä, s. 18</ref> nykyisin seitsemän veljeksen maisemat ovat [[Uudenmaan maakunta|Keski-Uuttamaata]] ja [[Helsingin seutu|Helsingin suurkaupunkialueen]] pohjoisosaa.
+
+===Luvut 1–14===
+''Seitsemän veljestä'' on jaettu neljääntoista lukuun. Ensimmäisessä luvussa Kivi esittelee veljekset ja kertoo heidän taustastaan. Veljesten vanhemmat ovat kuolleet ja he asuvat keskenään perimällään Jukolan tilalla. Jukolan [[metsä]]varat ovat suuret, mutta sen [[Pelto|pellot]] ovat viljelemättä. Veljesten isä Juhani oli [[Metsästys|metsästäjä]], eikä välittänyt [[maanviljely]]stä. Veljekset keskustelevat [[Lukutaito|lukutaidon]] hankkimisesta ja [[Avioliitto|avioitumisesta]]. Morsiusehdokkaista esillä on naapurissa asuva Männistön Venla. Lauri ehdottaa muuttamista metsään. Toinen luku alkaa tyynestä [[syyskuu]]n aamusta. Veljesten kosiomatka Venlan luo ei tuota tulosta. He kohtaavat Toukolan miehiä, jotka laulavat pilkkalaulun. Syntyy tappelu, jossa toukolaiset jäävät alakynteen. Luvun lopussa Timo laulaa [[Oravan laulu|runon oravasta]]. Kolmannen luvun alussa edellisen luvun tapahtumista on kulunut kaksi päivää. Veljekset opettelevat lukemista lukkarin tuvassa. "Vallan vitkaa" heidän lukunsa edistyvät, eritoten kovapäisiä ovat Juhani ja Timo. Veljekset päättävät paeta, Aapo yrittää hieman jarrutella heidän uhoaan. He törmäävät [[Romanit|mustalaisseurueeseen]], jota kutsutaan Rajamäen rykmentiksi ja käyvät suukopua seurueeseen kuuluvien Mikon ja Kaisan kanssa. Yöllä nousee tuima [[Ukkonen|ukonilma]], jota veljekset pakenevat Tammiston Kyöstin taloon.
+
+[[File:Akseli Gallen-Kallela - Knight and the Snake King, Illustration for Seitsemän veljestä.jpg|thumb|''Ritari ja kuningaskäärme, Seitsemän veljeksen kuvitusta'', [[Akseli Gallen-Kallela]], 1907]]
+
+Neljäs luku alkaa seuraavasta päivästä. Veljekset ovat palanneet Jukolaan ja saavat riemukkaan vastaanoton Killiltä ja Kiiskiltä.
+Toukolaiset ovat kostaneet aiemman selkäsaunansa veljeksille. Veljekset lääkitsevät itseään ja saunovat. Yöllä [[sauna]] palaa. "Tosin oli se vanha ja sen hirret haudotut aina ytimeen asti, mutta olishan tuo vielä ritkunut tuossa vuoden tai kaksi", Juhani analysoi vahinkoa. [[Lautamies]] Mäkelä tulee ojentamaan veljeksiä ja vaatii heitä palaamaan opintielle. Veljekset päättävät paeta yhteiskuntaa Impivaaraan – oman maatilansa pohjoiselle takamaalle. Jukolan päätalo vuokrataan kymmeneksi vuodeksi nahkapeitturille. Viides luku alkaa keväästä, veljekset muuttavat Impivaaraan. He majoittuvat [[sysi|sysikoijuun]] ja aterioivat. Käydään keskustelua kurinpitomenetelmistä. Aapo kertoo jälleen tarinan, tällä kertaa aiheena on [[Neitsyys|kalvea impi]]. [[Peikko]] säikäyttää veljekset, kunnes osoittautuu, että se onkin vain heidän [[Hevonen|hevosensa]] Valko. Kuudennen luvun alussa veljesten pirtti on vihdoin valmis. [[Joulu]]iltana he painivat ja sytyttävät vahingossa pirttinsä tuleen. Veljesten on juostava avojaloin Jukolaan.
+
+[[File:Antti Favén - The Seven Brothers on top of a Boulder.jpg|pienois|''Seitsemän veljestä Hiidenkivellä'', [[Antti Favén]], 1910]]
+
+Seitsemäs luku alkaa varhaisesta keväästä. Veljekset muuttavat takaisin Impivaaran aholle ja rakentavat uuden pirtin. Tarinaan tulee Taula¹-Matti, vanha eränkävijä, jonka turinoita veljekset kuuntelevat mielellään. Taula-Matin tarinoiden innoittamana veljekset lähtevät metsälle, mutta monikymmenpäinen [[härkä]]lauma yllättää heidät. Seuraa romaanin draamallinen huipentuma, kun veljekset pakenevat härkiä [[Siirtolohkare|Hiidenkivelle]]. Aapo kertoo ajankuluksi tarinoitaan. Härät eivät näytä kaikkoavan. Kahdeksannen luvun alussa veljekset ovat olleet Hiidenkivellä neljättä päivää. Normaalisti siivo ja vähäpuheinen Lauri alkaa humaltua ja räyhätä. Tuomas ehdottaa että Lauri heitetään alas härkien armoille, mutta Juhani estää aikeen. Lauri nukahtaa. Viimeisenä keinonaan veljekset päättävät ampua kaikki härät. Viertolan isäntä tulee paikalle ja härkien omistajana vaatii korvausta. Yhdeksäs luku alkaa eräästä syyskuun aamusta. Veljekset istuvat aholla ja nauttivat häränlihasta. Lauri ei välitä osallistua [[kiekonlyönti]]in, vaan lähtee astelemaan salojen helmoihin. Eero laulaa laulun Rajamäen rykmentistä. Mäkelä tulee keskustelemaan Viertolan kärsimien vahinkojen korvaamisesta. Aapo ehdottaa, että veljekset alkavat viljellä maata ja vievät [[jyvä]]t härkien hintana Viertolaan; samalla he jättävät osan jyvistä omiksi tarpeikseen. Alkaa [[Kaskiviljely|kaskenpoltto]].
+
+Kymmenennen luvun alussa Jukolan maanviljelys on alkanut kukoistaa. Pulskeista [[huhta]]jyvistä riittää myös [[viina]]npolttoon. Seuraa juopottelua, johon Lauri ei kuitenkaan osallistu. Eero ja Simeoni läksivät [[Hämeenlinna]]an myymään [[Ruis|rukiita]] ja viinaa. Heidän matkansa kestää peräti kaksi viikkoa ja he palaavat ryöstettyinä ja rahattomina. Jäljellä on vain kuusi [[kopeekka]]a. Eero astuu tuomiolle mutta Simeoni pakenee metsään. Hän viipyy siellä useita päiviä ja palattuaan kertoo juovuspäissään nähneensä [[Lucifer|Lusifeeruksen]], jonka selässä hän lensi [[kuu]]hun. Veljekset päättävät jättää viinan tyystin. Tammiston pihalla veljekset joutuvat jälleen tappeluun toukolaisten kanssa. Yhdestoista luku alkaa saman päivän illasta. Veljekset arvioivat, mitä seurauksia tappelusta Tammistossa tulee. He pelkäävät joutuvansa vankilaan ja alkavat pohtia liittymistä [[armeija]]an tai pakoa ulkomaille rangaistuksen välttämiseksi. [[Nimismies|Nimismiehen]] tavatessaan veljeksille käy ilmi, että tappelusta ei koidu juridisia seuraamuksia. Veljekset päättävät vihdoin, että heidän tulee opetella lukemaan. Teräväpäinen Eero lähetetään oppiin ja palattuaan hän opettaa veljilleen lukutaidon. Kahdestoista luku alkaa kesästä. Veljekset ovat oppineet lopultakin lukemaan. Vuodenajat vaihtuvat ja veljesten maanviljelys edistyy vastoinkäymisistä huolimatta. Kahdestoista luku poikkeaa kerronnaltaan muista luvuista: [[dialogi]]a on niukalti, [[huumori]] jää pois ja sävyt synkkenevät.<ref>Seitsemän miestä, s. 173</ref> Rovasti julistaa Laurin Toukolan kylän parhaaksi lukijaksi. Aapo painottaa emännän merkitystä taloudenpidossa ja huomauttaa asiaankuuluvasti, että emännän on oltava säästäväinen. "Olkoon siis naiminen, niinkuin se olla pitää, elämämme ankarin askel", Aapo toteaa.
+
+Kolmastoista luku alkaa kelmeästä syyskuun päivästä. Veljekset palaavat Jukolan päätaloon, jota eivät ole nähneet yhdeksään vuoteen. Teerimäen laelle pysähdytään pitkäksi toviksi ihailemaan maisemia. Kulkiessaan mäkeä alas kohti Jukolaa veljekset päättävät kutsua jokaisen vastaantulijan kotiinpaluujuhliinsa. Myös Toukolan poikien kanssa tehdään sovinto. Kuohuvista haarikoista² juodaan sovintomaljat. Sovinto- ja kotiinpaluujuhlasta muodostuu huomattava tapahtuma. Samalla veljekset kosiskelevat tulevia vaimojaan. Neljästoista luku kurkottaa kauas tulevaisuuteen. Teatterisovituksista se on usein jätetty pois dramaturgisen hankaluutensa takia.<ref>Seitsemän miestä, s. 205</ref> Luvussa kerrotaan, kuinka veljekset jakavat Jukolan suuren omaisuuden: perustetaan neljä maatilaa ja kaksi itsenäistä [[torppa]]a. Jokaisella on alustalaisia, myös torpilla. Simeoni on ainoa, joka ei avioidu. Hän jää asumaan Juhani-Jukolaan. Veljesten kuudesta vaimosta kerrotaan pääpiirteittäin. Aaposta tulee lautamies, Eerosta merkittävä kunnallismies, Tuomaan elo sujuu rauhallisesti. Juhani on alati riidoissa naapureidensa kanssa, Lauri viettää edelleen aikaansa mieluimmin metsässä, Timo puolestaan ottaa tavakseen juopotella aina [[kekri]]n aikaan. 
+
+Loppukohtauksessa ''Seitsemän veljestä'' -romaanin päähenkilöt ovat vakiintuneet ja menestyneet elämässään. He ovat rakentaneet uudelleen sekä Jukolan että Impivaaran, jakaen ne oikeudenmukaisesti keskenään. Jokaisen veljeksen kohtalo muotoutuu heidän luonteensa ja taipumustensa mukaisesti:
+
+# '''Juhani''' – Jää hallitsemaan ensimmäistä Jukolaa, joka säilyy suvun kantatilana. Hänestä tulee kunnollinen talon isäntä, vaikka aiemmin hän oli veljeksistä itsepäisin ja riidanhaluisin, hänellä on Venla puolisonaan.
+# '''Aapo''' – Saa Jukolan toisen puolen, kuten hänen järkevä ja oikeudenmukainen luonteensa ennakoikin. Hänestä tulee myös lautamies, mikä sopii hänen sovittelevaan ja viisaaseen rooliinsa, vaimokseensa hän saa Konkkalan Hinrikan. 
+# '''Tuomas ja Lauri''' – Päätyvät yhdessä hallitsemaan Impivaaraa, jakaen sen kahteen osaan. Tuomas on voimakas ja toimelias, Lauri taas omiin oloihinsa vetäytyvä metsän mies. Tuomaksen vaimona on Härkämäen ainoa tytär, kun Lauri saa Viertolan Kaisan
+# '''Timo''' – Saa Kekkurin torpan ja elää siellä. Hän kuuluu niihin veljeksiin, jotka eivät täysin luovu viinasta, mutta eivät myöskään sorru rappioon. Vaimona hänellä on Viertolan Kaisan sisar.
+# '''Eero''' – Saa Vuohenkalman torpan ja menestyy erityisesti älykkyytensä ansiosta. Hänestä tulee jahtivouti, ja hän on veljeksistä ainoa, joka seuraa sanomalehtiä ja pysyy ajan hermolla. Vaimona hänellä on Seunalan Anna, joka on ainakin nuorena ollut jonkinlainen hurmossaarnaaja.
+# '''Simeoni''' – Ainoana veljeksistä ei mene naimisiin eikä ota maatilaa omakseen, vaan asettuu asumaan vanhaksi sedäksi Juhanin taloon. Hänen uskonnollinen vakaumuksensa säilyy, mutta hän ei kokonaan pääse irti viinan kiusauksesta.
+
+Veljekset rakentavat mainettaan kunniallisina miehinä, ja heidän talonsa tunnetaan vieraanvaraisuudestaan. Tämä päättää romaanin kehityskaaren: alkupuolen kurittomat nuoret miehet ovat nyt kunniallisia perheenisiä ja yhteiskunnan arvostettuja jäseniä.
+
+Romaani päättyy joulujuhlaan Jukolan avarassa tuvassa, jonne veljekset kokoontuvat vaimoineen ja jälkikasvuineen.
+
+<small>¹Taulakäävän sisuksesta valmistettu kuiva massa, jota käytettiin sytykkeenä<ref>{{Kielitoimiston sanakirja|taula}}</ref></small><br>
+<small>²Tavallisesti puusta valmistettu juoma-astia, jossa kaksi kädensijaa<ref>{{Kielitoimiston sanakirja|haarikka}}</ref></small>
+
+==Vastaanotto ja vaikutus==
+Aleksis Kivi itse toivoi teoksellaan pääsevänsä taloudellisesta ja henkisestä ahdingostaan.<ref>[http://www.finlit.fi/kivi/index.php?pagename=sksnkivikirjat SKS, Kivi-kirjat] {{Wayback|1=http://www.finlit.fi/kivi/index.php?pagename=sksnkivikirjat |päiväys=20080420182329 }}</ref> Ilmestyessään kirja sai kuitenkin niukasti ymmärrystä kirjallisuuspiireissä, koska ajan henkeen kuuluivat kansallismieliset ihanteet, idyllisen kuvan antaminen Suomesta ja kansan kuvaaminen ylevästi. Ihanteellisuusaatteen ajajista voimakkaimpia oli [[professori]] ja kirjallisuusvaikuttaja [[August Ahlqvist]], joka kirjoitti romaanista murska-arvostelun ''[[Virallinen lehti|Finlands Allmänna Tidningeniin]]''.<ref>{{Verkkoviite | Osoite = https://vintti.yle.fi/yle.fi/sininenlaulu/yle.fi/teema/sininenlaulu/artikkeli.php-id=386.htm | Arkisto = https://archive.is/DXHkA | Arkistoitu = 21.11.2013 | Nimeke = Seitsemän veljestä. | Tekijä = Korhonen, Anna | Julkaisija = Yle | Viitattu = 21.11.2013}}</ref><ref>{{Verkkoviite | Osoite = http://authorscalendar.info/akivi.htm | Nimeke = Aleksis Kivi (1834-1872) | Julkaisija = Kuusankosken kaupunginkirjasto | Viitattu = 23.1.2008 | Kieli = en }}</ref><ref>{{Lehtiviite | Otsikko = Finsk litteratur VII – osa 2. | Julkaisu = Finlands Allmänna Tidning | Ajankohta = 21.05.1870 | Numero = 116 | Kieli = sv  | Sivut = 2–3 | www = http://digi.kansalliskirjasto.fi/sanomalehti/binding/475208/articles/559617 | www-teksti = Kansalliskirjasto | Viitattu=31.01.2015}}</ref>
+
+Kirjallisuudentutkija [[Markku Eskelinen]] pitää ''Seitsemää veljestä'' syntyajankohtaansa ja tuolloiseen suomalaisen proosakirjallisuuden tilaan nähden erittäin poikkeuksellisena. Eskelisen mukaan teos on jännitteisempi ja esteettisesti monimutkaisempi kuin Kiveä seuranneen merkittävän kirjailijasukupolven [[Realismi (kirjallisuus)|realistiset]] romaanit. Eskelinen tuo esiin myös Kiven kielellisen tyylilajeilla leikittelyn: vaikka teoksessa esiintyy tuonaikaisen uskonnollisen kirjallisuuden valta-aseman vuoksi ymmärrettävistä syistä paljon [[Raamattu|raamatullista]] ja muutenkin uskonnollista kielenkäyttöä, sen suhtautuminen uskonnon auktoriteettiin ei Eskelisen mukaan ole muusta tuonaikaisesta proosakirjallisuudesta poiketen alistuvaa. Eskelisen mielestä Kiven työn rikkaudelle ja monitasoisuudelle vertailukelpoisia suomenkielisiä proosateoksia alkoi ilmestyä vasta seuraavalla vuosisadalla.<ref>{{Kirjaviite|Tekijä=Markku Eskelinen|Nimeke=Raukoilla rajoilla. Suomenkielisen proosakirjallisuuden historiaa|Vuosi=2016|Sivu=70–72|Julkaisija=Siltala}}</ref>
+
+==Näyttämö- ja elokuvatulkintoja ==
+[[File:Sju bröder av Aleksis Kivi, dramatiserad av Per Åke Laurén och regi av Gustaf Nessler - 1921 SLSA 1270 31 3 292.jpg|pienois|Svenska Teaternin Seitsemän veljestä -sovitus vuodelta 1921.]]
+
+''Seitsemästä veljeksestä'' on tehty lukuisia [[näytelmä]]- ja myös [[elokuva]]sovituksia. Yksi tunnetuimmista näyttämösovituksista on [[Kalle Holmberg]]in [[Turun kaupunginteatteri]]in ohjaama ''Seitsemän veljestä'', jonka ensi-ilta oli 1972 ja jota esitettiin 240 kertaa. Päärooleissa oli aikansa tunnetuimpia näyttelijöitä, muiden muassa [[Esko Salminen]], [[Vesa-Matti Loiri]], [[Heikki Kinnunen]] ja [[Juha Muje]].<ref>{{Verkkoviite | Osoite = https://yle.fi/a/20-101187 | Nimeke = Seitsemän veljestä Turun kaupunginteatterissa | Tekijä = Lindfors, Jukka | Ajankohta = 9.10.2015 | Julkaisija = Yle| Viitattu = 13.2.2016 }}</ref> [[Yleisradio]]n TV 2:n teatteritoimitus nauhoitti sovituksesta [[Seitsemän veljestä (televisionäytelmä)|142-minuuttisen tallenteen]] 1976.
+
+[[Suomen Filmiteollisuus]] tuotti romaanista vuonna [[1939]] [[Wilho Ilmari]]n ohjaaman [[Seitsemän veljestä (elokuva)|elokuvan]], joka kuvattiin osaksi [[Pyhäniemen kartano]]n alueella.<ref>{{Verkkoviite | Osoite = <!-- http://www.aleksiskivi-kansalliskirjailija.fi/fi/index.php?option=com_content&task=view&id=80&Itemid=93 --> | Nimeke = Seitsemän veljestä (1939) | Tekijä = Kari Uusitalo | Julkaisija = Aleksis Kiven Seura | Viitattu = 23.1.2008 | arkisto = https://web.archive.org/web/20070827084144/http://www.aleksiskivi-kansalliskirjailija.fi/fi/index.php?option=com_content&task=view&id=80&Itemid=93 | arkistoitu = 27.8.2007 }}</ref><ref>{{Verkkoviite | Osoite = http://www.sea.fi/esitykset/syksy2005/edvin_laineIII.html | Nimeke = Edvin Laine III | Julkaisija = Suomen elokuva-arkisto | Viitattu = 23.1.2008 | arkisto = https://web.archive.org/web/20080113130709/http://www.sea.fi/esitykset/syksy2005/edvin_laineIII.html | arkistoitu = 13.1.2008 }}</ref> Päärooleissa olivat muun muassa [[Edvin Laine]] ja [[Joel Rinne]].
+
+Vuonna 1979 valmistui [[Riitta Nelimarkka|Riitta Nelimarkan]] ja [[Jaakko Seeck|Jaakko Seeckin]] luoma animaatioelokuva ''[[Seitsemän veljestä (animaatioelokuva)|Seitsemän veljestä]]'', joka on ensimmäinen suomalainen pitkä animaatioelokuva.<ref>{{Verkkoviite|Osoite=http://www.elonet.fi/fi/elokuva/119038|Nimeke=Seitsemän veljestä|Julkaisija=Elonet|Viitattu=1.3.2014}}</ref>
+
+Vuonna 1989 Yleisradion TV 2:n teatteritoimitus tuotti [[Jouko Turkka|Jouko Turkan]] ohjaaman 12-jaksoisen [[televisioelokuva]]n ''[[Seitsemän veljestä (televisiosarja)|Seitsemän veljestä]]'', jonka jaksot ovat tunnin tai runsaan tunnin mittaisia. Sarja herätti vilkkaan keskustelun.<ref>{{Verkkoviite | Osoite = http://www.helsinki.fi/hum/kotim.kirjallisuus/kivijalka/2000/ruppel.htm | Nimeke = Hurjat, oudot veljekset. Jouko Turkan Seitsemän veljeksen vastaanotosta | Tekijä = Katariina Ruppel | Julkaisija = Helsinki.fi | Viitattu = 23.1.2008}}</ref>
+
+[[Tauno Marttinen]] ja [[Armas Launis]] ovat kumpikin säveltäneet romaaniin pohjautuvan oopperan nimeltä ''Seitsemän veljestä''. Marttisen oopperaa ei ole esitetty, Launiksen ooppera on esitetty Suomalaisessa Oopperassa vuosina 1913 ja 1923 yhteensä kahdeksan kertaa. Baletin Seitsemästä veljeksestä ovat tehneet koreografi Marjo Kuusela ja säveltäjä Eero Ojanen. Balettiversiosta tuli oopperoita suositumpi ja se esitettiin [[Suomen Kansallisooppera]]ssa vuosina 1980–1992 yhteensä 68 kertaa.
+
+2000-luvun tulkintoja edustaa [[Kivi-juhlat|Kivi-juhlilla]] kesällä 2011 nähty [[Kai Lehtinen|Kai Lehtisen]] ohjaus Seitsemästä veljeksestä. <ref>{{Verkkoviite | Osoite = http://www.kivi-juhlat.fi/veljekset.html | Nimeke = Seitsemän veljestä | Julkaisija = Nurmijärven Kivi-juhlat Ry. | Viitattu = 18.06.2011 | arkisto = https://web.archive.org/web/20120207002459/http://www.kivi-juhlat.fi/veljekset.html | arkistoitu = 7.2.2012 }}</ref> Lehtinen itse näytteli edellä mainitussa Turkan televisioelokuvassa (1989) Juhania.
+
+== Käännökset ==
+{{pääartikkeli|[[Luettelo Seitsemän veljeksen käännöksistä]]}}
+''Seitsemän veljestä'' on käännetty ainakin 17 kielelle.
+
+==Lähteet==
+{{Viitteet|Sarakkeet}}
+
+== Kirjallisuutta ==
+* {{Kirjaviite | Tekijä=Kinnunen, Aarne | Nimeke=Tuli, aurinko ja seitsemän veljestä. Tutkimus Aleksis Kiven romaanista | Selite=2. täydennetty painos (1. painos 1973) | Julkaisupaikka=Helsinki | Julkaisija=Suomalaisen kirjallisuuden seura | Vuosi=1987 | Isbn = 951-717-483-7}}
+* {{Kirjaviite | Tekijä=Kinnunen, Aarne | Nimeke=Seitsemän veljestä ja lukemisen juonet | Julkaisupaikka=Helsinki | Julkaisija=WSOY | Vuosi=2002 | Isbn = 951-0-27425-9}}
+* Pirjo Lyytikäinen: ''Vimman villityt pojat. Aleksis Kiven Seitsemän veljeksen laji''. SKS 2004.
+
+== Aiheesta muualla ==
+{{commonscat}}
+{{Wikiaineisto}}
+* [https://www.seitsemanveljesta.net/ Seitsemän veljestä -aiheinen sivusto.]
+* [https://www.facebook.com/aleksiskivenseura Aleksis Kiven Seura Facebookissa.] (Sivulla julkaistaan ajankohtaisia kirjailijaan liittyviä uutisia.)
+* {{UVF|SjuBroeder Sju bröder}}
+* [https://digi.kansalliskirjasto.fi/sanomalehti/binding/1830817?page=25 Eino Kauppinen : Jukolaa ja Impivaaraa etsimässä], Helsingin Sanomat, 08.10.1933, nro 270, s. 25, Kansalliskirjaston digitaaliset aineistot
+
+
+Seitsemän veljestä tekstinä:
+* [http://eiskis.net/seitsemanveljesta/ Seitsemän veljestä XHTML-muodossa lukuihin jaettuna (eiskis.net)]
+* [http://www.gutenberg.org/cache/epub/11940/pg11940.txt Seitsemän veljestä UTF-8-tekstinä (Gutenberg)]
+* [https://web.archive.org/web/*/http://www.digipaper.fi/klassikot/145/ Seitsemän veljestä (Digipaper)]
+* [http://www.edith.fi/kivikorpus/index.htm Aleksis Kivi -korpus.] {{Wayback|1=http://www.edith.fi/kivikorpus/index.htm |päiväys=20140203211812 }} Suomalaisen Kirjallisuuden Seurassa laadittu tekstikorpus.
+* [http://www.polyglotproject.com/books/Finnish/seitseman_veljesta Seitsemän veljestä].
+
+Seitsemän veljestä muissa muodoissa:
+* [https://areena.yle.fi/1-1290113 Seitsemän veljestä äänikirjana.] Yle Areena.
+* [https://yle.fi/a/20-95116 Turkan Seitsemän veljestä.] Ylen Elävä arkisto 16.11.1989.
+* [https://yle.fi/a/20-101187 Seitsemän veljestä Turun kaupunginteatterissa] Ylen Elävä arkisto 1.1.1976.
+
+{{Auktoriteettitunnisteet}}
+[[Luokka:Seitsemän veljestä|*]]
+[[Luokka:Seulonnan keskeiset artikkelit]]

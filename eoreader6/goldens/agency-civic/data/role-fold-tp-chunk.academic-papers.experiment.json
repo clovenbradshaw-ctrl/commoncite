@@ -1,0 +1,2331 @@
+{
+  "opts": {
+    "minPrevalence": 0.15,
+    "minKindSize": 3,
+    "permutations": 100,
+    "quantile": 0.95,
+    "reseeds": 12,
+    "seed": 42
+  },
+  "dipRatio": 0.4,
+  "maxSpanLen": 4,
+  "window": 6,
+  "docsProcessed": 30,
+  "topVerbs": [
+    "'s",
+    "are",
+    "model",
+    "block",
+    "with",
+    "on",
+    "can",
+    "uses",
+    "all",
+    "or",
+    "architecture",
+    "was"
+  ],
+  "results": [
+    {
+      "verb": "'s",
+      "fillerCount": 0,
+      "kinds": []
+    },
+    {
+      "verb": "are",
+      "fillerCount": 20,
+      "kinds": [
+        {
+          "id": "kind:tp-verb-island:are:filler:combined|filler:concatenated|filler:created|filler:dealing|filler:derived|filler:drawn|filler:initialized|filler:ready|filler:vectors",
+          "label": "pos:after_len1",
+          "population": "tp-verb-island:are",
+          "members": [
+            "filler:combined",
+            "filler:concatenated",
+            "filler:created",
+            "filler:dealing",
+            "filler:derived",
+            "filler:drawn",
+            "filler:initialized",
+            "filler:ready",
+            "filler:vectors"
+          ],
+          "core": {
+            "field_id": "pos:after_len1",
+            "value_type": "boolean",
+            "prevalence": 1
+          },
+          "cohesion": 1,
+          "height": "above",
+          "heightGate": {
+            "existence": {
+              "observed": 1,
+              "threshold": 0.47361111111111104,
+              "min": 0.2222222222222222,
+              "max": 0.5833333333333334,
+              "pValue": 0,
+              "passed": true
+            },
+            "constraint": {
+              "observed": 1,
+              "threshold": 0.6666666666666666,
+              "min": 0.2222222222222222,
+              "max": 0.7777777777777778,
+              "pValue": 0,
+              "passed": true
+            },
+            "relation": "above",
+            "searched": {
+              "observed": 1,
+              "threshold": 0.8861111111111111,
+              "min": 0.787037037037037,
+              "max": 0.8888888888888888,
+              "pValue": 0,
+              "passed": true
+            },
+            "ground": "key"
+          },
+          "operator_chain": {
+            "operator_epoch": "eo-2026-07",
+            "chain": [
+              "SIG",
+              "CON",
+              "EVA",
+              "DEF",
+              "INS",
+              "SYN"
+            ],
+            "stages": [
+              {
+                "operator": "SIG",
+                "target": "population:tp-verb-island:are",
+                "height": 0
+              },
+              {
+                "operator": "CON",
+                "target": "candidate:filler:concatenated|filler:dealing|filler:combined|filler:created|filler:initialized|filler:ready|filler:drawn|filler:vectors|filler:derived",
+                "height": null
+              },
+              {
+                "operator": "EVA",
+                "target": "kind:pos:after_len1",
+                "height": "above"
+              },
+              {
+                "operator": "DEF",
+                "target": "kind:pos:after_len1",
+                "height": "above"
+              },
+              {
+                "operator": "INS",
+                "target": "members:9",
+                "height": "below"
+              },
+              {
+                "operator": "SYN",
+                "target": "vocabulary",
+                "height": null
+              }
+            ]
+          }
+        }
+      ],
+      "records": [
+        {
+          "id": "filler:there",
+          "label": "There",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 12
+            },
+            {
+              "field_id": "capitalized",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:vectors",
+          "label": "vectors",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:derived",
+          "label": "derived",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:concatenated",
+          "label": "concatenated",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:dealing",
+          "label": "dealing",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:bias parameters",
+          "label": "bias parameters",
+          "attributes": [
+            {
+              "field_id": "pos:before_len2",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:combined",
+          "label": "combined",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:check whether the parameters",
+          "label": "Check whether the parameters",
+          "attributes": [
+            {
+              "field_id": "pos:before_len4",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "capitalized",
+              "value_type": "boolean",
+              "count": 1
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:created",
+          "label": "created",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:default tensors",
+          "label": "default tensors",
+          "attributes": [
+            {
+              "field_id": "pos:before_len2",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:parameters",
+          "label": "parameters",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 12
+            },
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:current mean and variance",
+          "label": "current mean and variance",
+          "attributes": [
+            {
+              "field_id": "pos:before_len4",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:initialized",
+          "label": "initialized",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 8
+            }
+          ]
+        },
+        {
+          "id": "filler:height and width",
+          "label": "height and width",
+          "attributes": [
+            {
+              "field_id": "pos:before_len3",
+              "value_type": "boolean",
+              "count": 8
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:shaded portions",
+          "label": "shaded portions",
+          "attributes": [
+            {
+              "field_id": "pos:before_len2",
+              "value_type": "boolean",
+              "count": 5
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:ready",
+          "label": "ready",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:number of channels",
+          "label": "number of channels",
+          "attributes": [
+            {
+              "field_id": "pos:before_len3",
+              "value_type": "boolean",
+              "count": 9
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:added conv2d",
+          "label": "added conv2d",
+          "attributes": [
+            {
+              "field_id": "pos:after_len2",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:columns",
+          "label": "columns",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:drawn",
+          "label": "drawn",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "verb": "model",
+      "fillerCount": 15,
+      "kinds": [
+        {
+          "id": "kind:tp-verb-island:model:filler:lenet model.layer summary|filler:mxnet pytorch jax|filler:numref sec|filler:output based|filler:parameters hence|filler:return the required|filler:shift parameter",
+          "label": "multiword",
+          "population": "tp-verb-island:model",
+          "members": [
+            "filler:lenet model.layer summary",
+            "filler:mxnet pytorch jax",
+            "filler:numref sec",
+            "filler:output based",
+            "filler:parameters hence",
+            "filler:return the required",
+            "filler:shift parameter"
+          ],
+          "core": {
+            "field_id": "multiword",
+            "value_type": "boolean",
+            "prevalence": 1
+          },
+          "cohesion": 0.7142857142857143,
+          "height": "above",
+          "heightGate": {
+            "existence": {
+              "observed": 0.7142857142857143,
+              "threshold": 0.5,
+              "min": 0.3333333333333333,
+              "max": 0.7142857142857143,
+              "pValue": 0.009900990099009901,
+              "passed": true
+            },
+            "constraint": {
+              "observed": 1,
+              "threshold": 0.7142857142857143,
+              "min": 0.14285714285714285,
+              "max": 0.7142857142857143,
+              "pValue": 0,
+              "passed": true
+            },
+            "relation": "above",
+            "searched": {
+              "gap": "empty_material",
+              "reason": "no null samples"
+            },
+            "ground": "key"
+          },
+          "operator_chain": {
+            "operator_epoch": "eo-2026-07",
+            "chain": [
+              "SIG",
+              "CON",
+              "EVA",
+              "DEF",
+              "INS",
+              "SYN"
+            ],
+            "stages": [
+              {
+                "operator": "SIG",
+                "target": "population:tp-verb-island:model",
+                "height": 0
+              },
+              {
+                "operator": "CON",
+                "target": "candidate:filler:parameters hence|filler:numref sec|filler:output based|filler:return the required|filler:shift parameter|filler:mxnet pytorch jax|filler:lenet model.layer summary",
+                "height": null
+              },
+              {
+                "operator": "EVA",
+                "target": "kind:multiword",
+                "height": "above"
+              },
+              {
+                "operator": "DEF",
+                "target": "kind:multiword",
+                "height": "above"
+              },
+              {
+                "operator": "INS",
+                "target": "members:7",
+                "height": "below"
+              },
+              {
+                "operator": "SYN",
+                "target": "vocabulary",
+                "height": null
+              }
+            ]
+          }
+        }
+      ],
+      "records": [
+        {
+          "id": "filler:data",
+          "label": "data",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 21
+            }
+          ]
+        },
+        {
+          "id": "filler:construction",
+          "label": "construction",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:numref sec",
+          "label": "numref sec",
+          "attributes": [
+            {
+              "field_id": "pos:before_len2",
+              "value_type": "boolean",
+              "count": 2
+            },
+            {
+              "field_id": "pos:after_len2",
+              "value_type": "boolean",
+              "count": 1
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:parameters.",
+          "label": "parameters.",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 8
+            }
+          ]
+        },
+        {
+          "id": "filler:parameters",
+          "label": "parameters",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 22
+            }
+          ]
+        },
+        {
+          "id": "filler:entire",
+          "label": "entire",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:output based",
+          "label": "output based",
+          "attributes": [
+            {
+              "field_id": "pos:after_len2",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:return the required",
+          "label": "return the required",
+          "attributes": [
+            {
+              "field_id": "pos:before_len3",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:shift parameter",
+          "label": "shift parameter",
+          "attributes": [
+            {
+              "field_id": "pos:before_len2",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:mxnet pytorch jax",
+          "label": "mxnet pytorch jax",
+          "attributes": [
+            {
+              "field_id": "pos:before_len3",
+              "value_type": "boolean",
+              "count": 6
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:new",
+          "label": "new",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:lenet model.layer summary",
+          "label": "LeNet model.layer summary",
+          "attributes": [
+            {
+              "field_id": "pos:after_len3",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "capitalized",
+              "value_type": "boolean",
+              "count": 1
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:parameters hence",
+          "label": "parameters hence",
+          "attributes": [
+            {
+              "field_id": "pos:after_len2",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:class",
+          "label": "class",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:class.",
+          "label": "class.",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "verb": "block",
+      "fillerCount": 15,
+      "kinds": [
+        {
+          "id": "kind:tp-verb-island:block:filler:convolutional|filler:dense|filler:first|filler:nin|filler:residual|filler:resnext|filler:transition|filler:vgg",
+          "label": "pos:before_len1",
+          "population": "tp-verb-island:block",
+          "members": [
+            "filler:convolutional",
+            "filler:dense",
+            "filler:first",
+            "filler:nin",
+            "filler:residual",
+            "filler:resnext",
+            "filler:transition",
+            "filler:vgg"
+          ],
+          "core": {
+            "field_id": "pos:before_len1",
+            "value_type": "boolean",
+            "prevalence": 1
+          },
+          "cohesion": 1,
+          "height": "above",
+          "heightGate": {
+            "existence": {
+              "observed": 1,
+              "threshold": 0.5714285714285714,
+              "min": 0.35714285714285715,
+              "max": 0.5714285714285714,
+              "pValue": 0,
+              "passed": true
+            },
+            "constraint": {
+              "observed": 1,
+              "threshold": 0.75,
+              "min": 0.125,
+              "max": 0.875,
+              "pValue": 0,
+              "passed": true
+            },
+            "relation": "above",
+            "searched": {
+              "gap": "empty_material",
+              "reason": "no null samples"
+            },
+            "ground": "key"
+          },
+          "operator_chain": {
+            "operator_epoch": "eo-2026-07",
+            "chain": [
+              "SIG",
+              "CON",
+              "EVA",
+              "DEF",
+              "INS",
+              "SYN"
+            ],
+            "stages": [
+              {
+                "operator": "SIG",
+                "target": "population:tp-verb-island:block",
+                "height": 0
+              },
+              {
+                "operator": "CON",
+                "target": "candidate:filler:resnext|filler:dense|filler:transition|filler:residual|filler:nin|filler:first|filler:vgg|filler:convolutional",
+                "height": null
+              },
+              {
+                "operator": "EVA",
+                "target": "kind:pos:before_len1",
+                "height": "above"
+              },
+              {
+                "operator": "DEF",
+                "target": "kind:pos:before_len1",
+                "height": "above"
+              },
+              {
+                "operator": "INS",
+                "target": "members:8",
+                "height": "below"
+              },
+              {
+                "operator": "SYN",
+                "target": "vocabulary",
+                "height": null
+              }
+            ]
+          }
+        }
+      ],
+      "records": [
+        {
+          "id": "filler:resnext",
+          "label": "ResNeXt",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "capitalized",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:numref fig resnext",
+          "label": "numref fig resnext",
+          "attributes": [
+            {
+              "field_id": "pos:before_len3",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:dense",
+          "label": "dense",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:transition",
+          "label": "transition",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:residual",
+          "label": "residual",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:previous dense",
+          "label": "previous dense",
+          "attributes": [
+            {
+              "field_id": "pos:before_len2",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:nin",
+          "label": "nin",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 7
+            }
+          ]
+        },
+        {
+          "id": "filler:out channels kernel",
+          "label": "out channels kernel",
+          "attributes": [
+            {
+              "field_id": "pos:after_len3",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:strides 2 nin",
+          "label": "strides 2 nin",
+          "attributes": [
+            {
+              "field_id": "pos:before_len3",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:save the residual",
+          "label": "save The Residual",
+          "attributes": [
+            {
+              "field_id": "pos:before_len3",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:false blk",
+          "label": "False blk",
+          "attributes": [
+            {
+              "field_id": "pos:after_len2",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "capitalized",
+              "value_type": "boolean",
+              "count": 1
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:residuals num channels first",
+          "label": "residuals num channels first",
+          "attributes": [
+            {
+              "field_id": "pos:before_len4",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:first",
+          "label": "first",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "id": "filler:vgg",
+          "label": "vgg",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:convolutional",
+          "label": "convolutional",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "verb": "with",
+      "fillerCount": 22,
+      "kinds": [
+        {
+          "id": "kind:tp-verb-island:with:filler:attention|filler:convolutional|filler:it.|filler:respect",
+          "label": "pos:after_len1",
+          "population": "tp-verb-island:with",
+          "members": [
+            "filler:attention",
+            "filler:convolutional",
+            "filler:it.",
+            "filler:respect"
+          ],
+          "core": {
+            "field_id": "pos:after_len1",
+            "value_type": "boolean",
+            "prevalence": 1
+          },
+          "cohesion": 1,
+          "height": "above",
+          "heightGate": {
+            "existence": {
+              "observed": 1,
+              "threshold": 0.6138888888888887,
+              "min": 0.05555555555555555,
+              "max": 0.75,
+              "pValue": 0,
+              "passed": true
+            },
+            "constraint": {
+              "observed": 1,
+              "threshold": 0.5,
+              "min": 0,
+              "max": 0.75,
+              "pValue": 0,
+              "passed": true
+            },
+            "relation": "above",
+            "searched": {
+              "observed": 1,
+              "threshold": 0.75,
+              "min": 0.49999999999999994,
+              "max": 0.75,
+              "pValue": 0,
+              "passed": true
+            },
+            "ground": "key"
+          },
+          "operator_chain": {
+            "operator_epoch": "eo-2026-07",
+            "chain": [
+              "SIG",
+              "CON",
+              "EVA",
+              "DEF",
+              "INS",
+              "SYN"
+            ],
+            "stages": [
+              {
+                "operator": "SIG",
+                "target": "population:tp-verb-island:with",
+                "height": 0
+              },
+              {
+                "operator": "CON",
+                "target": "candidate:filler:attention|filler:respect|filler:convolutional|filler:it.",
+                "height": null
+              },
+              {
+                "operator": "EVA",
+                "target": "kind:pos:after_len1",
+                "height": "above"
+              },
+              {
+                "operator": "DEF",
+                "target": "kind:pos:after_len1",
+                "height": "above"
+              },
+              {
+                "operator": "INS",
+                "target": "members:4",
+                "height": "below"
+              },
+              {
+                "operator": "SYN",
+                "target": "vocabulary",
+                "height": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "kind:tp-verb-island:with:filler:batch normalization|filler:broadcasting features|filler:convolution kernel|filler:convolutional layer|filler:height 5 and width|filler:output d2l.get key|filler:perform the cross-correlation operation|filler:probability frac|filler:replace masked elements|filler:sharing parameters|filler:try gpu|filler:two fully connected",
+          "label": "multiword",
+          "population": "tp-verb-island:with",
+          "members": [
+            "filler:batch normalization",
+            "filler:broadcasting features",
+            "filler:convolution kernel",
+            "filler:convolutional layer",
+            "filler:height 5 and width",
+            "filler:output d2l.get key",
+            "filler:perform the cross-correlation operation",
+            "filler:probability frac",
+            "filler:replace masked elements",
+            "filler:sharing parameters",
+            "filler:try gpu",
+            "filler:two fully connected"
+          ],
+          "core": {
+            "field_id": "multiword",
+            "value_type": "boolean",
+            "prevalence": 1
+          },
+          "cohesion": 0.601010101010101,
+          "height": "above",
+          "heightGate": {
+            "existence": {
+              "observed": 0.601010101010101,
+              "threshold": 0.33863636363636357,
+              "min": 0.21717171717171715,
+              "max": 0.36363636363636365,
+              "pValue": 0,
+              "passed": true
+            },
+            "constraint": {
+              "observed": 1,
+              "threshold": 0.6708333333333331,
+              "min": 0.25,
+              "max": 0.8333333333333334,
+              "pValue": 0,
+              "passed": true
+            },
+            "relation": "above",
+            "searched": {
+              "gap": "empty_material",
+              "reason": "no null samples"
+            },
+            "ground": "key"
+          },
+          "operator_chain": {
+            "operator_epoch": "eo-2026-07",
+            "chain": [
+              "SIG",
+              "CON",
+              "EVA",
+              "DEF",
+              "INS",
+              "SYN"
+            ],
+            "stages": [
+              {
+                "operator": "SIG",
+                "target": "population:tp-verb-island:with",
+                "height": 0
+              },
+              {
+                "operator": "CON",
+                "target": "candidate:filler:batch normalization|filler:try gpu|filler:broadcasting features|filler:probability frac|filler:convolution kernel|filler:sharing parameters|filler:convolutional layer|filler:two fully connected|filler:perform the cross-correlation operation|filler:height 5 and width|filler:replace masked elements|filler:output d2l.get key",
+                "height": null
+              },
+              {
+                "operator": "EVA",
+                "target": "kind:multiword",
+                "height": "above"
+              },
+              {
+                "operator": "DEF",
+                "target": "kind:multiword",
+                "height": "above"
+              },
+              {
+                "operator": "INS",
+                "target": "members:12",
+                "height": "below"
+              },
+              {
+                "operator": "SYN",
+                "target": "vocabulary",
+                "height": null
+              }
+            ]
+          }
+        }
+      ],
+      "records": [
+        {
+          "id": "filler:replace masked elements",
+          "label": "replace masked elements",
+          "attributes": [
+            {
+              "field_id": "pos:before_len3",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:broadcasting features",
+          "label": "broadcasting features",
+          "attributes": [
+            {
+              "field_id": "pos:after_len2",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:attention",
+          "label": "Attention",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 5
+            },
+            {
+              "field_id": "capitalized",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:output d2l.get key",
+          "label": "output d2l.get key",
+          "attributes": [
+            {
+              "field_id": "pos:after_len3",
+              "value_type": "boolean",
+              "count": 8
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:respect",
+          "label": "respect",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:dealing",
+          "label": "dealing",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:probability frac",
+          "label": "probability frac",
+          "attributes": [
+            {
+              "field_id": "pos:after_len2",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:working",
+          "label": "working",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:two fully connected",
+          "label": "two fully connected",
+          "attributes": [
+            {
+              "field_id": "pos:after_len3",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:sharing parameters",
+          "label": "sharing parameters",
+          "attributes": [
+            {
+              "field_id": "pos:before_len2",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:start",
+          "label": "start",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:try gpu",
+          "label": "try gpu",
+          "attributes": [
+            {
+              "field_id": "pos:after_len2",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:tensorflow",
+          "label": "tensorflow",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:compared",
+          "label": "Compared",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "capitalized",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:together",
+          "label": "Together",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "capitalized",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:batch normalization",
+          "label": "batch normalization",
+          "attributes": [
+            {
+              "field_id": "pos:before_len2",
+              "value_type": "boolean",
+              "count": 2
+            },
+            {
+              "field_id": "pos:after_len2",
+              "value_type": "boolean",
+              "count": 2
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:convolutional",
+          "label": "convolutional",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:it.",
+          "label": "it.",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:convolutional layer",
+          "label": "convolutional layer",
+          "attributes": [
+            {
+              "field_id": "pos:before_len2",
+              "value_type": "boolean",
+              "count": 8
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:convolution kernel",
+          "label": "convolution kernel",
+          "attributes": [
+            {
+              "field_id": "pos:before_len2",
+              "value_type": "boolean",
+              "count": 8
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:perform the cross-correlation operation",
+          "label": "perform the cross-correlation operation",
+          "attributes": [
+            {
+              "field_id": "pos:before_len4",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:height 5 and width",
+          "label": "height 5 and width",
+          "attributes": [
+            {
+              "field_id": "pos:after_len4",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "verb": "on",
+      "fillerCount": 20,
+      "kinds": [
+        {
+          "id": "kind:tp-verb-island:on:filler:based|filler:created|filler:depend|filler:focus|filler:later|filler:operate|filler:padding|filler:parameters|filler:trained",
+          "label": "pos:before_len1",
+          "population": "tp-verb-island:on",
+          "members": [
+            "filler:based",
+            "filler:created",
+            "filler:depend",
+            "filler:focus",
+            "filler:later",
+            "filler:operate",
+            "filler:padding",
+            "filler:parameters",
+            "filler:trained"
+          ],
+          "core": {
+            "field_id": "pos:before_len1",
+            "value_type": "boolean",
+            "prevalence": 1
+          },
+          "cohesion": 1,
+          "height": "above",
+          "heightGate": {
+            "existence": {
+              "observed": 1,
+              "threshold": 0.4722222222222222,
+              "min": 0.2222222222222222,
+              "max": 0.5972222222222222,
+              "pValue": 0,
+              "passed": true
+            },
+            "constraint": {
+              "observed": 1,
+              "threshold": 0.6666666666666666,
+              "min": 0.1111111111111111,
+              "max": 0.6666666666666666,
+              "pValue": 0,
+              "passed": true
+            },
+            "relation": "above",
+            "searched": {
+              "observed": 1,
+              "threshold": 0.8847222222222222,
+              "min": 0.787037037037037,
+              "max": 0.8888888888888888,
+              "pValue": 0,
+              "passed": true
+            },
+            "ground": "key"
+          },
+          "operator_chain": {
+            "operator_epoch": "eo-2026-07",
+            "chain": [
+              "SIG",
+              "CON",
+              "EVA",
+              "DEF",
+              "INS",
+              "SYN"
+            ],
+            "stages": [
+              {
+                "operator": "SIG",
+                "target": "population:tp-verb-island:on",
+                "height": 0
+              },
+              {
+                "operator": "CON",
+                "target": "candidate:filler:operate|filler:focus|filler:later|filler:created|filler:parameters|filler:trained|filler:padding|filler:depend|filler:based",
+                "height": null
+              },
+              {
+                "operator": "EVA",
+                "target": "kind:pos:before_len1",
+                "height": "above"
+              },
+              {
+                "operator": "DEF",
+                "target": "kind:pos:before_len1",
+                "height": "above"
+              },
+              {
+                "operator": "INS",
+                "target": "members:9",
+                "height": "below"
+              },
+              {
+                "operator": "SYN",
+                "target": "vocabulary",
+                "height": null
+              }
+            ]
+          }
+        }
+      ],
+      "records": [
+        {
+          "id": "filler:depend",
+          "label": "depend",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:masking elements",
+          "label": "masking elements",
+          "attributes": [
+            {
+              "field_id": "pos:before_len2",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:based",
+          "label": "Based",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 6
+            },
+            {
+              "field_id": "capitalized",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:axis",
+          "label": "axis",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:lens is not none",
+          "label": "lens is not None",
+          "attributes": [
+            {
+              "field_id": "pos:before_len4",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:valid lens",
+          "label": "valid lens",
+          "attributes": [
+            {
+              "field_id": "pos:after_len2",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:operate",
+          "label": "operate",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:focus",
+          "label": "focus",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:later",
+          "label": "Later",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "capitalized",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:output based",
+          "label": "output based",
+          "attributes": [
+            {
+              "field_id": "pos:before_len2",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:created",
+          "label": "created",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:variable z already lives",
+          "label": "variable Z already lives",
+          "attributes": [
+            {
+              "field_id": "pos:before_len4",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:parameters",
+          "label": "parameters",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:trained",
+          "label": "trained",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:mean and variance",
+          "label": "mean and variance",
+          "attributes": [
+            {
+              "field_id": "pos:before_len3",
+              "value_type": "boolean",
+              "count": 6
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:how",
+          "label": "how",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:top",
+          "label": "top",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:elevations and reductions",
+          "label": "elevations and reductions",
+          "attributes": [
+            {
+              "field_id": "pos:before_len3",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:column is padded",
+          "label": "column is padded",
+          "attributes": [
+            {
+              "field_id": "pos:before_len3",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:padding",
+          "label": "padding",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "verb": "can",
+      "fillerCount": 11,
+      "kinds": [],
+      "records": [
+        {
+          "id": "filler:lead",
+          "label": "lead",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:use",
+          "label": "use",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "id": "filler:query",
+          "label": "query",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 1
+            },
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:see",
+          "label": "see",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 8
+            }
+          ]
+        },
+        {
+          "id": "filler:inspect",
+          "label": "inspect",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:refer",
+          "label": "refer",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:add",
+          "label": "add",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:learn",
+          "label": "learn",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:broadcasting operation",
+          "label": "broadcasting operation",
+          "attributes": [
+            {
+              "field_id": "pos:before_len2",
+              "value_type": "boolean",
+              "count": 3
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:train",
+          "label": "train",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:construct",
+          "label": "construct",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "verb": "uses",
+      "fillerCount": 3,
+      "kinds": [],
+      "records": [
+        {
+          "id": "filler:densenet",
+          "label": "DenseNet",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 2
+            },
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 1
+            },
+            {
+              "field_id": "capitalized",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:four-dimensional",
+          "label": "four-dimensional",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:convolutional layer",
+          "label": "convolutional layer",
+          "attributes": [
+            {
+              "field_id": "pos:before_len2",
+              "value_type": "boolean",
+              "count": 6
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "verb": "all",
+      "fillerCount": 3,
+      "kinds": [],
+      "records": [
+        {
+          "id": "filler:plot",
+          "label": "plot",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:locations",
+          "label": "locations",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "filler:stages",
+          "label": "stages",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "verb": "or",
+      "fillerCount": 12,
+      "kinds": [],
+      "records": [
+        {
+          "id": "filler:batch",
+          "label": "batch",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 8
+            }
+          ]
+        },
+        {
+          "id": "filler:values batch",
+          "label": "values batch",
+          "attributes": [
+            {
+              "field_id": "pos:after_len2",
+              "value_type": "boolean",
+              "count": 8
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:queries keys",
+          "label": "queries keys",
+          "attributes": [
+            {
+              "field_id": "pos:before_len2",
+              "value_type": "boolean",
+              "count": 8
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:key-value pairs num hiddens",
+          "label": "key-value pairs num hiddens",
+          "attributes": [
+            {
+              "field_id": "pos:after_len4",
+              "value_type": "boolean",
+              "count": 20
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:queries",
+          "label": "queries",
+          "attributes": [
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 24
+            }
+          ]
+        },
+        {
+          "id": "filler:vector",
+          "label": "vector",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:item scalar",
+          "label": "item scalar",
+          "attributes": [
+            {
+              "field_id": "pos:before_len2",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:key-value pairs",
+          "label": "key-value pairs",
+          "attributes": [
+            {
+              "field_id": "pos:after_len2",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:cpu",
+          "label": "cpu",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 1
+            },
+            {
+              "field_id": "pos:before_len1",
+              "value_type": "boolean",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "id": "filler:fully connected layer",
+          "label": "fully connected layer",
+          "attributes": [
+            {
+              "field_id": "pos:before_len3",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "filler:columns",
+          "label": "columns",
+          "attributes": [
+            {
+              "field_id": "pos:after_len1",
+              "value_type": "boolean",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "id": "filler:total of 2 rows",
+          "label": "total of 2 rows",
+          "attributes": [
+            {
+              "field_id": "pos:before_len4",
+              "value_type": "boolean",
+              "count": 4
+            },
+            {
+              "field_id": "multiword",
+              "value_type": "boolean",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "verb": "architecture",
+      "fillerCount": 0,
+      "kinds": []
+    },
+    {
+      "verb": "was",
+      "fillerCount": 0,
+      "kinds": []
+    }
+  ]
+}

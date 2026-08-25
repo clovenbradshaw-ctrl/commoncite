@@ -1,0 +1,36 @@
+{
+  "tag": "shakespeare-all-s-well-that-ends-well",
+  "kind": "play",
+  "spec": {
+    "window": 8,
+    "draws": 99,
+    "reseeds": 8,
+    "minArrivals": 4,
+    "atomsPerUnit": 200,
+    "offerEvery": 60
+  },
+  "segments": 23,
+  "units": 118,
+  "candidateSurfaces": 219,
+  "referents": 40,
+  "score": {
+    "registerSize": 0,
+    "referenceNodes": 23,
+    "entityHits": 0,
+    "entityRecall": 0,
+    "edgesFoundTotal": 0,
+    "candidateEdges": 0,
+    "referenceEdges": 95,
+    "edgeHits": 0,
+    "edgeRecall": 0,
+    "edgePrecision": 0,
+    "edgeChance": {
+      "mean": 0,
+      "p95": 0,
+      "max": 0
+    },
+    "matchedEdges": []
+  },
+  "edges": [],
+  "register": []
+}

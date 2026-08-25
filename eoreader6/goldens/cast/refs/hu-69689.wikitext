@@ -1,0 +1,348 @@
+{{egyért2|Molnár Ferenc regényéről|A Pál utcai fiúk (egyértelműsítő lap)}}
+{{Könyv infobox 
+| név           = ''A Pál utcai fiúk''
+| alcím         = 
+| eredeti cím   = <!-- Wikidata: P1476 -->
+| fordító       = 
+| felelős szerkesztő  = 
+| kép           = PaulStreetBoysBookCover.jpg
+| képméret      = 
+| képaláírás    = A könyv első kiadásának díszes borítója (1907)
+| szerző        = [[Molnár Ferenc (író)|Molnár Ferenc]]
+| ország        = {{Magyarország}}
+| nyelv         = [[Magyar nyelv|magyar]]
+| téma          = ifjúsági, kaland
+| műfaj         = [[Gyermek- és ifjúsági irodalom|ifjúsági regény]]
+| sorozat       = <!-- Wikidata: p179 -->
+| előző         = <!-- Wikidata: p155 -->
+| következő     = <!-- Wikidata: p156 -->
+| kapcsolódó film = ''Pál utcai fiúk'' (1917)<br />''[[Pál utcai fiúk (film, 1924)|Pál utcai fiúk]]'' (1924)<br />''No Greater Glory'' (1934)<br />''I ragazzi della via Paal '' (1935)<br />''[[A Pál utcai fiúk (film, 1969)|A Pál utcai fiúk]]'' (1969)<br />''A Pál utcai fiúk'' (2003)<br />''A Pál utcai fiúk'' (2005)
+| díjak         = <!-- Wikidata: p166 -->
+| kiadó         = [[Franklin Irodalmi és Nyomdai Rt.]]
+| kiadás dátuma = [[1907]]{{jegyzet*|megj=A ''[[Tanulók Lapja]]'' című ifjúsági folyóiratban folytatásokban már 1906-ban megjelent.}}
+| illusztrátor  = ismeretlen{{jegyzet*|megj= A könyv számos illusztrációt tartalmaz, amelyek között egészoldalas rajzok is szerepelnek, ezek hátoldalán nincsen szöveg. Hét ilyen lap technikájában és stílusában is eltérő mint a többi rajz (oldalszámozás nélküli lapok), így valószínűleg ezek más alkotó munkái.}}
+| borítógrafika = 
+| médiatípus    = [[könyv]]
+| oldalak       =  254{{jegyzet*|megj= Számozott oldalak (3–242) +14 számozatlan oldal (illusztrációk)}} (242)
+| isbn          = <!-- Wikidata: p212, p957 -->
+| doi           = <!-- Wikidata: p356 -->
+| mek           = 24400/24495/
+| wikicommons   = <!-- Wikidatából -->
+}}
+[[Fájl:Paul street boys sculpture PB110359.jpg|bélyegkép|260px|Práter utcai szoborcsoport ([[Szanyi Péter]] alkotása, 2007)]]
+[[Fájl:Molnar - Pál street boys 1907 illust Nr 01.jpg|bélyegkép|260px|Az osztály – illusztráció a könyv első kiadásában (1907)]]
+
+'''''A Pál utcai fiúk''''' [[Molnár Ferenc (író)|Molnár Ferenc]] ifjúsági [[regény]]e. Első közlése 1906-ban, a ''[[Tanulók Lapja]]'' című ifjúsági [[folyóirat]]ban folytatásokban történt. Könyv alakban először a [[Franklin Irodalmi és Nyomdai Rt.|Franklin-Társulatnál]] jelent meg, [[1907]]-ben.<ref>Az eredeti 1907-es kiadás a [[Magyar Elektronikus Könyvtár]]ban: [https://mek.oszk.hu/24400/24495/24495.pdf PDF formátumban]</ref> [[Magyarország]]on az egyik legolvasottabb és legnépszerűbb regény, kötelező olvasmány általános iskola ötödik osztályában. Külföldön a legismertebb magyar regény: számtalan nyelvre lefordították, sok országban (például [[Olaszország]]ban, [[Brazília|Brazíliában]] és [[Lengyelország]]ban<!-- [http://www.csodaceruza.com/cikk_fresh.htm]: állítólag Brazília egyes tartományaiban és az Egyesült Államokban -->) kötelező vagy ajánlott iskolai olvasmány.<ref name="Emőd">Emőd Teréz: [https://folyoiratok.oh.gov.hu/konyv-es-neveles/jatek-es-tervesztes Játék- és térvesztés – A Pál utcai fiúk aktualitása], Könyv és Nevelés, 2010/1</ref> A könyv máig ható nemzetközi népszerűsége arról tanúskodik, hogy olvasói szerint örök élethelyzetekről szól, bárhol, bármikor történhetett volna.
+
+A regény főszereplői – Áts Feri, Boka János, Geréb Dezső, Nemecsek Ernő – olyan karakteres emberi viselkedési mintákat mutatnak, amelyeket a név puszta említése felidéz, és a könyv annyira ismert, hogy ezeket a neveket gyakran használják emberi jellemek tömör leírására. A szereplők nevén kívül fogalommá váltak a regényből például a „[[gittegylet]]”, az „[[einstand]]” vagy a „[[A Pál utcai fiúk helyszínei|grund]]” szavak is.
+
+== Cselekmény ==
+Az 1889 márciusában{{jegyzet*|megj=[[Fábri Zoltán (rendező)|Fábri Zoltán]] filmjében ez a dátum [[1902]]. április.}} [[Budapest]]en játszódó regény a Pál utcai fiúk és a vörösingesek csapatának egymással szembeni hadakozását írja le. A kisgimnazisták megvédik játszóterüket, a „grundot” a kis szőke Nemecsek Ernő segítségével, akit előtte társai sokszor lenéztek, de betegen is velük küzd. Nem sokkal a győzelem után derül csak ki, hogy a grundra házat építenek.
+
+== Szereplők ==
+'''A Pál utcai fiúk''': Nemecsek Ernő*, Boka János, Geréb Dezső, Csele*, Csónakos, Kolnay Pál*,{{jegyzet*|megj= Kolnay keresztneve a IX. fejezetben, a gittegylet jegyzőkönyvéből derül ki.{{refmutat|Móra 1987|94. o.}} }} Barabás*, Weisz*, Richter*, Leszik* (*: a [[gittegylet]] tagjai), tizennégyen lehettek összesen.{{jegyzet*|Elnökválasztáskor „tizenegy szavazata volt Bokának, és három Gerébnek.”{{refmutat|Móra 1987|16. o.}} }}
+
+'''A vörösingesek''': A csapat vezére Áts Feri. Pásztor testvérek (erős, komor, napbarnított fiúk), Szebenics (fegyvertáros), Wendauer (helyettes fegyvertáros), tízen lehettek összesen.{{jegyzet*|megj=Bokáék a vörösingesek fegyvertárában nyolc [[Tomahawk (fegyver)|játéktomahawkot]] találnak. „Ebből könnyű volt kitalálni, hogy nyolcan vannak a vörösingesek.” {{refmutat|Móra 1987|23. o.}} }}
+
+Felnőttek: Rácz tanár úr, Janó (tót telepőr), Nemecsek szülei, Geréb apja („fekete ember”), Csetneky úr (Nemecsek apjánál csináltat kabátot), Mari (a Geréb családnál cseléd), olasz törökmézárus.
+
+Egyéb szereplők: Csengey (diák, „első pad első”).
+
+=== Nemecsek Ernő ===
+A „kis szőke” vézna testalkatú, kis növésű fiú, aki bátrabb a látszatnál. Alázatos, udvarias, érzékeny. Hektor (a telepőr kutyája) mellett ő az egyedüli közlegény a Pál utcai fiúknál. A Rákos utca 3. szám alatt lakott.
+
+{{Idézet|Se nem osztott, se nem szorzott, mint az ''egy'' a számtanban. Senki se törődött vele. Jelentéktelen kis sovány fiú volt, gyönge gyerek.|Részlet a regényből{{refhely|Móra 1987|7. o.}} }}
+
+A saját társai egy gittegyleti közgyűlésen igazságtalanul gyávának és árulónak nyilvánítják, nevét pedig megszégyenítésül csupa kisbetűvel írják be az egylet fekete noteszébe. A grundért vívott „csatát” Nemecsek Ernő – a legkisebb és leggyengébb a fiúk közt – dönti el. Nemecsek a hazájáért felelősséget vállaló kisember önfeláldozó, hősies bátorságának a jelképe, akit társai nem értettek meg, félreismerték és megszégyenítették, a regény végén a grund hőseként hal meg.
+
+=== Boka János ===
+A Pál utcai fiúk elnöke a Kinizsi utcában lakott egy szerény, kis földszintes házban. Magabiztos fellépésű, határozott jellem. Mindig kiáll az igazság mellett. Képes arra, hogy felismerje a hibáit és kijavítsa őket. A Pál utcai fiúk vezérként hamar bebizonyítja alkalmasságát a feladat elvégzésére. Becsvágy, hatalomvágy még nyomokban sem fordul elő benne. A Füvészkertben történtek után nem árulja el a társainak, hogy Geréb a vörösingesek között az elárulásukon mesterkedik. Boka nem csak azt bizonyítja, hogy igazságos vezető, hanem azt is, hogy hűséges barát.
+
+=== Áts Feri ===
+Egyike a legkarakteresebb szereplőknek. Bátor, erőteljes, következetes. A vörösingesek vezéreként korához képest nagy érettséggel követeli meg az általa hozott döntések betartását (a Pásztor testvérek megbüntetése a gyerekek meglopásáért). Egyedül behatol az ellenség főhadiszállására. Híre járt, hogy kicsapták a reáliskolából. Érettségét mutatja, hogy a csata elvesztése után félretéve az esetleges haragot, keserűséget, lelkifurdalásától hajtva elmegy Nemecsekék házához, hogy érdeklődjék a kisfiú állapotáról.
+
+=== Geréb Dezső ===
+Árulóvá válik és elárulja a Pál utcaiakat a vörösingeseknek, vissza akar térni, de Boka elutasítja. Egy levélben részletesen megbánja tettét és mégis visszafogadják, végül hősiesen harcol a Pál utcaiak oldalán a végső ütközetben.
+
+== Helyszínek ==
+[[Fájl:Ludovika akademia Fuveszkert terkepe 1884.jpg|bélyegkép|260px|A Füvészkert térképe 1884-ből]]
+
+A regényben szereplő grund a haditerv rajza szerint<ref>[https://mek.oszk.hu/00900/00960/kep.gif A grund alaprajza a könyvből] ({{refmutat|Móra 1987|56. o.}})</ref> a mai Pál és Mária utca sarkán volt, de a szövegből inkább az derül ki, hogy több telekből állt a játszótér, és maga az üres grund a Pál utcában beljebb lehetett.{{jegyzet*|megj= „A grund... […] Egy darabka föld, melyet egyik oldalról düledező palánk határol, s melynek többi oldalain nagy házfalak merednek az ég felé.”, „A grund maga üres volt, […] palánkja a Pál utca felől húzódott végig. Jobbról-balról két nagy ház határolja, s hátul... igen, hátul volt az, ami a grundot nagyszerűvé, érdekessé tette. Itt tudniillik egy másik nagy telek következett […] egy gőzfűrészelő cég bérelte, s a telek telis-tele volt farakásokkal.” (a haditerv ábrája tehát inkább a fűrésztelepet ábrázolja){{refmutat|Móra 1987|9. o.}} }}
+
+[[Fogarassy Miklós]] irodalomtörténész szerint Nemecsekék Rákos utcai lakása a mai Hőgyes Endre utca melletti tömbök területén lehetett, az akkoriban a környéket meghatározó alacsony, egészségtelen házak egyikében. A tó helyszínét is azonosította: ''„…az Üllői úti klinikák közül utolsó, a mai [[Magyar Természettudományi Múzeum|Természettudományi Múzeum]] felé eső tömböket csak később, a [[Millennium]] [1896] után építették meg – ezeknek az épületeknek a »telkén« lehetett ama tó, ahol a regény szereplői a vörösingeseket kihallgatják egy éjszaka.”'' Feltételezi, hogy iskolájuk a mai [[Képző- és Iparművészeti Szakgimnázium és Kollégium|Képző- és Iparművészeti Gimnázium]] épületében volt a jelenlegi [[Kálvin tér#Városkapu Üzletház|Kálvin téri áruház]] mögött.<ref>{{cite journal |author= [[Fogarassy Miklós]] |title= A Pál utcai fiúk |journal= Könyv és Nevelés |volume= 5 |issue= 3 |year= 2003 |url= https://epa.oszk.hu/01200/01245/00019/22Fogarassy.html |publisher= Országos Pedagógiai Könyvtár és Múzeum}}</ref>
+
+Továbbá a [[Magyar Nemzeti Múzeum|Nemzeti Múzeum]] kertje (a „Múzium”), az ''einstand'' helyszíne.
+
+{{lásd még|A Pál utcai fiúk helyszínei}}
+
+== Fejezetek ==
+* I. fejezet: Nemecsek beszámolója az einstandról
+* II. fejezet: Elnökválasztás a grundon
+* III. fejezet: „Itt jártak a Pál utcai fiúk”
+* IV. fejezet: A gittegylet felszámolása
+* V. fejezet: Nemecsek hőstette a Füvészkertben
+* VI. fejezet: A kiáltvány
+* VII. fejezet: Geréb levele és a küldöttség
+* VIII. fejezet: A csata napja
+* IX. fejezet: Bejegyzések a gittegylet nagykönyvében
+* X. fejezet: A díszokirat, Nemecsek betegágya
+
+=== I. fejezet ===
+Egy szép márciusi napon a természetrajzórán (12 óra 45 perckor) a tanár kísérlete közben minden diák már az óra végét várja. Boka a zsebtintatartójával bíbelődik, Csele a könyvlapjait rendezgeti, Csónakos ásít egy nagyot, Weisz morzsáktól szabadul meg, Geréb csoszog a pad alatt, Barabás a könyveit pakolgatja. Egy zongora[[verkli]] vidám hangja behallatszik a terembe. A tanár Csengeyvel becsukatja az ablakot. Csónakos egy papírgalacsint gurít Nemecseknek, akit arra kér, hogy adja tovább azt Bokának. ''„Délután háromkor közgyűlés. Elnökválasztás a grundon. Kihirdetni.”'' Kicsöngetés után Csele alkudozni kezd a [[törökméz]]árussal. Eddig minden egy [[krajcár]] volt, most meg minden kettő lett. Még a [[Diákcsemege|diákabrak]] is, ami a fiatalok kedvencévé vált. Geréb ötletét (kalapodavágás) Boka János csöndesen leinti, békít az okos, 14 éves fiú. Csónakos kocsisfüttyel üdvözli a társaságot. Nemecsek elmeséli, hogy a „Múziumban” (a [[Magyar Nemzeti Múzeum]] kertjében) tegnap a Pásztor testvérek ''einstand''ot csináltak.
+
+{{Idézet|Ez a csúf német szó azt jelenti, hogy az erős fiú hadizsákmánynak nyilvánítja a golyót, s aki ellenállni merészel, azzal szemben erőszakot fog használni. Az ''einstand'' tehát hadüzenet is. Egyszersmind az ostromállapotnak, az erőszaknak, az ököljognak és a kalózuralomnak rövid, de velős kijelentése.|Részlet a regényből{{refhely|Móra 1987|6. o.}} }}
+
+Nemecsek, Richter, Weisz, Kolnay és Barabás a Nemzeti Múzeum kertjébe mentek. Azt játszották, hogy mindenki gurít egy golyót, és akinek a üveggolyója eltalál egy olyan golyót, amely már oda van gurítva, akkor az megkapja az összeset. Nemecsek nyert (ezen össze is veszett egyik pajtásával), de a Pásztor testvérek elvették a nyereményét. A fiúk hallatlan szemtelenségnek tartják az esetet, még Boka is felháborodik az ügyön. Délután találkoznak a grundon, ott erről is beszélni fognak.
+
+Hazafelé Csónakos és Nemecsek [[Burnót|tubákot]] töm az orrába, nagyokat tüsszentve indulnak hazafelé.
+
+=== II. fejezet ===
+A grund bérházaktól határolt üres telek, rajta fatelep. A farakások között 50–60 kis szűk utca található, a [[Szőlőfélék|vadszőlővel]] befutott házikóban gőzfűrész dohog, a telep [[Tótok|tót]] őre, Janó az egyik csenevész [[eperfa]] tövében összetákolt apró fakalibában lakik. Ez a terület a Pál utcai fiúké, ahol mindenkinek rangja van: [[rendfokozat|kapitányok, főhadnagyok és hadnagyok]] rohangásznak játék közben. Közlegény – Hektoron, a tót nagy fekete kutyáján kívül – csak egy van: Nemecsek. Ő érkezik elsőnek a grundra, bereteszeli az ajtót, rögtön a dühösen ugató kutyára lesz figyelmes. A farakások tetejére a fiúk erődöt építettek, a középső [[Fellegvár|citadellán]] piros-zöld zászló leng. A kis szőke óvatosan az erőd közelébe megy, majd felmászik rá. Közben magát biztatva többször is ezt mondja: Ne félj, Nemecsek!
+
+Odafenn megpillantja a rettenetes Áts Ferit, mindnyájuk ellenségét, a füvészkertiek vezetőjét, aki gúnyosan ismétli a kisfiú szavait. A zászlójukat a vörösingesek vezére magával viszi.
+
+Nemecsek beszámol a többieknek a történtekről, Boka intézkedik, hogy új zászlójuk legyen (ezeket Csele nővére varrja). Önmagát is megbünteti Boka (mert nem zárta be az ajtót), neve bekerül a fekete noteszba, a fiúknak imponál a szigorúsága, meg az, hogy önmagával sem kivételez. Végül elnököt választanak, mégpedig teljhatalmú elnököt, akinek majd minden parancsát vakon kell teljesíteni. Egy kalapban gyűjtik a szavazatokat. Boka János 11 szavazatot kap, Geréb Dezsőre hárman voksolnak. Boka elhatározza, hogy meglátogatják a füvészkertieket, mielőtt azok jönnének ismét. Mindenki lelkesen támogatja a tervét.
+
+=== III. fejezet ===
+[[Fájl:Molnar - Pál street boys 1907 illust Nr 03.jpg|bélyegkép|240px|Nemecsek a füvészkerti pálmaházban: „Egész életemben folyton a vízben leszek?” – illusztráció a könyv első kiadásában (1907)<ref>[https://ng.24.hu/termeszet/2007/10/15/hol_furdott_nemecsek/ Hol fürdött Nemecsek?] (National Geographic, 2007. október 15.)</ref>]]
+
+A haditerv másnap délután, a [[gyorsírás]]óra után kész lett. Három fiú (Boka, Csónakos és Nemecsek) elmegy a [[Füvészkert (Budapest)|Füvészkertbe]], otthagyják a névjegyüket, egy piros papírra írt szöveget. „Itt voltak a Pál utcai fiúk!” Elindulnak, negyedóra alatt kiérnek a Füvészkerthez. A kőfalon nehéz lett volna bejutni, de hátul egy [[akác]]fa segítségével átmásznak a deszkapalánkon. A hídon két vörösinges őrködik, a szigeten lesz a füvészkertiek gyűlése. A (mesterséges) várromig lopakodva jutnak el a sötétben, bár az őrségváltás közbeni füttyök és a Füvészkert őrének esti sétája megijesztik őket. A várromnál 8 (fából és ezüstpapírból készült) [[Tomahawk (fegyver)|tomahawkra]] bukkannak, Áts Feriék fegyvertára lehet itt. A tavon egy csónakkal eveznek a szigetig. Közben Nemecsek véletlenül a vízbe esik. Csónakos (nevéhez híven) őrzi a csónakot, míg Boka és Nemecsek végrehajtja a küldetést. Itt megpillantják Gerébet, aki árulójukká vált, elmondja a grundot eddig birtokló gyerekek szokásait, titkait. A vörösingeseknek labdaterület kell, ezért nyílt háborúban akarják megszerezni a nagyvárosban ritka, üres telket. Egy időre elhagyják a tisztást a füvészkertiek, ekkor teszi ki Boka a Pál utcai fiúk üzenetét, majd eloltja a lámpát. A vörösingesek üldözni kezdik a három fiút, akik gyorsan áteveznek a túlpartra, majd az üvegházba menekülnek. Nemecsek óvatlanul [[gyufa|gyufát]] lobbant, Boka kiüti a kezéből, de már későn, Áts Feriék észreveszik őket. Nemecsek az aranyhalas medencébe bújik, Csónakos egy polc alá hasal, Boka a nyitott ajtó mögé áll. Miután nem találják őket, a három Pál utcai fiú szerencsésen visszajut a városba és [[lóvasút]]tal haza küldik a didergő kis szőkét.
+
+=== IV. fejezet ===
+Másnap délután egykor az iskolában vége a tanításnak, a gyerekek hazafelé készülődnek. Mindenki kíváncsi, mi történt előző nap a Füvészkertben. Nemecsek titokzatoskodik, Csónakos nagyokat lódít. Boka közli a Pál utcaiakkal, hogy délután kettőkor lesz megbeszélés erről. Rácz tanár úr tudomást szerez a gittegyletről és hívatja a tagjait, ezért a megbeszélést későbbre kell halasztaniuk. A tanári szobában kifaggatja őket a szerveződésről. Weisz az alapító elnök, Kolnay a pénztárnok, Barabás a pecsétőr, Nemecsek a titkár, Csele a zászlótartó, Richter és Leszik pityeregve bevallják „bűneiket”. A sírás meghatja a tanárt, de döbbenete az előkerült egyleti tárgyak miatt egyre csak nő: sima és [[okmánybélyeg]]ek, bélyegző, tagdíj, picike kis drótnyelű piros-fehér-zöld zászló („Gittgyűjtő Egyesület, Budapest, 1889. [[Nemzeti dal#A vers|Esküszünk, hogy rabok továb<!--egy b-vel!--> nem leszünk!]]” felirattal). Ezeket mind elkobozza, és kijelenti, hogy az egylet fel van oszlatva, és büntetésből valamennyi fiú „szabályszerűt” fog kapni magaviseletből. Nemecsek a kihallgatás közben friss gittre bukkan a tanári szoba egyik ablakában, amelyet kikapar; így a kis csapat meg van mentve. Boka nem szíveli az egyletet, gusztustalannak tartja, és attól is tart, hogy a grundról is árulkodhatnak. Megvárja őket a tanári előtt, fellélegzik, amikor Kolnay elmeséli a történteket, és kiderül, a grundról nem volt szó.
+
+[[Fájl:Molnar - Pál street boys 1907 illust Nr 05.jpg|bélyegkép|200px|''„Geréb megállott és visszafordult. Mikor Bokát meglátta, nagyot nevetett. És nevetve szaladt el előlük, ki a Körútra. A Pál utca házai közt élesen hangzott ez a gúnyos nevetés. Geréb kinevette őket.”'' – illusztráció a könyv első-kiadásában (1907)]]
+
+A gittegyletet tagjai még a megbeszélés előtt találkoznak a grundon, és kis vitát követően újjáalakítják azt. A közgyűlésen éppen Nemecsek akar felszólalni, amikor meglátja Gerébet, amint az a tót kunyhójához sompolyog. Otthagyja a közgyűlést, és Geréb után oson. Kihallgatja, hogy az áruló szivarral kínálja Janót, meg akarja vesztegetni a férfit, hogy az kergesse el a Pál utcai fiúkat. A gittegylet tagjai félreértik Nemecseket, aki Bokához rohant a rémisztő vesztegetési kísérlet hírével. Gyávának tartják Ernőt, amiért az nem akar esküt tenni. Kizárják az egyletből, és csupa kisbetűvel írják be a nevét az egylet fekete noteszébe: „nemecsek ernő áruló!!!”.
+
+Nemecsek Bokát házának kapujában találja, és elmondja az elnöknek Geréb árulását. Boka és Nemecsek Geréb után futnak, de a klinikánál megállnak, mert a kis szőkére köhögőroham tör. Boka Geréb után kiált, de a fiú – bár nevetve visszafordul feléjük – nem áll meg, eltűnik előlük. Érzik, hogy elvesztik a grundot, Boka tanácstalan, mit tehetnének, szemében könnycseppek csillognak.
+
+=== V. fejezet ===
+Két nappal később a Füvészkertben azt jelenti az összegyűlt vörösingesek előtt Szebenics Áts Ferinek, hogy eltűnt a fegyvertárukból a Pál utcai fiúk piros-zöld zászlaja. Egy lábnyomot is találtak, amely még a Wendauer lábnyománál is kisebb. Geréb, a kém jelentést tesz arról, hogy harc nélkül is megszerezhetik – megvesztegetéssel – a grundot. Áts Feri gyávának nevezi Gerébet, mert nem nyílt harcban, hanem alattomosan akarja megszerezni a labdaterületet. Geréb hűséget esküszik, a vezér kezet fog vele, Geréb hadnagyi rangot kap, a füvészkerti srácok maguk közé fogadják. Ezután a támadási tervük részleteit beszélik meg. Felmerül, hogy esetleg Gerébről sejthetik a Pál utcaiak, hogy már hozzájuk tartozik, de így válaszol:
+
+{{Idézet|
+– Nem fognak gyanítani semmit?<br />
+– Nem. És ha gyanítanának is valamit, nem merne szólni egyik sem, mert mind fél tőlem. Nincs azok közt egy bátor fiú sem!<br />
+Egy éles hang vágott egyszerre közbe:<br />
+– Dehogy nincs!|Részlet a regényből{{refhely|Móra 1987|48. o.}} }}
+
+A nagy fa tetejéről Nemecsek mászik le, ő vágott Geréb szavába és meglepően bátran szól a vörösingesekhez, mikor Áts kérdezi ki szólt közbe.
+
+::{|class="wikitable collapsible collapsed" width="830"
+|-
+!Nemecsek monológja – 1.
+|-
+|bgcolor="#F6F6F6"|
+„- Nemecsek! – mondta ijedten [Geréb].
+
+És a kis szőke felelt is:
+
+– Igen, Nemecsek. Én vagyok. És ne kutassák, hogy ki lopta el a Pál utcai zászlót a fegyvertárból, mert azt én loptam el. Itt van, ni! Nekem van az a kis lábam, ami még a Wendauer lábánál is kisebb. És nem szóltam volna, fenn maradhattam volna a fa tetején, amíg maguk mind el nem mentek volna, hiszen ott gubbaszkodtam már fél négy óta. De mikor Geréb azt mondta, hogy köztünk nincs egy se, aki bátor volna, hát akkor gondoltam: »Megállj, majd én megmutatom neked, hogy akad még a Pál utcaiak közt is bátor fiú, ha nem más, hát a Nemecsek, a közlegény!« Itt vagyok, kérem, kihallgattam az egész tanácskozást, visszaloptam a zászlónkat, most tessék, csináljanak velem, amit akarnak, verjenek meg, csavarják ki a kezemből a zászlót, mert magamtól ugyan oda nem adom. Tessék, tessék, csak rajta! Hiszen én egyedül vagyok, maguk meg tízen vannak!” 
+|-
+|align= right|
+– Részlet a regényből{{refhely|Móra 1987|49. o.}}
+|}
+
+Áts Ferinek megtetszik a kis legény, befogadná maguk közé, de Nemecsek nem áll kötélnek. A Pásztor testvérek kicsavarják a vezér utasítására a kisfiú kezéből a zászlót. Büntetést is kell kapnia a kis szőkének, de nem akarják elverni a gyöngécske fiút: csak megfürdetik. Ernő meg volt hűlve, s már napok óta köhögött, de nem szól erről, tűri, hogy a két Pásztor belenyomja nyakig a sekély vizű tóba. Hangos röhögés támad a vörösingesek között, még Geréb is nevet rajta. Nemecsek újra szól az őt kigúnyoló fiúkhoz, s a gonosz vidámság helyébe a tisztelet csendje ereszkedik.
+
+::{|class="wikitable collapsible collapsed" width="830"
+|-
+!Nemecsek monológja – 2.
+|-
+|bgcolor="#F6F6F6"|
+„De akkor elébe állt Geréb, széthúzta vigyorogva a száját,
+és kevélyes fejbólintással ezt kérdezte tőle:
+
+– Jó volt?
+
+Nemecsek ráemelte nagy kék szemét, és felelt:
+
+– Jó volt – mondta csöndesen, és hozzátette: – Jó volt, sokkal jobb volt, mint a parton állni, és kinevetni engem. Inkább újesztendeig a vízben ülök nyakig, mint hogy összeszűrjem a levet a barátaim ellenségeivel. Én nem bánom, hogy a vízbe nyomtatok. A múltkor magamtól pottyantam a vízbe, akkor is láttalak a szigeten, az idegenek közt. De engem meghívhattok magatok közé, hízeleghettek nekem, adhattok ajándékot, amennyit csak akartok, semmi közöm hozzátok. És ha még egyszer a vízbe nyomtok, és ha még százszor és ezerszer a vízbe nyomtok, akkor is eljövök ide holnap is meg holnapután is! Majd csak megbújok valahol, ahol nem vesztek észre. Nem félek én egyikőtöktől sem. És ha eljöttök hozzánk a Pál utcába, elvenni a földünket, hát majd mi is ott leszünk! És meg fogom nektek mutatni, hogy ahol mi is tízen vagyunk, ott másképpen fognak veletek beszélni, mint ahogy én most itt beszélek. Könnyű volt velem elbánni! Aki erősebb, az győz. A Pásztorok ellopták a golyóimat a Múzeum-kertben, mert ők voltak az erősebbek! Most meg beledobtatok a vízbe, mert ti vagytok az erősebbek! Könnyű tíznek egy ellen! De én nem bánom. Engem meg is verhettek, ha úgy tetszik. Hiszen ha akartam volna, nem kellett volna a vízbe mennem. De én nem csaptam fel közétek. Inkább fojtsatok vízbe, és verjetek agyon, de én ugyan nem leszek áruló, mint valaki, aki ott áll, ni... ott...
+
+Kinyújtotta a karját, és Gerébre mutatott, akinek most a torkán akadt a nevetés.”
+|-
+|align= right|
+– Részlet a regényből{{refhely|Móra 1987|50–51. o.}}
+|}
+
+A kis hős – aki a mai este igazi férfivá vált – elindul a híd felé. A két őrnek Áts Feri parancsot ad, hogy tisztelegjenek Nemecsek előtt. Ezután mindannyian feszes vigyázzba kapják magukat, s úgy tisztelegnek a kisfiú előtt. Gerébnek mindenki hátat fordít, el is somfordál a helyszínről. A két Pásztor is büntetést kap az einstand miatt a vezértől: ruhástul – engedelmesen – beleültek a vízbe nyakig. Hogy a többiek ne nevessenek, Feri hátraarcot parancsol nekik, majd elvezeti a csapatot a szigetről.
+
+=== VI. fejezet ===
+<poem><center>
+KIÁLTVÁNY!!!
+
+MOST MINDENKINEK TALPON KELL LENNI!
+BIRODALMUNKAT NAGY VESZEDELEM FENYEGETI,
+ÉS HA NEM LESZÜNK BÁTRAK,
+AZ EGÉSZ TERÜLETET ELVESZIK TŐLÜNK!
+VESZÉLYBEN A GRUND!
+A VÖRÖSINGESEK MEG AKARNAK BENNÜNKET TÁMADNI!
+DE MI OTT LESZÜNK, ÉS HA KELL,
+ÉLETÜNKKEL IS MEGVÉDELMEZZÜK BIRODALMUNKAT!
+MINDENKI TELJESÍTSE KÖTELESSÉGÉT!
+
+AZ ELNÖK{{refhely|Móra 1987|53. o.}}
+</center></poem>
+
+Boka kiáltványt függesztett ki a grundra a közelgő háborúról, és a fiúk lelkesedve várták a parancsnokot, aki mindent elmondott. Valamennyien felesküdtek a csapatra. Az elnök elmondta a haditervet, és azt is, hogy Nemecsek lett a hadsegédje. Ez ellen a gittegylet tiltakozott, de Bokát nem érdekelte az egylet. A kis Nemecsek azonban – aki már nagyon beteg volt és minduntalan köhögésrohamok törtek rá – nem akarta, hogy Boka is megvesse, hát elmondta, hogy miért is tartják őt gyávának. Boka megígérte, hogy a háború után tisztázza Nemecseket. Bár a kis közlegény szomorú volt, hogy az ő becsületének ügyét elnapolták, engedelmesen teljesítette az elnök utasításait. Megérkezett Geréb, és könyörgött Bokának, hogy fogadják vissza, de a Pál utcaiak vezetője nem engedte vissza a fiút, aki sírva elment.
+
+Miután egész délután gyakorlatoztak, kimondták, hogy aki a másnapi háborúból hiányzik, az szószegő. A gyakorlat után a gittegylet sürgős közgyűlést hívott össze, mert az elnök elfelejtette rágni a gittet, ami kiszáradt. Ezt akarták megtárgyalni, de megérkezett Geréb apja, aki tudni akarta, hogy a fia valóban áruló-e vagy sem. A kis Nemecsek, aki a láztól már nem is volt magánál, azt mondta, hogy Geréb nem áruló. Geréb apja boldogan tért haza, Boka pedig hazakísérte Nemecseket, aki már alig állt a lábán, és hallucinált a láztól.
+
+=== VII. fejezet ===
+Másnap a fiúk nem nagyon tudnak koncentrálni a latin órán, ezt pedig Rácz tanár úr észre is veszi, és zsörtölődik. A hadikészülődés híre szinten minden diák fülébe eljut, és mivel a vörösingesek a józsefvárosi reáliskolába jártak, így a gimnazisták Bokáék mellett állnak! A tanórán feleltetésre kerül sor, Nemecseket is felszólítják, de ő nem volt iskolában, betegsége okán. A Pál utcaiak tudják, hogy Ernő valami igazán szép dologban hűlt meg, mégpedig a „hazáért”! Emiatt már a gittegyletesek is fontolgatják, hogy az árulás vádját törlik a fekete noteszből. Az iskolában egyre-másra jönnek a gyerekek és mind segíteni szeretnének a grund megóvásában, még a törökméz árus is Boka után szól, de ebből az elnök nem kér, egyértelműen jelzi, hogy maguk fogják megvédeni a grundot. Az iskolaudvarban még pár jó tanácsot kapnak a Pál utcaiak , majd mindenki haza szalad, hogy a találkozó előtt még ebédeljenek. Pontban kettőkor Boka megérkezik a grundra, ahol a telep közepén már az egész hadsereg katonás sorban áll, csak egyvalaki hiányzik: Nemecsek! Boka az elnöki rangot tábornokira cseréli a háborús helyzethez igazodva, átbeszélik újra a haditervet, amit már mindenki kívülről tud. Az őrszem jelzi, hogy valaki be akar jönni a kapun: egy cseléd. Miután megbizonyosodtak róla, hogy tényleg nem egy álruhás vörösinges, beengedik, a hölgy pedig Gerébtől nyújt át egy levelet. Ebben hosszasan írt a hibáiról, illetve kérte a fiúk és Boka bocsánatát, valamint a vörösingesek gyűlésén titokban kihallgatott haditervet is részletezte, és kérte, hogy vegyék vissza akár közlegényként is. Boka összetrombitálja a fiúkat és megszavazzák egyöntetűen, hogy Gerébet visszafogadják, így ő újra a Pál utcaiak színeiben harcolhat, amit megüzennek a cseléddel. Geréb boldogan érkezik meg és áll be a sorba, a párja, felügyelője Boka parancsára Richter lesz. Az őrszem ezután ijedten fut Boka elé, jönnek a vörösingesek! Azt hiszik Geréb levele hazugság volt, de kiderül, csak követek jönnek, a két Pásztor fiú és Szebenics, fehér zászló alatt. A fiúk fegyvertelenül állnak Boka, Csele és Kolnay előtt. Áts Feri hadüzenetét hozzták a másnapi harc kezdetéről, majd megállapodnak a háromféle harcmódról (homokbombák, birkózás, lándzsavívás) és ezek tisztességes feltételeiről, amit mindenki betart! Érdeklődnek még Nemecsek hogyléte felől, illetve miután megtudják, hogy még mindig beteg, meglátogatják őt az otthonában és jobbulást kívánnak neki. Az idősebbik Pásztor fiú bocsánatot is kér tőle, amit Ernő kedvesen, el is fogad.
+
+=== VIII. fejezet ===
+A csata napján esős reggelre ébrednek a gyerekek, félnek, hogy elmossa az eső a csatát, de végül dél körül szebbre fordult az idő, így izgatottan várták a délutánt mindannyian. Miután az ebéd után kiértek a grundra, már mindenkiben forrt a harckészség. A grundon mély gödrökre lettek figyelmesebbek a fiúk, akik azonnal Bokához sietnek, hogy jelezzék neki a furcsaságot. Boka aztán elmeséli nekik, hogy az ő kérésére Janó ásta az árkokat, úgymond sáncokat, és ennek megfelelően a haditerven is változtatnak az utolsó pillanatokban. Mindenki teszi a dolgát, ki homokbombát gyárt, ki pedig a farakások tetején sürög-forog. A farakásokon a piros-zöld zászlók sorakoznak, csak a fő zászló helye üres, és bár az újra a grundon volt, Boka nem érezte igazságosnak, ahogyan az visszakerült, így küldöttséggel elküldi a vörösingesekhez, hogy a majdani csatában megérdemelten visszaszerezhessék. Áts Feri átveszi a zászlót, majd közli a küldöttekkel, hogy az a csata idején Szebenicsnél lesz! Áts feltételezi, hogy a zászlót Geréb juttathatta vissza, de erre a kérdésre a küldöttek nem válaszolnak, sarkon fordulnak és elvonulnak.
+
+A csata előtt az őrszemek már a palánkon ülnek és figyelnek. Geréb engedélyt kér Bokától, hogy a csatában az első sorban harcolhasson; bizonyítani szeretné hűségét a csapat iránt. Boka még egy utolsó szemlét tart a telepen, hogy mindenki a helyén van-e és tudja-e a dolgát. Boka és Kolnay a kunyhó tetejére másztak, ők onnan belátták az egész harcteret, amire a tábornoknak szüksége van egy csatában. Az ellenség közben megérkezett, amit trombitával jeleztek, mindenki a helyére megy és Kolnay is megfújja a trombitát. A vörösingesek ott állnak mind a két kapu előtt. A csata először csak a Mária utca felől indul meg, Áts Feriék a Pál utca felől csak állnak és várnak. Boka nagyon megörül ennek, szinte erre számított és biztos benne, hogy így győzni fognak. A Mária utcai oldalon a Pál utcaiak felülkerekednek a vörösingeseken, de Áts Feriék még mindig kint várják az övéik trombita hangját, ami jelezte volna, hogy ott nyertek, és együttes erővel támadhatnak. Egy idő után belátják, hogy elszámolták magukat és most már csak magukra számíthatnak a teljes Pál utcai fiúkkal szembeni csatában. Áts Feriék benyomulnak a grundra és elkezdődik a második összecsapás. A Pál utcai csapat már fáradt, ellenben Áts Feriékkel, akik eddig csak várakoztak, a harc állása most nem Bokáéknak kedvez, de töretlenül mennek egymás ellen, mindkét fél győzni akar. Boka utolsó csapásként a sáncárokban lapulókat akarja a harcba indítani. Kolnayt küldi az árkokhoz, hogy ott fújjon riadót, de egy erőteljes alak leteperi és birkózni kezd vele, így már nem tudja a parancsot átadni! Ezután Boka maga kénytelen az árokhoz menni és a parancsot kiadni, őt Áts Feri próbálja feltartóztatni, de ő a párharc helyett a sáncárokba veti magát, így onnan is megkezdődik a támadás, ez már a végső roham ideje. Mikor a vörösingesek már a vesztüket érzik, nem igen figyelnek a szabályos küzdelemre. Áts Feri a kunyhó felé vezényli csapatát, ahol a többi vörösingest tartotják fogva a Pál utcaiak, de egyszer csak megtorpan amikor a kunyhó mellől hirtelen egy kisgyerek áll elé, aki maga Nemecsek! Vékony kis hangján megálljt parancsol nekik, és a láztól, szinte önkívületében olyan erőt kap, hogy a nagy Áts Ferit a földre löki, majd ő is ájultan lerogy. A vörösingesek ezt látván összezavarodnak, és a Pál utcaiak az utolsó erejükkel a telepről kiszorítják a sereget. Áts Feri, miután felocsúdott, körülnéz és látja, hogy egyedül maradt.
+
+A kis Nemecsek a földön fekszik továbbra is, Boka és Janó gyorsan vizet hoznak neki. Most már mindenki körbeállja, aki lassan kinyitja szemét és körbenézve csak arra kíváncsi, hogy győztek-e. Boka elismeri, ha ő nem érkezik meg, és kiszabadulnak a vörösingesek a kunyhóból, akkor lehet máshogy alakul a csata kimenetele. Nemecsek nehezen akarja elhinni, hogy övé az érdem, majd arról mesél, hogy hogyan is jutott a grundra: mintha hallotta volna Csele segítségkérését, ezért megszökött otthonról. A foglyokat kiengedik a kunyhóból, Áts Feri távozik utoljára a grundról, aki előtt Boka és a teljes Pál utcai hadsereg tiszteleg. Geréb szóvá teszi, hogy Nemecsek még mindig csak közlegény. Boka igazat ad neki, és kapitánnyá léptetti elő, bár Nemecsek tiltakozik, mert ő nem ezért tette. Idő közben megérkezik Nemecsek anyja, aki már mindenhol sírva kereste a beteg fiút. Ölébe veszi, melengeti, úgy indul vele haza. A Pál utcaiak mind elkísérik őket, a ház előtt Nemecsek még erőt vesz magán, lábra áll, és mindenkivel egyesével kezet fog. Érzik a fiúk, hogy milyen forró a keze, majd anyja oldalán bemennek. A fiúk a kapu előtt állnak és mozdulni sem tudnak, de kis idő után szétszélednek, csak Boka marad végül egyedül. A kapunak dőlve sírva fakad, mert tudja, hogy a fiúnak már nem sok lehet hátra. Többen elmennek mellette, kérdezgetik, megbámulják, végül az öreg szabó jön hazafelé, aki megismeri Bokát, és kérdezés nélkül is tudja, mi a baja. Összeölelkeznek és együtt sírnak, végül az öreg bemegy, de Boka úgy érzi, muszáj maradnia és díszőrséget állnia haldokló katonája háza előtt. Boka átmegy a túloldalra onnan figyeli a házat. Az utca teljesen kihalt, de valaki közeledik, és megáll a ház előtt, tétovázik, bemegy az udvarra, de hamar ki is jön. Boka észre veszi vörös ingét: Áts Feri az. Szemtől szembe állnak egymással először életükben, de nem szólnak. Áts is marad, a ház előtt járkál fel-alá, majd amikor a házmester a kaput zárja érdeklődik nála Nemecsek felől. A választ Boka is hallja: rosszul van. Boka és Áts is hazaindulnak, a lakásban bent pedig Nemecsek az ágyban fekve, láztól forró arccal a grundra gondol.
+
+=== IX. fejezet ===
+Néhány oldal a gittegylet nagykönyvéből:
+* Nemecsek nevét, amely csupa kisbetűvel szerepelt benne, átírják csupa nagybetűsre.
+{{csonk-szakasz}}
+
+=== X. fejezet ===
+{{csonk-szakasz}}
+
+== Vélemények a regényről ==
+{{Idézet 2|A Pál utcai fiúk a legjobban szívemhez nőtt könyvem, 1906-ban írtam folytatásokban egy ifjúsági lap számára, amelyet volt tanárom, Dr. Rupp Kornél szerkesztett. Abban az időben természetesen még nem volt rendezett írói beosztásom, s így a körúti művészkávéház karzatán írtam délutánonként az egyes folytatásokat. Erre a szedő személyesen ügyelt fel, és szinte kitépkedte kezemből az esedékes kéziratlapokat. Egyébként is szerettem a karzaton dolgozni a nagy csend miatt, mert a szokásos kávéházi zsibongáson és a szünet nélküli katonazenekaron kívül semmi sem zavart meg a munkában. Szóval ezen a nyugodt helyen álmodtam vissza a gyerekkoromat, mikor még a Lónyay utca református gimnáziumába jártam, és valóban megvolt a grund a Pál utcában. Bár a regény fantáziám szüleménye, a figurái azonban éltek. A diáktársaim voltak ezek, akik közül kettővel még máig is a legjobb barátságban élek. Ezek Feiks Jenő rajzolóművész és Pásztor Árpád írótársam.|[[Molnár Ferenc (író)|Molnár Ferenc]] saját művéről [http://www.pim.hu/object.032cbeec-eb1e-4fcb-b3f9-2431933c56b9.ivy (PIM)] Voit Krisztina: Molnár Ferenc és a Franklin Társulat. Magyar Könyvszemle, 1982/3.}}
+
+{{Idézet 2|A kérdés mindig az, hogy az ember nemecsek legyen, kis kezdőbetűvel, és haljon meg az igaz ügyért, vagy kövesse el az élet szokásos árulásait, s élhessen tovább, igaz, behúzott vállal és lesunyt tekintettel. Határozottan csak az nyilatkozzék, akit már hozott ilyen döntési helyzetbe az élet. Mindettől függetlenül is: főhajtás Molnár Ferencnek.|[[Vámos Miklós]] [http://www.pim.hu/object.0fa60c11-8a89-4b0b-bcd7-b1e3f9b2f909.ivy (Petőfi Irodalmi Múzeum)]}}
+
+{{Idézet 2|A gyerekkor halhatatlan regénye A Pál utcai fiúk! Elég, ha rágondolok, és újra gyerek leszek és halhatatlan.
+|[[Csukás István (író)|Csukás István]] [http://www.pim.hu/object.83fbf078-40ec-41de-a20f-051b8501dd1f.ivy (PIM)]}}
+
+{{Idézet 2|Néhány évvel ezelőtt, egy fogadáson találkoztam a japán császárnéval, aki azt mondta, gyerekkorának kedvenc olvasmánya A Pál utcai fiúk volt, és biztos benne, hogy a magyarok mind olyanok, mint ők. Én meg azt gondoltam, hogy mi itthon tévedünk, nem a [[Nobel-díj]]as nagyságok, nem a művészóriások a legismertebb magyarok a nagyvilágban, hanem Boka és Nemecsek [...]|[[Békés Pál (író)|Békés Pál]] [http://www.pim.hu/object.771a7cd8-8fed-4536-8fba-304325a082ae.ivy (PIM)]}}
+
+== Nemzetközi fordítások ==
+{{oszlop-start}}
+{{oszlop-2}}
+* ''Djemtë e rrugës Pal'' és ''Çunat e rruges Pal'' ([[albán nyelv|albán]])
+* ''The Paul Street Boys'' és ''No Greater Glory'' ([[angol nyelv|angol]])
+* ''Момчетата от Павловата улица'' [Momcsetata ot Pavlovata ulica] és ''Момчетата от улица Пал'' [Momcsetata ot ulica Pal] ([[bolgár nyelv|bolgár]])
+* ''Chlapci z Pavelské ulice'' vagy ''Hoši z Pavelské ulice'' ([[cseh nyelv|cseh]])
+* ''La knaboj de Paŭlo-strato'' ([[eszperantó nyelv|eszperantó]])
+* ''Pál-tänava poisid'' ([[észt nyelv|észt]])
+* ''Koulupoikia (kirja Pál-kadun pojista)'' ([[finn nyelv|finn]])
+* ''Les garçons de la rue Pál'' és ''Les gars de la rue Paul'' ([[francia nyelv|francia]])
+* ''Paliskuzeli bizebi'' ([[grúz nyelv|grúz]])
+* מחנים ''Máhánájim''<ref>http://web.archive.org/web/20070926212523/http://demeter.oszk.hu/apache2-default/htm_jpg/oc33.310.jpg</ref> ([[héber nyelv|héber]])
+* ''De jongens van de Pálstraat'' ([[holland nyelv|holland]])
+* ''Junaci Pavlove Ulice'' és ''Dječaci Pavlove ulice'' ([[horvát nyelv|horvát]])
+* パール街の少年たち ''Pārugai no shōnentachi'' ([[japán nyelv|japán]])
+* 팔 거리의 아이들 ''Phal korii aidul'' ([[koreai nyelv|koreai]])
+* ''Chłopcy z Placu Broni'' ([[lengyel nyelv|lengyel]])
+* ''Palo gatvės berniūkščiai'' ([[litván nyelv|litván]])
+{{oszlop-2}}
+* ''Decata od Pavlovata ulica'' ([[macedón nyelv|macedón]])
+* ''Die Jungen der Paulstraße'' ([[német nyelv|német]])
+* ''Kampen om løkka'' ([[norvég nyelv|norvég]])
+* ''I ragazzi della via Pal'' és ''I ragazzi della via Paal'' ([[olasz nyelv|olasz]])
+* ''Мальчишки с улицы Пала'' [Malcsiski sz ulici Pala] ([[orosz nyelv|orosz]])
+* ''Pal csampu teghake''<ref>{{cite web|url=http://oszkdk.oszk.hu/storage/00/00/13/03/dd/1/hu_b1_c71872.pdf |title=Magyarországi irodalom idegen nyelven: a hazai szépirodalom fordításainak bibliográfiája: 1945-1968 közötti kiadások. |date=1975. |page=614-804 |publisher=oszkdk.oszk.hu}}</ref> ([[örmény nyelv|örmény]])
+* ''Os meninos da rua Paulo'' ([[portugál nyelv|portugál]])
+* ''Băieţii din strada Pal'' ([[román nyelv|román]])
+* ''Los chicos de la calle Paul'' ([[spanyol nyelv|spanyol]])
+* ''På liv och död'' ([[svéd nyelv|svéd]])
+* ''Junaci Pavlove Ulice'' és ''Дечаци Павлове улице'' / ''Dečaci Pavlove ulice'' ([[szerbhorvát nyelv|szerbhorvát]])
+* ''Chlapci z Pavlovskej ulice'' ([[szlovák nyelv|szlovák]]; [[Pataki Maurus]])
+* ''Dečki Pavlove ulice'' ([[szlovén nyelv|szlovén]])
+* ''Pal Sokağı Çocukları'' és ''Pal Sokağının Çocukları'' ([[török nyelv|török]])
+* ''Хлопці з вулиці Пала'' [Hlopci z vulüci Pala] ([[ukrán nyelv|ukrán]])
+* ''Những cậu con trai phố Pál'' és ''Những cậu con trai phố Pan'' ([[vietnámi nyelv|vietnámi]])
+{{oszlop-vége}}
+
+== Filmfeldolgozások ==
+[[Fájl:Molnar - Pál street boys 1907 illust Nr 10.jpg|bélyegkép|250px|Háború a grundon – illusztráció a könyv első kiadásában (1907)]]
+[[Fájl:Molnar - Pál street boys 1907 illust Nr 13.jpg|bélyegkép|250px|Nemecsek betegágya – illusztráció a könyv első kiadásában (1907)]]
+
+* ''A Pál utcai fiúk'' (1917), [[Balogh Béla (filmrendező)|Balogh Béla]] filmje (nem maradt fenn)<ref>Czakó Zsófia: [https://filmkultura.hu/?q=cikkek/balogh-b%C3%A9la-egyedi-tematik%C3%A1i-korabeli-magyar-filmben Balogh Béla egyedi tematikái a korabeli magyar filmben]{{Halott link|url=https://filmkultura.hu/?q=cikkek/balogh-b%C3%A9la-egyedi-tematik%C3%A1i-korabeli-magyar-filmben |date=2025-08 }}, filmkultura.hu - 2015. április 15.</ref><ref>[https://www.hangosfilm.hu/filmografia/a-pal-utcai-fiuk A Pál utcai fiúk (1917)], hangosfilm.hu</ref><ref>[https://nfi.hu/filmarchivum/kutatasoktatas/hungarika-kutatas-1/120-most-wanted/nemafilm/a-pal-utcai-fiuk-4.html A Pál utcai fiúk], [[Nemzeti Filmintézet]]</ref>
+* ''[[Pál utcai fiúk (film, 1924)|Pál utcai fiúk]]'' (1924) [[Balogh Béla (filmrendező)|Balogh Béla]] filmje<ref>{{cite web |url=http://www.pim.hu/object.2a4f9b17-4781-4985-a0bb-bb4b0ef05f85.ivy |author=Balogh Béla |title=A Pál utcai fiúk |publisher=pim.hu |accessdate=2011-02-11 |archiveurl=https://web.archive.org/web/20130928023448/http://www.pim.hu/object.2a4f9b17-4781-4985-a0bb-bb4b0ef05f85.ivy |archivedate=2013-09-28}}</ref>
+* ''[[No Greater Glory (film, 1934)|No Greater Glory]]'' (1934), [[Frank Borzage]] amerikai filmje<ref>{{Imdb cím|id=0025569|cím=No Greater Glory|leírás=(1934, r.: Frank Borzage)}}</ref>
+* ''[[I ragazzi della via Paal (film, 1935)|I ragazzi della via Paal]]'' (1935), [[Alberto Mondadori]] és [[Mario Monicelli]] filmje,<ref>{{cite web |url=http://www.sottodiciotto.it/index.php?IDpage=705&lang=ita |author= |title=I ragazzi della Via Paal, di Mario Monicelli |publisher=sottodiciotto.it |accessdate=2011-02-11 |year=1935 |language=olasz}}</ref>
+* ''[[A Pál utcai fiúk (film, 1969)|A Pál utcai fiúk]]'' (1969), [[Fábri Zoltán (rendező)|Fábri Zoltán]] filmje,<ref>{{cite web |url=http://www.port.hu/a_pal_utcai_fiuk/pls/fi/films.film_page?i_film_id=1978 |author=Fábri Zoltán |title=A Pál utcai fiúk|publisher=Port.hu |accessdate=2011-02-11}}</ref>
+* ''[[A Pál utcai fiúk (film, 2003)|A Pál utcai fiúk]]'' (2003), [[Maurizio Zaccaro]] filmje<ref>{{cite web |url=http://port.hu/pls/fi/films.film_page?i_film_id=61577 |author=Maurizio Zaccaro |title=A Pál utcai fiúk|publisher=Port.hu |accessdate=2011-02-11}}</ref>
+* ''[[A Pál utcai fiúk (film, 2005)|A Pál utcai fiúk]]'' (2005), [[Török Ferenc (rendező)|Török Ferenc]] filmje<ref>{{Imdb cím|id=0477832|cím=A Pál utcai fiúk|leírás= (2005, r.: Török Ferenc)}}</ref>
+
+== Színházi adaptációk ==
+''A Pál utcai fiúk''at, bár már több nyelven és országban is vetítették addigra a mozik,<ref>r. I.: ''A Pál-utcai fiuk – Molnár Ferenc regénye angol filmen'', (19. o.), Budapesti Hírlap 55. évfolyam 58. szám - 1935. március 10. (online: [https://adtplus.arcanum.hu/en/view/BudapestiHirlap_1935_03/?&pg=138 adtplus.arcanum.hu] {{regfiz}})</ref> csak az 1930-as években dramatizálta először [[Hevesi Sándor]] – 1929-ben [[Lehár Ferenc]] is készült [[operett]]et írni belőle, de végül – ígérete ellenére – nem kapott Molnár Ferenctől szövegkönyvet.{{jegyzet*|megj=[[Lehár Ferenc|Lehár]] kénytelen volt másik művet megírni az ''A Pál utcai fiúk'' „helyett” [[Bad Ischl|ischli]] villájában, az akkor hozzá beérkezett szövegkönyvek közül ''[[A mosoly országa]]'' ekkor készült el ([[Leon Viktor]] ''A sárga kabát'' című librettójának [[Ludwig Herzer]]- és [[Fritz Löhner]]-féle átirata a [[Komische Oper|berlini Metropole-Színház]] részére).<ref name=ischl/><ref>{{MaSzínmLex|ALL|Lehár Ferenc|105|III/szin_III.0115.pdf}}</ref>}}<ref name=ischl>''Az ischli operett-vásár érdekességei'' (8. o.), 8 Órai Ujság 15. évfolyam, 169. szám - 1929. július 27. (online: [https://adtplus.arcanum.hu/en/view/8OraiUjsag_1929_07/?pg=233 adtplus.arcanum.hu] {{regfiz}})</ref> A színpadi átirat Nemecsek alakját helyezte előtérbe. Hevesi már a bemutatót megelőzően két évvel kinézte a főszerepre [[Dán Etelka|Dán Etelkát]], aki ez idő alatt annyira elsajátította a szöveget, hogy egy francia fordítást is készített belőle. A többi fiú szerepet gyerekek játszották. A darabot az alapmű első közlésének harmincadik évfordulója alkalmából mutatták be, mint nyitóelőadás, a [[Vígszínház]]hoz három alkalmi produkcióra kibérelt harmadik színházában, a felújítását követő megnyitásán, a Royal Színház (sárga épülete a későbbi [[Madách Színház]] helyén állt<ref>Dalos László: ''Akivel beszélne a drámaíró milyen lehetett fiatalon?'' (14. o.), FilmSzínház Muzsika 1978. július-december (22. évfolyam 32. szám) - 1978. augusztus 12. (online: [https://adtplus.arcanum.hu/hu/view/FilmSzinhazMuzsika_1978_2/?pg=199 adtplus.arcanum.hu] {{regfiz}})</ref>) a szerződés szerint 1936 őszétől 1937 februárjáig játszotta.<ref>''Búcsúzik a 3:1 a szerelem javára – Két produkciót lát vendégül a Vígszínház a Royalban'' (8. o.), Esti Kurir 15. évfolyam 24. szám - 1937. január 30. (online: [https://adtplus.arcanum.hu/hu/view/EstiKurir_1937_01/?pg=119 adtplus.arcanum.hu] {{regfiz}})</ref><ref>Royal Színház {{SzínhLex||https://mek.oszk.hu/02100/02139/html/sz22/248.html}}</ref> Bár Hevesi dramaturgiai és rendezői képességét és a színészi játékot is több helyen elismeréssel illették, az előadás sikeres volta ellenére vegyes fogadtatásban részesült, mivel a kritikusok szerint a regény teljességét színházi adaptáció nem képes visszaadni.<ref name="Emőd"/><ref>Hevesi Sándor: ''Hogyan viszem színpadra „A Pál-uccai fiuk”-at és miért játssza Nemecseket színésznő'' (6. o.), Az Est 27. évfolyam 218. szám - 1936. szeptember 24. (online: [https://adtplus.arcanum.hu/en/view/AzEst_1936_09/?pg=265 adtplus.arcanum.hu])</ref><ref>''Nemecsek Ernő Dán Etelkáról'' (8. o.), Esti Kurir 14. évfolyam 253. szám - 1936. november 4. (online: [https://adtplus.arcanum.hu/en/view/EstiKurir_1936_11/?pg=23 adtplus.arcanum.hu] {{regfiz}})</ref><ref>Pukánszkyné Kádár Jolán, Berczéliné Monori Erzsébet: [https://library.hungaricana.hu/hu/view/OSZKEvkonyve_1965-1966/?pg=234&layout=s Az Országos Széchényi Könyvtár Színháztörténeti Tára] (233. o.), II. Az Országos Széchényi Könyvtár gyűjteményeinek anyagából, Az Országos Széchényi Könyvtár Évkönyve 1965-1966. Budapest - 1967.</ref> Külföldön először [[Milánó]]ban mutatták be, a budapesti bemutató után, decemberben.<ref>[https://library.hungaricana.hu/hu/view/PragaiMagyarHirlap_1936_11/?pg=277&layout=s A „Pál uccai fiuk*4 bemutatója Milánóban] (8. o.), Prágai Magyar Hirlap 15. évfolyam 273. (4122.) szám, library.hungaricana.hu - 1936. november 28.</ref> Magyarországon tíz évvel később a [[Budapesti Operettszínház|Fővárosi Operettszínházban]] újították fel és készítettek átiratot belőle, Nemecseket ekkor [[Pápai Erzsi]] játszotta – több szereplőt is ebből az előadásból válogattak, többek között a ''[[Valahol Európában (film)|Valahol Európában]]'' című filmbe.<ref>Kalmár Tibor: Mulattattam és mulattam ([https://books.google.hu/books?id=ITEnDwAAQBAJ&pg=PT57&f=false 57. o.]), Kossuth Kiadó, books.google.hu - 2017. június 2. {{ISBN|978-963-09-8909-1}}</ref><ref>Staud Géza: [https://library.hungaricana.hu/en/view/SZAK_SZIN_Szf_07/?&pg=16&layout=s A budapesti színházak műsora 1945-1949], Színháztörténeti füzetek 7., library.hungaricana.hu - 1959.</ref> Számos további színpadi kísérlet született, mire 1954-ben [[Török Sándor (író)|Török Sándor]] dramatizálta és alkalmazta újra sikerrel színpadra az alapművet, a hőslelkű kisfiú szerepében [[Békés Itala|Békés Italát]] láthatta a közönség.<ref>Hunyady József: ''Molnár Ferenc regényének színpadi változata a Petőfi Színházban'', Magyar Nemzet 10. évfolyam, 286. szám 1954. december 3. (online: [https://adtplus.arcanum.hu/en/view/MagyarNemzet_1954_12/?pg=16 adtplus.arcanum.hu] {{regfiz}})</ref>
+
+A történetet számos módon és formában fel- és átdolgozták színházi írók és társulatok. Volt, ahol csupa felnőtt férfi, vagy épp hogy csak nők játszották a gyerekeket,<ref>Stuber Andrea: [https://www.criticailapok.hu/15-2011/37688-pal-utcai-lanyok A Pál utcai lányok] Molnár: A Pál utcai fiúk színikritika, Criticai Lapok - 1992. november 5.</ref> készült belőle szabadtéri egy helyszínes,<ref>Kadelka László: [http://www.terasz.hu/main.php?id=eloadomuveszet&page=cikk&cikk_id=752&rovat_id=73&fazon= A Pál utcai fiúk – az Orczy-kertben] {{Wayback|url=http://www.terasz.hu/main.php?id=eloadomuveszet&page=cikk&cikk_id=752&rovat_id=73&fazon= |date=20200811184933}}, terasz.hu, 2002. augusztus 16.</ref> és „jelenet előadás”,<ref>[http://www.nefmi.gov.hu/letolt/minisz/eves_beszamolo_2008/petofi_irodalmi_muzeum_2008.pdf Szöveges indoklás a Petőfi Irodalmi Múzeum 2008. évi költségvetési beszámolójához] (14. o.), nefmi.gov.hu - 2008.</ref> illetve musical is.<ref>Szíjjártó Anita: [http://www.kultura.hu/eljenek-pal-utcai-fiuk Éljenek a Pál utcai fiúk!], kultura.hu - 2018. április 24.</ref>
+
+;színjáték<ref name="PIMpuf">Molnár Ferenc és A Pál utcai fiúk [https://pim.hu/archivum/puf/object.3A510362-F8DD-4C2B-9B46-B2162DD5292C.ivy.html Filmográfia, színházi átdolgozások], [https://pim.hu/archivum/puf/object.aeb7375e-a01e-4d6b-89f8-36cae26b7b72.ivy.html Adaptációk » Színház], pim.hu/archivum - 2009. október</ref><ref name=SzApuf>[https://monari.oszmi.hu/web/oszmi.01.01.php?bm=1&kr=A_10_%3D%22P%C3%A1l%20utcai%20fi%C3%BAk%2C%20A%22 A Pál utcai fiúk] {{Wayback|url=https://monari.oszmi.hu/web/oszmi.01.01.php?bm=1&kr=A_10_%3D%22P%C3%A1l%20utcai%20fi%C3%BAk%2C%20A%22 |date=20200901051418}} a [[Színházi adattár]] előadások adatbázisában</ref>
+*Royal Színház, bemutató: 1936. október 22., átdolgozta és rendezte: [[Hevesi Sándor]]
+*[[Ifjúsági Színház#A Petőfi Színház (1954–1960)|Petőfi Színház]], bemutató: 1954. november 12., átdolgozta: [[Török Sándor (író)|Török Sándor]], rendezte [[Apáthi Imre|Apáthy Imre]]
+*[[Pannon Várszínház]], bemutató: 2002. július 20., átdolgozta: [[Vándorfi László]], rendezte: [[Krámer György]]
+*[[Bárka Színház]], bemutató: 2002. augusztus 16., átdolgozta: [[Deres Péter]] és Vidovszky György, rendezte [[Vidovszky György]]
+*Szabadkai Tanyaszínház-Várszínház, bemutató: 2007. július 28.,<ref>[https://theater.hu/hu/szinhazak/vajdasagi-tanyaszinhaz--174/eloadasok/a-pal-utcai-fiuk--3110.html A Pál utcai fiúk] Theater Online (hozzáférés: 2018. szeptember 24.)</ref> átdolgozta: [[Góli Kornélia]], rendezte: [[László Sándor]]
+*[[Seregélyes (Magyarország)|Seregélyes]], bemutató: 2015. június 27., átdolgozta és rendezte: [[Kalányos Tamás]]<ref>[http://www.supertalent.hu/a-palutcaifiukamoderngrundmeseasupertalentnel A Pál utcai fiúk a modern grundmese a Super Talentnél!] {{Wayback|url=http://www.supertalent.hu/a-palutcaifiukamoderngrundmeseasupertalentnel |date=20180924224741}}, supertalent.hu - 2015. szeptember 1.</ref>
+*[[Győri Nemzeti Színház]], bemutató: 2017. január 14., átdolgozta és rendezte: [[Kszel Attila]]
+
+;más nyelven
+lengyel és magyar nyelven (Chłopcy z Placu Broni)
+*[[Nemzeti Színház]] (Budapest)/[[Nemzeti Színház (Varsó)]], magyar bemutató: 2007. április, lengyel bemutató: 2007. június 9., fordította: Tadeusz Olszański, átdolgozta és rendezte: Michał Zadara
+
+;zenés játék<ref name=PIMpuf/><ref name=SzApuf/>
+*[[Budapesti Operettszínház|Fővárosi Operettszínház]], bemutató: 1946. április 14., átdolgozta: Hevesi Sándor alapján [[Palotay István (erdőmérnök)|Palotay István]], rendezte: [[Lakner Lívia|F. Lakner Lívia]]
+*[[József Attila Színház]], bemutató: 1992. október 24., színpadra írta: [[Török Tamás (rendező)|Török Tamás]] és [[Ungvári Tamás]], dalok: [[Silló István]], rendezte: [[Tasnádi Csaba]]
+*[[Pécsi Sándor Guruló Színház]], bemutató: 2008., átdolgozta, rendezte: [[Ludvig Krisztián Ádám]], zene: [[Szakszon Csaba]], dalszöveg: [[Kriston Ákos]]
+*[[Szép Ernő Színház]], bemutató: 2013. március 22., átdolgozta, rendezte: [[Szinovál Gyula]], zene: [[Baka Gábor]].<ref>{{youtube|59ojyPfL0H8|Pál utcai fiúk - a Szép Ernő Színház musical bemutatója}} és {{youtube|MpKXo_DAiQE|Pál utcai fiúk - a Szép Ernő Színház musical bemutatója 2.}} az Újpesti Közéleti Televízió 2013.03.15.-i adásából, az ''ujpestujpest'' YouTube-csatornán - Közzététel: 2013. márc. 19.</ref>
+*[[Vígszínház]], bemutató: 2016. november 5., átdolgozta: [[Grecsó Krisztián]], zene: [[Dés László]], dalszöveg: [[Geszti Péter]], rendezte: [[Marton László (rendező)|Marton László]] (bővebben: [[A Pál utcai fiúk (musical)]])
+
+;más nyelven
+török nyelven
+*[[Ankarai Állami Színház]], bemutató: 2012. március, fordította: Tarik Demirkan, átdolgozta: Serra Canbay, rendezte: Ebru Kara<ref>K. Tengeri Dalma, Isztambul: ''[http://nol.hu/kultura/20120806-imadjak_molnart_a_torokok-1323597 Imádják Molnárt a törökök]'' (15. o.), Népszabadság 70. évfolyam 183. szám, nol.hu - 2012. augusztus 6.</ref>
+
+== Egyéb ==
+[[Fájl:Nemecsek szobra a füvészkertben.jpg|bélyegkép|200px|Nemecsek szobra a Füvészkert pálmaházában]]
+
+A VIII. kerületben két helyen is szobor állít emléket a regénynek. A Práter utcai ötalakos szoborcsoportot, [[Szanyi Péter]] alkotását 2007-ben adták át a jelenlegi Szent Benedek Gimnázium és Örömhír Általános Iskola épülete előtt, és az einstandot ábrázolja; Nemecsek, Kolnay, Weisz és a két Pásztor testvér a szereplők.<ref>[https://kulturpart.hu/2007/09/29/szobrot_kapott_nemecsek_erno Szobrot kapott Nemecsek Ernő]</ref> A Füvészkertben a pálmaház medencéjében lévő Nemecsek-szobrot, Zsigó András alkotását 2019. augusztus 15-én adták át.<ref>[https://www.fuveszkert.org/hirek/nemecsek-szobor-atadas/ A Nemecsek-szobor átadása]</ref>
+
+2018-ban a regény a [[POKET Zsebkönyvek]] projekt első öt kiadványa közé tartozott.
+
+[[Rónai Pál (író)|Rónai Pál]] fordításában a regény több brazil államban is az iskolai olvasmányok részét képezi.<ref name="telex">{{cite web|url=https://telex.hu/kult/2021/10/10/ronai-pal-paulo-brazilia-a-pal-utcai-fiuk-kultusz|title=Még mindig kultikus Brazíliában a Pál utcai fiúk és fordítója is|publisher=Telex|accessdate=2021-10-10}}</ref>
+
+== Megjegyzések ==
+{{megjegyzések}}
+
+== Hivatkozások ==
+{{jegyzetek}}
+
+== Források ==
+* {{hely|Móra 1987}} [[Molnár Ferenc (író)|Molnár Ferenc]]: ''A Pál utcai fiúk'', Móra Ferenc Könyvkiadó, Budapest, 1987, {{ISBN|963-11-5295-2}}, ([https://mek.oszk.hu/00900/00960/00960.pdf korrektúrázva a Magyar Elektronikus Könyvtárban])
+* A könyv fülszövege a MEK (Magyar Elektronikus Könyvtár) oldalán: [https://mek.oszk.hu/00900/00960/fulszoveg.html Legeza Ilona könyvismertetője]
+* [https://web.archive.org/web/20100416073054/http://www.pim.hu/object.5b08ca26-5969-4182-87de-d139c5a289f3.ivy Összefoglaló ismertetés és rövid idézetek kritikákból] a Petőfi Irodalmi Múzeum honlapján
+* [http://moly.hu/konyvek/molnar-ferenc-a-pal-utcai-fiuk A regény adatlapja a Molyon]
+* [https://web.archive.org/web/20130602035728/http://www.pim.hu/object.e1c4686f-9105-47a0-be7a-ce796ded77e7.ivy Üzenetek A Pál utcai fiúkkal kapcsolatban]
+* [http://www.hetek.hu/fokusz/200711/a_magyar_mitosz A magyar mítosz]
+* [https://aradib.blog.hu/2016/06/10/a_pal_utcai_fiuk_523 Áts Feri és Boka János jellemzése]
+
+== További információk ==
+{{Wikidézet}}
+{{Commonskat|The Paul Street Boys}}
+* [https://pim.hu/archivum/puf/ A Pál utcai fiúk] – virtuális kiállítás a [[Petőfi Irodalmi Múzeum]] honlapján
+* {{cite book |title= Házi olvasmányok elemzése |location=Debrecen |year= 1997 |publisher= BLACK & WHITE Kiadó}}
+* {{cite book |author= Erdődy Edit |chapter= Molnár Ferenc: A Pál utcai fiúk (Műelemzés) |publisher= Akkord Kiadó |year= 2005 |title= Talentum Műelemzések |isbn= 963 9429 43 0}}
+* {{cite journal |author= Borbély Sándor |authorlink= Borbély Sándor (irodalomtörténész) |title= Az örök kiskamasz: Molnár Ferenc |journal= Könyv és Nevelés |volume= 5 |issue= 1 |year= 2003 |url= https://epa.oszk.hu/01200/01245/00017/Borbely.html |publisher= Országos Pedagógiai Könyvtár és Múzeum}}
+* {{cite web |author= [[N. Kósa Judit]] |title= Az ál-Nemecsek pere | publisher= [[Népszabadság]] |date= 1998-03-13 |url= http://nol.hu/archivum/archiv-6594-2538 | archiveurl= https://web.archive.org/web/20200828085114/http://nol.hu/archivum/archiv-6594-2538 | archive-date= 2020-08-28 |accessdate= 2009-11-25}}, részlet: {{cite web |author= N. Kósa Judit |title= Az ál-Nemecsek pere – Jezsek-Józsika Ferenc kontra Hollós Korvin Lajos | publisher= [[Petőfi Irodalmi Múzeum|PIM]] |year= 2025 |url= https://archivum.pim.hu/puf/object.d180a532-1ded-4ed6-9bc9-9d52619f8185.ivy.html |accessdate= 2025-09-28}}
+* {{cite journal |url= https://epa.oszk.hu/00300/00381/00284/pdf/EPA00381_kortars_2022_10_021-028.pdf |author= Bálint Endre |title= A Pál utcai fiúk nyomában |journal= [[Kortárs (folyóirat)|KORTÁRS]] | year=2022 |volume= 66 |issue= 10 |pages= 21–28}}
+* {{cite journal |author= [[Galuska László Pál]] |title=A Pál utcai fiúk értelmezésének kérdései a magyar gyermekirodalmi kutatásban |journal= Könyv és Nevelés |volume= 10 |issue= 3 |year= 2008 |url=https://epa.oszk.hu/01200/01245/00039/glp_0803.htm}}
+* {{cite journal |author= Lengyel Imre Zsolt |title= Illusio és irónia A Pál utcai fiúkban |journal= [[Literatura (folyóirat, 1974–)|Literatura]] |volume= 47 |issue= 2 |year= 2021 |url= http://real.mtak.hu/135330/1/LengyelImreZsolt.pdf}}
+* [http://epulettar.hu/projekt/grund-budapest-viii Grund projekt, Budapest VIII.] Épülettár, {{Halott link|url=http://epulettar.hu/projekt/grund-budapest-viii |date=2023-01}} [https://index.hu/kultur/eletmod/palutca/ Nemecsek visszatér a Józsefvárosba], [[Index.hu]], 2006. szeptember 12. / [https://www.economx.hu/csr/mienk-helyett-ovek-lett-a-ter.348418.html Miénk helyett övék lett a tér], economx.hu, 2007. október 19. 
+* [http://www.babelmatrix.org/index.php?page=authorPage&auth_id=642 ''A Pál utcai fiúk'' műfordításokban] Bábel Web Antológia
+* [https://web.archive.org/web/20061025120605/http://www.hangoskonyvek.hu/product_info.php?products_id=116 Hangoskönyv változat] [[Németh Kristóf (színművész)|Németh Kristóf]] előadásában
+* [https://mek.oszk.hu/html/vgi/profivox.php3?id=00960&szerzok=Moln%E1r+Ferenc&cim=A+P%E1l+utcai+fi%FAk Hangoskönyv változat] Felolvasó szoftver „előadásában”
+* [https://mek.oszk.hu/23700/23762/mp3/index.html Hangoskönyv változat] [[Engler József]] előadásában
+
+{{portál|Irodalom}}
+
+{{DEFAULTSORT:Pálutcaifiúk}}
+[[Kategória:Molnár Ferenc művei]]
+[[Kategória:20. századi magyar regények]]
+[[Kategória:Budapest VIII. kerülete]]
+[[Kategória:Budapest IX. kerülete]]
+[[Kategória:1907 regényei]]
+[[Kategória:Gyermek- és ifjúsági regények]]
+[[Kategória:Budapesten játszódó irodalmi művek]]

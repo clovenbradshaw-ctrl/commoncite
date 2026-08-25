@@ -1,0 +1,96 @@
+{
+  "tag": "shakespeare-richard-ii",
+  "kind": "play",
+  "spec": {
+    "window": 8,
+    "draws": 99,
+    "reseeds": 8,
+    "minArrivals": 4,
+    "atomsPerUnit": 200,
+    "offerEvery": 60
+  },
+  "segments": 19,
+  "units": 111,
+  "candidateSurfaces": 430,
+  "referents": 79,
+  "score": {
+    "registerSize": 5,
+    "referenceNodes": 35,
+    "entityHits": 2,
+    "entityRecall": 0.05714285714285714,
+    "edgesFoundTotal": 2,
+    "candidateEdges": 1,
+    "referenceEdges": 177,
+    "edgeHits": 1,
+    "edgeRecall": 0.005649717514124294,
+    "edgePrecision": 1,
+    "edgeChance": {
+      "mean": 1,
+      "p95": 1,
+      "max": 1
+    },
+    "matchedEdges": [
+      {
+        "a": "Bolingbroke",
+        "b": "K. Richard",
+        "weight": 224
+      }
+    ]
+  },
+  "edges": [
+    {
+      "a": "e0",
+      "b": "e1",
+      "weight": 145,
+      "pValue": 0
+    },
+    {
+      "a": "e3",
+      "b": "e4",
+      "weight": 224,
+      "pValue": 0.005025125628140704
+    }
+  ],
+  "register": [
+    {
+      "id": "e0",
+      "referentIds": [
+        "ref:auto:duke"
+      ],
+      "surface": "Duke",
+      "bornAt": 60
+    },
+    {
+      "id": "e1",
+      "referentIds": [
+        "ref:auto:hereford"
+      ],
+      "surface": "Hereford",
+      "bornAt": 111
+    },
+    {
+      "id": "e2",
+      "referentIds": [
+        "ref:auto:norfolk"
+      ],
+      "surface": "Norfolk",
+      "bornAt": 111
+    },
+    {
+      "id": "e3",
+      "referentIds": [
+        "ref:auto:bolingbroke"
+      ],
+      "surface": "Bolingbroke",
+      "bornAt": 111
+    },
+    {
+      "id": "e4",
+      "referentIds": [
+        "ref:auto:richard"
+      ],
+      "surface": "Richard",
+      "bornAt": 111
+    }
+  ]
+}

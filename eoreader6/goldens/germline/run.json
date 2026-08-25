@@ -1,0 +1,48 @@
+{
+  "task": "Units are the words of the text, split on whitespace (use a regex literal, not a string). The reduced series is the character length of each word read so far.",
+  "fixture": "/home/user/eoreader6/scripts/adversarial/fixtures/frankenstein-excerpt.txt",
+  "llm": "http://127.0.0.1:8033/v1/chat/completions",
+  "rounds": [
+    {
+      "kind": "guide",
+      "raw": "{\"load_body\": \"return text.split(/\\b/).filter(s => s.trim().length > 0);\", \"unit_count_expr\": \"units.length\", \"reduce_body\": \"return units.slice(0, readTo).map(s => s.length);\"}"
+    },
+    {
+      "kind": "refusal",
+      "gap": {
+        "gap": "not_earned",
+        "gate": "behavior",
+        "why": "reduce must return a finite numeric series of length >= 2"
+      }
+    },
+    {
+      "kind": "repaired-guide",
+      "raw": "{\"load_body\":\"return text.split(/[.?!]/).filter(s => s.trim().length > 0);\",\"unit_count_expr\":\"units.length\",\"reduce_body\":\"return units.slice(0, readTo).map(s => s.length);\"}"
+    }
+  ],
+  "outcome": {
+    "survived": true,
+    "cleared": [
+      "imports",
+      "contract",
+      "behavior",
+      "physics"
+    ],
+    "extent": 552,
+    "sample": [
+      233,
+      136,
+      9,
+      3,
+      140,
+      263,
+      9,
+      88,
+      26,
+      47,
+      572,
+      17
+    ],
+    "source": "// instantiated by packages/host/germline.js (germline@0)\n// giver: local-model qwen2.5-1.5b via germline-e2e.mjs (repair round)\n// Contract (perceiver/text/material.js): load(path) does I/O once;\n// reduce(units, { fraction }) is pure.\nimport { readFileSync } from \"node:fs\";\n\nexport const load = async (path, opts = {}) => {\n  const text = readFileSync(path, \"utf8\");\n  return text.split(/[.?!]/).filter(s => s.trim().length > 0);\n};\n\nexport const reduce = (units, { fraction = 1, ...opts } = {}) => {\n  const readTo = Math.max(2, Math.floor((units.length) * fraction));\n  return units.slice(0, readTo).map(s => s.length);\n};\n"
+  }
+}
