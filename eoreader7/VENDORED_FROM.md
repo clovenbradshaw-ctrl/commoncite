@@ -33,3 +33,15 @@ through the frozen v6.1 compatibility surface while native `kernel.js` /
 currently reads through that compatibility surface (`packages/host/*`),
 unchanged in shape from the eoreader6 vendor drop it replaces — see
 MANIFEST.json for what specifically points where.
+
+## This is a pin, not the only copy
+
+`/Users/mlacy/Documents/3.0/eoreader7` (outside this repo) is a real,
+live `git clone` of the same upstream, tracking `origin/main` and able to
+`git pull` forward. As of 2026-08-25 both copies sit at the same commit
+(`dcec657f`), by coincidence of timing, not by any sync mechanism between
+them. This directory will not follow upstream on its own — that's the
+point of vendoring a pin — so if upstream moves and the live clone
+follows, this copy stays at `dcec657f` until someone re-vendors on
+purpose. If something behaves differently here than in that other clone,
+check `EOREADER_COMMIT` on both sides before assuming it's the same bug.
