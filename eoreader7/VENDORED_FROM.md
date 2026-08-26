@@ -15,8 +15,17 @@ been dereferenced into a real copy. That means the legacy compatibility
 content exists twice in this tree: once at the flattened top-level paths
 (`packages/`, `bin/`, etc. — what those paths resolved to upstream) and
 once again under `legacy-eoreader6.1/` (the complete submodule checkout,
-kept for full provenance). They are byte-identical; the duplication is the
-cost of a checksum-friendly, symlink-free vendor copy.
+kept for full provenance). They are byte-identical, with one deliberate
+exception: the root-level `package.json`'s `"name"` field reads `eoreader7`
+here, not the upstream `eoreader6` it carries in `legacy-eoreader6.1/`.
+Upstream itself has no first-class root `package.json` — that path is
+just where the legacy submodule's own descriptor resolves to via symlink
+— so there was no "correct" eoreader7 identity to restore; the rename
+exists only so name-based discovery (grep, `npm ls`, an agent checking
+"what package is this") doesn't return `eoreader6` for a tree that is,
+in fact, eoreader7. Nothing in Commoncite's own tooling reads this field.
+`legacy-eoreader6.1/package.json` is untouched and stays byte-faithful to
+the real upstream submodule.
 
 This is EOReader 7's own documented migration path: existing consumers import
 through the frozen v6.1 compatibility surface while native `kernel.js` /

@@ -13,7 +13,7 @@ b313f47c58e77a1e16420376f6de187c1061766982ec9879afe624b9a772c680  ./eoreader7/RE
 28878e71cb4923dd79fb2aa8f2063d13cb96f0f8ec8dcd4d4109c69b0a435cf4  ./eoreader7/REC-TRIGGER-CALIBRATION-BRIEF.md
 471dfc90845898113b3893b1cfda7d790147ea16877507b1a30963068eb54ac8  ./eoreader7/SEED.md
 e0c3cc500c77f9c03cee2bc288b5ef0c5e29b21191481becb25e879a3352dc6d  ./eoreader7/V7-CUT.md
-1c91e1b9a92b21c800e2d9f82d3210188897359f8a88011b24cce649f0ce4b5e  ./eoreader7/VENDORED_FROM.md
+e602ee4bc2ee8ca6674836201f3c5c3535f3b59acdb25748bd3bc244de1aa0dc  ./eoreader7/VENDORED_FROM.md
 3fcb873ff3d08256fec775975d3b48caaee85cc25902627a935b9c1d1c32fd1f  ./eoreader7/bin/README.md
 c9d2826fb0c37acd77ec6eff648227b498a69a4d603eb0dad716151a3c2d4393  ./eoreader7/bin/priors/genre/checkpoints/3.json
 ea88af1c9ace30cbbde918ab1a8747946e21309e82ce74eb247b9595aad9243d  ./eoreader7/bin/priors/genre/lens-fold.json
@@ -1252,7 +1252,7 @@ d7141333ffd9c5089e4385fd3fe40471485b3198a779f0eda4996fddd032048f  ./eoreader7/na
 c8e151379d834f7ef6733723fbc419c92e3ab48c4cc490a1a6bec04ec4501a07  ./eoreader7/native/tests/terrain-activation.test.js
 c5b45c4150513e7a77dbfc5daa9512ecc29698206dde73bd46e06badd7744968  ./eoreader7/native/tests/vocabulary.test.js
 26ba3de7d5b90d8e0cb5d30e94a83e25cfe4885a77376e3504a874089329e12d  ./eoreader7/nul/index.js
-4a39ce9446495722cc1f0a7cdaf751937a123be7170216fd789a0355be850651  ./eoreader7/package.json
+fee88adab617e32a25ca5cc64b8984b1b84a0c02cf88af0ac76ec87edccb5bcd  ./eoreader7/package.json
 a140cc03b6dfa3bfe3e53856d973ecdcd80bdbab7e05d934ed7dd6767de14ea8  ./eoreader7/packages/engine/competency/ledger.js
 d442b70ac81d7d97beaddb096b5a70a5b7b4ffc686b1e3d8929d4459b55a212f  ./eoreader7/packages/engine/dynamics/index.js
 d158635f02a8cbf1578d085f8f862de314d1986cbc326fd7cc148628b685c9b7  ./eoreader7/packages/engine/emergence/activation.js
