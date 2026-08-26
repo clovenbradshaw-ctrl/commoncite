@@ -5,13 +5,15 @@ import { useEffect, useMemo, useRef, useState } from "react";
 type Span = { span_id: string; page: number; order: number; char_start: number; char_end: number; byte_start: number; byte_end: number; text: string };
 type Page = { page: number; char_start: number; char_end: number; byte_start: number; byte_end: number; text: string; spans: Span[] };
 type Referent = { id: string; display: string; mentions: number; frames: number; surfaces: string[] };
+type SourceLink = { href: string; text: string };
 type Witness = {
   schema: string; title: string; edition: string; stable_uri: string; origin_uri: string; media_type: string;
   source_integrity: { sha256: string; byte_count?: number; preserved_copy?: string };
   extraction: { adapter: string; adapter_role: string; character_count: number; utf8_byte_count: number; page_count: number; sentence_span_count: number; all_page_text_retained: boolean };
   engine: { name: string; release: string; repository: string; commit: string; language_received: string; llm_used: boolean; model: null };
   admission: { chunk_count: number; admitted_span_count: number; reading: { admission_hash: string; chunk_count: number; motifs_found: number; settled_count: number } };
-  grammar: { referents: Referent[]; relations: { subject: string; verb: string; object: string; polarity: string }[]; relation_total: number; network: { node_count: number; edge_count: number }; explicit_gaps: { terrain: string; organ: string; reason?: string; detail: string }[] };
+  grammar: { referents: Referent[]; relations: { subject: string; verb: string; object: string; polarity: string }[]; relation_total: number; relation_truncated?: boolean; network: { node_count: number; edge_count: number }; explicit_gaps: { terrain: string; organ: string; reason?: string; detail: string }[] };
+  source_links?: SourceLink[];
   pages: Page[];
 };
 
@@ -57,6 +59,7 @@ export default function Commoncite() {
   const [mode, setMode] = useState<"infinite" | "sections">("infinite");
   const [section, setSection] = useState(0);
   const [selectedConcept, setSelectedConcept] = useState("");
+  const [showConceptLinks, setShowConceptLinks] = useState(true);
   const fileInput = useRef<HTMLInputElement | null>(null);
 
   useEffect(() => {
@@ -70,6 +73,12 @@ export default function Commoncite() {
     const pattern = [...map.keys()].sort((a, b) => b.length - a.length).map((surface) => surface.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|");
     return { map, regex: pattern ? new RegExp(`\\b(${pattern})\\b`, "gi") : null };
   }, [concepts]);
+  const sourceLinkMap = useMemo(() => {
+    const map = new Map<string, SourceLink>();
+    for (const link of witness?.source_links || []) if (link.text.length >= 3 && !map.has(link.text.toLowerCase())) map.set(link.text.toLowerCase(), link);
+    const pattern = [...map.keys()].sort((a, b) => b.length - a.length).map((text) => text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|");
+    return { map, regex: pattern ? new RegExp(`\\b(${pattern})\\b`, "gi") : null };
+  }, [witness]);
 
   const sections = useMemo(() => {
     if (!witness) return [];
@@ -91,11 +100,25 @@ export default function Commoncite() {
     }).catch((reason: Error) => setError(reason.message));
   }
 
-  function linkText(text: string, key: string) {
-    if (!conceptMap.regex) return text;
+  function renderConceptSegment(text: string, key: string) {
+    if (!showConceptLinks || !conceptMap.regex) return [text];
     return text.split(conceptMap.regex).map((part, index) => {
       const concept = conceptMap.map.get(part.toLowerCase());
-      return concept ? <button className="concept-link" key={`${key}-${index}`} onClick={() => { setSelectedConcept(concept.id); setView("Concepts"); window.scrollTo({ top: 0, behavior: "smooth" }); }}>{part}</button> : part;
+      return concept ? <button className="concept-link" key={`${key}-c${index}`} onClick={() => { setSelectedConcept(concept.id); setView("Concepts"); window.scrollTo({ top: 0, behavior: "smooth" }); }}>{part}</button> : part;
+    });
+  }
+
+  // Original-source hyperlinks are matched first and rendered as real, external
+  // links — never suppressed by the reader-link toggle, since they aren't ours.
+  // Only the leftover plain-text segments get a chance at a reader concept-link,
+  // so a term that's already the source's own citation keeps that citation's
+  // precedence at that exact occurrence.
+  function linkText(text: string, key: string) {
+    if (!sourceLinkMap.regex) return renderConceptSegment(text, key);
+    return text.split(sourceLinkMap.regex).flatMap((part, index) => {
+      const link = sourceLinkMap.map.get(part.toLowerCase());
+      if (!link) return renderConceptSegment(part, `${key}-${index}`);
+      return [<a className="source-link" key={`${key}-s${index}`} href={link.href} target="_blank" rel="noreferrer">{part}<span className="source-link-icon" aria-hidden="true">↗</span></a>];
     });
   }
 
@@ -135,13 +158,23 @@ export default function Commoncite() {
 
         {view === "Document" && <article className="document-view">
           <div className="source-note"><b>Source witness:</b> {/^https?:/i.test(witness.stable_uri) ? <a href={witness.stable_uri} target="_blank" rel="noreferrer">Open stable original ↗</a> : <code>{witness.stable_uri}</code>} <span>EOReader {witness.engine.release} · no LLM</span></div>
-          <div className="reader-controls"><div><button className={mode === "infinite" ? "active" : ""} onClick={() => setMode("infinite")}>Infinite scroll</button><button className={mode === "sections" ? "active" : ""} onClick={() => setMode("sections")}>Sections</button></div>{mode === "sections" && <select value={section} onChange={(event) => setSection(Number(event.target.value))}>{sections.map((item, index) => <option value={index} key={item.title}>{item.title}</option>)}</select>}</div>
+          <div className="reader-controls">
+            <div><button className={mode === "infinite" ? "active" : ""} onClick={() => setMode("infinite")}>Infinite scroll</button><button className={mode === "sections" ? "active" : ""} onClick={() => setMode("sections")}>Sections</button></div>
+            <div className="reader-controls-right">
+              {mode === "sections" && <select value={section} onChange={(event) => setSection(Number(event.target.value))}>{sections.map((item, index) => <option value={index} key={item.title}>{item.title}</option>)}</select>}
+              {conceptMap.regex && <label className="link-toggle"><input type="checkbox" checked={showConceptLinks} onChange={(event) => setShowConceptLinks(event.target.checked)} /> Reader-detected links</label>}
+              {(conceptMap.regex || sourceLinkMap.regex) && <div className="link-legend">
+                {conceptMap.regex && <span className="legend-item"><span className="legend-swatch concept" />Reader-detected</span>}
+                {sourceLinkMap.regex && <span className="legend-item"><span className="legend-swatch source" />Original source link</span>}
+              </div>}
+            </div>
+          </div>
           <div className="pages">{visiblePages.map((page) => <section className="page" id={`page-${page.page}`} key={page.page}><header><span>Page / unit {page.page}</span>{sourceHref(witness, page.page) && <a href={sourceHref(witness, page.page)} target="_blank" rel="noreferrer">Original ↗</a>}</header>{page.spans.length ? page.spans.map((span) => <span className="sentence" id={spanDomId(span.span_id)} key={span.span_id}>{linkText(normalize(span.text), span.span_id)} <a className="cite" href={`#${spanDomId(span.span_id)}`} title={`Bytes ${span.byte_start}–${span.byte_end}`}>¶</a>{" "}</span>) : <p className="empty">No semantic text was recovered for this unit.</p>}</section>)}</div>
         </article>}
 
         {view === "Concepts" && <article className="concept-view">{concept ? <ConceptPage witness={witness} concept={concept} concepts={concepts} onConcept={setSelectedConcept} onOpenSpan={openSpan} /> : <div className="empty-panel"><h2>No concept page passed the gate</h2><p>The witness remains readable and citable. The portal does not manufacture concepts to fill the space.</p></div>}</article>}
 
-        {view === "Receipt" && <article className="receipt-view"><div className="receipt-lead"><span>EO</span><div><h2>Import and engine receipt</h2><p>The source root, adapter, engine revision, and declared gaps travel with every projection.</p></div></div><dl><div><dt>Canonical source</dt><dd><code>{witness.stable_uri}</code></dd></div><div><dt>Retained bytes</dt><dd>{witness.source_integrity.preserved_copy ? <a href={witness.source_integrity.preserved_copy.replace(/^\.\//, "/")} download>Download content-addressed original</a> : "Not bundled with this witness"}</dd></div><div><dt>SHA-256</dt><dd><code>{witness.source_integrity.sha256}</code></dd></div><div><dt>Media type</dt><dd>{witness.media_type}</dd></div><div><dt>Adapter</dt><dd>{witness.extraction.adapter} · {witness.extraction.adapter_role}</dd></div><div><dt>Engine</dt><dd>EOReader {witness.engine.release} · <code>{witness.engine.commit}</code></dd></div><div><dt>Language</dt><dd>{witness.engine.language_received} · received, not inferred</dd></div><div><dt>LLM</dt><dd><strong>none</strong></dd></div><div><dt>Grammar</dt><dd>{witness.grammar.referents.length} referents · {witness.grammar.relation_total.toLocaleString()} relations · {witness.grammar.network.node_count.toLocaleString()} nodes</dd></div></dl><h2>Declared gaps</h2><ul>{witness.grammar.explicit_gaps.map((gap, index) => <li key={`${gap.terrain}-${gap.organ}-${index}`}><b>{gap.terrain} · {gap.reason || gap.organ}</b><span>{gap.detail}</span></li>)}</ul></article>}
+        {view === "Receipt" && <article className="receipt-view"><div className="receipt-lead"><span>EO</span><div><h2>Import and engine receipt</h2><p>The source root, adapter, engine revision, and declared gaps travel with every projection.</p></div></div><dl><div><dt>Canonical source</dt><dd><code>{witness.stable_uri}</code></dd></div><div><dt>Retained bytes</dt><dd>{witness.source_integrity.preserved_copy ? <a href={witness.source_integrity.preserved_copy.replace(/^\.\//, "/")} download>Download content-addressed original</a> : "Not bundled with this witness"}</dd></div><div><dt>SHA-256</dt><dd><code>{witness.source_integrity.sha256}</code></dd></div><div><dt>Media type</dt><dd>{witness.media_type}</dd></div><div><dt>Adapter</dt><dd>{witness.extraction.adapter} · {witness.extraction.adapter_role}</dd></div><div><dt>Engine</dt><dd>EOReader {witness.engine.release} · <code>{witness.engine.commit}</code></dd></div><div><dt>Language</dt><dd>{witness.engine.language_received} · received, not inferred</dd></div><div><dt>LLM</dt><dd><strong>none</strong></dd></div><div><dt>Grammar</dt><dd>{witness.grammar.referents.length} referents · {witness.grammar.relation_total.toLocaleString()} relations · {witness.grammar.network.node_count.toLocaleString()} nodes</dd></div><div><dt>Original source links</dt><dd>{witness.source_links?.length ? `${witness.source_links.length} captured from source markup` : "None captured for this adapter"}</dd></div></dl><h2>Declared gaps</h2><ul>{witness.grammar.explicit_gaps.map((gap, index) => <li key={`${gap.terrain}-${gap.organ}-${index}`}><b>{gap.terrain} · {gap.reason || gap.organ}</b><span>{gap.detail}</span></li>)}</ul></article>}
       </main>
     </div>
   </div>;

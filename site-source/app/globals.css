@@ -60,6 +60,17 @@ code { overflow-wrap: anywhere; font: 10px/1.4 ui-monospace, SFMono-Regular, Men
 .reader-controls button + button { border-left: 1px solid var(--light); }
 .reader-controls button.active { background: var(--blue); color: #fff; }
 .reader-controls select { max-width: 260px; border: 1px solid var(--light); background: #fff; padding: 4px; }
+.reader-controls-right { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+.link-toggle { display: flex; align-items: center; gap: 5px; color: var(--muted); cursor: pointer; }
+.link-toggle input { cursor: pointer; }
+.link-legend { display: flex; gap: 10px; color: var(--muted); }
+.legend-item { display: flex; align-items: center; gap: 4px; }
+.legend-swatch { width: 9px; height: 9px; border-radius: 2px; }
+.legend-swatch.concept { background: var(--blue); }
+.legend-swatch.source { background: var(--green); }
+.source-link { color: var(--green); text-decoration: underline; text-decoration-style: dotted; text-underline-offset: 2px; }
+.source-link:hover { text-decoration-style: solid; }
+.source-link-icon { margin-left: 1px; font-size: 8px; vertical-align: super; }
 .pages { max-width: 790px; margin: auto; }
 .page { min-height: 560px; padding: 28px 0 42px; border-bottom: 1px solid var(--border); color: var(--ink); font: 14px/1.72 Georgia, "Times New Roman", serif; scroll-margin-top: 20px; }
 .page > header { display: flex; justify-content: space-between; margin-bottom: 18px; color: var(--muted); font: 8px Arial, sans-serif; text-transform: uppercase; letter-spacing: .05em; }
