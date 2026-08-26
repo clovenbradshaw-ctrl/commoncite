@@ -1,0 +1,101 @@
+fixture: /Users/mlacy/Documents/2.0/eoreader6/scripts/adversarial/fixtures/challenge-17-frankenstein-full.txt
+428903 bytes, block 512, spec {"window":12,"draws":200,"reseeds":5,"tolerance":3,"hop":4,"seed":17}, 24 shuffle controls
+
+── unit check: does within-block shuffling change each statistic? ──
+  meanByte       (RESULTS.md channel) before=    90.949 after=    90.949  UNCHANGED (order-blind)
+  blockEntropy   (RESULTS.md channel) before=4284079.829 after=4284079.829  UNCHANGED (order-blind)
+  blockVariety   (RESULTS.md channel) before=    35.000 after=    35.000  UNCHANGED (order-blind)
+  meanByteDelta  (new candidate     ) before=    31.871 after=    31.252  CHANGED (order-sensitive)
+  deltaEntropy   (new candidate     ) before=6025768.706 after=6361990.355  CHANGED (order-sensitive)
+  runCount       (new candidate     ) before=   507.000 after=   475.000  CHANGED (order-sensitive)
+
+PART A — REPLICATION on the original byte stream (the exact RESULTS.md pathway)
+
+═══ original bytes — 24 chapter markers, blocks [63, 83, 108, 139, 167, 193, ...]
+
+  ── meanByte (n=837)
+    surfeit only  causal  0/24 recall,  0/ 0 prec | chance  0.0 | shuffled z= 0.38 | ROTATED 0.0±0.0 p≈1.000
+                  tight   0/24 recall,  0/ 0 prec | chance  0.0 | shuffled z= 0.38 | ROTATED 0.0±0.0 p≈1.000
+    moved only    causal  8/24 recall,  6/ 7 prec | chance  6.5 | shuffled z=-0.06 | ROTATED 7.5±1.5 p≈0.478
+                  tight   5/24 recall,  5/ 7 prec | chance  4.6 | shuffled z=-0.66 | ROTATED 5.1±1.2 p≈0.670
+    both          causal  8/24 recall,  6/ 8 prec | chance  7.3 | shuffled z=-0.16 | ROTATED 8.3±1.4 p≈0.694
+                  tight   5/24 recall,  5/ 8 prec | chance  5.2 | shuffled z=-0.95 | ROTATED 5.8±1.3 p≈0.852
+
+  ── blockEntropy (n=837)
+    surfeit only  causal  0/24 recall,  0/ 0 prec | chance  0.0 | shuffled z= 0.51 | ROTATED 0.0±0.0 p≈1.000
+                  tight   0/24 recall,  0/ 0 prec | chance  0.0 | shuffled z= 0.51 | ROTATED 0.0±0.0 p≈1.000
+    moved only    causal 12/24 recall, 10/12 prec | chance 10.1 | shuffled z= 0.39 | ROTATED 12.1±1.5 p≈0.641
+                  tight  10/24 recall,  9/12 prec | chance  7.3 | shuffled z= 1.14 | ROTATED 8.7±1.5 p≈0.287
+    both          causal 11/24 recall,  8/ 9 prec | chance  8.0 | shuffled z= 1.10 | ROTATED 8.9±1.6 p≈0.177
+                  tight   9/24 recall,  8/ 9 prec | chance  5.7 | shuffled z= 1.88 | ROTATED 6.5±1.6 p≈0.072
+
+  ── blockVariety (n=837)
+    surfeit only  causal  0/24 recall,  0/ 0 prec | chance  0.0 | shuffled z= 0.58 | ROTATED 0.0±0.0 p≈1.000
+                  tight   0/24 recall,  0/ 0 prec | chance  0.0 | shuffled z= 0.58 | ROTATED 0.0±0.0 p≈1.000
+    moved only    causal 16/24 recall, 15/17 prec | chance 12.8 | shuffled z= 0.81 | ROTATED 16.3±1.7 p≈0.646
+                  tight  13/24 recall, 12/17 prec | chance  9.7 | shuffled z= 1.83 | ROTATED 12.3±1.6 p≈0.440
+    both          causal 16/24 recall, 15/17 prec | chance 12.8 | shuffled z= 1.10 | ROTATED 15.5±1.5 p≈0.450
+                  tight  11/24 recall, 10/17 prec | chance  9.7 | shuffled z= 0.40 | ROTATED 12.1±1.7 p≈0.833
+
+PART B — the literal construction the challenge names: rotate the RAW BYTES
+
+rotation offset D=214451 bytes (>= 3000B from every marker — no marker split by the cut)
+markers: original=24, rotated-and-rescanned=24, predicted-vs-rescanned exact match: true
+
+═══ cyclically-rotated bytes (D=214451) — 24 chapter markers, blocks [9, 30, 65, 100, 120, 153, ...]
+
+  ── meanByte (n=837)
+    surfeit only  causal  0/24 recall,  0/ 0 prec | chance  0.0 | shuffled z=-0.37 | ROTATED 0.0±0.0 p≈1.000
+                  tight   0/24 recall,  0/ 0 prec | chance  0.0 | shuffled z=-0.45 | ROTATED 0.0±0.0 p≈1.000
+    moved only    causal 14/24 recall, 11/13 prec | chance 10.5 | shuffled z= 1.72 | ROTATED 13.4±1.5 p≈0.464
+                  tight   9/24 recall,  9/13 prec | chance  7.8 | shuffled z= 1.11 | ROTATED 9.2±1.4 p≈0.713
+    both          causal 11/24 recall,  8/10 prec | chance  8.6 | shuffled z= 1.28 | ROTATED 10.5±1.6 p≈0.483
+                  tight   8/24 recall,  8/10 prec | chance  6.2 | shuffled z= 1.40 | ROTATED 7.1±1.4 p≈0.383
+
+  ── blockEntropy (n=837)
+    surfeit only  causal  2/24 recall,  2/ 2 prec | chance  2.1 | shuffled z=-0.76 | ROTATED 1.7±0.8 p≈0.727
+                  tight   2/24 recall,  2/ 2 prec | chance  1.4 | shuffled z= 4.30 | ROTATED 1.4±0.7 p≈0.512
+    moved only    causal 11/24 recall, 10/12 prec | chance 10.0 | shuffled z=-0.17 | ROTATED 12.2±1.5 p≈0.880
+                  tight   9/24 recall,  9/12 prec | chance  7.3 | shuffled z= 0.69 | ROTATED 8.5±1.4 p≈0.502
+    both          causal 12/24 recall, 13/13 prec | chance 10.5 | shuffled z= 0.31 | ROTATED 11.3±1.6 p≈0.373
+                  tight  11/24 recall, 11/13 prec | chance  7.8 | shuffled z= 2.07 | ROTATED 9.1±1.6 p≈0.163
+
+  ── blockVariety (n=837)
+    surfeit only  causal  0/24 recall,  0/ 0 prec | chance  0.0 | shuffled z=-0.45 | ROTATED 0.0±0.0 p≈1.000
+                  tight   0/24 recall,  0/ 0 prec | chance  0.0 | shuffled z=-0.45 | ROTATED 0.0±0.0 p≈1.000
+    moved only    causal 14/24 recall, 13/16 prec | chance 12.2 | shuffled z= 0.45 | ROTATED 15.3±1.2 p≈0.952
+                  tight  10/24 recall, 10/16 prec | chance  9.2 | shuffled z= 0.16 | ROTATED 11.4±1.5 p≈0.880
+    both          causal 11/24 recall, 11/14 prec | chance 11.1 | shuffled z=-0.47 | ROTATED 13.2±1.4 p≈0.986
+                  tight   7/24 recall,  7/14 prec | chance  8.3 | shuffled z=-1.06 | ROTATED 9.9±1.5 p≈1.000
+
+PART C — FIX ATTEMPT: order/position-sensitive byte-level channels
+
+═══ original bytes, NEW channels — 24 chapter markers, blocks [63, 83, 108, 139, 167, 193, ...]
+
+  ── meanByteDelta (n=837)
+    surfeit only  causal  1/24 recall,  1/ 2 prec | chance  2.1 | shuffled z=-2.29 | ROTATED 2.1±0.8 p≈0.990
+                  tight   1/24 recall,  1/ 2 prec | chance  1.4 | shuffled z=-1.09 | ROTATED 1.4±0.7 p≈0.923
+    moved only    causal 15/24 recall, 12/13 prec | chance 10.7 | shuffled z= 1.42 | ROTATED 13.3±1.6 p≈0.254
+                  tight  11/24 recall, 11/13 prec | chance  7.8 | shuffled z= 1.42 | ROTATED 9.4±1.6 p≈0.225
+    both          causal 11/24 recall,  8/10 prec | chance  8.7 | shuffled z= 0.52 | ROTATED 9.7±1.7 p≈0.325
+                  tight   7/24 recall,  7/10 prec | chance  6.3 | shuffled z=-0.35 | ROTATED 7.1±1.5 p≈0.641
+
+  ── deltaEntropy (n=837)
+    surfeit only  causal  2/24 recall,  1/ 1 prec | chance  1.1 | shuffled z= 3.08 | ROTATED 1.1±0.6 p≈0.215
+                  tight   1/24 recall,  1/ 1 prec | chance  0.7 | shuffled z= 1.66 | ROTATED 0.7±0.5 p≈0.694
+    moved only    causal 14/24 recall, 11/14 prec | chance 11.2 | shuffled z= 1.30 | ROTATED 14.0±1.6 p≈0.593
+                  tight  10/24 recall,  9/14 prec | chance  8.3 | shuffled z= 0.88 | ROTATED 10.1±1.6 p≈0.632
+    both          causal  8/24 recall,  6/ 7 prec | chance  6.5 | shuffled z= 0.43 | ROTATED 7.4±1.2 p≈0.507
+                  tight   4/24 recall,  4/ 7 prec | chance  4.6 | shuffled z=-1.15 | ROTATED 5.1±1.2 p≈0.914
+
+  ── runCount (n=837)
+    surfeit only  causal  0/24 recall,  0/ 0 prec | chance  0.0 | shuffled z= 0.38 | ROTATED 0.0±0.0 p≈1.000
+                  tight   0/24 recall,  0/ 0 prec | chance  0.0 | shuffled z= 0.38 | ROTATED 0.0±0.0 p≈1.000
+    moved only    causal  8/24 recall,  5/ 5 prec | chance  4.8 | shuffled z= 1.59 | ROTATED 5.2±1.4 p≈0.057
+                  tight   4/24 recall,  4/ 5 prec | chance  3.4 | shuffled z= 0.28 | ROTATED 3.6±1.1 p≈0.579
+    both          causal  9/24 recall,  7/ 9 prec | chance  8.0 | shuffled z= 0.49 | ROTATED 8.3±1.4 p≈0.498
+                  tight   6/24 recall,  6/ 9 prec | chance  5.7 | shuffled z= 0.14 | ROTATED 6.4±1.4 p≈0.770
+
+═══ SUMMARY ═══
+Cells that cleared the rotation null at p<0.05 (across Parts A, B, C, all reductions × modes × windows):
+  NONE.

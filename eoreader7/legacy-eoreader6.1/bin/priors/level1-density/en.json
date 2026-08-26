@@ -1,0 +1,87 @@
+{
+  "$comment": "A LEVEL-1 DENSITY prior. Data only, no code. Built offline from live_priors via scripts/bake-level1-density-prior.mjs; nothing in packages/ hardcodes any of it.",
+  "schema": "Level1DensityPrior@1",
+  "population": "live_priors:32-docs-sample",
+  "provenance": {
+    "source": "live_priors sample of 32 documents, each read through readLevel0 with its own defaults; settled claims binned at BIN_SIZE=20 (read.mjs's own level-1 grain)",
+    "built_by": "scripts/bake-level1-density-prior.mjs",
+    "bin_size": 20,
+    "max_chars_per_doc": 450000,
+    "structure_options": {
+      "draws": 30,
+      "window": 2,
+      "reseeds": 8
+    },
+    "sample_total_bins": 1885
+  },
+  "notes": [
+    "Per-bin settled-density distribution across real books: what a level-1 bin looks like when a real book is actually read. Seeded into the level-1 density tier before the first bin, gamma-faded each observed bin, re-injected by the document's own bins (tiers.js's own decay) — so a level-1 read compares its opening to other books and slowly becomes its own genre.",
+    "Overwhelmingly D0 (a bin with no settled level-0 claim): most of any book settles nothing. The genre seed's value is exactly that the OPENING bins of a real book are placed against this, not against a degenerate all-zero null.",
+    "samples: every non-zero per-bin density observed, in density units (a bin of density 1 contributes 1). stateCounts cover ALL bins, including D0 — the overwhelming majority.",
+    "This prior does NOT fix level-1 STRUCTURE: existenceDependencyTest builds its null from the document's own density, and a sparse density degenerates that null by construction (SEED.md #3 refuses rather than guesses). Measured per-document as structureAbove."
+  ],
+  "stateCentroid": {
+    "D0": 0.9925729442970822,
+    "D1": 0.005305039787798408,
+    "D2": 0.0015915119363395225,
+    "D3": 0,
+    "D4": 0.0005305039787798408
+  },
+  "stateCounts": {
+    "D0": 1871,
+    "D1": 10,
+    "D2": 3,
+    "D3": 0,
+    "D4": 1
+  },
+  "samples": [
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    5,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    1
+  ],
+  "sources": [
+    "01-literature-books/gutenberg/pg84_Frankenstein.txt",
+    "01-literature-books/gutenberg/pg2701_Moby_Dick.txt",
+    "01-literature-books/gutenberg/pg1342_Pride_and_Prejudice.txt",
+    "01-literature-books/gutenberg/pg98_A_Tale_of_Two_Cities.txt",
+    "01-literature-books/gutenberg/pg174_The_Picture_of_Dorian_Gray.txt",
+    "01-literature-books/gutenberg/pg1661_The_Adventures_of_Tom_Sawyer.txt",
+    "01-literature-books/gutenberg/pg11_Alice_s_Adventures_in_Wonderland.txt",
+    "01-literature-books/gutenberg/pg55201_The_Republic_by_Plato.txt",
+    "01-literature-books/gutenberg/pg12_Through_the_Looking_Glass.txt",
+    "01-literature-books/gutenberg/pg62168_The_Origin_of_Species_by_Darwin.txt",
+    "01-literature-books/gutenberg/pg5827_Meditations_by_Marcus_Aurelius.txt",
+    "01-literature-books/gutenberg/pg8394_Beyond_Good_and_Evil_by_Nietzsche.txt",
+    "01-literature-books/gutenberg/pg59129_Leviathan_by_Hobbes.txt",
+    "01-literature-books/gutenberg/pg100_Complete_Works_of_Shakespeare.txt",
+    "01-literature-books/gutenberg/pg2397_Leaves_of_Grass_by_Whitman.txt",
+    "01-literature-books/gitenberg/pg1404_The-Federalist-Papers.txt",
+    "01-literature-books/gitenberg/pg345_Dracula.txt",
+    "01-literature-books/gitenberg/pg1400_Great-Expectations.txt",
+    "01-literature-books/gitenberg/pg2554_Crime-and-Punishment.txt",
+    "01-literature-books/gitenberg/pg147_Common-Sense.txt",
+    "01-literature-books/gitenberg/pg161_Sense-and-Sensibility.txt",
+    "02-encyclopedic/wikipedia/Mathematics.txt",
+    "02-encyclopedic/wikipedia/Friedrich_Nietzsche.txt",
+    "02-encyclopedic/wikipedia/Thermodynamics.txt",
+    "02-encyclopedic/wikipedia/General_relativity.txt",
+    "02-encyclopedic/wikipedia/Mongol_Empire.txt",
+    "02-encyclopedic/wikipedia/Renaissance.txt",
+    "02-encyclopedic/wikipedia/Christianity.txt",
+    "02-encyclopedic/wikipedia/Judaism.txt",
+    "02-encyclopedic/wikipedia/Neuroscience.txt",
+    "02-encyclopedic/1911-britannica/EB1911_Philosophy.txt",
+    "02-encyclopedic/1911-britannica/EB1911_Sociology.txt"
+  ]
+}

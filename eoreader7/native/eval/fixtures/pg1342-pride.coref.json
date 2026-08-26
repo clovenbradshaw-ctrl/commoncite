@@ -1,0 +1,165 @@
+{
+ "coref_prior_version": "coref-prior@1.0.0",
+ "source": "Project Gutenberg pg1342 \u2014 Pride and Prejudice (Austen)",
+ "notes": [
+  "Per-text coreference prior, same discipline as the pg84 fixture: deciding that these surfaces predicate one being is TIER.MODEL knowledge the engine must not derive, so it is curated here and INJECTED (reader-priors discipline).",
+  "Curated 2026-08-25 for the writer-decay genre arm. The alias groups are standard received literary knowledge (Elizabeth Bennet is called Lizzy and Eliza; Mr. Darcy's given name is Fitzwilliam); the curator is the session, named in provenance, not the text.",
+  "UNLIKE pg84 this book is third-person: the narrator is not a cast member. One whole-book narratorSpan is assigned to an external 'narrator' referent \u2014 fromAnchor/toAnchor omitted resolve to the text's own start and end by narrationFrames' documented rule.",
+  "DELIBERATELY MINIMAL: principal cast only. A missing alias degrades recall and is honest; an invented one corrupts identity."
+ ],
+ "referents": [
+  {
+   "id": "narrator",
+   "display": "the narrator",
+   "narratorSpans": [
+    {}
+   ]
+  },
+  {
+   "id": "elizabeth",
+   "display": "Elizabeth Bennet",
+   "surfaces": [
+    {
+     "surface": "Elizabeth"
+    },
+    {
+     "surface": "Lizzy"
+    },
+    {
+     "surface": "Eliza"
+    },
+    {
+     "surface": "Miss Bennet",
+     "weight": 0.5
+    },
+    {
+     "surface": "Miss Elizabeth Bennet"
+    }
+   ]
+  },
+  {
+   "id": "darcy",
+   "display": "Mr. Darcy",
+   "surfaces": [
+    {
+     "surface": "Darcy"
+    },
+    {
+     "surface": "Mr. Darcy"
+    },
+    {
+     "surface": "Fitzwilliam Darcy"
+    }
+   ]
+  },
+  {
+   "id": "jane",
+   "display": "Jane Bennet",
+   "surfaces": [
+    {
+     "surface": "Jane"
+    },
+    {
+     "surface": "Miss Bennet",
+     "weight": 0.5
+    }
+   ]
+  },
+  {
+   "id": "bingley",
+   "display": "Mr. Bingley",
+   "surfaces": [
+    {
+     "surface": "Bingley"
+    },
+    {
+     "surface": "Mr. Bingley"
+    },
+    {
+     "surface": "Charles Bingley"
+    }
+   ]
+  },
+  {
+   "id": "mrs-bennet",
+   "display": "Mrs. Bennet",
+   "surfaces": [
+    {
+     "surface": "Mrs. Bennet"
+    }
+   ]
+  },
+  {
+   "id": "mr-bennet",
+   "display": "Mr. Bennet",
+   "surfaces": [
+    {
+     "surface": "Mr. Bennet"
+    }
+   ]
+  },
+  {
+   "id": "lydia",
+   "display": "Lydia Bennet",
+   "surfaces": [
+    {
+     "surface": "Lydia"
+    }
+   ]
+  },
+  {
+   "id": "wickham",
+   "display": "Mr. Wickham",
+   "surfaces": [
+    {
+     "surface": "Wickham"
+    },
+    {
+     "surface": "Mr. Wickham"
+    },
+    {
+     "surface": "George Wickham"
+    }
+   ]
+  },
+  {
+   "id": "collins",
+   "display": "Mr. Collins",
+   "surfaces": [
+    {
+     "surface": "Mr. Collins"
+    },
+    {
+     "surface": "Collins"
+    }
+   ]
+  },
+  {
+   "id": "charlotte",
+   "display": "Charlotte Lucas",
+   "surfaces": [
+    {
+     "surface": "Charlotte"
+    },
+    {
+     "surface": "Charlotte Lucas"
+    },
+    {
+     "surface": "Miss Lucas"
+    }
+   ]
+  },
+  {
+   "id": "lady-catherine",
+   "display": "Lady Catherine de Bourgh",
+   "surfaces": [
+    {
+     "surface": "Lady Catherine"
+    },
+    {
+     "surface": "Lady Catherine de Bourgh"
+    }
+   ]
+  }
+ ]
+}

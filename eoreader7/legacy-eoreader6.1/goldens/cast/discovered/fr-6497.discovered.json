@@ -1,0 +1,628 @@
+{
+  "spec": {
+    "draws": 99,
+    "window": 8,
+    "reseeds": 8,
+    "hop": 4,
+    "units": 480,
+    "minOccurrences": 5,
+    "maxCandidates": 500
+  },
+  "spaced": true,
+  "arena": {
+    "units": 480,
+    "coverage": {
+      "covered": 480,
+      "extent": 480,
+      "uncovered": 0,
+      "complete": true
+    },
+    "contemporaryOf0": []
+  },
+  "candidatesConsidered": 500,
+  "candidatesDropped": 6907,
+  "clumped": 8,
+  "regular": 66,
+  "clumpedAll": [
+    {
+      "surface": "d'une",
+      "count": 354,
+      "extent": 239,
+      "reach": 0.4979166666666667,
+      "ananda": 0.013770406267601842,
+      "height": "peer"
+    },
+    {
+      "surface": "leurs",
+      "count": 201,
+      "extent": 204,
+      "reach": 0.425,
+      "ananda": 0.017841385041059254,
+      "height": "peer"
+    },
+    {
+      "surface": "grand",
+      "count": 119,
+      "extent": 266,
+      "reach": 0.5541666666666667,
+      "ananda": 0.014155930004186246,
+      "height": "unstable"
+    },
+    {
+      "surface": "coups",
+      "count": 88,
+      "extent": 78,
+      "reach": 0.1625,
+      "ananda": 0.03001851996911853,
+      "height": "peer"
+    },
+    {
+      "surface": "gauche",
+      "count": 67,
+      "extent": 60,
+      "reach": 0.125,
+      "ananda": 0.037955153653943086,
+      "height": "unstable"
+    },
+    {
+      "surface": "sous le",
+      "count": 66,
+      "extent": 85,
+      "reach": 0.17708333333333334,
+      "ananda": 0.02603411558778035,
+      "height": "peer"
+    },
+    {
+      "surface": "droite",
+      "count": 56,
+      "extent": 54,
+      "reach": 0.1125,
+      "ananda": 0.03204643518060024,
+      "height": "peer"
+    },
+    {
+      "surface": "noir",
+      "count": 56,
+      "extent": 124,
+      "reach": 0.25833333333333336,
+      "ananda": 0.026499872237842226,
+      "height": "peer"
+    }
+  ],
+  "regularAll": [
+    {
+      "surface": "elle",
+      "count": 2819,
+      "extent": 469,
+      "reach": 0.9770833333333333,
+      "ananda": 0.0021501680742996854,
+      "height": "peer"
+    },
+    {
+      "surface": "avait",
+      "count": 978,
+      "extent": 446,
+      "reach": 0.9291666666666667,
+      "ananda": 0.004185233852831871,
+      "height": "peer"
+    },
+    {
+      "surface": "gervaise",
+      "count": 760,
+      "extent": 383,
+      "reach": 0.7979166666666667,
+      "ananda": 0.0071112539279099,
+      "height": "peer"
+    },
+    {
+      "surface": "coupeau",
+      "count": 653,
+      "extent": 316,
+      "reach": 0.6583333333333333,
+      "ananda": 0.009919254825103252,
+      "height": "peer"
+    },
+    {
+      "surface": "bien",
+      "count": 639,
+      "extent": 367,
+      "reach": 0.7645833333333333,
+      "ananda": 0.00720621554632217,
+      "height": "peer"
+    },
+    {
+      "surface": "était",
+      "count": 637,
+      "extent": 447,
+      "reach": 0.93125,
+      "ananda": 0.004847493225533128,
+      "height": "peer"
+    },
+    {
+      "surface": "mais",
+      "count": 607,
+      "extent": 427,
+      "reach": 0.8895833333333333,
+      "ananda": 0.005884727768336262,
+      "height": "peer"
+    },
+    {
+      "surface": "quand",
+      "count": 441,
+      "extent": 320,
+      "reach": 0.6666666666666666,
+      "ananda": 0.00961360067956285,
+      "height": "peer"
+    },
+    {
+      "surface": "dans la",
+      "count": 307,
+      "extent": 223,
+      "reach": 0.46458333333333335,
+      "ananda": 0.01674773140180541,
+      "height": "unstable"
+    },
+    {
+      "surface": "chez",
+      "count": 287,
+      "extent": 200,
+      "reach": 0.4166666666666667,
+      "ananda": 0.01788094575726973,
+      "height": "peer"
+    },
+    {
+      "surface": "même",
+      "count": 275,
+      "extent": 266,
+      "reach": 0.5541666666666667,
+      "ananda": 0.014155930004186246,
+      "height": "peer"
+    },
+    {
+      "surface": "lorilleux",
+      "count": 257,
+      "extent": 131,
+      "reach": 0.27291666666666664,
+      "ananda": 0.024095470067301505,
+      "height": "peer"
+    },
+    {
+      "surface": "faire",
+      "count": 225,
+      "extent": 214,
+      "reach": 0.44583333333333336,
+      "ananda": 0.017380743343695215,
+      "height": "peer"
+    },
+    {
+      "surface": "elle avait",
+      "count": 191,
+      "extent": 171,
+      "reach": 0.35625,
+      "ananda": 0.02418612275144838,
+      "height": "peer"
+    },
+    {
+      "surface": "elle ne",
+      "count": 175,
+      "extent": 158,
+      "reach": 0.32916666666666666,
+      "ananda": 0.0185750122855044,
+      "height": "unstable"
+    },
+    {
+      "surface": "voir",
+      "count": 174,
+      "extent": 331,
+      "reach": 0.6895833333333333,
+      "ananda": 0.008634326442420459,
+      "height": "unstable"
+    },
+    {
+      "surface": "pouvait",
+      "count": 173,
+      "extent": 153,
+      "reach": 0.31875,
+      "ananda": 0.02017667374732035,
+      "height": "peer"
+    },
+    {
+      "surface": "jour",
+      "count": 167,
+      "extent": 355,
+      "reach": 0.7395833333333334,
+      "ananda": 0.012556190473899775,
+      "height": "unstable"
+    },
+    {
+      "surface": "fois",
+      "count": 165,
+      "extent": 167,
+      "reach": 0.34791666666666665,
+      "ananda": 0.01903702190849721,
+      "height": "peer"
+    },
+    {
+      "surface": "boutique",
+      "count": 161,
+      "extent": 125,
+      "reach": 0.2604166666666667,
+      "ananda": 0.021281801094577446,
+      "height": "peer"
+    },
+    {
+      "surface": "enfin",
+      "count": 158,
+      "extent": 144,
+      "reach": 0.3,
+      "ananda": 0.02145137044986356,
+      "height": "peer"
+    },
+    {
+      "surface": "jamais",
+      "count": 151,
+      "extent": 129,
+      "reach": 0.26875,
+      "ananda": 0.02412889579373534,
+      "height": "unstable"
+    },
+    {
+      "surface": "parce",
+      "count": 148,
+      "extent": 134,
+      "reach": 0.2791666666666667,
+      "ananda": 0.016856566806961126,
+      "height": "peer"
+    },
+    {
+      "surface": "monde",
+      "count": 143,
+      "extent": 125,
+      "reach": 0.2604166666666667,
+      "ananda": 0.021281801094577446,
+      "height": "peer"
+    },
+    {
+      "surface": "jours",
+      "count": 140,
+      "extent": 263,
+      "reach": 0.5479166666666667,
+      "ananda": 0.015207765636313653,
+      "height": "peer"
+    },
+    {
+      "surface": "n'était",
+      "count": 137,
+      "extent": 118,
+      "reach": 0.24583333333333332,
+      "ananda": 0.025815060764745823,
+      "height": "unstable"
+    },
+    {
+      "surface": "soir",
+      "count": 129,
+      "extent": 149,
+      "reach": 0.3104166666666667,
+      "ananda": 0.023005643067795845,
+      "height": "unstable"
+    },
+    {
+      "surface": "n'avait",
+      "count": 127,
+      "extent": 114,
+      "reach": 0.2375,
+      "ananda": 0.02505779949933995,
+      "height": "peer"
+    },
+    {
+      "surface": "maintenant",
+      "count": 126,
+      "extent": 123,
+      "reach": 0.25625,
+      "ananda": 0.02374735400177741,
+      "height": "peer"
+    },
+    {
+      "surface": "il avait",
+      "count": 122,
+      "extent": 121,
+      "reach": 0.2520833333333333,
+      "ananda": 0.02161760222385567,
+      "height": "peer"
+    },
+    {
+      "surface": "main",
+      "count": 118,
+      "extent": 299,
+      "reach": 0.6229166666666667,
+      "ananda": 0.010850292294758646,
+      "height": "peer"
+    },
+    {
+      "surface": "la boutique",
+      "count": 118,
+      "extent": 84,
+      "reach": 0.175,
+      "ananda": 0.031149361363949524,
+      "height": "peer"
+    },
+    {
+      "surface": "voulait",
+      "count": 115,
+      "extent": 110,
+      "reach": 0.22916666666666666,
+      "ananda": 0.026703431102202302,
+      "height": "peer"
+    },
+    {
+      "surface": "de se",
+      "count": 114,
+      "extent": 184,
+      "reach": 0.38333333333333336,
+      "ananda": 0.01677822268146656,
+      "height": "peer"
+    },
+    {
+      "surface": "trouvait",
+      "count": 113,
+      "extent": 112,
+      "reach": 0.23333333333333334,
+      "ananda": 0.027666748902049676,
+      "height": "peer"
+    },
+    {
+      "surface": "depuis",
+      "count": 112,
+      "extent": 105,
+      "reach": 0.21875,
+      "ananda": 0.030193862642423852,
+      "height": "peer"
+    },
+    {
+      "surface": "allait",
+      "count": 112,
+      "extent": 164,
+      "reach": 0.3416666666666667,
+      "ananda": 0.020398368961224378,
+      "height": "peer"
+    },
+    {
+      "surface": "chose",
+      "count": 111,
+      "extent": 152,
+      "reach": 0.31666666666666665,
+      "ananda": 0.023875971214216918,
+      "height": "unstable"
+    },
+    {
+      "surface": "chambre",
+      "count": 108,
+      "extent": 87,
+      "reach": 0.18125,
+      "ananda": 0.03628669623827108,
+      "height": "peer"
+    },
+    {
+      "surface": "serait",
+      "count": 105,
+      "extent": 108,
+      "reach": 0.225,
+      "ananda": 0.02583465016564901,
+      "height": "unstable"
+    },
+    {
+      "surface": "quartier",
+      "count": 104,
+      "extent": 89,
+      "reach": 0.18541666666666667,
+      "ananda": 0.025699619543189556,
+      "height": "peer"
+    },
+    {
+      "surface": "mère",
+      "count": 103,
+      "extent": 91,
+      "reach": 0.18958333333333333,
+      "ananda": 0.024605394033136108,
+      "height": "peer"
+    },
+    {
+      "surface": "pas de",
+      "count": 103,
+      "extent": 102,
+      "reach": 0.2125,
+      "ananda": 0.030022592771109302,
+      "height": "peer"
+    },
+    {
+      "surface": "sûr",
+      "count": 97,
+      "extent": 101,
+      "reach": 0.21041666666666667,
+      "ananda": 0.02967659251660848,
+      "height": "peer"
+    },
+    {
+      "surface": "n'était pas",
+      "count": 94,
+      "extent": 77,
+      "reach": 0.16041666666666668,
+      "ananda": 0.03237869566354412,
+      "height": "unstable"
+    },
+    {
+      "surface": "disait",
+      "count": 93,
+      "extent": 101,
+      "reach": 0.21041666666666667,
+      "ananda": 0.02967659251660848,
+      "height": "peer"
+    },
+    {
+      "surface": "moins",
+      "count": 82,
+      "extent": 79,
+      "reach": 0.16458333333333333,
+      "ananda": 0.029778822028838192,
+      "height": "peer"
+    },
+    {
+      "surface": "mari",
+      "count": 80,
+      "extent": 108,
+      "reach": 0.225,
+      "ananda": 0.02583465016564901,
+      "height": "peer"
+    },
+    {
+      "surface": "de ne",
+      "count": 77,
+      "extent": 80,
+      "reach": 0.16666666666666666,
+      "ananda": 0.029880955572796353,
+      "height": "peer"
+    },
+    {
+      "surface": "bien sûr",
+      "count": 77,
+      "extent": 68,
+      "reach": 0.14166666666666666,
+      "ananda": 0.03238582178562588,
+      "height": "peer"
+    },
+    {
+      "surface": "mais elle",
+      "count": 72,
+      "extent": 80,
+      "reach": 0.16666666666666666,
+      "ananda": 0.029880955572796353,
+      "height": "peer"
+    },
+    {
+      "surface": "les lorilleux",
+      "count": 70,
+      "extent": 52,
+      "reach": 0.10833333333333334,
+      "ananda": 0.03216686304776495,
+      "height": "peer"
+    },
+    {
+      "surface": "peau",
+      "count": 66,
+      "extent": 345,
+      "reach": 0.71875,
+      "ananda": 0.006921063125608029,
+      "height": "peer"
+    },
+    {
+      "surface": "choses",
+      "count": 65,
+      "extent": 62,
+      "reach": 0.12916666666666668,
+      "ananda": 0.03559519876671402,
+      "height": "unstable"
+    },
+    {
+      "surface": "la chambre",
+      "count": 64,
+      "extent": 50,
+      "reach": 0.10416666666666667,
+      "ananda": 0.05407224833682278,
+      "height": "peer"
+    },
+    {
+      "surface": "dès",
+      "count": 64,
+      "extent": 61,
+      "reach": 0.12708333333333333,
+      "ananda": 0.04335601338002526,
+      "height": "peer"
+    },
+    {
+      "surface": "davantage",
+      "count": 63,
+      "extent": 62,
+      "reach": 0.12916666666666668,
+      "ananda": 0.03559519876671402,
+      "height": "peer"
+    },
+    {
+      "surface": "prenait",
+      "count": 62,
+      "extent": 90,
+      "reach": 0.1875,
+      "ananda": 0.02781305109373733,
+      "height": "peer"
+    },
+    {
+      "surface": "pour la",
+      "count": 60,
+      "extent": 60,
+      "reach": 0.125,
+      "ananda": 0.037955153653943086,
+      "height": "peer"
+    },
+    {
+      "surface": "à sa",
+      "count": 59,
+      "extent": 68,
+      "reach": 0.14166666666666666,
+      "ananda": 0.03238582178562588,
+      "height": "peer"
+    },
+    {
+      "surface": "chercher",
+      "count": 58,
+      "extent": 54,
+      "reach": 0.1125,
+      "ananda": 0.03204643518060024,
+      "height": "peer"
+    },
+    {
+      "surface": "chapelier",
+      "count": 58,
+      "extent": 48,
+      "reach": 0.1,
+      "ananda": 0.048386437778669134,
+      "height": "peer"
+    },
+    {
+      "surface": "ménage",
+      "count": 56,
+      "extent": 84,
+      "reach": 0.175,
+      "ananda": 0.031149361363949524,
+      "height": "unstable"
+    },
+    {
+      "surface": "doute",
+      "count": 55,
+      "extent": 58,
+      "reach": 0.12083333333333333,
+      "ananda": 0.04028268553280334,
+      "height": "peer"
+    },
+    {
+      "surface": "goutte-d'or",
+      "count": 55,
+      "extent": 47,
+      "reach": 0.09791666666666667,
+      "ananda": 0.04651689366220246,
+      "height": "peer"
+    },
+    {
+      "surface": "pas à",
+      "count": 54,
+      "extent": 53,
+      "reach": 0.11041666666666666,
+      "ananda": 0.03467298243228534,
+      "height": "unstable"
+    }
+  ],
+  "heights": {
+    "above": 0,
+    "peer": 6,
+    "unstable": 2
+  },
+  "register": []
+}

@@ -1,0 +1,253 @@
+{
+  "schema": "RelationExtractionAssessment@1",
+  "prior": "bin/priors/pos/en-ud-ewt.json",
+  "cases": [
+    {
+      "id": "frankenstein",
+      "path": "scripts/adversarial/fixtures/pg84-frankenstein.txt",
+      "expected_entities": [
+        "frankenstein",
+        "clerval",
+        "elizabeth",
+        "felix",
+        "safie"
+      ],
+      "known_gap": "The repository's received prior supplies Creature descriptors and narrator scopes; relation attachment still has to expose the applicable mention before identity can resolve it.",
+      "referent_prior": "scripts/adversarial/fixtures/pg84-frankenstein.coref.json",
+      "baseline": {
+        "relations_stated": 4935,
+        "predicates": 4935
+      },
+      "pos_gated": {
+        "relations_stated": 2925,
+        "predicates": 2925,
+        "expected_entities_found": [
+          "frankenstein",
+          "clerval",
+          "elizabeth",
+          "felix",
+          "safie"
+        ],
+        "expected_entities_missed": []
+      },
+      "relations_refused_by_pos_gate": 2010,
+      "hand_checks": {
+        "found": 1,
+        "total": 3,
+        "rows": [
+          {
+            "fact": "Felix instructed Safie",
+            "anchor": "Felix instructed Safie",
+            "expected_polarity": "+",
+            "found": true,
+            "extracted": {
+              "subject": "ref:auto:felix",
+              "verb": "instructed",
+              "object": "ref:auto:safie",
+              "polarity": "+",
+              "offset": 209358
+            }
+          },
+          {
+            "fact": "Victor created the being",
+            "anchor": "the being I had created",
+            "expected_polarity": "+",
+            "found": false,
+            "extracted": null
+          },
+          {
+            "fact": "the monster murdered Clerval",
+            "anchor": "murdered Clerval",
+            "expected_polarity": "+",
+            "found": false,
+            "extracted": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "alice",
+      "path": "scripts/adversarial/fixtures/alice-raw.txt",
+      "expected_entities": [
+        "alice",
+        "rabbit",
+        "hatter",
+        "queen"
+      ],
+      "known_gap": null,
+      "referent_prior": null,
+      "baseline": {
+        "relations_stated": 2055,
+        "predicates": 2055
+      },
+      "pos_gated": {
+        "relations_stated": 1480,
+        "predicates": 1480,
+        "expected_entities_found": [
+          "rabbit",
+          "hatter",
+          "queen"
+        ],
+        "expected_entities_missed": [
+          "alice"
+        ]
+      },
+      "relations_refused_by_pos_gate": 575,
+      "hand_checks": {
+        "found": 0,
+        "total": 3,
+        "rows": [
+          {
+            "fact": "the Rabbit noticed Alice",
+            "anchor": "Rabbit noticed Alice",
+            "expected_polarity": "+",
+            "found": false,
+            "extracted": null
+          },
+          {
+            "fact": "Alice heard the Rabbit",
+            "anchor": "Alice heard the Rabbit say",
+            "expected_polarity": "+",
+            "found": false,
+            "extracted": null
+          },
+          {
+            "fact": "the Queen spoke to Alice",
+            "anchor": "the Queen said to Alice",
+            "expected_polarity": "+",
+            "found": false,
+            "extracted": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "pride-and-prejudice",
+      "path": "scripts/adversarial/fixtures/pride-prejudice-raw.txt",
+      "expected_entities": [
+        "elizabeth",
+        "darcy",
+        "bingley",
+        "jane"
+      ],
+      "known_gap": null,
+      "referent_prior": null,
+      "baseline": {
+        "relations_stated": 13580,
+        "predicates": 13557
+      },
+      "pos_gated": {
+        "relations_stated": 7731,
+        "predicates": 7724,
+        "expected_entities_found": [
+          "elizabeth",
+          "darcy",
+          "bingley",
+          "jane"
+        ],
+        "expected_entities_missed": []
+      },
+      "relations_refused_by_pos_gate": 5849,
+      "hand_checks": {
+        "found": 1,
+        "total": 3,
+        "rows": [
+          {
+            "fact": "Elizabeth looked at Darcy",
+            "anchor": "Elizabeth looked at Darcy",
+            "expected_polarity": "+",
+            "found": true,
+            "extracted": {
+              "subject": "ref:auto:elizabeth",
+              "verb": "looked",
+              "object": "ref:auto:darcy",
+              "polarity": "+",
+              "offset": 346788
+            }
+          },
+          {
+            "fact": "Jane felt affection for Bingley",
+            "anchor": "what Jane felt for Bingley",
+            "expected_polarity": "+",
+            "found": false,
+            "extracted": null
+          },
+          {
+            "fact": "Darcy loved Elizabeth",
+            "anchor": "his love of you",
+            "expected_polarity": "+",
+            "found": false,
+            "extracted": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "odyssey",
+      "path": "scripts/adversarial/fixtures/odyssey-full.txt",
+      "expected_entities": [
+        "ulysses",
+        "telemachus",
+        "penelope",
+        "minerva"
+      ],
+      "known_gap": null,
+      "referent_prior": null,
+      "baseline": {
+        "relations_stated": 14982,
+        "predicates": 14928
+      },
+      "pos_gated": {
+        "relations_stated": 9205,
+        "predicates": 9176,
+        "expected_entities_found": [
+          "ulysses",
+          "telemachus",
+          "penelope",
+          "minerva"
+        ],
+        "expected_entities_missed": []
+      },
+      "relations_refused_by_pos_gate": 5777,
+      "hand_checks": {
+        "found": 2,
+        "total": 3,
+        "rows": [
+          {
+            "fact": "Minerva resolved to help Ulysses",
+            "anchor": "Minerva resolved to help Ulysses",
+            "expected_polarity": "+",
+            "found": true,
+            "extracted": {
+              "subject": "ref:auto:minerva",
+              "verb": "resolved",
+              "object": "ref:auto:ulysses",
+              "polarity": "+",
+              "offset": 144649
+            }
+          },
+          {
+            "fact": "Ulysses spoke to Telemachus",
+            "anchor": "Ulysses said to Telemachus",
+            "expected_polarity": "+",
+            "found": true,
+            "extracted": {
+              "subject": "ref:auto:ulysses",
+              "verb": "said",
+              "object": "ref:auto:telemachus",
+              "polarity": "+",
+              "offset": 575012
+            }
+          },
+          {
+            "fact": "Penelope mourned Ulysses",
+            "anchor": "Penelope went upstairs again and mourned her husband",
+            "expected_polarity": "+",
+            "found": false,
+            "extracted": null
+          }
+        ]
+      }
+    }
+  ]
+}

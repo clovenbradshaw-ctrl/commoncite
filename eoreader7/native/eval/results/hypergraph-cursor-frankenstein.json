@@ -1,0 +1,102 @@
+{
+ "schema": "EOHypergraphCursorRun@1",
+ "book": "pg84.txt",
+ "logEntries": 9934,
+ "declared": {
+  "window": 8,
+  "draws": 199,
+  "alpha": 0.05,
+  "seed": 20260812
+ },
+ "at": [
+  {
+   "cursor": "25%",
+   "atSeq": 2483,
+   "nodes": 22,
+   "links": 141,
+   "standingEdges": 4,
+   "refused": 26,
+   "oriented": 1,
+   "hyperlexicon": {
+    "affordances": 0,
+    "byStanding": {},
+    "sample": []
+   },
+   "topStanding": [
+    "ref:auto:clerval—ref:auto:m_krempe (co=7)",
+    "ref:auto:geneva—ref:auto:victor (co=5)",
+    "ref:auto:mrs—ref:auto:england (co=4)",
+    "ref:auto:cornelius—ref:auto:m_krempe (co=2)"
+   ]
+  },
+  {
+   "cursor": "50%",
+   "atSeq": 4967,
+   "nodes": 33,
+   "links": 590,
+   "standingEdges": 17,
+   "refused": 57,
+   "oriented": 5,
+   "hyperlexicon": {
+    "affordances": 0,
+    "byStanding": {},
+    "sample": []
+   },
+   "topStanding": [
+    "ref:auto:elizabeth—ref:auto:justine (co=47)",
+    "ref:auto:clerval—ref:auto:henry (co=19)",
+    "ref:auto:god—ref:auto:justine (co=16)",
+    "ref:auto:god—ref:auto:william (co=11)"
+   ]
+  },
+  {
+   "cursor": "75%",
+   "atSeq": 7450,
+   "nodes": 55,
+   "links": 1205,
+   "standingEdges": 63,
+   "refused": 127,
+   "oriented": 24,
+   "hyperlexicon": {
+    "affordances": 1,
+    "byStanding": {
+     "candidate": 1
+    },
+    "sample": [
+     "had ∘ had [candidate]"
+    ]
+   },
+   "topStanding": [
+    "ref:auto:felix—ref:auto:safie (co=61)",
+    "ref:auto:felix—ref:auto:agatha (co=59)",
+    "ref:auto:elizabeth—ref:auto:justine (co=47)",
+    "ref:auto:felix—ref:auto:turk (co=37)"
+   ]
+  },
+  {
+   "cursor": "100%",
+   "atSeq": 9934,
+   "nodes": 61,
+   "links": 1897,
+   "standingEdges": 83,
+   "refused": 192,
+   "oriented": 37,
+   "hyperlexicon": {
+    "affordances": 1,
+    "byStanding": {
+     "candidate": 1
+    },
+    "sample": [
+     "had ∘ had [candidate]"
+    ]
+   },
+   "topStanding": [
+    "ref:auto:felix—ref:auto:safie (co=62)",
+    "ref:auto:felix—ref:auto:agatha (co=59)",
+    "ref:auto:elizabeth—ref:auto:justine (co=48)",
+    "ref:auto:felix—ref:auto:turk (co=37)"
+   ]
+  }
+ ],
+ "note": "the log is the reality; each row is one projection of it — hypergraph at the cursor, hyperlexicon projected from THAT hypergraph, never from the whole log"
+}

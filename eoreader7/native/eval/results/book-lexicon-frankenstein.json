@@ -1,0 +1,243 @@
+{
+ "schema": "EOBookLexicon@1",
+ "book": "pg84-frankenstein.txt",
+ "read": {
+  "encounters": 3392,
+  "ofTotal": 3392,
+  "truncated": false
+ },
+ "declared": {
+  "canonicalizationFloor": 2,
+  "anchoring": {
+   "minActivation": 0.05,
+   "minMargin": 0.2
+  },
+  "posPrior": "bin/priors/pos/en-ud-ewt.json (refuses only, never admits)"
+ },
+ "counts": {
+  "Void": 10332,
+  "Entity": 1223,
+  "Kind": 0,
+  "Field": 428,
+  "Link": 5156,
+  "Network": 11,
+  "Atmosphere": 0,
+  "Lens": 511,
+  "Paradigm": 0
+ },
+ "referentCount": 61,
+ "relationFormCount": 34,
+ "relations": [
+  {
+   "relation": "had",
+   "witnessed": 563,
+   "eligible": true,
+   "dominantClass": "VERB"
+  },
+  {
+   "relation": "is",
+   "witnessed": 224,
+   "eligible": false,
+   "dominantClass": "AUX"
+  },
+  {
+   "relation": "were",
+   "witnessed": 200,
+   "eligible": false,
+   "dominantClass": "AUX"
+  },
+  {
+   "relation": "could",
+   "witnessed": 142,
+   "eligible": false,
+   "dominantClass": "AUX"
+  },
+  {
+   "relation": "would",
+   "witnessed": 131,
+   "eligible": false,
+   "dominantClass": "AUX"
+  },
+  {
+   "relation": "will",
+   "witnessed": 128,
+   "eligible": false,
+   "dominantClass": "AUX"
+  },
+  {
+   "relation": "are",
+   "witnessed": 100,
+   "eligible": false,
+   "dominantClass": "AUX"
+  },
+  {
+   "relation": "should",
+   "witnessed": 82,
+   "eligible": false,
+   "dominantClass": "AUX"
+  },
+  {
+   "relation": "saw",
+   "witnessed": 68,
+   "eligible": true,
+   "dominantClass": "VERB"
+  },
+  {
+   "relation": "became",
+   "witnessed": 45,
+   "eligible": true,
+   "dominantClass": "VERB"
+  },
+  {
+   "relation": "might",
+   "witnessed": 42,
+   "eligible": false,
+   "dominantClass": "AUX"
+  },
+  {
+   "relation": "has",
+   "witnessed": 27,
+   "eligible": false,
+   "dominantClass": "AUX"
+  },
+  {
+   "relation": "appeared",
+   "witnessed": 22,
+   "eligible": true,
+   "dominantClass": "VERB"
+  },
+  {
+   "relation": "came",
+   "witnessed": 19,
+   "eligible": true,
+   "dominantClass": "VERB"
+  },
+  {
+   "relation": "entered",
+   "witnessed": 17,
+   "eligible": true,
+   "dominantClass": "VERB"
+  },
+  {
+   "relation": "endeavoured",
+   "witnessed": 14,
+   "eligible": true,
+   "dominantClass": null
+  },
+  {
+   "relation": "spoke",
+   "witnessed": 12,
+   "eligible": true,
+   "dominantClass": "VERB"
+  },
+  {
+   "relation": "seemed",
+   "witnessed": 8,
+   "eligible": true,
+   "dominantClass": "VERB"
+  },
+  {
+   "relation": "arrived",
+   "witnessed": 7,
+   "eligible": true,
+   "dominantClass": "VERB"
+  },
+  {
+   "relation": "does",
+   "witnessed": 6,
+   "eligible": false,
+   "dominantClass": "AUX"
+  }
+ ],
+ "referents": [
+  {
+   "display": "ref:auto:elizabeth",
+   "mentions": 88,
+   "firstSeenAt": 326
+  },
+  {
+   "display": "ref:auto:clerval",
+   "mentions": 55,
+   "firstSeenAt": 453
+  },
+  {
+   "display": "ref:auto:felix",
+   "mentions": 45,
+   "firstSeenAt": 1629
+  },
+  {
+   "display": "ref:auto:justine",
+   "mentions": 43,
+   "firstSeenAt": 775
+  },
+  {
+   "display": "ref:auto:geneva",
+   "mentions": 33,
+   "firstSeenAt": 390
+  },
+  {
+   "display": "ref:auto:victor",
+   "mentions": 25,
+   "firstSeenAt": 732
+  },
+  {
+   "display": "ref:auto:frankenstein",
+   "mentions": 23,
+   "firstSeenAt": 821
+  },
+  {
+   "display": "ref:auto:henry",
+   "mentions": 22,
+   "firstSeenAt": 703
+  },
+  {
+   "display": "ref:auto:william",
+   "mentions": 21,
+   "firstSeenAt": 881
+  },
+  {
+   "display": "ref:auto:god",
+   "mentions": 20,
+   "firstSeenAt": 629
+  },
+  {
+   "display": "ref:auto:england",
+   "mentions": 19,
+   "firstSeenAt": 115
+  },
+  {
+   "display": "ref:auto:safie",
+   "mentions": 19,
+   "firstSeenAt": 1734
+  },
+  {
+   "display": "ref:auto:agatha",
+   "mentions": 18,
+   "firstSeenAt": 1631
+  },
+  {
+   "display": "ref:auto:ingolstadt",
+   "mentions": 14,
+   "firstSeenAt": 470
+  },
+  {
+   "display": "ref:auto:ernest",
+   "mentions": 11,
+   "firstSeenAt": 868
+  }
+ ],
+ "emptyTerrains": [
+  {
+   "terrain": "Kind",
+   "filledBy": "kind induction over the admitted population (kind-induction.js)"
+  },
+  {
+   "terrain": "Atmosphere",
+   "filledBy": "interpretive atmosphere factor field (atmosphere-math.js)"
+  },
+  {
+   "terrain": "Paradigm",
+   "filledBy": "paradigm projections surviving upward propagation"
+  }
+ ]
+}

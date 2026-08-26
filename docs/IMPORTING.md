@@ -13,7 +13,7 @@ Options:
 - `--stable-uri URI` — declare the stable source URI for a local file.
 - `--source-dir DIR` — change where preserved source bytes are copied.
 
-The importer uses the bundled `eoreader6/` directory by default. Set `EOREADER_ROOT` to test a different EOReader 6.1 checkout.
+The importer uses the bundled `eoreader7/` directory by default. Set `EOREADER_ROOT` to test a different EOReader 7 checkout.
 
 ## Deterministic adapters
 
@@ -37,7 +37,7 @@ Adapters are replaceable. A new adapter must return recovered text, an adapter n
 3. Preserve a content-addressed source copy.
 4. Select a deterministic format adapter.
 5. Record adapter success or explicit abstention.
-6. Run EOReader 6.1 on recovered content.
+6. Run EOReader 7 on recovered content.
 7. Generate page/unit and byte-addressed sentence spans.
 8. Write a `CommonRecordWitness@1` JSON document.
 9. Let the wiki project that witness; the projection never changes the witness.

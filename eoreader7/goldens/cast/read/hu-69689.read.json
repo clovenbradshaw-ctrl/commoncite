@@ -1,0 +1,1802 @@
+{
+  "tag": "hu-69689",
+  "spec": {
+    "window": 8,
+    "draws": 99,
+    "reseeds": 8,
+    "minArrivals": 6,
+    "atomsPerUnit": 200,
+    "offerEvery": 60
+  },
+  "units": 210,
+  "candidates": 39357,
+  "score": {
+    "registerSize": 104,
+    "referenceSize": 19,
+    "recall": 7,
+    "recallOf": "7/19",
+    "precision": 0.10576923076923077,
+    "chance": {
+      "mean": 0.045,
+      "p95": 0,
+      "max": 1
+    },
+    "found": [
+      {
+        "surface": "elé",
+        "ref": "Csele"
+      },
+      {
+        "surface": "kiáltott boka",
+        "ref": "Boka János"
+      },
+      {
+        "surface": "a mária-utcai",
+        "ref": "Mari"
+      },
+      {
+        "surface": "mária-utcai",
+        "ref": "Mari"
+      },
+      {
+        "surface": "boka most",
+        "ref": "Boka János"
+      },
+      {
+        "surface": "egy",
+        "ref": "Egyéb szereplők: Csengey"
+      },
+      {
+        "surface": "csele",
+        "ref": "Csele"
+      },
+      {
+        "surface": "leszik",
+        "ref": "Leszik"
+      },
+      {
+        "surface": "ernő",
+        "ref": "Nemecsek Ernő"
+      },
+      {
+        "surface": "janó",
+        "ref": "Janó"
+      },
+      {
+        "surface": "nemecsek ernő",
+        "ref": "Nemecsek Ernő"
+      }
+    ],
+    "missingPrior": "hungarian_agglutination"
+  },
+  "register": [
+    {
+      "id": "e0",
+      "surfaces": [
+        "az egész"
+      ],
+      "arrivals": [
+        0,
+        1,
+        8,
+        9,
+        10,
+        13,
+        14,
+        19,
+        27,
+        30,
+        54,
+        58
+      ],
+      "extent": 12,
+      "censored": "below",
+      "aperture": 0.42238317010769855,
+      "bornAt": 60,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e1",
+      "surfaces": [
+        "aztán"
+      ],
+      "arrivals": [
+        2,
+        14,
+        18,
+        21,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        35,
+        36,
+        38,
+        39,
+        45,
+        47,
+        49,
+        50,
+        51,
+        56,
+        57,
+        58,
+        59
+      ],
+      "extent": 23,
+      "censored": "above",
+      "aperture": 0.30970191141834214,
+      "bornAt": 60,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e2",
+      "surfaces": [
+        "most"
+      ],
+      "arrivals": [
+        3,
+        6,
+        8,
+        11,
+        13,
+        15,
+        16,
+        22,
+        23,
+        25,
+        27,
+        29,
+        30,
+        31,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        48,
+        49,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "extent": 37,
+      "censored": "above",
+      "aperture": 0.22809247389157683,
+      "bornAt": 60,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e3",
+      "surfaces": [
+        "meg"
+      ],
+      "arrivals": [
+        6,
+        7,
+        11,
+        12,
+        14,
+        15,
+        16,
+        18,
+        19,
+        21,
+        23,
+        24,
+        27,
+        29,
+        30,
+        32,
+        33,
+        34,
+        35,
+        36,
+        38,
+        39,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        51,
+        52,
+        54,
+        55,
+        57,
+        58,
+        59
+      ],
+      "extent": 37,
+      "censored": "above",
+      "aperture": 0.22809247389157683,
+      "bornAt": 60,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e4",
+      "surfaces": [
+        "mondta"
+      ],
+      "arrivals": [
+        6,
+        7,
+        8,
+        10,
+        11,
+        13,
+        14,
+        15,
+        16,
+        22,
+        24,
+        25,
+        26,
+        28,
+        29,
+        31,
+        33,
+        34,
+        35,
+        36,
+        37,
+        39,
+        40,
+        41,
+        43,
+        44,
+        45,
+        46,
+        47,
+        49,
+        50,
+        51,
+        53,
+        55,
+        56,
+        58,
+        59
+      ],
+      "extent": 37,
+      "censored": "above",
+      "aperture": 0.22809247389157683,
+      "bornAt": 60,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e5",
+      "surfaces": [
+        "azzal"
+      ],
+      "arrivals": [
+        7,
+        11,
+        21,
+        25,
+        31,
+        34,
+        37,
+        40,
+        42,
+        44,
+        46,
+        48,
+        49,
+        54,
+        58
+      ],
+      "extent": 15,
+      "censored": "above",
+      "aperture": 0.4599134155745084,
+      "bornAt": 60,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e6",
+      "surfaces": [
+        "itt"
+      ],
+      "arrivals": [
+        9,
+        17,
+        20,
+        23,
+        27,
+        28,
+        29,
+        32,
+        34,
+        35,
+        37,
+        38,
+        39,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        57,
+        58
+      ],
+      "extent": 28,
+      "censored": "above",
+      "aperture": 0.3422892841151661,
+      "bornAt": 60,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e7",
+      "surfaces": [
+        "fogunk"
+      ],
+      "arrivals": [
+        15,
+        28,
+        32,
+        33,
+        34,
+        46,
+        48,
+        52,
+        53
+      ],
+      "extent": 9,
+      "censored": "above",
+      "aperture": 0.307256842420486,
+      "bornAt": 60,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e8",
+      "surfaces": [
+        "a vörösingesek"
+      ],
+      "arrivals": [
+        27,
+        32,
+        40,
+        41,
+        43,
+        44,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        58
+      ],
+      "extent": 13,
+      "censored": "above",
+      "aperture": 0.3505248624583732,
+      "bornAt": 60,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e9",
+      "surfaces": [
+        "vörösingesek"
+      ],
+      "arrivals": [
+        27,
+        32,
+        40,
+        41,
+        43,
+        44,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        58
+      ],
+      "extent": 13,
+      "censored": "above",
+      "aperture": 0.3505248624583732,
+      "bornAt": 60,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e10",
+      "surfaces": [
+        "kettő"
+      ],
+      "arrivals": [
+        31,
+        37,
+        38,
+        39,
+        40,
+        41,
+        44,
+        46,
+        50,
+        56
+      ],
+      "extent": 10,
+      "censored": "above",
+      "aperture": 0.4196215479006895,
+      "bornAt": 60,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e11",
+      "surfaces": [
+        "másik kettő"
+      ],
+      "arrivals": [
+        37,
+        38,
+        39,
+        41,
+        44,
+        46,
+        50,
+        56
+      ],
+      "extent": 8,
+      "censored": "above",
+      "aperture": 0.5086529002926028,
+      "bornAt": 60,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e12",
+      "surfaces": [
+        "be"
+      ],
+      "arrivals": [
+        0,
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        12,
+        14,
+        19,
+        25,
+        26,
+        27,
+        33,
+        37,
+        38,
+        43,
+        45,
+        48,
+        51,
+        52,
+        53,
+        55,
+        56,
+        58,
+        63,
+        65,
+        69,
+        71,
+        73,
+        79,
+        84,
+        90,
+        91,
+        99,
+        103,
+        104,
+        107,
+        110,
+        111
+      ],
+      "extent": 40,
+      "censored": "below",
+      "aperture": 0.2060598966741054,
+      "bornAt": 120,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e13",
+      "surfaces": [
+        "ház"
+      ],
+      "arrivals": [
+        0,
+        16,
+        17,
+        18,
+        77,
+        86
+      ],
+      "extent": 6,
+      "censored": "below",
+      "aperture": 0.31674199861965313,
+      "bornAt": 120,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e14",
+      "surfaces": [
+        "volt"
+      ],
+      "arrivals": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        61,
+        62,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        80,
+        81,
+        82,
+        84,
+        85,
+        86,
+        87,
+        88,
+        91,
+        93,
+        94,
+        95,
+        96,
+        97,
+        99,
+        100,
+        101,
+        102,
+        104,
+        105,
+        106,
+        107,
+        109,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ],
+      "extent": 107,
+      "censored": "below",
+      "aperture": 0.033762617451326804,
+      "bornAt": 120,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e15",
+      "surfaces": [
+        "ami"
+      ],
+      "arrivals": [
+        0,
+        5,
+        7,
+        12,
+        17,
+        18,
+        19,
+        21,
+        25,
+        35,
+        36,
+        51,
+        70,
+        86,
+        91
+      ],
+      "extent": 15,
+      "censored": "below",
+      "aperture": 0.22807466563407885,
+      "bornAt": 120,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e16",
+      "surfaces": [
+        "őket"
+      ],
+      "arrivals": [
+        9,
+        25,
+        33,
+        36,
+        39,
+        46,
+        54,
+        56,
+        58,
+        60,
+        61,
+        64,
+        76,
+        78,
+        82,
+        85,
+        86,
+        88,
+        89,
+        90,
+        99,
+        107,
+        108,
+        117,
+        119
+      ],
+      "extent": 25,
+      "censored": "above",
+      "aperture": 0.23302445946372963,
+      "bornAt": 120,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e17",
+      "surfaces": [
+        "tenni"
+      ],
+      "arrivals": [
+        28,
+        80,
+        81,
+        89,
+        116,
+        119
+      ],
+      "extent": 6,
+      "censored": "above",
+      "aperture": 0.31674199861965313,
+      "bornAt": 120,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e18",
+      "surfaces": [
+        "az elnök"
+      ],
+      "arrivals": [
+        28,
+        31,
+        38,
+        46,
+        50,
+        51,
+        64,
+        65,
+        67,
+        70,
+        74,
+        82,
+        83,
+        84,
+        86,
+        100,
+        101,
+        102,
+        103,
+        104,
+        111,
+        116,
+        118
+      ],
+      "extent": 23,
+      "censored": "above",
+      "aperture": 0.1808371415819252,
+      "bornAt": 120,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e19",
+      "surfaces": [
+        "elnök"
+      ],
+      "arrivals": [
+        28,
+        31,
+        38,
+        46,
+        50,
+        51,
+        53,
+        64,
+        65,
+        67,
+        70,
+        74,
+        77,
+        81,
+        82,
+        83,
+        84,
+        86,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        111,
+        112,
+        116,
+        118,
+        119
+      ],
+      "extent": 29,
+      "censored": "above",
+      "aperture": 0.19484201395766476,
+      "bornAt": 120,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e20",
+      "surfaces": [
+        "egymással"
+      ],
+      "arrivals": [
+        28,
+        47,
+        80,
+        100,
+        104,
+        114
+      ],
+      "extent": 6,
+      "censored": "above",
+      "aperture": 0.31674199861965313,
+      "bornAt": 120,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e21",
+      "surfaces": [
+        "szemmel"
+      ],
+      "arrivals": [
+        30,
+        43,
+        45,
+        53,
+        56,
+        76,
+        79,
+        89,
+        95,
+        106,
+        112
+      ],
+      "extent": 11,
+      "censored": "above",
+      "aperture": 0.32825746212138185,
+      "bornAt": 120,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e22",
+      "surfaces": [
+        "folytatta"
+      ],
+      "arrivals": [
+        32,
+        38,
+        52,
+        64,
+        66,
+        82,
+        88,
+        103,
+        106
+      ],
+      "extent": 9,
+      "censored": "above",
+      "aperture": 0.219464825350423,
+      "bornAt": 120,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e23",
+      "surfaces": [
+        "még egyszer"
+      ],
+      "arrivals": [
+        35,
+        74,
+        96,
+        97,
+        117,
+        119
+      ],
+      "extent": 6,
+      "censored": "above",
+      "aperture": 0.31674199861965313,
+      "bornAt": 120,
+      "moved": true,
+      "censoredRank": false
+    },
+    {
+      "id": "e24",
+      "surfaces": [
+        "holnap"
+      ],
+      "arrivals": [
+        35,
+        74,
+        90,
+        91,
+        96,
+        103,
+        104,
+        113,
+        119
+      ],
+      "extent": 9,
+      "censored": "above",
+      "aperture": 0.219464825350423,
+      "bornAt": 120,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e25",
+      "surfaces": [
+        "eszébe"
+      ],
+      "arrivals": [
+        35,
+        40,
+        58,
+        59,
+        60,
+        78,
+        80,
+        117,
+        119
+      ],
+      "extent": 9,
+      "censored": "above",
+      "aperture": 0.219464825350423,
+      "bornAt": 120,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e26",
+      "surfaces": [
+        "kaput"
+      ],
+      "arrivals": [
+        37,
+        53,
+        90,
+        106,
+        107,
+        114
+      ],
+      "extent": 6,
+      "censored": "above",
+      "aperture": 0.31674199861965313,
+      "bornAt": 120,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e27",
+      "surfaces": [
+        "miért"
+      ],
+      "arrivals": [
+        41,
+        65,
+        66,
+        73,
+        77,
+        81,
+        89,
+        109,
+        111
+      ],
+      "extent": 9,
+      "censored": "above",
+      "aperture": 0.219464825350423,
+      "bornAt": 120,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e28",
+      "surfaces": [
+        "akarom"
+      ],
+      "arrivals": [
+        45,
+        52,
+        66,
+        79,
+        112,
+        116
+      ],
+      "extent": 6,
+      "censored": "above",
+      "aperture": 0.31674199861965313,
+      "bornAt": 120,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e29",
+      "surfaces": [
+        "elnök úr"
+      ],
+      "arrivals": [
+        53,
+        77,
+        81,
+        83,
+        102,
+        104,
+        105,
+        112,
+        119
+      ],
+      "extent": 9,
+      "censored": "above",
+      "aperture": 0.219464825350423,
+      "bornAt": 120,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e30",
+      "surfaces": [
+        "most nem"
+      ],
+      "arrivals": [
+        53,
+        65,
+        112,
+        114,
+        115,
+        116
+      ],
+      "extent": 6,
+      "censored": "above",
+      "aperture": 0.31674199861965313,
+      "bornAt": 120,
+      "moved": true,
+      "censoredRank": false
+    },
+    {
+      "id": "e31",
+      "surfaces": [
+        "szomorú"
+      ],
+      "arrivals": [
+        53,
+        63,
+        65,
+        95,
+        112,
+        114
+      ],
+      "extent": 6,
+      "censored": "above",
+      "aperture": 0.31674199861965313,
+      "bornAt": 120,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e32",
+      "surfaces": [
+        "rájuk"
+      ],
+      "arrivals": [
+        55,
+        78,
+        89,
+        105,
+        108,
+        109
+      ],
+      "extent": 6,
+      "censored": "above",
+      "aperture": 0.31674199861965313,
+      "bornAt": 120,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e33",
+      "surfaces": [
+        "pál-utcaiak"
+      ],
+      "arrivals": [
+        58,
+        63,
+        64,
+        65,
+        75,
+        88,
+        90,
+        92,
+        102
+      ],
+      "extent": 9,
+      "censored": "above",
+      "aperture": 0.219464825350423,
+      "bornAt": 120,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e34",
+      "surfaces": [
+        "elé"
+      ],
+      "arrivals": [
+        69,
+        98,
+        101,
+        104,
+        105,
+        106,
+        109
+      ],
+      "extent": 7,
+      "censored": "above",
+      "aperture": 0.2605696920545917,
+      "bornAt": 120,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e35",
+      "surfaces": [
+        "gitt-egylet"
+      ],
+      "arrivals": [
+        74,
+        75,
+        82,
+        84,
+        102,
+        103,
+        109,
+        110,
+        111,
+        119
+      ],
+      "extent": 10,
+      "censored": "above",
+      "aperture": 0.29784971227730495,
+      "bornAt": 120,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e36",
+      "surfaces": [
+        "a gitt-egylet"
+      ],
+      "arrivals": [
+        75,
+        82,
+        84,
+        102,
+        103,
+        109,
+        110,
+        111
+      ],
+      "extent": 8,
+      "censored": "above",
+      "aperture": 0.2898893466545065,
+      "bornAt": 120,
+      "moved": true,
+      "censoredRank": false
+    },
+    {
+      "id": "e37",
+      "surfaces": [
+        "maguk"
+      ],
+      "arrivals": [
+        80,
+        90,
+        92,
+        101,
+        106,
+        110
+      ],
+      "extent": 6,
+      "censored": "above",
+      "aperture": 0.31674199861965313,
+      "bornAt": 120,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e38",
+      "surfaces": [
+        "annak jeléül"
+      ],
+      "arrivals": [
+        0,
+        11,
+        14,
+        64,
+        66,
+        147
+      ],
+      "extent": 6,
+      "censored": "below",
+      "aperture": 0.3544378020153953,
+      "bornAt": 180,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e39",
+      "surfaces": [
+        "jeléül"
+      ],
+      "arrivals": [
+        0,
+        11,
+        14,
+        64,
+        66,
+        147
+      ],
+      "extent": 6,
+      "censored": "below",
+      "aperture": 0.3544378020153953,
+      "bornAt": 180,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e40",
+      "surfaces": [
+        "jeléül hogy"
+      ],
+      "arrivals": [
+        0,
+        11,
+        14,
+        64,
+        66,
+        147
+      ],
+      "extent": 6,
+      "censored": "below",
+      "aperture": 0.3544378020153953,
+      "bornAt": 180,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e41",
+      "surfaces": [
+        "a tanár"
+      ],
+      "arrivals": [
+        0,
+        2,
+        3,
+        64,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        126
+      ],
+      "extent": 14,
+      "censored": "below",
+      "aperture": 0.25442694338052974,
+      "bornAt": 180,
+      "moved": true,
+      "censoredRank": false
+    },
+    {
+      "id": "e42",
+      "surfaces": [
+        "tanár"
+      ],
+      "arrivals": [
+        0,
+        2,
+        3,
+        4,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        82,
+        123,
+        124,
+        125,
+        126
+      ],
+      "extent": 21,
+      "censored": "below",
+      "aperture": 0.2252745736831585,
+      "bornAt": 180,
+      "moved": true,
+      "censoredRank": false
+    },
+    {
+      "id": "e43",
+      "surfaces": [
+        "mondom"
+      ],
+      "arrivals": [
+        0,
+        11,
+        13,
+        15,
+        28,
+        76,
+        77,
+        116,
+        119
+      ],
+      "extent": 9,
+      "censored": "below",
+      "aperture": 0.31862710934264626,
+      "bornAt": 180,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e44",
+      "surfaces": [
+        "vége"
+      ],
+      "arrivals": [
+        0,
+        2,
+        3,
+        12,
+        31,
+        33,
+        35,
+        60,
+        73,
+        83,
+        104,
+        119,
+        130,
+        149,
+        164,
+        176
+      ],
+      "extent": 16,
+      "censored": "below",
+      "aperture": 0.21993224391302135,
+      "bornAt": 180,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e45",
+      "surfaces": [
+        "rajta"
+      ],
+      "arrivals": [
+        0,
+        2,
+        6,
+        17,
+        20,
+        21,
+        39,
+        71,
+        76,
+        77,
+        83,
+        85,
+        92,
+        94,
+        104,
+        114,
+        115,
+        125,
+        137,
+        148,
+        169,
+        174,
+        175
+      ],
+      "extent": 23,
+      "censored": "below",
+      "aperture": 0.16338245019025166,
+      "bornAt": 180,
+      "moved": true,
+      "censoredRank": false
+    },
+    {
+      "id": "e46",
+      "surfaces": [
+        "de a"
+      ],
+      "arrivals": [
+        0,
+        2,
+        7,
+        12,
+        14,
+        20,
+        32,
+        38,
+        54,
+        58,
+        63,
+        72,
+        75,
+        77,
+        80,
+        93,
+        94,
+        102,
+        114,
+        126,
+        141,
+        143,
+        149,
+        153,
+        159,
+        160
+      ],
+      "extent": 26,
+      "censored": "below",
+      "aperture": 0.19819252948124522,
+      "bornAt": 180,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e47",
+      "surfaces": [
+        "erődök"
+      ],
+      "arrivals": [
+        19,
+        52,
+        106,
+        107,
+        108,
+        114,
+        122,
+        144,
+        145,
+        155,
+        156,
+        157,
+        158,
+        162,
+        165
+      ],
+      "extent": 15,
+      "censored": "above",
+      "aperture": 0.17726776472907346,
+      "bornAt": 180,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e48",
+      "surfaces": [
+        "magát"
+      ],
+      "arrivals": [
+        19,
+        22,
+        26,
+        29,
+        36,
+        43,
+        45,
+        55,
+        60,
+        87,
+        95,
+        97,
+        101,
+        108,
+        112,
+        113,
+        118,
+        119,
+        138,
+        140,
+        147,
+        149,
+        150,
+        157,
+        158,
+        159,
+        163,
+        165,
+        171,
+        174
+      ],
+      "extent": 30,
+      "censored": "above",
+      "aperture": 0.19708189821469624,
+      "bornAt": 180,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e49",
+      "surfaces": [
+        "a kaput"
+      ],
+      "arrivals": [
+        37,
+        107,
+        120,
+        128,
+        137,
+        167,
+        178
+      ],
+      "extent": 7,
+      "censored": "above",
+      "aperture": 0.33874773053283036,
+      "bornAt": 180,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e50",
+      "surfaces": [
+        "vették"
+      ],
+      "arrivals": [
+        43,
+        46,
+        64,
+        107,
+        156,
+        163,
+        174
+      ],
+      "extent": 7,
+      "censored": "above",
+      "aperture": 0.33874773053283036,
+      "bornAt": 180,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e51",
+      "surfaces": [
+        "őrszem"
+      ],
+      "arrivals": [
+        56,
+        107,
+        130,
+        131,
+        137,
+        138,
+        152
+      ],
+      "extent": 7,
+      "censored": "above",
+      "aperture": 0.33874773053283036,
+      "bornAt": 180,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e52",
+      "surfaces": [
+        "hadvezér"
+      ],
+      "arrivals": [
+        58,
+        113,
+        114,
+        130,
+        139,
+        151,
+        176,
+        178
+      ],
+      "extent": 8,
+      "censored": "above",
+      "aperture": 0.21343767503418398,
+      "bornAt": 180,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e53",
+      "surfaces": [
+        "magasra"
+      ],
+      "arrivals": [
+        60,
+        139,
+        140,
+        141,
+        146,
+        153,
+        165
+      ],
+      "extent": 7,
+      "censored": "above",
+      "aperture": 0.33874773053283036,
+      "bornAt": 180,
+      "moved": true,
+      "censoredRank": false
+    },
+    {
+      "id": "e54",
+      "surfaces": [
+        "veletek"
+      ],
+      "arrivals": [
+        65,
+        90,
+        96,
+        125,
+        129,
+        130,
+        131,
+        135,
+        170
+      ],
+      "extent": 9,
+      "censored": "above",
+      "aperture": 0.31862710934264626,
+      "bornAt": 180,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e55",
+      "surfaces": [
+        "tőlem"
+      ],
+      "arrivals": [
+        73,
+        80,
+        91,
+        102,
+        122,
+        131,
+        132
+      ],
+      "extent": 7,
+      "censored": "above",
+      "aperture": 0.33874773053283036,
+      "bornAt": 180,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e56",
+      "surfaces": [
+        "kiáltott boka"
+      ],
+      "arrivals": [
+        81,
+        136,
+        152,
+        153,
+        155,
+        157,
+        162,
+        164
+      ],
+      "extent": 8,
+      "censored": "above",
+      "aperture": 0.21343767503418398,
+      "bornAt": 180,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e57",
+      "surfaces": [
+        "csatát"
+      ],
+      "arrivals": [
+        104,
+        114,
+        142,
+        151,
+        161,
+        162,
+        169
+      ],
+      "extent": 7,
+      "censored": "above",
+      "aperture": 0.33874773053283036,
+      "bornAt": 180,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e58",
+      "surfaces": [
+        "zászlóalj"
+      ],
+      "arrivals": [
+        106,
+        107,
+        108,
+        109,
+        143,
+        149,
+        150,
+        157,
+        160
+      ],
+      "extent": 9,
+      "censored": "above",
+      "aperture": 0.31862710934264626,
+      "bornAt": 180,
+      "moved": true,
+      "censoredRank": true
+    },
+    {
+      "id": "e59",
+      "surfaces": [
+        "a mária-utcai"
+      ],
+      "arrivals": [
+        106,
+        107,
+        144,
+        148,
+        149,
+        151,
+        152,
+        154,
+        161
+      ],
+      "extent": 9,
+      "censored": "above",
+      "aperture": 0.31862710934264626,
+      "bornAt": 180,
+      "moved": true,
+      "censoredRank": true
+    }
+  ]
+}

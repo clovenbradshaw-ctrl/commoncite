@@ -1,0 +1,82 @@
+{
+  "tag": "fr-6497",
+  "lang": "fr",
+  "pgId": 6497,
+  "title": "L'Assommoir",
+  "reference": {
+    "wiki": "fr.wikipedia.org",
+    "title": "L'Assommoir",
+    "revId": 238214835,
+    "sha256": "e22a3419fd7bc792602b133ba97680b17118bc836d3f0fa5b8cb361b1002165f"
+  },
+  "strategy": "fr-6497",
+  "count": 22,
+  "entries": [
+    {
+      "name": "Gervaise Macquart"
+    },
+    {
+      "name": "Coupeau"
+    },
+    {
+      "name": "Auguste Lantier"
+    },
+    {
+      "name": "Claude Lantier"
+    },
+    {
+      "name": "Étienne Lantier"
+    },
+    {
+      "name": "Anna Coupeau"
+    },
+    {
+      "name": "Goujet"
+    },
+    {
+      "name": "Les Lorilleux"
+    },
+    {
+      "name": "Maman Coupeau"
+    },
+    {
+      "name": "Virginie Poisson"
+    },
+    {
+      "name": "Lerat"
+    },
+    {
+      "name": "Augustine"
+    },
+    {
+      "name": "La grande Clémence"
+    },
+    {
+      "name": "Bibi-la-Grillade"
+    },
+    {
+      "name": "Bec-Salé"
+    },
+    {
+      "name": "Mes-Bottes"
+    },
+    {
+      "name": "Les Boche"
+    },
+    {
+      "name": "Le père Colombe"
+    },
+    {
+      "name": "Le père Bazouge"
+    },
+    {
+      "name": "Adèle"
+    },
+    {
+      "name": "Le père Bru"
+    },
+    {
+      "name": "Eulalie Bijard"
+    }
+  ]
+}

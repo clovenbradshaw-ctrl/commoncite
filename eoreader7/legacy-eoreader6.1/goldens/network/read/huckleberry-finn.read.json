@@ -1,0 +1,169 @@
+{
+  "tag": "huckleberry-finn",
+  "kind": "novel",
+  "spec": {
+    "window": 8,
+    "draws": 99,
+    "reseeds": 8,
+    "minArrivals": 4,
+    "atomsPerUnit": 200,
+    "offerEvery": 60
+  },
+  "segments": 44,
+  "units": 558,
+  "candidateSurfaces": 705,
+  "referents": 205,
+  "score": {
+    "registerSize": 12,
+    "referenceNodes": 74,
+    "entityHits": 5,
+    "entityRecall": 0.06756756756756757,
+    "edgesFoundTotal": 4,
+    "candidateEdges": 3,
+    "referenceEdges": 301,
+    "edgeHits": 2,
+    "edgeRecall": 0.006644518272425249,
+    "edgePrecision": 0.6666666666666666,
+    "edgeChance": {
+      "mean": 1.4975,
+      "p95": 3,
+      "max": 3
+    },
+    "matchedEdges": [
+      {
+        "a": "Huckleberry Finn",
+        "b": "Miss Watson",
+        "weight": 25
+      },
+      {
+        "a": "Huckleberry Finn",
+        "b": "Tom Sawyer",
+        "weight": 38
+      }
+    ]
+  },
+  "edges": [
+    {
+      "a": "e0",
+      "b": "e1",
+      "weight": 25,
+      "pValue": 0.005025125628140704
+    },
+    {
+      "a": "e0",
+      "b": "e2",
+      "weight": 38,
+      "pValue": 0
+    },
+    {
+      "a": "e1",
+      "b": "e2",
+      "weight": 93,
+      "pValue": 0
+    },
+    {
+      "a": "e4",
+      "b": "e7",
+      "weight": 6,
+      "pValue": 0.035175879396984924
+    }
+  ],
+  "register": [
+    {
+      "id": "e0",
+      "referentIds": [
+        "ref:auto:huck_finn"
+      ],
+      "surface": "Huck Finn",
+      "bornAt": 120
+    },
+    {
+      "id": "e1",
+      "referentIds": [
+        "ref:auto:miss_watson"
+      ],
+      "surface": "Miss Watson",
+      "bornAt": 120
+    },
+    {
+      "id": "e2",
+      "referentIds": [
+        "ref:auto:tom_sawyer"
+      ],
+      "surface": "Tom Sawyer",
+      "bornAt": 120
+    },
+    {
+      "id": "e3",
+      "referentIds": [
+        "ref:auto:judge_thatcher"
+      ],
+      "surface": "Judge Thatcher",
+      "bornAt": 180
+    },
+    {
+      "id": "e4",
+      "referentIds": [
+        "ref:auto:one_night"
+      ],
+      "surface": "One Night",
+      "bornAt": 300
+    },
+    {
+      "id": "e5",
+      "referentIds": [
+        "ref:auto:the_last"
+      ],
+      "surface": "The Last",
+      "bornAt": 300
+    },
+    {
+      "id": "e6",
+      "referentIds": [
+        "ref:auto:richard"
+      ],
+      "surface": "Richard",
+      "bornAt": 300
+    },
+    {
+      "id": "e7",
+      "referentIds": [
+        "ref:auto:romeo"
+      ],
+      "surface": "Romeo",
+      "bornAt": 300
+    },
+    {
+      "id": "e8",
+      "referentIds": [
+        "ref:auto:lord"
+      ],
+      "surface": "Lord",
+      "bornAt": 360
+    },
+    {
+      "id": "e9",
+      "referentIds": [
+        "ref:auto:london"
+      ],
+      "surface": "London",
+      "bornAt": 360
+    },
+    {
+      "id": "e10",
+      "referentIds": [
+        "ref:auto:louis"
+      ],
+      "surface": "Louis",
+      "bornAt": 420
+    },
+    {
+      "id": "e11",
+      "referentIds": [
+        "ref:auto:miss"
+      ],
+      "surface": "Miss",
+      "bornAt": 540
+    }
+  ]
+}

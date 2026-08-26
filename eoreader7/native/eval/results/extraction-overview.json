@@ -1,0 +1,250 @@
+{
+ "schema": "EOExtractionOverview@1",
+ "declared": {
+  "minSurfaces": 2,
+  "posPrior": "bin/priors/pos/en-ud-ewt.json — refuses only, never admits",
+  "scope": "whole books; this driver takes no --limit"
+ },
+ "books": [
+  {
+   "book": "pg84-frankenstein.txt",
+   "sentences": 3392,
+   "words": 75363,
+   "surfaces": 298,
+   "referents": 99,
+   "candidates": 172,
+   "grammarSurvives": 109,
+   "verbsAdmitted": 25,
+   "relations": 1987,
+   "relationsPerThousandWords": 26.4,
+   "topVerbs": [
+    {
+     "verb": "were",
+     "distinctSurfaces": 9
+    },
+    {
+     "verb": "is",
+     "distinctSurfaces": 6
+    },
+    {
+     "verb": "entered",
+     "distinctSurfaces": 6
+    },
+    {
+     "verb": "could",
+     "distinctSurfaces": 4
+    },
+    {
+     "verb": "should",
+     "distinctSurfaces": 4
+    },
+    {
+     "verb": "are",
+     "distinctSurfaces": 3
+    },
+    {
+     "verb": "went",
+     "distinctSurfaces": 3
+    },
+    {
+     "verb": "would",
+     "distinctSurfaces": 3
+    },
+    {
+     "verb": "has",
+     "distinctSurfaces": 3
+    },
+    {
+     "verb": "came",
+     "distinctSurfaces": 3
+    },
+    {
+     "verb": "endeavoured",
+     "distinctSurfaces": 3
+    },
+    {
+     "verb": "appeared",
+     "distinctSurfaces": 3
+    }
+   ]
+  },
+  {
+   "book": "pg345.txt",
+   "sentences": 9470,
+   "words": 163636,
+   "surfaces": 741,
+   "referents": 191,
+   "candidates": 447,
+   "grammarSurvives": 289,
+   "verbsAdmitted": 93,
+   "relations": 9176,
+   "relationsPerThousandWords": 56.1,
+   "topVerbs": [
+    {
+     "verb": "has",
+     "distinctSurfaces": 19
+    },
+    {
+     "verb": "went",
+     "distinctSurfaces": 13
+    },
+    {
+     "verb": "said",
+     "distinctSurfaces": 13
+    },
+    {
+     "verb": "came",
+     "distinctSurfaces": 12
+    },
+    {
+     "verb": "took",
+     "distinctSurfaces": 12
+    },
+    {
+     "verb": "would",
+     "distinctSurfaces": 11
+    },
+    {
+     "verb": "will",
+     "distinctSurfaces": 10
+    },
+    {
+     "verb": "saw",
+     "distinctSurfaces": 10
+    },
+    {
+     "verb": "were",
+     "distinctSurfaces": 8
+    },
+    {
+     "verb": "are",
+     "distinctSurfaces": 7
+    },
+    {
+     "verb": "says",
+     "distinctSurfaces": 7
+    },
+    {
+     "verb": "seemed",
+     "distinctSurfaces": 7
+    }
+   ]
+  },
+  {
+   "book": "pg1342.txt",
+   "sentences": 7769,
+   "words": 128700,
+   "surfaces": 330,
+   "referents": 115,
+   "candidates": 416,
+   "grammarSurvives": 271,
+   "verbsAdmitted": 87,
+   "relations": 5834,
+   "relationsPerThousandWords": 45.3,
+   "topVerbs": [
+    {
+     "verb": "would",
+     "distinctSurfaces": 23
+    },
+    {
+     "verb": "were",
+     "distinctSurfaces": 23
+    },
+    {
+     "verb": "has",
+     "distinctSurfaces": 21
+    },
+    {
+     "verb": "could",
+     "distinctSurfaces": 19
+    },
+    {
+     "verb": "will",
+     "distinctSurfaces": 13
+    },
+    {
+     "verb": "should",
+     "distinctSurfaces": 12
+    },
+    {
+     "verb": "might",
+     "distinctSurfaces": 11
+    },
+    {
+     "verb": "did",
+     "distinctSurfaces": 11
+    },
+    {
+     "verb": "came",
+     "distinctSurfaces": 11
+    },
+    {
+     "verb": "looked",
+     "distinctSurfaces": 10
+    },
+    {
+     "verb": "seemed",
+     "distinctSurfaces": 9
+    },
+    {
+     "verb": "began",
+     "distinctSurfaces": 8
+    }
+   ]
+  },
+  {
+   "book": "pg1524.txt",
+   "sentences": 3800,
+   "words": 32976,
+   "surfaces": 414,
+   "referents": 67,
+   "candidates": 153,
+   "grammarSurvives": 94,
+   "verbsAdmitted": 10,
+   "relations": 568,
+   "relationsPerThousandWords": 17.2,
+   "topVerbs": [
+    {
+     "verb": "was",
+     "distinctSurfaces": 3
+    },
+    {
+     "verb": "shall",
+     "distinctSurfaces": 3
+    },
+    {
+     "verb": "says",
+     "distinctSurfaces": 2
+    },
+    {
+     "verb": "speak",
+     "distinctSurfaces": 2
+    },
+    {
+     "verb": "make",
+     "distinctSurfaces": 2
+    },
+    {
+     "verb": "go",
+     "distinctSurfaces": 2
+    },
+    {
+     "verb": "are",
+     "distinctSurfaces": 2
+    },
+    {
+     "verb": "have",
+     "distinctSurfaces": 2
+    },
+    {
+     "verb": "following",
+     "distinctSurfaces": 2
+    },
+    {
+     "verb": "thee",
+     "distinctSurfaces": 2
+    }
+   ]
+  }
+ ]
+}

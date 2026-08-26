@@ -1,0 +1,286 @@
+{
+ "schema": "EOTerrainActivationLive@1",
+ "book": "pg84-frankenstein.txt",
+ "assembly": "causal text perceiver only, stepped in order — revision/fold tier not exercised (P0: named)",
+ "windowMeasurement": {
+  "conclusions": {
+   "top-8-cast": {
+    "gap": "reach_exceeds_candidates",
+    "reading": "the whole-prefix cast reaches the prefix's beginning — long-reach conclusion, correctly gapped"
+   },
+   "top-1-protagonist": {
+    "window": 8,
+    "gamma": 0.875
+   }
+  },
+  "running": {
+   "window": 8,
+   "gamma": 0.875,
+   "derive": "top-1 (who is this stretch about)",
+   "basis": "difference-that-makes-a-difference: the shallowest depth at which forgetting everything older changed no conclusion"
+  },
+  "candidates": [
+   8,
+   16,
+   32,
+   64,
+   128,
+   256
+  ]
+ },
+ "encounters": 3392,
+ "costPerProposition": {
+  "meanMicroseconds": 13,
+  "firstHalfMean": 11.3,
+  "secondHalfMean": 14.7,
+  "claim": "flat — the lighting cost does not grow with the book; growth here would mean re-reading (S4)"
+ },
+ "liveLighting": [
+  {
+   "at": 500,
+   "sentence": "Partly from curiosity and partly from idleness, I went into the lectur",
+   "lit": {
+    "Lens": [
+     "anchor:500:the_lecturing"
+    ]
+   }
+  },
+  {
+   "at": 1000,
+   "sentence": "I wish you\nhad come three months ago, and then you would have found us",
+   "lit": {
+    "Link": [
+     "edge:text:1000:0",
+     "edge:text:1000:1"
+    ],
+    "Field": [
+     "file:pg84-frankenstein.txt",
+     "file:pg84-frankenstein.txt"
+    ]
+   }
+  },
+  {
+   "at": 1500,
+   "sentence": "This\nwas a new sight to me, and I examined the structure with great\ncu",
+   "lit": {
+    "Lens": [
+     "anchor:1500:the_structure"
+    ]
+   }
+  },
+  {
+   "at": 1750,
+   "sentence": "Before I depart I will\ngive them to you; they will prove the truth of ",
+   "lit": {
+    "Link": [
+     "edge:text:1750:0",
+     "edge:text:1750:1",
+     "edge:text:1750:2"
+    ],
+    "Field": [
+     "file:pg84-frankenstein.txt",
+     "file:pg84-frankenstein.txt",
+     "file:pg84-frankenstein.txt"
+    ]
+   }
+  },
+  {
+   "at": 2000,
+   "sentence": "“As the night advanced, a fierce wind arose from the woods and quickly",
+   "lit": {
+    "Lens": [
+     "anchor:2000:the_night",
+     "anchor:2000:the_woods",
+     "anchor:2000:the_clouds"
+    ],
+    "Link": [
+     "edge:text:2000:0"
+    ],
+    "Field": [
+     "file:pg84-frankenstein.txt"
+    ]
+   }
+  },
+  {
+   "at": 2500,
+   "sentence": "He said that he was wearing away his time fruitlessly where\nhe was, th",
+   "lit": {
+    "Entity": [
+     "ref:auto:london",
+     "mention:2500:ref_auto_london"
+    ],
+    "Void": [
+     "gap:referent:ref_auto_london"
+    ],
+    "Link": [
+     "edge:text:2500:0",
+     "edge:text:2500:1"
+    ],
+    "Field": [
+     "file:pg84-frankenstein.txt",
+     "file:pg84-frankenstein.txt"
+    ]
+   }
+  },
+  {
+   "at": 2750,
+   "sentence": "The conclusion of this speech convinced my father that my ideas were\nd",
+   "lit": {
+    "Link": [
+     "edge:text:2750:0",
+     "edge:text:2750:1"
+    ],
+    "Field": [
+     "file:pg84-frankenstein.txt",
+     "file:pg84-frankenstein.txt"
+    ]
+   }
+  }
+ ],
+ "presenceAtCheckpoints": {
+  "25%": {
+   "Void": {
+    "active": 1,
+    "hottest": [
+     {
+      "id": "gap:referent:ref_auto_clerval",
+      "activation": 1.194
+     }
+    ]
+   },
+   "Entity": {
+    "active": 1,
+    "hottest": [
+     {
+      "id": "ref:auto:clerval",
+      "activation": 1.599
+     }
+    ]
+   },
+   "Field": {
+    "active": 1,
+    "hottest": [
+     {
+      "id": "file:pg84-frankenstein.txt",
+      "activation": 10.688
+     }
+    ]
+   },
+   "Link": {
+    "active": 1,
+    "hottest": [
+     {
+      "id": "edge:text:848:0",
+      "activation": 1
+     }
+    ]
+   },
+   "Lens": {
+    "active": 1,
+    "hottest": [
+     {
+      "id": "anchor:845:the_power",
+      "activation": 1.34
+     }
+    ]
+   }
+  },
+  "50%": {
+   "Entity": {
+    "active": 1,
+    "hottest": [
+     {
+      "id": "ref:auto:felix",
+      "activation": 1.204
+     }
+    ]
+   },
+   "Field": {
+    "active": 1,
+    "hottest": [
+     {
+      "id": "file:pg84-frankenstein.txt",
+      "activation": 10.901
+     }
+    ]
+   },
+   "Link": {
+    "active": 2,
+    "hottest": [
+     {
+      "id": "edge:text:1696:0",
+      "activation": 1
+     },
+     {
+      "id": "edge:text:1696:1",
+      "activation": 1
+     }
+    ]
+   }
+  },
+  "75%": {
+   "Field": {
+    "active": 1,
+    "hottest": [
+     {
+      "id": "file:pg84-frankenstein.txt",
+      "activation": 25.456
+     }
+    ]
+   }
+  }
+ },
+ "presentNow": {
+  "floor": 1,
+  "perTerrain": {
+   "Void": {
+    "active": 0,
+    "hottest": []
+   },
+   "Entity": {
+    "active": 0,
+    "hottest": []
+   },
+   "Kind": {
+    "active": 0,
+    "hottest": []
+   },
+   "Field": {
+    "active": 1,
+    "hottest": [
+     {
+      "id": "file:pg84-frankenstein.txt",
+      "activation": 9.238
+     }
+    ]
+   },
+   "Link": {
+    "active": 0,
+    "hottest": []
+   },
+   "Network": {
+    "active": 0,
+    "hottest": []
+   },
+   "Atmosphere": {
+    "active": 0,
+    "hottest": []
+   },
+   "Lens": {
+    "active": 0,
+    "hottest": []
+   },
+   "Paradigm": {
+    "active": 0,
+    "hottest": []
+   }
+  },
+  "note": "the reach of the present at the last proposition — presence, never to be exported as the reading's content (P1/P6)"
+ },
+ "unknownSchemas": [
+  {
+   "schema": "EOLexicalOccurrence@1",
+   "n": 9865
+  }
+ ]
+}

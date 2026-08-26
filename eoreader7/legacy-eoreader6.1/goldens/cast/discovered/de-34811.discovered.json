@@ -1,0 +1,868 @@
+{
+  "spec": {
+    "draws": 99,
+    "window": 8,
+    "reseeds": 8,
+    "hop": 4,
+    "units": 480,
+    "minOccurrences": 5,
+    "maxCandidates": 500
+  },
+  "spaced": true,
+  "arena": {
+    "units": 480,
+    "coverage": {
+      "covered": 480,
+      "extent": 480,
+      "uncovered": 0,
+      "complete": true
+    },
+    "contemporaryOf0": []
+  },
+  "candidatesConsidered": 500,
+  "candidatesDropped": 9383,
+  "clumped": 21,
+  "regular": 83,
+  "clumpedAll": [
+    {
+      "surface": "des",
+      "count": 902,
+      "extent": 424,
+      "reach": 0.8833333333333333,
+      "ananda": 0.005197964778123065,
+      "height": "peer"
+    },
+    {
+      "surface": "herr",
+      "count": 589,
+      "extent": 348,
+      "reach": 0.725,
+      "ananda": 0.011996569500539067,
+      "height": "peer"
+    },
+    {
+      "surface": "buddenbrook",
+      "count": 508,
+      "extent": 315,
+      "reach": 0.65625,
+      "ananda": 0.012594857717189711,
+      "height": "unstable"
+    },
+    {
+      "surface": "wenig",
+      "count": 359,
+      "extent": 293,
+      "reach": 0.6104166666666667,
+      "ananda": 0.01973451819898031,
+      "height": "peer"
+    },
+    {
+      "surface": "oder",
+      "count": 356,
+      "extent": 241,
+      "reach": 0.5020833333333333,
+      "ananda": 0.0180088849923159,
+      "height": "peer"
+    },
+    {
+      "surface": "in den",
+      "count": 296,
+      "extent": 212,
+      "reach": 0.44166666666666665,
+      "ananda": 0.019295941664502436,
+      "height": "unstable"
+    },
+    {
+      "surface": "johann",
+      "count": 172,
+      "extent": 132,
+      "reach": 0.275,
+      "ananda": 0.03761097985278994,
+      "height": "unstable"
+    },
+    {
+      "surface": "wurde",
+      "count": 160,
+      "extent": 183,
+      "reach": 0.38125,
+      "ananda": 0.028806599466044247,
+      "height": "peer"
+    },
+    {
+      "surface": "auf der",
+      "count": 157,
+      "extent": 133,
+      "reach": 0.27708333333333335,
+      "ananda": 0.02782013755227375,
+      "height": "unstable"
+    },
+    {
+      "surface": "buddenbrooks",
+      "count": 116,
+      "extent": 112,
+      "reach": 0.23333333333333334,
+      "ananda": 0.04880155380559614,
+      "height": "unstable"
+    },
+    {
+      "surface": "ende",
+      "count": 115,
+      "extent": 425,
+      "reach": 0.8854166666666666,
+      "ananda": 0.00528445355808671,
+      "height": "peer"
+    },
+    {
+      "surface": "hin",
+      "count": 115,
+      "extent": 421,
+      "reach": 0.8770833333333333,
+      "ananda": 0.008088305831295273,
+      "height": "unstable"
+    },
+    {
+      "surface": "drei",
+      "count": 102,
+      "extent": 132,
+      "reach": 0.275,
+      "ananda": 0.03761097985278994,
+      "height": "unstable"
+    },
+    {
+      "surface": "straße",
+      "count": 98,
+      "extent": 156,
+      "reach": 0.325,
+      "ananda": 0.024716112885769803,
+      "height": "peer"
+    },
+    {
+      "surface": "wurden",
+      "count": 88,
+      "extent": 80,
+      "reach": 0.16666666666666666,
+      "ananda": 0.041729295280806156,
+      "height": "peer"
+    },
+    {
+      "surface": "welche",
+      "count": 83,
+      "extent": 169,
+      "reach": 0.35208333333333336,
+      "ananda": 0.023751538662731164,
+      "height": "unstable"
+    },
+    {
+      "surface": "art",
+      "count": 79,
+      "extent": 363,
+      "reach": 0.75625,
+      "ananda": 0.011879300535641235,
+      "height": "peer"
+    },
+    {
+      "surface": "vier",
+      "count": 78,
+      "extent": 167,
+      "reach": 0.34791666666666665,
+      "ananda": 0.03174449793567646,
+      "height": "unstable"
+    },
+    {
+      "surface": "luft",
+      "count": 76,
+      "extent": 93,
+      "reach": 0.19375,
+      "ananda": 0.035993024141820484,
+      "height": "peer"
+    },
+    {
+      "surface": "die sich",
+      "count": 72,
+      "extent": 60,
+      "reach": 0.125,
+      "ananda": 0.04421188729665815,
+      "height": "unstable"
+    },
+    {
+      "surface": "langen",
+      "count": 68,
+      "extent": 91,
+      "reach": 0.18958333333333333,
+      "ananda": 0.03611547989202357,
+      "height": "peer"
+    }
+  ],
+  "regularAll": [
+    {
+      "surface": "nicht",
+      "count": 2164,
+      "extent": 467,
+      "reach": 0.9729166666666667,
+      "ananda": 0.0029475144755597427,
+      "height": "unstable"
+    },
+    {
+      "surface": "sagte",
+      "count": 765,
+      "extent": 336,
+      "reach": 0.7,
+      "ananda": 0.01163276078977482,
+      "height": "unstable"
+    },
+    {
+      "surface": "was",
+      "count": 675,
+      "extent": 398,
+      "reach": 0.8291666666666667,
+      "ananda": 0.008732153076445925,
+      "height": "peer"
+    },
+    {
+      "surface": "ja",
+      "count": 655,
+      "extent": 403,
+      "reach": 0.8395833333333333,
+      "ananda": 0.01051012548959207,
+      "height": "peer"
+    },
+    {
+      "surface": "wenn",
+      "count": 589,
+      "extent": 307,
+      "reach": 0.6395833333333333,
+      "ananda": 0.011162472134882861,
+      "height": "unstable"
+    },
+    {
+      "surface": "mir",
+      "count": 484,
+      "extent": 209,
+      "reach": 0.4354166666666667,
+      "ananda": 0.020552009071382216,
+      "height": "unstable"
+    },
+    {
+      "surface": "nur",
+      "count": 468,
+      "extent": 304,
+      "reach": 0.6333333333333333,
+      "ananda": 0.015745633862005448,
+      "height": "peer"
+    },
+    {
+      "surface": "ganz",
+      "count": 453,
+      "extent": 344,
+      "reach": 0.7166666666666667,
+      "ananda": 0.012378431406341761,
+      "height": "peer"
+    },
+    {
+      "surface": "mich",
+      "count": 447,
+      "extent": 199,
+      "reach": 0.41458333333333336,
+      "ananda": 0.02282069111968532,
+      "height": "unstable"
+    },
+    {
+      "surface": "tony",
+      "count": 425,
+      "extent": 196,
+      "reach": 0.4083333333333333,
+      "ananda": 0.023614638741847216,
+      "height": "unstable"
+    },
+    {
+      "surface": "habe",
+      "count": 421,
+      "extent": 334,
+      "reach": 0.6958333333333333,
+      "ananda": 0.014361083114115658,
+      "height": "peer"
+    },
+    {
+      "surface": "wir",
+      "count": 387,
+      "extent": 327,
+      "reach": 0.68125,
+      "ananda": 0.014298655158746953,
+      "height": "unstable"
+    },
+    {
+      "surface": "haben",
+      "count": 368,
+      "extent": 223,
+      "reach": 0.46458333333333335,
+      "ananda": 0.020900795185101018,
+      "height": "peer"
+    },
+    {
+      "surface": "schon",
+      "count": 362,
+      "extent": 244,
+      "reach": 0.5083333333333333,
+      "ananda": 0.02113338250699215,
+      "height": "peer"
+    },
+    {
+      "surface": "doch",
+      "count": 320,
+      "extent": 234,
+      "reach": 0.4875,
+      "ananda": 0.02042022161730017,
+      "height": "peer"
+    },
+    {
+      "surface": "mein",
+      "count": 308,
+      "extent": 329,
+      "reach": 0.6854166666666667,
+      "ananda": 0.011826150468831287,
+      "height": "unstable"
+    },
+    {
+      "surface": "sind",
+      "count": 302,
+      "extent": 175,
+      "reach": 0.3645833333333333,
+      "ananda": 0.026119534793204835,
+      "height": "peer"
+    },
+    {
+      "surface": "immer",
+      "count": 285,
+      "extent": 353,
+      "reach": 0.7354166666666667,
+      "ananda": 0.009641544457551277,
+      "height": "peer"
+    },
+    {
+      "surface": "permaneder",
+      "count": 266,
+      "extent": 133,
+      "reach": 0.27708333333333335,
+      "ananda": 0.02782013755227375,
+      "height": "unstable"
+    },
+    {
+      "surface": "hier",
+      "count": 262,
+      "extent": 223,
+      "reach": 0.46458333333333335,
+      "ananda": 0.020900795185101018,
+      "height": "peer"
+    },
+    {
+      "surface": "grünlich",
+      "count": 261,
+      "extent": 123,
+      "reach": 0.25625,
+      "ananda": 0.033131133794723766,
+      "height": "peer"
+    },
+    {
+      "surface": "sehr",
+      "count": 259,
+      "extent": 188,
+      "reach": 0.39166666666666666,
+      "ananda": 0.02653046108799373,
+      "height": "peer"
+    },
+    {
+      "surface": "dir",
+      "count": 256,
+      "extent": 155,
+      "reach": 0.3229166666666667,
+      "ananda": 0.026970411743612033,
+      "height": "unstable"
+    },
+    {
+      "surface": "dich",
+      "count": 248,
+      "extent": 161,
+      "reach": 0.33541666666666664,
+      "ananda": 0.024834933792202918,
+      "height": "unstable"
+    },
+    {
+      "surface": "bin",
+      "count": 246,
+      "extent": 179,
+      "reach": 0.3729166666666667,
+      "ananda": 0.021833752626239544,
+      "height": "peer"
+    },
+    {
+      "surface": "einmal",
+      "count": 217,
+      "extent": 171,
+      "reach": 0.35625,
+      "ananda": 0.02751298513229017,
+      "height": "peer"
+    },
+    {
+      "surface": "kann",
+      "count": 216,
+      "extent": 207,
+      "reach": 0.43125,
+      "ananda": 0.020199180805178685,
+      "height": "unstable"
+    },
+    {
+      "surface": "es ist",
+      "count": 215,
+      "extent": 151,
+      "reach": 0.3145833333333333,
+      "ananda": 0.03284549013208071,
+      "height": "peer"
+    },
+    {
+      "surface": "daß er",
+      "count": 213,
+      "extent": 145,
+      "reach": 0.3020833333333333,
+      "ananda": 0.028511673651136604,
+      "height": "peer"
+    },
+    {
+      "surface": "tom",
+      "count": 209,
+      "extent": 107,
+      "reach": 0.22291666666666668,
+      "ananda": 0.03598546325264351,
+      "height": "peer"
+    },
+    {
+      "surface": "sagte er",
+      "count": 206,
+      "extent": 156,
+      "reach": 0.325,
+      "ananda": 0.024716112885769803,
+      "height": "unstable"
+    },
+    {
+      "surface": "jetzt",
+      "count": 205,
+      "extent": 155,
+      "reach": 0.3229166666666667,
+      "ananda": 0.026970411743612033,
+      "height": "peer"
+    },
+    {
+      "surface": "gut",
+      "count": 204,
+      "extent": 282,
+      "reach": 0.5875,
+      "ananda": 0.014566534201671644,
+      "height": "unstable"
+    },
+    {
+      "surface": "ich habe",
+      "count": 204,
+      "extent": 134,
+      "reach": 0.2791666666666667,
+      "ananda": 0.033131600058467825,
+      "height": "peer"
+    },
+    {
+      "surface": "gar",
+      "count": 197,
+      "extent": 273,
+      "reach": 0.56875,
+      "ananda": 0.015362317992218877,
+      "height": "peer"
+    },
+    {
+      "surface": "meine",
+      "count": 194,
+      "extent": 216,
+      "reach": 0.45,
+      "ananda": 0.015695843832716605,
+      "height": "unstable"
+    },
+    {
+      "surface": "sagen",
+      "count": 189,
+      "extent": 156,
+      "reach": 0.325,
+      "ananda": 0.024716112885769803,
+      "height": "peer"
+    },
+    {
+      "surface": "das ist",
+      "count": 179,
+      "extent": 125,
+      "reach": 0.2604166666666667,
+      "ananda": 0.03418426552662268,
+      "height": "peer"
+    },
+    {
+      "surface": "muß",
+      "count": 165,
+      "extent": 238,
+      "reach": 0.49583333333333335,
+      "ananda": 0.020189994677284773,
+      "height": "unstable"
+    },
+    {
+      "surface": "hast",
+      "count": 155,
+      "extent": 106,
+      "reach": 0.22083333333333333,
+      "ananda": 0.03595469472883828,
+      "height": "unstable"
+    },
+    {
+      "surface": "daß sie",
+      "count": 150,
+      "extent": 104,
+      "reach": 0.21666666666666667,
+      "ananda": 0.03411644092161126,
+      "height": "unstable"
+    },
+    {
+      "surface": "hätte",
+      "count": 149,
+      "extent": 144,
+      "reach": 0.3,
+      "ananda": 0.029324083357153086,
+      "height": "peer"
+    },
+    {
+      "surface": "frau permaneder",
+      "count": 146,
+      "extent": 87,
+      "reach": 0.18125,
+      "ananda": 0.03436142845308865,
+      "height": "peer"
+    },
+    {
+      "surface": "ich bin",
+      "count": 142,
+      "extent": 95,
+      "reach": 0.19791666666666666,
+      "ananda": 0.04172745331000449,
+      "height": "peer"
+    },
+    {
+      "surface": "allein",
+      "count": 140,
+      "extent": 116,
+      "reach": 0.24166666666666667,
+      "ananda": 0.04190944921553452,
+      "height": "peer"
+    },
+    {
+      "surface": "sache",
+      "count": 137,
+      "extent": 156,
+      "reach": 0.325,
+      "ananda": 0.024716112885769803,
+      "height": "peer"
+    },
+    {
+      "surface": "liebe",
+      "count": 127,
+      "extent": 224,
+      "reach": 0.4666666666666667,
+      "ananda": 0.022335778782181848,
+      "height": "peer"
+    },
+    {
+      "surface": "will",
+      "count": 126,
+      "extent": 198,
+      "reach": 0.4125,
+      "ananda": 0.02105480328567566,
+      "height": "peer"
+    },
+    {
+      "surface": "daß ich",
+      "count": 125,
+      "extent": 82,
+      "reach": 0.17083333333333334,
+      "ananda": 0.04033912423358643,
+      "height": "unstable"
+    },
+    {
+      "surface": "der senator",
+      "count": 124,
+      "extent": 75,
+      "reach": 0.15625,
+      "ananda": 0.04543234916068073,
+      "height": "peer"
+    },
+    {
+      "surface": "müssen",
+      "count": 119,
+      "extent": 95,
+      "reach": 0.19791666666666666,
+      "ananda": 0.04172745331000449,
+      "height": "peer"
+    },
+    {
+      "surface": "vielleicht",
+      "count": 114,
+      "extent": 98,
+      "reach": 0.20416666666666666,
+      "ananda": 0.04114755030019168,
+      "height": "unstable"
+    },
+    {
+      "surface": "ein bißchen",
+      "count": 114,
+      "extent": 85,
+      "reach": 0.17708333333333334,
+      "ananda": 0.037157867505042574,
+      "height": "peer"
+    },
+    {
+      "surface": "rief",
+      "count": 113,
+      "extent": 139,
+      "reach": 0.28958333333333336,
+      "ananda": 0.032072815957683076,
+      "height": "unstable"
+    },
+    {
+      "surface": "damit",
+      "count": 113,
+      "extent": 94,
+      "reach": 0.19583333333333333,
+      "ananda": 0.038361091619659504,
+      "height": "unstable"
+    },
+    {
+      "surface": "den kopf",
+      "count": 112,
+      "extent": 99,
+      "reach": 0.20625,
+      "ananda": 0.029808364494819273,
+      "height": "unstable"
+    },
+    {
+      "surface": "heute",
+      "count": 111,
+      "extent": 102,
+      "reach": 0.2125,
+      "ananda": 0.04641539300856401,
+      "height": "peer"
+    },
+    {
+      "surface": "fuhr",
+      "count": 108,
+      "extent": 115,
+      "reach": 0.23958333333333334,
+      "ananda": 0.03645419612873191,
+      "height": "unstable"
+    },
+    {
+      "surface": "wort",
+      "count": 107,
+      "extent": 269,
+      "reach": 0.5604166666666667,
+      "ananda": 0.018833069659919488,
+      "height": "unstable"
+    },
+    {
+      "surface": "es nicht",
+      "count": 106,
+      "extent": 87,
+      "reach": 0.18125,
+      "ananda": 0.03436142845308865,
+      "height": "peer"
+    },
+    {
+      "surface": "kein",
+      "count": 104,
+      "extent": 243,
+      "reach": 0.50625,
+      "ananda": 0.017249731047431993,
+      "height": "unstable"
+    },
+    {
+      "surface": "sagte sie",
+      "count": 103,
+      "extent": 81,
+      "reach": 0.16875,
+      "ananda": 0.04454117424248594,
+      "height": "unstable"
+    },
+    {
+      "surface": "eigentlich",
+      "count": 103,
+      "extent": 92,
+      "reach": 0.19166666666666668,
+      "ananda": 0.03750825352047116,
+      "height": "peer"
+    },
+    {
+      "surface": "wenn ich",
+      "count": 99,
+      "extent": 73,
+      "reach": 0.15208333333333332,
+      "ananda": 0.05777180170136198,
+      "height": "peer"
+    },
+    {
+      "surface": "bist",
+      "count": 97,
+      "extent": 59,
+      "reach": 0.12291666666666666,
+      "ananda": 0.05028189662323612,
+      "height": "unstable"
+    },
+    {
+      "surface": "ist es",
+      "count": 91,
+      "extent": 70,
+      "reach": 0.14583333333333334,
+      "ananda": 0.04328113045929882,
+      "height": "peer"
+    },
+    {
+      "surface": "soll",
+      "count": 91,
+      "extent": 181,
+      "reach": 0.3770833333333333,
+      "ananda": 0.024717084707022607,
+      "height": "peer"
+    },
+    {
+      "surface": "herr grünlich",
+      "count": 90,
+      "extent": 35,
+      "reach": 0.07291666666666667,
+      "ananda": 0.07372553040079843,
+      "height": "peer"
+    },
+    {
+      "surface": "gesagt",
+      "count": 88,
+      "extent": 78,
+      "reach": 0.1625,
+      "ananda": 0.044970224982849416,
+      "height": "peer"
+    },
+    {
+      "surface": "kommen",
+      "count": 84,
+      "extent": 229,
+      "reach": 0.47708333333333336,
+      "ananda": 0.0214745283962543,
+      "height": "peer"
+    },
+    {
+      "surface": "und ich",
+      "count": 84,
+      "extent": 59,
+      "reach": 0.12291666666666666,
+      "ananda": 0.05028189662323612,
+      "height": "unstable"
+    },
+    {
+      "surface": "gar nicht",
+      "count": 84,
+      "extent": 92,
+      "reach": 0.19166666666666668,
+      "ananda": 0.03750825352047116,
+      "height": "peer"
+    },
+    {
+      "surface": "also",
+      "count": 84,
+      "extent": 68,
+      "reach": 0.14166666666666666,
+      "ananda": 0.04895145423744296,
+      "height": "peer"
+    },
+    {
+      "surface": "ich weiß",
+      "count": 83,
+      "extent": 63,
+      "reach": 0.13125,
+      "ananda": 0.053903921588059234,
+      "height": "unstable"
+    },
+    {
+      "surface": "uhr",
+      "count": 81,
+      "extent": 181,
+      "reach": 0.3770833333333333,
+      "ananda": 0.024717084707022607,
+      "height": "peer"
+    },
+    {
+      "surface": "habe ich",
+      "count": 80,
+      "extent": 54,
+      "reach": 0.1125,
+      "ananda": 0.06123539300262948,
+      "height": "unstable"
+    },
+    {
+      "surface": "weißt",
+      "count": 79,
+      "extent": 64,
+      "reach": 0.13333333333333333,
+      "ananda": 0.06255452654101568,
+      "height": "peer"
+    },
+    {
+      "surface": "durchaus",
+      "count": 78,
+      "extent": 68,
+      "reach": 0.14166666666666666,
+      "ananda": 0.04895145423744296,
+      "height": "peer"
+    },
+    {
+      "surface": "bitte",
+      "count": 78,
+      "extent": 110,
+      "reach": 0.22916666666666666,
+      "ananda": 0.03470584549579847,
+      "height": "unstable"
+    },
+    {
+      "surface": "sagte der",
+      "count": 76,
+      "extent": 61,
+      "reach": 0.12708333333333333,
+      "ananda": 0.04921668475035368,
+      "height": "peer"
+    },
+    {
+      "surface": "kommt",
+      "count": 74,
+      "extent": 66,
+      "reach": 0.1375,
+      "ananda": 0.048453024131822175,
+      "height": "peer"
+    },
+    {
+      "surface": "ich mich",
+      "count": 74,
+      "extent": 53,
+      "reach": 0.11041666666666666,
+      "ananda": 0.051362819504422674,
+      "height": "unstable"
+    },
+    {
+      "surface": "ist ein",
+      "count": 68,
+      "extent": 79,
+      "reach": 0.16458333333333333,
+      "ananda": 0.03698808846657009,
+      "height": "peer"
+    }
+  ],
+  "heights": {
+    "above": 0,
+    "peer": 11,
+    "unstable": 10
+  },
+  "register": []
+}

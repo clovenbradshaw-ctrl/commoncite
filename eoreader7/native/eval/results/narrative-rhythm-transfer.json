@@ -1,0 +1,100 @@
+{
+  "schema": "EORhythmTransfer@1",
+  "declared": {
+    "seed": 0,
+    "shuffleDraws": 2,
+    "summary": "median",
+    "assembly": "perceiver-only mention stream — fold/revision tier not exercised"
+  },
+  "priors": {
+    "novel (P&P)": {
+      "medianGap": 12,
+      "gapCount": 4893,
+      "quartiles": [
+        4,
+        12,
+        43
+      ]
+    },
+    "play (Hamlet)": {
+      "medianGap": 7,
+      "gapCount": 903,
+      "quartiles": [
+        4,
+        7,
+        29
+      ]
+    },
+    "self (Frankenstein — comparison only)": {
+      "medianGap": 15,
+      "gapCount": 557,
+      "quartiles": [
+        5,
+        15,
+        57
+      ]
+    }
+  },
+  "scores": {
+    "ordered": {
+      "novel (P&P)": {
+        "expectations": 557,
+        "fulfilled": 261,
+        "violated": 296,
+        "fulfilmentRate": 0.46858168761220825
+      },
+      "play (Hamlet)": {
+        "expectations": 557,
+        "fulfilled": 192,
+        "violated": 365,
+        "fulfilmentRate": 0.34470377019748655
+      },
+      "self (Frankenstein — comparison only)": {
+        "expectations": 557,
+        "fulfilled": 285,
+        "violated": 272,
+        "fulfilmentRate": 0.5116696588868941
+      }
+    },
+    "shuffled#0": {
+      "novel (P&P)": {
+        "expectations": 581,
+        "fulfilled": 86,
+        "violated": 495,
+        "fulfilmentRate": 0.14802065404475043
+      },
+      "play (Hamlet)": {
+        "expectations": 581,
+        "fulfilled": 52,
+        "violated": 529,
+        "fulfilmentRate": 0.08950086058519793
+      },
+      "self (Frankenstein — comparison only)": {
+        "expectations": 581,
+        "fulfilled": 110,
+        "violated": 471,
+        "fulfilmentRate": 0.18932874354561102
+      }
+    },
+    "shuffled#1": {
+      "novel (P&P)": {
+        "expectations": 573,
+        "fulfilled": 81,
+        "violated": 492,
+        "fulfilmentRate": 0.14136125654450263
+      },
+      "play (Hamlet)": {
+        "expectations": 573,
+        "fulfilled": 40,
+        "violated": 533,
+        "fulfilmentRate": 0.06980802792321117
+      },
+      "self (Frankenstein — comparison only)": {
+        "expectations": 573,
+        "fulfilled": 97,
+        "violated": 476,
+        "fulfilmentRate": 0.16928446771378708
+      }
+    }
+  }
+}

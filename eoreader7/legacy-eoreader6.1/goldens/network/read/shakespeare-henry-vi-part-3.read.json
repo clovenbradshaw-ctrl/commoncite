@@ -1,0 +1,192 @@
+{
+  "tag": "shakespeare-henry-vi-part-3",
+  "kind": "play",
+  "spec": {
+    "window": 8,
+    "draws": 99,
+    "reseeds": 8,
+    "minArrivals": 4,
+    "atomsPerUnit": 200,
+    "offerEvery": 60
+  },
+  "segments": 28,
+  "units": 124,
+  "candidateSurfaces": 458,
+  "referents": 99,
+  "score": {
+    "registerSize": 9,
+    "referenceNodes": 43,
+    "entityHits": 6,
+    "entityRecall": 0.13953488372093023,
+    "edgesFoundTotal": 11,
+    "candidateEdges": 4,
+    "referenceEdges": 240,
+    "edgeHits": 3,
+    "edgeRecall": 0.0125,
+    "edgePrecision": 0.75,
+    "edgeChance": {
+      "mean": 2.97,
+      "p95": 4,
+      "max": 4
+    },
+    "matchedEdges": [
+      {
+        "a": "K. Henry",
+        "b": "Richard",
+        "weight": 61
+      },
+      {
+        "a": "York",
+        "b": "Richard",
+        "weight": 128
+      },
+      {
+        "a": "Richard",
+        "b": "Northumberland",
+        "weight": 52
+      }
+    ]
+  },
+  "edges": [
+    {
+      "a": "e0",
+      "b": "e3",
+      "weight": 142,
+      "pValue": 0
+    },
+    {
+      "a": "e0",
+      "b": "e4",
+      "weight": 101,
+      "pValue": 0
+    },
+    {
+      "a": "e1",
+      "b": "e3",
+      "weight": 61,
+      "pValue": 0.04020100502512563
+    },
+    {
+      "a": "e1",
+      "b": "e4",
+      "weight": 47,
+      "pValue": 0
+    },
+    {
+      "a": "e2",
+      "b": "e3",
+      "weight": 128,
+      "pValue": 0.020100502512562814
+    },
+    {
+      "a": "e2",
+      "b": "e4",
+      "weight": 89,
+      "pValue": 0.020100502512562814
+    },
+    {
+      "a": "e3",
+      "b": "e4",
+      "weight": 79,
+      "pValue": 0.03015075376884422
+    },
+    {
+      "a": "e3",
+      "b": "e7",
+      "weight": 52,
+      "pValue": 0
+    },
+    {
+      "a": "e4",
+      "b": "e7",
+      "weight": 36,
+      "pValue": 0.005025125628140704
+    },
+    {
+      "a": "e4",
+      "b": "e8",
+      "weight": 39,
+      "pValue": 0.035175879396984924
+    },
+    {
+      "a": "e5",
+      "b": "e6",
+      "weight": 176,
+      "pValue": 0
+    }
+  ],
+  "register": [
+    {
+      "id": "e0",
+      "referentIds": [
+        "ref:auto:duke"
+      ],
+      "surface": "Duke",
+      "bornAt": 60
+    },
+    {
+      "id": "e1",
+      "referentIds": [
+        "ref:auto:king_henry"
+      ],
+      "surface": "King Henry",
+      "bornAt": 60
+    },
+    {
+      "id": "e2",
+      "referentIds": [
+        "ref:auto:york"
+      ],
+      "surface": "York",
+      "bornAt": 60
+    },
+    {
+      "id": "e3",
+      "referentIds": [
+        "ref:auto:richard"
+      ],
+      "surface": "Richard",
+      "bornAt": 120
+    },
+    {
+      "id": "e4",
+      "referentIds": [
+        "ref:auto:lancaster"
+      ],
+      "surface": "Lancaster",
+      "bornAt": 120
+    },
+    {
+      "id": "e5",
+      "referentIds": [
+        "ref:auto:edward"
+      ],
+      "surface": "Edward",
+      "bornAt": 120
+    },
+    {
+      "id": "e6",
+      "referentIds": [
+        "ref:auto:oxford"
+      ],
+      "surface": "Oxford",
+      "bornAt": 120
+    },
+    {
+      "id": "e7",
+      "referentIds": [
+        "ref:auto:northumberland"
+      ],
+      "surface": "Northumberland",
+      "bornAt": 124
+    },
+    {
+      "id": "e8",
+      "referentIds": [
+        "ref:auto:earl"
+      ],
+      "surface": "Earl",
+      "bornAt": 124
+    }
+  ]
+}

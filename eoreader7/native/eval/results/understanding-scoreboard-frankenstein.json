@@ -1,0 +1,236 @@
+{
+  "schema": "EOUnderstandingScoreboard@1",
+  "material": {
+    "path": "legacy-eoreader6.1/scripts/adversarial/fixtures/pg84-frankenstein.txt",
+    "encounters": 3392,
+    "fast": false
+  },
+  "declared": {
+    "cursors": [
+      848,
+      1696,
+      2544
+    ],
+    "shuffleDraws": 2,
+    "seed": 0,
+    "grain": "sentence — the tier ladder is disclosed future work, not implied"
+  },
+  "ordered": {
+    "label": "ordered",
+    "totals": {
+      "turns": 3392,
+      "hypothesesFinal": 1,
+      "finalDistinct": 0,
+      "pastRemadeTotal": 0,
+      "firstCanonTotal": 0,
+      "splitsTotal": 0,
+      "hypothesesOpenedTotal": 898,
+      "hypothesesResolvedTotal": 1,
+      "expectationsFinal": 0,
+      "obligationsFinal": 0,
+      "provisionalFinal": 897,
+      "unresolvedAlternativesFinal": 1
+    },
+    "forward": [
+      {
+        "cursor": 848,
+        "live": 0,
+        "supportedLater": 0,
+        "attacked": 0,
+        "silent": 0
+      },
+      {
+        "cursor": 1696,
+        "live": 0,
+        "supportedLater": 0,
+        "attacked": 0,
+        "silent": 0
+      },
+      {
+        "cursor": 2544,
+        "live": 1,
+        "supportedLater": 0,
+        "attacked": 0,
+        "silent": 1
+      }
+    ],
+    "backward": [
+      {
+        "cursor": 848,
+        "after": 2544,
+        "pastRemade": 0,
+        "firstCanonicalizations": 0,
+        "identitySplits": 0,
+        "hypothesesOpened": 861,
+        "hypothesesSupported": 0,
+        "discourseSupported": 0
+      },
+      {
+        "cursor": 1696,
+        "after": 1696,
+        "pastRemade": 0,
+        "firstCanonicalizations": 0,
+        "identitySplits": 0,
+        "hypothesesOpened": 674,
+        "hypothesesSupported": 0,
+        "discourseSupported": 0
+      },
+      {
+        "cursor": 2544,
+        "after": 848,
+        "pastRemade": 0,
+        "firstCanonicalizations": 0,
+        "identitySplits": 0,
+        "hypothesesOpened": 355,
+        "hypothesesSupported": 0,
+        "discourseSupported": 0
+      }
+    ]
+  },
+  "nulls": [
+    {
+      "label": "shuffled#0",
+      "totals": {
+        "turns": 3392,
+        "hypothesesFinal": 1,
+        "finalDistinct": 0,
+        "pastRemadeTotal": 0,
+        "firstCanonTotal": 0,
+        "splitsTotal": 0,
+        "hypothesesOpenedTotal": 902,
+        "hypothesesResolvedTotal": 1,
+        "expectationsFinal": 0,
+        "obligationsFinal": 0,
+        "provisionalFinal": 901,
+        "unresolvedAlternativesFinal": 1
+      },
+      "forward": [
+        {
+          "cursor": 848,
+          "live": 0,
+          "supportedLater": 0,
+          "attacked": 0,
+          "silent": 0
+        },
+        {
+          "cursor": 1696,
+          "live": 1,
+          "supportedLater": 0,
+          "attacked": 0,
+          "silent": 1
+        },
+        {
+          "cursor": 2544,
+          "live": 1,
+          "supportedLater": 0,
+          "attacked": 0,
+          "silent": 1
+        }
+      ],
+      "backward": [
+        {
+          "cursor": 848,
+          "after": 2544,
+          "pastRemade": 0,
+          "firstCanonicalizations": 0,
+          "identitySplits": 0,
+          "hypothesesOpened": 855,
+          "hypothesesSupported": 0,
+          "discourseSupported": 1
+        },
+        {
+          "cursor": 1696,
+          "after": 1696,
+          "pastRemade": 0,
+          "firstCanonicalizations": 0,
+          "identitySplits": 0,
+          "hypothesesOpened": 649,
+          "hypothesesSupported": 0,
+          "discourseSupported": 1
+        },
+        {
+          "cursor": 2544,
+          "after": 848,
+          "pastRemade": 0,
+          "firstCanonicalizations": 0,
+          "identitySplits": 0,
+          "hypothesesOpened": 299,
+          "hypothesesSupported": 0,
+          "discourseSupported": 0
+        }
+      ]
+    },
+    {
+      "label": "shuffled#1",
+      "totals": {
+        "turns": 3392,
+        "hypothesesFinal": 1,
+        "finalDistinct": 0,
+        "pastRemadeTotal": 0,
+        "firstCanonTotal": 0,
+        "splitsTotal": 0,
+        "hypothesesOpenedTotal": 722,
+        "hypothesesResolvedTotal": 0,
+        "expectationsFinal": 0,
+        "obligationsFinal": 0,
+        "provisionalFinal": 721,
+        "unresolvedAlternativesFinal": 1
+      },
+      "forward": [
+        {
+          "cursor": 848,
+          "live": 0,
+          "supportedLater": 0,
+          "attacked": 0,
+          "silent": 0
+        },
+        {
+          "cursor": 1696,
+          "live": 0,
+          "supportedLater": 0,
+          "attacked": 0,
+          "silent": 0
+        },
+        {
+          "cursor": 2544,
+          "live": 1,
+          "supportedLater": 0,
+          "attacked": 0,
+          "silent": 1
+        }
+      ],
+      "backward": [
+        {
+          "cursor": 848,
+          "after": 2544,
+          "pastRemade": 0,
+          "firstCanonicalizations": 0,
+          "identitySplits": 0,
+          "hypothesesOpened": 703,
+          "hypothesesSupported": 0,
+          "discourseSupported": 0
+        },
+        {
+          "cursor": 1696,
+          "after": 1696,
+          "pastRemade": 0,
+          "firstCanonicalizations": 0,
+          "identitySplits": 0,
+          "hypothesesOpened": 590,
+          "hypothesesSupported": 0,
+          "discourseSupported": 0
+        },
+        {
+          "cursor": 2544,
+          "after": 848,
+          "pastRemade": 0,
+          "firstCanonicalizations": 0,
+          "identitySplits": 0,
+          "hypothesesOpened": 350,
+          "hypothesesSupported": 0,
+          "discourseSupported": 0
+        }
+      ]
+    }
+  ]
+}

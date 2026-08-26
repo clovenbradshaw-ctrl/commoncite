@@ -1,0 +1,273 @@
+{
+ "schema": "EONetworkStanding@1",
+ "book": "pg84.txt",
+ "assembly": "causal text perceiver (mention arrivals per encounter) -> kernel/network-standing with engine bindLinks injected",
+ "declared": {
+  "window": {
+   "value": 8,
+   "basis": "dmdWindow, top-1 derive on this book's own first-quarter mention stream"
+  },
+  "draws": 199,
+  "alpha": 0.05,
+  "seed": 20260812
+ },
+ "beings": 58,
+ "identityProjection": {
+  "incrementalIds": 60,
+  "finalBeings": 58,
+  "remapped": 2
+ },
+ "belowArrivalFloor": 13,
+ "rawCoArrivingPairs": 251,
+ "edges": 77,
+ "refusedAsCoincident": 174,
+ "topEdges": [
+  {
+   "a": "ref:auto:felix",
+   "b": "ref:auto:safie",
+   "coArrivals": 62,
+   "pValue": 0
+  },
+  {
+   "a": "ref:auto:felix",
+   "b": "ref:auto:agatha",
+   "coArrivals": 59,
+   "pValue": 0
+  },
+  {
+   "a": "ref:auto:elizabeth",
+   "b": "ref:auto:clerval",
+   "coArrivals": 49,
+   "pValue": 0.04020100502512563
+  },
+  {
+   "a": "ref:auto:elizabeth",
+   "b": "ref:auto:justine",
+   "coArrivals": 48,
+   "pValue": 0
+  },
+  {
+   "a": "ref:auto:felix",
+   "b": "ref:auto:turk",
+   "coArrivals": 37,
+   "pValue": 0
+  },
+  {
+   "a": "ref:auto:elizabeth",
+   "b": "ref:auto:victor",
+   "coArrivals": 28,
+   "pValue": 0
+  },
+  {
+   "a": "ref:auto:geneva",
+   "b": "ref:auto:clerval",
+   "coArrivals": 26,
+   "pValue": 0
+  },
+  {
+   "a": "ref:auto:elizabeth",
+   "b": "ref:auto:geneva",
+   "coArrivals": 25,
+   "pValue": 0.035175879396984924
+  },
+  {
+   "a": "ref:auto:felix",
+   "b": "ref:auto:arabian",
+   "coArrivals": 25,
+   "pValue": 0
+  },
+  {
+   "a": "ref:auto:justine",
+   "b": "ref:auto:william",
+   "coArrivals": 24,
+   "pValue": 0
+  },
+  {
+   "a": "ref:auto:safie",
+   "b": "ref:auto:turk",
+   "coArrivals": 24,
+   "pValue": 0
+  },
+  {
+   "a": "ref:auto:felix",
+   "b": "ref:auto:paris",
+   "coArrivals": 23,
+   "pValue": 0
+  },
+  {
+   "a": "ref:auto:mr",
+   "b": "ref:auto:mr_kirwin",
+   "coArrivals": 19,
+   "pValue": 0.020100502512562814
+  },
+  {
+   "a": "ref:auto:god",
+   "b": "ref:auto:justine",
+   "coArrivals": 16,
+   "pValue": 0
+  },
+  {
+   "a": "ref:auto:agatha",
+   "b": "ref:auto:safie",
+   "coArrivals": 16,
+   "pValue": 0
+  }
+ ],
+ "refusedSample": [
+  {
+   "a": "ref:auto:clerval",
+   "b": "ref:auto:frankenstein",
+   "coArrivals": 17,
+   "pValue": 0.05025125628140704,
+   "reason": "coincident_under_null",
+   "detail": "observed co-arrival does not clear its own displacement null at alpha 0.05 — company kept by chance is not a bond"
+  },
+  {
+   "a": "ref:auto:elizabeth",
+   "b": "ref:auto:god",
+   "coArrivals": 16,
+   "pValue": 0.05025125628140704,
+   "reason": "coincident_under_null",
+   "detail": "observed co-arrival does not clear its own displacement null at alpha 0.05 — company kept by chance is not a bond"
+  },
+  {
+   "a": "ref:auto:clerval",
+   "b": "ref:auto:victor",
+   "coArrivals": 16,
+   "pValue": 0.1306532663316583,
+   "reason": "coincident_under_null",
+   "detail": "observed co-arrival does not clear its own displacement null at alpha 0.05 — company kept by chance is not a bond"
+  },
+  {
+   "a": "ref:auto:elizabeth",
+   "b": "ref:auto:william",
+   "coArrivals": 15,
+   "pValue": 0.135678391959799,
+   "reason": "coincident_under_null",
+   "detail": "observed co-arrival does not clear its own displacement null at alpha 0.05 — company kept by chance is not a bond"
+  },
+  {
+   "a": "ref:auto:clerval",
+   "b": "ref:auto:william",
+   "coArrivals": 14,
+   "pValue": 0.1306532663316583,
+   "reason": "coincident_under_null",
+   "detail": "observed co-arrival does not clear its own displacement null at alpha 0.05 — company kept by chance is not a bond"
+  },
+  {
+   "a": "ref:auto:clerval",
+   "b": "ref:auto:justine",
+   "coArrivals": 11,
+   "pValue": 0.8241206030150754,
+   "reason": "coincident_under_null",
+   "detail": "observed co-arrival does not clear its own displacement null at alpha 0.05 — company kept by chance is not a bond"
+  }
+ ],
+ "direction": {
+  "oriented": 34,
+  "undetermined": 43,
+  "topOriented": [
+   {
+    "a": "ref:auto:france",
+    "b": "ref:auto:paris",
+    "coArrivals": 6,
+    "reversalP": 0,
+    "reseedP": 0,
+    "direction": "b→a",
+    "polarity": "−",
+    "strength": 0.004446141540913752
+   },
+   {
+    "a": "ref:auto:mrs",
+    "b": "ref:auto:england",
+    "coArrivals": 4,
+    "reversalP": 0,
+    "reseedP": 0,
+    "direction": "a→b",
+    "polarity": "+",
+    "strength": 0.0036016963018935147
+   },
+   {
+    "a": "ref:auto:felix",
+    "b": "ref:auto:agatha",
+    "coArrivals": 59,
+    "reversalP": 0,
+    "reseedP": 0,
+    "direction": "b→a",
+    "polarity": "−",
+    "strength": 0.003128224816134476
+   },
+   {
+    "a": "ref:auto:safie",
+    "b": "ref:auto:de_lacey",
+    "coArrivals": 5,
+    "reversalP": 0,
+    "reseedP": 0.005025125628140704,
+    "direction": "b→a",
+    "polarity": "−",
+    "strength": 0.0027138273150928644
+   },
+   {
+    "a": "ref:auto:belrive",
+    "b": "ref:auto:jura",
+    "coArrivals": 1,
+    "reversalP": 0,
+    "reseedP": 0,
+    "direction": "a→b",
+    "polarity": "+",
+    "strength": 0.002350480428447401
+   },
+   {
+    "a": "ref:auto:felix",
+    "b": "ref:auto:arabian",
+    "coArrivals": 25,
+    "reversalP": 0,
+    "reseedP": 0,
+    "direction": "b→a",
+    "polarity": "−",
+    "strength": 0.002044685943614981
+   },
+   {
+    "a": "ref:auto:safie",
+    "b": "ref:auto:turk",
+    "coArrivals": 24,
+    "reversalP": 0,
+    "reseedP": 0,
+    "direction": "a→b",
+    "polarity": "+",
+    "strength": 0.0019898503987191016
+   },
+   {
+    "a": "ref:auto:chamounix",
+    "b": "ref:auto:switzerland",
+    "coArrivals": 2,
+    "reversalP": 0.005025125628140704,
+    "reseedP": 0.010050251256281407,
+    "direction": "b→a",
+    "polarity": "−",
+    "strength": 0.001982668314618026
+   },
+   {
+    "a": "ref:auto:arabian",
+    "b": "ref:auto:leghorn",
+    "coArrivals": 7,
+    "reversalP": 0,
+    "reseedP": 0.020100502512562814,
+    "direction": "a→b",
+    "polarity": "+",
+    "strength": 0.0017084314658792515
+   },
+   {
+    "a": "ref:auto:safie",
+    "b": "ref:auto:leghorn",
+    "coArrivals": 16,
+    "reversalP": 0,
+    "reseedP": 0,
+    "direction": "b→a",
+    "polarity": "−",
+    "strength": 0.0016715768296051016
+   }
+  ]
+ },
+ "note": "presence lights every raw pair (terrain-activation); standing is only what clears its own null — the two counts differing IS the finding (P6)"
+}

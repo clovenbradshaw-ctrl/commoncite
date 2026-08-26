@@ -1,0 +1,100 @@
+{
+  "tag": "de-34811",
+  "lang": "de",
+  "pgId": 34811,
+  "title": "Buddenbrooks: Verfall einer Familie",
+  "reference": {
+    "wiki": "de.wikipedia.org",
+    "title": "Buddenbrooks",
+    "revId": 267511911,
+    "sha256": "aa62b6e7566749ff2b2c9e186b4d6c496cea864df1277e37612a2bcf17eaa036"
+  },
+  "strategy": "de-34811",
+  "count": 28,
+  "entries": [
+    {
+      "name": "Johann Buddenbrook der Ältere"
+    },
+    {
+      "name": "Konsul Johann Buddenbrook"
+    },
+    {
+      "name": "Senator Thomas Buddenbrook"
+    },
+    {
+      "name": "Tony Buddenbrook, geschiedene Grünlich, geschiedene Permaneder"
+    },
+    {
+      "name": "Christian Buddenbrook"
+    },
+    {
+      "name": "Gerda Buddenbrook geb. Arnoldsen"
+    },
+    {
+      "name": "Hanno Buddenbrook"
+    },
+    {
+      "name": "Antoinette Buddenbrook geb. Duchamps"
+    },
+    {
+      "name": "Bethsy Buddenbrook geb. Kröger"
+    },
+    {
+      "name": "Clara Tiburtius geb. Buddenbrook"
+    },
+    {
+      "name": "Gotthold Buddenbrook"
+    },
+    {
+      "name": "Klothilde Buddenbrook"
+    },
+    {
+      "name": "Familie Kröger"
+    },
+    {
+      "name": "Familie Hagenström"
+    },
+    {
+      "name": "Morten Schwarzkopf"
+    },
+    {
+      "name": "Bendix Grünlich"
+    },
+    {
+      "name": "Alois Permaneder"
+    },
+    {
+      "name": "Kai Graf Mölln"
+    },
+    {
+      "name": "Ida Jungmann"
+    },
+    {
+      "name": "Therese Weichbrodt"
+    },
+    {
+      "name": "Anna"
+    },
+    {
+      "name": "Edmund Pfühl"
+    },
+    {
+      "name": "Leutnant René Maria von Throta"
+    },
+    {
+      "name": "Konsul Peter Döhlmann"
+    },
+    {
+      "name": "Sigismund Gosch"
+    },
+    {
+      "name": "Rieckchen Severin"
+    },
+    {
+      "name": "Marcellus Stengel"
+    },
+    {
+      "name": "Hugo Weinschenk"
+    }
+  ]
+}

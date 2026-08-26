@@ -1,0 +1,53 @@
+{
+  "tag": "shakespeare-twelfth-night-or-what-you-will",
+  "kind": "play",
+  "spec": {
+    "window": 8,
+    "draws": 99,
+    "reseeds": 8,
+    "minArrivals": 4,
+    "atomsPerUnit": 200,
+    "offerEvery": 60
+  },
+  "segments": 18,
+  "units": 101,
+  "candidateSurfaces": 191,
+  "referents": 39,
+  "score": {
+    "registerSize": 2,
+    "referenceNodes": 18,
+    "entityHits": 2,
+    "entityRecall": 0.1111111111111111,
+    "edgesFoundTotal": 0,
+    "candidateEdges": 0,
+    "referenceEdges": 90,
+    "edgeHits": 0,
+    "edgeRecall": 0,
+    "edgePrecision": 0,
+    "edgeChance": {
+      "mean": 0,
+      "p95": 0,
+      "max": 0
+    },
+    "matchedEdges": []
+  },
+  "edges": [],
+  "register": [
+    {
+      "id": "e0",
+      "referentIds": [
+        "ref:auto:malvolio"
+      ],
+      "surface": "Malvolio",
+      "bornAt": 60
+    },
+    {
+      "id": "e1",
+      "referentIds": [
+        "ref:auto:sebastian"
+      ],
+      "surface": "Sebastian",
+      "bornAt": 101
+    }
+  ]
+}

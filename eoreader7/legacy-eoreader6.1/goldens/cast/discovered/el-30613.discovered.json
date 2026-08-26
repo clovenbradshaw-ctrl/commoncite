@@ -1,0 +1,333 @@
+{
+  "spec": {
+    "draws": 99,
+    "window": 8,
+    "reseeds": 8,
+    "hop": 4,
+    "units": 480,
+    "minOccurrences": 5,
+    "maxCandidates": 500
+  },
+  "spaced": true,
+  "arena": {
+    "units": 480,
+    "coverage": {
+      "covered": 480,
+      "extent": 480,
+      "uncovered": 0,
+      "complete": true
+    },
+    "contemporaryOf0": []
+  },
+  "candidatesConsidered": 500,
+  "candidatesDropped": 3051,
+  "clumped": 3,
+  "regular": 32,
+  "clumpedAll": [
+    {
+      "surface": "δυο",
+      "count": 80,
+      "extent": 71,
+      "reach": 0.14791666666666667,
+      "ananda": 0.04481289471952543,
+      "height": "unstable"
+    },
+    {
+      "surface": "ήταν",
+      "count": 73,
+      "extent": 62,
+      "reach": 0.12916666666666668,
+      "ananda": 0.0591437987036727,
+      "height": "unstable"
+    },
+    {
+      "surface": "άκρη",
+      "count": 27,
+      "extent": 28,
+      "reach": 0.058333333333333334,
+      "ananda": 0.06305757750647167,
+      "height": "above"
+    }
+  ],
+  "regularAll": [
+    {
+      "surface": "μου",
+      "count": 751,
+      "extent": 355,
+      "reach": 0.7395833333333334,
+      "ananda": 0.01360417561251559,
+      "height": "peer"
+    },
+    {
+      "surface": "σου",
+      "count": 487,
+      "extent": 330,
+      "reach": 0.6875,
+      "ananda": 0.012160381551556299,
+      "height": "unstable"
+    },
+    {
+      "surface": "είπε",
+      "count": 235,
+      "extent": 198,
+      "reach": 0.4125,
+      "ananda": 0.025439205164387246,
+      "height": "peer"
+    },
+    {
+      "surface": "σπίτι",
+      "count": 175,
+      "extent": 141,
+      "reach": 0.29375,
+      "ananda": 0.029469177867310847,
+      "height": "unstable"
+    },
+    {
+      "surface": "το σπίτι",
+      "count": 135,
+      "extent": 105,
+      "reach": 0.21875,
+      "ananda": 0.039992458351697735,
+      "height": "unstable"
+    },
+    {
+      "surface": "τηλέμαχος",
+      "count": 99,
+      "extent": 83,
+      "reach": 0.17291666666666666,
+      "ananda": 0.03763373896196853,
+      "height": "unstable"
+    },
+    {
+      "surface": "αθήνη",
+      "count": 87,
+      "extent": 75,
+      "reach": 0.15625,
+      "ananda": 0.04359513027269202,
+      "height": "peer"
+    },
+    {
+      "surface": "πώς",
+      "count": 79,
+      "extent": 69,
+      "reach": 0.14375,
+      "ananda": 0.04828317359340417,
+      "height": "above"
+    },
+    {
+      "surface": "δεν θα",
+      "count": 73,
+      "extent": 72,
+      "reach": 0.15,
+      "ananda": 0.05207157404217,
+      "height": "unstable"
+    },
+    {
+      "surface": "κ' είπε",
+      "count": 72,
+      "extent": 70,
+      "reach": 0.14583333333333334,
+      "ananda": 0.04608599866045182,
+      "height": "peer"
+    },
+    {
+      "surface": "δώρα",
+      "count": 59,
+      "extent": 56,
+      "reach": 0.11666666666666667,
+      "ananda": 0.053206926862447546,
+      "height": "peer"
+    },
+    {
+      "surface": "θα σου",
+      "count": 57,
+      "extent": 48,
+      "reach": 0.1,
+      "ananda": 0.06718607501862017,
+      "height": "unstable"
+    },
+    {
+      "surface": "μνηστήραις",
+      "count": 50,
+      "extent": 39,
+      "reach": 0.08125,
+      "ananda": 0.07560504325314987,
+      "height": "unstable"
+    },
+    {
+      "surface": "του κ'",
+      "count": 49,
+      "extent": 24,
+      "reach": 0.05,
+      "ananda": 0.08203722292736337,
+      "height": "unstable"
+    },
+    {
+      "surface": "ο τηλέμαχος",
+      "count": 48,
+      "extent": 44,
+      "reach": 0.09166666666666666,
+      "ananda": 0.06633015702372091,
+      "height": "unstable"
+    },
+    {
+      "surface": "απάντησε",
+      "count": 48,
+      "extent": 103,
+      "reach": 0.21458333333333332,
+      "ananda": 0.04138454550063031,
+      "height": "unstable"
+    },
+    {
+      "surface": "ξένε",
+      "count": 45,
+      "extent": 44,
+      "reach": 0.09166666666666666,
+      "ananda": 0.06633015702372091,
+      "height": "peer"
+    },
+    {
+      "surface": "και προς",
+      "count": 45,
+      "extent": 44,
+      "reach": 0.09166666666666666,
+      "ananda": 0.06633015702372091,
+      "height": "above"
+    },
+    {
+      "surface": "συνετός",
+      "count": 43,
+      "extent": 43,
+      "reach": 0.08958333333333333,
+      "ananda": 0.05978346591833983,
+      "height": "unstable"
+    },
+    {
+      "surface": "ο συνετός",
+      "count": 42,
+      "extent": 42,
+      "reach": 0.0875,
+      "ananda": 0.053825648672020776,
+      "height": "unstable"
+    },
+    {
+      "surface": "η γλαυκομμάτ'",
+      "count": 40,
+      "extent": 35,
+      "reach": 0.07291666666666667,
+      "ananda": 0.06238839225653692,
+      "height": "unstable"
+    },
+    {
+      "surface": "επήρε",
+      "count": 39,
+      "extent": 38,
+      "reach": 0.07916666666666666,
+      "ananda": 0.061224836397302695,
+      "height": "unstable"
+    },
+    {
+      "surface": "συνετός τηλέμαχος",
+      "count": 39,
+      "extent": 39,
+      "reach": 0.08125,
+      "ananda": 0.07560504325314987,
+      "height": "unstable"
+    },
+    {
+      "surface": "να τον",
+      "count": 38,
+      "extent": 35,
+      "reach": 0.07291666666666667,
+      "ananda": 0.06238839225653692,
+      "height": "peer"
+    },
+    {
+      "surface": "τους μνηστήραις",
+      "count": 36,
+      "extent": 30,
+      "reach": 0.0625,
+      "ananda": 0.07781422048322462,
+      "height": "unstable"
+    },
+    {
+      "surface": "όσ'",
+      "count": 33,
+      "extent": 45,
+      "reach": 0.09375,
+      "ananda": 0.0715042554177181,
+      "height": "unstable"
+    },
+    {
+      "surface": "σπίτι μου",
+      "count": 30,
+      "extent": 27,
+      "reach": 0.05625,
+      "ananda": 0.09076403207092909,
+      "height": "unstable"
+    },
+    {
+      "surface": "αμέσως",
+      "count": 30,
+      "extent": 29,
+      "reach": 0.06041666666666667,
+      "ananda": 0.0815189263384859,
+      "height": "unstable"
+    },
+    {
+      "surface": "απάντησέ",
+      "count": 30,
+      "extent": 29,
+      "reach": 0.06041666666666667,
+      "ananda": 0.0815189263384859,
+      "height": "peer"
+    },
+    {
+      "surface": "ειπή",
+      "count": 29,
+      "extent": 44,
+      "reach": 0.09166666666666666,
+      "ananda": 0.06633015702372091,
+      "height": "unstable"
+    },
+    {
+      "surface": "η μοίρα",
+      "count": 26,
+      "extent": 27,
+      "reach": 0.05625,
+      "ananda": 0.09076403207092909,
+      "height": "unstable"
+    },
+    {
+      "surface": "εύμαιε",
+      "count": 25,
+      "extent": 20,
+      "reach": 0.041666666666666664,
+      "ananda": 0.0857680083698753,
+      "height": "peer"
+    }
+  ],
+  "heights": {
+    "above": 1,
+    "peer": 0,
+    "unstable": 2
+  },
+  "register": [
+    {
+      "surface": "πώς",
+      "count": 79,
+      "extent": 69,
+      "reach": 0.14375,
+      "ananda": 0.04828317359340417,
+      "height": "above"
+    },
+    {
+      "surface": "και προς",
+      "count": 45,
+      "extent": 44,
+      "reach": 0.09166666666666666,
+      "ananda": 0.06633015702372091,
+      "height": "above"
+    }
+  ]
+}

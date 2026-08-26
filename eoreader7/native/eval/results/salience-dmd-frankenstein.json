@@ -1,0 +1,257 @@
+{
+ "schema": "EOSalienceDmdRun@1",
+ "book": "frankenstein.txt",
+ "declared": {
+  "DIMS": "16 — a reading budget, declared with its reason and uncalibrated (no modes-of-a-novel golden exists)",
+  "RANK": "8 — at most half the observables",
+  "band": "memory/activation.js's own incremental salience: idf >= floor AND df >= 2, nothing hand-listed",
+  "decay": "none imposed — mode magnitudes are the measured persistence"
+ },
+ "sentencesTotal": 3392,
+ "arms": {
+  "band": {
+   "filter": "the band alone — no class filter",
+   "roster": [
+    {
+     "motif": "this",
+     "admittedAtSentence": 15
+    },
+    {
+     "motif": "with",
+     "admittedAtSentence": 18
+    },
+    {
+     "motif": "there",
+     "admittedAtSentence": 21
+    },
+    {
+     "motif": "that",
+     "admittedAtSentence": 21
+    },
+    {
+     "motif": "ever",
+     "admittedAtSentence": 21
+    },
+    {
+     "motif": "those",
+     "admittedAtSentence": 24
+    },
+    {
+     "motif": "these",
+     "admittedAtSentence": 25
+    },
+    {
+     "motif": "letter",
+     "admittedAtSentence": 25
+    },
+    {
+     "motif": "have",
+     "admittedAtSentence": 27
+    },
+    {
+     "motif": "pole",
+     "admittedAtSentence": 27
+    },
+    {
+     "motif": "undertaking",
+     "admittedAtSentence": 35
+    },
+    {
+     "motif": "north",
+     "admittedAtSentence": 38
+    },
+    {
+     "motif": "from",
+     "admittedAtSentence": 38
+    },
+    {
+     "motif": "when",
+     "admittedAtSentence": 40
+    },
+    {
+     "motif": "might",
+     "admittedAtSentence": 42
+    },
+    {
+     "motif": "been",
+     "admittedAtSentence": 42
+    }
+   ],
+   "pinnedAtSentence": 42,
+   "snapshots": 3349,
+   "rankResolved": 8,
+   "modes": [
+    {
+     "magnitude": 0.4586,
+     "growth": -0.7795,
+     "frequency": 0,
+     "periodSentences": null
+    },
+    {
+     "magnitude": 0.0764,
+     "growth": -2.5714,
+     "frequency": 0.1414,
+     "periodSentences": 44.4
+    },
+    {
+     "magnitude": 0.0764,
+     "growth": -2.5714,
+     "frequency": -0.1414,
+     "periodSentences": 44.4
+    },
+    {
+     "magnitude": 0.051,
+     "growth": -2.9763,
+     "frequency": 0.6323,
+     "periodSentences": 9.9
+    },
+    {
+     "magnitude": 0.051,
+     "growth": -2.9763,
+     "frequency": -0.6323,
+     "periodSentences": 9.9
+    },
+    {
+     "magnitude": 0.0313,
+     "growth": -3.4629,
+     "frequency": 0.4837,
+     "periodSentences": 13
+    },
+    {
+     "magnitude": 0.0313,
+     "growth": -3.4629,
+     "frequency": -0.4837,
+     "periodSentences": 13
+    },
+    {
+     "magnitude": 0.0093,
+     "growth": -4.6799,
+     "frequency": 3.1416,
+     "periodSentences": null
+    }
+   ]
+  },
+  "open": {
+   "filter": "UD's own closed classes refused via POSPrior@1 dominant tag (giver: universaldependencies.org/u/pos)",
+   "roster": [
+    {
+     "motif": "ever",
+     "admittedAtSentence": 21
+    },
+    {
+     "motif": "letter",
+     "admittedAtSentence": 25
+    },
+    {
+     "motif": "have",
+     "admittedAtSentence": 27
+    },
+    {
+     "motif": "north",
+     "admittedAtSentence": 38
+    },
+    {
+     "motif": "when",
+     "admittedAtSentence": 40
+    },
+    {
+     "motif": "only",
+     "admittedAtSentence": 45
+    },
+    {
+     "motif": "cold",
+     "admittedAtSentence": 48
+    },
+    {
+     "motif": "great",
+     "admittedAtSentence": 48
+    },
+    {
+     "motif": "life",
+     "admittedAtSentence": 49
+    },
+    {
+     "motif": "dear",
+     "admittedAtSentence": 52
+    },
+    {
+     "motif": "sister",
+     "admittedAtSentence": 52
+    },
+    {
+     "motif": "many",
+     "admittedAtSentence": 53
+    },
+    {
+     "motif": "years",
+     "admittedAtSentence": 53
+    },
+    {
+     "motif": "margaret",
+     "admittedAtSentence": 55
+    },
+    {
+     "motif": "heaven",
+     "admittedAtSentence": 56
+    },
+    {
+     "motif": "time",
+     "admittedAtSentence": 63
+    }
+   ],
+   "pinnedAtSentence": 63,
+   "snapshots": 3328,
+   "rankResolved": 8,
+   "modes": [
+    {
+     "magnitude": 0.2592,
+     "growth": -1.3502,
+     "frequency": 0,
+     "periodSentences": null
+    },
+    {
+     "magnitude": 0.0751,
+     "growth": -2.5895,
+     "frequency": 0.2136,
+     "periodSentences": 29.4
+    },
+    {
+     "magnitude": 0.0751,
+     "growth": -2.5895,
+     "frequency": -0.2136,
+     "periodSentences": 29.4
+    },
+    {
+     "magnitude": 0.0429,
+     "growth": -3.1489,
+     "frequency": 1.0817,
+     "periodSentences": 5.8
+    },
+    {
+     "magnitude": 0.0429,
+     "growth": -3.1489,
+     "frequency": -1.0817,
+     "periodSentences": 5.8
+    },
+    {
+     "magnitude": 0.0226,
+     "growth": -3.7909,
+     "frequency": 3.0038,
+     "periodSentences": 2.1
+    },
+    {
+     "magnitude": 0.0226,
+     "growth": -3.7909,
+     "frequency": -3.0038,
+     "periodSentences": 2.1
+    },
+    {
+     "magnitude": 0.0123,
+     "growth": -4.3947,
+     "frequency": 0,
+     "periodSentences": null
+    }
+   ]
+  }
+ }
+}

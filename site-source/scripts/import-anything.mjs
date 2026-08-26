@@ -22,8 +22,8 @@ if (!input) {
 
 const outputPath = path.resolve(valueFor("--output", path.join(projectRoot, "public/data/active-witness.json")));
 const sourceDir = path.resolve(valueFor("--source-dir", path.join(projectRoot, "public/imports")));
-const bundledEngineRoot = path.resolve(projectRoot, "../eoreader6");
-const engineRoot = path.resolve(process.env.EOREADER_ROOT || (fs.existsSync(bundledEngineRoot) ? bundledEngineRoot : "/workspace/eoreader6"));
+const bundledEngineRoot = path.resolve(projectRoot, "../eoreader7");
+const engineRoot = path.resolve(process.env.EOREADER_ROOT || (fs.existsSync(bundledEngineRoot) ? bundledEngineRoot : "/workspace/eoreader7"));
 const temporaryRoot = fs.mkdtempSync(path.join(os.tmpdir(), "commoncite-import-"));
 const isUrl = /^https?:\/\//i.test(input);
 
@@ -124,7 +124,7 @@ const stableUri = valueFor("--stable-uri", isUrl ? input : `urn:sha256:${sha256}
 const originUri = isUrl ? input : `./imports/${preservedName}`;
 const pageTexts = extracted.text ? paginate(extracted.text) : [];
 let engineCommit = "not-run";
-let engineRelease = "6.1";
+let engineRelease = "7";
 let admission = { chunks: 0, admitted: [] };
 let reading = { admissionHash: "none", chunkCount: 0, motifsFound: 0, settledCount: 0 };
 let terrains = null;
@@ -132,7 +132,7 @@ let splitSentences = () => [];
 let canonicalHashSync = ({ sourceId, byteStart, byteEnd, text }) => createHash("sha256").update(`${sourceId}\0${byteStart}\0${byteEnd}\0${text}`).digest("hex");
 
 if (extracted.text) {
-  if (!fs.existsSync(path.join(engineRoot, "packages/host/corpus.js"))) throw new Error(`EOReader not found at ${engineRoot}. Set EOREADER_ROOT to an EOReader 6.1 checkout.`);
+  if (!fs.existsSync(path.join(engineRoot, "packages/host/corpus.js"))) throw new Error(`EOReader not found at ${engineRoot}. Set EOREADER_ROOT to an EOReader 7 checkout.`);
   const host = await import(pathToFileURL(path.join(engineRoot, "packages/host/corpus.js")));
   const readingHost = await import(pathToFileURL(path.join(engineRoot, "packages/host/reading.js")));
   const terrainHost = await import(pathToFileURL(path.join(engineRoot, "packages/host/terrains.js")));
@@ -144,11 +144,11 @@ if (extracted.text) {
     : execFileSync("git", ["-C", engineRoot, "rev-parse", "HEAD"], { encoding: "utf8" }).trim();
   splitSentences = spanModule.splitSentences;
   canonicalHashSync = spec.canonicalHashSync;
-  const session = host.createSession({ spanCap: Math.ceil(extracted.text.length / 1800) + 100, engineVersion: `EOReader 6.1@${engineCommit}` });
+  const session = host.createSession({ spanCap: Math.ceil(extracted.text.length / 1800) + 100, engineVersion: `EOReader 7@${engineCommit}` });
   admission = host.admitChunked(session, { text: extracted.text, sourceId: stableUri, language: "und" });
   reading = readingHost.admitReading(session, { sourceId: stableUri, text: extracted.text });
   terrains = terrainHost.sessionTerrains(session, { sourceId: stableUri }).terrains;
-  engineRelease = "6.1";
+  engineRelease = "7";
 }
 
 const byteLength = (value) => Buffer.byteLength(value, "utf8");
@@ -185,7 +185,7 @@ const witness = {
   schema: "CommonRecordWitness@1", title, edition: "imported witness", source_id: stableUri, stable_uri: stableUri, origin_uri: originUri, media_type: mediaType,
   source_integrity: { sha256, byte_count: acquired.bytes.length, preserved_copy: `./imports/${preservedName}` },
   extraction: { adapter: extracted.adapter, adapter_role: extracted.role, character_count: extracted.text.length, utf8_byte_count: byteLength(extracted.text), page_count: pages.length, sentence_span_count: spanCount, all_page_text_retained: Boolean(extracted.text) },
-  engine: { name: "EOReader", release: engineRelease, repository: "https://github.com/clovenbradshaw-ctrl/eoreader6", commit: engineCommit, language_received: "und", llm_used: false, model: null },
+  engine: { name: "EOReader", release: engineRelease, repository: "https://github.com/clovenbradshaw-ctrl/eoreader7", commit: engineCommit, language_received: "und", llm_used: false, model: null },
   admission: { chunk_count: admission.chunks || 0, admitted_span_count: admission.admitted?.length || 0, reading: { admission_hash: reading.admissionHash, chunk_count: reading.chunkCount, motifs_found: reading.motifsFound, settled_count: reading.settledCount } },
   grammar: terrains ? {
     terrain_sequence: ["Void", "Field", "Atmosphere", "Entity", "Link", "Network", "Kind", "Lens", "Paradigm"], outline: terrains.Field.outline, referents: terrains.Entity.referents, referent_gaps: terrains.Entity.gaps,

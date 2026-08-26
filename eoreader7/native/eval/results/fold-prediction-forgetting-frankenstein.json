@@ -1,0 +1,99 @@
+{
+ "schema": "EOFoldPredictionRun@1",
+ "book": "frankenstein.txt",
+ "question": "standing at sentence t, having read only 1..t, which motifs arrive at t+1?",
+ "metric": "precision@k, k = the truth's own size at each step — calibration-free, threshold-free, k never chosen",
+ "window": {
+  "measured": 4,
+  "basis": "difference-that-makes-a-difference: the shallowest depth at which forgetting everything older changed no conclusion",
+  "warmupObservations": 8,
+  "note": "measured causally from the warmup prefix against a discrete conclusion (rank, oscillatory count); never typed"
+ },
+ "sentences": 3392,
+ "arms": {
+  "real": {
+   "arm": "real",
+   "steps": 3102,
+   "chance": 0.011158332557261494,
+   "meanPrecisionAtK": {
+    "baseline:base-rate": 0.05485997066122981,
+    "baseline:recency": 0.03341563021036015,
+    "candidate:fold": 0.03815758186516939,
+    "control:fold-undecayed": 0.05485997066122981,
+    "candidate:actr-prior": 0.05815227943843374,
+    "candidate:need-odds-measured": 0.05606238652431464
+   },
+   "pairedHeadline": [
+    {
+     "of": "candidate:actr-prior minus baseline:base-rate",
+     "meanDelta": 0.00329,
+     "stepsBetter": 212,
+     "stepsWorse": 132,
+     "stepsTied": 2758,
+     "z": 3.26
+    },
+    {
+     "of": "candidate:need-odds-measured minus baseline:base-rate",
+     "meanDelta": 0.0012,
+     "stepsBetter": 283,
+     "stepsWorse": 251,
+     "stepsTied": 2568,
+     "z": 0.72
+    },
+    {
+     "of": "candidate:actr-prior minus candidate:fold",
+     "meanDelta": 0.01999,
+     "stepsBetter": 606,
+     "stepsWorse": 254,
+     "stepsTied": 2242,
+     "z": 9.35
+    }
+   ]
+  },
+  "null": {
+   "arm": "sentence-shuffled",
+   "steps": 3113,
+   "chance": 0.008041473332417864,
+   "meanPrecisionAtK": {
+    "baseline:base-rate": 0.05496849519527156,
+    "baseline:recency": 0.01551402106708346,
+    "candidate:fold": 0.017338022772039805,
+    "control:fold-undecayed": 0.05496849519527156,
+    "candidate:actr-prior": 0.053492525601004634,
+    "candidate:need-odds-measured": 0.04878493014490266
+   },
+   "pairedHeadline": [
+    {
+     "of": "candidate:actr-prior minus baseline:base-rate",
+     "meanDelta": -0.00148,
+     "stepsBetter": 103,
+     "stepsWorse": 147,
+     "stepsTied": 2863,
+     "z": -1.55
+    },
+    {
+     "of": "candidate:need-odds-measured minus baseline:base-rate",
+     "meanDelta": -0.00618,
+     "stepsBetter": 150,
+     "stepsWorse": 250,
+     "stepsTied": 2713,
+     "z": -4.15
+    },
+    {
+     "of": "candidate:actr-prior minus candidate:fold",
+     "meanDelta": 0.03615,
+     "stepsBetter": 679,
+     "stepsWorse": 79,
+     "stepsTied": 2355,
+     "z": 19.97
+    }
+   ]
+  }
+ },
+ "verdict": {
+  "foldMinusBaseRate_real": -0.016702388796060418,
+  "foldMinusBaseRate_shuffled": -0.03763047242323175,
+  "readsOrder": true,
+  "note": "if the fold's edge over base-rate survives sentence shuffling, it was never reading order and the positive result is withdrawn"
+ }
+}

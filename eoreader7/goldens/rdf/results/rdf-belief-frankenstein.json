@@ -1,0 +1,2962 @@
+{
+  "schema": "RDFBeliefAssessment@2",
+  "standing": {
+    "graph_shape": "measured",
+    "rdf_quality": "refused"
+  },
+  "measured_at": "2026-08-21T04:32:57.868Z",
+  "subject": "host-assembled engine belief graph at the admission cursor",
+  "material": {
+    "path": "scripts/adversarial/fixtures/pg84-frankenstein.txt",
+    "giver": "Project Gutenberg (fixture already admitted by this repository)",
+    "sha256": "2be500488f5bc382ceed0a1c7369fedf15cb26c1614a720d2ea798b37c8f963b",
+    "bytes": 421542,
+    "sentences": 3392,
+    "staging": {
+      "sentences_per_stage": 25,
+      "stages": 136
+    }
+  },
+  "received_rdf": {
+    "status": "gap",
+    "triples": 0,
+    "reason": "No giver-named RDF snapshot is mounted; network acquisition returned HTTP 403 and was not replaced with ambient model knowledge."
+  },
+  "observed": {
+    "entity_nodes": 174,
+    "live_edges": 80,
+    "predicates_present": 40,
+    "directional_edges": 80,
+    "negative_edges": 2,
+    "stable_external_ids": 0,
+    "rdf_correspondences_confirmed": 0,
+    "chunks": 272,
+    "stages": 136,
+    "relations_stated": 114,
+    "last_admission": {
+      "sourceId": "project-gutenberg:pg84:observed:cursor-136:material-136",
+      "stated": 0,
+      "newEdges": 0,
+      "newNodes": 0,
+      "gaps": [
+        {
+          "reason": "pronoun_and_descriptor_mentions_unresolved",
+          "tier": "model",
+          "needsWitness": true,
+          "referents": 1,
+          "detail": "1 discovered referents: name-variant coreference is engine-tier and complete; binding pronouns and definite descriptions to this referent is not derivable (eoreader5 measured distributional coref failing twice). Supply a per-text prior to close this gap."
+        },
+        {
+          "reason": "pronoun_mentions_partially_resolved",
+          "tier": "model",
+          "needsWitness": true,
+          "pronounsResolved": 0,
+          "pronounsRemaining": 4,
+          "detail": "0 third-person singular pronoun mentions bound to a referent by activation recall; 4 remain unresolved (below the declared activation or margin floor, gender-incompatible with every candidate named so far, or nothing named yet to recall). Descriptor synonymy is untouched by either count and remains not derivable (eoreader5 measured distributional coref failing twice). Supply a per-text prior to close what remains."
+        }
+      ]
+    },
+    "trajectory": [
+      {
+        "cursor": 1,
+        "material_cursor": 1,
+        "graph_tick": 0,
+        "node_count": 0,
+        "edge_count": 0,
+        "stated": 0
+      },
+      {
+        "cursor": 2,
+        "material_cursor": 2,
+        "graph_tick": 0,
+        "node_count": 0,
+        "edge_count": 0,
+        "stated": 0
+      },
+      {
+        "cursor": 3,
+        "material_cursor": 3,
+        "graph_tick": 0,
+        "node_count": 0,
+        "edge_count": 0,
+        "stated": 0
+      },
+      {
+        "cursor": 4,
+        "material_cursor": 4,
+        "graph_tick": 0,
+        "node_count": 0,
+        "edge_count": 0,
+        "stated": 0
+      },
+      {
+        "cursor": 5,
+        "material_cursor": 5,
+        "graph_tick": 0,
+        "node_count": 0,
+        "edge_count": 0,
+        "stated": 0
+      },
+      {
+        "cursor": 6,
+        "material_cursor": 6,
+        "graph_tick": 0,
+        "node_count": 0,
+        "edge_count": 0,
+        "stated": 0
+      },
+      {
+        "cursor": 7,
+        "material_cursor": 7,
+        "graph_tick": 1,
+        "node_count": 4,
+        "edge_count": 4,
+        "stated": 2
+      },
+      {
+        "cursor": 8,
+        "material_cursor": 8,
+        "graph_tick": 1,
+        "node_count": 4,
+        "edge_count": 4,
+        "stated": 0
+      },
+      {
+        "cursor": 9,
+        "material_cursor": 9,
+        "graph_tick": 1,
+        "node_count": 4,
+        "edge_count": 4,
+        "stated": 0
+      },
+      {
+        "cursor": 10,
+        "material_cursor": 10,
+        "graph_tick": 1,
+        "node_count": 4,
+        "edge_count": 4,
+        "stated": 0
+      },
+      {
+        "cursor": 11,
+        "material_cursor": 11,
+        "graph_tick": 2,
+        "node_count": 6,
+        "edge_count": 6,
+        "stated": 1
+      },
+      {
+        "cursor": 12,
+        "material_cursor": 12,
+        "graph_tick": 3,
+        "node_count": 8,
+        "edge_count": 8,
+        "stated": 1
+      },
+      {
+        "cursor": 13,
+        "material_cursor": 13,
+        "graph_tick": 4,
+        "node_count": 12,
+        "edge_count": 12,
+        "stated": 2
+      },
+      {
+        "cursor": 14,
+        "material_cursor": 14,
+        "graph_tick": 4,
+        "node_count": 12,
+        "edge_count": 12,
+        "stated": 0
+      },
+      {
+        "cursor": 15,
+        "material_cursor": 15,
+        "graph_tick": 5,
+        "node_count": 14,
+        "edge_count": 14,
+        "stated": 1
+      },
+      {
+        "cursor": 16,
+        "material_cursor": 16,
+        "graph_tick": 6,
+        "node_count": 18,
+        "edge_count": 18,
+        "stated": 2
+      },
+      {
+        "cursor": 17,
+        "material_cursor": 17,
+        "graph_tick": 6,
+        "node_count": 18,
+        "edge_count": 18,
+        "stated": 0
+      },
+      {
+        "cursor": 18,
+        "material_cursor": 18,
+        "graph_tick": 6,
+        "node_count": 18,
+        "edge_count": 18,
+        "stated": 0
+      },
+      {
+        "cursor": 19,
+        "material_cursor": 19,
+        "graph_tick": 7,
+        "node_count": 22,
+        "edge_count": 22,
+        "stated": 2
+      },
+      {
+        "cursor": 20,
+        "material_cursor": 20,
+        "graph_tick": 7,
+        "node_count": 22,
+        "edge_count": 22,
+        "stated": 0
+      },
+      {
+        "cursor": 21,
+        "material_cursor": 21,
+        "graph_tick": 7,
+        "node_count": 22,
+        "edge_count": 22,
+        "stated": 0
+      },
+      {
+        "cursor": 22,
+        "material_cursor": 22,
+        "graph_tick": 8,
+        "node_count": 24,
+        "edge_count": 24,
+        "stated": 1
+      },
+      {
+        "cursor": 23,
+        "material_cursor": 23,
+        "graph_tick": 8,
+        "node_count": 24,
+        "edge_count": 24,
+        "stated": 0
+      },
+      {
+        "cursor": 24,
+        "material_cursor": 24,
+        "graph_tick": 8,
+        "node_count": 24,
+        "edge_count": 24,
+        "stated": 0
+      },
+      {
+        "cursor": 25,
+        "material_cursor": 25,
+        "graph_tick": 8,
+        "node_count": 24,
+        "edge_count": 24,
+        "stated": 0
+      },
+      {
+        "cursor": 26,
+        "material_cursor": 26,
+        "graph_tick": 9,
+        "node_count": 30,
+        "edge_count": 30,
+        "stated": 3
+      },
+      {
+        "cursor": 27,
+        "material_cursor": 27,
+        "graph_tick": 10,
+        "node_count": 37,
+        "edge_count": 38,
+        "stated": 4
+      },
+      {
+        "cursor": 28,
+        "material_cursor": 28,
+        "graph_tick": 11,
+        "node_count": 39,
+        "edge_count": 40,
+        "stated": 1
+      },
+      {
+        "cursor": 29,
+        "material_cursor": 29,
+        "graph_tick": 11,
+        "node_count": 39,
+        "edge_count": 40,
+        "stated": 0
+      },
+      {
+        "cursor": 30,
+        "material_cursor": 30,
+        "graph_tick": 12,
+        "node_count": 40,
+        "edge_count": 42,
+        "stated": 1
+      },
+      {
+        "cursor": 31,
+        "material_cursor": 31,
+        "graph_tick": 13,
+        "node_count": 46,
+        "edge_count": 48,
+        "stated": 3
+      },
+      {
+        "cursor": 32,
+        "material_cursor": 32,
+        "graph_tick": 13,
+        "node_count": 46,
+        "edge_count": 48,
+        "stated": 0
+      },
+      {
+        "cursor": 33,
+        "material_cursor": 33,
+        "graph_tick": 14,
+        "node_count": 48,
+        "edge_count": 50,
+        "stated": 1
+      },
+      {
+        "cursor": 34,
+        "material_cursor": 34,
+        "graph_tick": 15,
+        "node_count": 51,
+        "edge_count": 56,
+        "stated": 3
+      },
+      {
+        "cursor": 35,
+        "material_cursor": 35,
+        "graph_tick": 16,
+        "node_count": 59,
+        "edge_count": 64,
+        "stated": 4
+      },
+      {
+        "cursor": 36,
+        "material_cursor": 36,
+        "graph_tick": 17,
+        "node_count": 62,
+        "edge_count": 68,
+        "stated": 2
+      },
+      {
+        "cursor": 37,
+        "material_cursor": 37,
+        "graph_tick": 17,
+        "node_count": 62,
+        "edge_count": 68,
+        "stated": 0
+      },
+      {
+        "cursor": 38,
+        "material_cursor": 38,
+        "graph_tick": 18,
+        "node_count": 64,
+        "edge_count": 70,
+        "stated": 1
+      },
+      {
+        "cursor": 39,
+        "material_cursor": 39,
+        "graph_tick": 18,
+        "node_count": 64,
+        "edge_count": 70,
+        "stated": 0
+      },
+      {
+        "cursor": 40,
+        "material_cursor": 40,
+        "graph_tick": 19,
+        "node_count": 65,
+        "edge_count": 72,
+        "stated": 1
+      },
+      {
+        "cursor": 41,
+        "material_cursor": 41,
+        "graph_tick": 19,
+        "node_count": 65,
+        "edge_count": 72,
+        "stated": 0
+      },
+      {
+        "cursor": 42,
+        "material_cursor": 42,
+        "graph_tick": 20,
+        "node_count": 66,
+        "edge_count": 70,
+        "stated": 1
+      },
+      {
+        "cursor": 43,
+        "material_cursor": 43,
+        "graph_tick": 20,
+        "node_count": 66,
+        "edge_count": 70,
+        "stated": 0
+      },
+      {
+        "cursor": 44,
+        "material_cursor": 44,
+        "graph_tick": 21,
+        "node_count": 71,
+        "edge_count": 74,
+        "stated": 3
+      },
+      {
+        "cursor": 45,
+        "material_cursor": 45,
+        "graph_tick": 22,
+        "node_count": 72,
+        "edge_count": 74,
+        "stated": 1
+      },
+      {
+        "cursor": 46,
+        "material_cursor": 46,
+        "graph_tick": 22,
+        "node_count": 72,
+        "edge_count": 74,
+        "stated": 0
+      },
+      {
+        "cursor": 47,
+        "material_cursor": 47,
+        "graph_tick": 22,
+        "node_count": 72,
+        "edge_count": 74,
+        "stated": 0
+      },
+      {
+        "cursor": 48,
+        "material_cursor": 48,
+        "graph_tick": 22,
+        "node_count": 72,
+        "edge_count": 74,
+        "stated": 0
+      },
+      {
+        "cursor": 49,
+        "material_cursor": 49,
+        "graph_tick": 22,
+        "node_count": 72,
+        "edge_count": 74,
+        "stated": 0
+      },
+      {
+        "cursor": 50,
+        "material_cursor": 50,
+        "graph_tick": 22,
+        "node_count": 72,
+        "edge_count": 74,
+        "stated": 0
+      },
+      {
+        "cursor": 51,
+        "material_cursor": 51,
+        "graph_tick": 22,
+        "node_count": 72,
+        "edge_count": 74,
+        "stated": 0
+      },
+      {
+        "cursor": 52,
+        "material_cursor": 52,
+        "graph_tick": 23,
+        "node_count": 74,
+        "edge_count": 72,
+        "stated": 1
+      },
+      {
+        "cursor": 53,
+        "material_cursor": 53,
+        "graph_tick": 24,
+        "node_count": 78,
+        "edge_count": 74,
+        "stated": 2
+      },
+      {
+        "cursor": 54,
+        "material_cursor": 54,
+        "graph_tick": 24,
+        "node_count": 78,
+        "edge_count": 74,
+        "stated": 0
+      },
+      {
+        "cursor": 55,
+        "material_cursor": 55,
+        "graph_tick": 24,
+        "node_count": 78,
+        "edge_count": 74,
+        "stated": 0
+      },
+      {
+        "cursor": 56,
+        "material_cursor": 56,
+        "graph_tick": 24,
+        "node_count": 78,
+        "edge_count": 74,
+        "stated": 0
+      },
+      {
+        "cursor": 57,
+        "material_cursor": 57,
+        "graph_tick": 24,
+        "node_count": 78,
+        "edge_count": 74,
+        "stated": 0
+      },
+      {
+        "cursor": 58,
+        "material_cursor": 58,
+        "graph_tick": 24,
+        "node_count": 78,
+        "edge_count": 74,
+        "stated": 0
+      },
+      {
+        "cursor": 59,
+        "material_cursor": 59,
+        "graph_tick": 24,
+        "node_count": 78,
+        "edge_count": 74,
+        "stated": 0
+      },
+      {
+        "cursor": 60,
+        "material_cursor": 60,
+        "graph_tick": 24,
+        "node_count": 78,
+        "edge_count": 74,
+        "stated": 0
+      },
+      {
+        "cursor": 61,
+        "material_cursor": 61,
+        "graph_tick": 25,
+        "node_count": 82,
+        "edge_count": 74,
+        "stated": 2
+      },
+      {
+        "cursor": 62,
+        "material_cursor": 62,
+        "graph_tick": 25,
+        "node_count": 82,
+        "edge_count": 74,
+        "stated": 0
+      },
+      {
+        "cursor": 63,
+        "material_cursor": 63,
+        "graph_tick": 25,
+        "node_count": 82,
+        "edge_count": 74,
+        "stated": 0
+      },
+      {
+        "cursor": 64,
+        "material_cursor": 64,
+        "graph_tick": 25,
+        "node_count": 82,
+        "edge_count": 74,
+        "stated": 0
+      },
+      {
+        "cursor": 65,
+        "material_cursor": 65,
+        "graph_tick": 26,
+        "node_count": 87,
+        "edge_count": 76,
+        "stated": 3
+      },
+      {
+        "cursor": 66,
+        "material_cursor": 66,
+        "graph_tick": 27,
+        "node_count": 89,
+        "edge_count": 78,
+        "stated": 2
+      },
+      {
+        "cursor": 67,
+        "material_cursor": 67,
+        "graph_tick": 28,
+        "node_count": 91,
+        "edge_count": 74,
+        "stated": 1
+      },
+      {
+        "cursor": 68,
+        "material_cursor": 68,
+        "graph_tick": 29,
+        "node_count": 99,
+        "edge_count": 78,
+        "stated": 6
+      },
+      {
+        "cursor": 69,
+        "material_cursor": 69,
+        "graph_tick": 29,
+        "node_count": 99,
+        "edge_count": 78,
+        "stated": 0
+      },
+      {
+        "cursor": 70,
+        "material_cursor": 70,
+        "graph_tick": 30,
+        "node_count": 100,
+        "edge_count": 78,
+        "stated": 1
+      },
+      {
+        "cursor": 71,
+        "material_cursor": 71,
+        "graph_tick": 31,
+        "node_count": 105,
+        "edge_count": 82,
+        "stated": 3
+      },
+      {
+        "cursor": 72,
+        "material_cursor": 72,
+        "graph_tick": 32,
+        "node_count": 106,
+        "edge_count": 78,
+        "stated": 1
+      },
+      {
+        "cursor": 73,
+        "material_cursor": 73,
+        "graph_tick": 32,
+        "node_count": 106,
+        "edge_count": 78,
+        "stated": 0
+      },
+      {
+        "cursor": 74,
+        "material_cursor": 74,
+        "graph_tick": 33,
+        "node_count": 108,
+        "edge_count": 78,
+        "stated": 1
+      },
+      {
+        "cursor": 75,
+        "material_cursor": 75,
+        "graph_tick": 34,
+        "node_count": 112,
+        "edge_count": 78,
+        "stated": 3
+      },
+      {
+        "cursor": 76,
+        "material_cursor": 76,
+        "graph_tick": 35,
+        "node_count": 113,
+        "edge_count": 72,
+        "stated": 1
+      },
+      {
+        "cursor": 77,
+        "material_cursor": 77,
+        "graph_tick": 35,
+        "node_count": 113,
+        "edge_count": 72,
+        "stated": 0
+      },
+      {
+        "cursor": 78,
+        "material_cursor": 78,
+        "graph_tick": 36,
+        "node_count": 116,
+        "edge_count": 72,
+        "stated": 2
+      },
+      {
+        "cursor": 79,
+        "material_cursor": 79,
+        "graph_tick": 37,
+        "node_count": 117,
+        "edge_count": 72,
+        "stated": 1
+      },
+      {
+        "cursor": 80,
+        "material_cursor": 80,
+        "graph_tick": 38,
+        "node_count": 119,
+        "edge_count": 76,
+        "stated": 3
+      },
+      {
+        "cursor": 81,
+        "material_cursor": 81,
+        "graph_tick": 38,
+        "node_count": 119,
+        "edge_count": 76,
+        "stated": 0
+      },
+      {
+        "cursor": 82,
+        "material_cursor": 82,
+        "graph_tick": 38,
+        "node_count": 119,
+        "edge_count": 76,
+        "stated": 0
+      },
+      {
+        "cursor": 83,
+        "material_cursor": 83,
+        "graph_tick": 38,
+        "node_count": 119,
+        "edge_count": 76,
+        "stated": 0
+      },
+      {
+        "cursor": 84,
+        "material_cursor": 84,
+        "graph_tick": 38,
+        "node_count": 119,
+        "edge_count": 76,
+        "stated": 0
+      },
+      {
+        "cursor": 85,
+        "material_cursor": 85,
+        "graph_tick": 38,
+        "node_count": 119,
+        "edge_count": 76,
+        "stated": 0
+      },
+      {
+        "cursor": 86,
+        "material_cursor": 86,
+        "graph_tick": 38,
+        "node_count": 119,
+        "edge_count": 76,
+        "stated": 0
+      },
+      {
+        "cursor": 87,
+        "material_cursor": 87,
+        "graph_tick": 38,
+        "node_count": 119,
+        "edge_count": 76,
+        "stated": 0
+      },
+      {
+        "cursor": 88,
+        "material_cursor": 88,
+        "graph_tick": 38,
+        "node_count": 119,
+        "edge_count": 76,
+        "stated": 0
+      },
+      {
+        "cursor": 89,
+        "material_cursor": 89,
+        "graph_tick": 38,
+        "node_count": 119,
+        "edge_count": 76,
+        "stated": 0
+      },
+      {
+        "cursor": 90,
+        "material_cursor": 90,
+        "graph_tick": 38,
+        "node_count": 119,
+        "edge_count": 76,
+        "stated": 0
+      },
+      {
+        "cursor": 91,
+        "material_cursor": 91,
+        "graph_tick": 38,
+        "node_count": 119,
+        "edge_count": 76,
+        "stated": 0
+      },
+      {
+        "cursor": 92,
+        "material_cursor": 92,
+        "graph_tick": 39,
+        "node_count": 129,
+        "edge_count": 84,
+        "stated": 5
+      },
+      {
+        "cursor": 93,
+        "material_cursor": 93,
+        "graph_tick": 40,
+        "node_count": 135,
+        "edge_count": 86,
+        "stated": 4
+      },
+      {
+        "cursor": 94,
+        "material_cursor": 94,
+        "graph_tick": 41,
+        "node_count": 137,
+        "edge_count": 86,
+        "stated": 1
+      },
+      {
+        "cursor": 95,
+        "material_cursor": 95,
+        "graph_tick": 41,
+        "node_count": 137,
+        "edge_count": 86,
+        "stated": 0
+      },
+      {
+        "cursor": 96,
+        "material_cursor": 96,
+        "graph_tick": 42,
+        "node_count": 141,
+        "edge_count": 92,
+        "stated": 4
+      },
+      {
+        "cursor": 97,
+        "material_cursor": 97,
+        "graph_tick": 42,
+        "node_count": 141,
+        "edge_count": 92,
+        "stated": 0
+      },
+      {
+        "cursor": 98,
+        "material_cursor": 98,
+        "graph_tick": 42,
+        "node_count": 141,
+        "edge_count": 92,
+        "stated": 0
+      },
+      {
+        "cursor": 99,
+        "material_cursor": 99,
+        "graph_tick": 42,
+        "node_count": 141,
+        "edge_count": 92,
+        "stated": 0
+      },
+      {
+        "cursor": 100,
+        "material_cursor": 100,
+        "graph_tick": 43,
+        "node_count": 141,
+        "edge_count": 90,
+        "stated": 1
+      },
+      {
+        "cursor": 101,
+        "material_cursor": 101,
+        "graph_tick": 44,
+        "node_count": 146,
+        "edge_count": 92,
+        "stated": 3
+      },
+      {
+        "cursor": 102,
+        "material_cursor": 102,
+        "graph_tick": 44,
+        "node_count": 146,
+        "edge_count": 92,
+        "stated": 0
+      },
+      {
+        "cursor": 103,
+        "material_cursor": 103,
+        "graph_tick": 45,
+        "node_count": 148,
+        "edge_count": 88,
+        "stated": 1
+      },
+      {
+        "cursor": 104,
+        "material_cursor": 104,
+        "graph_tick": 46,
+        "node_count": 149,
+        "edge_count": 88,
+        "stated": 2
+      },
+      {
+        "cursor": 105,
+        "material_cursor": 105,
+        "graph_tick": 46,
+        "node_count": 149,
+        "edge_count": 88,
+        "stated": 0
+      },
+      {
+        "cursor": 106,
+        "material_cursor": 106,
+        "graph_tick": 46,
+        "node_count": 149,
+        "edge_count": 88,
+        "stated": 0
+      },
+      {
+        "cursor": 107,
+        "material_cursor": 107,
+        "graph_tick": 47,
+        "node_count": 150,
+        "edge_count": 88,
+        "stated": 1
+      },
+      {
+        "cursor": 108,
+        "material_cursor": 108,
+        "graph_tick": 48,
+        "node_count": 152,
+        "edge_count": 80,
+        "stated": 2
+      },
+      {
+        "cursor": 109,
+        "material_cursor": 109,
+        "graph_tick": 48,
+        "node_count": 152,
+        "edge_count": 80,
+        "stated": 0
+      },
+      {
+        "cursor": 110,
+        "material_cursor": 110,
+        "graph_tick": 48,
+        "node_count": 152,
+        "edge_count": 80,
+        "stated": 0
+      },
+      {
+        "cursor": 111,
+        "material_cursor": 111,
+        "graph_tick": 48,
+        "node_count": 152,
+        "edge_count": 80,
+        "stated": 0
+      },
+      {
+        "cursor": 112,
+        "material_cursor": 112,
+        "graph_tick": 48,
+        "node_count": 152,
+        "edge_count": 80,
+        "stated": 0
+      },
+      {
+        "cursor": 113,
+        "material_cursor": 113,
+        "graph_tick": 48,
+        "node_count": 152,
+        "edge_count": 80,
+        "stated": 0
+      },
+      {
+        "cursor": 114,
+        "material_cursor": 114,
+        "graph_tick": 49,
+        "node_count": 153,
+        "edge_count": 80,
+        "stated": 1
+      },
+      {
+        "cursor": 115,
+        "material_cursor": 115,
+        "graph_tick": 50,
+        "node_count": 158,
+        "edge_count": 80,
+        "stated": 3
+      },
+      {
+        "cursor": 116,
+        "material_cursor": 116,
+        "graph_tick": 51,
+        "node_count": 159,
+        "edge_count": 80,
+        "stated": 1
+      },
+      {
+        "cursor": 117,
+        "material_cursor": 117,
+        "graph_tick": 51,
+        "node_count": 159,
+        "edge_count": 80,
+        "stated": 0
+      },
+      {
+        "cursor": 118,
+        "material_cursor": 118,
+        "graph_tick": 51,
+        "node_count": 159,
+        "edge_count": 80,
+        "stated": 0
+      },
+      {
+        "cursor": 119,
+        "material_cursor": 119,
+        "graph_tick": 51,
+        "node_count": 159,
+        "edge_count": 80,
+        "stated": 0
+      },
+      {
+        "cursor": 120,
+        "material_cursor": 120,
+        "graph_tick": 51,
+        "node_count": 159,
+        "edge_count": 80,
+        "stated": 0
+      },
+      {
+        "cursor": 121,
+        "material_cursor": 121,
+        "graph_tick": 51,
+        "node_count": 159,
+        "edge_count": 80,
+        "stated": 0
+      },
+      {
+        "cursor": 122,
+        "material_cursor": 122,
+        "graph_tick": 52,
+        "node_count": 161,
+        "edge_count": 80,
+        "stated": 1
+      },
+      {
+        "cursor": 123,
+        "material_cursor": 123,
+        "graph_tick": 53,
+        "node_count": 163,
+        "edge_count": 76,
+        "stated": 1
+      },
+      {
+        "cursor": 124,
+        "material_cursor": 124,
+        "graph_tick": 53,
+        "node_count": 163,
+        "edge_count": 76,
+        "stated": 0
+      },
+      {
+        "cursor": 125,
+        "material_cursor": 125,
+        "graph_tick": 54,
+        "node_count": 164,
+        "edge_count": 76,
+        "stated": 1
+      },
+      {
+        "cursor": 126,
+        "material_cursor": 126,
+        "graph_tick": 54,
+        "node_count": 164,
+        "edge_count": 76,
+        "stated": 0
+      },
+      {
+        "cursor": 127,
+        "material_cursor": 127,
+        "graph_tick": 54,
+        "node_count": 164,
+        "edge_count": 76,
+        "stated": 0
+      },
+      {
+        "cursor": 128,
+        "material_cursor": 128,
+        "graph_tick": 55,
+        "node_count": 170,
+        "edge_count": 80,
+        "stated": 4
+      },
+      {
+        "cursor": 129,
+        "material_cursor": 129,
+        "graph_tick": 55,
+        "node_count": 170,
+        "edge_count": 80,
+        "stated": 0
+      },
+      {
+        "cursor": 130,
+        "material_cursor": 130,
+        "graph_tick": 55,
+        "node_count": 170,
+        "edge_count": 80,
+        "stated": 0
+      },
+      {
+        "cursor": 131,
+        "material_cursor": 131,
+        "graph_tick": 55,
+        "node_count": 170,
+        "edge_count": 80,
+        "stated": 0
+      },
+      {
+        "cursor": 132,
+        "material_cursor": 132,
+        "graph_tick": 55,
+        "node_count": 170,
+        "edge_count": 80,
+        "stated": 0
+      },
+      {
+        "cursor": 133,
+        "material_cursor": 133,
+        "graph_tick": 56,
+        "node_count": 172,
+        "edge_count": 82,
+        "stated": 2
+      },
+      {
+        "cursor": 134,
+        "material_cursor": 134,
+        "graph_tick": 57,
+        "node_count": 174,
+        "edge_count": 80,
+        "stated": 2
+      },
+      {
+        "cursor": 135,
+        "material_cursor": 135,
+        "graph_tick": 57,
+        "node_count": 174,
+        "edge_count": 80,
+        "stated": 0
+      },
+      {
+        "cursor": 136,
+        "material_cursor": 136,
+        "graph_tick": 57,
+        "node_count": 174,
+        "edge_count": 80,
+        "stated": 0
+      }
+    ],
+    "graph": {
+      "nodes": [
+        {
+          "id": "ref:auto:frankenstein",
+          "mentions": 4,
+          "firstSeen": 53,
+          "lastSeen": 56,
+          "weight": 6.37325
+        },
+        {
+          "id": "ref:auto:what",
+          "mentions": 2,
+          "firstSeen": 54,
+          "lastSeen": 54,
+          "weight": 2.8899999999999997
+        },
+        {
+          "id": "said",
+          "mentions": 2,
+          "firstSeen": 5,
+          "lastSeen": 56,
+          "weight": 2
+        },
+        {
+          "id": "man",
+          "mentions": 1,
+          "firstSeen": 56,
+          "lastSeen": 56,
+          "weight": 2
+        },
+        {
+          "id": "friends",
+          "mentions": 1,
+          "firstSeen": 56,
+          "lastSeen": 56,
+          "weight": 2
+        },
+        {
+          "id": "ref:auto:clerval",
+          "mentions": 5,
+          "firstSeen": 6,
+          "lastSeen": 55,
+          "weight": 1.9055393390617685
+        },
+        {
+          "id": "yet have lived",
+          "mentions": 1,
+          "firstSeen": 55,
+          "lastSeen": 55,
+          "weight": 1.7
+        },
+        {
+          "id": "music",
+          "mentions": 1,
+          "firstSeen": 55,
+          "lastSeen": 55,
+          "weight": 1.7
+        },
+        {
+          "id": "scene",
+          "mentions": 1,
+          "firstSeen": 54,
+          "lastSeen": 54,
+          "weight": 1.4449999999999998
+        },
+        {
+          "id": "just passed",
+          "mentions": 1,
+          "firstSeen": 54,
+          "lastSeen": 54,
+          "weight": 1.4449999999999998
+        },
+        {
+          "id": "daily declined",
+          "mentions": 1,
+          "firstSeen": 54,
+          "lastSeen": 54,
+          "weight": 1.4449999999999998
+        },
+        {
+          "id": "you mean",
+          "mentions": 1,
+          "firstSeen": 54,
+          "lastSeen": 54,
+          "weight": 1.4449999999999998
+        },
+        {
+          "id": "you demand",
+          "mentions": 1,
+          "firstSeen": 54,
+          "lastSeen": 54,
+          "weight": 1.4449999999999998
+        },
+        {
+          "id": "that",
+          "mentions": 3,
+          "firstSeen": 15,
+          "lastSeen": 53,
+          "weight": 1.2282499999999998
+        },
+        {
+          "id": "in",
+          "mentions": 5,
+          "firstSeen": 3,
+          "lastSeen": 49,
+          "weight": 1.1043880691289059
+        },
+        {
+          "id": "ref:auto:greeks",
+          "mentions": 1,
+          "firstSeen": 52,
+          "lastSeen": 52,
+          "weight": 1.0440124999999998
+        },
+        {
+          "id": "for joy when\nthey beheld",
+          "mentions": 1,
+          "firstSeen": 52,
+          "lastSeen": 52,
+          "weight": 1.0440124999999998
+        },
+        {
+          "id": "ref:auto:kirwin",
+          "mentions": 2,
+          "firstSeen": 47,
+          "lastSeen": 47,
+          "weight": 0.9264677851328121
+        },
+        {
+          "id": "beheld clerval",
+          "mentions": 1,
+          "firstSeen": 51,
+          "lastSeen": 51,
+          "weight": 0.8874106249999998
+        },
+        {
+          "id": "health",
+          "mentions": 1,
+          "firstSeen": 51,
+          "lastSeen": 51,
+          "weight": 0.8874106249999998
+        },
+        {
+          "id": "to",
+          "mentions": 4,
+          "firstSeen": 24,
+          "lastSeen": 48,
+          "weight": 0.879667537457353
+        },
+        {
+          "id": "ref:auto:elizabeth",
+          "mentions": 3,
+          "firstSeen": 15,
+          "lastSeen": 50,
+          "weight": 0.7542990312499998
+        },
+        {
+          "id": "my agitation for",
+          "mentions": 1,
+          "firstSeen": 50,
+          "lastSeen": 50,
+          "weight": 0.7542990312499998
+        },
+        {
+          "id": "me",
+          "mentions": 3,
+          "firstSeen": 39,
+          "lastSeen": 46,
+          "weight": 0.7255149943445224
+        },
+        {
+          "id": "mighty jura",
+          "mentions": 1,
+          "firstSeen": 49,
+          "lastSeen": 49,
+          "weight": 0.6411541765624997
+        }
+      ],
+      "edges": [
+        {
+          "edge": "ref:auto:frankenstein|had|said",
+          "weight": 1
+        },
+        {
+          "edge": "man|had|friends",
+          "weight": 1
+        },
+        {
+          "edge": "ref:auto:frankenstein||said",
+          "weight": 1
+        },
+        {
+          "edge": "man||friends",
+          "weight": 1
+        },
+        {
+          "edge": "ref:auto:frankenstein|would|yet have lived",
+          "weight": 0.85
+        },
+        {
+          "edge": "ref:auto:clerval|were|music",
+          "weight": 0.85
+        },
+        {
+          "edge": "ref:auto:frankenstein||yet have lived",
+          "weight": 0.85
+        },
+        {
+          "edge": "ref:auto:clerval||music",
+          "weight": 0.85
+        },
+        {
+          "edge": "scene|has|just passed",
+          "weight": 0.7224999999999999
+        },
+        {
+          "edge": "ref:auto:frankenstein|has|daily declined",
+          "weight": 0.7224999999999999
+        },
+        {
+          "edge": "ref:auto:what|do|you mean",
+          "weight": 0.7224999999999999
+        },
+        {
+          "edge": "ref:auto:what|do|you demand",
+          "weight": 0.7224999999999999
+        },
+        {
+          "edge": "scene||just passed",
+          "weight": 0.7224999999999999
+        },
+        {
+          "edge": "ref:auto:frankenstein||daily declined",
+          "weight": 0.7224999999999999
+        },
+        {
+          "edge": "ref:auto:what||you mean",
+          "weight": 0.7224999999999999
+        },
+        {
+          "edge": "ref:auto:what||you demand",
+          "weight": 0.7224999999999999
+        },
+        {
+          "edge": "ref:auto:frankenstein|discovered|that",
+          "weight": 0.6141249999999999
+        },
+        {
+          "edge": "ref:auto:frankenstein||that",
+          "weight": 0.6141249999999999
+        },
+        {
+          "edge": "ref:auto:greeks|wept|for joy when\nthey beheld",
+          "weight": 0.5220062499999999
+        },
+        {
+          "edge": "ref:auto:greeks||for joy when\nthey beheld",
+          "weight": 0.5220062499999999
+        },
+        {
+          "edge": "beheld clerval|enjoying|health",
+          "weight": 0.4437053124999999
+        },
+        {
+          "edge": "beheld clerval||health",
+          "weight": 0.4437053124999999
+        },
+        {
+          "edge": "ref:auto:elizabeth|observed|my agitation for",
+          "weight": 0.3771495156249999
+        },
+        {
+          "edge": "ref:auto:elizabeth||my agitation for",
+          "weight": 0.3771495156249999
+        },
+        {
+          "edge": "mighty jura|opposing|its dark side",
+          "weight": 0.32057708828124987
+        }
+      ],
+      "tick": 57,
+      "edgeTotal": 24.65616852905985,
+      "nodeCount": 174,
+      "edgeCount": 80,
+      "standings": [
+        {
+          "node": "ref:auto:felix",
+          "standing": "apparatus",
+          "history": [
+            {
+              "standing": "apparatus",
+              "giver": "host/corpus.js::sessionReferents — the cast's own individuation (apparatus by naming-sentence-share; emanon/protogon/holon by the mass×coupling×agency classifier)",
+              "because": {
+                "sourceId": "project-gutenberg:pg84:observed:cursor-68:material-68",
+                "referent": "ref:auto:felix",
+                "namingSentenceShare": 0.16
+              },
+              "atTick": 29
+            }
+          ]
+        },
+        {
+          "node": "ref:auto:safie",
+          "standing": "apparatus",
+          "history": [
+            {
+              "standing": "apparatus",
+              "giver": "host/corpus.js::sessionReferents — the cast's own individuation (apparatus by naming-sentence-share; emanon/protogon/holon by the mass×coupling×agency classifier)",
+              "because": {
+                "sourceId": "project-gutenberg:pg84:observed:cursor-68:material-68",
+                "referent": "ref:auto:safie",
+                "namingSentenceShare": 0.16
+              },
+              "atTick": 29
+            }
+          ]
+        },
+        {
+          "node": "ref:auto:turk",
+          "standing": "apparatus",
+          "history": [
+            {
+              "standing": "apparatus",
+              "giver": "host/corpus.js::sessionReferents — the cast's own individuation (apparatus by naming-sentence-share; emanon/protogon/holon by the mass×coupling×agency classifier)",
+              "because": {
+                "sourceId": "project-gutenberg:pg84:observed:cursor-71:material-71",
+                "referent": "ref:auto:turk",
+                "namingSentenceShare": 0.16
+              },
+              "atTick": 31
+            }
+          ]
+        }
+      ]
+    },
+    "edge_shape": {
+      "verb_typed": 40,
+      "structural": 40,
+      "negative": 2
+    }
+  },
+  "null": {
+    "perturbation": "reverse the order of fixed 25-sentence stages while preserving sentence order within each stage",
+    "sha256": "9a1e562ed202932842d9914e292aa7dfeaad68e1f735d9253007a8870792e9c6",
+    "entity_nodes": 174,
+    "live_edges": 72,
+    "predicates_present": 36,
+    "directional_edges": 72,
+    "negative_edges": 6,
+    "stable_external_ids": 0,
+    "rdf_correspondences_confirmed": 0,
+    "chunks": 272,
+    "stages": 136,
+    "relations_stated": 114,
+    "last_admission": {
+      "sourceId": "project-gutenberg:pg84:stage-reversal-null:cursor-136:material-1",
+      "stated": 0,
+      "newEdges": 0,
+      "newNodes": 0,
+      "gaps": [
+        {
+          "reason": "pronoun_and_descriptor_mentions_unresolved",
+          "tier": "model",
+          "needsWitness": true,
+          "referents": 5,
+          "detail": "5 discovered referents: name-variant coreference is engine-tier and complete; binding pronouns and definite descriptions to this referent is not derivable (eoreader5 measured distributional coref failing twice). Supply a per-text prior to close this gap."
+        },
+        {
+          "reason": "pronoun_mentions_partially_resolved",
+          "tier": "model",
+          "needsWitness": true,
+          "pronounsResolved": 0,
+          "pronounsRemaining": 3,
+          "detail": "0 third-person singular pronoun mentions bound to a referent by activation recall; 3 remain unresolved (below the declared activation or margin floor, gender-incompatible with every candidate named so far, or nothing named yet to recall). Descriptor synonymy is untouched by either count and remains not derivable (eoreader5 measured distributional coref failing twice). Supply a per-text prior to close what remains."
+        }
+      ]
+    },
+    "trajectory": [
+      {
+        "cursor": 1,
+        "material_cursor": 136,
+        "graph_tick": 0,
+        "node_count": 0,
+        "edge_count": 0,
+        "stated": 0
+      },
+      {
+        "cursor": 2,
+        "material_cursor": 135,
+        "graph_tick": 0,
+        "node_count": 0,
+        "edge_count": 0,
+        "stated": 0
+      },
+      {
+        "cursor": 3,
+        "material_cursor": 134,
+        "graph_tick": 1,
+        "node_count": 4,
+        "edge_count": 4,
+        "stated": 2
+      },
+      {
+        "cursor": 4,
+        "material_cursor": 133,
+        "graph_tick": 2,
+        "node_count": 7,
+        "edge_count": 8,
+        "stated": 2
+      },
+      {
+        "cursor": 5,
+        "material_cursor": 132,
+        "graph_tick": 2,
+        "node_count": 7,
+        "edge_count": 8,
+        "stated": 0
+      },
+      {
+        "cursor": 6,
+        "material_cursor": 131,
+        "graph_tick": 2,
+        "node_count": 7,
+        "edge_count": 8,
+        "stated": 0
+      },
+      {
+        "cursor": 7,
+        "material_cursor": 130,
+        "graph_tick": 2,
+        "node_count": 7,
+        "edge_count": 8,
+        "stated": 0
+      },
+      {
+        "cursor": 8,
+        "material_cursor": 129,
+        "graph_tick": 2,
+        "node_count": 7,
+        "edge_count": 8,
+        "stated": 0
+      },
+      {
+        "cursor": 9,
+        "material_cursor": 128,
+        "graph_tick": 3,
+        "node_count": 13,
+        "edge_count": 16,
+        "stated": 4
+      },
+      {
+        "cursor": 10,
+        "material_cursor": 127,
+        "graph_tick": 3,
+        "node_count": 13,
+        "edge_count": 16,
+        "stated": 0
+      },
+      {
+        "cursor": 11,
+        "material_cursor": 126,
+        "graph_tick": 3,
+        "node_count": 13,
+        "edge_count": 16,
+        "stated": 0
+      },
+      {
+        "cursor": 12,
+        "material_cursor": 125,
+        "graph_tick": 4,
+        "node_count": 14,
+        "edge_count": 18,
+        "stated": 1
+      },
+      {
+        "cursor": 13,
+        "material_cursor": 124,
+        "graph_tick": 4,
+        "node_count": 14,
+        "edge_count": 18,
+        "stated": 0
+      },
+      {
+        "cursor": 14,
+        "material_cursor": 123,
+        "graph_tick": 5,
+        "node_count": 16,
+        "edge_count": 20,
+        "stated": 1
+      },
+      {
+        "cursor": 15,
+        "material_cursor": 122,
+        "graph_tick": 6,
+        "node_count": 18,
+        "edge_count": 22,
+        "stated": 1
+      },
+      {
+        "cursor": 16,
+        "material_cursor": 121,
+        "graph_tick": 6,
+        "node_count": 18,
+        "edge_count": 22,
+        "stated": 0
+      },
+      {
+        "cursor": 17,
+        "material_cursor": 120,
+        "graph_tick": 6,
+        "node_count": 18,
+        "edge_count": 22,
+        "stated": 0
+      },
+      {
+        "cursor": 18,
+        "material_cursor": 119,
+        "graph_tick": 6,
+        "node_count": 18,
+        "edge_count": 22,
+        "stated": 0
+      },
+      {
+        "cursor": 19,
+        "material_cursor": 118,
+        "graph_tick": 6,
+        "node_count": 18,
+        "edge_count": 22,
+        "stated": 0
+      },
+      {
+        "cursor": 20,
+        "material_cursor": 117,
+        "graph_tick": 6,
+        "node_count": 18,
+        "edge_count": 22,
+        "stated": 0
+      },
+      {
+        "cursor": 21,
+        "material_cursor": 116,
+        "graph_tick": 7,
+        "node_count": 20,
+        "edge_count": 24,
+        "stated": 1
+      },
+      {
+        "cursor": 22,
+        "material_cursor": 115,
+        "graph_tick": 8,
+        "node_count": 26,
+        "edge_count": 30,
+        "stated": 3
+      },
+      {
+        "cursor": 23,
+        "material_cursor": 114,
+        "graph_tick": 9,
+        "node_count": 28,
+        "edge_count": 32,
+        "stated": 1
+      },
+      {
+        "cursor": 24,
+        "material_cursor": 113,
+        "graph_tick": 9,
+        "node_count": 28,
+        "edge_count": 32,
+        "stated": 0
+      },
+      {
+        "cursor": 25,
+        "material_cursor": 112,
+        "graph_tick": 9,
+        "node_count": 28,
+        "edge_count": 32,
+        "stated": 0
+      },
+      {
+        "cursor": 26,
+        "material_cursor": 111,
+        "graph_tick": 9,
+        "node_count": 28,
+        "edge_count": 32,
+        "stated": 0
+      },
+      {
+        "cursor": 27,
+        "material_cursor": 110,
+        "graph_tick": 9,
+        "node_count": 28,
+        "edge_count": 32,
+        "stated": 0
+      },
+      {
+        "cursor": 28,
+        "material_cursor": 109,
+        "graph_tick": 9,
+        "node_count": 28,
+        "edge_count": 32,
+        "stated": 0
+      },
+      {
+        "cursor": 29,
+        "material_cursor": 108,
+        "graph_tick": 10,
+        "node_count": 30,
+        "edge_count": 36,
+        "stated": 2
+      },
+      {
+        "cursor": 30,
+        "material_cursor": 107,
+        "graph_tick": 11,
+        "node_count": 32,
+        "edge_count": 38,
+        "stated": 1
+      },
+      {
+        "cursor": 31,
+        "material_cursor": 106,
+        "graph_tick": 11,
+        "node_count": 32,
+        "edge_count": 38,
+        "stated": 0
+      },
+      {
+        "cursor": 32,
+        "material_cursor": 105,
+        "graph_tick": 11,
+        "node_count": 32,
+        "edge_count": 38,
+        "stated": 0
+      },
+      {
+        "cursor": 33,
+        "material_cursor": 104,
+        "graph_tick": 12,
+        "node_count": 35,
+        "edge_count": 42,
+        "stated": 2
+      },
+      {
+        "cursor": 34,
+        "material_cursor": 103,
+        "graph_tick": 13,
+        "node_count": 37,
+        "edge_count": 44,
+        "stated": 1
+      },
+      {
+        "cursor": 35,
+        "material_cursor": 102,
+        "graph_tick": 13,
+        "node_count": 37,
+        "edge_count": 44,
+        "stated": 0
+      },
+      {
+        "cursor": 36,
+        "material_cursor": 101,
+        "graph_tick": 14,
+        "node_count": 42,
+        "edge_count": 50,
+        "stated": 3
+      },
+      {
+        "cursor": 37,
+        "material_cursor": 100,
+        "graph_tick": 15,
+        "node_count": 42,
+        "edge_count": 52,
+        "stated": 1
+      },
+      {
+        "cursor": 38,
+        "material_cursor": 99,
+        "graph_tick": 15,
+        "node_count": 42,
+        "edge_count": 52,
+        "stated": 0
+      },
+      {
+        "cursor": 39,
+        "material_cursor": 98,
+        "graph_tick": 15,
+        "node_count": 42,
+        "edge_count": 52,
+        "stated": 0
+      },
+      {
+        "cursor": 40,
+        "material_cursor": 97,
+        "graph_tick": 15,
+        "node_count": 42,
+        "edge_count": 52,
+        "stated": 0
+      },
+      {
+        "cursor": 41,
+        "material_cursor": 96,
+        "graph_tick": 16,
+        "node_count": 49,
+        "edge_count": 60,
+        "stated": 4
+      },
+      {
+        "cursor": 42,
+        "material_cursor": 95,
+        "graph_tick": 16,
+        "node_count": 49,
+        "edge_count": 60,
+        "stated": 0
+      },
+      {
+        "cursor": 43,
+        "material_cursor": 94,
+        "graph_tick": 17,
+        "node_count": 51,
+        "edge_count": 62,
+        "stated": 1
+      },
+      {
+        "cursor": 44,
+        "material_cursor": 93,
+        "graph_tick": 18,
+        "node_count": 56,
+        "edge_count": 70,
+        "stated": 4
+      },
+      {
+        "cursor": 45,
+        "material_cursor": 92,
+        "graph_tick": 19,
+        "node_count": 66,
+        "edge_count": 80,
+        "stated": 5
+      },
+      {
+        "cursor": 46,
+        "material_cursor": 91,
+        "graph_tick": 19,
+        "node_count": 66,
+        "edge_count": 80,
+        "stated": 0
+      },
+      {
+        "cursor": 47,
+        "material_cursor": 90,
+        "graph_tick": 19,
+        "node_count": 66,
+        "edge_count": 80,
+        "stated": 0
+      },
+      {
+        "cursor": 48,
+        "material_cursor": 89,
+        "graph_tick": 19,
+        "node_count": 66,
+        "edge_count": 80,
+        "stated": 0
+      },
+      {
+        "cursor": 49,
+        "material_cursor": 88,
+        "graph_tick": 19,
+        "node_count": 66,
+        "edge_count": 80,
+        "stated": 0
+      },
+      {
+        "cursor": 50,
+        "material_cursor": 87,
+        "graph_tick": 19,
+        "node_count": 66,
+        "edge_count": 80,
+        "stated": 0
+      },
+      {
+        "cursor": 51,
+        "material_cursor": 86,
+        "graph_tick": 19,
+        "node_count": 66,
+        "edge_count": 80,
+        "stated": 0
+      },
+      {
+        "cursor": 52,
+        "material_cursor": 85,
+        "graph_tick": 19,
+        "node_count": 66,
+        "edge_count": 80,
+        "stated": 0
+      },
+      {
+        "cursor": 53,
+        "material_cursor": 84,
+        "graph_tick": 19,
+        "node_count": 66,
+        "edge_count": 80,
+        "stated": 0
+      },
+      {
+        "cursor": 54,
+        "material_cursor": 83,
+        "graph_tick": 19,
+        "node_count": 66,
+        "edge_count": 80,
+        "stated": 0
+      },
+      {
+        "cursor": 55,
+        "material_cursor": 82,
+        "graph_tick": 19,
+        "node_count": 66,
+        "edge_count": 80,
+        "stated": 0
+      },
+      {
+        "cursor": 56,
+        "material_cursor": 81,
+        "graph_tick": 19,
+        "node_count": 66,
+        "edge_count": 80,
+        "stated": 0
+      },
+      {
+        "cursor": 57,
+        "material_cursor": 80,
+        "graph_tick": 20,
+        "node_count": 69,
+        "edge_count": 82,
+        "stated": 3
+      },
+      {
+        "cursor": 58,
+        "material_cursor": 79,
+        "graph_tick": 21,
+        "node_count": 70,
+        "edge_count": 80,
+        "stated": 1
+      },
+      {
+        "cursor": 59,
+        "material_cursor": 78,
+        "graph_tick": 22,
+        "node_count": 73,
+        "edge_count": 76,
+        "stated": 2
+      },
+      {
+        "cursor": 60,
+        "material_cursor": 77,
+        "graph_tick": 22,
+        "node_count": 73,
+        "edge_count": 76,
+        "stated": 0
+      },
+      {
+        "cursor": 61,
+        "material_cursor": 76,
+        "graph_tick": 23,
+        "node_count": 75,
+        "edge_count": 76,
+        "stated": 1
+      },
+      {
+        "cursor": 62,
+        "material_cursor": 75,
+        "graph_tick": 24,
+        "node_count": 81,
+        "edge_count": 80,
+        "stated": 3
+      },
+      {
+        "cursor": 63,
+        "material_cursor": 74,
+        "graph_tick": 25,
+        "node_count": 83,
+        "edge_count": 80,
+        "stated": 1
+      },
+      {
+        "cursor": 64,
+        "material_cursor": 73,
+        "graph_tick": 25,
+        "node_count": 83,
+        "edge_count": 80,
+        "stated": 0
+      },
+      {
+        "cursor": 65,
+        "material_cursor": 72,
+        "graph_tick": 26,
+        "node_count": 85,
+        "edge_count": 80,
+        "stated": 1
+      },
+      {
+        "cursor": 66,
+        "material_cursor": 71,
+        "graph_tick": 27,
+        "node_count": 89,
+        "edge_count": 80,
+        "stated": 3
+      },
+      {
+        "cursor": 67,
+        "material_cursor": 70,
+        "graph_tick": 28,
+        "node_count": 90,
+        "edge_count": 80,
+        "stated": 1
+      },
+      {
+        "cursor": 68,
+        "material_cursor": 69,
+        "graph_tick": 28,
+        "node_count": 90,
+        "edge_count": 80,
+        "stated": 0
+      },
+      {
+        "cursor": 69,
+        "material_cursor": 68,
+        "graph_tick": 29,
+        "node_count": 97,
+        "edge_count": 88,
+        "stated": 6
+      },
+      {
+        "cursor": 70,
+        "material_cursor": 67,
+        "graph_tick": 30,
+        "node_count": 98,
+        "edge_count": 88,
+        "stated": 1
+      },
+      {
+        "cursor": 71,
+        "material_cursor": 66,
+        "graph_tick": 31,
+        "node_count": 99,
+        "edge_count": 88,
+        "stated": 2
+      },
+      {
+        "cursor": 72,
+        "material_cursor": 65,
+        "graph_tick": 32,
+        "node_count": 103,
+        "edge_count": 92,
+        "stated": 3
+      },
+      {
+        "cursor": 73,
+        "material_cursor": 64,
+        "graph_tick": 32,
+        "node_count": 103,
+        "edge_count": 92,
+        "stated": 0
+      },
+      {
+        "cursor": 74,
+        "material_cursor": 63,
+        "graph_tick": 32,
+        "node_count": 103,
+        "edge_count": 92,
+        "stated": 0
+      },
+      {
+        "cursor": 75,
+        "material_cursor": 62,
+        "graph_tick": 32,
+        "node_count": 103,
+        "edge_count": 92,
+        "stated": 0
+      },
+      {
+        "cursor": 76,
+        "material_cursor": 61,
+        "graph_tick": 33,
+        "node_count": 106,
+        "edge_count": 90,
+        "stated": 2
+      },
+      {
+        "cursor": 77,
+        "material_cursor": 60,
+        "graph_tick": 33,
+        "node_count": 106,
+        "edge_count": 90,
+        "stated": 0
+      },
+      {
+        "cursor": 78,
+        "material_cursor": 59,
+        "graph_tick": 33,
+        "node_count": 106,
+        "edge_count": 90,
+        "stated": 0
+      },
+      {
+        "cursor": 79,
+        "material_cursor": 58,
+        "graph_tick": 33,
+        "node_count": 106,
+        "edge_count": 90,
+        "stated": 0
+      },
+      {
+        "cursor": 80,
+        "material_cursor": 57,
+        "graph_tick": 33,
+        "node_count": 106,
+        "edge_count": 90,
+        "stated": 0
+      },
+      {
+        "cursor": 81,
+        "material_cursor": 56,
+        "graph_tick": 33,
+        "node_count": 106,
+        "edge_count": 90,
+        "stated": 0
+      },
+      {
+        "cursor": 82,
+        "material_cursor": 55,
+        "graph_tick": 33,
+        "node_count": 106,
+        "edge_count": 90,
+        "stated": 0
+      },
+      {
+        "cursor": 83,
+        "material_cursor": 54,
+        "graph_tick": 33,
+        "node_count": 106,
+        "edge_count": 90,
+        "stated": 0
+      },
+      {
+        "cursor": 84,
+        "material_cursor": 53,
+        "graph_tick": 34,
+        "node_count": 110,
+        "edge_count": 92,
+        "stated": 2
+      },
+      {
+        "cursor": 85,
+        "material_cursor": 52,
+        "graph_tick": 35,
+        "node_count": 112,
+        "edge_count": 86,
+        "stated": 1
+      },
+      {
+        "cursor": 86,
+        "material_cursor": 51,
+        "graph_tick": 35,
+        "node_count": 112,
+        "edge_count": 86,
+        "stated": 0
+      },
+      {
+        "cursor": 87,
+        "material_cursor": 50,
+        "graph_tick": 35,
+        "node_count": 112,
+        "edge_count": 86,
+        "stated": 0
+      },
+      {
+        "cursor": 88,
+        "material_cursor": 49,
+        "graph_tick": 35,
+        "node_count": 112,
+        "edge_count": 86,
+        "stated": 0
+      },
+      {
+        "cursor": 89,
+        "material_cursor": 48,
+        "graph_tick": 35,
+        "node_count": 112,
+        "edge_count": 86,
+        "stated": 0
+      },
+      {
+        "cursor": 90,
+        "material_cursor": 47,
+        "graph_tick": 35,
+        "node_count": 112,
+        "edge_count": 86,
+        "stated": 0
+      },
+      {
+        "cursor": 91,
+        "material_cursor": 46,
+        "graph_tick": 35,
+        "node_count": 112,
+        "edge_count": 86,
+        "stated": 0
+      },
+      {
+        "cursor": 92,
+        "material_cursor": 45,
+        "graph_tick": 36,
+        "node_count": 113,
+        "edge_count": 86,
+        "stated": 1
+      },
+      {
+        "cursor": 93,
+        "material_cursor": 44,
+        "graph_tick": 37,
+        "node_count": 119,
+        "edge_count": 84,
+        "stated": 3
+      },
+      {
+        "cursor": 94,
+        "material_cursor": 43,
+        "graph_tick": 37,
+        "node_count": 119,
+        "edge_count": 84,
+        "stated": 0
+      },
+      {
+        "cursor": 95,
+        "material_cursor": 42,
+        "graph_tick": 38,
+        "node_count": 120,
+        "edge_count": 76,
+        "stated": 1
+      },
+      {
+        "cursor": 96,
+        "material_cursor": 41,
+        "graph_tick": 38,
+        "node_count": 120,
+        "edge_count": 76,
+        "stated": 0
+      },
+      {
+        "cursor": 97,
+        "material_cursor": 40,
+        "graph_tick": 39,
+        "node_count": 121,
+        "edge_count": 72,
+        "stated": 1
+      },
+      {
+        "cursor": 98,
+        "material_cursor": 39,
+        "graph_tick": 39,
+        "node_count": 121,
+        "edge_count": 72,
+        "stated": 0
+      },
+      {
+        "cursor": 99,
+        "material_cursor": 38,
+        "graph_tick": 40,
+        "node_count": 123,
+        "edge_count": 72,
+        "stated": 1
+      },
+      {
+        "cursor": 100,
+        "material_cursor": 37,
+        "graph_tick": 40,
+        "node_count": 123,
+        "edge_count": 72,
+        "stated": 0
+      },
+      {
+        "cursor": 101,
+        "material_cursor": 36,
+        "graph_tick": 41,
+        "node_count": 127,
+        "edge_count": 72,
+        "stated": 2
+      },
+      {
+        "cursor": 102,
+        "material_cursor": 35,
+        "graph_tick": 42,
+        "node_count": 132,
+        "edge_count": 78,
+        "stated": 4
+      },
+      {
+        "cursor": 103,
+        "material_cursor": 34,
+        "graph_tick": 43,
+        "node_count": 134,
+        "edge_count": 78,
+        "stated": 3
+      },
+      {
+        "cursor": 104,
+        "material_cursor": 33,
+        "graph_tick": 44,
+        "node_count": 136,
+        "edge_count": 78,
+        "stated": 1
+      },
+      {
+        "cursor": 105,
+        "material_cursor": 32,
+        "graph_tick": 44,
+        "node_count": 136,
+        "edge_count": 78,
+        "stated": 0
+      },
+      {
+        "cursor": 106,
+        "material_cursor": 31,
+        "graph_tick": 45,
+        "node_count": 141,
+        "edge_count": 82,
+        "stated": 3
+      },
+      {
+        "cursor": 107,
+        "material_cursor": 30,
+        "graph_tick": 46,
+        "node_count": 142,
+        "edge_count": 78,
+        "stated": 1
+      },
+      {
+        "cursor": 108,
+        "material_cursor": 29,
+        "graph_tick": 46,
+        "node_count": 142,
+        "edge_count": 78,
+        "stated": 0
+      },
+      {
+        "cursor": 109,
+        "material_cursor": 28,
+        "graph_tick": 47,
+        "node_count": 143,
+        "edge_count": 78,
+        "stated": 1
+      },
+      {
+        "cursor": 110,
+        "material_cursor": 27,
+        "graph_tick": 48,
+        "node_count": 148,
+        "edge_count": 74,
+        "stated": 4
+      },
+      {
+        "cursor": 111,
+        "material_cursor": 26,
+        "graph_tick": 49,
+        "node_count": 154,
+        "edge_count": 78,
+        "stated": 3
+      },
+      {
+        "cursor": 112,
+        "material_cursor": 25,
+        "graph_tick": 49,
+        "node_count": 154,
+        "edge_count": 78,
+        "stated": 0
+      },
+      {
+        "cursor": 113,
+        "material_cursor": 24,
+        "graph_tick": 49,
+        "node_count": 154,
+        "edge_count": 78,
+        "stated": 0
+      },
+      {
+        "cursor": 114,
+        "material_cursor": 23,
+        "graph_tick": 49,
+        "node_count": 154,
+        "edge_count": 78,
+        "stated": 0
+      },
+      {
+        "cursor": 115,
+        "material_cursor": 22,
+        "graph_tick": 50,
+        "node_count": 155,
+        "edge_count": 76,
+        "stated": 1
+      },
+      {
+        "cursor": 116,
+        "material_cursor": 21,
+        "graph_tick": 50,
+        "node_count": 155,
+        "edge_count": 76,
+        "stated": 0
+      },
+      {
+        "cursor": 117,
+        "material_cursor": 20,
+        "graph_tick": 50,
+        "node_count": 155,
+        "edge_count": 76,
+        "stated": 0
+      },
+      {
+        "cursor": 118,
+        "material_cursor": 19,
+        "graph_tick": 51,
+        "node_count": 158,
+        "edge_count": 74,
+        "stated": 2
+      },
+      {
+        "cursor": 119,
+        "material_cursor": 18,
+        "graph_tick": 51,
+        "node_count": 158,
+        "edge_count": 74,
+        "stated": 0
+      },
+      {
+        "cursor": 120,
+        "material_cursor": 17,
+        "graph_tick": 51,
+        "node_count": 158,
+        "edge_count": 74,
+        "stated": 0
+      },
+      {
+        "cursor": 121,
+        "material_cursor": 16,
+        "graph_tick": 52,
+        "node_count": 161,
+        "edge_count": 74,
+        "stated": 2
+      },
+      {
+        "cursor": 122,
+        "material_cursor": 15,
+        "graph_tick": 53,
+        "node_count": 163,
+        "edge_count": 72,
+        "stated": 1
+      },
+      {
+        "cursor": 123,
+        "material_cursor": 14,
+        "graph_tick": 53,
+        "node_count": 163,
+        "edge_count": 72,
+        "stated": 0
+      },
+      {
+        "cursor": 124,
+        "material_cursor": 13,
+        "graph_tick": 54,
+        "node_count": 166,
+        "edge_count": 74,
+        "stated": 2
+      },
+      {
+        "cursor": 125,
+        "material_cursor": 12,
+        "graph_tick": 55,
+        "node_count": 168,
+        "edge_count": 74,
+        "stated": 1
+      },
+      {
+        "cursor": 126,
+        "material_cursor": 11,
+        "graph_tick": 56,
+        "node_count": 170,
+        "edge_count": 70,
+        "stated": 1
+      },
+      {
+        "cursor": 127,
+        "material_cursor": 10,
+        "graph_tick": 56,
+        "node_count": 170,
+        "edge_count": 70,
+        "stated": 0
+      },
+      {
+        "cursor": 128,
+        "material_cursor": 9,
+        "graph_tick": 56,
+        "node_count": 170,
+        "edge_count": 70,
+        "stated": 0
+      },
+      {
+        "cursor": 129,
+        "material_cursor": 8,
+        "graph_tick": 56,
+        "node_count": 170,
+        "edge_count": 70,
+        "stated": 0
+      },
+      {
+        "cursor": 130,
+        "material_cursor": 7,
+        "graph_tick": 57,
+        "node_count": 174,
+        "edge_count": 72,
+        "stated": 2
+      },
+      {
+        "cursor": 131,
+        "material_cursor": 6,
+        "graph_tick": 57,
+        "node_count": 174,
+        "edge_count": 72,
+        "stated": 0
+      },
+      {
+        "cursor": 132,
+        "material_cursor": 5,
+        "graph_tick": 57,
+        "node_count": 174,
+        "edge_count": 72,
+        "stated": 0
+      },
+      {
+        "cursor": 133,
+        "material_cursor": 4,
+        "graph_tick": 57,
+        "node_count": 174,
+        "edge_count": 72,
+        "stated": 0
+      },
+      {
+        "cursor": 134,
+        "material_cursor": 3,
+        "graph_tick": 57,
+        "node_count": 174,
+        "edge_count": 72,
+        "stated": 0
+      },
+      {
+        "cursor": 135,
+        "material_cursor": 2,
+        "graph_tick": 57,
+        "node_count": 174,
+        "edge_count": 72,
+        "stated": 0
+      },
+      {
+        "cursor": 136,
+        "material_cursor": 1,
+        "graph_tick": 57,
+        "node_count": 174,
+        "edge_count": 72,
+        "stated": 0
+      }
+    ],
+    "graph": {
+      "nodes": [
+        {
+          "id": "ref:auto:here",
+          "mentions": 1,
+          "firstSeen": 56,
+          "lastSeen": 56,
+          "weight": 2
+        },
+        {
+          "id": "our captain",
+          "mentions": 1,
+          "firstSeen": 56,
+          "lastSeen": 56,
+          "weight": 2
+        },
+        {
+          "id": "whole countenance",
+          "mentions": 1,
+          "firstSeen": 56,
+          "lastSeen": 56,
+          "weight": 2
+        },
+        {
+          "id": "lighted up",
+          "mentions": 1,
+          "firstSeen": 56,
+          "lastSeen": 56,
+          "weight": 2
+        },
+        {
+          "id": "in",
+          "mentions": 5,
+          "firstSeen": 7,
+          "lastSeen": 53,
+          "weight": 1.8970232316281748
+        },
+        {
+          "id": "ref:auto:caroline",
+          "mentions": 1,
+          "firstSeen": 55,
+          "lastSeen": 55,
+          "weight": 1.7
+        },
+        {
+          "id": "a mind",
+          "mentions": 1,
+          "firstSeen": 55,
+          "lastSeen": 55,
+          "weight": 1.7
+        },
+        {
+          "id": "event caroline",
+          "mentions": 1,
+          "firstSeen": 54,
+          "lastSeen": 54,
+          "weight": 1.4449999999999998
+        },
+        {
+          "id": "his wife",
+          "mentions": 1,
+          "firstSeen": 54,
+          "lastSeen": 54,
+          "weight": 1.4449999999999998
+        },
+        {
+          "id": "ref:auto:clerval",
+          "mentions": 5,
+          "firstSeen": 1,
+          "lastSeen": 50,
+          "weight": 1.2945248576909967
+        },
+        {
+          "id": "those italians",
+          "mentions": 1,
+          "firstSeen": 53,
+          "lastSeen": 53,
+          "weight": 1.2282499999999998
+        },
+        {
+          "id": "providence",
+          "mentions": 1,
+          "firstSeen": 53,
+          "lastSeen": 53,
+          "weight": 1.2282499999999998
+        },
+        {
+          "id": "her such powerful protection",
+          "mentions": 1,
+          "firstSeen": 53,
+          "lastSeen": 53,
+          "weight": 1.2282499999999998
+        },
+        {
+          "id": "elizabeth",
+          "mentions": 1,
+          "firstSeen": 52,
+          "lastSeen": 52,
+          "weight": 1.0440124999999998
+        },
+        {
+          "id": "like",
+          "mentions": 1,
+          "firstSeen": 52,
+          "lastSeen": 52,
+          "weight": 1.0440124999999998
+        },
+        {
+          "id": "said",
+          "mentions": 2,
+          "firstSeen": 0,
+          "lastSeen": 51,
+          "weight": 0.8874106249999998
+        },
+        {
+          "id": "it",
+          "mentions": 1,
+          "firstSeen": 51,
+          "lastSeen": 51,
+          "weight": 0.8874106249999998
+        },
+        {
+          "id": "even possible",
+          "mentions": 1,
+          "firstSeen": 51,
+          "lastSeen": 51,
+          "weight": 0.8874106249999998
+        },
+        {
+          "id": "ref:auto:isaac",
+          "mentions": 1,
+          "firstSeen": 51,
+          "lastSeen": 51,
+          "weight": 0.8874106249999998
+        },
+        {
+          "id": "smiles and",
+          "mentions": 1,
+          "firstSeen": 50,
+          "lastSeen": 50,
+          "weight": 0.7542990312499998
+        },
+        {
+          "id": "them upon us",
+          "mentions": 1,
+          "firstSeen": 50,
+          "lastSeen": 50,
+          "weight": 0.7542990312499998
+        },
+        {
+          "id": "the last\nevening with us",
+          "mentions": 1,
+          "firstSeen": 50,
+          "lastSeen": 50,
+          "weight": 0.7542990312499998
+        },
+        {
+          "id": "on",
+          "mentions": 2,
+          "firstSeen": 22,
+          "lastSeen": 49,
+          "weight": 0.6411541765624997
+        },
+        {
+          "id": "cornelius agrippa",
+          "mentions": 1,
+          "firstSeen": 49,
+          "lastSeen": 49,
+          "weight": 0.6411541765624997
+        },
+        {
+          "id": "i",
+          "mentions": 5,
+          "firstSeen": 15,
+          "lastSeen": 47,
+          "weight": 0.5705267121775184
+        }
+      ],
+      "edges": [
+        {
+          "edge": "ref:auto:here|is|our captain",
+          "weight": 1
+        },
+        {
+          "edge": "whole countenance|!is|lighted up",
+          "weight": 1
+        },
+        {
+          "edge": "ref:auto:here||our captain",
+          "weight": 1
+        },
+        {
+          "edge": "whole countenance|!|lighted up",
+          "weight": 1
+        },
+        {
+          "edge": "ref:auto:caroline|possessed|a mind",
+          "weight": 0.85
+        },
+        {
+          "edge": "ref:auto:caroline||a mind",
+          "weight": 0.85
+        },
+        {
+          "edge": "event caroline|became|his wife",
+          "weight": 0.7224999999999999
+        },
+        {
+          "edge": "event caroline||his wife",
+          "weight": 0.7224999999999999
+        },
+        {
+          "edge": "those italians|nursed|in",
+          "weight": 0.6141249999999999
+        },
+        {
+          "edge": "providence|afforded|her such powerful protection",
+          "weight": 0.6141249999999999
+        },
+        {
+          "edge": "those italians||in",
+          "weight": 0.6141249999999999
+        },
+        {
+          "edge": "providence||her such powerful protection",
+          "weight": 0.6141249999999999
+        },
+        {
+          "edge": "elizabeth|shone|like",
+          "weight": 0.5220062499999999
+        },
+        {
+          "edge": "elizabeth||like",
+          "weight": 0.5220062499999999
+        },
+        {
+          "edge": "it|is|even possible",
+          "weight": 0.4437053124999999
+        },
+        {
+          "edge": "ref:auto:isaac|is|said",
+          "weight": 0.4437053124999999
+        },
+        {
+          "edge": "it||even possible",
+          "weight": 0.4437053124999999
+        },
+        {
+          "edge": "ref:auto:isaac||said",
+          "weight": 0.4437053124999999
+        },
+        {
+          "edge": "smiles and|!spent|them upon us",
+          "weight": 0.3771495156249999
+        },
+        {
+          "edge": "ref:auto:clerval|spent|the last\nevening with us",
+          "weight": 0.3771495156249999
+        },
+        {
+          "edge": "smiles and|!|them upon us",
+          "weight": 0.3771495156249999
+        },
+        {
+          "edge": "ref:auto:clerval||the last\nevening with us",
+          "weight": 0.3771495156249999
+        },
+        {
+          "edge": "cornelius agrippa|went|on",
+          "weight": 0.32057708828124987
+        },
+        {
+          "edge": "cornelius agrippa||on",
+          "weight": 0.32057708828124987
+        },
+        {
+          "edge": "no mortal|could|support",
+          "weight": 0.2724905250390624
+        }
+      ],
+      "tick": 57,
+      "edgeTotal": 21.727637316723676,
+      "nodeCount": 174,
+      "edgeCount": 72,
+      "standings": [
+        {
+          "node": "ref:auto:felix",
+          "standing": "apparatus",
+          "history": [
+            {
+              "standing": "apparatus",
+              "giver": "host/corpus.js::sessionReferents — the cast's own individuation (apparatus by naming-sentence-share; emanon/protogon/holon by the mass×coupling×agency classifier)",
+              "because": {
+                "sourceId": "project-gutenberg:pg84:stage-reversal-null:cursor-69:material-68",
+                "referent": "ref:auto:felix",
+                "namingSentenceShare": 0.16
+              },
+              "atTick": 29
+            }
+          ]
+        },
+        {
+          "node": "ref:auto:safie",
+          "standing": "apparatus",
+          "history": [
+            {
+              "standing": "apparatus",
+              "giver": "host/corpus.js::sessionReferents — the cast's own individuation (apparatus by naming-sentence-share; emanon/protogon/holon by the mass×coupling×agency classifier)",
+              "because": {
+                "sourceId": "project-gutenberg:pg84:stage-reversal-null:cursor-69:material-68",
+                "referent": "ref:auto:safie",
+                "namingSentenceShare": 0.16
+              },
+              "atTick": 29
+            }
+          ]
+        },
+        {
+          "node": "ref:auto:turk",
+          "standing": "apparatus",
+          "history": [
+            {
+              "standing": "apparatus",
+              "giver": "host/corpus.js::sessionReferents — the cast's own individuation (apparatus by naming-sentence-share; emanon/protogon/holon by the mass×coupling×agency classifier)",
+              "because": {
+                "sourceId": "project-gutenberg:pg84:stage-reversal-null:cursor-66:material-71",
+                "referent": "ref:auto:turk",
+                "namingSentenceShare": 0.16
+              },
+              "atTick": 27
+            }
+          ]
+        }
+      ]
+    },
+    "edge_shape": {
+      "verb_typed": 36,
+      "structural": 36,
+      "negative": 6
+    }
+  },
+  "verdict": {
+    "rdf_quality": "refused",
+    "reason": "Entity and relation overlap cannot be scored without received RDF rows and confirmed correspondences.",
+    "assessable_now": "graph shape and order sensitivity only"
+  }
+}

@@ -1,0 +1,1572 @@
+{
+  "ceiling": {
+    "kappa": 0.9196349192268645,
+    "pctAgreement": 0.9607371794871795,
+    "refused": false,
+    "kappaFloor": 0.4,
+    "verdictCounts": {
+      "NAMED": 569,
+      "AGENTLESS": 91,
+      "NOMINALIZED": 26,
+      "SKIP": 146
+    }
+  },
+  "floor": {
+    "realAdmittedRate": 0.10576923076923077,
+    "rotationAdmittedRate": 0.03365384615384615,
+    "n": 208
+  },
+  "correlation": {
+    "n": 170,
+    "contingency": {
+      "a": 19,
+      "b": 1,
+      "c": 124,
+      "d": 26
+    },
+    "phi": 0.10871543198818871,
+    "chi2": 2.009237675904342,
+    "precision": 0.95,
+    "recall": 0.13286713286713286,
+    "f1": 0.23312883435582818
+  },
+  "lengthDensityControl": {
+    "rawPearson": 0.10871543198818864,
+    "partial": 0.10717339013007199,
+    "lengthCorrelation": 0.017913083302378636,
+    "densityCorrelation": -0.00008564588438880856,
+    "survives": true
+  },
+  "analysisRows": [
+    {
+      "id": "deposition-j6-meadows-deposition-s92-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 8,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.75
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s1-c6",
+      "genre": "ordinance",
+      "humanNamed": 0,
+      "engineAdmitted": 0,
+      "clauseLength": 56,
+      "majorityVerdict": "NOMINALIZED",
+      "nominalDensity": 0.39655172413793105
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s48-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 1,
+      "clauseLength": 24,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5833333333333334
+    },
+    {
+      "id": "ordinance-metro-ord-24-1514-preamble-s1-c5",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 39,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.23255813953488372
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s1-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 19,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.35
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s13-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 19,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5263157894736842
+    },
+    {
+      "id": "ordinance-metro-ord-25-1528-preamble-s0-c9",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 30,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.43333333333333335
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s9-c1",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 4,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.8
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s26-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 35,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.6111111111111112
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s19-c0",
+      "genre": "staff-report",
+      "humanNamed": 0,
+      "engineAdmitted": 0,
+      "clauseLength": 5,
+      "majorityVerdict": "AGENTLESS",
+      "nominalDensity": 0.6
+    },
+    {
+      "id": "ordinance-metro-ord-24-1514-preamble-s1-c3",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 42,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.40476190476190477
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s1-c0",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 39,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.34146341463414637
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s31-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 4,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 1
+    },
+    {
+      "id": "ordinance-metro-ord-25-1528-preamble-s0-c5",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 29,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.3125
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s65-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 1,
+      "clauseLength": 43,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.4418604651162791
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s99-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 19,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5789473684210527
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s6-c1",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 5,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.8
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s31-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 1,
+      "clauseLength": 32,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.3548387096774194
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s25-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 15,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.2857142857142857
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s30-c0",
+      "genre": "staff-report",
+      "humanNamed": 0,
+      "engineAdmitted": 0,
+      "clauseLength": 35,
+      "majorityVerdict": "AGENTLESS",
+      "nominalDensity": 0.6216216216216216
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s14-c1",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 13,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5714285714285714
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s14-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 14,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.42857142857142855
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s47-c1",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 12,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.4166666666666667
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s9-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 12,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.75
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s1-c2",
+      "genre": "ordinance",
+      "humanNamed": 0,
+      "engineAdmitted": 0,
+      "clauseLength": 28,
+      "majorityVerdict": "NOMINALIZED",
+      "nominalDensity": 0.32142857142857145
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s11-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 26,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.46153846153846156
+    },
+    {
+      "id": "ordinance-metro-ord-25-1528-preamble-s0-c2",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 20,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.47619047619047616
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s27-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 36,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.6388888888888888
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s90-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 13,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.35714285714285715
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s43-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 1,
+      "clauseLength": 34,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.47058823529411764
+    },
+    {
+      "id": "ordinance-metro-ord-24-1514-preamble-s2-c0",
+      "genre": "ordinance",
+      "humanNamed": 0,
+      "engineAdmitted": 0,
+      "clauseLength": 28,
+      "majorityVerdict": "AGENTLESS",
+      "nominalDensity": 0.36666666666666664
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s20-c1",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 18,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.4444444444444444
+    },
+    {
+      "id": "ordinance-metro-ord-24-1514-preamble-s6-c0",
+      "genre": "ordinance",
+      "humanNamed": 0,
+      "engineAdmitted": 0,
+      "clauseLength": 26,
+      "majorityVerdict": "AGENTLESS",
+      "nominalDensity": 0.16666666666666666
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s1-c4",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 9,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.8888888888888888
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s74-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 5,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.3333333333333333
+    },
+    {
+      "id": "ordinance-metro-ord-24-1514-preamble-s0-c2",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 25,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.13333333333333333
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s0-c0",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 25,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.4444444444444444
+    },
+    {
+      "id": "ordinance-metro-ord-25-1528-preamble-s0-c7",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 1,
+      "clauseLength": 31,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5625
+    },
+    {
+      "id": "ordinance-metro-ord-25-1528-preamble-s0-c0",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 27,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.2222222222222222
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s39-c0",
+      "genre": "staff-report",
+      "humanNamed": 0,
+      "engineAdmitted": 0,
+      "clauseLength": 25,
+      "majorityVerdict": "NOMINALIZED",
+      "nominalDensity": 0.64
+    },
+    {
+      "id": "ordinance-metro-ord-24-1514-preamble-s8-c1",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 13,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.6923076923076923
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s52-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 8,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.625
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s51-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 1,
+      "clauseLength": 31,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.4838709677419355
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s62-c1",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 7,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.42857142857142855
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s8-c0",
+      "genre": "ordinance",
+      "humanNamed": 0,
+      "engineAdmitted": 0,
+      "clauseLength": 35,
+      "majorityVerdict": "AGENTLESS",
+      "nominalDensity": 0.375
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s19-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 57,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5254237288135594
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s24-c3",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 5,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.8
+    },
+    {
+      "id": "ordinance-metro-ord-25-1528-preamble-s3-c0",
+      "genre": "ordinance",
+      "humanNamed": 0,
+      "engineAdmitted": 0,
+      "clauseLength": 39,
+      "majorityVerdict": "AGENTLESS",
+      "nominalDensity": 0.46153846153846156
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s25-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 19,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.631578947368421
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s46-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 14,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.2857142857142857
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s8-c1",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 1,
+      "clauseLength": 5,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.4
+    },
+    {
+      "id": "ordinance-metro-ord-25-1528-preamble-s0-c6",
+      "genre": "ordinance",
+      "humanNamed": 0,
+      "engineAdmitted": 1,
+      "clauseLength": 16,
+      "majorityVerdict": "AGENTLESS",
+      "nominalDensity": 0.5
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s68-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 42,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.47619047619047616
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s38-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 12,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.75
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s15-c0",
+      "genre": "staff-report",
+      "humanNamed": 0,
+      "engineAdmitted": 0,
+      "clauseLength": 20,
+      "majorityVerdict": "AGENTLESS",
+      "nominalDensity": 0.45
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s8-c0",
+      "genre": "staff-report",
+      "humanNamed": 0,
+      "engineAdmitted": 0,
+      "clauseLength": 23,
+      "majorityVerdict": "AGENTLESS",
+      "nominalDensity": 0.56
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s76-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 20,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5
+    },
+    {
+      "id": "ordinance-metro-ord-24-1514-preamble-s1-c6",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 54,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.4444444444444444
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s23-c1",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 9,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5555555555555556
+    },
+    {
+      "id": "ordinance-metro-ord-24-1514-preamble-s0-c0",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 22,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.4782608695652174
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s27-c1",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 5,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.6
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s27-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 1,
+      "clauseLength": 7,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s1-c9",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 17,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.6666666666666666
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s1-c8",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 26,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.3076923076923077
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s11-c0",
+      "genre": "staff-report",
+      "humanNamed": 0,
+      "engineAdmitted": 0,
+      "clauseLength": 5,
+      "majorityVerdict": "AGENTLESS",
+      "nominalDensity": 0.2
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s10-c2",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 7,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.375
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s94-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 28,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5714285714285714
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s14-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 1,
+      "clauseLength": 22,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.4090909090909091
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s1-c11",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 38,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.525
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s62-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 53,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.32075471698113206
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s15-c0",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 40,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.575
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s100-c1",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 10,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s38-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 31,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.4838709677419355
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s17-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 19,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.42105263157894735
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s27-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 11,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.4166666666666667
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s5-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 14,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5625
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s23-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 11,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.7272727272727273
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s1-c1",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 47,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.425531914893617
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s33-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 25,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.36
+    },
+    {
+      "id": "ordinance-metro-ord-24-1514-preamble-s8-c0",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 22,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.45454545454545453
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s32-c1",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 14,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.35714285714285715
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s72-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 22,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.7727272727272727
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s23-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 30,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.4666666666666667
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s9-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 23,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.4782608695652174
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s18-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 24,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.625
+    },
+    {
+      "id": "ordinance-metro-ord-25-1528-preamble-s0-c10",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 34,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.34285714285714286
+    },
+    {
+      "id": "ordinance-metro-ord-25-1528-preamble-s0-c11",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 9,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5555555555555556
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s36-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 18,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s33-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 36,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5526315789473685
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s29-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 10,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.7
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s87-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 7,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s17-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 24,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s5-c0",
+      "genre": "ordinance",
+      "humanNamed": 0,
+      "engineAdmitted": 0,
+      "clauseLength": 30,
+      "majorityVerdict": "AGENTLESS",
+      "nominalDensity": 0.34375
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s70-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 1,
+      "clauseLength": 65,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5846153846153846
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s12-c1",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 1,
+      "clauseLength": 29,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5172413793103449
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s26-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 25,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.4
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s60-c1",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 20,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s97-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 20,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.4
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s53-c1",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 1,
+      "clauseLength": 26,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.7307692307692307
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s1-c12",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 6,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.8571428571428571
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s6-c3",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 11,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.45454545454545453
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s55-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 22,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s49-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 1,
+      "clauseLength": 13,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.38461538461538464
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s17-c0",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 22,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5454545454545454
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s24-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 15,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.7333333333333333
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s16-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 9,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.3
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s69-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 10,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.4
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s14-c0",
+      "genre": "ordinance",
+      "humanNamed": 0,
+      "engineAdmitted": 0,
+      "clauseLength": 21,
+      "majorityVerdict": "AGENTLESS",
+      "nominalDensity": 0.6666666666666666
+    },
+    {
+      "id": "ordinance-metro-ord-25-1528-preamble-s1-c0",
+      "genre": "ordinance",
+      "humanNamed": 0,
+      "engineAdmitted": 0,
+      "clauseLength": 26,
+      "majorityVerdict": "AGENTLESS",
+      "nominalDensity": 0.5185185185185185
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s32-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 24,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.44
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s15-c1",
+      "genre": "ordinance",
+      "humanNamed": 0,
+      "engineAdmitted": 0,
+      "clauseLength": 5,
+      "majorityVerdict": "AGENTLESS",
+      "nominalDensity": 0.6
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s29-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 1,
+      "clauseLength": 18,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.2857142857142857
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s22-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 8,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.625
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s22-c1",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 8,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.375
+    },
+    {
+      "id": "ordinance-metro-ord-25-1528-preamble-s3-c1",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 13,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.6428571428571429
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s30-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 45,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.35555555555555557
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s7-c0",
+      "genre": "ordinance",
+      "humanNamed": 0,
+      "engineAdmitted": 0,
+      "clauseLength": 17,
+      "majorityVerdict": "AGENTLESS",
+      "nominalDensity": 0.3
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s17-c1",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 13,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.7692307692307693
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s53-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 13,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5384615384615384
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s71-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 36,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.6176470588235294
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s56-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 27,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5185185185185185
+    },
+    {
+      "id": "ordinance-metro-ord-24-1514-preamble-s1-c2",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 65,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.3333333333333333
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s37-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 9,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.7777777777777778
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s60-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 37,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.35135135135135137
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s57-c1",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 21,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.2857142857142857
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s48-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 21,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5238095238095238
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s56-c0",
+      "genre": "staff-report",
+      "humanNamed": 0,
+      "engineAdmitted": 0,
+      "clauseLength": 16,
+      "majorityVerdict": "NOMINALIZED",
+      "nominalDensity": 0.5625
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s40-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 11,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.6363636363636364
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s91-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 13,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5384615384615384
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s98-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 1,
+      "clauseLength": 40,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.575
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s23-c0",
+      "genre": "staff-report",
+      "humanNamed": 0,
+      "engineAdmitted": 0,
+      "clauseLength": 5,
+      "majorityVerdict": "AGENTLESS",
+      "nominalDensity": 0.8
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s45-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 17,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s16-c1",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 13,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.2
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s0-c2",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 1,
+      "clauseLength": 24,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5833333333333334
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s34-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 28,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5357142857142857
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s3-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 8,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.375
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s1-c3",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 22,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.4782608695652174
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s14-c1",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 13,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.46153846153846156
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s7-c0",
+      "genre": "staff-report",
+      "humanNamed": 0,
+      "engineAdmitted": 0,
+      "clauseLength": 6,
+      "majorityVerdict": "AGENTLESS",
+      "nominalDensity": 0.3333333333333333
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s41-c0",
+      "genre": "staff-report",
+      "humanNamed": 0,
+      "engineAdmitted": 0,
+      "clauseLength": 6,
+      "majorityVerdict": "AGENTLESS",
+      "nominalDensity": 1
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s3-c0",
+      "genre": "ordinance",
+      "humanNamed": 0,
+      "engineAdmitted": 0,
+      "clauseLength": 28,
+      "majorityVerdict": "AGENTLESS",
+      "nominalDensity": 0.3
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s12-c0",
+      "genre": "staff-report",
+      "humanNamed": 0,
+      "engineAdmitted": 0,
+      "clauseLength": 18,
+      "majorityVerdict": "NOMINALIZED",
+      "nominalDensity": 0.4444444444444444
+    },
+    {
+      "id": "ordinance-metro-ord-25-1528-preamble-s0-c1",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 23,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.34782608695652173
+    },
+    {
+      "id": "ordinance-metro-ord-24-1514-preamble-s1-c0",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 22,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5454545454545454
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s24-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 26,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.43333333333333335
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s10-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 7,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.2857142857142857
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s8-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 39,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.4186046511627907
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s22-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 1,
+      "clauseLength": 10,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.4
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s10-c0",
+      "genre": "ordinance",
+      "humanNamed": 0,
+      "engineAdmitted": 0,
+      "clauseLength": 33,
+      "majorityVerdict": "AGENTLESS",
+      "nominalDensity": 0.42857142857142855
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s55-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 24,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.20833333333333334
+    },
+    {
+      "id": "ordinance-metro-ord-24-1514-preamble-s1-c4",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 26,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.2692307692307692
+    },
+    {
+      "id": "ordinance-metro-ord-24-1514-preamble-s0-c1",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 24,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.3076923076923077
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s4-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 25,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5925925925925926
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s6-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 15,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.25
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s43-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 14,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.3125
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s51-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 9,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5555555555555556
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s42-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 13,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5384615384615384
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s1-c7",
+      "genre": "ordinance",
+      "humanNamed": 0,
+      "engineAdmitted": 0,
+      "clauseLength": 10,
+      "majorityVerdict": "NOMINALIZED",
+      "nominalDensity": 0.8181818181818182
+    },
+    {
+      "id": "ordinance-metro-ord-26-1540-preamble-s1-c10",
+      "genre": "ordinance",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 34,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5428571428571428
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s16-c2",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 7,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.42857142857142855
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s12-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 1,
+      "clauseLength": 28,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.4642857142857143
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s86-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 1,
+      "clauseLength": 66,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5909090909090909
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s24-c1",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 7,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 1
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s75-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 22,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5909090909090909
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s42-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 13,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.6428571428571429
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s18-c1",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 9,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5555555555555556
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s45-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 29,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.5517241379310345
+    },
+    {
+      "id": "deposition-j6-meadows-deposition-s95-c0",
+      "genre": "deposition",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 33,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.6363636363636364
+    },
+    {
+      "id": "staff-report-metro-ord-26-1540-staffreport-s10-c0",
+      "genre": "staff-report",
+      "humanNamed": 0,
+      "engineAdmitted": 0,
+      "clauseLength": 11,
+      "majorityVerdict": "AGENTLESS",
+      "nominalDensity": 0.7272727272727273
+    },
+    {
+      "id": "staff-report-metro-ord-25-1528-staffreport-s2-c0",
+      "genre": "staff-report",
+      "humanNamed": 1,
+      "engineAdmitted": 0,
+      "clauseLength": 33,
+      "majorityVerdict": "NAMED",
+      "nominalDensity": 0.37142857142857144
+    }
+  ]
+}

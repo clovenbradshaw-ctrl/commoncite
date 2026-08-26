@@ -1,0 +1,84 @@
+{
+ "schema": "EOForgettingFalsificationRun@1",
+ "mode": "audio",
+ "file": "waltz.wav",
+ "meta": {
+  "frames": 3092,
+  "unit": "frame (~46ms: hop 1024 at 22050 Hz — the perceiver's own numbers)"
+ },
+ "declared": {
+  "d": "0.5 — ACT-R's received standard, giver named (Anderson)",
+  "identityFloor": "seen >= 2 (binding.js's structural minimum)",
+  "SEED": 20260825
+ },
+ "arms": {
+  "real": {
+   "arm": "real",
+   "steps": 2996,
+   "chance": 0.03639628943696115,
+   "meanPrecisionAtK": {
+    "baseline:base-rate": 0.26401869158878505,
+    "baseline:recency": 0.8064085447263017,
+    "candidate:actr-prior": 0.28538050734312415,
+    "candidate:need-odds-measured": 0.8057409879839786
+   },
+   "pairedHeadline": [
+    {
+     "of": "candidate:actr-prior minus baseline:base-rate",
+     "meanDelta": 0.02136,
+     "stepsBetter": 64,
+     "stepsWorse": 0,
+     "z": 8.09
+    },
+    {
+     "of": "candidate:need-odds-measured minus baseline:base-rate",
+     "meanDelta": 0.54172,
+     "stepsBetter": 1699,
+     "stepsWorse": 76,
+     "z": 54.22
+    },
+    {
+     "of": "candidate:actr-prior minus baseline:recency",
+     "meanDelta": -0.52103,
+     "stepsBetter": 77,
+     "stepsWorse": 1638,
+     "z": -51.98
+    }
+   ]
+  },
+  "null": {
+   "arm": "shuffled",
+   "steps": 3037,
+   "chance": 0.029206044109170996,
+   "meanPrecisionAtK": {
+    "baseline:base-rate": 0.27395456042146854,
+    "baseline:recency": 0.10734277247283504,
+    "candidate:actr-prior": 0.2719789265722753,
+    "candidate:need-odds-measured": 0.24234441883437602
+   },
+   "pairedHeadline": [
+    {
+     "of": "candidate:actr-prior minus baseline:base-rate",
+     "meanDelta": -0.00198,
+     "stepsBetter": 0,
+     "stepsWorse": 6,
+     "z": -2.45
+    },
+    {
+     "of": "candidate:need-odds-measured minus baseline:base-rate",
+     "meanDelta": -0.03161,
+     "stepsBetter": 36,
+     "stepsWorse": 132,
+     "z": -7.47
+    },
+    {
+     "of": "candidate:actr-prior minus baseline:recency",
+     "meanDelta": 0.16464,
+     "stepsBetter": 597,
+     "stepsWorse": 97,
+     "z": 20.21
+    }
+   ]
+  }
+ }
+}

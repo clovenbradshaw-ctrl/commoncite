@@ -1,0 +1,18 @@
+{
+  "name": "eoreader6",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Perceive only by difference from a ground you rebuild. See SEED.md.",
+  "exports": {
+    ".": "./nul/index.js",
+    "./host": "./packages/host/index.js",
+    "./engine": "./packages/engine/index.js",
+    "./host/*": "./packages/host/*.js",
+    "./engine/*": "./packages/engine/*.js"
+  },
+  "scripts": {
+    "test": "node --test \"conformance/*.test.js\"",
+    "competency": "node scripts/predictive-competency.mjs"
+  }
+}

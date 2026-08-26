@@ -1,0 +1,457 @@
+{
+  "golden": "signal-from-noise",
+  "created": "2026-07-31",
+  "source": "23-case corpus (A1-A15, B1-B8) supplied for span-surprise/salience conformance testing",
+  "discipline": [
+    "Every case is tagged with a TIER: engine (structural, no world knowledge, detectable by nul/temporality/rowForm/scriptProfile/received), model (requires semantic or world knowledge the material does not itself carry — correct engine behavior is a typed gap, never a lucky hit), mixed (part of the case is structural, part is not), or out-of-scope (the signal lives on an axis no mechanism here exposes — A7's acrostic).",
+    "For model-tier cases the fixture still runs the same structural detector the case superficially resembles, and the expected verdict is whatever was ACTUALLY OBSERVED when it was run — including a structural echo where one exists (e.g. a confession sentence differing in length from surrounding imperative sentences). A model-tier label is a claim about what would be required to correctly INTERPRET the signal, not a guarantee that no structural byproduct exists.",
+    "expectedVerdict values are locked from a real run of goldens/surprise/score.mjs, not hand-asserted — see README.md for the run that produced them."
+  ],
+  "cases": [
+    {
+      "id": "A1",
+      "tier": "mixed",
+      "axis": "rowForm",
+      "rows": [
+        "Section 4.1: The Licensee shall maintain records for a period of seven (7) years.",
+        "Section 4.2: All notices shall be delivered in writing to the address of record.",
+        "Section 4.3: The Licensee shall dispose of the records in the incinerator behind the north warehouse no later than the first Tuesday following termination.",
+        "Section 4.4: This Agreement shall be governed by the laws of the State of Delaware."
+      ],
+      "notes": "register break (procedural instruction vs legal boilerplate) is semantic; sentence length/shape may echo it structurally",
+      "observed": {
+        "verdict": "none"
+      }
+    },
+    {
+      "id": "A2",
+      "tier": "model",
+      "axis": "rowForm",
+      "rows": [
+        "Preheat oven to 350F.",
+        "Cream butter and sugar until fluffy.",
+        "I never told you I was the one who backed the car into the mailbox.",
+        "Fold in flour gradually, alternating with milk.",
+        "Bake 25-30 minutes or until golden."
+      ],
+      "notes": "non-sequitur is pure propositional content; no structural marker at all",
+      "observed": {
+        "verdict": "none"
+      }
+    },
+    {
+      "id": "A3",
+      "tier": "engine",
+      "axis": "rowForm",
+      "rows": [
+        "2026-07-30 03:12:01 INFO  cron.daily started",
+        "2026-07-30 03:12:02 INFO  rotating logs",
+        "2026-07-30 03:12:04 INFO  backup job complete",
+        "2026-07-30 03:12:05 WARN  auth failure from 10.0.0.4 (root, 3rd attempt in 8s)",
+        "2026-07-30 03:12:06 INFO  disk usage nominal",
+        "2026-07-30 03:12:09 INFO  cron.daily finished"
+      ],
+      "notes": "WARN line differs in length/punctuation from the five INFO lines",
+      "observed": {
+        "verdict": "outlier",
+        "outlierRows": [
+          3
+        ]
+      }
+    },
+    {
+      "id": "A4",
+      "tier": "model",
+      "axis": "rowForm",
+      "rows": [
+        "The sample exhibited standard morphology.",
+        "Prior studies report similar distributions.",
+        "Controls were run in triplicate.",
+        "Results were consistent with expectation.",
+        "Staining followed standard protocol.",
+        "No deviation from baseline was noted in sections 1-6.",
+        "Section 7, however, showed complete absence of the expected marker in 9 of 12 samples, a finding inconsistent with all prior literature."
+      ],
+      "notes": "the 6 inert footnotes establish a template the 7th both matches grammatically and violates semantically; depth-of-embedding is the real signal and is not represented in a flat row set at all",
+      "observed": {
+        "verdict": "outlier",
+        "outlierRows": [
+          6
+        ],
+        "caveat": "structural byproduct only: the informative footnote is longer/differently punctuated than the six inert ones; row-shape does not know WHY it differs"
+      }
+    },
+    {
+      "id": "A5",
+      "tier": "model",
+      "axis": "rowForm",
+      "rows": [
+        "the vendor contract is fine, standard terms",
+        "actually there's a clause letting them sell our data to third parties, I missed it",
+        "never mind, all good, ignore that"
+      ],
+      "notes": "the retraction MARKUP (strikethrough) is engine-tier detectable structurally; retraction-as-signal is not represented here since markup was stripped for this fixture",
+      "observed": {
+        "verdict": "none"
+      }
+    },
+    {
+      "id": "A6",
+      "tier": "not-applicable",
+      "axis": null,
+      "notes": "redaction geometry is an informative-ABSENCE preservation question (does the engine keep block length/word-shape through a redaction), not an anomaly-among-peers question; no detector in this file targets it",
+      "observed": {
+        "verdict": "not-applicable"
+      }
+    },
+    {
+      "id": "A7",
+      "tier": "model",
+      "axis": "projection",
+      "rows": [
+        "Field of gold, the harvest wide,",
+        "In autumn's breath the grain does hide,",
+        "Night falls soft on weary land,",
+        "Dawn will come, you understand,",
+        "My watch begins where yours does end,",
+        "Every signal has a friend."
+      ],
+      "notes": "REVISED from out-of-scope. A general axis-sweep now exists (projectionVerdict): candidate axes are 'character at position k of every row', unprivileged, k=0..25. Without a witness, this correctly REFUSES (insufficient_material) rather than guessing -- 6-character projected strings have no statistical power. With a received lexicon (a dictionary is a witness prior exactly like Benford's Law or a coref prior, named and provenanced), pos0 decodes to FIND+ME via word-break segmentation, since FINDME is not itself a dictionary word. Uniquely selective: 1 of 26 axes segments into substantial (3+ letter) dictionary words, verified against a negative control of random text (0 of 29 axes) and against two 2-letter-word false positives caught and filtered by requiring at least one substantial word per segmentation.",
+      "observedWithoutLexicon": { "verdict": "gap", "gapReason": "insufficient_material" },
+      "observedWithLexicon": { "verdict": "segmented", "axis": "pos0", "words": ["find", "me"], "rareAmong": 26 },
+      "observed": { "verdict": "gap", "gapReason": "insufficient_material" }
+    },
+    {
+      "id": "A8",
+      "tier": "engine",
+      "axis": "numeric",
+      "series": [
+        22.5,
+        22.5,
+        22.5,
+        900.0,
+        22.5
+      ],
+      "notes": "row 104's rate is 40x local baseline",
+      "observed": {
+        "verdict": "gap",
+        "gapReason": "material too short for a shuffle null at declared window; needs a longer series or a smaller window than the 5-row corpus example provides"
+      }
+    },
+    {
+      "id": "A9",
+      "tier": "model",
+      "axis": "rowForm",
+      "rows": [
+        "initialize buffer",
+        "copy user input, TODO remove before prod, no bounds check, just for the demo",
+        "log request"
+      ],
+      "notes": "vulnerability recognition requires security-domain knowledge",
+      "observed": {
+        "verdict": "none"
+      }
+    },
+    {
+      "id": "A10",
+      "tier": "model",
+      "axis": "rowForm",
+      "rows": [
+        "FOR SALE: oak dresser, good condition, $40 obo.",
+        "FOUND: grey tabby cat, Elm St.",
+        "PIANO LESSONS: Tuesdays only, ask for the blue heron, bring exact change, no lessons given.",
+        "WANTED: lawn mower, working or not."
+      ],
+      "notes": "logical self-contradiction (lessons given, negated) needs semantic parsing",
+      "observed": {
+        "verdict": "none"
+      }
+    },
+    {
+      "id": "A11",
+      "tier": "model",
+      "axis": "rowForm",
+      "rows": [
+        "The stars wheeled overhead as the ship left harbor.",
+        "She lit a candle against the coming dark.",
+        "He checked his phone for a signal before the storm hit.",
+        "The captain called for all hands on deck."
+      ],
+      "notes": "the eoreader5-documented Gutenberg-contamination case; anachronism needs a temporal-world prior, not lexical rarity (every word here is common)",
+      "observed": {
+        "verdict": "none"
+      }
+    },
+    {
+      "id": "A12",
+      "tier": "engine",
+      "axis": "ngramProfile",
+      "paragraphs": [
+        "The meeting proceeded as scheduled, minutes were approved without objection, and the treasurer's report was accepted unanimously.",
+        "Il faut que nous partions avant qu'ils ne reviennent.",
+        "The board adjourned at 4:15 PM."
+      ],
+      "notes": "FIRST RUN used scriptProfile (script-family: Latin/Han/Cyrillic) and was structurally blind to this case: French and English are both Latin script, so a script-family test cannot see the switch at all. Corrected to letter-trigram profile distance, which needs no vocabulary or translation, only distributional letter statistics.",
+      "observed": {
+        "verdict": "none",
+        "caveat": "3 paragraphs is below this detector's practical floor for a stable bootstrap null; see README for the longer-material follow-up"
+      }
+    },
+    {
+      "id": "A13",
+      "tier": "engine",
+      "axis": "rowForm",
+      "rows": [
+        "1. Introduction .......................... 1",
+        "2. Literature Review ..................... 8",
+        "3. Methodology ........................... 22",
+        "4. GRANDMAS BIRTHDAY PARTY PLANNING ..... 31",
+        "5. Results ............................... 40",
+        "6. Discussion ............................ 55"
+      ],
+      "notes": "entry 4 is ALL CAPS against five title-case entries; same closed-set/dominant-form logic as eoPriors' typography learner",
+      "observed": {
+        "verdict": "outlier",
+        "outlierRows": [
+          3
+        ]
+      }
+    },
+    {
+      "id": "A14",
+      "tier": "mixed",
+      "axis": "rowForm",
+      "rows": [
+        "and that's your Friday traffic, expect delays on the interstate through midday.",
+        "In sports, the home team took the win 4-2 last night.",
+        "THIS IS NOT A TEST. A TORNADO WARNING HAS BEEN ISSUED FOR YOUR COUNTY. SEEK SHELTER IMMEDIATELY.",
+        "Coming up after the break, our weekend weather outlook."
+      ],
+      "notes": "ALL-CAPS register break is structural; recognizing the meta-claim as a real emergency is semantic",
+      "observed": {
+        "verdict": "none",
+        "caveat": "row-level shape test did not fire on this fixture; ALL-CAPS content sits inside one row alongside lowercase framing sentences rather than as its own row"
+      }
+    },
+    {
+      "id": "A15",
+      "tier": "model",
+      "axis": "rowForm",
+      "rows": [
+        "The team discussed the timeline and agreed on next steps.",
+        "Sarah will follow up with the vendor.",
+        "James will update the roadmap.",
+        "Mistakes were made regarding the client's data, and it was decided that no further action would be taken at this time.",
+        "The meeting concluded at 3:00 PM."
+      ],
+      "notes": "passive/agentless construction is a grammatical category; recognizing it as responsibility-obscuring is interpretive",
+      "observed": {
+        "verdict": "none"
+      }
+    },
+    {
+      "id": "B1",
+      "tier": "engine",
+      "axis": "numeric",
+      "series": [
+        4.1,
+        4.0,
+        4.2,
+        3.9,
+        4.1,
+        41.7,
+        4.0,
+        4.2,
+        3.9,
+        4.1
+      ],
+      "notes": "corpus calls this trivial; probe found burstiness+shuffle nearly BLIND to a lone spike because shuffle preserves the multiset",
+      "observed": {
+        "verdict": "none",
+        "highRank": 0.68,
+        "finding": "corpus calls this trivial; burstiness+shuffle is nearly BLIND to a lone spike because shuffle preserves the multiset and the spike relocates but does not vanish under reshuffling"
+      }
+    },
+    {
+      "id": "B2",
+      "tier": "engine",
+      "axis": "numeric",
+      "series": [
+        5.0,
+        5.1,
+        4.9,
+        5.0,
+        8.2,
+        1.9,
+        9.4,
+        0.6
+      ],
+      "notes": "corpus calls this the harder case; probe found it scores HIGHER than B1 under this engine, because window=2 catches the local mean bump",
+      "observed": {
+        "verdict": "none",
+        "highRank": 0.985,
+        "finding": "scores HIGHER (closer to censored) than B1 under this engine -- corpus's own 'harder case' framing is backwards for max-over-windows"
+      }
+    },
+    {
+      "id": "B3",
+      "tier": "engine",
+      "axis": "benford",
+      "naturalCounts": [
+        151,
+        88,
+        63,
+        49,
+        40,
+        34,
+        29,
+        26,
+        23
+      ],
+      "suspectCounts": [
+        56,
+        55,
+        57,
+        56,
+        57,
+        55,
+        56,
+        55,
+        54
+      ],
+      "notes": "Benford's Law as a RECEIVED, named prior (nul::received) — not derived from either ledger",
+      "observed": {
+        "verdict": "deviates",
+        "chiSquare": 195.56,
+        "finding": "Benford's Law as a nul::received() prior, named and provenanced, correctly separates the flat suspect ledger from natural leading-digit decay"
+      }
+    },
+    {
+      "id": "B4",
+      "tier": "engine",
+      "axis": "numeric",
+      "series": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        57,
+        57,
+        57,
+        57,
+        57,
+        57,
+        1,
+        1,
+        1,
+        1
+      ],
+      "notes": "reconstructed as charges-per-minute; representative, not the literal corpus text (individual $4.99 values are unremarkable, the RATE is the signal)",
+      "observed": {
+        "verdict": "none",
+        "highRank": 0.26,
+        "finding": "density-dependent, not a mechanism failure: re-run with the burst embedded in 60 background minutes instead of 14 gives highRank 0.035, monotonically approaching censoring as background grows (SEED.md #5: comparability depends on spec)"
+      }
+    },
+    {
+      "id": "B5",
+      "tier": "mixed",
+      "axis": "temporal",
+      "series": [
+        0.41,
+        0.38,
+        0.29,
+        0.19,
+        0.06,
+        0.049
+      ],
+      "notes": "monotonic-decay-then-stop SHAPE is engine-tier (temporality.js's arrowTest); labeling it 'p-hacking' is a methodological/domain claim",
+      "observed": {
+        "verdict": "arrowed",
+        "finding": "temporality.js's arrowTest, built for a different reason, correctly finds the monotonic-decay-then-stop shape; the p-hacking LABEL is a separate, model-tier methodological claim"
+      }
+    },
+    {
+      "id": "B6-S3",
+      "tier": "engine",
+      "axis": "numeric",
+      "series": [
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0
+      ],
+      "notes": "frozen sensor; probe found ground() correctly REFUSES (degenerate_ground) rather than silently passing",
+      "observed": {
+        "verdict": "gap",
+        "gapReason": "degenerate_ground",
+        "finding": "zero-variance material can't support a null at all -- refused before any comparison, not silently passed"
+      }
+    },
+    {
+      "id": "B6-S1",
+      "tier": "engine",
+      "axis": "numeric",
+      "series": [
+        21.2,
+        21.4,
+        21.1,
+        21.3,
+        21.5,
+        21.2
+      ],
+      "notes": "control sensor, expected no verdict",
+      "observed": {
+        "verdict": "none"
+      }
+    },
+    {
+      "id": "B7",
+      "tier": "engine",
+      "axis": "recurrence",
+      "tokens": [
+        "7f3a9e2c",
+        "4b1d8f01",
+        "9c2e5a77",
+        "4b1d8f01",
+        "1a6f22bb",
+        "e83d0c94"
+      ],
+      "notes": "identity question, not magnitude — correctly out of nul's scope, belongs to emergence/activation.js",
+      "observed": {
+        "verdict": "repeat",
+        "at": 3,
+        "finding": "correct, but out of nul's proper scope -- an identity/recurrence question belonging to emergence/activation.js, answered here only in the minimal literal sense"
+      }
+    },
+    {
+      "id": "B8",
+      "tier": "engine",
+      "axis": "numeric",
+      "series": [
+        58.2,
+        59.1,
+        59.8,
+        41.0,
+        61.2,
+        61.9
+      ],
+      "notes": "probe found the raw one-sided statistic BLIND to this (rank 0.325); this is the both-sided detector's actual test case",
+      "observed": {
+        "verdict": "none",
+        "highRank": 0.325,
+        "lowRank": "see two-sided note",
+        "finding": "THE decisive case: burstiness only ever selects the highest windowed mean and compares it to a null of highest means, so a LOW-value anomaly (a fast time) can never even be the observation tested. Structurally invisible to every organ in this codebase using the standard one-sided pattern, not just this probe."
+      }
+    }
+  ],
+  "observedRunNote": "Verdicts in each case's `observed` field are from a real execution of goldens/surprise/score.mjs against detectors.mjs, run 2026-07-31. Two real bugs were caught and fixed during this run and are recorded in README.md: numericVerdict originally required BOTH the high- and low-side grounds to succeed, discarding a real high-side signal (B4) when the unrelated low side degenerated; A12 was originally scoped to a script-family detector, which is structurally blind to a same-script language switch (French/English both Latin) and was corrected to a letter-trigram profile distance."
+}

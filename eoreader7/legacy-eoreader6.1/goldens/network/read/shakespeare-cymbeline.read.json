@@ -1,0 +1,77 @@
+{
+  "tag": "shakespeare-cymbeline",
+  "kind": "play",
+  "spec": {
+    "window": 8,
+    "draws": 99,
+    "reseeds": 8,
+    "minArrivals": 4,
+    "atomsPerUnit": 200,
+    "offerEvery": 60
+  },
+  "segments": 27,
+  "units": 139,
+  "candidateSurfaces": 392,
+  "referents": 63,
+  "score": {
+    "registerSize": 5,
+    "referenceNodes": 37,
+    "entityHits": 1,
+    "entityRecall": 0.02702702702702703,
+    "edgesFoundTotal": 0,
+    "candidateEdges": 0,
+    "referenceEdges": 179,
+    "edgeHits": 0,
+    "edgeRecall": 0,
+    "edgePrecision": 0,
+    "edgeChance": {
+      "mean": 0,
+      "p95": 0,
+      "max": 0
+    },
+    "matchedEdges": []
+  },
+  "edges": [],
+  "register": [
+    {
+      "id": "e0",
+      "referentIds": [
+        "ref:auto:britons"
+      ],
+      "surface": "Britons",
+      "bornAt": 120
+    },
+    {
+      "id": "e1",
+      "referentIds": [
+        "ref:auto:polydore"
+      ],
+      "surface": "Polydore",
+      "bornAt": 120
+    },
+    {
+      "id": "e2",
+      "referentIds": [
+        "ref:auto:cadwal"
+      ],
+      "surface": "Cadwal",
+      "bornAt": 120
+    },
+    {
+      "id": "e3",
+      "referentIds": [
+        "ref:auto:cæsar"
+      ],
+      "surface": "Cæsar",
+      "bornAt": 139
+    },
+    {
+      "id": "e4",
+      "referentIds": [
+        "ref:auto:cymbeline"
+      ],
+      "surface": "Cymbeline",
+      "bornAt": 139
+    }
+  ]
+}

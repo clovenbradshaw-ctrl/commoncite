@@ -1,0 +1,56 @@
+{
+  "schema": "eoreader.the-fold-provider-contract/v1",
+  "consumer": "clovenbradshaw-ctrl/the-fold",
+  "purpose": "Freeze the EOReader 6.1 provider surfaces The Fold relies on so EOReader 7 can preserve behavior through a compatibility facade while reorganizing internals.",
+  "baseline": {
+    "repository": "clovenbradshaw-ctrl/eoreader6.1",
+    "observedHead": "00bf5605912d601c82936654055dcc8df30633fa",
+    "readingArchitecture": "Fold-conditioned recursive reading"
+  },
+  "browserModules": {
+    "packages/engine/perceiver/text/segments.js": ["lineIndex", "outlineOfIndex"],
+    "packages/engine/perceiver/text/spans.js": ["splitSentences", "blankLabelRows"],
+    "packages/engine/perceiver/text/surfaces.js": ["extractSurfaces", "discoverReferents", "namesCorefer", "diaNorm"],
+    "packages/engine/perceiver/text/pronouns.js": ["resolvePronouns"],
+    "packages/engine/perceiver/text/relations.js": ["discoverRelationVocab", "extractRelations"],
+    "packages/engine/emergence/tiers.js": ["createTierStack", "foldThrough"],
+    "packages/engine/holon/task-log.js": [],
+    "packages/engine/operators.js": [],
+    "packages/engine/perceiver/text/priors.js": []
+  },
+  "hostExports": [
+    "createSession",
+    "admitChunked",
+    "sessionTerrains",
+    "sessionKinds",
+    "kindsNullArm",
+    "foldExtract"
+  ],
+  "filesystemConventions": [
+    "packages/engine",
+    "nul",
+    "scripts/corpus"
+  ],
+  "canonicalV7Capabilities": [
+    "source material remains addressable and reopenable",
+    "reading can proceed incrementally without whole-document recomputation",
+    "segmentation is discovered from form rather than imposed by the application",
+    "referents and coreference can be revised as later witness changes the Fold",
+    "relations are discovered and can be re-canonicalized after identity revision",
+    "witness remains distinct from prior nomination and provisional interpretation",
+    "epistemic state is reconstructed from append-only witnessed experience and EO transformations",
+    "EO operator algebra remains available as a consumable engine capability",
+    "surprise is derived from consequential DeltaFold rather than observation novelty",
+    "tension is derived from persistent unresolved Fold obligations and release from their transformation",
+    "typed absence and null-arm behavior remain explicit rather than silently guessed",
+    "terrain, kind, referent, relation, graph and atmosphere views remain derivable as projections",
+    "priors remain defeasible, provenance-bearing inputs to orientation/perception rather than evidence",
+    "The Fold can run unchanged against an EOReader 7 compatibility facade before native v7 migration"
+  ],
+  "migrationLaw": [
+    "Current module paths are compatibility commitments, not declarations of EOReader 7 internal architecture.",
+    "EOReader 7 may satisfy this contract through a v6 compatibility facade over the canonical recursive Fold kernel.",
+    "No compatibility surface may be removed until The Fold has migrated to a canonical v7 replacement and equivalent behavior is covered by tests.",
+    "The Fold is the reference application acceptance test for the EOReader 7 transition."
+  ]
+}

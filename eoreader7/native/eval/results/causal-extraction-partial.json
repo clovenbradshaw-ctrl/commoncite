@@ -1,0 +1,47 @@
+{
+ "schema": "EOCausalExtraction@1",
+ "declared": {
+  "minSurfaces": 2,
+  "refreshEvery": 25,
+  "posPrior": "bin/priors/pos/en-ud-ewt.json — refuses only"
+ },
+ "note": "lookahead is NOT reading: it extracts every sentence with vocabulary derived from the whole book, including material after that sentence. causal steps the real perceiver in order; a sentence is extracted with the vocabulary as it stood at that moment and is never revisited.",
+ "books": [
+  {
+   "book": "pg84-frankenstein.txt",
+   "sentences": 3392,
+   "lookahead": {
+    "verbs": 25,
+    "relations": 1987
+   },
+   "causal": {
+    "verbs": 34,
+    "relations": 1897
+   },
+   "causalVerbShare": 1.36,
+   "causalRelationShare": 0.955,
+   "verbsOnlyLookaheadFinds": [
+    "nursed"
+   ]
+  },
+  {
+   "book": "pg1524.txt",
+   "sentences": 3800,
+   "lookahead": {
+    "verbs": 10,
+    "relations": 568
+   },
+   "causal": {
+    "verbs": 18,
+    "relations": 411
+   },
+   "causalVerbShare": 1.8,
+   "causalRelationShare": 0.724,
+   "verbsOnlyLookaheadFinds": [
+    "says",
+    "speak",
+    "following"
+   ]
+  }
+ ]
+}

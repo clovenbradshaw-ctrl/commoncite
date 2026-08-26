@@ -1,0 +1,170 @@
+{
+  "surfer_golden_version": "surfer-snips-golden@1.0.0",
+  "frozen": "2026-07-30",
+  "notes": [
+    "THE golden for the no-model surfer: a prompt addressed to a corpus must snip the segment it addresses — omnilingual, omnigenre, byte-accurate.",
+    "Each case is a document set, a prompt, and the segment label (or typed gap) that prompt MUST return. Scored by scripts/score-surfer-golden.mjs; a conformance test asserts every case passes on every npm test.",
+    "The surfer is deterministic host code, so unlike the emergent span-golden (a ceiling tracker) this golden is a 100% contract: any FAIL is a regression, and a re-earned engine must re-score green before it ships.",
+    "Frozen BEFORE engine changes. Re-score with one command (node scripts/score-surfer-golden.mjs); only deliberately amended cases may move, and the LIVE baseline in the scorer header is rewritten only by an amendment.",
+    "Fixtures: the English novel body is the real pg84 (Frankenstein) opening; the remaining non-English bodies are fixture prose. The golden tests FORMS — a heading's shape, its numeral script, its address — not quotation, so fixture prose is honest material.",
+    "Numeral policy: ASCII digits carry intrinsic value (chapter 18 finds CHAPTER XVIII, psalm ii finds PSALM II); roman converts both ways; non-ASCII digit scripts (Devanagari, Arabic-Indic) address by their own surface and never across scripts — crossing a digit script is a value claim, and value claims are priors (eoPriors), never an engine guess.",
+    "Accent policy: case and Latin accents fold through the single-pass diaNorm map (perceiver/text/surfaces.js — never a third map). Greek tonos folding is a language prior, so the Greek case addresses by the accentless surface a printed heading actually carries.",
+    "CJK and any spaced-script content need a word-segmentation prior: the Chinese case is pinned to its typed gap until that prior lands, then the case is amended with the segment it unlocks.",
+    "Ordinals (the second chapter) are prior vocabulary, not form: they fall through to the content phase, where they are matched as tokens or missed as a typed gap. They are deliberately not enshrined as a pass here.",
+    "The flat outline cannot tell two same-labelled segments apart: ambiguity is a typed gap that cites the byte coordinates, never a coin flip."
+  ],
+  "documents": {
+    "source:frankenstein.txt": {
+      "language": "en",
+      "genre": "novel",
+      "script": "latin",
+      "text": "Letter 1\n\n_To Mrs. Saville, England._\n\nSt. Petersburgh, Dec. 11th, 17—.\n\nYou will rejoice to hear that no disaster has accompanied the commencement of an enterprise which you have regarded with such evil forebodings. I arrived here yesterday, and my first task is to assure my dear sister of my welfare and increasing confidence in the success of my undertaking.\n\nLetter 2\n\nI am already far north of London, and as I walk in the streets of Petersburgh, I feel a cold northern breeze play upon my cheeks, which braces my nerves and fills me with delight. Do you understand this feeling? This breeze, which has travelled from the regions towards which I am advancing, gives me a foretaste of those icy climes.\n\nChapter 1\n\nI am by birth a Genevese, and my family is one of the most distinguished of that republic. My ancestors had been for many years counsellors and syndics, and my father had filled several public situations with honour and reputation. He was respected by all who knew him for his integrity and indefatigable attention to public business.\n\nChapter 2\n\nWe were brought up together; there was not quite a year difference in our ages. I need not say that we were strangers to any species of disunion or dispute. Harmony was the soul of our companionship, and the diversity and contrast that subsisted in our characters drew us nearer together."
+    },
+    "source:moby.txt": {
+      "language": "en",
+      "genre": "novel",
+      "script": "latin",
+      "text": "CHAPTER ONE\n\nThe ship was a whaling vessel, and the sea was its whole world; the crew hunted the whale across every ocean.\n\nCHAPTER TWO\n\nThe captain stood upon the quarterdeck, and the harpooners gathered about him in the wind."
+    },
+    "source:play.txt": {
+      "language": "en",
+      "genre": "play",
+      "script": "latin",
+      "text": "ACT I\n\nA lone figure waits upon the stage. The ghost of the king appears upon the walls, and the guards exchange words in the cold air.\n\nACT II\n\nThe court assembles, and the prince, disguised, studies the faces of those who gather."
+    },
+    "source:canto.txt": {
+      "language": "en",
+      "genre": "poetry",
+      "script": "latin",
+      "text": "CANTO I\n\nThe ocean, wide and desolate, unrolled its bright expanse before the wanderer, and the song began upon the boundless wave.\n\nCANTO II\n\nThe traveller turns from the sea to the mountains, where the ruins of old empires look down upon the valleys."
+    },
+    "source:score.txt": {
+      "language": "en",
+      "genre": "score",
+      "script": "latin",
+      "text": "I.\n\nThe first movement opens with a sustained chord in the low strings; the brass answer quietly, and a theme emerges over the bass.\n\nII.\n\nThe strings open the second movement with a long, singing line, while the woodwinds shadow the melody.\n\nIII.\n\nThe percussion drives the final movement forward, and the full orchestra races to the close."
+    },
+    "source:psalms.txt": {
+      "language": "en",
+      "genre": "scripture",
+      "script": "latin",
+      "text": "PSALM I\n\nBlessed is the man that walketh not in the counsel of the ungodly, nor standeth in the way of sinners, nor sitteth in the seat of the scornful.\n\nPSALM II\n\nWhy do the heathen rage, and the people imagine a vain thing? The kings of the earth set themselves, and the rulers take counsel together.\n\nPSALM III\n\nLord, how are they increased that trouble me! Many are they that rise up against me."
+    },
+    "source:paper.txt": {
+      "language": "en",
+      "genre": "article",
+      "script": "latin",
+      "text": "1. Introduction\n\nThis section introduces the question, states the motivation, and surveys the prior work on which the study builds.\n\n2. Methods\n\nWe describe the regression analysis used to estimate the effects, the data collected, and the diagnostic checks performed.\n\n3. Results\n\nThe regression analysis finds a significant effect, robust to the alternative specifications described above."
+    },
+    "source:voyna.txt": {
+      "language": "ru",
+      "genre": "novel",
+      "script": "cyrillic",
+      "text": "ЧАСТЬ ПЕРВАЯ\n\nЭто был вечер в петербургском салоне; разговор шёл о войне и о политике, и хозяйка дома едва успевала следить за всеми гостями.\n\nГЛАВА I\n\nВ июле 1805 года в Петербурге у Анны Павловны Шерер собралось общество, о котором говорил весь город. Собрание наполнилось постепенно, и каждый гость входил с тем выражением, какое полагалось приличием.\n\nГЛАВА II\n\nГостиная Анны Павловны начала понемногу наполняться. Приехала высшая знать Петербурга, люди самые разнородные по возрастам и характерам, но одинаковые по обществу, в котором все они жили."
+    },
+    "source:comte.txt": {
+      "language": "fr",
+      "genre": "novel",
+      "script": "latin",
+      "text": "CHAPITRE I\n\nMarseille, le 24 février 1815. La vigie de Notre-Dame de la Garde signala le trois-mâts le Pharaon, venant de Smyrne, triomphant de Naples et de Messine, dans le port de Marseille.\n\nCHAPITRE II\n\nDantès, le jeune capitaine, sauta le premier sur le quai. Le pilote se hâta de descendre, et la foule, qui avait envahi le môle, suivit des yeux la manœuvre du bâtiment."
+    },
+    "source:quijote.txt": {
+      "language": "es",
+      "genre": "novel",
+      "script": "latin",
+      "text": "Capítulo I\n\nEn un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor.\n\nCapítulo II\n\nYendo el buen hidalgo por los caminos de España, llegó a una venta que él tomó por castillo, y pidió al ventero que lo armase caballero al día siguiente."
+    },
+    "source:promessi.txt": {
+      "language": "it",
+      "genre": "novel",
+      "script": "latin",
+      "text": "Capitolo I\n\nIl sole tramontava sul lago di Como, e le montagne si vestivano d'ombra mentre la campana suonava il vespro.\n\nCapitolo II\n\nIl giovane pescatore remava verso riva; la sua barca scivolava sull'acqua liscia come l'olio, e il cielo si spegneva a poco a poco."
+    },
+    "source:werther.txt": {
+      "language": "de",
+      "genre": "novel",
+      "script": "latin",
+      "text": "Kapitel 1\n\nDie Reise beginnt an einem schönen Morgen; der junge Mann verlässt seine Heimatstadt und nimmt den Weg durch die Täler, die ihn hinausführen.\n\nKapitel 2\n\nIn der neuen Stadt angekommen, lernt er die Bewohner kennen und findet bald Freunde, mit denen er die Abende verbringt."
+    },
+    "source:iliad.txt": {
+      "language": "el",
+      "genre": "epic",
+      "script": "greek",
+      "text": "ΡΑΨΩΔΙΑ Α\n\nΜῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος οὐλομένην, ἣ μυρί᾽ Ἀχαιοῖς ἄλγε᾽ ἔθηκε, πολλὰς δ᾽ ἰφθίμους ψυχὰς Ἄϊδι προΐαψεν ἡρώων.\n\nΡΑΨΩΔΙΑ Β\n\nΑὐτὰρ ἐπεὶ πεζοί τε καὶ ἱππῆες κατῆλθον ἐς Ἰλίου, ἀμφ᾽ αὐτῇ δ᾽ ἔριδι."
+    },
+    "source:ramayana.txt": {
+      "language": "hi",
+      "genre": "epic",
+      "script": "devanagari",
+      "text": "अध्याय १\n\nमर्यादा पुरुषोत्तम श्री रामचन्द्र जी की कथा इस प्रकार आरम्भ होती है। अयोध्या के राजा दशरथ के चार पुत्र हुए।\n\nअध्याय २\n\nगुरु वशिष्ठ ने राजकुमारों को शिक्षा दी, और वनवास के दिनों में राम ने धैर्य और सत्य का पालन किया।"
+    },
+    "source:layla.txt": {
+      "language": "ar",
+      "genre": "novel",
+      "script": "arabic",
+      "text": "الفصل ١\n\nكان الملك شهريار ملكاً عظيماً، يجلس في قصره وينظر إلى مملكته، وتسمع شهرزاد قصصه وتأسر قلبه بالحكايات.\n\nالفصل ٢\n\nوكل ليلة تحكي شهرزاد قصة جديدة لا تنتهي حتى يبزغ الفجر، فيشفق الملك على حكايتها ويؤجل أمرها."
+    },
+    "source:torah.txt": {
+      "language": "he",
+      "genre": "scripture",
+      "script": "hebrew",
+      "text": "פרק 1\n\nבראשית ברא אלוהים את השמים ואת הארץ, והארץ הייתה תוהו ובוהו, וחושך על פני תהום.\n\nפרק 2\n\nויברך אלוהים את היום השביעי ויקדש אותו, כי בו שבת מכל מלאכתו אשר ברא."
+    },
+    "source:sanguo.txt": {
+      "language": "zh",
+      "genre": "novel",
+      "script": "han",
+      "text": "第一回\n\n话说天下大势，分久必合，合久必分。周末七国分争，并入于秦。及秦灭之后，楚汉分争，又并入于汉。\n\n第二回\n\n且说董卓得势，天下诸侯并起，以讨董卓为名，各怀异心，明争暗斗。"
+    },
+    "source:frontmatter.txt": {
+      "language": "en",
+      "genre": "front-matter",
+      "script": "latin",
+      "text": "Opening prose about the weather, cold and damp, with no blank lines anywhere in this preamble, so that no line in this block can read as a boundary by form, because a boundary opens onto a body and these lines open onto one another.\n\nMore opening prose, still no blank line, so this preamble cannot read as a boundary either, and the substance that would earn a heading is simply absent from the whole of this opening stretch of text.\n\nCHAPTER I\n\nA real body under the one boundary, long enough to survive the substance test for the outline, with a paragraph of genuine prose beneath it."
+    },
+    "source:contents.txt": {
+      "language": "en",
+      "genre": "table-of-contents",
+      "script": "latin",
+      "text": "CONTENTS\n\nLetter 1\nLetter 2\nChapter 1\nChapter 2"
+    }
+  },
+  "cases": [
+    { "id": "en-novel-letter-1", "docs": ["source:frankenstein.txt"], "prompt": "letter 1", "expect": { "segment": "Letter 1", "addressed_by": "heading", "text_contains": "To Mrs. Saville" } },
+    { "id": "en-novel-chapter-1", "docs": ["source:frankenstein.txt"], "prompt": "snip chapter 1 of the book", "expect": { "segment": "Chapter 1", "addressed_by": "heading", "text_contains": "Genevese" } },
+    { "id": "en-novel-chapter-2", "docs": ["source:frankenstein.txt"], "prompt": "chapter 2", "expect": { "segment": "Chapter 2", "addressed_by": "heading", "text_contains": "brought up together" } },
+    { "id": "en-play-act-2", "docs": ["source:play.txt"], "prompt": "act 2", "expect": { "segment": "ACT II", "addressed_by": "heading", "text_contains": "court assembles" } },
+    { "id": "en-poetry-canto-2", "docs": ["source:canto.txt"], "prompt": "canto 2", "expect": { "segment": "CANTO II", "addressed_by": "heading", "text_contains": "traveller turns" } },
+    { "id": "en-score-movement-3", "docs": ["source:score.txt"], "prompt": "movement 3", "expect": { "segment": "III.", "addressed_by": "heading", "text_contains": "percussion" } },
+    { "id": "en-article-methods", "docs": ["source:paper.txt"], "prompt": "2 methods", "expect": { "segment": "2. Methods", "addressed_by": "heading", "text_contains": "regression analysis used" } },
+    { "id": "en-psalm-roman-prompt", "docs": ["source:psalms.txt"], "prompt": "psalm ii", "expect": { "segment": "PSALM II", "addressed_by": "heading", "text_contains": "heathen rage" } },
+    { "id": "ru-chast-pervaya", "docs": ["source:voyna.txt"], "prompt": "часть первая", "expect": { "segment": "ЧАСТЬ ПЕРВАЯ", "addressed_by": "heading", "text_contains": "вечер в петербургском" } },
+    { "id": "ru-glav-2", "docs": ["source:voyna.txt"], "prompt": "глава 2", "expect": { "segment": "ГЛАВА II", "addressed_by": "heading", "text_contains": "Гостиная Анны Павловны начала" } },
+    { "id": "fr-chapitre-1", "docs": ["source:comte.txt"], "prompt": "chapitre 1", "expect": { "segment": "CHAPITRE I", "addressed_by": "heading", "text_contains": "vigie de Notre-Dame" } },
+    { "id": "es-capitulo-1", "docs": ["source:quijote.txt"], "prompt": "capitulo 1", "expect": { "segment": "Capítulo I", "addressed_by": "heading", "text_contains": "hidalgo de los de lanza" } },
+    { "id": "it-capitolo-2", "docs": ["source:promessi.txt"], "prompt": "capitolo 2", "expect": { "segment": "Capitolo II", "addressed_by": "heading", "text_contains": "giovane pescatore" } },
+    { "id": "de-kapitel-1", "docs": ["source:werther.txt"], "prompt": "kapitel 1", "expect": { "segment": "Kapitel 1", "addressed_by": "heading", "text_contains": "Reise beginnt" } },
+    { "id": "el-rhapsodia-alpha", "docs": ["source:iliad.txt"], "prompt": "ραψωδια α", "expect": { "segment": "ΡΑΨΩΔΙΑ Α", "addressed_by": "heading", "text_contains": "Μῆνιν" } },
+    { "id": "hi-adhyay-1", "docs": ["source:ramayana.txt"], "prompt": "अध्याय १", "expect": { "segment": "अध्याय १", "addressed_by": "heading", "text_contains": "रामचन्द्र" } },
+    { "id": "ar-fasl-2", "docs": ["source:layla.txt"], "prompt": "الفصل ٢", "expect": { "segment": "الفصل ٢", "addressed_by": "heading", "text_contains": "شهرزاد قصة جديدة" } },
+    { "id": "he-perek-2", "docs": ["source:torah.txt"], "prompt": "פרק 2", "expect": { "segment": "פרק 2", "addressed_by": "heading", "text_contains": "ויברך אלוהים" } },
+    { "id": "en-content-genevese", "docs": ["source:frankenstein.txt"], "prompt": "the genevese ancestors of the republic", "expect": { "segment": "Chapter 1", "addressed_by": "content", "text_contains": "Genevese" } },
+    { "id": "ru-content-salon", "docs": ["source:voyna.txt"], "prompt": "гостиная анны павловны", "expect": { "segment": "ГЛАВА II", "addressed_by": "content", "text_contains": "Гостиная Анны Павловны" } },
+    { "id": "fr-content-pharaon", "docs": ["source:comte.txt"], "prompt": "le trois mâts pharaon", "expect": { "segment": "CHAPITRE I", "addressed_by": "content", "text_contains": "trois-mâts" } },
+    { "id": "de-content-reise", "docs": ["source:werther.txt"], "prompt": "die reise beginnt am morgen", "expect": { "segment": "Kapitel 1", "addressed_by": "content", "text_contains": "Reise beginnt" } },
+    { "id": "en-content-ghost", "docs": ["source:play.txt"], "prompt": "the ghost of the king appears", "expect": { "segment": "ACT I", "addressed_by": "content", "text_contains": "ghost of the king" } },
+    { "id": "en-score-content-strings", "docs": ["source:score.txt"], "prompt": "the strings open the second movement", "expect": { "segment": "II.", "addressed_by": "content", "text_contains": "strings open" } },
+    { "id": "en-content-regression", "docs": ["source:paper.txt"], "prompt": "the regression analysis", "expect": { "segment": "2. Methods", "addressed_by": "content", "text_contains": "regression analysis used" } },
+    { "id": "en-preamble-window", "docs": ["source:frontmatter.txt"], "prompt": "opening prose weather", "expect": { "segment": "(context window — no heading precedes this passage)", "addressed_by": "content", "windowed": true, "text_contains": "cold and damp" } },
+    { "id": "zh-cjk-prior-gated", "docs": ["source:sanguo.txt"], "prompt": "第二回", "expect": { "gap": "content_not_found" }, "prior_gated": true, "requires_prior": "eoPriors: CJK word segmentation + 回-boundary prior" },
+    { "id": "en-toc-noise", "docs": ["source:contents.txt"], "prompt": "contents", "expect": { "gap": "no_structural_boundary_in_reach", "windowed": true } },
+    { "id": "en-content-not-found", "docs": ["source:frankenstein.txt"], "prompt": "quantum computing theorem", "expect": { "gap": "content_not_found" } },
+    { "id": "en-empty-prompt", "docs": ["source:frankenstein.txt"], "prompt": "   ", "expect": { "gap": "empty_prompt" } },
+    { "id": "en-ambiguous-flat-outline", "docs": ["source:frankenstein.txt"], "prompt": "chapter 1 letter 1", "expect": { "gap": "ambiguous_address" } },
+    { "id": "en-multi-doc-named", "docs": ["source:frankenstein.txt", "source:moby.txt"], "prompt": "snip chapter one of moby", "expect": { "segment": "CHAPTER ONE", "addressed_by": "heading", "source": "moby", "text_contains": "whaling vessel" } },
+    { "id": "en-multi-doc-unsaid", "docs": ["source:frankenstein.txt", "source:moby.txt"], "prompt": "snip chapter 1", "expect": { "fan": [
+      { "source": "frankenstein", "segment": "Chapter 1", "addressed_by": "heading", "text_contains": "Genevese" },
+      { "source": "moby", "segment": "CHAPTER ONE", "addressed_by": "content", "text_contains": "whaling vessel" }
+    ] }, "amended": "2026-07-31", "amended_reason": "deliberate: an unsaid source is an address to EVERY document — the CON·bind act is aimed at every target (operators fan-out); `no_source_addressed` is retired. moby's spelled-out CHAPTER ONE is a word, not form, so the arabic '1' addresses it by content (golden numeral policy: digit↔word is a value claim, a prior, never an engine guess)." }
+  ]
+}

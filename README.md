@@ -2,13 +2,13 @@
 
 A data-free, model-free starter for turning arbitrary source material into a Wikipedia-style public record.
 
-This repository contains no bundled witness or project-specific source data. It contains the portal source, the EOReader 6.1 engine revision used by the importer, a deterministic importer, the witness schema, adapter contract, provenance rules, and deployment-ready UI.
+This repository contains no bundled witness or project-specific source data. It contains the portal source, the EOReader 7 engine revision used by the importer, a deterministic importer, the witness schema, adapter contract, provenance rules, and deployment-ready UI.
 
 ## What is included
 
 - `site-source/` — the complete portable wiki application.
 - `site-source/scripts/import-anything.mjs` — generic file/URL importer.
-- `eoreader6/` — the pinned EOReader 6.1 source used by the importer.
+- `eoreader7/` — the pinned EOReader 7 source used by the importer (vendored with its bundled EOReader 6.1 compatibility surface for existing consumers).
 - `schema/CommonRecordWitness.schema.json` — normalized witness contract.
 - `docs/IMPORTING.md` — formats, commands, and abstention behavior.
 - `docs/PROVENANCE.md` — citation and self-grounding rules.
@@ -16,7 +16,7 @@ This repository contains no bundled witness or project-specific source data. It 
 
 The bundled engine is pinned to the revision recorded in `MANIFEST.json`. Project-specific fixtures, corpus-derived reports, and upstream repository history are omitted; the generic runtime and conformance material remain.
 
-`site-source/` and `eoreader6/` must stay siblings — the importer resolves the bundled engine at `../eoreader6` relative to the site root.
+`site-source/` and `eoreader7/` must stay siblings — the importer resolves the bundled engine at `../eoreader7` relative to the site root.
 
 ## Quick start
 
@@ -33,7 +33,7 @@ npm run import:anything -- /path/to/source.pdf
 npm run dev
 ```
 
-The bundled engine is detected automatically. Set `EOREADER_ROOT` only to test a different EOReader 6.1 checkout.
+The bundled engine is detected automatically. Set `EOREADER_ROOT` only to test a different EOReader 7 checkout.
 
 URL, GeoJSON, and tabular examples:
 

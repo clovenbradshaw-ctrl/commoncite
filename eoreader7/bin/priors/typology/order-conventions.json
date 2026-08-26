@@ -1,0 +1,168 @@
+{
+  "schema": "OrderConventionPrior@1",
+  "id": "order-conventions-seed",
+  "about": "What order the roles of a SYSTEM take, received rather than derived. A natural language is one kind of system and is deliberately not the schema: keying this on ISO language codes and WALS features would make the prior text-shaped, which is the failure specs/surprise-as-revision.md names as the remaining danger and which constitution II.1 refuses. A leitmotif has no ISO code and must still be addressable here.",
+  "provenance": {
+    "basis": "external",
+    "method": "HAND-ENTERED SEED across four modalities, chosen to span the order types the engine must tell apart and to prove the schema is not natural-language-shaped. Not a release import of any of its sources.",
+    "note": "witness-tier throughout: every entry is an external fact about a system, injected and never derived from the material being read (SEED.md #1, constitution II.2). Each system names its OWN giver, because a prior is a gift per gift and not per file. Deriving these values from a corpus is a wall, not a hard problem — see eoreader6/scripts/EMBEDDING-FINDINGS.md for the measured attempt and its d = -0.37.",
+    "coverage": "13 systems across 4 modalities. Coverage is a fact about the gift, reported rather than patched: any system outside this list is a typed gap and must never be defaulted."
+  },
+  "basis_kinds": {
+    "surveyed": "Observed across instances by a witness and reported as a tendency. A material that departs from it is MARKED, not malformed, and the departure is a finding.",
+    "stipulated": "Defined normatively by a specification. A material that departs from it is MALFORMED, or the system was misidentified. The two must never be conflated: the same disagreement means opposite things."
+  },
+  "rigidity_kinds": {
+    "fixed": "The order is definitional. Any other order is a different thing.",
+    "dominant": "One order predominates; others occur and are marked.",
+    "none": "No order predominates. THIS IS A MEASUREMENT, NOT AN ABSENCE — it is what the giver found, and it is categorically different from a system this prior has never heard of."
+  },
+  "systems": {
+    "nl:eng": {
+      "modality": "natural-language",
+      "name": "English",
+      "basis": "surveyed",
+      "giver": "WALS Online (wals.info), Dryer & Haspelmath eds., feature 81A. CC-BY 4.0.",
+      "roles": ["S", "V", "O"],
+      "order": ["S", "V", "O"],
+      "rigidity": "dominant",
+      "role_marking": "position",
+      "features": { "adposition_order": "prepositional", "case_alignment": "nominative-accusative" },
+      "note": "The configurational case: role rides on position, so reordering changes who did what to whom."
+    },
+    "nl:eus": {
+      "modality": "natural-language",
+      "name": "Basque",
+      "basis": "surveyed",
+      "giver": "WALS Online, features 81A / 85A / 98A. CC-BY 4.0.",
+      "roles": ["S", "O", "V"],
+      "order": ["S", "O", "V"],
+      "rigidity": "dominant",
+      "role_marking": "case",
+      "features": { "adposition_order": "postpositional", "case_alignment": "ergative-absolutive" },
+      "note": "Role rides on case marking rather than position, so the same roles survive reordering. The contrast case for any extractor that reads position."
+    },
+    "nl:jpn": {
+      "modality": "natural-language", "name": "Japanese", "basis": "surveyed",
+      "giver": "WALS Online, features 81A / 85A / 98A. CC-BY 4.0.",
+      "roles": ["S", "O", "V"], "order": ["S", "O", "V"], "rigidity": "dominant", "role_marking": "case",
+      "features": { "adposition_order": "postpositional", "case_alignment": "nominative-accusative" }
+    },
+    "nl:hin": {
+      "modality": "natural-language", "name": "Hindi", "basis": "surveyed",
+      "giver": "WALS Online, features 81A / 85A / 98A. CC-BY 4.0.",
+      "roles": ["S", "O", "V"], "order": ["S", "O", "V"], "rigidity": "dominant", "role_marking": "case",
+      "features": { "adposition_order": "postpositional", "case_alignment": "split" }
+    },
+    "nl:cym": {
+      "modality": "natural-language", "name": "Welsh", "basis": "surveyed",
+      "giver": "WALS Online, features 81A / 85A / 98A. CC-BY 4.0.",
+      "roles": ["V", "S", "O"], "order": ["V", "S", "O"], "rigidity": "dominant", "role_marking": "position",
+      "features": { "adposition_order": "prepositional", "case_alignment": "nominative-accusative" }
+    },
+    "nl:arb": {
+      "modality": "natural-language", "name": "Standard Arabic", "basis": "surveyed",
+      "giver": "WALS Online, features 81A / 85A / 98A. CC-BY 4.0.",
+      "roles": ["V", "S", "O"], "order": ["V", "S", "O"], "rigidity": "dominant", "role_marking": "case",
+      "features": { "adposition_order": "prepositional", "case_alignment": "nominative-accusative" }
+    },
+    "nl:deu": {
+      "modality": "natural-language",
+      "name": "German",
+      "basis": "surveyed",
+      "giver": "WALS Online, feature 81A. CC-BY 4.0.",
+      "roles": ["S", "V", "O"],
+      "order": null,
+      "rigidity": "none",
+      "role_marking": "case",
+      "features": { "adposition_order": "prepositional", "case_alignment": "nominative-accusative" },
+      "note": "WALS codes German as having NO DOMINANT ORDER. This is the entry that makes `none` first-class: a system can be well attested and still have no single answer, which is a different state from one this prior has never heard of. An engine that collapses the two will report a confident order for every unknown system."
+    },
+    "music:sonata-form": {
+      "modality": "music",
+      "name": "Sonata form",
+      "basis": "surveyed",
+      "giver": "Common-practice theory as codified in the 19th c. (Marx, Czerny); a description of practice, not a rule composers followed.",
+      "roles": ["exposition", "development", "recapitulation"],
+      "order": ["exposition", "development", "recapitulation"],
+      "rigidity": "dominant",
+      "role_marking": "position",
+      "note": "Here to prove the schema is not natural-language-shaped. The roles have no names in the material, no stable surfaces, and no lexicon — which is the omnimodal test (II.1) applied to this prior rather than argued about."
+    },
+    "music:blues-12bar": {
+      "modality": "music",
+      "name": "Twelve-bar blues",
+      "basis": "surveyed",
+      "giver": "Standard chord-progression convention as documented in jazz/blues pedagogy.",
+      "roles": ["I", "IV", "V"],
+      "order": ["I", "I", "I", "I", "IV", "IV", "I", "I", "V", "IV", "I", "I"],
+      "rigidity": "dominant",
+      "role_marking": "position",
+      "note": "An order convention whose sequence is longer than its role inventory — roles recur. Any consumer that assumes order.length === roles.length is text-shaped by accident."
+    },
+    "music:cadence-authentic": {
+      "modality": "music", "name": "Authentic cadence", "basis": "surveyed",
+      "giver": "Common-practice harmony.",
+      "roles": ["dominant", "tonic"], "order": ["dominant", "tonic"], "rigidity": "dominant", "role_marking": "position",
+      "note": "The smallest real slot expectation: the position after the dominant knows its KIND and not its voicing."
+    },
+    "code:json": {
+      "modality": "formal-language",
+      "name": "JSON",
+      "basis": "stipulated",
+      "giver": "RFC 8259 (Bray, ed.), IETF.",
+      "roles": ["begin", "member", "separator", "end"],
+      "order": ["begin", "member", "separator", "end"],
+      "rigidity": "fixed",
+      "role_marking": "position",
+      "note": "STIPULATED, not surveyed. A departure here is malformed input or a misidentified system — never a marked variant, and never a finding about style."
+    },
+    "binary:png-chunks": {
+      "modality": "binary-format",
+      "name": "PNG chunk sequence",
+      "basis": "stipulated",
+      "giver": "ISO/IEC 15948 / W3C PNG specification.",
+      "roles": ["signature", "IHDR", "ancillary", "IDAT", "IEND"],
+      "order": ["signature", "IHDR", "ancillary", "IDAT", "IEND"],
+      "rigidity": "fixed",
+      "role_marking": "position"
+    },
+    "tabular:tidy-observation": {
+      "modality": "tabular",
+      "name": "Tidy data observation row",
+      "basis": "stipulated",
+      "giver": "Wickham (2014), Tidy Data — one observation per row, one variable per column.",
+      "roles": ["key", "variable", "value"],
+      "order": null,
+      "rigidity": "none",
+      "role_marking": "label",
+      "note": "role_marking is `label`, not `position` — a tidy table's columns carry their roles in their names, so column order is genuinely free. The tabular analogue of a case-marked language, and the reason `role_marking` is a field rather than an assumption."
+    }
+  },
+  "implications": [
+    {
+      "id": "greenberg-3",
+      "scope": "natural-language",
+      "when": { "order_starts_with": "V" },
+      "then": { "adposition_order": "prepositional" },
+      "giver": "Greenberg (1963), Universal 3.",
+      "strength": "near-exceptionless"
+    },
+    {
+      "id": "dryer-ov-postpositional",
+      "scope": "natural-language",
+      "when": { "object_precedes_verb": true },
+      "then": { "adposition_order": "postpositional" },
+      "giver": "Dryer (1992), the OV/postposition correlation.",
+      "strength": "strong-tendency"
+    },
+    {
+      "id": "dryer-vo-prepositional",
+      "scope": "natural-language",
+      "when": { "object_precedes_verb": false },
+      "then": { "adposition_order": "prepositional" },
+      "giver": "Dryer (1992), the VO/preposition correlation.",
+      "strength": "strong-tendency"
+    }
+  ]
+}

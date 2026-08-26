@@ -1,0 +1,73 @@
+{
+  "tag": "fi-11940",
+  "lang": "fi",
+  "pgId": 11940,
+  "title": "Seitsemän veljestä",
+  "reference": {
+    "wiki": "fi.wikipedia.org",
+    "title": "Seitsemän veljestä",
+    "revId": 23943947,
+    "sha256": "888c4cdf1e8d334e512f841e9ef602b7a205b7b8f277a6fb2b7dde51bdc8aaed"
+  },
+  "strategy": "fi-11940",
+  "count": 19,
+  "entries": [
+    {
+      "name": "Juhani"
+    },
+    {
+      "name": "Tuomas"
+    },
+    {
+      "name": "Aapo"
+    },
+    {
+      "name": "Simeoni"
+    },
+    {
+      "name": "Timo"
+    },
+    {
+      "name": "Lauri"
+    },
+    {
+      "name": "Eero"
+    },
+    {
+      "name": "Männistön Venla"
+    },
+    {
+      "name": "Lukkari"
+    },
+    {
+      "name": "Rajamäen rykmentti"
+    },
+    {
+      "name": "Tammiston Kyösti"
+    },
+    {
+      "name": "Taula-Matti"
+    },
+    {
+      "name": "Viertolan herra"
+    },
+    {
+      "name": "Valko"
+    },
+    {
+      "name": "Killi ja Kiiski"
+    },
+    {
+      "name": "Matti"
+    },
+    {
+      "name": "Jukola"
+    },
+    {
+      "name": "Impivaara"
+    },
+    {
+      "name": "Toukola"
+    }
+  ]
+}

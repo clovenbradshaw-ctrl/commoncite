@@ -1,0 +1,14 @@
+import fs from 'node:fs';
+import { createSession, admitReading, adversariallyResolveAssertions } from '../packages/host/index.js';
+const path=process.argv[2]; if(!path) throw new Error('usage: node scripts/adversarial-christmas-carol.mjs <text>');
+const raw=fs.readFileSync(path,'utf8').replace(/\r\n/g,'\n');
+const start=raw.search(/\*\*\* START OF (?:THE|THIS) PROJECT GUTENBERG EBOOK/i); const end=raw.search(/\*\*\* END OF (?:THE|THIS) PROJECT GUTENBERG EBOOK/i);
+const text=(start>=0?raw.slice(raw.indexOf('\n',start)+1,end>start?end:undefined):raw).trim();
+const session=createSession(); const t0=performance.now();
+admitReading(session,{sourceId:'blind-book',text,priors:[]});
+const resolution=adversariallyResolveAssertions(session,{sourceId:'blind-book',priors:[]});
+const interestingCast=resolution.cast.filter(x=>x.disposition!=='survives').slice(0,100);
+const interestingLinks=resolution.links.filter(x=>x.disposition!=='survives').slice(0,200);
+const out={chars:text.length,elapsedMs:Math.round(performance.now()-t0),summary:resolution.summary,interestingCast,interestingLinks};
+fs.writeFileSync('adversarial-book-result.json',JSON.stringify(out,null,2));
+console.log(JSON.stringify({chars:out.chars,elapsedMs:out.elapsedMs,summary:out.summary,interestingCast:interestingCast.slice(0,20).map(x=>({display:x.display,disposition:x.disposition,attacks:x.attacks}))},null,2));

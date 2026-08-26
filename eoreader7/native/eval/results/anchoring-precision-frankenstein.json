@@ -1,0 +1,267 @@
+{
+  "schema": "EOAnchoringPrecision@1",
+  "golden": "pg84-frankenstein.coref.json (creature entry, unscoped surfaces — a negative control: the creature is unnamed, so any binding is false)",
+  "declared": {
+    "anchoring": {
+      "minActivation": 0.05,
+      "minMargin": 0.2
+    },
+    "canonicalizationFloor": 2,
+    "posPrior": "bin/priors/pos/en-ud-ewt.json"
+  },
+  "creatureClass": {
+    "surfaces": [
+      "the creature",
+      "the monster",
+      "the wretch",
+      "the fiend",
+      "the dæmon",
+      "the being",
+      "the devil",
+      "my creation"
+    ],
+    "occurrencesInText": 94,
+    "falseBindings": 15,
+    "falseBindingRate": 0.1595744680851064,
+    "byDescriptor": {
+      "the creature": {
+        "occurrencesInText": 5,
+        "falseBindings": 1,
+        "boundTo": [
+          "Elizabeth"
+        ]
+      },
+      "the monster": {
+        "occurrencesInText": 20,
+        "falseBindings": 3,
+        "boundTo": [
+          "Justine",
+          "Jura"
+        ]
+      },
+      "the wretch": {
+        "occurrencesInText": 12,
+        "falseBindings": 2,
+        "boundTo": [
+          "Clerval",
+          "Elizabeth"
+        ]
+      },
+      "the fiend": {
+        "occurrencesInText": 22,
+        "falseBindings": 4,
+        "boundTo": [
+          "Clerval",
+          "Justine",
+          "Felix"
+        ]
+      },
+      "the dæmon": {
+        "occurrencesInText": 15,
+        "falseBindings": 2,
+        "boundTo": [
+          "Safie",
+          "Henry"
+        ]
+      },
+      "the being": {
+        "occurrencesInText": 12,
+        "falseBindings": 0,
+        "boundTo": []
+      },
+      "the devil": {
+        "occurrencesInText": 3,
+        "falseBindings": 1,
+        "boundTo": [
+          "Felix"
+        ]
+      },
+      "my creation": {
+        "occurrencesInText": 5,
+        "falseBindings": 2,
+        "boundTo": [
+          "Clerval",
+          "Ingolstadt"
+        ]
+      }
+    },
+    "falseBindingDetail": [
+      {
+        "descriptor": "the wretch",
+        "boundTo": "Clerval",
+        "sentence": 958,
+        "activation": 50.61933515686052,
+        "margin": 0.38344093056117523
+      },
+      {
+        "descriptor": "my creation",
+        "boundTo": "Clerval",
+        "sentence": 983,
+        "activation": 56.89596375677907,
+        "margin": 0.33644301354002193
+      },
+      {
+        "descriptor": "the monster",
+        "boundTo": "Justine",
+        "sentence": 1157,
+        "activation": 36.639765088650734,
+        "margin": 0.30062245417558225
+      },
+      {
+        "descriptor": "the fiend",
+        "boundTo": "Clerval",
+        "sentence": 1444,
+        "activation": 36.85834930762148,
+        "margin": 0.2511470588530323
+      },
+      {
+        "descriptor": "my creation",
+        "boundTo": "Ingolstadt",
+        "sentence": 1841,
+        "activation": 33.71355625125031,
+        "margin": 0.21900568808583784
+      },
+      {
+        "descriptor": "the monster",
+        "boundTo": "Jura",
+        "sentence": 2229,
+        "activation": 68.39113833588726,
+        "margin": 0.26732066135019933
+      },
+      {
+        "descriptor": "the wretch",
+        "boundTo": "Elizabeth",
+        "sentence": 2436,
+        "activation": 59.80926455468518,
+        "margin": 0.22195671942828948
+      },
+      {
+        "descriptor": "the creature",
+        "boundTo": "Elizabeth",
+        "sentence": 2436,
+        "activation": 59.80926455468518,
+        "margin": 0.22195671942828948
+      },
+      {
+        "descriptor": "the fiend",
+        "boundTo": "Justine",
+        "sentence": 2498,
+        "activation": 120.58774242366627,
+        "margin": 0.5367067063973755
+      },
+      {
+        "descriptor": "the monster",
+        "boundTo": "Justine",
+        "sentence": 2796,
+        "activation": 76.08583420934141,
+        "margin": 0.3991152401454014
+      },
+      {
+        "descriptor": "the fiend",
+        "boundTo": "Clerval",
+        "sentence": 2832,
+        "activation": 180.15502757488366,
+        "margin": 0.49728585161239747
+      },
+      {
+        "descriptor": "the devil",
+        "boundTo": "Felix",
+        "sentence": 3008,
+        "activation": 81.1428481508932,
+        "margin": 0.24046535160365684
+      },
+      {
+        "descriptor": "the dæmon",
+        "boundTo": "Safie",
+        "sentence": 3034,
+        "activation": 81.17218691990074,
+        "margin": 0.3583047523070556
+      },
+      {
+        "descriptor": "the fiend",
+        "boundTo": "Felix",
+        "sentence": 3057,
+        "activation": 151.88336678933757,
+        "margin": 0.3571331108740739
+      },
+      {
+        "descriptor": "the dæmon",
+        "boundTo": "Henry",
+        "sentence": 3093,
+        "activation": 49.83684183852942,
+        "margin": 0.28369622720742643
+      }
+    ]
+  },
+  "uncoveredBindings": {
+    "count": 1758,
+    "note": "bindings of descriptors the golden does not annotate — unmeasured, never reported as clean"
+  },
+  "finalBelief": {
+    "note": "what the fold still believes at the end — the evidence stream above minus the mechanism's own self-correction (attacks driving alternatives to distinct)",
+    "creatureAlternativesTotal": 13,
+    "survivingFalse": [
+      {
+        "left": "ingolstadt",
+        "right": "my creation",
+        "support": 1
+      },
+      {
+        "left": "elizabeth",
+        "right": "the wretch",
+        "support": 1
+      },
+      {
+        "left": "elizabeth",
+        "right": "the creature",
+        "support": 1
+      },
+      {
+        "left": "felix",
+        "right": "the devil",
+        "support": 1
+      },
+      {
+        "left": "felix",
+        "right": "the fiend",
+        "support": 1
+      },
+      {
+        "left": "henry",
+        "right": "the dæmon",
+        "support": 1
+      }
+    ],
+    "selfCorrected": [
+      {
+        "left": "clerval",
+        "right": "the wretch"
+      },
+      {
+        "left": "clerval",
+        "right": "my creation"
+      },
+      {
+        "left": "justine",
+        "right": "the monster"
+      },
+      {
+        "left": "clerval",
+        "right": "the fiend"
+      },
+      {
+        "left": "jura",
+        "right": "the monster"
+      },
+      {
+        "left": "justine",
+        "right": "the fiend"
+      },
+      {
+        "left": "safie",
+        "right": "the dæmon"
+      }
+    ],
+    "projectedFalseCanonicals": []
+  }
+}

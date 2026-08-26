@@ -1,0 +1,103 @@
+{
+ "schema": "EOInterlocutorModel@1",
+ "book": "pg84.txt",
+ "assembly": "quotation frames + attribution (POS prior refusing, cast from the constitutional assembly) + perspective projection — no relation extraction inside quotations (P0/P2)",
+ "priorsInjected": [
+  {
+   "kind": "POS",
+   "giver": "bin/priors/pos/en-ud-ewt.json",
+   "role": "refuses a non-verb in the attribution slot; never admits one"
+  },
+  {
+   "kind": "coref",
+   "giver": "Project Gutenberg pg84 — Frankenstein; or, The Modern Prometheus (Shelley)",
+   "role": "the admitted cast attribution is allowed to name"
+  }
+ ],
+ "claim": "a chat needs no new mechanism — the organ built for a novel's tellers runs on dialogue unchanged; this driver is where that would show if false",
+ "quotations": {
+  "candidates": 293,
+  "attributed": 18,
+  "unattributed": 275,
+  "attributionRate": 0.061,
+  "gapKinds": {
+   "attribution_unwitnessed": 275
+  },
+  "note": "most dialogue in real prose names no speaker in its own two boundaries — an unowned line is an ordinary result, and inventing an owner would be worse than leaving it unowned"
+ },
+ "speakers": [
+  {
+   "who": "Elizabeth",
+   "utterances": 5
+  },
+  {
+   "who": "Victor",
+   "utterances": 4
+  },
+  {
+   "who": "Justine",
+   "utterances": 3
+  },
+  {
+   "who": "Clerval",
+   "utterances": 2
+  },
+  {
+   "who": "God",
+   "utterances": 2
+  },
+  {
+   "who": "William",
+   "utterances": 1
+  },
+  {
+   "who": "Ernest",
+   "utterances": 1
+  }
+ ],
+ "interlocutorModels": [
+  {
+   "interlocutor": "Elizabeth",
+   "utterancesModelled": 5,
+   "theyHold": 5,
+   "coverage": 1,
+   "relayDepth": 1
+  },
+  {
+   "interlocutor": "Victor",
+   "utterancesModelled": 4,
+   "theyHold": 4,
+   "coverage": 1,
+   "relayDepth": 1
+  },
+  {
+   "interlocutor": "Justine",
+   "utterancesModelled": 3,
+   "theyHold": 3,
+   "coverage": 1,
+   "relayDepth": 1
+  },
+  {
+   "interlocutor": "Clerval",
+   "utterancesModelled": 2,
+   "theyHold": 2,
+   "coverage": 1,
+   "relayDepth": 1
+  }
+ ],
+ "exchange": {
+  "between": [
+   "Elizabeth",
+   "Victor"
+  ],
+  "Elizabeth_only": 5,
+  "Victor_only": 4,
+  "shared": 0,
+  "reading": "utterances are addressed by their own bytes, so shared is 0 by construction — two people never say the same bytes. What this measures is turn-taking volume, and the claim tier is where agreement would live"
+ },
+ "counted": {
+  "operations": 36,
+  "lensActs": 36,
+  "holdersFound": 8
+ }
+}

@@ -1,0 +1,44 @@
+{
+  "generated": "from a real run of score.mjs",
+  "cases": [
+    {
+      "id": "audio",
+      "materialLength": 200,
+      "trueBoundary": 100,
+      "tolerance": 6,
+      "defAt": [
+        103,
+        104
+      ],
+      "nearest": 103,
+      "causalHit": true,
+      "batchVerdict": "none"
+    },
+    {
+      "id": "image",
+      "materialLength": 64,
+      "trueBoundary": 32,
+      "tolerance": 4,
+      "defAt": [
+        34,
+        35
+      ],
+      "nearest": 34,
+      "causalHit": true,
+      "batchVerdict": "none"
+    },
+    {
+      "id": "video",
+      "materialLength": 39,
+      "trueBoundary": 19,
+      "tolerance": 6,
+      "defAt": [
+        23,
+        24
+      ],
+      "nearest": 23,
+      "causalHit": true,
+      "batchVerdict": "none"
+    }
+  ]
+}

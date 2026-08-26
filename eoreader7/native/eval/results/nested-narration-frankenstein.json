@@ -1,0 +1,371 @@
+{
+ "schema": "EONestedNarration@1",
+ "book": "pg84.txt",
+ "assembly": "causal text perceiver (in order) + attribution frames + perspective projection — revision tier and binding layer NOT run (P0/P2)",
+ "priorsInjected": [
+  {
+   "kind": "narratorSpans",
+   "giver": "Project Gutenberg pg84 — Frankenstein; or, The Modern Prometheus (Shelley)",
+   "version": "coref-prior@1.0.0",
+   "via": "adapters/text/attribution.js::narrationFrames"
+  },
+  {
+   "kind": "relay chain",
+   "giver": "the same coref prior's own note: 'the whole book is nested first-person narration (Walton > Victor > Creature)'",
+   "declared": [
+    "walton",
+    "victor",
+    "creature"
+   ]
+  },
+  {
+   "kind": "first-person closed class",
+   "giver": "lang/en",
+   "via": "claim keying: 'I' resolves to the frame's narrator, never to one shared string"
+  }
+ ],
+ "frames": {
+  "resolved": 7,
+  "unresolvedAnchors": 0,
+  "narrators": [
+   "creature",
+   "victor",
+   "walton"
+  ],
+  "spans": [
+   {
+    "narrator": "walton",
+    "byteStart": 1055,
+    "byteEnd": 33231,
+    "opens": "<book start>"
+   },
+   {
+    "narrator": "victor",
+    "byteStart": 33231,
+    "byteEnd": 173139,
+    "opens": "I am by birth a Genevese"
+   },
+   {
+    "narrator": "creature",
+    "byteStart": 173139,
+    "byteEnd": 179382,
+    "opens": "I expected this reception"
+   },
+   {
+    "narrator": "creature",
+    "byteStart": 179382,
+    "byteEnd": 265506,
+    "opens": "It is with considerable difficulty that I re"
+   },
+   {
+    "narrator": "victor",
+    "byteStart": 265506,
+    "byteEnd": 397964,
+    "opens": "The being finished speaking"
+   },
+   {
+    "narrator": "walton",
+    "byteStart": 397964,
+    "byteEnd": 427760,
+    "opens": "Walton, _in continuation._"
+   },
+   {
+    "narrator": "creature",
+    "byteStart": 418174,
+    "byteEnd": 427580,
+    "opens": "That is also my victim"
+   }
+  ]
+ },
+ "quotationConvention": {
+  "basis": "the received bytes' own quotation convention — a paragraph that opens a quote and never closes it hands the quotation on",
+  "paragraphs": 799,
+  "counted": {
+   "closed": 186,
+   "continued": 14,
+   "runs": 14
+  },
+  "embeddedRuns": 14,
+  "largestRuns": [
+   {
+    "paragraphs": 38,
+    "byteStart": 230189,
+    "byteEnd": 247611
+   },
+   {
+    "paragraphs": 37,
+    "byteStart": 247636,
+    "byteEnd": 265481
+   },
+   {
+    "paragraphs": 22,
+    "byteStart": 207767,
+    "byteEnd": 219530
+   }
+  ]
+ },
+ "heldPerHolder": {
+  "victor": 2111,
+  "holder:reader": 3131,
+  "creature": 770,
+  "walton": 257
+ },
+ "edgesPerNarrator": {
+  "victor": 2146,
+  "creature": 777,
+  "walton": 257
+ },
+ "pronounBinding": {
+  "organ": "adapters/text/pronouns.js::resolvePronouns (built and tested here, previously with no caller in the reading path)",
+  "declared": {
+   "minActivation": 0.05,
+   "minMargin": 0.2
+  },
+  "scope": "per narration frame — a teller's 'he' is never resolved against a name that only occurs in another teller's stretch (P1, one level in)",
+  "castSurfaces": 112,
+  "reach": {
+   "pronounEnds": 133,
+   "inBoundRange": 20,
+   "tokenMatch": 9,
+   "reading": "pronounEnds: gendered-pronoun edge ends the extractor produced at all (of 3,180 edges — 4.2%). inBoundRange: those inside a sentence the organ bound, which it only does for sentences carrying NO name (its own declared scope). tokenMatch: the end IS the bound pronoun, so the claim keys to a being.",
+   "ceiling": "the claim tier is unmoved, and the bottleneck is UPSTREAM, not here: the relation extractor anchors on capitalised surfaces, so pronoun-subject clauses are mostly never extracted. Widening this organ would not help; widening extraction would. Named, not attempted."
+  },
+  "boundSentences": 632,
+  "perFrame": [
+   {
+    "narrator": "walton",
+    "sentences": 255,
+    "bound": 122,
+    "refused": 55
+   },
+   {
+    "narrator": "victor",
+    "sentences": 1119,
+    "bound": 263,
+    "refused": 267
+   },
+   {
+    "narrator": "creature",
+    "sentences": 75,
+    "bound": 9,
+    "refused": 7
+   },
+   {
+    "narrator": "creature",
+    "sentences": 657,
+    "bound": 63,
+    "refused": 181
+   },
+   {
+    "narrator": "victor",
+    "sentences": 999,
+    "bound": 96,
+    "refused": 255
+   },
+   {
+    "narrator": "walton",
+    "sentences": 290,
+    "bound": 67,
+    "refused": 74
+   },
+   {
+    "narrator": "creature",
+    "sentences": 101,
+    "bound": 12,
+    "refused": 18
+   }
+  ],
+  "byActivation": {
+   "mechanism": "decayed presence (kernel createActivation; window 8 measured by dmd on this book — see terrain-activation-live)",
+   "declared": {
+    "window": 8,
+    "minActivation": 0.2,
+    "minMargin": 0.2
+   },
+   "boundSentences": 894,
+   "perFrame": [
+    {
+     "narrator": "walton",
+     "sentences": 255,
+     "bound": 66,
+     "refused": 111
+    },
+    {
+     "narrator": "victor",
+     "sentences": 1119,
+     "bound": 396,
+     "refused": 134
+    },
+    {
+     "narrator": "creature",
+     "sentences": 75,
+     "bound": 2,
+     "refused": 14
+    },
+    {
+     "narrator": "creature",
+     "sentences": 657,
+     "bound": 115,
+     "refused": 129
+    },
+    {
+     "narrator": "victor",
+     "sentences": 999,
+     "bound": 183,
+     "refused": 168
+    },
+    {
+     "narrator": "walton",
+     "sentences": 290,
+     "bound": 113,
+     "refused": 28
+    },
+    {
+     "narrator": "creature",
+     "sentences": 101,
+     "bound": 19,
+     "refused": 11
+    }
+   ],
+   "agreementWithThematic": {
+    "bothBound": 415,
+    "agreeing": 107
+   },
+   "reading": "the two arms agree on only ~26% of the sentences both bind. Spot-checked: disagreements cluster in stretches whose TRUE antecedent (the master, the lieutenant — Walton-letter minor characters) is below the cast floor entirely, so both arms bind the nearest wrong candidate. That is a candidate-universe gap upstream of either mechanism; with no pronoun golden in either repo, declaring a winner between the arms is not licensed (CLAUDE.md: never tune toward the answer key you wish you had)."
+  }
+ },
+ "unframedEncounters": 0,
+ "readersModelOfVictor": {
+  "attributed": 2874,
+  "ofHoldsInTotal": 2111,
+  "coverage": 1.361,
+  "sample": [
+   {
+    "claim": "surface:it|became|surface:the_torrent",
+    "stance": "holds",
+    "via": [
+     "walton",
+     "victor"
+    ],
+    "relayDepth": 2,
+    "atSeq": 0,
+    "witness": "byte:47605"
+   },
+   {
+    "claim": "holder:victor|became|surface:their_disciple",
+    "stance": "holds",
+    "via": [
+     "walton",
+     "victor"
+    ],
+    "relayDepth": 2,
+    "atSeq": 1,
+    "witness": "byte:51145"
+   },
+   {
+    "claim": "surface:accompanied|by|surface:the_most_alarming_symptoms",
+    "stance": "holds",
+    "via": [
+     "walton",
+     "victor"
+    ],
+    "relayDepth": 2,
+    "atSeq": 2,
+    "witness": "byte:56525"
+   },
+   {
+    "claim": "surface:are_rent|by|surface:that_most_irreparable_evil",
+    "stance": "refuses",
+    "via": [
+     "walton",
+     "victor"
+    ],
+    "relayDepth": 2,
+    "atSeq": 3,
+    "witness": "byte:57397"
+   }
+  ]
+ },
+ "readersModelOfTheCreature": {
+  "attributed": 767,
+  "ofHoldsInTotal": 770,
+  "coverage": 0.996,
+  "relayDepth": 3,
+  "sample": [
+   {
+    "claim": "surface:it|is|surface:on",
+    "stance": "holds",
+    "via": [
+     "walton",
+     "victor",
+     "creature"
+    ],
+    "relayDepth": 3,
+    "atSeq": 742,
+    "witness": "byte:240459"
+   },
+   {
+    "claim": "holder:creature|will|surface:keep_no_terms",
+    "stance": "holds",
+    "via": [
+     "walton",
+     "victor",
+     "creature"
+    ],
+    "relayDepth": 3,
+    "atSeq": 431,
+    "witness": "byte:173145"
+   },
+   {
+    "claim": "surface:yet_it|is|surface:in_your_power",
+    "stance": "holds",
+    "via": [
+     "walton",
+     "victor",
+     "creature"
+    ],
+    "relayDepth": 3,
+    "atSeq": 432,
+    "witness": "byte:173237"
+   },
+   {
+    "claim": "surface:deliver_them|from|surface:an_evil",
+    "stance": "holds",
+    "via": [
+     "walton",
+     "victor",
+     "creature"
+    ],
+    "relayDepth": 3,
+    "atSeq": 432,
+    "witness": "byte:173237"
+   }
+  ]
+ },
+ "victorVersusCreature": {
+  "asymmetric": 2014,
+  "conflicting": 0,
+  "conflictSample": []
+ },
+ "refusedPerHolder": {
+  "victor": 93,
+  "holder:reader": 139,
+  "creature": 32,
+  "walton": 14
+ },
+ "sharedByVictorAndWalton": {
+  "count": 3,
+  "sample": [
+   "surface:it|is|surface:true",
+   "surface:it|is|surface:not_thus",
+   "surface:it|is|surface:well"
+  ]
+ },
+ "counted": {
+  "operations": 6360,
+  "lensActs": 6360,
+  "holdersFound": 4
+ },
+ "logEntries": 1793,
+ "note": "every claim here is held BY someone. A relation from the creature's own telling reaches the reader with relayDepth 2 and basis 'reported' — never as something the reading witnessed."
+}

@@ -7,10 +7,16 @@
   "site_source": "site-source/",
   "engine": {
     "name": "EOReader",
-    "release": "6.1",
-    "source": "eoreader6/",
-    "repository": "https://github.com/clovenbradshaw-ctrl/eoreader6",
-    "commit": "0923d0f59fa7635eac481bb8cb9649ca11a76947"
+    "release": "7",
+    "source": "eoreader7/",
+    "repository": "https://github.com/clovenbradshaw-ctrl/eoreader7",
+    "commit": "dcec657f5e76c5d3528818d50fa38fbb3070868f",
+    "importer_reads_via": "legacy-eoreader6.1 compatibility surface (packages/host/*)",
+    "compat_submodule": {
+      "name": "legacy-eoreader6.1",
+      "repository": "https://github.com/clovenbradshaw-ctrl/eoreader6.1",
+      "commit": "e20e441d3cdfb735d605c75037e6d73892e707c0"
+    }
   },
   "witness_schema": "schema/CommonRecordWitness.schema.json",
   "default_witness": null,

@@ -1,0 +1,21 @@
+The lighthouse keeper at Fastnet Rock kept a logbook of every ship that
+passed within sight of the beam. On the night of the storm, the entry
+read only: "Barometer falling. Gulls silent since noon. No vessels."
+
+By morning the logbook had a second hand in it — not the keeper's own,
+cramped and slanting the way it always was, but a wider, rounder script
+that filled the rest of the page: "He went out to the gallery at
+half past two and did not come back in. I have kept the light burning
+since. My name is Aoife Devane and I do not know how I came to be here."
+
+The relief boat found both of them a week later, sharing the small
+kitchen table, sharing the log, sharing the watches, as if two keepers
+had always tended Fastnet and the roster simply forgot to say so. No
+one could explain the second name. No one asked Aoife to leave.
+
+Coverage note for the retrieval test that reads this file: the terrain
+of this document is a lighthouse mystery, distinct from the Odyssey
+excerpt admitted alongside it, so a query for "lighthouse keeper Aoife
+Devane logbook" should resolve spans from THIS document, not the Greek
+epic, letting the adversarial harness confirm span provenance survives
+(or fails to survive) any reimport attempt.

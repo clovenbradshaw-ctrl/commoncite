@@ -1,0 +1,673 @@
+{
+ "schema": "EOBeingConstructionRun@1",
+ "book": "frankenstein.txt",
+ "organ": "native/adapters/text/construction.js::collapseForm over ConstructionPrior@1",
+ "declared": {
+  "MIN_SHARE": 0.6666666666666666,
+  "WATCHED": [
+   "the murder",
+   "the child",
+   "the city",
+   "the south",
+   "the turk",
+   "the woman"
+  ],
+  "calibration": "none — MIN_SHARE is declared and uncalibrated; every row prints its own share"
+ },
+ "priors": {
+  "form": {
+   "giver": {
+    "source": "Universal Dependencies UD_English-EWT",
+    "url": "https://github.com/UniversalDependencies/UD_English-EWT",
+    "license": "CC BY-SA 4.0",
+    "built_by": "scripts/build-pos-prior.mjs",
+    "input": "en_ewt-ud-train.conllu",
+    "tokens_read": 204578,
+    "lines_skipped": 2651,
+    "forms_kept": 16654,
+    "note": "tag counts only, ambiguity preserved — no treebank sentence text embedded"
+   },
+   "forms": 16654
+  },
+  "construction": {
+   "giver": "Universal Dependencies — UD_English-EWT (train split), human-annotated gold treebank",
+   "conditionedForms": 1754
+  }
+ },
+ "tally": {
+  "readingPositions": 33,
+  "licensedByGate": 12,
+  "survivesCollapse": 5,
+  "overturnedByCollapse": 7,
+  "rescuedByCollapse": 0
+ },
+ "rows": [
+  {
+   "descriptor": "the woman",
+   "licensing": "was",
+   "frame": "ADJ",
+   "nextToken": "troubled",
+   "gate": {
+    "admitsAsAgency": false,
+    "basis": "VERB 42 vs AUX 1202"
+   },
+   "construction": {
+    "standing": "collapsed",
+    "cls": "AUX",
+    "share": 0.982,
+    "n": 217,
+    "basis": "construction"
+   },
+   "agencyAfterCollapse": false,
+   "text": "The conscience of the woman was troubled; she began to think that the deaths of her favourites was a judgement from heaven to chastise her partiality."
+  },
+  {
+   "descriptor": "the murder",
+   "licensing": "of",
+   "frame": "ADJ",
+   "nextToken": "poor",
+   "gate": {
+    "admitsAsAgency": false,
+    "basis": "VERB 0 vs AUX 3"
+   },
+   "construction": {
+    "standing": "collapsed",
+    "cls": "ADP",
+    "share": 1,
+    "n": 302,
+    "basis": "construction"
+   },
+   "agencyAfterCollapse": false,
+   "text": "He then related that, the morning on which the murder of poor William had been discovered, Justine had been taken ill, and confined to her bed for several days."
+  },
+  {
+   "descriptor": "the murder",
+   "licensing": "had",
+   "frame": "VERB",
+   "nextToken": "discovered",
+   "gate": {
+    "admitsAsAgency": true,
+    "basis": "VERB 335 vs AUX 154"
+   },
+   "construction": {
+    "standing": "collapsed",
+    "cls": "AUX",
+    "share": 0.967,
+    "n": 91,
+    "basis": "construction"
+   },
+   "agencyAfterCollapse": false,
+   "text": "During this interval, one of the servants, happening to examine the apparel she had worn on the night of the murder, had discovered in her pocket the picture of my mother, which had been jud"
+  },
+  {
+   "descriptor": "the murder",
+   "licensing": "memorable",
+   "frame": "ADP",
+   "nextToken": "in",
+   "gate": {
+    "admitsAsAgency": false,
+    "basis": "VERB 0 vs AUX 0"
+   },
+   "construction": {
+    "standing": "collapsed",
+    "cls": "ADJ",
+    "share": 1,
+    "n": 4,
+    "basis": "form"
+   },
+   "agencyAfterCollapse": false,
+   "text": "It was to be decided whether the result of my curiosity and lawless devices would cause the death of two of my fellow beings: one a smiling babe full of innocence and joy, the other far more"
+  },
+  {
+   "descriptor": "the murder",
+   "licensing": "had",
+   "frame": "AUX",
+   "nextToken": "been",
+   "gate": {
+    "admitsAsAgency": true,
+    "basis": "VERB 335 vs AUX 154"
+   },
+   "construction": {
+    "standing": "collapsed",
+    "cls": "AUX",
+    "share": 0.891,
+    "n": 46,
+    "basis": "construction"
+   },
+   "agencyAfterCollapse": false,
+   "text": "She had been out the whole of the night on which the murder had been committed and towards morning had been perceived by a market-woman not far from the spot where the body of the murdered c"
+  },
+  {
+   "descriptor": "the woman",
+   "licensing": "asked",
+   "frame": "PRON",
+   "nextToken": "her",
+   "gate": {
+    "admitsAsAgency": true,
+    "basis": "VERB 68 vs AUX 0"
+   },
+   "construction": {
+    "standing": "collapsed",
+    "cls": "VERB",
+    "share": 1,
+    "n": 68,
+    "basis": "form"
+   },
+   "agencyAfterCollapse": true,
+   "text": "The woman asked her what she did there, but she looked very strangely and only returned a confused and unintelligible answer."
+  },
+  {
+   "descriptor": "the child",
+   "licensing": "and",
+   "frame": "VERB",
+   "nextToken": "demanded",
+   "gate": {
+    "admitsAsAgency": false,
+    "basis": "VERB 0 vs AUX 0"
+   },
+   "construction": {
+    "standing": "collapsed",
+    "cls": "CCONJ",
+    "share": 0.999,
+    "n": 925,
+    "basis": "construction"
+   },
+   "agencyAfterCollapse": false,
+   "text": "She returned to the house about eight o’clock, and when one inquired where she had passed the night, she replied that she had been looking for the child and demanded earnestly if anything ha"
+  },
+  {
+   "descriptor": "the child",
+   "licensing": "had",
+   "frame": "AUX",
+   "nextToken": "been",
+   "gate": {
+    "admitsAsAgency": true,
+    "basis": "VERB 335 vs AUX 154"
+   },
+   "construction": {
+    "standing": "collapsed",
+    "cls": "AUX",
+    "share": 0.891,
+    "n": 46,
+    "basis": "construction"
+   },
+   "agencyAfterCollapse": false,
+   "text": "The picture was then produced which the servant had found in her pocket; and when Elizabeth, in a faltering voice, proved that it was the same which, an hour before the child had been missed"
+  },
+  {
+   "descriptor": "the murder",
+   "licensing": "had",
+   "frame": "AUX",
+   "nextToken": "been",
+   "gate": {
+    "admitsAsAgency": true,
+    "basis": "VERB 335 vs AUX 154"
+   },
+   "construction": {
+    "standing": "collapsed",
+    "cls": "AUX",
+    "share": 0.891,
+    "n": 46,
+    "basis": "construction"
+   },
+   "agencyAfterCollapse": false,
+   "text": "She then related that, by the permission of Elizabeth, she had passed the evening of the night on which the murder had been committed at the house of an aunt at Chêne, a village situated at "
+  },
+  {
+   "descriptor": "the child",
+   "licensing": "who",
+   "frame": "AUX",
+   "nextToken": "was",
+   "gate": {
+    "admitsAsAgency": false,
+    "basis": "VERB 0 vs AUX 0"
+   },
+   "construction": {
+    "standing": "collapsed",
+    "cls": "PRON",
+    "share": 1,
+    "n": 354,
+    "basis": "form"
+   },
+   "agencyAfterCollapse": false,
+   "text": "On her return, at about nine o’clock, she met a man who asked her if she had seen anything of the child who was lost."
+  },
+  {
+   "descriptor": "the child",
+   "licensing": "who",
+   "frame": "AUX",
+   "nextToken": "is",
+   "gate": {
+    "admitsAsAgency": false,
+    "basis": "VERB 0 vs AUX 0"
+   },
+   "construction": {
+    "standing": "collapsed",
+    "cls": "PRON",
+    "share": 1,
+    "n": 354,
+    "basis": "form"
+   },
+   "agencyAfterCollapse": false,
+   "text": "She was warmly attached to the child who is now dead and acted towards him like a most affectionate mother."
+  },
+  {
+   "descriptor": "the turk",
+   "licensing": "amazed",
+   "frame": "CCONJ",
+   "nextToken": "and",
+   "gate": {
+    "admitsAsAgency": true,
+    "basis": "VERB 1 vs AUX 0"
+   },
+   "construction": {
+    "standing": "live",
+    "cls": null,
+    "share": 0.5,
+    "n": 2,
+    "basis": "form"
+   },
+   "agencyAfterCollapse": false,
+   "text": "The Turk, amazed and delighted, endeavoured to kindle the zeal of his deliverer by promises of reward and wealth."
+  },
+  {
+   "descriptor": "the turk",
+   "licensing": "quickly",
+   "frame": "VERB",
+   "nextToken": "perceived",
+   "gate": {
+    "admitsAsAgency": false,
+    "basis": "VERB 0 vs AUX 0"
+   },
+   "construction": {
+    "standing": "collapsed",
+    "cls": "ADV",
+    "share": 1,
+    "n": 28,
+    "basis": "form"
+   },
+   "agencyAfterCollapse": false,
+   "text": "“The Turk quickly perceived the impression that his daughter had made on the heart of Felix and endeavoured to secure him more entirely in his interests by the promise of her hand in marriag"
+  },
+  {
+   "descriptor": "the turk",
+   "licensing": "was",
+   "frame": "VERB",
+   "nextToken": "fixed",
+   "gate": {
+    "admitsAsAgency": false,
+    "basis": "VERB 42 vs AUX 1202"
+   },
+   "construction": {
+    "standing": "collapsed",
+    "cls": "AUX",
+    "share": 1,
+    "n": 358,
+    "basis": "construction"
+   },
+   "agencyAfterCollapse": false,
+   "text": "“The day for the execution of the Turk was fixed, but on the night previous to it he quitted his prison and before morning was distant many leagues from Paris."
+  },
+  {
+   "descriptor": "the turk",
+   "licensing": "renewed",
+   "frame": "PRON",
+   "nextToken": "his",
+   "gate": {
+    "admitsAsAgency": true,
+    "basis": "VERB 5 vs AUX 0"
+   },
+   "construction": {
+    "standing": "collapsed",
+    "cls": "VERB",
+    "share": 1,
+    "n": 5,
+    "basis": "form"
+   },
+   "agencyAfterCollapse": true,
+   "text": "“Safie resolved to remain with her father until the moment of his departure, before which time the Turk renewed his promise that she should be united to his deliverer; and Felix remained wit"
+  },
+  {
+   "descriptor": "the turk",
+   "licensing": "allowed",
+   "frame": "DET",
+   "nextToken": "this",
+   "gate": {
+    "admitsAsAgency": true,
+    "basis": "VERB 16 vs AUX 0"
+   },
+   "construction": {
+    "standing": "collapsed",
+    "cls": "VERB",
+    "share": 1,
+    "n": 16,
+    "basis": "form"
+   },
+   "agencyAfterCollapse": true,
+   "text": "“The Turk allowed this intimacy to take place and encouraged the hopes of the youthful lovers, while in his heart he had formed far other plans."
+  },
+  {
+   "descriptor": "the turk",
+   "licensing": "that",
+   "frame": "SCONJ",
+   "nextToken": "if",
+   "gate": {
+    "admitsAsAgency": false,
+    "basis": "VERB 0 vs AUX 0"
+   },
+   "construction": {
+    "standing": "collapsed",
+    "cls": "SCONJ",
+    "share": 0.846,
+    "n": 26,
+    "basis": "construction"
+   },
+   "agencyAfterCollapse": false,
+   "text": "He quickly arranged with the Turk that if the latter should find a favourable opportunity for escape before Felix could return to Italy, Safie should remain as a boarder at a convent at Legh"
+  },
+  {
+   "descriptor": "the turk",
+   "licensing": "and",
+   "frame": "DET",
+   "nextToken": "the",
+   "gate": {
+    "admitsAsAgency": false,
+    "basis": "VERB 0 vs AUX 0"
+   },
+   "construction": {
+    "standing": "collapsed",
+    "cls": "CCONJ",
+    "share": 1,
+    "n": 525,
+    "basis": "construction"
+   },
+   "agencyAfterCollapse": false,
+   "text": "He could have endured poverty, and while this distress had been the meed of his virtue, he gloried in it; but the ingratitude of the Turk and the loss of his beloved Safie were misfortunes m"
+  },
+  {
+   "descriptor": "the turk",
+   "licensing": "entered",
+   "frame": "PRON",
+   "nextToken": "his",
+   "gate": {
+    "admitsAsAgency": true,
+    "basis": "VERB 3 vs AUX 0"
+   },
+   "construction": {
+    "standing": "collapsed",
+    "cls": "VERB",
+    "share": 0.75,
+    "n": 4,
+    "basis": "form"
+   },
+   "agencyAfterCollapse": true,
+   "text": "“A few days after, the Turk entered his daughter’s apartment and told her hastily that he had reason to believe that his residence at Leghorn had been divulged and that he should speedily be"
+  },
+  {
+   "descriptor": "the woman",
+   "licensing": "of",
+   "frame": "DET",
+   "nextToken": "the",
+   "gate": {
+    "admitsAsAgency": false,
+    "basis": "VERB 0 vs AUX 3"
+   },
+   "construction": {
+    "standing": "collapsed",
+    "cls": "ADP",
+    "share": 0.997,
+    "n": 1189,
+    "basis": "construction"
+   },
+   "agencyAfterCollapse": false,
+   "text": "The Italian had mentioned the name of the spot for which they were bound, and after her death the woman of the house in which they had lived took care that Safie should arrive in safety at t"
+  },
+  {
+   "descriptor": "the child",
+   "licensing": "still",
+   "frame": "UNK",
+   "nextToken": "struggled",
+   "gate": {
+    "admitsAsAgency": false,
+    "basis": "VERB 0 vs AUX 0"
+   },
+   "construction": {
+    "standing": "collapsed",
+    "cls": "ADV",
+    "share": 1,
+    "n": 141,
+    "basis": "form"
+   },
+   "agencyAfterCollapse": false,
+   "text": "“The child still struggled and loaded me with epithets which carried despair to my heart; I grasped his throat to silence him, and in a moment he lay dead at my feet."
+  },
+  {
+   "descriptor": "the child",
+   "licensing": "i",
+   "frame": "VERB",
+   "nextToken": "saw",
+   "gate": {
+    "admitsAsAgency": false,
+    "basis": "VERB 0 vs AUX 0"
+   },
+   "construction": {
+    "standing": "collapsed",
+    "cls": "PRON",
+    "share": 1,
+    "n": 1615,
+    "basis": "construction"
+   },
+   "agencyAfterCollapse": false,
+   "text": "“As I fixed my eyes on the child, I saw something glittering on his breast."
+  },
+  {
+   "descriptor": "the murder",
+   "licensing": "and",
+   "frame": "VERB",
+   "nextToken": "seeking",
+   "gate": {
+    "admitsAsAgency": false,
+    "basis": "VERB 0 vs AUX 0"
+   },
+   "construction": {
+    "standing": "collapsed",
+    "cls": "CCONJ",
+    "share": 0.999,
+    "n": 925,
+    "basis": "construction"
+   },
+   "agencyAfterCollapse": false,
+   "text": "“While I was overcome by these feelings, I left the spot where I had committed the murder, and seeking a more secluded hiding-place, I entered a barn which had appeared to me to be empty."
+  },
+  {
+   "descriptor": "the murder",
+   "licensing": "i",
+   "frame": "VERB",
+   "nextToken": "have",
+   "gate": {
+    "admitsAsAgency": false,
+    "basis": "VERB 0 vs AUX 0"
+   },
+   "construction": {
+    "standing": "collapsed",
+    "cls": "PRON",
+    "share": 1,
+    "n": 1615,
+    "basis": "construction"
+   },
+   "agencyAfterCollapse": false,
+   "text": "The thought was madness; it stirred the fiend within me—not I, but she, shall suffer; the murder I have committed because I am for ever robbed of all that she could give me, she shall atone."
+  },
+  {
+   "descriptor": "the city",
+   "licensing": "which",
+   "frame": "PRON",
+   "nextToken": "they",
+   "gate": {
+    "admitsAsAgency": false,
+    "basis": "VERB 0 vs AUX 0"
+   },
+   "construction": {
+    "standing": "collapsed",
+    "cls": "PRON",
+    "share": 1,
+    "n": 49,
+    "basis": "construction"
+   },
+   "agencyAfterCollapse": false,
+   "text": "The memory of that unfortunate king and his companions, the amiable Falkland, the insolent Goring, his queen, and son, gave a peculiar interest to every part of the city which they might be "
+  },
+  {
+   "descriptor": "the city",
+   "licensing": "had",
+   "frame": "ADV",
+   "nextToken": "yet",
+   "gate": {
+    "admitsAsAgency": true,
+    "basis": "VERB 335 vs AUX 154"
+   },
+   "construction": {
+    "standing": "live",
+    "cls": null,
+    "share": 0.632,
+    "n": 19,
+    "basis": "construction"
+   },
+   "agencyAfterCollapse": false,
+   "text": "If these feelings had not found an imaginary gratification, the appearance of the city had yet in itself sufficient beauty to obtain our admiration."
+  },
+  {
+   "descriptor": "the murder",
+   "licensing": "of",
+   "frame": "PRON",
+   "nextToken": "my",
+   "gate": {
+    "admitsAsAgency": false,
+    "basis": "VERB 0 vs AUX 3"
+   },
+   "construction": {
+    "standing": "collapsed",
+    "cls": "ADP",
+    "share": 0.974,
+    "n": 389,
+    "basis": "construction"
+   },
+   "agencyAfterCollapse": false,
+   "text": "The first part of this deposition did not in the least interest me, but when the mark of the fingers was mentioned I remembered the murder of my brother and felt myself extremely agitated; m"
+  },
+  {
+   "descriptor": "the murder",
+   "licensing": "had",
+   "frame": "AUX",
+   "nextToken": "been",
+   "gate": {
+    "admitsAsAgency": true,
+    "basis": "VERB 335 vs AUX 154"
+   },
+   "construction": {
+    "standing": "collapsed",
+    "cls": "AUX",
+    "share": 0.891,
+    "n": 46,
+    "basis": "construction"
+   },
+   "agencyAfterCollapse": false,
+   "text": "This idea was probably suggested by the extreme agitation I had exhibited when the mode of the murder had been described."
+  },
+  {
+   "descriptor": "the woman",
+   "licensing": "who",
+   "frame": "AUX",
+   "nextToken": "could",
+   "gate": {
+    "admitsAsAgency": false,
+    "basis": "VERB 0 vs AUX 0"
+   },
+   "construction": {
+    "standing": "collapsed",
+    "cls": "PRON",
+    "share": 1,
+    "n": 354,
+    "basis": "form"
+   },
+   "agencyAfterCollapse": false,
+   "text": "I turned with loathing from the woman who could utter so unfeeling a speech to a person just saved, on the very edge of death; but I felt languid and unable to reflect on all that had passed"
+  },
+  {
+   "descriptor": "the south",
+   "licensing": "now",
+   "frame": "VERB",
+   "nextToken": "rose",
+   "gate": {
+    "admitsAsAgency": false,
+    "basis": "VERB 0 vs AUX 0"
+   },
+   "construction": {
+    "standing": "collapsed",
+    "cls": "ADV",
+    "share": 1,
+    "n": 236,
+    "basis": "form"
+   },
+   "agencyAfterCollapse": false,
+   "text": "The wind, which had fallen in the south, now rose with great violence in the west."
+  },
+  {
+   "descriptor": "the murder",
+   "licensing": "of",
+   "frame": "UNK",
+   "nextToken": "Clerval",
+   "gate": {
+    "admitsAsAgency": false,
+    "basis": "VERB 0 vs AUX 3"
+   },
+   "construction": {
+    "standing": "collapsed",
+    "cls": "ADP",
+    "share": 0.962,
+    "n": 3622,
+    "basis": "form"
+   },
+   "agencyAfterCollapse": false,
+   "text": "The death of William, the execution of Justine, the murder of Clerval, and lastly of my wife; even at that moment I knew not that my only remaining friends were safe from the malignity of th"
+  },
+  {
+   "descriptor": "the south",
+   "licensing": "became",
+   "frame": "ADV",
+   "nextToken": "perfectly",
+   "gate": {
+    "admitsAsAgency": true,
+    "basis": "VERB 16 vs AUX 0"
+   },
+   "construction": {
+    "standing": "collapsed",
+    "cls": "VERB",
+    "share": 1,
+    "n": 16,
+    "basis": "form"
+   },
+   "agencyAfterCollapse": true,
+   "text": "The ice cracked behind us and was driven with force towards the north; a breeze sprang from the west, and on the 11th the passage towards the south became perfectly free."
+  },
+  {
+   "descriptor": "the murder",
+   "licensing": "of",
+   "frame": "UNK",
+   "nextToken": "Clerval",
+   "gate": {
+    "admitsAsAgency": false,
+    "basis": "VERB 0 vs AUX 3"
+   },
+   "construction": {
+    "standing": "collapsed",
+    "cls": "ADP",
+    "share": 0.962,
+    "n": 3622,
+    "basis": "form"
+   },
+   "agencyAfterCollapse": false,
+   "text": "“After the murder of Clerval I returned to Switzerland, heart-broken and overcome."
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "@eoreader/spec",
+  "version": "6.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./canonical-json": "./canonical-json/index.js",
+    "./operators": "./operators/index.js",
+    "./validation": "./validation/index.js",
+    "./row-shapes": "./row-shapes/index.js",
+    "./cube": "./cube/index.js"
+  }
+}

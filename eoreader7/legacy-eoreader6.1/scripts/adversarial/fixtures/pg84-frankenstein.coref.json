@@ -1,0 +1,64 @@
+{
+  "coref_prior_version": "coref-prior@1.0.0",
+  "source": "Project Gutenberg pg84 — Frankenstein; or, The Modern Prometheus (Shelley)",
+  "notes": [
+    "Per-text coreference prior. Deciding that these surfaces predicate one being is pronoun-semantic class (resolution-spectrum TIER.MODEL, needsWitness=true) — the engine must not derive it, so it is curated here and INJECTED (reader-priors discipline).",
+    "Scopes are anchor quotes, resolved to offsets at apply time against the \\n-normalized text. The text spells it 'dæmon' (ligature), never 'daemon' — a flat alias list got this wrong once already; that mistake is why this file exists.",
+    "First-person: the whole book is nested first-person narration (Walton > Victor > Creature). 'I' points at the Creature ONLY inside his own spans; elsewhere it is Victor or Walton. Same string, three referents, split by scope.",
+    "2026-08-04: walton and victor narratorSpans added, closing the gap this file's own note above named and left open. Anchors placed at the book's own frame seams — Letters 1-4 (Walton) hand off to Chapter 1's first line (Victor); Victor's account is interrupted by the creature's own narratorSpans (unchanged, above) and resumes where they end; Victor's account closes at 'Walton, in continuation.', the book's own heading marking the return to Walton's voice, which runs to the end of the text. Every boundary anchor here is shared verbatim with the adjacent span it meets, so the three referents' spans chain with no gap and no overlap — except the creature's closing speech (unchanged 'That is also my victim' span), which is nested INSIDE Walton's final span, quoted in his own letter. resolveAllNarratorSpans (packages/engine/perceiver/text/narrator.js) sorts narrowest-span-first for exactly this case, so the nested quotation resolves to the creature rather than to whoever is holding the pen around it. Verified: all six anchors below are unique substrings of pg84.txt (grep -c == 1 each) as of this text's 2026-02-10 Project Gutenberg revision; an edition change could make an anchor non-unique or absent, and resolveNarratorSpans reports that as unresolved rather than guessing."
+  ],
+  "referents": [
+    {
+      "id": "creature",
+      "individuation": "emanon",
+      "display": "the Creature",
+      "surfaces": [
+        { "surface": "the creature" },
+        { "surface": "the monster" },
+        { "surface": "the wretch" },
+        { "surface": "the fiend" },
+        { "surface": "the dæmon" },
+        { "surface": "the being" },
+        { "surface": "the devil" },
+        { "surface": "my creation" },
+        {
+          "surface": "my enemy",
+          "weight": 0.7,
+          "scope": [
+            { "fromAnchor": "Letter 1", "toAnchor": "It is with considerable difficulty that I remember" },
+            { "fromAnchor": "The being finished speaking" }
+          ]
+        },
+        {
+          "surface": "my adversary",
+          "weight": 0.7,
+          "scope": [
+            { "fromAnchor": "Letter 1", "toAnchor": "It is with considerable difficulty that I remember" },
+            { "fromAnchor": "The being finished speaking" }
+          ]
+        }
+      ],
+      "narratorSpans": [
+        { "fromAnchor": "I expected this reception", "toAnchor": "It is with considerable difficulty that I remember" },
+        { "fromAnchor": "It is with considerable difficulty that I remember", "toAnchor": "The being finished speaking" },
+        { "fromAnchor": "That is also my victim", "toAnchor": "He sprang from the cabin" }
+      ]
+    },
+    {
+      "id": "victor",
+      "display": "Victor Frankenstein",
+      "narratorSpans": [
+        { "fromAnchor": "I am by birth a Genevese", "toAnchor": "I expected this reception" },
+        { "fromAnchor": "The being finished speaking", "toAnchor": "Walton, _in continuation._" }
+      ]
+    },
+    {
+      "id": "walton",
+      "display": "Robert Walton",
+      "narratorSpans": [
+        { "toAnchor": "I am by birth a Genevese" },
+        { "fromAnchor": "Walton, _in continuation._" }
+      ]
+    }
+  ]
+}

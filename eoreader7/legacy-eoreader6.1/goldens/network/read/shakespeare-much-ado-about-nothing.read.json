@@ -1,0 +1,68 @@
+{
+  "tag": "shakespeare-much-ado-about-nothing",
+  "kind": "play",
+  "spec": {
+    "window": 8,
+    "draws": 99,
+    "reseeds": 8,
+    "minArrivals": 4,
+    "atomsPerUnit": 200,
+    "offerEvery": 60
+  },
+  "segments": 17,
+  "units": 109,
+  "candidateSurfaces": 203,
+  "referents": 42,
+  "score": {
+    "registerSize": 3,
+    "referenceNodes": 23,
+    "entityHits": 1,
+    "entityRecall": 0.043478260869565216,
+    "edgesFoundTotal": 1,
+    "candidateEdges": 0,
+    "referenceEdges": 129,
+    "edgeHits": 0,
+    "edgeRecall": 0,
+    "edgePrecision": 0,
+    "edgeChance": {
+      "mean": 0,
+      "p95": 0,
+      "max": 0
+    },
+    "matchedEdges": []
+  },
+  "edges": [
+    {
+      "a": "e0",
+      "b": "e1",
+      "weight": 101,
+      "pValue": 0
+    }
+  ],
+  "register": [
+    {
+      "id": "e0",
+      "referentIds": [
+        "ref:auto:benedick"
+      ],
+      "surface": "Benedick",
+      "bornAt": 60
+    },
+    {
+      "id": "e1",
+      "referentIds": [
+        "ref:auto:dir"
+      ],
+      "surface": "DIR",
+      "bornAt": 60
+    },
+    {
+      "id": "e2",
+      "referentIds": [
+        "ref:auto:i'll"
+      ],
+      "surface": "I'll",
+      "bornAt": 109
+    }
+  ]
+}

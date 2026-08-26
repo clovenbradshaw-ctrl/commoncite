@@ -1,0 +1,53 @@
+{
+  "tag": "shakespeare-the-two-gentlemen-of-verona",
+  "kind": "play",
+  "spec": {
+    "window": 8,
+    "draws": 99,
+    "reseeds": 8,
+    "minArrivals": 4,
+    "atomsPerUnit": 200,
+    "offerEvery": 60
+  },
+  "segments": 20,
+  "units": 90,
+  "candidateSurfaces": 163,
+  "referents": 38,
+  "score": {
+    "registerSize": 2,
+    "referenceNodes": 18,
+    "entityHits": 2,
+    "entityRecall": 0.1111111111111111,
+    "edgesFoundTotal": 0,
+    "candidateEdges": 0,
+    "referenceEdges": 57,
+    "edgeHits": 0,
+    "edgeRecall": 0,
+    "edgePrecision": 0,
+    "edgeChance": {
+      "mean": 0,
+      "p95": 0,
+      "max": 0
+    },
+    "matchedEdges": []
+  },
+  "edges": [],
+  "register": [
+    {
+      "id": "e0",
+      "referentIds": [
+        "ref:auto:silvia"
+      ],
+      "surface": "Silvia",
+      "bornAt": 60
+    },
+    {
+      "id": "e1",
+      "referentIds": [
+        "ref:auto:thurio"
+      ],
+      "surface": "Thurio",
+      "bornAt": 60
+    }
+  ]
+}

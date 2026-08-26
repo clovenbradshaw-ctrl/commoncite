@@ -1,0 +1,124 @@
+{
+ "schema": "EOWriterDecayRun@1",
+ "book": "pride.txt",
+ "givers": {
+  "theory": "Accessibility Theory (Ariel); referential distance (Givon 1983): referring-expression form encodes the writer's model of the reader's activation",
+  "forms": {
+   "pronoun": "bindNarrationFrames activation arm — organ-derived, NOT gold, disclosed",
+   "descriptor": "anchoring organ EOAnchorEvidence",
+   "name": "constitutional cast surfaces (host, coref-primed)"
+  }
+ },
+ "declared": {
+  "bins": "dyadic — structural doubling, never chosen",
+  "window": "widest bin where pronoun is the MAJORITY return form — majority is where a plurality flips, not a tuned constant",
+  "PRONOUN_PRESENT": {
+   "window": 8,
+   "minActivation": 0.2,
+   "minMargin": 0.2
+  },
+  "PRONOUN_RECALL": {
+   "minActivation": 0.05,
+   "minMargin": 0.2
+  }
+ },
+ "cast": 129,
+ "mentions": 5065,
+ "returns": 4625,
+ "curve": [
+  {
+   "gapBin": "1",
+   "returns": 225,
+   "pronounShare": 0,
+   "nameShare": 0.991,
+   "descriptorShare": 0.009
+  },
+  {
+   "gapBin": "2-3",
+   "returns": 580,
+   "pronounShare": 0,
+   "nameShare": 0.988,
+   "descriptorShare": 0.012
+  },
+  {
+   "gapBin": "4-7",
+   "returns": 786,
+   "pronounShare": 0,
+   "nameShare": 0.992,
+   "descriptorShare": 0.008
+  },
+  {
+   "gapBin": "8-15",
+   "returns": 790,
+   "pronounShare": 0,
+   "nameShare": 0.991,
+   "descriptorShare": 0.009
+  },
+  {
+   "gapBin": "16-31",
+   "returns": 622,
+   "pronounShare": 0,
+   "nameShare": 0.957,
+   "descriptorShare": 0.043
+  },
+  {
+   "gapBin": "32-63",
+   "returns": 436,
+   "pronounShare": 0,
+   "nameShare": 0.915,
+   "descriptorShare": 0.085
+  },
+  {
+   "gapBin": "64-127",
+   "returns": 327,
+   "pronounShare": 0,
+   "nameShare": 0.85,
+   "descriptorShare": 0.15
+  },
+  {
+   "gapBin": "128-255",
+   "returns": 306,
+   "pronounShare": 0,
+   "nameShare": 0.814,
+   "descriptorShare": 0.186
+  },
+  {
+   "gapBin": "256-511",
+   "returns": 263,
+   "pronounShare": 0,
+   "nameShare": 0.741,
+   "descriptorShare": 0.259
+  },
+  {
+   "gapBin": "512-1023",
+   "returns": 141,
+   "pronounShare": 0,
+   "nameShare": 0.674,
+   "descriptorShare": 0.326
+  },
+  {
+   "gapBin": "1024-2047",
+   "returns": 108,
+   "pronounShare": 0,
+   "nameShare": 0.806,
+   "descriptorShare": 0.194
+  },
+  {
+   "gapBin": "2048-4095",
+   "returns": 31,
+   "pronounShare": 0,
+   "nameShare": 0.677,
+   "descriptorShare": 0.323
+  },
+  {
+   "gapBin": "4096-8191",
+   "returns": 10,
+   "pronounShare": 0,
+   "nameShare": 0.7,
+   "descriptorShare": 0.3
+  }
+ ],
+ "writerWindow": null,
+ "gamma": null,
+ "prediction": "recorded before the run: pronoun returns collapse within a few sentences (activation layer); name returns survive gaps of hundreds WITHOUT re-gloss (identity layer)"
+}

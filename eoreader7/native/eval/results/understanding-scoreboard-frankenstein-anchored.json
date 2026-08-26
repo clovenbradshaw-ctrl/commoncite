@@ -1,0 +1,315 @@
+{
+  "schema": "EOUnderstandingScoreboard@1",
+  "material": {
+    "path": "legacy-eoreader6.1/scripts/adversarial/fixtures/pg84-frankenstein.txt",
+    "encounters": 3392,
+    "fast": false
+  },
+  "declared": {
+    "cursors": [
+      848,
+      1696,
+      2544
+    ],
+    "shuffleDraws": 2,
+    "seed": 0,
+    "anchoring": {
+      "minActivation": 0.05,
+      "minMargin": 0.2
+    },
+    "canonicalizationFloor": 2,
+    "grain": "sentence — the tier ladder is disclosed future work, not implied"
+  },
+  "ordered": {
+    "label": "ordered",
+    "totals": {
+      "turns": 3392,
+      "hypothesesFinal": 1639,
+      "finalDistinct": 441,
+      "pastRemadeTotal": 11,
+      "pastRemadeReach": {
+        "n": 11,
+        "median": 749,
+        "max": 1653,
+        "min": 197
+      },
+      "firstCanonTotal": 53,
+      "splitsTotal": 441,
+      "hypothesesOpenedTotal": 1596,
+      "alternativesOpenedTotal": 1639,
+      "alternativesSupportedTotal": 70,
+      "hypothesesResolvedTotal": 1,
+      "expectationsFinal": 1639,
+      "expectationsByState": {
+        "violated": 411,
+        "open": 1167,
+        "fulfilled": 59,
+        "strengthened": 2
+      },
+      "expectationsFulfilledTotal": 59,
+      "expectationsViolatedTotal": 411,
+      "obligationsFinal": 0,
+      "provisionalFinal": 1596,
+      "unresolvedAlternativesFinal": 1639
+    },
+    "forward": [
+      {
+        "cursor": 848,
+        "live": 549,
+        "supportedLater": 2,
+        "attacked": 115,
+        "silent": 432
+      },
+      {
+        "cursor": 1696,
+        "live": 834,
+        "supportedLater": 5,
+        "attacked": 132,
+        "silent": 697
+      },
+      {
+        "cursor": 2544,
+        "live": 1032,
+        "supportedLater": 4,
+        "attacked": 85,
+        "silent": 943
+      }
+    ],
+    "backward": [
+      {
+        "cursor": 848,
+        "after": 2544,
+        "pastRemade": 11,
+        "firstCanonicalizations": 50,
+        "identitySplits": 371,
+        "hypothesesOpened": 1183,
+        "alternativesOpened": 1020,
+        "hypothesesSupported": 50,
+        "discourseSupported": 0,
+        "expectationsFulfilledAfter": 40,
+        "expectationsViolatedAfter": 345
+      },
+      {
+        "cursor": 1696,
+        "after": 1696,
+        "pastRemade": 11,
+        "firstCanonicalizations": 39,
+        "identitySplits": 245,
+        "hypothesesOpened": 789,
+        "alternativesOpened": 609,
+        "hypothesesSupported": 26,
+        "discourseSupported": 0,
+        "expectationsFulfilledAfter": 19,
+        "expectationsViolatedAfter": 227
+      },
+      {
+        "cursor": 2544,
+        "after": 848,
+        "pastRemade": 6,
+        "firstCanonicalizations": 22,
+        "identitySplits": 120,
+        "hypothesesOpened": 376,
+        "alternativesOpened": 286,
+        "hypothesesSupported": 10,
+        "discourseSupported": 0,
+        "expectationsFulfilledAfter": 8,
+        "expectationsViolatedAfter": 110
+      }
+    ]
+  },
+  "nulls": [
+    {
+      "label": "shuffled#0",
+      "totals": {
+        "turns": 3392,
+        "hypothesesFinal": 1438,
+        "finalDistinct": 382,
+        "pastRemadeTotal": 2,
+        "pastRemadeReach": {
+          "n": 2,
+          "median": 1557,
+          "max": 2645,
+          "min": 469
+        },
+        "firstCanonTotal": 41,
+        "splitsTotal": 382,
+        "hypothesesOpenedTotal": 1602,
+        "alternativesOpenedTotal": 1438,
+        "alternativesSupportedTotal": 84,
+        "hypothesesResolvedTotal": 1,
+        "expectationsFinal": 1438,
+        "expectationsByState": {
+          "open": 1021,
+          "violated": 349,
+          "fulfilled": 68
+        },
+        "expectationsFulfilledTotal": 68,
+        "expectationsViolatedTotal": 349,
+        "obligationsFinal": 0,
+        "provisionalFinal": 1602,
+        "unresolvedAlternativesFinal": 1438
+      },
+      "forward": [
+        {
+          "cursor": 848,
+          "live": 430,
+          "supportedLater": 12,
+          "attacked": 114,
+          "silent": 304
+        },
+        {
+          "cursor": 1696,
+          "live": 668,
+          "supportedLater": 12,
+          "attacked": 136,
+          "silent": 520
+        },
+        {
+          "cursor": 2544,
+          "live": 884,
+          "supportedLater": 9,
+          "attacked": 96,
+          "silent": 779
+        }
+      ],
+      "backward": [
+        {
+          "cursor": 848,
+          "after": 2544,
+          "pastRemade": 1,
+          "firstCanonicalizations": 40,
+          "identitySplits": 315,
+          "hypothesesOpened": 1247,
+          "alternativesOpened": 941,
+          "hypothesesSupported": 47,
+          "discourseSupported": 1,
+          "expectationsFulfilledAfter": 39,
+          "expectationsViolatedAfter": 291
+        },
+        {
+          "cursor": 1696,
+          "after": 1696,
+          "pastRemade": 1,
+          "firstCanonicalizations": 33,
+          "identitySplits": 226,
+          "hypothesesOpened": 813,
+          "alternativesOpened": 614,
+          "hypothesesSupported": 30,
+          "discourseSupported": 1,
+          "expectationsFulfilledAfter": 22,
+          "expectationsViolatedAfter": 209
+        },
+        {
+          "cursor": 2544,
+          "after": 848,
+          "pastRemade": 1,
+          "firstCanonicalizations": 24,
+          "identitySplits": 126,
+          "hypothesesOpened": 356,
+          "alternativesOpened": 298,
+          "hypothesesSupported": 16,
+          "discourseSupported": 0,
+          "expectationsFulfilledAfter": 11,
+          "expectationsViolatedAfter": 117
+        }
+      ]
+    },
+    {
+      "label": "shuffled#1",
+      "totals": {
+        "turns": 3392,
+        "hypothesesFinal": 1733,
+        "finalDistinct": 502,
+        "pastRemadeTotal": 1,
+        "pastRemadeReach": {
+          "n": 1,
+          "median": 400,
+          "max": 400,
+          "min": 400
+        },
+        "firstCanonTotal": 32,
+        "splitsTotal": 502,
+        "hypothesesOpenedTotal": 1590,
+        "alternativesOpenedTotal": 1733,
+        "alternativesSupportedTotal": 69,
+        "hypothesesResolvedTotal": 1,
+        "expectationsFinal": 1733,
+        "expectationsByState": {
+          "violated": 471,
+          "open": 1201,
+          "fulfilled": 59,
+          "strengthened": 2
+        },
+        "expectationsFulfilledTotal": 59,
+        "expectationsViolatedTotal": 471,
+        "obligationsFinal": 0,
+        "provisionalFinal": 1590,
+        "unresolvedAlternativesFinal": 1733
+      },
+      "forward": [
+        {
+          "cursor": 848,
+          "live": 486,
+          "supportedLater": 10,
+          "attacked": 158,
+          "silent": 318
+        },
+        {
+          "cursor": 1696,
+          "live": 818,
+          "supportedLater": 6,
+          "attacked": 170,
+          "silent": 642
+        },
+        {
+          "cursor": 2544,
+          "live": 1045,
+          "supportedLater": 8,
+          "attacked": 102,
+          "silent": 935
+        }
+      ],
+      "backward": [
+        {
+          "cursor": 848,
+          "after": 2544,
+          "pastRemade": 1,
+          "firstCanonicalizations": 32,
+          "identitySplits": 415,
+          "hypothesesOpened": 1200,
+          "alternativesOpened": 1160,
+          "hypothesesSupported": 52,
+          "discourseSupported": 0,
+          "expectationsFulfilledAfter": 43,
+          "expectationsViolatedAfter": 389
+        },
+        {
+          "cursor": 1696,
+          "after": 1696,
+          "pastRemade": 1,
+          "firstCanonicalizations": 30,
+          "identitySplits": 268,
+          "hypothesesOpened": 797,
+          "alternativesOpened": 681,
+          "hypothesesSupported": 27,
+          "discourseSupported": 0,
+          "expectationsFulfilledAfter": 22,
+          "expectationsViolatedAfter": 252
+        },
+        {
+          "cursor": 2544,
+          "after": 848,
+          "pastRemade": 1,
+          "firstCanonicalizations": 17,
+          "identitySplits": 134,
+          "hypothesesOpened": 404,
+          "alternativesOpened": 320,
+          "hypothesesSupported": 15,
+          "discourseSupported": 0,
+          "expectationsFulfilledAfter": 14,
+          "expectationsViolatedAfter": 127
+        }
+      ]
+    }
+  ]
+}

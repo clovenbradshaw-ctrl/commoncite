@@ -1,0 +1,31 @@
+GENERAL PROVISIONS
+
+Governing Law. This Agreement shall be governed by and construed in accordance with the laws of the State of Delaware, without regard to its conflict of laws principles, and each Party irrevocably submits to the exclusive jurisdiction of the state and federal courts located therein.
+
+Entire Agreement. This Agreement constitutes the entire agreement between the Parties with respect to the subject matter hereof and supersedes all prior and contemporaneous understandings, agreements, representations, and warranties, whether written or oral, with respect to such subject matter.
+
+Severability. If any provision of this Agreement is held to be invalid or unenforceable, the remaining provisions of this Agreement shall continue in full force and effect, and the Parties shall negotiate in good faith to replace the invalid provision with a valid provision that most closely approximates the original intent of Section 1.
+
+Notices. Any notice required or permitted under this Agreement shall be in writing and shall be deemed given when delivered personally, sent by certified mail, or transmitted by electronic mail to the address of the Party set forth in Section 1 of this Agreement.
+
+Assignment. Neither Party may assign this Agreement or any of its rights or obligations hereunder without the prior written consent of the other Party, except that either Party may assign this Agreement in connection with a merger, acquisition, or sale of substantially all of its assets.
+
+Force Majeure. Neither Party shall be liable for any failure or delay in performance under this Agreement to the extent such failure or delay is caused by circumstances beyond the reasonable control of the affected Party, including acts of God, war, or governmental action affecting either Party.
+
+Indemnification. Each Party shall indemnify, defend, and hold harmless the other Party from and against any claims, damages, liabilities, and expenses arising out of a breach of this Agreement by the indemnifying Party or its representatives, as further described in Section 9.
+
+Limitation of Liability. In no event shall either Party be liable to the other Party for any indirect, incidental, special, or consequential damages arising out of or related to this Agreement, even if either Party was advised of the possibility of such damages.
+
+Confidentiality. Each Party agrees to keep confidential all non-public information disclosed by the other Party under this Agreement and shall not disclose such confidential information of the disclosing Party to any third party without the prior written consent of the disclosing Party.
+
+Counterparts. This Agreement may be executed in one or more counterparts, each of which shall be deemed an original, and all of which together shall constitute one and the same instrument, and each Party agrees that this Agreement is binding on each Party upon execution.
+
+Waiver. No waiver by either Party of any breach of this Agreement by the other Party shall be construed as a waiver of any other or subsequent breach of this Agreement, and no waiver by a Party shall be effective unless set forth in writing and signed by the waiving Party.
+
+Amendment. This Agreement may be amended only by a written instrument signed by both Parties, and no amendment to this Agreement or to any Section of this Agreement shall be binding unless it is executed with the same formality as this Agreement itself.
+
+Arbitration. Any dispute between the Parties arising out of or relating to this Agreement shall be resolved by binding arbitration administered in accordance with the rules then in effect, and judgment on the arbitration award may be entered in any court having jurisdiction over the Parties.
+
+Independent Contractors. Nothing in this Agreement shall be construed to create a partnership, joint venture, or agency relationship between the Parties, and each Party shall remain an independent contractor with respect to all matters arising under this Agreement.
+
+Headings. The headings used in this Agreement and in each Section of this Agreement are for convenience of reference only and shall not affect the interpretation of any Section or provision of this Agreement by either Party.

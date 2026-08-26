@@ -1,0 +1,253 @@
+{
+  "fetchedBy": "goldens/cast/fetch.mjs",
+  "books": [
+    {
+      "pgId": 24264,
+      "lang": "zh",
+      "title": "紅樓夢",
+      "script": "Han (Traditional)",
+      "reference": {
+        "wiki": "zh.wikipedia.org",
+        "title": "红楼梦角色列表",
+        "pageId": 691194,
+        "revId": 92814285,
+        "revTimestamp": "2026-05-27T08:34:19Z",
+        "wikitextBytes": 31549,
+        "wikitextSha256": "427bbc7627bb8240389dce4533a2ac6c32647ae0c1ce6cece20b9e6aa6f7a589"
+      },
+      "material": [
+        {
+          "pgId": 24264,
+          "bytes": 2663455,
+          "sha256": "ff1526996bf4b81807651921a85e5c1c0f1d1d123c9fa4553057ba6a3ec72011",
+          "url": "https://www.gutenberg.org/ebooks/24264.txt.utf-8"
+        }
+      ]
+    },
+    {
+      "pgId": 23962,
+      "lang": "zh",
+      "title": "西遊記",
+      "script": "Han (Traditional)",
+      "reference": {
+        "wiki": "zh.wikipedia.org",
+        "title": "西游记角色列表",
+        "pageId": 53748,
+        "revId": 93437234,
+        "revTimestamp": "2026-07-12T17:40:51Z",
+        "wikitextBytes": 59024,
+        "wikitextSha256": "09eb47ae6c8db2e42a45d48af320087a3f5b0b00ba114d5530eddf3e63239372"
+      },
+      "material": [
+        {
+          "pgId": 23962,
+          "bytes": 2264069,
+          "sha256": "af3c9e408c0c58595b666ed9981b6fa1e9343f4bbc78309b1cb0818c32fc1f58",
+          "url": "https://www.gutenberg.org/ebooks/23962.txt.utf-8"
+        }
+      ]
+    },
+    {
+      "pgId": 36248,
+      "lang": "el",
+      "title": "Ιλιάδα",
+      "script": "Greek",
+      "reference": {
+        "wiki": "en.wikipedia.org",
+        "title": "List of Homeric characters",
+        "pageId": 9598008,
+        "revId": 1354255628,
+        "revTimestamp": "2026-05-15T07:36:21Z",
+        "wikitextBytes": 12092,
+        "wikitextSha256": "25640c77f934a6c1ebb8b6e8b0e0f6f020972855c5717224e0e0cf6665a19a24"
+      },
+      "material": [
+        {
+          "pgId": 36248,
+          "bytes": 1213078,
+          "sha256": "0aa8eb56309018cb25bfe4081bad1694bc9e43d6a6e69412e93db2fc62634d42",
+          "url": "https://www.gutenberg.org/ebooks/36248.txt.utf-8"
+        }
+      ]
+    },
+    {
+      "pgId": 30613,
+      "lang": "el",
+      "title": "Ομήρου Οδύσσεια",
+      "script": "Greek",
+      "reference": {
+        "wiki": "en.wikipedia.org",
+        "title": "List of Homeric characters",
+        "pageId": 9598008,
+        "revId": 1354255628,
+        "revTimestamp": "2026-05-15T07:36:21Z",
+        "wikitextBytes": 12092,
+        "wikitextSha256": "25640c77f934a6c1ebb8b6e8b0e0f6f020972855c5717224e0e0cf6665a19a24"
+      },
+      "material": [
+        {
+          "pgId": 30613,
+          "bytes": 292484,
+          "sha256": "04e1c9364d80bffd12206c8d3a7e1c56b9248be3740357a7fe96706e114848e5",
+          "url": "https://www.gutenberg.org/ebooks/30613.txt.utf-8"
+        },
+        {
+          "pgId": 30614,
+          "bytes": 303402,
+          "sha256": "9191fe8a3c91b518f89b60b2a19e1a0741efea0c5bf8aaf7c671f758564e8b91",
+          "url": "https://www.gutenberg.org/ebooks/30614.txt.utf-8"
+        },
+        {
+          "pgId": 30615,
+          "bytes": 293214,
+          "sha256": "301f3cc3e18011dd02ee2cdb85fae9c90efcf713f9ae9bbaf2b55cb148b36078",
+          "url": "https://www.gutenberg.org/ebooks/30615.txt.utf-8"
+        }
+      ]
+    },
+    {
+      "pgId": 34811,
+      "lang": "de",
+      "title": "Buddenbrooks: Verfall einer Familie",
+      "script": "Latin",
+      "reference": {
+        "wiki": "de.wikipedia.org",
+        "title": "Buddenbrooks",
+        "pageId": 95023,
+        "revId": 267511911,
+        "revTimestamp": "2026-05-30T15:11:58Z",
+        "wikitextBytes": 148022,
+        "wikitextSha256": "aa62b6e7566749ff2b2c9e186b4d6c496cea864df1277e37612a2bcf17eaa036"
+      },
+      "material": [
+        {
+          "pgId": 34811,
+          "bytes": 1602317,
+          "sha256": "59b2688c4de9b74ccc7feca9051c22fd5202fa31b58fe0e5f54b79d3f895d375",
+          "url": "https://www.gutenberg.org/ebooks/34811.txt.utf-8"
+        }
+      ]
+    },
+    {
+      "pgId": 6497,
+      "lang": "fr",
+      "title": "L'Assommoir",
+      "script": "Latin",
+      "reference": {
+        "wiki": "fr.wikipedia.org",
+        "title": "L'Assommoir",
+        "pageId": 1116196,
+        "revId": 238214835,
+        "revTimestamp": "2026-07-30T03:37:36Z",
+        "wikitextBytes": 35793,
+        "wikitextSha256": "e22a3419fd7bc792602b133ba97680b17118bc836d3f0fa5b8cb361b1002165f"
+      },
+      "material": [
+        {
+          "pgId": 6497,
+          "bytes": 1018417,
+          "sha256": "1401576eda51e74741a652006ba31377c89247ffffec203e6d76c1942cd9c0af",
+          "url": "https://www.gutenberg.org/ebooks/6497.txt.utf-8"
+        }
+      ]
+    },
+    {
+      "pgId": 11940,
+      "lang": "fi",
+      "title": "Seitsemän veljestä",
+      "script": "Latin",
+      "reference": {
+        "wiki": "fi.wikipedia.org",
+        "title": "Seitsemän veljestä",
+        "pageId": 19607,
+        "revId": 23943947,
+        "revTimestamp": "2026-04-13T14:19:19Z",
+        "wikitextBytes": 28829,
+        "wikitextSha256": "888c4cdf1e8d334e512f841e9ef602b7a205b7b8f277a6fb2b7dde51bdc8aaed"
+      },
+      "material": [
+        {
+          "pgId": 11940,
+          "bytes": 691459,
+          "sha256": "0119fd78e5c0d8eae99ff51f968ef0b5d4a9d23851fc46b289d78b37879278d8",
+          "url": "https://www.gutenberg.org/ebooks/11940.txt.utf-8"
+        }
+      ]
+    },
+    {
+      "pgId": 69689,
+      "lang": "hu",
+      "title": "A Pál utcai fiúk",
+      "script": "Latin",
+      "reference": {
+        "wiki": "hu.wikipedia.org",
+        "title": "A Pál utcai fiúk",
+        "pageId": 67843,
+        "revId": 29233513,
+        "revTimestamp": "2026-07-25T14:50:42Z",
+        "wikitextBytes": 62429,
+        "wikitextSha256": "f0a96ed793de9e9b55dd4c51949f43daabcd31e4892df21e8388df66c1bc8454"
+      },
+      "material": [
+        {
+          "pgId": 69689,
+          "bytes": 327802,
+          "sha256": "54c4486ba72065ff36353e27cf235c49563743b545a78ce0e9e5df28ca235586",
+          "url": "https://www.gutenberg.org/ebooks/69689.txt.utf-8"
+        }
+      ]
+    },
+    {
+      "pgId": 76235,
+      "lang": "hu",
+      "title": "Egri csillagok (I. kötet)",
+      "script": "Latin",
+      "reference": {
+        "wiki": "hu.wikipedia.org",
+        "title": "Egri csillagok",
+        "pageId": 20649,
+        "revId": 29081758,
+        "revTimestamp": "2026-06-09T13:17:56Z",
+        "wikitextBytes": 30075,
+        "wikitextSha256": "a56ee10d3ccfe9f56821916f4f18bb70f9e94e1a9225f5262d375b5652c201a1"
+      },
+      "material": [
+        {
+          "pgId": 76235,
+          "bytes": 521428,
+          "sha256": "8212b5c0dc2cf0efad98cff1b42c71403eb95433f24554cfde9346b981799bbe",
+          "url": "https://www.gutenberg.org/ebooks/76235.txt.utf-8"
+        },
+        {
+          "pgId": 76236,
+          "bytes": 492515,
+          "sha256": "a5f6956bcce8d3f78f277f7e10e596db5faf1c72fb955fa64eac9a6a9e21df2d",
+          "url": "https://www.gutenberg.org/ebooks/76236.txt.utf-8"
+        }
+      ]
+    },
+    {
+      "pgId": 11024,
+      "lang": "nl",
+      "title": "Max Havelaar",
+      "script": "Latin",
+      "reference": {
+        "wiki": "nl.wikipedia.org",
+        "title": "Max Havelaar (boek)",
+        "pageId": 1082,
+        "revId": 71610353,
+        "revTimestamp": "2026-07-19T16:53:50Z",
+        "wikitextBytes": 27941,
+        "wikitextSha256": "ba8098cca261f64e3d9492683a61b161c4158ffbe37a4d1d2aa5dc2e94c61b95"
+      },
+      "material": [
+        {
+          "pgId": 11024,
+          "bytes": 796449,
+          "sha256": "9cf9f2efa248146886505437f30f0f8fe906384b77bea7ac91ff72c347de1a9c",
+          "url": "https://www.gutenberg.org/ebooks/11024.txt.utf-8"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+ "schema": "EOLeversRun@1",
+ "book": "pg84.txt",
+ "assembly": "host cast (coref-primed) + causal perceiver pass + both pronoun arms + whole-book vocabulary rerun in-driver (S4 re-ground posture; perceiver itself unchanged)",
+ "declared": {
+  "MIN_ARRIVALS": "4 (Born gate: floor(arrivals/2)>=2 decides)",
+  "MIN_SURFACES": 2,
+  "PRONOUN_RECALL": {
+   "minActivation": 0.05,
+   "minMargin": 0.2
+  },
+  "PRONOUN_PRESENT": {
+   "window": 8,
+   "minActivation": 0.2,
+   "minMargin": 0.2
+  }
+ },
+ "lever2_descriptorBeings": {
+  "occurrencesSeen": 7393,
+  "anchoredSurfacesExcluded": 1236,
+  "admitted": [
+   {
+    "id": "ref:desc:the_murder",
+    "display": "the murder",
+    "arrivals": 11
+   },
+   {
+    "id": "ref:desc:the_turk",
+    "display": "The Turk",
+    "arrivals": 8
+   },
+   {
+    "id": "ref:desc:the_child",
+    "display": "the child",
+    "arrivals": 6
+   },
+   {
+    "id": "ref:desc:the_south",
+    "display": "the south",
+    "arrivals": 5
+   },
+   {
+    "id": "ref:desc:the_city",
+    "display": "the city",
+    "arrivals": 4
+   }
+  ],
+  "refusedSample": [
+   {
+    "surface": "the regions",
+    "reason": "descriptor_below_arrivals",
+    "arrivals": 2,
+    "detail": "2 distinct-sentence arrivals, below the declared 4"
+   },
+   {
+    "surface": "the phenomena",
+    "reason": "descriptor_below_arrivals",
+    "arrivals": 2,
+    "detail": "2 distinct-sentence arrivals, below the declared 4"
+   },
+   {
+    "surface": "this voyage",
+    "reason": "descriptor_below_arrivals",
+    "arrivals": 2,
+    "detail": "2 distinct-sentence arrivals, below the declared 4"
+   },
+   {
+    "surface": "the pole",
+    "reason": "descriptor_below_arrivals",
+    "arrivals": 2,
+    "detail": "2 distinct-sentence arrivals, below the declared 4"
+   },
+   {
+    "surface": "the agitation",
+    "reason": "descriptor_below_arrivals",
+    "arrivals": 3,
+    "detail": "3 distinct-sentence arrivals, below the declared 4"
+   },
+   {
+    "surface": "this expedition",
+    "reason": "descriptor_below_arrivals",
+    "arrivals": 2,
+    "detail": "2 distinct-sentence arrivals, below the declared 4"
+   },
+   {
+    "surface": "the accounts",
+    "reason": "descriptor_below_arrivals",
+    "arrivals": 2,
+    "detail": "2 distinct-sentence arrivals, below the declared 4"
+   },
+   {
+    "surface": "the seas",
+    "reason": "descriptor_below_arrivals",
+    "arrivals": 2,
+    "detail": "2 distinct-sentence arrivals, below the declared 4"
+   }
+  ],
+  "pronounBindings": {
+   "thematic": {
+    "narrow": 632,
+    "widened": 628,
+    "toDescriptorBeings": 19
+   },
+   "activation": {
+    "narrow": 894,
+    "widened": 895,
+    "toDescriptorBeings": 34
+   }
+  }
+ },
+ "lever3_actClosure": {
+  "prior": {
+   "giver": "UniMorph English (github.com/unimorph/eng)",
+   "language": "eng",
+   "irregularForms": 5531
+  },
+  "measuredActs": 43,
+  "formsAfterClosure": 120,
+  "addedSample": [
+   {
+    "form": "do",
+    "sameActAs": "does"
+   },
+   {
+    "form": "become",
+    "sameActAs": "became"
+   },
+   {
+    "form": "seeming",
+    "sameActAs": "seemed"
+   },
+   {
+    "form": "had",
+    "sameActAs": "has"
+   },
+   {
+    "form": "dying",
+    "sameActAs": "died"
+   },
+   {
+    "form": "done",
+    "sameActAs": "does"
+   },
+   {
+    "form": "see",
+    "sameActAs": "saw"
+   },
+   {
+    "form": "appear",
+    "sameActAs": "appeared"
+   },
+   {
+    "form": "endeavour",
+    "sameActAs": "endeavoured"
+   },
+   {
+    "form": "desire",
+    "sameActAs": "desired"
+   },
+   {
+    "form": "reply",
+    "sameActAs": "replied"
+   },
+   {
+    "form": "becoming",
+    "sameActAs": "became"
+   },
+   {
+    "form": "call",
+    "sameActAs": "called"
+   },
+   {
+    "form": "having",
+    "sameActAs": "has"
+   },
+   {
+    "form": "going",
+    "sameActAs": "went"
+   },
+   {
+    "form": "come",
+    "sameActAs": "came"
+   },
+   {
+    "form": "look",
+    "sameActAs": "looked"
+   },
+   {
+    "form": "continue",
+    "sameActAs": "continued"
+   },
+   {
+    "form": "say",
+    "sameActAs": "said"
+   },
+   {
+    "form": "endeavours",
+    "sameActAs": "endeavoured"
+   }
+  ],
+  "extraction": {
+   "beforeClosure": {
+    "edges": 2621,
+    "pronounEnds": 176
+   },
+   "afterClosure": {
+    "edges": 3643,
+    "pronounEnds": 230
+   }
+  }
+ },
+ "lever1_anchorSpans": {
+  "boundPronounSpans": 328,
+  "vocabulary": {
+   "baseline": 23,
+   "withSpans": 43,
+   "newVerbs": [
+    "continued",
+    "called",
+    "died",
+    "replied",
+    "bestowed",
+    "fainted",
+    "did",
+    "wished",
+    "may",
+    "said",
+    "hastened",
+    "have",
+    "observed",
+    "showed",
+    "found",
+    "began",
+    "held",
+    "cried",
+    "looked",
+    "eloquence"
+   ]
+  },
+  "extraction": {
+   "baseline": {
+    "edges": 1945,
+    "pronounEnds": 118
+   },
+   "withSpans": {
+    "edges": 2621,
+    "pronounEnds": 176
+   }
+  }
+ }
+}

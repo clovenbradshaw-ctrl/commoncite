@@ -1,0 +1,139 @@
+{
+ "schema": "EOConstitutionalRead@1",
+ "assembly": "legacy-eoreader6.1 packages/host — createSession / admitChunked / sessionReferents (discoveredCast: surfaces -> witnessed referents -> pronoun binding -> relation vocabulary) / sessionRelations",
+ "source": "file:pg84-frankenstein.txt",
+ "priorsInjected": [
+  {
+   "kind": "language",
+   "giver": "bin/priors/lang/en.json",
+   "via": "admitChunked({ language: \"en\" })"
+  },
+  {
+   "kind": "coref",
+   "giver": "Project Gutenberg pg84 — Frankenstein; or, The Modern Prometheus (Shelley)",
+   "version": "coref-prior@1.0.0",
+   "via": "sessionReferents({ priors })"
+  }
+ ],
+ "corefPrimed": true,
+ "foldUnit": "sentence (the perceiver's own unit)",
+ "stagesRun": [
+  "1 perception (statistics from the material)",
+  "2 witnessed admission (byte-accurate spans, provenance registered)",
+  "3 alias resolution (name-variant coreference)",
+  "4 pronoun binding (one-hop activation recall)",
+  "5a typed directional relation - SVO extraction (the thin layer; P6: 2.1% admission on the reference run)"
+ ],
+ "stagesNotRun": [
+  "5b binding layer (displacement null / transfer entropy / reversal null - emergence/binding.js; P6 calls THIS the substantive product; 6.1's own reference run drives it from a script, not the host)",
+  "6 altitude (tiers)",
+  "7 population (classifyIndividuation)",
+  "8 kind (jati/induceKinds)"
+ ],
+ "admission": {
+  "chunks": 224,
+  "spans": 224
+ },
+ "byteVerification": {
+  "sampled": 25,
+  "verified": 25,
+  "rule": "P5.2 - offsets re-sliced against the received bytes; 0-verified is the CRLF bug's shape"
+ },
+ "cast": {
+  "referents": 99,
+  "pronounMentions": 648,
+  "gapDetails": [
+   "pronoun_and_descriptor_mentions_unresolved: 98 discovered referents: name-variant coreference is engine-tier and complete; binding pronouns and definite descriptions to this referent is not derivable (eoreader5 measured distributional coref failing twice). Supply a per-text prior to close this gap.",
+   "pronoun_mentions_partially_resolved: 648 third-person singular pronoun mentions bound to a referent by activation recall; 809 remain unresolved (below the declared activation or margin floor, gender-incompatible with every candidate named so far, or nothing named yet to recall). Descriptor synonymy is untouched by either count and remains not derivable (eoreader5 measured distributional coref failing twice). Supply a per-text prior to close what remains."
+  ],
+  "top": [
+   {
+    "display": "Elizabeth",
+    "mentions": 89,
+    "pronounMentions": 54,
+    "fromPrior": false,
+    "individuation": "holon"
+   },
+   {
+    "display": "Clerval",
+    "mentions": 59,
+    "pronounMentions": 49,
+    "fromPrior": false,
+    "individuation": "holon"
+   },
+   {
+    "display": "Justine",
+    "mentions": 55,
+    "pronounMentions": 15,
+    "fromPrior": false,
+    "individuation": "holon"
+   },
+   {
+    "display": "Felix",
+    "mentions": 50,
+    "pronounMentions": 38,
+    "fromPrior": false,
+    "individuation": "holon"
+   },
+   {
+    "display": "Geneva",
+    "mentions": 36,
+    "pronounMentions": 30,
+    "fromPrior": false,
+    "individuation": "holon"
+   },
+   {
+    "display": "Frankenstein",
+    "mentions": 31,
+    "pronounMentions": 7,
+    "fromPrior": false,
+    "individuation": "holon"
+   },
+   {
+    "display": "Victor",
+    "mentions": 28,
+    "pronounMentions": 0,
+    "fromPrior": false,
+    "individuation": "holon"
+   },
+   {
+    "display": "Henry Clerval",
+    "mentions": 26,
+    "pronounMentions": 23,
+    "fromPrior": false,
+    "individuation": "holon"
+   },
+   {
+    "display": "William",
+    "mentions": 25,
+    "pronounMentions": 5,
+    "fromPrior": false,
+    "individuation": "holon"
+   },
+   {
+    "display": "Safie",
+    "mentions": 25,
+    "pronounMentions": 0,
+    "fromPrior": false,
+    "individuation": "holon"
+   },
+   {
+    "display": "Agatha",
+    "mentions": 22,
+    "pronounMentions": 1,
+    "fromPrior": false,
+    "individuation": "holon"
+   },
+   {
+    "display": "God",
+    "mentions": 22,
+    "pronounMentions": 12,
+    "fromPrior": false,
+    "individuation": "holon"
+   }
+  ]
+ },
+ "relations": {
+  "triples": 2925
+ }
+}

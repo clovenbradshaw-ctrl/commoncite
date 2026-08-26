@@ -1,0 +1,84 @@
+{
+ "schema": "EOForgettingFalsificationRun@1",
+ "mode": "book",
+ "file": "frankenstein.txt",
+ "meta": {
+  "cast": 99,
+  "unit": "sentence"
+ },
+ "declared": {
+  "d": "0.5 — ACT-R's received standard, giver named (Anderson)",
+  "identityFloor": "seen >= 2 (binding.js's structural minimum)",
+  "SEED": 20260825
+ },
+ "arms": {
+  "real": {
+   "arm": "real",
+   "steps": 576,
+   "chance": 0.037258328068152595,
+   "meanPrecisionAtK": {
+    "baseline:base-rate": 0.1426311728395062,
+    "baseline:recency": 0.21153549382716047,
+    "candidate:actr-prior": 0.22442129629629626,
+    "candidate:need-odds-measured": 0.2256655092592593
+   },
+   "pairedHeadline": [
+    {
+     "of": "candidate:actr-prior minus baseline:base-rate",
+     "meanDelta": 0.08179,
+     "stepsBetter": 87,
+     "stepsWorse": 24,
+     "z": 5.32
+    },
+    {
+     "of": "candidate:need-odds-measured minus baseline:base-rate",
+     "meanDelta": 0.08303,
+     "stepsBetter": 100,
+     "stepsWorse": 45,
+     "z": 4.68
+    },
+    {
+     "of": "candidate:actr-prior minus baseline:recency",
+     "meanDelta": 0.01289,
+     "stepsBetter": 80,
+     "stepsWorse": 70,
+     "z": 0.7
+    }
+   ]
+  },
+  "null": {
+   "arm": "shuffled",
+   "steps": 573,
+   "chance": 0.03416743783852012,
+   "meanPrecisionAtK": {
+    "baseline:base-rate": 0.13508822959084738,
+    "baseline:recency": 0.06507659491952685,
+    "candidate:actr-prior": 0.13188869497770023,
+    "candidate:need-odds-measured": 0.09140003878223774
+   },
+   "pairedHeadline": [
+    {
+     "of": "candidate:actr-prior minus baseline:base-rate",
+     "meanDelta": -0.0032,
+     "stepsBetter": 16,
+     "stepsWorse": 19,
+     "z": -0.42
+    },
+    {
+     "of": "candidate:need-odds-measured minus baseline:base-rate",
+     "meanDelta": -0.04369,
+     "stepsBetter": 25,
+     "stepsWorse": 58,
+     "z": -3.37
+    },
+    {
+     "of": "candidate:actr-prior minus baseline:recency",
+     "meanDelta": 0.06681,
+     "stepsBetter": 64,
+     "stepsWorse": 18,
+     "z": 5.1
+    }
+   ]
+  }
+ }
+}
