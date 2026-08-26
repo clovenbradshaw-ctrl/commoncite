@@ -60,7 +60,11 @@ export default function Commoncite() {
   const [section, setSection] = useState(0);
   const [selectedConcept, setSelectedConcept] = useState("");
   const [showConceptLinks, setShowConceptLinks] = useState(true);
+  const [importing, setImporting] = useState(false);
+  const [dragActive, setDragActive] = useState(false);
+  const [importUrl, setImportUrl] = useState("");
   const fileInput = useRef<HTMLInputElement | null>(null);
+  const witnessFileInput = useRef<HTMLInputElement | null>(null);
 
   useEffect(() => {
     fetch("/data/active-witness.json").then((response) => response.ok ? response.json() : null).then((payload) => { if (payload) setWitness(payload as Witness); }).catch(() => {});
@@ -100,6 +104,35 @@ export default function Commoncite() {
     }).catch((reason: Error) => setError(reason.message));
   }
 
+  function describeImportError(reason: unknown) {
+    const message = reason instanceof Error ? reason.message : String(reason);
+    if (/failed to fetch|networkerror|econnrefused|load failed/i.test(message)) {
+      return "The local import service isn't running. It should start automatically with npm run dev — check that terminal for errors.";
+    }
+    return message;
+  }
+
+  async function acceptWitness(response: Response) {
+    const payload = await response.json().catch(() => null);
+    if (!response.ok || !payload?.witness) throw new Error(payload?.error || `Import failed (${response.status}).`);
+    setWitness(payload.witness as Witness); setView("Document"); setSelectedConcept("");
+  }
+
+  function importFile(file: File) {
+    setError(""); setImporting(true);
+    fetch("/local-import/import-file", {
+      method: "POST",
+      headers: { "Content-Type": file.type || "application/octet-stream", "X-Filename": encodeURIComponent(file.name) },
+      body: file,
+    }).then(acceptWitness).catch((reason) => setError(describeImportError(reason))).finally(() => setImporting(false));
+  }
+
+  function importFromUrl(url: string) {
+    setError(""); setImporting(true);
+    fetch("/local-import/import-url", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ url }) })
+      .then(acceptWitness).catch((reason) => setError(describeImportError(reason))).finally(() => setImporting(false));
+  }
+
   function renderConceptSegment(text: string, key: string) {
     if (!showConceptLinks || !conceptMap.regex) return [text];
     return text.split(conceptMap.regex).map((part, index) => {
@@ -137,11 +170,31 @@ export default function Commoncite() {
     <article>
       <p className="kicker">No source is bundled</p>
       <h1>Import anything. Preserve what it actually says.</h1>
-      <p className="deck">Files and URLs enter as content-addressed witnesses. Deterministic adapters recover source-native text or structure; EOReader maps grammar, referents, relations, and explicit gaps without an LLM.</p>
-      <div className="import-actions"><button onClick={() => fileInput.current?.click()}>Open a witness JSON</button><input ref={fileInput} type="file" accept="application/json,.json" hidden onChange={(event) => { const file = event.target.files?.[0]; if (file) loadFile(file); }} /><code>npm run import:anything -- &lt;file-or-url&gt;</code></div>
+      <p className="deck">Drop in a file or paste a URL. Deterministic adapters recover source-native text or structure; EOReader maps grammar, referents, relations, and explicit gaps without an LLM.</p>
+
+      <div
+        className={`drop-zone${dragActive ? " active" : ""}${importing ? " busy" : ""}`}
+        onDragOver={(event) => { event.preventDefault(); if (!importing) setDragActive(true); }}
+        onDragLeave={() => setDragActive(false)}
+        onDrop={(event) => { event.preventDefault(); setDragActive(false); const file = event.dataTransfer.files?.[0]; if (file && !importing) importFile(file); }}
+      >
+        {importing ? <p>Importing — running EOReader, no model call…</p> : <>
+          <p>Drop a file here, or</p>
+          <button onClick={() => fileInput.current?.click()}>Choose a file</button>
+          <input ref={fileInput} type="file" accept=".pdf,.docx,.html,.htm,.xml,.json,.geojson,.csv,.tsv,.md,.txt,.yaml,.yml" hidden onChange={(event) => { const file = event.target.files?.[0]; if (file) importFile(file); event.target.value = ""; }} />
+          <small>PDF, DOCX, HTML, JSON, GeoJSON, CSV, Markdown, text — anything else is still retained as a binary witness</small>
+        </>}
+      </div>
+
+      <form className="url-import" onSubmit={(event) => { event.preventDefault(); if (importUrl.trim()) importFromUrl(importUrl.trim()); }}>
+        <input type="url" placeholder="https://example.gov/report.pdf" value={importUrl} onChange={(event) => setImportUrl(event.target.value)} disabled={importing} required />
+        <button type="submit" disabled={importing || !importUrl.trim()}>Import from URL</button>
+      </form>
+
       {error && <p className="error">{error}</p>}
-      <section className="import-grid"><div><b>1 · Witness</b><p>Hash and retain the original bytes before interpretation.</p></div><div><b>2 · Adapt</b><p>PDF, DOCX, HTML, JSON, GeoJSON, CSV, text, and unknown binary all have explicit outcomes.</p></div><div><b>3 · Read</b><p>EOReader 6.1 maps the recovered content with no model call.</p></div><div><b>4 · Project</b><p>The same witness becomes a wiki document, concept pages, definitions, and source trails.</p></div></section>
+      <section className="import-grid"><div><b>1 · Witness</b><p>Hash and retain the original bytes before interpretation.</p></div><div><b>2 · Adapt</b><p>PDF, DOCX, HTML, JSON, GeoJSON, CSV, text, and unknown binary all have explicit outcomes.</p></div><div><b>3 · Read</b><p>EOReader 7 maps the recovered content with no model call.</p></div><div><b>4 · Project</b><p>The same witness becomes a wiki document, concept pages, definitions, and source trails.</p></div></section>
       <details><summary>What happens to an unsupported format?</summary><p>Its bytes, hash, media type, and provenance still enter the record. Semantic extraction is recorded as an explicit gap; the importer does not guess.</p></details>
+      <details><summary>Advanced: load an exported witness file directly</summary><p>If you already have a <code>CommonRecordWitness@1</code> JSON file — from <code>npm run import:anything</code>, or exported from another Commoncite session — you can load it without re-running extraction.</p><button onClick={() => witnessFileInput.current?.click()}>Open a witness JSON</button><input ref={witnessFileInput} type="file" accept="application/json,.json" hidden onChange={(event) => { const file = event.target.files?.[0]; if (file) loadFile(file); event.target.value = ""; }} /></details>
     </article>
   </main>;
 

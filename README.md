@@ -32,28 +32,40 @@ Requirements:
 ```sh
 cd site-source
 npm install
-npm run import:anything -- /path/to/source.pdf
 npm run dev
 ```
 
-The bundled engine is detected automatically. Set `EOREADER_ROOT` only to test a different EOReader 7 checkout.
+Open `http://localhost:5173` and drop a file, or paste a URL. That's the primary way to import — no separate command to run first.
 
-URL, GeoJSON, and tabular examples:
+The CLI still works too, for scripting or batch imports:
 
 ```sh
+npm run import:anything -- /path/to/source.pdf
 npm run import:anything -- https://example.gov/report.pdf
 npm run import:anything -- https://example.gov/layer.geojson --title "Parcel layer"
 npm run import:anything -- ./records.csv --stable-uri https://archive.example/records.csv
 ```
 
-The importer creates:
+Both paths share the same adapter code (`scripts/import-core.mjs`) and the same bundled engine, detected automatically. Set `EOREADER_ROOT` only to test a different EOReader 7 checkout.
 
-- `public/data/active-witness.json` — the active normalized witness.
-- `public/imports/<sha256>.<extension>` — the preserved source bytes.
+A few differences worth knowing:
 
-Both paths are git-ignored: imported material stays local and never enters this repository.
+- Both preserve the original bytes to `public/imports/<sha256>.<extension>` — git-ignored, so imported material stays local and never enters this repository.
+- A CLI import also writes the normalized witness to `public/data/active-witness.json` (or `--output`). A browser import keeps its witness in that tab's own memory instead, so a second import in another tab never collides with the first.
+- The browser path needs a second process, described next.
 
 The site then projects the witness as a continuous document, sections, gated concept pages, definition candidates, exact passage anchors, and an engine receipt.
+
+### Why `npm run dev` starts two processes
+
+`pdftotext`, `unzip`, and the vendored EOReader engine all need a real Node process with real filesystem access. This app's own route handlers don't have that — they run in a sandboxed Workers/Miniflare runtime with no `child_process` and no access to anything outside the bundled site.
+
+So `npm run dev` (via `scripts/dev.sh`) starts two things together, stopped together:
+
+- vite, serving the app itself.
+- `scripts/import-server.mjs` — a plain, dependency-free Node HTTP server that does the real import work. `vite.config.ts`'s dev-server proxy exposes it to the browser at `/local-import/*`, same-origin, no CORS setup needed.
+
+This is dev-only. There's no equivalent path in a deployed Cloudflare Worker build, since Workers can't spawn `pdftotext` either. If the browser's import UI reports the service isn't running, check the terminal `npm run dev` is running in.
 
 ## The important boundary
 

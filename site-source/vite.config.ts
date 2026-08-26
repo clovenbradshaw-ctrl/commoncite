@@ -26,6 +26,18 @@ export default defineConfig(async () => {
     server: {
       host: "0.0.0.0",
       allowedHosts: ["terminal.local"],
+      // The app's own route handlers run inside a sandboxed Workers/Miniflare
+      // runtime with no child_process and no real filesystem access, so they
+      // can't run pdftotext/unzip/the vendored engine. scripts/import-server.mjs
+      // is a plain Node process (started by scripts/dev.sh) that can; this proxy
+      // is what lets the browser's import UI reach it same-origin, no CORS setup.
+      proxy: {
+        "/local-import": {
+          target: `http://localhost:${process.env.IMPORT_SERVER_PORT || 8934}`,
+          changeOrigin: true,
+          rewrite: (requestPath) => requestPath.replace(/^\/local-import/, ""),
+        },
+      },
       ...(isCodexSeatbeltSandbox
         ? { watch: { useFsEvents: false, usePolling: true } }
         : {}),

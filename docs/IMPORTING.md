@@ -1,5 +1,7 @@
 # Importing anything
 
+Two equivalent ways in: the browser (drop a file or paste a URL at `http://localhost:5173` while `npm run dev` is running — see the README's Quick start), or the CLI documented here. Both call the same adapter code in `scripts/import-core.mjs`.
+
 ## Command
 
 ```sh
@@ -48,4 +50,4 @@ Single recovered texts larger than roughly 60,000 characters are deterministical
 
 ## Adding an adapter
 
-Extend `extractText()` in `scripts/import-anything.mjs`. Unknown formats must continue to fall through to the binary-witness result. The original bytes must be preserved whether or not extraction succeeds.
+Extend `extractText()` in `scripts/import-core.mjs` — both the CLI and the browser's local import service (`scripts/import-server.mjs`) call it, so a new adapter works everywhere at once. Unknown formats must continue to fall through to the binary-witness result. The original bytes must be preserved whether or not extraction succeeds.
