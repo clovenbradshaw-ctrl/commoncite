@@ -1,7 +1,7 @@
 983cfa023139917e4089ebd8abc86893e670fe3a19b676e849a61f85bbf30166  ./.gitignore
 e69d1886afdfe2ee220b500170abc6f9ffadbf3ad3badc433323657093bc4bbc  ./MANIFEST.json
 b3255dbdbda2e43c35d544d0b0357dbcbc8d4f0640ccab263943e91c91d84ffb  ./README.md
-e35ca93debb5b770de919378f7aa6f61b6532d3e437bd7b0a65a02c3f50a8851  ./docs/IMPORTING.md
+6332da60a152458fa5e19e8cc446575f2d7e106fc349442819880a44a656aea0  ./docs/IMPORTING.md
 7703d07d1a9fda3f7be3d9d4fde2d61b17754b7a1e6e84299b73432abcd1239b  ./docs/PROVENANCE.md
 cb24a45ae3ed55f70104969092156117831db26ef2a055e1409cc42fb7cb0fd9  ./eoreader7/.gitignore
 a4b11994b538681991165bdee081aaf2f7984b0721e183afe7c36f1b50680b90  ./eoreader7/CLAUDE.md
@@ -1574,9 +1574,9 @@ df4a957f49da8975945eee3e7fd7bfa9d84ff2feac35bc77708f672bd0b72848  ./eoreader7/ve
 5e9dfb4d2d16e479fe22905c53e558aeed64634a1bdd0d5bc0d7419ee9e6920d  ./site-source/.gitignore
 494e64a8818b6158e89321250500ad5ad018e33ad5cfea06a1cacd2cf4da75fa  ./site-source/.npmrc
 17a965f8948b21510cdf8ecbd70c5fdf58100e10970463f6a8fd2cc4795f8044  ./site-source/app/chatgpt-auth.ts
-52aedd6d29313c8ce463eb54997f131c465fdbe3476a819965737e968e3aa00f  ./site-source/app/globals.css
+66cc6aa07326ea79409ae5ad812aebbeb8d9d8a66c4d9afc7b0c897327685927  ./site-source/app/globals.css
 bf1b8787e9f78359d6fc2e1c5e135fb5a64e8ba1f91f362c766d784b748114d6  ./site-source/app/layout.tsx
-0f907ee7b45c28ea16dcc1a4c1d86d25d9eb82234f01df7e5214aa64f7b80e4b  ./site-source/app/page.tsx
+1730d3716c7440269ec653a8c2d6df67d924f7aa3cdc211a11325d84e62ebabd  ./site-source/app/page.tsx
 81b7cbfaeb970611572256aba0e313425beb3809f6426f63750696c15d9c756b  ./site-source/build/sites-vite-plugin.ts
 dc7610b00b918e0ffff1360a63626f16655ced3064b2eaf96095a4101fb14bcd  ./site-source/db/index.ts
 13ddacbf0be50e054d450a6c642b7fdc1aa943fd6b99084711e07e58b600390d  ./site-source/db/schema.ts
@@ -1596,7 +1596,10 @@ d051a8c47936990a9085693d307bb7cea1bc1b6d7ed956bcbaacf674f4ec96b9  ./site-source/
 9610a4bc808795cf1382a0a36e90af8776ca42b9fbbacf0396fcbb9e9900395f  ./site-source/public/og.png
 decf1cf7bb22b5c99c4857cfcd5718ce5465c4454166317589c83fc73df74b66  ./site-source/public/window.svg
 2ae5329ac860076070c9217a43106a15cb5ecf907a0f7baeb9ef903f76b53c68  ./site-source/scripts/build-verified.sh
+d5d5b79cfb29b4958e2f1fece97d09130998e5b2a3ccbca4033719073b5ede4d  ./site-source/scripts/dev.sh
 44e5af812fa771d8263a20d62cdbe0c621789ea9fc54c49de32cfe2e7bd594c9  ./site-source/scripts/import-anything.mjs
+5b78339c1357c3e3098a6b633f527574b0aafa8ab6c413f5d3562d55e49e400f  ./site-source/scripts/import-core.mjs
+d4bca05a26f14989a38ac9e1ed27ded0e91c0eff1ffc34fcf89c70808c39ab26  ./site-source/scripts/import-server.mjs
 f63e840679ca885f206d17b7f8285199bb6bcd47ebc360008d04d16b8e54f63c  ./site-source/scripts/install-ci.sh
 df86ebfc27d2f00860036658e933ac0ddd7b5f6879aa5d51218f0863c7e1fb60  ./site-source/scripts/sites-env.sh
 be18523b23b78b6e1a876ddd107d330f0168bddf09d751b57e0b5edce69c66f3  ./site-source/tsconfig.json

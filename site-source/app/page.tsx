@@ -4,7 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 
 type Span = { span_id: string; page: number; order: number; char_start: number; char_end: number; byte_start: number; byte_end: number; text: string };
 type Page = { page: number; char_start: number; char_end: number; byte_start: number; byte_end: number; text: string; spans: Span[] };
-type Referent = { id: string; display: string; mentions: number; frames: number; surfaces: string[] };
+type Referent = { id: string; display: string; mentions: number; frames: number; surfaces: string[]; selfIdentified?: boolean };
 type SourceLink = { href: string; text: string };
 type Witness = {
   schema: string; title: string; edition: string; stable_uri: string; origin_uri: string; media_type: string;
@@ -52,6 +52,85 @@ function sourceHref(witness: Witness, page: number) {
   return /^https?:/i.test(witness.stable_uri) ? `${witness.stable_uri}#page=${page}` : "";
 }
 
+// Spans carry exact byte/char offsets but the source's own paragraph and line
+// structure — meaningful in a transcript, where each turn is one speaker —
+// was previously discarded: every span rendered inline, joined by a plain
+// space, regardless of what actually separated them in the source. The gap
+// between one span's end and the next span's start (read straight out of the
+// page's own text) still carries that: two-or-more newlines is a paragraph
+// break, exactly one is a soft line break, anything else is the same run-on
+// sentence flow prose already wants. Nothing here is inferred — it's already
+// on the witness, just never read.
+type PageItem = { kind: "span"; span: Span } | { kind: "break" };
+type Turn = { items: PageItem[]; spans: Span[]; speakerLabel: string | null };
+
+const SPEAKER_LABEL = /^([A-Z][A-Za-z]{0,24}(?:\s[A-Z][A-Za-z]{0,24}){0,2}):\s+/;
+
+function pageTurns(page: Page): Turn[] {
+  const turns: Turn[] = [];
+  let items: PageItem[] = [];
+  let spans: Span[] = [];
+  let prevEnd = page.char_start;
+  const flush = () => {
+    if (!items.length) return;
+    const labelMatch = SPEAKER_LABEL.exec(spans[0]?.text || "");
+    turns.push({ items, spans, speakerLabel: labelMatch ? labelMatch[1] : null });
+    items = []; spans = [];
+  };
+  page.spans.forEach((span, index) => {
+    const gap = page.text.slice(prevEnd - page.char_start, span.char_start - page.char_start);
+    const newlines = (gap.match(/\n/g) || []).length;
+    if (index > 0) {
+      if (newlines >= 2) flush();
+      else if (newlines === 1) items.push({ kind: "break" });
+    }
+    items.push({ kind: "span", span });
+    spans.push(span);
+    prevEnd = span.char_end;
+  });
+  flush();
+  return turns;
+}
+
+// A transcript names its speakers ("Speaker A:", "JOHN SMITH:") but that
+// label is frequently a diarization channel, not a stable per-person
+// identity — this exact transcript has multiple different real people
+// speaking as "Speaker A" at different points, and sometimes multiple
+// people's turns compressed into a single "Speaker B:" block by the
+// transcription tool itself (one real block here opens "I'm Aubrey Hardy...",
+// closes "I'm Carolina..." — two different people, one label). So
+// self-identification is resolved per SPAN, not per turn or per label: each
+// span is checked on its own, and only updates who subsequent spans resolve
+// to once a new self-ID actually appears, so a second self-ID mid-turn
+// correctly hands off attribution instead of the first one bleeding forward.
+// Two patterns, both grammatically unambiguous as first-person self-reference
+// (no guessing from a bare name appearing near a pronoun, which this
+// transcript also shows is not safe — "Chloe, OHS." and "Grant Winter." are
+// both the meeting chair naming someone ELSE, not that person speaking).
+const SELF_ID_PATTERNS = [
+  /\b[Mm]y name is\s+([A-Z][a-zA-Z'-]+(?:\s+[A-Z][a-zA-Z'-]+){0,2})/,
+  /\bI(?:'m| am)\s+([A-Z][a-zA-Z'-]+(?:\s+[A-Z][a-zA-Z'-]+){0,2})(?=[.,]|\s+(?:with|from)\b|$)/,
+];
+const FIRST_PERSON_SPLIT = /\b(I'm|I'd|I've|I'll|I|my|My|me|Me)\b/g;
+const FIRST_PERSON_TEST = /^(?:I'm|I'd|I've|I'll|I|my|My|me|Me)$/;
+
+function looksLikeName(candidate: string) {
+  const words = candidate.trim().split(/\s+/);
+  if (!words.length || words.length > 3) return false;
+  return words.every((word) => {
+    const letters = word.replace(/[^a-zA-Z]/g, "");
+    return letters.length >= 2 && letters !== letters.toUpperCase();
+  });
+}
+
+function detectSelfIdentification(turnText: string) {
+  for (const pattern of SELF_ID_PATTERNS) {
+    const match = pattern.exec(turnText);
+    if (match && looksLikeName(match[1])) return match[1].trim();
+  }
+  return null;
+}
+
 export default function Commoncite() {
   const [witness, setWitness] = useState<Witness | null>(null);
   const [error, setError] = useState("");
@@ -70,7 +149,71 @@ export default function Commoncite() {
     fetch("/data/active-witness.json").then((response) => response.ok ? response.json() : null).then((payload) => { if (payload) setWitness(payload as Witness); }).catch(() => {});
   }, []);
 
-  const concepts = useMemo(() => witness ? witness.grammar.referents.filter(conceptGate).map((referent) => ({ ...referent, surfaces: [...new Set([referent.display, ...referent.surfaces])] })).sort((a, b) => b.mentions - a.mentions) : [], [witness]);
+  // Derived, never written back to the witness (the projection never changes
+  // the witness — docs/IMPORTING.md's own rule). Walks each turn's spans in
+  // order, tracking who's currently resolved; a self-ID in a span updates
+  // that going forward within the SAME turn, so a second self-ID mid-turn
+  // correctly takes over rather than the first one bleeding across it.
+  // Either merges into an existing engine-discovered referent (by substring
+  // overlap, e.g. "Sean" <-> "Sean Reed") or creates a new one, and counts
+  // each resolved span's own first-person words as real, evidenced mentions
+  // of that person — never a different span's.
+  const speechAttribution = useMemo(() => {
+    const spanSpeaker = new Map<string, { name: string; referentId: string }>();
+    const built = new Map<string, Referent>();
+    if (!witness) return { spanSpeaker, extraReferents: [] as Referent[] };
+    const existingBySurface = (name: string) => witness.grammar.referents.find((r) =>
+      r.display.toLowerCase().includes(name.toLowerCase()) || name.toLowerCase().includes(r.display.toLowerCase()));
+
+    for (const page of witness.pages) {
+      for (const turn of pageTurns(page)) {
+        let current: { name: string; referentId: string } | null = null;
+        for (const span of turn.spans) {
+          const selfId = detectSelfIdentification(span.text);
+          if (selfId) {
+            const existing = existingBySurface(selfId);
+            const referentId = existing ? existing.id : `ref:self-id:${selfId.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`;
+            const display = existing && existing.display.length >= selfId.length ? existing.display : selfId;
+            if (!built.has(referentId)) {
+              built.set(referentId, {
+                id: referentId, display, mentions: existing?.mentions ?? 0, frames: existing?.frames ?? 0,
+                surfaces: [...new Set([...(existing?.surfaces ?? []), selfId])], selfIdentified: true,
+              });
+            }
+            current = { name: display, referentId };
+          }
+          if (!current) continue;
+          const pronounHits = (span.text.match(FIRST_PERSON_SPLIT) || []).length;
+          if (!pronounHits) continue; // no first-person word in this span: nothing to link, nothing evidenced to count
+          const record = built.get(current.referentId)!;
+          record.mentions += pronounHits;
+          record.frames += 1;
+          spanSpeaker.set(span.span_id, current);
+        }
+      }
+    }
+    return { spanSpeaker, extraReferents: [...built.values()] };
+  }, [witness]);
+
+  // Frequency (mentions >= 6, frames >= 5, ...) is the ONLY evidence conceptGate
+  // knows how to weigh — the right bar for a novel's or report's recurring
+  // subject, but it means someone mentioned once systematically loses, no
+  // matter how they were mentioned. A person explicitly self-identifying
+  // ("My name is X") is different-in-kind evidence, not weaker evidence at a
+  // smaller sample size — it isn't inferred from a pattern, it's a direct
+  // first-person assertion — so speechAttribution's referents bypass the gate
+  // entirely rather than trying to force them through it. conceptGate's other
+  // checks (noise patterns, length) still don't apply here since these are
+  // never noise; the frequency floor is specifically what self-ID evidence
+  // doesn't need to clear.
+  const concepts = useMemo(() => {
+    if (!witness) return [];
+    const gated = witness.grammar.referents.filter(conceptGate);
+    const selfIds = speechAttribution.extraReferents.filter((r) => !gated.some((g) => g.id === r.id));
+    return [...gated, ...selfIds]
+      .map((referent) => ({ ...referent, surfaces: [...new Set([referent.display, ...referent.surfaces])] }))
+      .sort((a, b) => b.mentions - a.mentions);
+  }, [witness, speechAttribution]);
   const conceptMap = useMemo(() => {
     const map = new Map<string, Concept>();
     for (const concept of concepts) for (const surface of concept.surfaces) if (surface.length >= 3 && !map.has(surface.toLowerCase())) map.set(surface.toLowerCase(), concept);
@@ -141,18 +284,58 @@ export default function Commoncite() {
     });
   }
 
+  // Within a turn that self-identified, its own first-person words ("I",
+  // "I'm", "my"...) are now resolved evidence, not noise to strip — link
+  // them to that turn's own resolved speaker. Only runs on plain-text
+  // leftovers from the two passes above, and only for spans inside a turn
+  // that actually carried a self-identification (speaker is undefined
+  // everywhere else, so this is a no-op there).
+  function renderSpeakerSegment(text: string, key: string, speaker?: { name: string; referentId: string }) {
+    if (!speaker) return [text];
+    return text.split(FIRST_PERSON_SPLIT).map((part, index) =>
+      FIRST_PERSON_TEST.test(part)
+        ? <button className="concept-link speaker-link" key={`${key}-p${index}`} title={`Resolved from this turn's own self-identification: "${speaker.name}"`} onClick={() => { setSelectedConcept(speaker.referentId); setView("Concepts"); window.scrollTo({ top: 0, behavior: "smooth" }); }}>{part}</button>
+        : part
+    );
+  }
+
   // Original-source hyperlinks are matched first and rendered as real, external
   // links — never suppressed by the reader-link toggle, since they aren't ours.
   // Only the leftover plain-text segments get a chance at a reader concept-link,
   // so a term that's already the source's own citation keeps that citation's
-  // precedence at that exact occurrence.
-  function linkText(text: string, key: string) {
-    if (!sourceLinkMap.regex) return renderConceptSegment(text, key);
-    return text.split(sourceLinkMap.regex).flatMap((part, index) => {
+  // precedence at that exact occurrence. Speaker-pronoun linking runs last, on
+  // whatever plain text neither pass claimed.
+  function linkText(text: string, key: string, speaker?: { name: string; referentId: string }) {
+    const afterSource = !sourceLinkMap.regex ? renderConceptSegment(text, key) : text.split(sourceLinkMap.regex).flatMap((part, index) => {
       const link = sourceLinkMap.map.get(part.toLowerCase());
       if (!link) return renderConceptSegment(part, `${key}-${index}`);
       return [<a className="source-link" key={`${key}-s${index}`} href={link.href} target="_blank" rel="noreferrer">{part}<span className="source-link-icon" aria-hidden="true">↗</span></a>];
     });
+    if (!speaker) return afterSource;
+    return afterSource.flatMap((part, index) => typeof part === "string" ? renderSpeakerSegment(part, `${key}-sp${index}`, speaker) : [part]);
+  }
+
+  // One turn = one paragraph block, matching however the source itself broke
+  // it (a speaker turn, a stanza, an ordinary prose paragraph — pageTurns()
+  // doesn't know which, it just reads the gap). A leading "Speaker A:" label
+  // is pulled out of the first span's own displayed text into a bold lead-in
+  // — span.text itself, and its span_id hash, are untouched; this only
+  // changes what's shown.
+  function renderTurn(turn: Turn, turnKey: string) {
+    const resolved = turn.spans[0] ? speechAttribution.spanSpeaker.get(turn.spans[0].span_id) : undefined;
+    let firstSpanSeen = false;
+    return <p className="turn" key={turnKey}>
+      {turn.speakerLabel && <b className="speaker-label">{turn.speakerLabel}{resolved && resolved.name !== turn.speakerLabel ? ` (${resolved.name})` : ""}: </b>}
+      {turn.items.map((item, index) => {
+        if (item.kind === "break") return <br key={`${turnKey}-br${index}`} />;
+        const span = item.span;
+        const speaker = speechAttribution.spanSpeaker.get(span.span_id);
+        const isFirst = !firstSpanSeen;
+        firstSpanSeen = true;
+        const shown = turn.speakerLabel && isFirst ? normalize(span.text).slice(turn.speakerLabel.length + 1).trim() : normalize(span.text);
+        return <span className="sentence" id={spanDomId(span.span_id)} key={span.span_id}>{linkText(shown, span.span_id, speaker)} <a className="cite" href={`#${spanDomId(span.span_id)}`} title={`Bytes ${span.byte_start}–${span.byte_end}`}>¶</a>{" "}</span>;
+      })}
+    </p>;
   }
 
   function openSpan(span: Span) {
@@ -222,7 +405,7 @@ export default function Commoncite() {
               </div>}
             </div>
           </div>
-          <div className="pages">{visiblePages.map((page) => <section className="page" id={`page-${page.page}`} key={page.page}><header><span>Page / unit {page.page}</span>{sourceHref(witness, page.page) && <a href={sourceHref(witness, page.page)} target="_blank" rel="noreferrer">Original ↗</a>}</header>{page.spans.length ? page.spans.map((span) => <span className="sentence" id={spanDomId(span.span_id)} key={span.span_id}>{linkText(normalize(span.text), span.span_id)} <a className="cite" href={`#${spanDomId(span.span_id)}`} title={`Bytes ${span.byte_start}–${span.byte_end}`}>¶</a>{" "}</span>) : <p className="empty">No semantic text was recovered for this unit.</p>}</section>)}</div>
+          <div className="pages">{visiblePages.map((page) => <section className="page" id={`page-${page.page}`} key={page.page}><header><span>Page / unit {page.page}</span>{sourceHref(witness, page.page) && <a href={sourceHref(witness, page.page)} target="_blank" rel="noreferrer">Original ↗</a>}</header>{page.spans.length ? pageTurns(page).map((turn, index) => renderTurn(turn, `turn-${page.page}-${index}`)) : <p className="empty">No semantic text was recovered for this unit.</p>}</section>)}</div>
         </article>}
 
         {view === "Concepts" && <article className="concept-view">{concept ? <ConceptPage witness={witness} concept={concept} concepts={concepts} onConcept={setSelectedConcept} onOpenSpan={openSpan} /> : <div className="empty-panel"><h2>No concept page passed the gate</h2><p>The witness remains readable and citable. The portal does not manufacture concepts to fill the space.</p></div>}</article>}
