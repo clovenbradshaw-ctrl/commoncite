@@ -69,13 +69,27 @@ export function paginate(value, target = 60000) {
 
 function extractText({ filePath, bytes, mediaType, extension, temporaryRoot }) {
   if (mediaType === "application/pdf" || extension === ".pdf") {
+    // Plain reading order, not -layout. -layout reconstructs a visual X/Y
+    // grid, which is right for genuinely tabular PDFs but actively wrong for
+    // the letterhead-sidebar shape common in real government correspondence:
+    // a column of names (recipients, commissioners) running parallel to the
+    // letter body gets physically interleaved into the SAME output line as
+    // whatever body text shares its vertical position, word-salading two
+    // unrelated text streams together. Plain mode reads the PDF's own
+    // internal content-stream order instead, which keeps each text object
+    // (sidebar, body) intact and sequential. Verified on a real MHRC
+    // determination letter: identical word count either way (no data lost),
+    // but -layout produced "Dakota Galban Cara Ince First, we acknowledge
+    // and appreciate..." — a commissioner's name fused into the body
+    // paragraph's own opening sentence — while plain mode kept the roster
+    // and the letter as two clean, separately-readable blocks.
     const textPath = path.join(temporaryRoot, "document.txt");
     try {
-      execFileSync("pdftotext", ["-layout", filePath, textPath], { stdio: "pipe" });
+      execFileSync("pdftotext", [filePath, textPath], { stdio: "pipe" });
     } catch (error) {
       throw new Error(`pdftotext failed or is not installed. PDF import needs the poppler-utils "pdftotext" command on this machine. (${error instanceof Error ? error.message : error})`);
     }
-    return { text: fs.readFileSync(textPath, "utf8"), adapter: "pdftotext -layout", role: "deterministic PDF text and page-boundary recovery" };
+    return { text: fs.readFileSync(textPath, "utf8"), adapter: "pdftotext", role: "deterministic PDF text and page-boundary recovery, in the PDF's own content-stream reading order (not visual-grid layout, which can interleave columns that share a vertical position)" };
   }
   if (extension === ".docx") {
     let xml;

@@ -21,7 +21,7 @@ The importer uses the bundled `eoreader7/` directory by default. Set `EOREADER_R
 
 | Input | Adapter | Preserved structure |
 | --- | --- | --- |
-| PDF | `pdftotext -layout` | Page boundaries and recovered layout text |
+| PDF | `pdftotext` (content-stream order, not `-layout`) | Page boundaries and recovered text — see below for why `-layout` isn't used |
 | DOCX | OOXML extraction | Paragraph and text boundaries |
 | HTML / XML | Markup stripping | Visible text; original markup bytes retained |
 | JSON | Parsed and pretty-serialized JSON | Object/array structure in the recovered text |
@@ -31,6 +31,12 @@ The importer uses the bundled `eoreader7/` directory by default. Set `EOREADER_R
 | Unknown binary | Binary witness | Hash, bytes, media type, and explicit extraction gap |
 
 Adapters are replaceable. A new adapter must return recovered text, an adapter name, and a precise statement of what it did. It must never silently infer missing content.
+
+### Why the PDF adapter doesn't use `-layout`
+
+`pdftotext -layout` reconstructs a visual X/Y grid — the right choice for a genuinely tabular PDF, but actively wrong for the letterhead-sidebar shape common in real government correspondence: a column of names (recipients, commissioners, a CC list) running down the margin, parallel to the letter body. `-layout` reads left-to-right per vertical band, so a sidebar name and a body-text line that happen to share a Y-position get fused into one output line — two unrelated text streams interleaved into something that reads like a real, garbled sentence. Plain `pdftotext` reads the PDF's own internal content-stream order instead, which keeps each text object (sidebar, body) intact and sequential.
+
+Verified on a real determination letter: identical word count either way — nothing is lost by dropping `-layout` — but `-layout` produced a commissioner's name fused directly into the body paragraph's own opening sentence, while plain mode kept the roster and the letter as two clean, separately-readable blocks.
 
 ## Processing sequence
 
