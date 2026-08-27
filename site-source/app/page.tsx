@@ -20,6 +20,18 @@ type Witness = {
 type Concept = { id: string; display: string; mentions: number; frames: number; surfaces: string[] };
 
 const normalize = (value: string) => value.replace(/\s+/g, " ").trim();
+// The exact fold eoreader7's own perceiver/text/surfaces.js::diaNorm uses
+// (READING-POLICY.md P7.1: "the same one, by import, never by local
+// reimplementation" — copied verbatim since browser code can't import from
+// the Node-only vendored engine, not reinvented). Missing this is a real,
+// named failure class there (A21/A22): a consumer's own name check
+// disagreeing with the engine's fold reads as the material lacking someone
+// it actually contains ("Natásha" found, "Natasha" not). Used below so a
+// self-identified name matches an engine-discovered referent regardless of
+// which of the two accents either one happens to use.
+const DIA_RE = /[áàâäéèêëíìîïóòôöúùûü]/g;
+const DIA_TO: Record<string, string> = { á: "a", à: "a", â: "a", ä: "a", é: "e", è: "e", ê: "e", ë: "e", í: "i", ì: "i", î: "i", ï: "i", ó: "o", ò: "o", ô: "o", ö: "o", ú: "u", ù: "u", û: "u", ü: "u" };
+const diaNorm = (value: string) => String(value ?? "").toLowerCase().trim().replace(DIA_RE, (c) => DIA_TO[c]);
 const spanDomId = (spanId: string) => spanId.replace(/[^a-zA-Z0-9_-]/g, "-");
 const words = (value: string) => value.toLowerCase().match(/[a-z0-9]+/g) || [];
 const generic = new Set(["action", "actions", "key", "findings", "strategy", "strategies", "unified", "division", "department", "public", "program", "programs", "policy", "report", "figure", "table", "source", "services", "development", "community", "fund", "funding", "tools", "analysis", "residents", "households", "people"]);
@@ -163,7 +175,7 @@ export default function Commoncite() {
     const built = new Map<string, Referent>();
     if (!witness) return { spanSpeaker, extraReferents: [] as Referent[] };
     const existingBySurface = (name: string) => witness.grammar.referents.find((r) =>
-      r.display.toLowerCase().includes(name.toLowerCase()) || name.toLowerCase().includes(r.display.toLowerCase()));
+      diaNorm(r.display).includes(diaNorm(name)) || diaNorm(name).includes(diaNorm(r.display)));
 
     for (const page of witness.pages) {
       for (const turn of pageTurns(page)) {
